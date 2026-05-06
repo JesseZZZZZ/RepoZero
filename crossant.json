@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "@language": "en",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/rai/"
+  },
+  "@type": "Dataset",
+  "name": "RepoZero",
+  "url": "",
+  "license": "https://spdx.org/licenses/CC0-1.0",
+  "conformsTo": "http://mlcommons.org/croissant/1.1",
+
+  "distribution": [
+    {
+      "@type": "FileObject",
+      "@id": "file_1",
+      "name": "gold_test_files",
+      "contentUrl": "",
+      "encodingFormat": "application/jsonl",
+      "sha256": "886660dbb15cd5436fafe4ca2886596aff7fbc387ac0871a7f76f994b0fae11e"
+    }
+  ],
+
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "record_set_1",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "field_1",
+          "dataType": "Text",
+          "source": {
+            "fileObject": "file_1",
+            "extract": {
+              "column": "category"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "field_2",
+          "dataType": "Text",
+          "source": {
+            "fileObject": "file_1",
+            "extract": {
+              "column": "filename"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "field_3",
+          "dataType": "Text",
+          "source": {
+            "fileObject": "file_1",
+            "extract": {
+              "column": "path"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "field_4",
+          "dataType": "Text",
+          "source": {
+            "fileObject": "file_1",
+            "extract": {
+              "column": "library"
+            }
+          }
+        }
+      ]
+    }
+  ],
+
+  "rai:dataLimitations": "RepoZero covers two code translation categories (C2Rust and Py2JS) and may not generalize to other programming languages or translation paradigms.",
+  "rai:dataBiases": "The benchmark focuses on specific open-source libraries; performance may vary on code from different domains or coding styles not represented in the selected repositories.",
+  "rai:personalSensitiveInformation": "No personal or sensitive information is included. All data is derived from open-source code repositories.",
+  "rai:dataUseCases": "Intended for benchmarking and evaluating code translation capabilities of large language models, specifically C++ to Rust and Python to JavaScript translation tasks.",
+  "rai:dataSocialImpact": "RepoZero supports research in automated code migration, which can reduce manual effort in modernizing legacy codebases and improving software security.",
+  "rai:hasSyntheticData": true
+}
