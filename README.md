@@ -16,7 +16,7 @@ Total benchmark: **600 test files** across **35 open-source libraries**.
 ```bash
 git clone https://github.com/JesseZZZZZ/RepoZero.git
 ```
-‼️Mannualy Download the raw data via [this link](https://disk.pku.edu.cn/link/AA0A7B7864999C4F84A0FCDF1C2C0A57BF")
+‼️Mannualy Download the raw data via [this link](https://disk.pku.edu.cn/link/AA0A7B7864999C4F84A0FCDF1C2C0A57BF)
 Place it under the root of the codebase, the final codebase should be like this: ⬇️
 ## Repository Structure
 
