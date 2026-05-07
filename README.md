@@ -1,5 +1,7 @@
 # RepoZero
 
+‼️Docker implementation will be released soon, this is a simplified implementation that runs locally.
+
 **RepoZero** is a benchmark dataset and evaluation suite for assessing the ability of large language models to perform *zero-shot repository-level code translation* — migrating entire real-world library codebases across programming language ecosystems.
 
 RepoZero covers two translation tasks:
