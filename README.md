@@ -2,6 +2,8 @@
 
 ‼️Docker implementation will be released soon, this is a simplified implementation that runs locally.
 
+**❗️Update 20260508** If you want to use this repository to simulated the performance of docker, you can set up an account that has limited access to the file system (read-only for test files, and invisible for test cases)
+
 **RepoZero** is a benchmark dataset and evaluation suite for assessing the ability of large language models to perform *zero-shot repository-level code translation* — migrating entire real-world library codebases across programming language ecosystems.
 
 RepoZero covers two translation tasks:
