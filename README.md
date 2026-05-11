@@ -26,7 +26,6 @@ Place it under the root of the codebase, the final codebase should be like this:
 
 ```
 RepoZero/
-├── gold_test_files.jsonl          # Master index of all 600 benchmark test files
 ├── crossant.json                  # Croissant metadata descriptor (MLCommons)
 │
 ├── C2Rust/
@@ -105,13 +104,12 @@ Translate Python library implementations into Node.js ES Module (`.mjs`) equival
 
 ## Evaluation Metrics
 
-All evaluation scripts report three metrics:
+All evaluation scripts report two metrics:
 
 | Metric | Description |
 |--------|-------------|
 | **All-Pass Rate** | Fraction of source files where *all* test cases pass |
 | **Test-Case Pass Rate** | Mean per-file fraction of passing test cases |
-| **API Coverage** | Mean fraction of output lines that match between source and translated code |
 
 ---
 
