@@ -1,8 +1,6 @@
 # RepoZero
 
-‼️Docker implementation will be released soon, this is a simplified implementation that runs locally.
-
-**❗️Update 20260508** If you want to use this repository to simulate the performance of docker, you can set up an account that has limited access to the file system (read-only for the source repository, and invisible for test cases)
+**🐳 Docker implementation now available!** See [Py2JS Docker](#py2js-docker-implementation) section below for the latest Docker-based evaluation.
 
 **RepoZero** is a benchmark dataset and evaluation suite for assessing the ability of large language models to perform *zero-shot repository-level code translation* — migrating entire real-world library codebases across programming language ecosystems.
 
@@ -16,16 +14,38 @@ RepoZero covers two translation tasks:
 Total benchmark: **600 test files** across **35 open-source libraries**.
 
 ---
-## Clone the Codebase and download the raw data
+
+## Quick Start: Py2JS Docker Implementation
+
+The Docker implementation provides an isolated, reproducible environment for running Py2JS evaluations with pre-built Docker images containing Python test executables.
+
+### Prerequisites
+
+```bash
+# Docker (latest)
+docker --version
+
+# Python 3.9+
+python --version
+
+# OpenAI-compatible API credentials
+export BASE_URL="https://openrouter.ai/api/v1/"
+export API_KEY="your-api-key-here"
+```
+
+### Installation
+
 ```bash
 git clone https://github.com/JesseZZZZZ/RepoZero.git
+cd RepoZero
+# this step can be skipped, because RepoZero requires limited number of packages, you can directly install them using the base environment
+conda create -n repozero python==3.10
+# only these packages are required
+pip install openai requests anthropic
 ```
-‼️Mannualy Download the raw data via [this link](https://disk.pku.edu.cn/link/AA0A7B7864999C4F84A0FCDF1C2C0A57BF)
-Place it under the root of the codebase, the final codebase should be like this: ⬇️
 ## Repository Structure
-
+❗️Please mannually download [the dataset](https://disk.pku.edu.cn/link/AA0A7B7864999C4F84A0FCDF1C2C0A57BF) and place it at the root dir, the final directory should be like this⬇️
 ```
-RepoZero/
 ├── crossant.json                  # Croissant metadata descriptor (MLCommons)
 │
 ├── C2Rust/
@@ -50,31 +70,56 @@ RepoZero/
 │   │   ├── fractions/  furl/  idna/  jose/  jsonschema/  markdown/
 │   │   ├── moneyed/  mpmath/  networkx/  pbkdf2/  pyaes/  rsa/
 │   │   ├── rlp/  schedule/  sqlparse/  whoosh/  yaml/
-│   │   └── difficulty.json        # Per-file difficulty classification (EASY/MEDIUM/HARD)
-│   └── testcases_60/              # Test case parameter JSONL files (28 libraries)
+│   │   └── testcases_60/              # Test case parameter JSONL files (28 libraries)
 │
 ├── evaluate/
-│   ├── eval_c2rust.py             # Evaluate C2Rust (terminal-agent output)
-│   ├── eval_c2rust_mini.py        # Evaluate C2Rust (mini-swe-agent output)
-│   ├── eval_py2js.py              # Evaluate Py2JS (terminal-agent output)
-│   └── eval_py2js_mini.py        # Evaluate Py2JS (mini-swe-agent output)
-│
 ├── run_c2rust/
-│   ├── run_all_openai.py          # Run C2Rust with OpenAI-compatible API (terminal agent)
-│   ├── run_all_anthropic.py       # Run C2Rust with Anthropic API (terminal agent)
-│   ├── run_mini_swe_agent_anthropic.py  # Run C2Rust via mini-swe-agent
-│   ├── run_terminal_agent_4_openai.py   # Terminal agent core (OpenAI)
-│   └── run_terminal_agent_4_anthropic.py # Terminal agent core (Anthropic)
-│
-└── run_py2js/
-    ├── run_all_openai.py          # Run Py2JS with OpenAI-compatible API (terminal agent)
-    ├── run_all_anthropic.py       # Run Py2JS with Anthropic API (terminal agent)
-    ├── run_all_loop_openai.py     # Run Py2JS with iterative self-repair loop (OpenAI)
-    ├── run_all_loop_mini_openai.py # Run Py2JS loop via mini-swe-agent (OpenAI)
-    ├── run_mini_swe_agent_anthropic.py  # Run Py2JS via mini-swe-agent (Anthropic)
-    ├── run_terminal_agent_openai.py     # Terminal agent core (OpenAI)
-    └── run_terminal_agent_anthropic.py  # Terminal agent core (Anthropic)
+├── run_py2js/                    # Local Py2JS (non-Docker) implementation
+└── run_py2js_docker/            # 🐳 Docker-based Py2JS implementation
+    ├── run_all_docker.py         # Main Docker evaluation script
+    ├── run_terminal_agent.py    # Docker terminal agent core
+    └── README.md                # Docker documentation
 ```
+
+---
+
+### Running Docker Evaluation
+
+```bash
+cd run_py2js_docker
+
+# Run with default settings (4 concurrent processes, deepseek-v3.2 model)
+python run_all_docker.py
+
+# Custom number of processes
+python run_all_docker.py -k 8
+
+# Custom model
+python run_all_docker.py -m deepseek-v3.1-250821
+
+# Custom Docker image (if you've built your own)
+export REPOZERO_DOCKER_IMAGE="my-custom-image:latest"
+python run_all_docker.py
+```
+
+### Docker Implementation Details
+
+The Docker implementation uses:
+
+- **Image**: `ghcr.io/jessezzzzz/repoarena-new:latest` (pre-built with Python test executables)
+- **Isolation**: Network-disabled containers (`--network none`) for security
+- **File Handling**: Source files and pre-compiled executables are copied into containers
+- **Output**: Generated JavaScript files are copied back to host after processing
+
+### Docker Environment
+
+Each task runs in an isolated container with:
+
+- **Workspace**: `/workspace`
+- **Dataset**: `/workspace/dataset` (source files + executables)
+- **Output**: `/output` (generated JavaScript files)
+- **Node.js**: Available for running generated code
+
 
 ---
 
@@ -98,7 +143,12 @@ Translate Python library implementations into Node.js ES Module (`.mjs`) equival
 
 **Libraries (24):** base58, bech32, bencoder, bidict, bitarray, bitstring, boltons, canonicaljson, construct, deepdiff, ecdsa, fractions, furl, idna, jose, jsonschema, markdown, moneyed, mpmath, networkx, pbkdf2, pyaes, rsa, schedule, sqlparse, whoosh, yaml
 
-**Difficulty tiers:** Each Py2JS test file is classified as EASY (148), MEDIUM (149), or HARD (149) based on translation complexity.
+**Category Groups:**
+- **Serialization & Data Formats**: bencoder, canonicaljson, jsonschema, markdown, sqlparse, yaml
+- **Cryptography & Encoding**: base58, bech32, jose, pyaes, pbkdf2, rsa
+- **Data Structures & Utilities**: bidict, boltons, construct, deepdiff, furl
+- **Math & Science**: fractions, mpmath, networkx
+- **Specialized Tools**: idna, moneyed, schedule, whoosh
 
 ---
 
@@ -124,8 +174,8 @@ pip install anthropic openai
 # Node.js 18+ (for Py2JS evaluation)
 node --version
 
-# Optional: mini-swe-agent (for mini harness scripts)
-pip install mini-swe-agent
+# Optional: numpy for bootstrap CI (required by calculate_all_pass.py)
+pip install numpy
 ```
 
 ### Environment Variables
@@ -134,11 +184,12 @@ pip install mini-swe-agent
 |----------|-------------|---------|
 | `ANTHROPIC_API_KEY` | Anthropic API key | — |
 | `ANTHROPIC_BASE_URL` | Custom Anthropic API endpoint | Anthropic default |
-| `QIANFAN_API_URL` | OpenAI-compatible API base URL | `https://qianfan.baidubce.com/v2` |
-| `QIANFAN_API_KEY` | API key for OpenAI-compatible endpoint | — |
+| `BASE_URL` | OpenAI-compatible API base URL | `https://openrouter.ai/api/v1` |
+| `API_KEY` | API key for OpenAI-compatible endpoint | — |
+| `MODEL_NAME` | Model name to use | `deepseek-v3.2` |
 | `PYTHON_BIN` | Python interpreter for evaluation | `python3` |
 | `NODE_BIN` | Node.js interpreter for evaluation | `node` |
-| `MINI_SWE_AGENT_BIN` | mini-swe-agent binary path | `mini` |
+| `REPOZERO_DOCKER_IMAGE` | Docker image to use | `ghcr.io/jessezzzzz/repoarena-new:latest` |
 
 ### Run C2Rust
 
@@ -154,7 +205,7 @@ python run_all_anthropic.py
 python run_mini_swe_agent_anthropic.py
 ```
 
-### Run Py2JS
+### Run Py2JS (Local)
 
 ```bash
 # Terminal agent — OpenAI-compatible API
@@ -171,6 +222,25 @@ python run_all_loop_openai.py
 python run_all_loop_mini_openai.py
 ```
 
+### Run Py2JS (Docker)
+
+```bash
+cd run_py2js_docker
+
+# Run with default settings
+python run_all_docker.py
+
+# Custom number of processes
+python run_all_docker.py -k 8
+
+# Custom model
+python run_all_docker.py -m deepseek-v3.1-250821
+
+# Custom Docker image (if you've built your own)
+export REPOZERO_DOCKER_IMAGE="my-custom-image:latest"
+python run_all_docker.py
+```
+
 To override the model name, edit the `model_name` variable at the top of the relevant script, or (for scripts that support it) pass `-m <model>` on the command line.
 
 ### Evaluate Results
@@ -181,6 +251,12 @@ python evaluate/eval_py2js.py -m <model_name>
 
 # Evaluate Py2JS mini-swe-agent / loop output
 python evaluate/eval_py2js_mini.py -m <model_name>
+
+# Evaluate Py2JS Docker output
+python evaluate/eval_py2js_docker.py -m <model_name>
+
+# Calculate detailed statistics (with Bootstrap CI)
+python evaluate/calculate_all_pass.py -m <model_name>
 
 # Evaluate C2Rust terminal-agent output
 python evaluate/eval_c2rust.py -m <model_name>
@@ -200,6 +276,30 @@ Optional flags (all eval scripts):
 
 Results are written to `evaluate/results/<model_name>/` as JSON files with per-file pass rates.
 
+### Calculate Detailed Statistics
+
+```bash
+# Calculate statistics for a specific model
+python evaluate/calculate_all_pass.py -m deepseek-v3.2
+
+# Calculate with custom results directory
+python evaluate/calculate_all_pass.py --results-dir ./Py2JS/output/results/deepseek-v3.2_docker
+
+# Use fewer bootstrap samples for faster calculation
+python evaluate/calculate_all_pass.py -n-bootstrap 100
+```
+
+This script provides:
+- **Per-class statistics**: Pass rates for each test class (library)
+- **Category-level breakdown**: Statistics grouped by library categories
+  - Serialization & Data Formats
+  - Cryptography & Encoding
+  - Data Structures & Utilities
+  - Math & Science
+  - Specialized Tools
+- **Micro/Macro rates**: Both all-pass and test-case-pass rates
+- **Bootstrap Confidence Intervals**: 95% CI for both metrics
+
 ---
 
 ## Output Directory Layout
@@ -212,6 +312,7 @@ Run scripts write translated files to the following locations:
 | mini-swe-agent (Py2JS) | `Py2JS/output_mini/<model_name>/testfiles/` |
 | Loop — terminal agent | `Py2JS/output_loop/<model_name>_retry<N>/testfiles/` |
 | Loop — mini-swe-agent | `Py2JS/output_loop_mini/<model_name>_retry<N>/testfiles/` |
+| Docker (Py2JS) | `Py2JS/output/<model_name>/packages/` |
 | Terminal agent (C2Rust) | `C2Rust/output/<model_name>/testfiles/` |
 | mini-swe-agent (C2Rust) | `C2Rust/output_mini/<model_name>/testfiles/` |
 
