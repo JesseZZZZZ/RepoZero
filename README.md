@@ -1,24 +1,25 @@
 # RepoZero
 
-**🐳 Docker implementation now available!** See [Py2JS Docker](#py2js-docker-implementation) section below for the latest Docker-based evaluation.
+## 🎉 News
 
-**RepoZero** is a benchmark dataset and evaluation suite for assessing the ability of large language models to perform *zero-shot repository-level code translation* — migrating entire real-world library codebases across programming language ecosystems.
+**Docker implementation now available for all benchmark tasks!**
 
-RepoZero covers two translation tasks:
-
-| Task | Source | Target | Libraries | Test Files |
-|------|--------|--------|-----------|------------|
-| **C2Rust** | C++ | Rust | 11 | 200 |
-| **Py2JS** | Python | JavaScript (Node.js ESM) | 24 | 400 |
-
-Total benchmark: **600 test files** across **35 open-source libraries**.
+- 🐳 **C2Rust Docker**: Complete Docker-based evaluation for C++ to Rust translation
+- 🐳 **Py2JS Docker**: Complete Docker-based evaluation for Python to JavaScript translation
+- ✅ **Reproducible**: Isolated, containerized environments for consistent results
+- ✅ **Easy setup**: Pre-built Docker images with all dependencies
 
 ---
 
-## Quick Start: Py2JS Docker Implementation
+## Quick Start
+### Installation
 
-The Docker implementation provides an isolated, reproducible environment for running Py2JS evaluations with pre-built Docker images containing Python test executables.
-
+```bash
+git clone https://github.com/JesseZZZZZ/RepoZero.git
+cd RepoZero
+pip install anthropic openai requests
+```
+Please mannually download the [RepoZero-Py2JS](https://drive.google.com/file/d/1j90jH-YSu3J8IqsW7v79P95W4SgPoGrU/view?usp=drive_link) and [RepoZero-C2Rust](https://drive.google.com/file/d/1peaiK60vnQ2DLeDNQrzYoy0GYvcyjSlq/view?usp=drive_link) and place it under ```./RepoZero/repozero_py2js.zip``` and ```./RepoZero/repozero_c2rust.zip```
 ### Prerequisites
 
 ```bash
@@ -31,24 +32,26 @@ python --version
 # OpenAI-compatible API credentials
 export BASE_URL="https://openrouter.ai/api/v1/"
 export API_KEY="your-api-key-here"
+
+# Unzip RepoZero files
+unzip repozero_py2js.zip
+unzip repozero_c2rust.zip
 ```
 
-### Installation
+### Expected Directory Structure
 
-```bash
-git clone https://github.com/JesseZZZZZ/RepoZero.git
-cd RepoZero
-# this step can be skipped, because RepoZero requires limited number of packages, you can directly install them using the base environment
-conda create -n repozero python==3.10
-# only these packages are required
-pip install openai requests anthropic
+After downloading and extracting, your RepoZero directory should look like this:
+
 ```
-## Repository Structure
-❗️Please mannually download [the dataset](https://disk.pku.edu.cn/link/AA0A7B7864999C4F84A0FCDF1C2C0A57BF) and place it at the root dir, the final directory should be like this⬇️
-```
-├── crossant.json                  # Croissant metadata descriptor (MLCommons)
+RepoZero/
+├── crossant.json                  # Croissant metadata descriptor
+├── LICENSE                        # CC0 1.0 license
+├── README.md                      # Main documentation (Docker implementation)
+├── README_LOCAL.md                # Local (non-Docker) implementation guide
+├── release.sh                     # Release script
+├── requirements.txt               # Python dependencies
 │
-├── C2Rust/
+├── C2Rust/                        # C++ to Rust benchmark
 │   ├── CppLarge/                  # C++ source libraries (11 repos)
 │   │   ├── Clipper/
 │   │   ├── color/
@@ -61,55 +64,120 @@ pip install openai requests anthropic
 │   │   ├── inflection-cpp/
 │   │   ├── sortedcontainers-cpp/
 │   │   └── url-parser/
-│   └── cleaned_test_cases.jsonl   # Test case parameters for C2Rust evaluation
+│   ├── api_lines.jsonl            # API line counts
+│   ├── cleaned_test_cases.jsonl   # Test case parameters for evaluation
+│   └── recompile_all.sh           # Script to recompile C++ executables
 │
-├── Py2JS/
-│   ├── dataset/                   # Python source files (24 libraries, 20 test files each)
-│   │   ├── base58/  bech32/  bencoder/  bidict/  bitarray/  bitstring/
-│   │   ├── boltons/  canonicaljson/  construct/  deepdiff/  ecdsa/
-│   │   ├── fractions/  furl/  idna/  jose/  jsonschema/  markdown/
-│   │   ├── moneyed/  mpmath/  networkx/  pbkdf2/  pyaes/  rsa/
-│   │   ├── rlp/  schedule/  sqlparse/  whoosh/  yaml/
-│   │   └── testcases_60/              # Test case parameter JSONL files (28 libraries)
+├── Py2JS/                         # Python to JavaScript benchmark
+│   └── dataset/                   # Python source files (24 libraries, 20 test files each)
+│       ├── base58/  bech32/  bencoder/  bidict/  bitarray/  bitstring/
+│       ├── boltons/  canonicaljson/  construct/  deepdiff/  ecdsa/
+│       ├── fractions/  furl/  idna/  jose/  jsonschema/  markdown/
+│       ├── moneyed/  mpmath/  networkx/  pbkdf2/  pyaes/  rsa/
+│       ├── rlp/  schedule/  sqlparse/  whoosh/  yaml/
+│       └── testcases_60/          # Test case parameter JSONL files
 │
-├── evaluate/
-├── run_c2rust/
-├── run_py2js/                    # Local Py2JS (non-Docker) implementation
+├── evaluate/                      # Evaluation scripts
+│   ├── eval_c2rust.py             # C2Rust evaluation
+│   ├── eval_c2rust_mini.py        # C2Rust mini-swe-agent evaluation
+│   ├── eval_py2js.py              # Py2JS evaluation
+│   ├── eval_py2js_docker.py       # Py2JS Docker evaluation
+│   ├── eval_py2js_mini.py         # Py2JS mini-swe-agent evaluation
+│   └── calculate_all_pass.py      # Detailed statistics with Bootstrap CI
+│
+├── run_c2rust/                    # Local C2Rust implementation
+│   ├── run_all_openai.py
+│   ├── run_all_anthropic.py
+│   ├── run_mini_swe_agent_anthropic.py
+│   ├── run_terminal_agent_4_openai.py
+│   └── run_terminal_agent_4_anthropic.py
+│
+├── run_c2rust_docker/            # 🐳 Docker-based C2Rust implementation
+│   ├── Dockerfile                 # Docker image build file
+│   ├── libstdc++.so.6.0.30        # libstdc++ for compatibility
+│   ├── README.md                  # Docker documentation
+│   ├── compile_cpp_tests.sh       # Compile C++ tests script
+│   ├── run_all_docker.py          # Main Docker evaluation script
+│   └── run_terminal_agent.py      # Docker terminal agent core
+│
+├── run_py2js/                    # Local Py2JS implementation
+│   ├── run_all_openai.py
+│   ├── run_all_anthropic.py
+│   ├── run_all_loop_openai.py
+│   ├── run_all_loop_mini_openai.py
+│   ├── run_terminal_agent_openai.py
+│   └── run_terminal_agent_anthropic.py
+│
 └── run_py2js_docker/            # 🐳 Docker-based Py2JS implementation
-    ├── run_all_docker.py         # Main Docker evaluation script
-    ├── run_terminal_agent.py    # Docker terminal agent core
-    └── README.md                # Docker documentation
+    ├── README.md                  # Docker documentation
+    ├── run_all_docker.py          # Main Docker evaluation script
+    └── run_terminal_agent.py      # Docker terminal agent core
 ```
 
 ---
 
-### Running Docker Evaluation
+## C2Rust Docker Implementation
+
+### Quick Start
+
+```bash
+cd run_c2rust_docker
+
+# Run with default settings
+python run_all_docker.py
+
+# Custom number of processes (concurrent evaluations)
+python run_all_docker.py -k 8
+
+# Custom model
+export MODEL_NAME="deepseek-v3.1-250821"
+python run_all_docker.py
+
+# Custom Docker image
+export REPOZERO_DOCKER_IMAGE="your-custom-image:latest"
+python run_all_docker.py
+```
+
+### Docker Environment
+
+Each task runs in an isolated container with:
+
+- **Workspace**: `/workspace`
+- **Dataset**: `/workspace/dataset` (source files + pre-compiled executables)
+- **Output**: `/output` (generated Rust files)
+- **Network**: Disabled (`--network none`) for security
+- **Isolation**: Each test case gets its own container
+
+### Docker Implementation Details
+
+- **Image**: `ghcr.io/jessezzzzz/c2rust-arena:latest` (pre-built with C++ test executables)
+- **Concurrency**: Support for multi-process parallel evaluation
+- **File Handling**: Source files and executables are copied into containers
+- **Output**: Generated Rust files are copied back to host after processing
+
+---
+
+## Py2JS Docker Implementation
+
+### Quick Start
 
 ```bash
 cd run_py2js_docker
 
-# Run with default settings (4 concurrent processes, deepseek-v3.2 model)
+# Run with default settings (4 concurrent processes)
 python run_all_docker.py
 
 # Custom number of processes
 python run_all_docker.py -k 8
 
 # Custom model
-python run_all_docker.py -m deepseek-v3.1-250821
+export MODEL_NAME="deepseek-v3.1-250821"
+python run_all_docker.py
 
-# Custom Docker image (if you've built your own)
+# Custom Docker image
 export REPOZERO_DOCKER_IMAGE="my-custom-image:latest"
 python run_all_docker.py
 ```
-
-### Docker Implementation Details
-
-The Docker implementation uses:
-
-- **Image**: `ghcr.io/jessezzzzz/repoarena-new:latest` (pre-built with Python test executables)
-- **Isolation**: Network-disabled containers (`--network none`) for security
-- **File Handling**: Source files and pre-compiled executables are copied into containers
-- **Output**: Generated JavaScript files are copied back to host after processing
 
 ### Docker Environment
 
@@ -119,11 +187,35 @@ Each task runs in an isolated container with:
 - **Dataset**: `/workspace/dataset` (source files + executables)
 - **Output**: `/output` (generated JavaScript files)
 - **Node.js**: Available for running generated code
+- **Network**: Disabled (`--network none`) for security
 
+### Docker Implementation Details
+
+- **Image**: `ghcr.io/jessezzzzz/repoarena-new:latest` (pre-built with Python test executables)
+- **Isolation**: Network-disabled containers for security
+- **File Handling**: Source files and pre-compiled executables are copied into containers
+- **Output**: Generated JavaScript files are copied back to host after processing
 
 ---
 
-## Benchmark Tasks
+## Local Implementation
+
+For local (non-Docker) evaluation, see [README_LOCAL.md](README_LOCAL.md).
+
+---
+
+## About RepoZero
+
+**RepoZero** is a benchmark dataset and evaluation suite for assessing the ability of large language models to perform *zero-shot repository-level code translation* — migrating entire real-world library codebases across programming language ecosystems.
+
+### Benchmark Coverage
+
+| Task | Source | Target | Libraries | Test Files |
+|------|--------|--------|-----------|------------|
+| **C2Rust** | C++ | Rust | 11 | 200 |
+| **Py2JS** | Python | JavaScript (Node.js ESM) | 24 | 400 |
+
+**Total benchmark**: 600 test files across 35 open-source libraries.
 
 ### C2Rust — C++ to Rust Translation
 
@@ -163,173 +255,7 @@ All evaluation scripts report two metrics:
 
 ---
 
-## Running the Benchmark
-
-### Prerequisites
-
-```bash
-# Python 3.9+
-pip install anthropic openai
-
-# Node.js 18+ (for Py2JS evaluation)
-node --version
-
-# Optional: numpy for bootstrap CI (required by calculate_all_pass.py)
-pip install numpy
-```
-
-### Environment Variables
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `ANTHROPIC_API_KEY` | Anthropic API key | — |
-| `ANTHROPIC_BASE_URL` | Custom Anthropic API endpoint | Anthropic default |
-| `BASE_URL` | OpenAI-compatible API base URL | `https://openrouter.ai/api/v1` |
-| `API_KEY` | API key for OpenAI-compatible endpoint | — |
-| `MODEL_NAME` | Model name to use | `deepseek-v3.2` |
-| `PYTHON_BIN` | Python interpreter for evaluation | `python3` |
-| `NODE_BIN` | Node.js interpreter for evaluation | `node` |
-| `REPOZERO_DOCKER_IMAGE` | Docker image to use | `ghcr.io/jessezzzzz/repoarena-new:latest` |
-
-### Run C2Rust
-
-```bash
-# Terminal agent — OpenAI-compatible API
-cd run_c2rust
-python run_all_openai.py
-
-# Terminal agent — Anthropic API
-python run_all_anthropic.py
-
-# mini-swe-agent harness
-python run_mini_swe_agent_anthropic.py
-```
-
-### Run Py2JS (Local)
-
-```bash
-# Terminal agent — OpenAI-compatible API
-cd run_py2js
-python run_all_openai.py
-
-# Terminal agent — Anthropic API
-python run_all_anthropic.py
-
-# Iterative self-repair loop (generates test cases, attempts fixes up to N times)
-python run_all_loop_openai.py
-
-# Loop mode via mini-swe-agent
-python run_all_loop_mini_openai.py
-```
-
-### Run Py2JS (Docker)
-
-```bash
-cd run_py2js_docker
-
-# Run with default settings
-python run_all_docker.py
-
-# Custom number of processes
-python run_all_docker.py -k 8
-
-# Custom model
-python run_all_docker.py -m deepseek-v3.1-250821
-
-# Custom Docker image (if you've built your own)
-export REPOZERO_DOCKER_IMAGE="my-custom-image:latest"
-python run_all_docker.py
-```
-
-To override the model name, edit the `model_name` variable at the top of the relevant script, or (for scripts that support it) pass `-m <model>` on the command line.
-
-### Evaluate Results
-
-```bash
-# Evaluate Py2JS terminal-agent output
-python evaluate/eval_py2js.py -m <model_name>
-
-# Evaluate Py2JS mini-swe-agent / loop output
-python evaluate/eval_py2js_mini.py -m <model_name>
-
-# Evaluate Py2JS Docker output
-python evaluate/eval_py2js_docker.py -m <model_name>
-
-# Calculate detailed statistics (with Bootstrap CI)
-python evaluate/calculate_all_pass.py -m <model_name>
-
-# Evaluate C2Rust terminal-agent output
-python evaluate/eval_c2rust.py -m <model_name>
-
-# Evaluate C2Rust mini-swe-agent output
-python evaluate/eval_c2rust_mini.py -m <model_name>
-```
-
-Optional flags (all eval scripts):
-
-```
---jsonl-dir      Directory containing .jsonl test-case files
-                 (default: <task>/testcases or <task>/testcases_60)
---dataset-root   Root directory of the source dataset
-                 (default: <task>/dataset or C2Rust/CppLarge)
-```
-
-Results are written to `evaluate/results/<model_name>/` as JSON files with per-file pass rates.
-
-### Calculate Detailed Statistics
-
-```bash
-# Calculate statistics for a specific model
-python evaluate/calculate_all_pass.py -m deepseek-v3.2
-
-# Calculate with custom results directory
-python evaluate/calculate_all_pass.py --results-dir ./Py2JS/output/results/deepseek-v3.2_docker
-
-# Use fewer bootstrap samples for faster calculation
-python evaluate/calculate_all_pass.py -n-bootstrap 100
-```
-
-This script provides:
-- **Per-class statistics**: Pass rates for each test class (library)
-- **Category-level breakdown**: Statistics grouped by library categories
-  - Serialization & Data Formats
-  - Cryptography & Encoding
-  - Data Structures & Utilities
-  - Math & Science
-  - Specialized Tools
-- **Micro/Macro rates**: Both all-pass and test-case-pass rates
-- **Bootstrap Confidence Intervals**: 95% CI for both metrics
-
----
-
-## Output Directory Layout
-
-Run scripts write translated files to the following locations:
-
-| Script type | Output path |
-|-------------|-------------|
-| Terminal agent (Py2JS) | `Py2JS/output/<model_name>/testfiles/` |
-| mini-swe-agent (Py2JS) | `Py2JS/output_mini/<model_name>/testfiles/` |
-| Loop — terminal agent | `Py2JS/output_loop/<model_name>_retry<N>/testfiles/` |
-| Loop — mini-swe-agent | `Py2JS/output_loop_mini/<model_name>_retry<N>/testfiles/` |
-| Docker (Py2JS) | `Py2JS/output/<model_name>/packages/` |
-| Terminal agent (C2Rust) | `C2Rust/output/<model_name>/testfiles/` |
-| mini-swe-agent (C2Rust) | `C2Rust/output_mini/<model_name>/testfiles/` |
-
-Library helper files are written alongside under a `packages/` subdirectory.
-
----
-
 ## Dataset Format
-
-### `gold_test_files.jsonl`
-
-Each line is a JSON object identifying a benchmark test file:
-
-```json
-{"category": "C2Rust", "filename": "test20.cpp", "path": "C2Rust/CppLarge/Clipper/tests/test20.cpp", "library": "Clipper"}
-{"category": "Py2JS",  "filename": "test1.py",   "path": "Py2JS/dataset/base58/test1.py",            "library": "base58"}
-```
 
 ### Test-case JSONL files
 
