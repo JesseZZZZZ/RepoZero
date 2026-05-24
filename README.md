@@ -13,7 +13,7 @@
 
 ## Quick Start
 ### Installation
-
+(extremely simple)
 ```bash
 git clone https://github.com/JesseZZZZZ/RepoZero.git
 cd RepoZero
@@ -117,7 +117,7 @@ RepoZero/
 ---
 
 ## C2Rust Docker Implementation
-
+By default, the Docker image for C2Rust evaluation is ```ghcr.io/jessezzzzz/c2rust-arena:latest```, you do NOT need to change it, and the code can run directly.
 ### Quick Start
 
 ```bash
@@ -137,28 +137,10 @@ python run_all_docker.py
 export REPOZERO_DOCKER_IMAGE="your-custom-image:latest"
 python run_all_docker.py
 ```
-
-### Docker Environment
-
-Each task runs in an isolated container with:
-
-- **Workspace**: `/workspace`
-- **Dataset**: `/workspace/dataset` (source files + pre-compiled executables)
-- **Output**: `/output` (generated Rust files)
-- **Network**: Disabled (`--network none`) for security
-- **Isolation**: Each test case gets its own container
-
-### Docker Implementation Details
-
-- **Image**: `ghcr.io/jessezzzzz/c2rust-arena:latest` (pre-built with C++ test executables)
-- **Concurrency**: Support for multi-process parallel evaluation
-- **File Handling**: Source files and executables are copied into containers
-- **Output**: Generated Rust files are copied back to host after processing
-
 ---
 
 ## Py2JS Docker Implementation
-
+By default, the Docker image for Py2JS evaluation is ```ghcr.io/jessezzzzz/py2js-arena:latest```, you do NOT need to change it, and the code can run directly.
 ### Quick Start
 
 ```bash
@@ -185,13 +167,12 @@ Each task runs in an isolated container with:
 
 - **Workspace**: `/workspace`
 - **Dataset**: `/workspace/dataset` (source files + executables)
-- **Output**: `/output` (generated JavaScript files)
+- **Output**: `/output` (generated JavaScript or Rust files)
 - **Node.js**: Available for running generated code
 - **Network**: Disabled (`--network none`) for security
 
 ### Docker Implementation Details
 
-- **Image**: `ghcr.io/jessezzzzz/repoarena-new:latest` (pre-built with Python test executables)
 - **Isolation**: Network-disabled containers for security
 - **File Handling**: Source files and pre-compiled executables are copied into containers
 - **Output**: Generated JavaScript files are copied back to host after processing
