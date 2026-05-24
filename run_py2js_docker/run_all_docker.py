@@ -65,7 +65,7 @@ CONTAINER_DATASET_ROOT = f"{CONTAINER_WORKSPACE}/dataset"
 CONTAINER_OUTPUT_ROOT = f"{CONTAINER_WORKSPACE}/output/{actual_name}"
 
 # Docker image configuration
-DOCKER_IMAGE = os.getenv("REPOZERO_DOCKER_IMAGE", "ghcr.io/jessezzzzz/repoarena-new:latest")
+DOCKER_IMAGE = os.getenv("REPOZERO_DOCKER_IMAGE", "ghcr.io/jessezzzzz/py2js-arena:latest")
 
 
 def run_docker_command(cmd, timeout=60):
