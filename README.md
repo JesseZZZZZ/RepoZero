@@ -19,7 +19,7 @@ git clone https://github.com/JesseZZZZZ/RepoZero.git
 cd RepoZero
 pip install anthropic openai requests
 ```
-Please mannually download the [RepoZero-Py2JS](https://drive.google.com/file/d/1j90jH-YSu3J8IqsW7v79P95W4SgPoGrU/view?usp=drive_link) and [RepoZero-C2Rust](https://drive.google.com/file/d/1peaiK60vnQ2DLeDNQrzYoy0GYvcyjSlq/view?usp=drive_link) and place it under ```./RepoZero/repozero_py2js.zip``` and ```./RepoZero/repozero_c2rust.zip```
+Please mannually download the [RepoZero-Py2JS](https://drive.google.com/file/d/1j90jH-YSu3J8IqsW7v79P95W4SgPoGrU/view?usp=drive_link) and [RepoZero-C2Rust](https://drive.google.com/file/d/10sBJG5NLGPR1anLEieI4WYenyXLVmEX7/view?usp=sharing) and place it under ```./RepoZero/repozero_py2js.zip``` and ```./RepoZero/repozero_c2rust.zip```
 ### Prerequisites
 
 ```bash
