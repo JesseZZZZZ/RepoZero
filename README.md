@@ -1,5 +1,11 @@
 # RepoZero
 <div align="center">
+<a href="https://github.com/JesseZZZZZ/RepoZero">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="imgs/icon_repozero">
+    <img alt="RepoZero" src="imgs/icon_repozero.png" width="500">
+  </picture>
+</a>
 
 [![arXiv](https://img.shields.io/badge/RepoZero-arxiv-red)](https://arxiv.org/pdf/2605.07122)
 [![HuggingFace-C2Rust](https://img.shields.io/badge/C2Rust-HF-yellow?logo=huggingface)](jessezhaoxizhang/RepoZero-C2Rust)
