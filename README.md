@@ -17,14 +17,13 @@
 ```bash
 git clone https://github.com/JesseZZZZZ/RepoZero.git
 cd RepoZero
-pip install anthropic openai requests
+pip install -r requirements.txt
 ```
 
 ### Download Dataset
 
 **Option 1 (Recommended): Download via script from HuggingFace**
 ```bash
-pip install huggingface_hub
 python download_data.py
 ```
 
@@ -41,6 +40,7 @@ docker --version
 python --version
 
 # OpenAI-compatible API credentials
+# You can replace it with your own url and key
 export BASE_URL="https://openrouter.ai/api/v1/"
 export API_KEY="your-api-key-here"
 
