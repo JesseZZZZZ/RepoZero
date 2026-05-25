@@ -10,6 +10,7 @@ import multiprocessing as mp
 from multiprocessing import Pool, Manager
 import posixpath
 import tempfile
+from datetime import datetime
 
 # Add current directory to path to import run_terminal_agent
 sys.path.insert(0, os.path.dirname(__file__))
@@ -56,8 +57,9 @@ python_to_js_mapping = {
 }
 
 # Host path configuration
-HOST_DATASET_ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Py2JS", "dataset")
-HOST_ARENA_ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Py2JS", "output", actual_name)
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HOST_DATASET_ROOT = os.path.join(REPO_ROOT, "Py2JS", "dataset")
+HOST_ARENA_ROOT = os.path.join(REPO_ROOT, "Py2JS", "output", actual_name)
 
 # Docker internal path configuration
 CONTAINER_WORKSPACE = "/workspace"
@@ -213,27 +215,46 @@ def cleanup_task_container(container_name):
     run_docker_command(f"docker rm -f {container_name}")
 
 
+def append_trajectory_log(log_dir, actual_name, relative_path, messages, result):
+    """Append trajectory entry to global log file"""
+    if not messages:
+        return
+
+    os.makedirs(log_dir, exist_ok=True)
+    log_path = os.path.join(log_dir, f"{actual_name}.jsonl")
+
+    entry = {
+        "file_name": relative_path,
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "result": result,
+        "messages": messages,
+    }
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
 def process_single_task_wrapper(args):
     """
     Wrapper function for multiprocessing pool calls
 
     Args:
-        args: Tuple containing (py_path, relative_path, progress_dict, lock)
+        args: Tuple containing (py_path, relative_path, actual_name, progress_dict, lock)
 
     Returns:
         Processing result dictionary
     """
-    py_path, relative_path, progress_dict, lock = args
-    return process_single_task(py_path, relative_path, progress_dict, lock)
+    py_path, relative_path, actual_name, progress_dict, lock = args
+    return process_single_task(py_path, relative_path, actual_name, progress_dict, lock)
 
 
-def process_single_task(py_path, relative_path, progress_dict=None, lock=None):
+def process_single_task(py_path, relative_path, actual_name, progress_dict=None, lock=None):
     """
     Process single task
 
     Args:
         py_path: Host absolute path of Python file
         relative_path: Relative path to dataset (e.g., base58/test1.py)
+        actual_name: Model/run name for logging
         progress_dict: Shared progress dictionary (for multiprocessing)
         lock: Process lock (for multiprocessing)
 
@@ -331,6 +352,7 @@ Hint: Please first output the hierarchical code of library files (using .mjs), a
             # Get token statistics
             input_tokens = token_info.get("input_tokens", 0) if token_info else 0
             output_tokens = token_info.get("output_tokens", 0) if token_info else 0
+            messages = token_info.get("messages") if token_info else None
 
             print(f"\n[Completed] {relative_path} | Input={input_tokens}, Output={output_tokens}")
 
@@ -346,8 +368,12 @@ Hint: Please first output the hierarchical code of library files (using .mjs), a
                 files = os.listdir(host_pkg_dir) if os.path.exists(host_pkg_dir) else []
                 if files:
                     print(f"   Generated files: {files}")
+                log_dir = os.path.join(REPO_ROOT, "logs", "Py2JS")
+                append_trajectory_log(log_dir, actual_name, relative_path, messages, "success")
             else:
                 print(f"[WARNING] Failed to copy output: {stderr}")
+                log_dir = os.path.join(REPO_ROOT, "logs", "Py2JS")
+                append_trajectory_log(log_dir, actual_name, relative_path, messages, "failed")
 
             return {
                 "success": True,
@@ -506,7 +532,7 @@ Hint: Please first output the hierarchical code of library files (using .mjs), a
         shared_processed = manager.Value('i', 0)
 
         # Prepare task arguments
-        task_args = [(py_path, relative_path, shared_results, shared_processed)
+        task_args = [(py_path, relative_path, actual_name, shared_results, shared_processed)
                     for py_path, relative_path in tasks]
 
         progress_file = os.path.join(HOST_ARENA_ROOT, "progress.json")

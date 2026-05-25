@@ -287,7 +287,25 @@ def append_success_record(packages_root, repo_name, relative_path, package_dir, 
         f.write(entry + "\n")
 
 
-def process_single_task(cpp_path, relative_path, repo_name, test_number, packages_root, host_output_root):
+def append_trajectory_log(log_dir, actual_name, relative_path, messages, result):
+    """Append trajectory entry to global log file"""
+    if not messages:
+        return
+
+    os.makedirs(log_dir, exist_ok=True)
+    log_path = os.path.join(log_dir, f"{actual_name}.jsonl")
+
+    entry = {
+        "file_name": relative_path,
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "result": result,
+        "messages": messages,
+    }
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
+def process_single_task(cpp_path, relative_path, repo_name, test_number, packages_root, host_output_root, actual_name):
     """
     Process single task
 
@@ -298,6 +316,7 @@ def process_single_task(cpp_path, relative_path, repo_name, test_number, package
         test_number: Test number
         packages_root: Host packages root directory
         host_output_root: Host output root directory
+        actual_name: Model/run name for logging
 
     Returns:
         Processing result dictionary
@@ -382,6 +401,7 @@ Hint: `{container_executable_path}` is the compiled C++ binary — use it to deb
             # Get token statistics
             input_tokens = token_info.get("input_tokens", 0) if token_info else 0
             output_tokens = token_info.get("output_tokens", 0) if token_info else 0
+            messages = token_info.get("messages") if token_info else None
 
             print(f"\n[Completed] {relative_path} | Input={input_tokens}, Output={output_tokens}")
 
@@ -405,8 +425,10 @@ Hint: `{container_executable_path}` is the compiled C++ binary — use it to deb
                         repo_name,
                         relative_path,
                         package_dir,
-                        token_info.get("messages") if token_info else None
+                        messages
                     )
+                    log_dir = os.path.join(REPO_ROOT, "logs", "C2Rust")
+                    append_trajectory_log(log_dir, actual_name, relative_path, messages, "success")
                     return {
                         "success": True,
                         "relative_path": relative_path,
@@ -418,6 +440,8 @@ Hint: `{container_executable_path}` is the compiled C++ binary — use it to deb
                     }
                 else:
                     print(f"[WARNING] Output file not generated: {output_rust_path}")
+                    log_dir = os.path.join(REPO_ROOT, "logs", "C2Rust")
+                    append_trajectory_log(log_dir, actual_name, relative_path, messages, "failed")
                     return {
                         "success": False,
                         "relative_path": relative_path,
@@ -427,6 +451,8 @@ Hint: `{container_executable_path}` is the compiled C++ binary — use it to deb
                     }
             else:
                 print(f"[WARNING] Failed to copy output: {stderr}")
+                log_dir = os.path.join(REPO_ROOT, "logs", "C2Rust")
+                append_trajectory_log(log_dir, actual_name, relative_path, messages, "failed")
                 return {
                     "success": False,
                     "relative_path": relative_path,
@@ -536,8 +562,8 @@ def main(num_processes=4):
     global model_name
     global actual_name
 
-    # Output configuration
-    host_output_root = str(REPO_ROOT / "C2Rust" / "CppLarge" / "output_large" / actual_name)
+    # Output configuration - C2Rust/CppLarge/output/{actual_name}
+    host_output_root = str(REPO_ROOT / "C2Rust" / "CppLarge" / "output" / actual_name)
     packages_root = os.path.join(host_output_root, "packages")
 
     # Ensure directories exist
@@ -609,7 +635,7 @@ Hint: `{sample_executable_path}` is the compiled C++ binary — use it to debug 
     print("="*60)
 
     # Press Enter to continue, or 'q' to quit
-    # s = input("\nPress Enter to continue, or 'q' to quit: ")
+    s = input("\nPress Enter to continue, or 'q' to quit: ")
     # if s.lower() == 'q':
     #     print("Exiting program")
     #     return
@@ -635,6 +661,7 @@ Hint: `{sample_executable_path}` is the compiled C++ binary — use it to debug 
                     task["test_number"],
                     packages_root,
                     host_output_root,
+                    actual_name,
                 ): task for task in tasks
             }
 
