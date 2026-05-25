@@ -1,4 +1,3 @@
-# RepoZero
 <div align="center">
 <a href="https://github.com/JesseZZZZZ/RepoZero">
   <picture>
