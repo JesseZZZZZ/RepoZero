@@ -6,6 +6,7 @@
     <img alt="RepoZero" src="imgs/icon_repozero.png" width="500">
   </picture>
 </a>
+<br><br>
 
 [![arXiv](https://img.shields.io/badge/RepoZero-arxiv-red)](https://arxiv.org/pdf/2605.07122)
 [![HuggingFace-C2Rust](https://img.shields.io/badge/C2Rust-HF-yellow?logo=huggingface)](jessezhaoxizhang/RepoZero-C2Rust)
