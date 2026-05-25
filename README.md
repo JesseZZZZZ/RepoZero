@@ -278,7 +278,15 @@ Each line contains CLI argument parameters for one test invocation of a source f
 The evaluation harness runs both the original source file and the translated file with these arguments and compares stdout line by line.
 
 ---
-
+## Citation
+```bash
+@article{zhang2026repozero,
+  title={RepoZero: Can LLMs Generate a Code Repository from Scratch?},
+  author={Zhang, Zhaoxi and Xu, Yiming and Li, Weikang and Liang, Jiahui and Wu, Yunfang},
+  journal={arXiv preprint arXiv:2605.07122},
+  year={2026}
+}
+```
 ## License
 
-Dataset and code are released under [CC0 1.0](https://spdx.org/licenses/CC0-1.0). All source code used in the benchmark is derived from open-source repositories; their original licenses remain in effect within their respective directories.
+Dataset and code are released under Apache 2.0. All source code used in the benchmark is derived from open-source repositories; their original licenses remain in effect within their respective directories.
