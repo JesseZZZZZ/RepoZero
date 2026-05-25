@@ -402,55 +402,56 @@ Hint: `{container_executable_path}` is the compiled C++ binary — use it to deb
             input_tokens = token_info.get("input_tokens", 0) if token_info else 0
             output_tokens = token_info.get("output_tokens", 0) if token_info else 0
             messages = token_info.get("messages") if token_info else None
+            agent_success = True
 
             print(f"\n[Completed] {relative_path} | Input={input_tokens}, Output={output_tokens}")
 
-            # Copy output files from container to host
+        except Exception as agent_error:
+            # Agent failed, but still try to copy output
+            print(f"\n[ERROR] Agent execution failed: {agent_error}")
+            input_tokens = 0
+            output_tokens = 0
+            messages = None
+            agent_success = False
+
+        try:
+            # Always try to copy output files from container to host
             print(f"[COPY] Copying output files to host: {package_dir}")
-            success, stdout, stderr = run_docker_command(
+            copy_success, stdout, stderr = run_docker_command(
                 f"docker cp {task_container}:{output_dir}/. {package_dir}",
                 timeout=30
             )
-            if success:
+            if copy_success:
                 print(f"[OK] Output files synced to: {package_dir}")
                 # List copied files
                 files = os.listdir(package_dir) if os.path.exists(package_dir) else []
                 if files:
                     print(f"   Generated files: {files}")
-
-                # Check if output file exists and has content
-                if os.path.isfile(output_rust_path) and os.path.getsize(output_rust_path) > 0:
-                    append_success_record(
-                        packages_root,
-                        repo_name,
-                        relative_path,
-                        package_dir,
-                        messages
-                    )
-                    log_dir = os.path.join(REPO_ROOT, "logs", "C2Rust")
-                    append_trajectory_log(log_dir, actual_name, relative_path, messages, "success")
-                    return {
-                        "success": True,
-                        "relative_path": relative_path,
-                        "input_tokens": input_tokens,
-                        "output_tokens": output_tokens,
-                        "container": task_container,
-                        "output_dir": package_dir,
-                        "status": "success",
-                    }
-                else:
-                    print(f"[WARNING] Output file not generated: {output_rust_path}")
-                    log_dir = os.path.join(REPO_ROOT, "logs", "C2Rust")
-                    append_trajectory_log(log_dir, actual_name, relative_path, messages, "failed")
-                    return {
-                        "success": False,
-                        "relative_path": relative_path,
-                        "input_tokens": input_tokens,
-                        "output_tokens": output_tokens,
-                        "error": "Output file not generated"
-                    }
             else:
                 print(f"[WARNING] Failed to copy output: {stderr}")
+
+            # Check if output file exists and has content
+            if os.path.isfile(output_rust_path) and os.path.getsize(output_rust_path) > 0:
+                append_success_record(
+                    packages_root,
+                    repo_name,
+                    relative_path,
+                    package_dir,
+                    messages
+                )
+                log_dir = os.path.join(REPO_ROOT, "logs", "C2Rust")
+                append_trajectory_log(log_dir, actual_name, relative_path, messages, "success")
+                return {
+                    "success": True,
+                    "relative_path": relative_path,
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens,
+                    "container": task_container,
+                    "output_dir": package_dir,
+                    "status": "success",
+                }
+            else:
+                print(f"[WARNING] Output file not generated: {output_rust_path}")
                 log_dir = os.path.join(REPO_ROOT, "logs", "C2Rust")
                 append_trajectory_log(log_dir, actual_name, relative_path, messages, "failed")
                 return {
@@ -458,7 +459,7 @@ Hint: `{container_executable_path}` is the compiled C++ binary — use it to deb
                     "relative_path": relative_path,
                     "input_tokens": input_tokens,
                     "output_tokens": output_tokens,
-                    "error": f"Failed to copy output: {stderr}"
+                    "error": "Output file not generated" if agent_success else f"Agent failed: {agent_error}"
                 }
 
         finally:
@@ -562,8 +563,8 @@ def main(num_processes=4):
     global model_name
     global actual_name
 
-    # Output configuration - C2Rust/CppLarge/output/{actual_name}
-    host_output_root = str(REPO_ROOT / "C2Rust" / "CppLarge" / "output" / actual_name)
+    # Output configuration - RepoZero/output/C2Rust/{actual_name}
+    host_output_root = str(REPO_ROOT / "output" / "C2Rust" / actual_name)
     packages_root = os.path.join(host_output_root, "packages")
 
     # Ensure directories exist

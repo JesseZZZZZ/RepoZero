@@ -1,5 +1,14 @@
 FROM iregistry.baidu-int.com/repo_zero/c2rust-arena:latest
 
+RUN rm -f /etc/apt/apt.conf /etc/apt/apt.conf.d/*proxy*
+
+# 删除私有源并清理 apt 缓存
+RUN rm -f /etc/apt/sources.list.d/baidu*.list /etc/apt/sources.list.d/nvidia*.list \
+    && rm -rf /var/lib/apt/lists/*
+# 安装 Rust
+RUN apt  update
+RUN apt install -y rustc
+
 # 复制宿主机的 libstdc++.so.6.0.30（需要 GLIBCXX_3.4.29 支持）
 COPY libstdc++.so.6.0.30 /opt/compiler/gcc-12/lib/
 

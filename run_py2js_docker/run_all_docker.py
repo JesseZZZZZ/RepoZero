@@ -59,7 +59,7 @@ python_to_js_mapping = {
 # Host path configuration
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOST_DATASET_ROOT = os.path.join(REPO_ROOT, "Py2JS", "dataset")
-HOST_ARENA_ROOT = os.path.join(REPO_ROOT, "Py2JS", "output", actual_name)
+HOST_ARENA_ROOT = os.path.join(REPO_ROOT, "output", "Py2JS", actual_name)
 
 # Docker internal path configuration
 CONTAINER_WORKSPACE = "/workspace"
@@ -353,30 +353,40 @@ Hint: Please first output the hierarchical code of library files (using .mjs), a
             input_tokens = token_info.get("input_tokens", 0) if token_info else 0
             output_tokens = token_info.get("output_tokens", 0) if token_info else 0
             messages = token_info.get("messages") if token_info else None
+            agent_success = True
 
             print(f"\n[Completed] {relative_path} | Input={input_tokens}, Output={output_tokens}")
 
-            # Copy output files from container to host
+        except Exception as agent_error:
+            # Agent failed, but still try to copy output
+            print(f"\n[ERROR] Agent execution failed: {agent_error}")
+            input_tokens = 0
+            output_tokens = 0
+            messages = None
+            agent_success = False
+
+        try:
+            # Always try to copy output files from container to host
             print(f"[COPY] Copying output files to host: {host_pkg_dir}")
-            success, stdout, stderr = run_docker_command(
+            copy_success, stdout, stderr = run_docker_command(
                 f"docker cp {task_container}:{container_output_dir}/. {host_pkg_dir}",
                 timeout=30
             )
-            if success:
+            if copy_success:
                 print(f"[OK] Output files synced to: {host_pkg_dir}")
                 # List copied files
                 files = os.listdir(host_pkg_dir) if os.path.exists(host_pkg_dir) else []
                 if files:
                     print(f"   Generated files: {files}")
                 log_dir = os.path.join(REPO_ROOT, "logs", "Py2JS")
-                append_trajectory_log(log_dir, actual_name, relative_path, messages, "success")
+                append_trajectory_log(log_dir, actual_name, relative_path, messages, "success" if agent_success else "failed")
             else:
                 print(f"[WARNING] Failed to copy output: {stderr}")
                 log_dir = os.path.join(REPO_ROOT, "logs", "Py2JS")
                 append_trajectory_log(log_dir, actual_name, relative_path, messages, "failed")
 
             return {
-                "success": True,
+                "success": agent_success,
                 "relative_path": relative_path,
                 "input_tokens": input_tokens,
                 "output_tokens": output_tokens,
