@@ -1,5 +1,4 @@
 openai
 anthropic
-posixpath
 huggingface_hub
 requests
