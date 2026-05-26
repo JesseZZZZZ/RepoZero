@@ -82,7 +82,6 @@ RepoZero/
 ├── LICENSE                        # CC0 1.0 license
 ├── README.md                      # Main documentation (Docker implementation)
 ├── README_LOCAL.md                # Local (non-Docker) implementation guide
-├── release.sh                     # Release script
 ├── requirements.txt               # Python dependencies
 │
 ├── C2Rust/                        # C++ to Rust benchmark
