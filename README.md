@@ -194,6 +194,8 @@ export REPOZERO_DOCKER_IMAGE="my-custom-image:latest"
 python run_all_docker.py
 ```
 
+Trajectories are saved at ```logs/```
+
 ### Docker Environment
 
 Each task runs in an isolated container with:
