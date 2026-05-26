@@ -10,8 +10,9 @@
 [![arXiv](https://img.shields.io/badge/RepoZero-arxiv-red)](https://arxiv.org/pdf/2605.07122)
 [![HuggingFace-C2Rust](https://img.shields.io/badge/C2Rust-HF-yellow?logo=huggingface)](https://huggingface.co/datasets/jessezhaoxizhang/RepoZero-C2Rust)
 [![HuggingFace-Py2JS](https://img.shields.io/badge/Py2JS-HF-yellow?logo=huggingface)](https://huggingface.co/datasets/jessezhaoxizhang/RepoZero-Py2JS)
-[![Project Page](https://img.shields.io/badge/Homepage-gray?logo=homepage
-)](https://repozero.osslab-pku.org/)
+[![ModelScope-C2Rust](https://img.shields.io/badge/C2Rust-ModelScope-blue?logo=modelscope)](https://modelscope.cn/datasets/JesseZhaoxiZhang/RepoZero-C2Rust)
+[![ModelScope-Py2JS](https://img.shields.io/badge/Py2JS-ModelScope-blue?logo=modelscope)](https://modelscope.cn/datasets/JesseZhaoxiZhang/RepoZero-Py2JS)
+[![Project Page](https://img.shields.io/badge/Homepage-gray?logo=homepage)](https://repozero.osslab-pku.org/)
 
 
 </div>
