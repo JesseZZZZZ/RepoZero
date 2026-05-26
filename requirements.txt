@@ -2,3 +2,4 @@ openai
 anthropic
 huggingface_hub
 requests
+modelscope
