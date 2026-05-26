@@ -45,7 +45,7 @@ python download_data.py
 
 **Option 2: Manual download from Google Drive**
 - [RepoZero-Py2JS](https://drive.google.com/file/d/1j90jH-YSu3J8IqsW7v79P95W4SgPoGrU/view?usp=drive_link) → Place as `./repozero_py2js.zip`
-- [RepoZero-C2Rust](https://drive.google.com/file/d/10sBJG5NLGPR1anLEieI4WYenyXLVmEX7/view?usp=sharing) → Place as `./repozero_c2rust.zip`
+- [RepoZero-C2Rust](https://drive.google.com/file/d/1hzv1s77Mi0Ib_yt6mqwQYChVmSf-5As2/view?usp=sharing) → Place as `./repozero_c2rust.zip`
 ### Prerequisites
 
 ```bash
