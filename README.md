@@ -38,12 +38,17 @@ pip install -r requirements.txt
 
 ### Download Dataset
 
-**Option 1 (Recommended): Download via script from HuggingFace**
+**Option 1 (Recommended): Download from HuggingFace**
 ```bash
-python download_data.py
+python download_data.py huggingface
 ```
 
-**Option 2: Manual download from Google Drive**
+**Option 2: Download from ModelScope** (if the speed of huggingface download is too slow)
+```bash
+python download_data.py modelscope
+```
+
+**Option 3: Manual download from Google Drive**
 - [RepoZero-Py2JS](https://drive.google.com/file/d/1j90jH-YSu3J8IqsW7v79P95W4SgPoGrU/view?usp=drive_link) → Place as `./repozero_py2js.zip`
 - [RepoZero-C2Rust](https://drive.google.com/file/d/1hzv1s77Mi0Ib_yt6mqwQYChVmSf-5As2/view?usp=sharing) → Place as `./repozero_c2rust.zip`
 ### Prerequisites
@@ -60,8 +65,8 @@ python --version
 export BASE_URL="https://openrouter.ai/api/v1/"
 export API_KEY="your-api-key-here"
 
-# Only needed if you downloaded manually (Option 2)
-# Skip this if you used download_data.py (Option 1)
+# Only needed if you downloaded manually (Option 3)
+# Skip this if you used download_data.py (Option 1 or 2)
 unzip repozero_py2js.zip
 unzip repozero_c2rust.zip
 ```

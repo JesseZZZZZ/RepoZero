@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Download and extract datasets from HuggingFace for RepoZero.
+Download and extract datasets from HuggingFace or ModelScope for RepoZero.
 Supports both RepoZero-Py2JS and RepoZero-C2Rust.
 """
 
@@ -52,32 +52,75 @@ def download_with_retry(repo_id: str, local_dir: Path, max_retries: int = 3):
                 raise
 
 
-def download_repozero_c2rust(output_dir: Path):
-    """Download RepoZero-C2Rust dataset from HuggingFace."""
+def download_from_huggingface(output_dir: Path):
+    """Download RepoZero datasets from HuggingFace."""
+    # Download C2Rust first (as requested)
     print("Downloading RepoZero-C2Rust from HuggingFace...")
     c2rust_dir = output_dir / "C2Rust"
-    return download_with_retry("jessezhaoxizhang/RepoZero-C2Rust", c2rust_dir)
+    download_with_retry("jessezhaoxizhang/RepoZero-C2Rust", c2rust_dir)
+    extract_all_zips(c2rust_dir)
 
-
-def download_repozero_py2js(output_dir: Path):
-    """Download RepoZero-Py2JS dataset from HuggingFace."""
+    # Download Py2JS
     print("Downloading RepoZero-Py2JS from HuggingFace...")
     py2js_dir = output_dir / "Py2JS"
-    return download_with_retry("jessezhaoxizhang/RepoZero-Py2JS", py2js_dir)
+    download_with_retry("jessezhaoxizhang/RepoZero-Py2JS", py2js_dir)
+    extract_all_zips(py2js_dir)
+
+
+def download_from_modelscope(output_dir: Path):
+    """Download RepoZero datasets from ModelScope."""
+    try:
+        from modelscope import snapshot_download as ms_snapshot_download
+    except ImportError:
+        print("Error: modelscope library not found. Install with: pip install modelscope")
+        raise
+
+    # Download C2Rust
+    print("Downloading RepoZero-C2Rust from ModelScope...")
+    c2rust_dir = output_dir / "C2Rust"
+    c2rust_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        ms_snapshot_download(
+            repo_id="JesseZhaoxiZhang/RepoZero-C2Rust",
+            cache_dir=str(c2rust_dir),
+        )
+        print(f"Successfully downloaded to {c2rust_dir}")
+        extract_all_zips(c2rust_dir)
+    except Exception as e:
+        print(f"Error downloading RepoZero-C2Rust: {e}")
+
+    # Download Py2JS
+    print("Downloading RepoZero-Py2JS from ModelScope...")
+    py2js_dir = output_dir / "Py2JS"
+    py2js_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        ms_snapshot_download(
+            repo_id="JesseZhaoxiZhang/RepoZero-Py2JS",
+            cache_dir=str(py2js_dir),
+        )
+        print(f"Successfully downloaded to {py2js_dir}")
+        extract_all_zips(py2js_dir)
+    except Exception as e:
+        print(f"Error downloading RepoZero-Py2JS: {e}")
 
 
 def main():
+    import sys
+
     # Output directory
     output_dir = Path("./")
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Download C2Rust first (as requested)
-    c2rust_dir = download_repozero_c2rust(output_dir)
-    extract_all_zips(c2rust_dir)
+    # Choose download source
+    source = sys.argv[1] if len(sys.argv) > 1 else "huggingface"
 
-    # Download Py2JS
-    py2js_dir = download_repozero_py2js(output_dir)
-    extract_all_zips(py2js_dir)
+    if source == "huggingface":
+        download_from_huggingface(output_dir)
+    elif source == "modelscope":
+        download_from_modelscope(output_dir)
+    else:
+        print(f"Unknown source: {source}. Use 'huggingface' or 'modelscope'")
+        sys.exit(1)
 
     print("\nAll downloads and extractions completed!")
 
