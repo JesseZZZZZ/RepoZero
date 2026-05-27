@@ -58,6 +58,7 @@ def calculate_bootstrap_ci(pass_rates, n_bootstrap=1000, confidence=0.95):
     if not HAS_NUMPY or not pass_rates:
         return {
             'mean': 0.0,
+            'std': 0.0,
             'ci_lower': 0.0,
             'ci_upper': 0.0
         }
@@ -111,10 +112,19 @@ def calculate_all_pass_average(results_dir):
     # Collect all all pass values (0 or 1) for bootstrap calculation
     all_pass_values = []
 
+    # Pre-calculate total tests per library from DEFAULT_VALID_IDS
+    library_total_tests = {}
+    for test_id in DEFAULT_VALID_IDS:
+        lib_name = test_id.split('/')[0]
+        library_total_tests[lib_name] = library_total_tests.get(lib_name, 0) + 1
+
     for filename in sorted(os.listdir(results_dir)):
         if filename.startswith('testcase_') and filename.endswith('_file_pass_rates.json'):
-            # Extract class name
+            # Extract class name (library name)
             class_name = filename.replace('testcase_', '').replace('_file_pass_rates.json', '')
+            # Handle merged suffix
+            if class_name.endswith('_merged'):
+                class_name = class_name[:-7]
             if class_name in ['ecdsa', 'rlp', 'bitstring', 'bitarray']:
                 continue
 
@@ -122,13 +132,15 @@ def calculate_all_pass_average(results_dir):
             with open(filepath, 'r') as f:
                 data = json.load(f)
 
-            total_tests = len(data)
+            # Use total tests from DEFAULT_VALID_IDS for this library
+            total_tests = library_total_tests.get(class_name, len(data))
 
             # all_pass statistics: all test cases pass counts as pass
             all_pass_count = sum(1 for v in data.values() if v.get('pass_rate') == 1.0)
             all_pass_rate = all_pass_count / total_tests if total_tests > 0 else 0
 
             # test_case_pass statistics: average pass rate of individual test cases
+            # Divide by DEFAULT_VALID_IDS count for this library, not actual data count
             test_case_pass_rates_list = [v.get('pass_rate', 0) for v in data.values()]
             test_case_pass_rate = sum(test_case_pass_rates_list) / total_tests if total_tests > 0 else 0
 
@@ -283,26 +295,6 @@ def print_all_pass_stats(stats):
     print(f"  Total test samples: {stats['total_tests']}")
     print(f"  Total all-pass samples: {stats['total_all_pass']}")
 
-    # Print Bootstrap Confidence Interval
-    print("\n===== Bootstrap Confidence Interval (95%) =====")
-
-    # All Pass Bootstrap CI
-    all_pass_ci = stats['all_pass_bootstrap_ci']
-    all_pass_width = all_pass_ci['ci_upper'] - all_pass_ci['ci_lower']
-    print(f"\nAll Pass (all test cases passed):")
-    print(f"  Bootstrap mean: {all_pass_ci['mean']:.4f}")
-    print(f"  Standard deviation: {all_pass_ci['std']:.4f}")
-    print(f"  Confidence interval: [{all_pass_ci['ci_lower']:.4f}, {all_pass_ci['ci_upper']:.4f}]")
-    print(f"  CI width: {all_pass_width:.4f}")
-
-    # Test Case Pass Bootstrap CI
-    test_case_ci = stats['bootstrap_ci']
-    test_case_width = test_case_ci['ci_upper'] - test_case_ci['ci_lower']
-    print(f"\nTest Case Pass (average test case pass rate):")
-    print(f"  Bootstrap mean: {test_case_ci['mean']:.4f}")
-    print(f"  Standard deviation: {test_case_ci['std']:.4f}")
-    print(f"  Confidence interval: [{test_case_ci['ci_lower']:.4f}, {test_case_ci['ci_upper']:.4f}]")
-    print(f"  CI width: {test_case_width:.4f}")
 
 
 def main():

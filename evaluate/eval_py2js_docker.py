@@ -164,21 +164,19 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
                 pkg_dir = test_pkg_dir
                 break
 
-        if not pkg_dir:
-            print(f"[WARNING] Package directory not found for {filename}")
-            continue
-
         # Get entry point from package directory
-        js_entry_path = get_entry_point_from_package(pkg_dir)
-        if not js_entry_path:
-            print(f"[WARNING] Entry point not found for {filename}")
-            continue
+        js_entry_path = None
+        if pkg_dir:
+            js_entry_path = get_entry_point_from_package(pkg_dir)
 
         passed_samples = 0
         total_samples = len(samples)
 
         for params in samples:
-            result = get_cleaned_lines(py_path, js_entry_path, params, python_bin, node_bin)
+            if js_entry_path:
+                result = get_cleaned_lines(py_path, js_entry_path, params, python_bin, node_bin)
+            else:
+                result = None
 
             if result:
                 py_lines, js_lines = result
