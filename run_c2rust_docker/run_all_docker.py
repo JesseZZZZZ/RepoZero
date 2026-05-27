@@ -28,7 +28,26 @@ DOCKER_IMAGE = os.getenv("REPOZERO_DOCKER_IMAGE", "ghcr.io/jessezzzzz/c2rust-are
 # Model configuration
 model_name = os.getenv("MODEL_NAME", "deepseek-v3.1-250821")
 actual_name = os.getenv("MODEL_NAME", "deepseek-v3.1-250821")
+import argparse
 
+parser = argparse.ArgumentParser(description="Run Docker-based evaluation with concurrent processes")
+parser.add_argument(
+    "-k", "--num-processes",
+    type=int,
+    default=4,
+    help="Number of concurrent processes (default: 4)"
+)
+parser.add_argument(
+    "-m", "--model",
+    type=str,
+    default=None,
+    help="Model name to use (overrides MODEL_NAME env var)"
+)
+args = parser.parse_args()
+
+if args.model:
+    model_name = args.model
+    actual_name = args.model
 # Gold repos list
 gold_repos = [
     "Clipper",
@@ -737,26 +756,6 @@ Hint: `{sample_executable_path}` is the compiled C++ binary — use it to debug 
 
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(description="Run Docker-based evaluation with concurrent processes")
-    parser.add_argument(
-        "-k", "--num-processes",
-        type=int,
-        default=4,
-        help="Number of concurrent processes (default: 4)"
-    )
-    parser.add_argument(
-        "-m", "--model",
-        type=str,
-        default=None,
-        help="Model name to use (overrides MODEL_NAME env var)"
-    )
-    args = parser.parse_args()
-
-    if args.model:
-        model_name = args.model
-        actual_name = args.model
 
     print(f"[CONFIG] Using {args.num_processes} concurrent processes for evaluation")
     print(f"[CONFIG] Model: {model_name}")

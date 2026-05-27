@@ -2,11 +2,18 @@ import json
 import subprocess
 import os
 import argparse
+import uuid
 from collections import defaultdict
 from pathlib import Path
 
 EVAL_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+# Docker image for Py2JS evaluation
+DOCKER_IMAGE = "ghcr.io/jessezzzzz/py2js-arena:latest"
+
+# Container workspace
+CONTAINER_WORKSPACE = "/workspace"
 
 # Default test files to evaluate
 DEFAULT_VALID_IDS = [
@@ -14,21 +21,142 @@ DEFAULT_VALID_IDS = [
 ]
 
 
+# ===== Docker Helper Functions =====
+
+def run_docker_command(cmd, timeout=60):
+    """Execute Docker command"""
+    try:
+        result = subprocess.run(
+            cmd,
+            shell=True,
+            capture_output=True,
+            text=True,
+            timeout=timeout
+        )
+        return result.returncode == 0, result.stdout, result.stderr
+    except subprocess.TimeoutExpired:
+        return False, "", f"Command timeout: {cmd}"
+    except Exception as e:
+        return False, "", str(e)
+
+
+def ensure_image_exists(image_name):
+    """Ensure Docker image exists, pull from registry if not"""
+    success, stdout, stderr = run_docker_command(f"docker images --format '{{{{.Repository}}}}:{{{{.Tag}}}}' | grep '^{image_name}$'", timeout=10)
+    if success and image_name in stdout:
+        print(f"[OK] Docker image {image_name} already exists locally")
+        return True
+
+    print(f"[PULL] Image {image_name} not found locally, pulling from registry...")
+    success, stdout, stderr = run_docker_command(f"docker pull {image_name}", timeout=300)
+    if success:
+        print(f"[OK] Docker image {image_name} pulled successfully")
+        return True
+    else:
+        print(f"[ERROR] Failed to pull Docker image {image_name}: {stderr}")
+        return False
+
+
+def create_temp_container(image_name):
+    """Create a temporary container for evaluation"""
+    container_name = f"eval-py2js-{uuid.uuid4().hex[:8]}"
+
+    # Ensure image exists
+    if not ensure_image_exists(image_name):
+        return None
+
+    # Start container
+    docker_cmd = f"docker run -d --name {container_name} "
+    docker_cmd += f"--network none "
+    docker_cmd += f"-w {CONTAINER_WORKSPACE} "
+    docker_cmd += f"{image_name} tail -f /dev/null"
+
+    success, stdout, stderr = run_docker_command(docker_cmd, timeout=30)
+
+    if not success:
+        print(f"[ERROR] Failed to start container: {stderr}")
+        return None
+
+    print(f"[OK] Created container: {container_name}")
+    return container_name
+
+
+def cleanup_container(container_name):
+    """Remove a container"""
+    if container_name:
+        run_docker_command(f"docker rm -f {container_name}", timeout=10)
+
+
+def docker_exec_file(host_path, container_name, container_path, args, timeout=5):
+    """
+    Copy a file to container and execute it.
+
+    Args:
+        host_path: Path to file on host
+        container_name: Docker container name
+        container_path: Path where file will be placed in container
+        args: Command line arguments (list)
+        timeout: Execution timeout
+
+    Returns:
+        Tuple of (stdout, returncode) or (None, -1) on failure
+    """
+    if not os.path.exists(host_path):
+        return None, -1
+
+    # Copy file to container
+    copy_cmd = ["docker", "cp", host_path, f"{container_name}:{container_path}"]
+    try:
+        result = subprocess.run(copy_cmd, capture_output=True, text=True, timeout=10)
+        if result.returncode != 0:
+            return None, -1
+    except Exception:
+        return None, -1
+
+    # Make executable if it's a binary
+    if not host_path.endswith('.py') and not host_path.endswith('.mjs') and not host_path.endswith('.js'):
+        run_docker_command(f"docker exec {container_name} chmod +x {container_path}", timeout=5)
+
+    # Execute in container
+    if host_path.endswith('.py'):
+        # For Python files, use the Python interpreter
+        exec_cmd = f"docker exec {container_name} python3 {container_path} " + " ".join(args)
+    elif host_path.endswith('.mjs') or host_path.endswith('.js'):
+        # For JS files, use node
+        exec_cmd = f"docker exec {container_name} node {container_path} " + " ".join(args)
+    else:
+        # For executables, run directly
+        exec_cmd = f"docker exec {container_name} {container_path} " + " ".join(args)
+
+    try:
+        result = subprocess.run(
+            exec_cmd,
+            shell=True,
+            capture_output=True,
+            text=True,
+            timeout=timeout
+        )
+        return result.stdout, result.returncode
+    except subprocess.TimeoutExpired:
+        return None, -1
+    except Exception:
+        return None, -1
+
+
+# ===== Evaluation Functions =====
+
 def get_entry_point_from_package(pkg_dir):
     """Read entry point file location from package directory"""
-    # Find the main .mjs file (typically named after the test)
     mjs_files = [f for f in os.listdir(pkg_dir) if f.endswith('.mjs')]
     if mjs_files:
-        # Prefer the main test file (e.g., test1.mjs)
         for f in mjs_files:
             if f.startswith('test') and f != 'package.json':
                 return os.path.join(pkg_dir, f)
-        # Fallback to first mjs file
         return os.path.join(pkg_dir, mjs_files[0])
     return None
 
 
-def get_cleaned_lines(py_path, js_entry_path, params, python_bin, node_bin):
+def get_cleaned_lines(py_path, js_entry_path, params, container_name):
     """
     Execute both Python and JavaScript with given parameters and compare output.
 
@@ -36,8 +164,7 @@ def get_cleaned_lines(py_path, js_entry_path, params, python_bin, node_bin):
         py_path: Path to Python test file
         js_entry_path: Path to JavaScript entry point (.mjs)
         params: Dictionary of parameters
-        python_bin: Python interpreter path
-        node_bin: Node.js interpreter path
+        container_name: Docker container name
 
     Returns:
         Tuple of (py_lines, js_lines) if both succeed, None otherwise
@@ -46,40 +173,31 @@ def get_cleaned_lines(py_path, js_entry_path, params, python_bin, node_bin):
     for k, v in params.items():
         cmd_args.extend([f"--{k}", str(v)])
 
-    try:
-        # Get Python executable path (test1.py -> test1_executable)
-        py_dir = os.path.dirname(py_path)
-        py_name = os.path.basename(py_path)
-        py_executable = os.path.join(py_dir, py_name.replace('.py', '_executable'))
+    # Container paths
+    py_dir = os.path.dirname(py_path)
+    py_name = os.path.basename(py_path)
+    py_executable = os.path.join(py_dir, py_name.replace('.py', '_executable'))
 
-        # Execute Python executable file
-        py_proc = subprocess.run(
-            [py_executable] + cmd_args,
-            capture_output=True,
-            text=True,
-            timeout=5
-        )
-        # Execute JavaScript file
-        js_proc = subprocess.run(
-            [node_bin, js_entry_path] + cmd_args,
-            capture_output=True,
-            text=True,
-            timeout=5
-        )
-    except Exception:
-        return None
+    container_py_path = f"{CONTAINER_WORKSPACE}/{py_name}"
+    container_py_executable = f"{CONTAINER_WORKSPACE}/{py_name.replace('.py', '_executable')}"
+    container_js_path = f"{CONTAINER_WORKSPACE}/test.mjs"
 
-    if py_proc.returncode == 0 and js_proc.returncode == 0:
-        # Clean output lines (remove extra whitespace)
-        py_lines = ["".join(line.split()) for line in py_proc.stdout.strip().splitlines() if line.strip()]
-        js_lines = ["".join(line.split()) for line in js_proc.stdout.strip().splitlines() if line.strip()]
+    # Execute Python executable file
+    py_proc = docker_exec_file(py_executable, container_name, container_py_executable, cmd_args, timeout=5)
+
+    # Execute JavaScript file
+    js_proc = docker_exec_file(js_entry_path, container_name, container_js_path, [], timeout=5)
+
+    if py_proc[1] == 0 and js_proc[1] == 0:
+        py_lines = ["".join(line.split()) for line in py_proc[0].strip().splitlines() if line.strip()]
+        js_lines = ["".join(line.split()) for line in js_proc[0].strip().splitlines() if line.strip()]
 
         if len(py_lines) == len(js_lines) and len(py_lines) > 0:
             return py_lines, js_lines
     return None
 
 
-def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin, node_bin):
+def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, container_name):
     """
     Analyze a single JSONL test case file and compute pass rates.
 
@@ -88,13 +206,11 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
         model_name: Name of the model being evaluated
         dataset_root: Root directory of the source dataset
         output_root: Root directory of generated outputs
-        python_bin: Path to Python interpreter
-        node_bin: Path to Node.js interpreter
+        container_name: Docker container name
 
     Returns:
         Dictionary containing evaluation metrics
     """
-    # First check if complete results already exist
     output_dir = os.path.join(output_root, "results", f"{model_name}_docker")
     results_dir = str(EVAL_ROOT / "results" / model_name)
     base_name = os.path.splitext(os.path.basename(jsonl_file))[0]
@@ -104,23 +220,20 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
     if os.path.exists(output_path):
         with open(output_path, 'r', encoding='utf-8') as f:
             existing_results = json.load(f)
-        # Check if tested files count equals valid_ids length
         tested_files = set(existing_results.keys())
         expected_files = set(DEFAULT_VALID_IDS)
         if len(tested_files) == len(expected_files) and tested_files == expected_files:
             print(f"[SKIP] {base_name} - Complete test results already exist ({len(tested_files)} files)")
-            # Calculate metrics
             all_pass_files = sum(1 for r in existing_results.values() if r['pass_rate'] == 1.0)
             file_count = len(existing_results)
             test_case_pass_rate = sum(r['pass_rate'] for r in existing_results.values()) / file_count
-            # API coverage cannot be recalculated from cache, return N/A for now
             return {
                 "all_pass_rate": all_pass_files / file_count,
                 "test_case_pass_rate": test_case_pass_rate,
-                "api_coverage": 0.0,  # Cannot calculate from cache
+                "api_coverage": 0.0,
                 "file_count": file_count,
                 "all_pass_files": all_pass_files,
-                "cached": True  # Mark as cached result
+                "cached": True
             }
         else:
             print(f"[CONTINUE] Results file exists but incomplete (tested {len(tested_files)}/{len(expected_files)} files), continuing...")
@@ -139,11 +252,9 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
     all_pass_files = 0
     individual_pass_rates = []
     all_sample_api_rates = []
-    # Store pass rate for each file
     file_pass_rates = {}
 
     for filename, samples in data_groups.items():
-        # Parse filename, e.g., "bencoder/test1.py" -> "bencoder" and "test1"
         if not filename in DEFAULT_VALID_IDS:
             continue
         parts = filename.replace(".py", "").split("/")
@@ -153,18 +264,13 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
 
         py_path = os.path.join(dataset_root, filename)
 
-        # Build package directory path: packages/bencoder/test1_pkg/
         pkg_dir = None
-        for base_dir in [
-            os.path.join(output_root, "packages"),
-        ]:
+        for base_dir in [os.path.join(output_root, "packages")]:
             test_pkg_dir = os.path.join(base_dir, pkg_name, f"{test_name}_pkg")
-            print(test_pkg_dir)
             if os.path.exists(test_pkg_dir):
                 pkg_dir = test_pkg_dir
                 break
 
-        # Get entry point from package directory
         js_entry_path = None
         if pkg_dir:
             js_entry_path = get_entry_point_from_package(pkg_dir)
@@ -174,21 +280,15 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
 
         for params in samples:
             if js_entry_path:
-                result = get_cleaned_lines(py_path, js_entry_path, params, python_bin, node_bin)
+                result = get_cleaned_lines(py_path, js_entry_path, params, container_name)
             else:
                 result = None
 
             if result:
                 py_lines, js_lines = result
-                match_count = sum(
-                    1 for i in range(len(py_lines))
-                    if py_lines[i] == js_lines[i]
-                )
-
-                # API coverage (within sample)
+                match_count = sum(1 for i in range(len(py_lines)) if py_lines[i] == js_lines[i])
                 sample_api_rate = match_count / len(py_lines)
                 all_sample_api_rates.append(sample_api_rate)
-
                 if match_count == len(py_lines):
                     passed_samples += 1
             else:
@@ -205,15 +305,10 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
         if passed_samples == total_samples:
             all_pass_files += 1
 
-    # ===== Three metrics =====
     all_pass_rate = all_pass_files / file_count if file_count > 0 else 0
     test_case_pass_rate = sum(individual_pass_rates) / file_count if file_count > 0 else 0
-    api_coverage = (
-        sum(all_sample_api_rates) / len(all_sample_api_rates)
-        if all_sample_api_rates else 0
-    )
+    api_coverage = sum(all_sample_api_rates) / len(all_sample_api_rates) if all_sample_api_rates else 0
 
-    # Save per-file pass rates to JSON file
     os.makedirs(results_dir, exist_ok=True)
     base_name = os.path.splitext(os.path.basename(jsonl_file))[0]
     output_path = os.path.join(results_dir, f"{base_name}_file_pass_rates.json")
@@ -229,7 +324,7 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
     }
 
 
-def analyze_directory(jsonl_dir, model_name, dataset_root, output_root, python_bin, node_bin):
+def analyze_directory(jsonl_dir, model_name, dataset_root, output_root):
     """
     Analyze all JSONL files in a directory and compute average metrics.
 
@@ -238,45 +333,53 @@ def analyze_directory(jsonl_dir, model_name, dataset_root, output_root, python_b
         model_name: Name of the model being evaluated
         dataset_root: Root directory of the source dataset
         output_root: Root directory of generated outputs
-        python_bin: Path to Python interpreter
-        node_bin: Path to Node.js interpreter
     """
     results = []
 
     jsonl_files = [f for f in os.listdir(jsonl_dir) if f.endswith(".jsonl")]
-
     print(f"[INFO] Found {len(jsonl_files)} JSONL files\n")
 
-    for file in jsonl_files:
-        path = os.path.join(jsonl_dir, file)
-        metrics = analyze_jsonl(path, model_name, dataset_root, output_root, python_bin, node_bin)
+    # Create a single container for all evaluations
+    container_name = create_temp_container(DOCKER_IMAGE)
+    if not container_name:
+        print("[ERROR] Failed to create Docker container")
+        return
 
-        print(f"===== {file} =====")
-        if metrics.get('cached'):
-            print("[FROM CACHE]")
-        print(f"Total test files: {metrics['file_count']}, all-pass files: {metrics['all_pass_files']}")
-        print(f"All-pass Rate: {metrics['all_pass_rate']:.4f}")
-        print(f"Test Case Pass Rate: {metrics['test_case_pass_rate']:.4f}")
-        if not metrics.get('cached'):
-            print(f"API Coverage: {metrics['api_coverage']:.4f}")
-        print()
+    try:
+        for file in jsonl_files:
+            path = os.path.join(jsonl_dir, file)
+            metrics = analyze_jsonl(path, model_name, dataset_root, output_root, container_name)
 
-        results.append(metrics)
+            print(f"===== {file} =====")
+            if metrics.get('cached'):
+                print("[FROM CACHE]")
+            print(f"Total test files: {metrics['file_count']}, all-pass files: {metrics['all_pass_files']}")
+            print(f"All-pass Rate: {metrics['all_pass_rate']:.4f}")
+            print(f"Test Case Pass Rate: {metrics['test_case_pass_rate']:.4f}")
+            if not metrics.get('cached'):
+                print(f"API Coverage: {metrics['api_coverage']:.4f}")
+            print()
 
-    def avg(key):
-        return sum(r[key] for r in results) / len(results) if results else 0
+            results.append(metrics)
 
-    print("=" * 60)
-    print("Overall Average Results:")
-    print(f"All-pass Rate: {avg('all_pass_rate'):.4f}")
-    print(f"Test Case Pass Rate: {avg('test_case_pass_rate'):.4f}")
-    print(f"API Coverage: {avg('api_coverage'):.4f}")
+        def avg(key):
+            return sum(r[key] for r in results) / len(results) if results else 0
+
+        print("=" * 60)
+        print("Overall Average Results:")
+        print(f"All-pass Rate: {avg('all_pass_rate'):.4f}")
+        print(f"Test Case Pass Rate: {avg('test_case_pass_rate'):.4f}")
+        print(f"API Coverage: {avg('api_coverage'):.4f}")
+
+    finally:
+        cleanup_container(container_name)
+        print(f"\n[CLEANUP] Removed container: {container_name}")
 
 
 def main():
     """Main entry point for evaluation script."""
     parser = argparse.ArgumentParser(
-        description="Evaluate Py2JS translation results (Docker-based output)",
+        description="Evaluate Py2JS translation results (Docker-based)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -289,7 +392,7 @@ Examples:
   # Specify custom paths
   python eval_py2js_docker.py --dataset-root ./Py2JS/dataset \\
       --output-root ./Py2JS/output \\
-      --jsonl-dir ./Py2JS/testcases_60
+      --jsonl-dir ./evaluate/testcases/py2js
         """
     )
     parser.add_argument(
@@ -314,24 +417,17 @@ Examples:
         "--jsonl-dir",
         type=str,
         default=None,
-        help="Directory containing JSONL test case files (default: ./Py2JS/testcases_60)"
+        help="Directory containing JSONL test case files (default: ./evaluate/testcases/py2js)"
     )
     parser.add_argument(
-        "--python-bin",
+        "--docker-image",
         type=str,
-        default="python3",
-        help="Python interpreter path (default: python3)"
-    )
-    parser.add_argument(
-        "--node-bin",
-        type=str,
-        default="node",
-        help="Node.js interpreter path (default: node)"
+        default=DOCKER_IMAGE,
+        help=f"Docker image to use (default: {DOCKER_IMAGE})"
     )
 
     args = parser.parse_args()
 
-    # Set default paths relative to script location
     script_dir = EVAL_ROOT
     repo_root = script_dir.parent
 
@@ -351,10 +447,10 @@ Examples:
     print(f"[CONFIG] Dataset root: {dataset_root}")
     print(f"[CONFIG] Output root: {output_root}")
     print(f"[CONFIG] Test cases dir: {jsonl_dir}")
-    print(f"[CONFIG] Python: {args.python_bin}, Node: {args.node_bin}")
+    print(f"[CONFIG] Docker image: {args.docker_image}")
     print()
 
-    analyze_directory(jsonl_dir, args.model_name, dataset_root, output_root, args.python_bin, args.node_bin)
+    analyze_directory(jsonl_dir, args.model_name, dataset_root, output_root)
 
 
 if __name__ == "__main__":
