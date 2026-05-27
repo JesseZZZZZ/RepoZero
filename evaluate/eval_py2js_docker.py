@@ -44,9 +44,14 @@ def get_cleaned_lines(py_path, js_entry_path, params, python_bin, node_bin):
         cmd_args.extend([f"--{k}", str(v)])
 
     try:
-        # Execute Python source file
+        # Get Python executable path (test1.py -> test1_executable)
+        py_dir = os.path.dirname(py_path)
+        py_name = os.path.basename(py_path)
+        py_executable = os.path.join(py_dir, py_name.replace('.py', '_executable'))
+
+        # Execute Python executable file
         py_proc = subprocess.run(
-            [python_bin, py_path] + cmd_args,
+            [py_executable] + cmd_args,
             capture_output=True,
             text=True,
             timeout=5
@@ -150,6 +155,7 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, python_bin,
             os.path.join(output_root, "packages"),
         ]:
             test_pkg_dir = os.path.join(base_dir, pkg_name, f"{test_name}_pkg")
+            print(test_pkg_dir)
             if os.path.exists(test_pkg_dir):
                 pkg_dir = test_pkg_dir
                 break
@@ -337,7 +343,7 @@ Examples:
 
     jsonl_dir = args.jsonl_dir
     if jsonl_dir is None:
-        jsonl_dir = str(repo_root / "Py2JS" / "testcases_60")
+        jsonl_dir = str(repo_root / "Py2JS" / "testcases_enhanced")
 
     print(f"[CONFIG] Model: {args.model_name}")
     print(f"[CONFIG] Dataset root: {dataset_root}")

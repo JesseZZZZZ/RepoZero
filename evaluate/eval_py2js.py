@@ -140,10 +140,17 @@ def main():
     parser = argparse.ArgumentParser(description="Evaluate Python-to-JS migration results")
     parser.add_argument("-m", "--model", type=str, required=True, help="Model name")
     parser.add_argument(
+        "--testcase-type",
+        type=str,
+        choices=["enhanced", "60"],
+        default="enhanced",
+        help="Testcase type: 'enhanced' for testcases_enhanced, '60' for testcases_60 (default: enhanced)",
+    )
+    parser.add_argument(
         "--jsonl-dir",
         type=str,
-        default=str(REPO_ROOT / "Py2JS" / "testcases"),
-        help="Directory containing evaluation JSONL files",
+        default=None,
+        help="Directory containing evaluation JSONL files (overrides --testcase-type if specified)",
     )
     parser.add_argument(
         "--dataset-root",
@@ -153,11 +160,19 @@ def main():
     )
     args = parser.parse_args()
 
+    # Determine jsonl_dir based on testcase_type or explicit --jsonl-dir
+    if args.jsonl_dir is not None:
+        jsonl_dir = args.jsonl_dir
+    elif args.testcase_type == "enhanced":
+        jsonl_dir = str(REPO_ROOT / "Py2JS" / "testcases_enhanced")
+    else:  # "60"
+        jsonl_dir = str(REPO_ROOT / "Py2JS" / "testcases_60")
+
     model_name   = args.model
     output_root  = str(REPO_ROOT / "Py2JS" / "output" / model_name)
     results_dir  = str(REPO_ROOT / "evaluate" / "results" / model_name)
 
-    analyze_directory(args.jsonl_dir, args.dataset_root, output_root, results_dir)
+    analyze_directory(jsonl_dir, args.dataset_root, output_root, results_dir)
 
 
 if __name__ == "__main__":
