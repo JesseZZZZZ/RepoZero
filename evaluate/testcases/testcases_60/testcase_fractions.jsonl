@@ -1,0 +1,960 @@
+{"filename": "fractions/test1.py", "a": "2/3"}
+{"filename": "fractions/test1.py", "a": "1/4"}
+{"filename": "fractions/test1.py", "a": "3/5"}
+{"filename": "fractions/test1.py", "a": "-2"}
+{"filename": "fractions/test1.py", "a": "-4"}
+{"filename": "fractions/test1.py", "a": "3/4"}
+{"filename": "fractions/test1.py", "a": "22/7"}
+{"filename": "fractions/test1.py", "a": "0.3"}
+{"filename": "fractions/test1.py", "a": "0.9"}
+{"filename": "fractions/test1.py", "a": "3/5"}
+{"filename": "fractions/test1.py", "a": "-2.25"}
+{"filename": "fractions/test1.py", "a": "-4"}
+{"filename": "fractions/test1.py", "a": "0.3"}
+{"filename": "fractions/test1.py", "a": "3/4"}
+{"filename": "fractions/test1.py", "a": "-2.25"}
+{"filename": "fractions/test1.py", "a": "0.9"}
+{"filename": "fractions/test1.py", "a": "5/6"}
+{"filename": "fractions/test1.py", "a": "78028780510071"}
+{"filename": "fractions/test1.py", "a": "220472773114923"}
+{"filename": "fractions/test1.py", "a": "698612"}
+{"filename": "fractions/test1.py", "a": "803943"}
+{"filename": "fractions/test1.py", "a": "1053713"}
+{"filename": "fractions/test1.py", "a": "2436925390"}
+{"filename": "fractions/test1.py", "a": "52734"}
+{"filename": "fractions/test1.py", "a": "134074180569"}
+{"filename": "fractions/test1.py", "a": "542245734"}
+{"filename": "fractions/test1.py", "a": "03698037282343"}
+{"filename": "fractions/test1.py", "a": "281684384402"}
+{"filename": "fractions/test1.py", "a": "2451445793"}
+{"filename": "fractions/test11.py", "a": -75, "b": 94, "c": -33, "d": 1}
+{"filename": "fractions/test11.py", "a": -93, "b": 84, "c": -22, "d": 87}
+{"filename": "fractions/test11.py", "a": 37, "b": 65, "c": 87, "d": 65}
+{"filename": "fractions/test11.py", "a": -56, "b": 33, "c": 88, "d": 31}
+{"filename": "fractions/test11.py", "a": 89, "b": 50, "c": 5, "d": 83}
+{"filename": "fractions/test11.py", "a": 94, "b": 92, "c": -63, "d": 70}
+{"filename": "fractions/test11.py", "a": -38, "b": 89, "c": -33, "d": 39}
+{"filename": "fractions/test11.py", "a": 75, "b": 55, "c": -98, "d": 79}
+{"filename": "fractions/test11.py", "a": -33, "b": 79, "c": -92, "d": 96}
+{"filename": "fractions/test11.py", "a": -60, "b": 83, "c": 8, "d": 8}
+{"filename": "fractions/test11.py", "a": -93, "b": 18, "c": -49, "d": 92}
+{"filename": "fractions/test11.py", "a": 41, "b": 67, "c": 70, "d": 52}
+{"filename": "fractions/test11.py", "a": -100, "b": 63, "c": -29, "d": 86}
+{"filename": "fractions/test11.py", "a": 38, "b": 27, "c": 22, "d": 98}
+{"filename": "fractions/test11.py", "a": 83, "b": 7, "c": -100, "d": 46}
+{"filename": "fractions/test11.py", "a": 38, "b": 12, "c": -79, "d": 53}
+{"filename": "fractions/test11.py", "a": -7, "b": 14, "c": 67, "d": 37}
+{"filename": "fractions/test11.py", "a": 39, "b": 78, "c": 44, "d": 37}
+{"filename": "fractions/test11.py", "a": 14, "b": 78, "c": 51, "d": 76}
+{"filename": "fractions/test11.py", "a": -21, "b": 92, "c": -50, "d": 71}
+{"filename": "fractions/test11.py", "a": 91925, "b": 535, "c": 253, "d": -760}
+{"filename": "fractions/test11.py", "a": 327, "b": 625835, "c": 654916, "d": 791}
+{"filename": "fractions/test11.py", "a": 76906, "b": 531503, "c": 8204, "d": 803}
+{"filename": "fractions/test11.py", "a": 948, "b": 311374, "c": 91, "d": 30}
+{"filename": "fractions/test11.py", "a": 11706, "b": 826767, "c": 996, "d": 874887}
+{"filename": "fractions/test11.py", "a": 331, "b": 701902, "c": 7280, "d": 878152}
+{"filename": "fractions/test11.py", "a": 577, "b": 2, "c": 794754, "d": 347249}
+{"filename": "fractions/test11.py", "a": 296, "b": 735728, "c": 14943, "d": 988392}
+{"filename": "fractions/test11.py", "a": 79759, "b": 8958, "c": 61338, "d": 502896}
+{"filename": "fractions/test11.py", "a": 80, "b": 533322, "c": 683, "d": 918978}
+{"filename": "fractions/test11.py", "a": 952673, "b": 89751, "c": 107139, "d": 921}
+{"filename": "fractions/test11.py", "a": 55510, "b": 788672, "c": 28, "d": 5}
+{"filename": "fractions/test11.py", "a": 477366, "b": 570710, "c": 315412, "d": 797}
+{"filename": "fractions/test11.py", "a": 785110, "b": 726868, "c": 6674, "d": 766}
+{"filename": "fractions/test11.py", "a": 135252, "b": 298, "c": 451408, "d": 7943}
+{"filename": "fractions/test11.py", "a": 599, "b": -107, "c": 92561, "d": 284}
+{"filename": "fractions/test11.py", "a": 701455, "b": 749516, "c": 76979, "d": 922}
+{"filename": "fractions/test11.py", "a": 474, "b": 963181, "c": 10, "d": 810430}
+{"filename": "fractions/test11.py", "a": 9365, "b": 84695, "c": 64, "d": 87358}
+{"filename": "fractions/test11.py", "a": 877, "b": 879, "c": 83525, "d": 56}
+{"filename": "fractions/test11.py", "a": 31, "b": 81, "c": 519, "d": 982038}
+{"filename": "fractions/test11.py", "a": 21, "b": 29876, "c": 5819, "d": 997979}
+{"filename": "fractions/test11.py", "a": 379977, "b": 930676, "c": 240056, "d": 214294}
+{"filename": "fractions/test11.py", "a": 124, "b": 647700, "c": 27891, "d": 305}
+{"filename": "fractions/test11.py", "a": 2277, "b": 515575, "c": 749858, "d": 738}
+{"filename": "fractions/test11.py", "a": 96687, "b": 69, "c": 7187, "d": -372}
+{"filename": "fractions/test11.py", "a": 519182, "b": 13, "c": 83035, "d": 6506}
+{"filename": "fractions/test11.py", "a": 5072, "b": 2096, "c": -873, "d": 7036}
+{"filename": "fractions/test11.py", "a": 8804, "b": 7146, "c": 18, "d": -445}
+{"filename": "fractions/test11.py", "a": 57, "b": -70, "c": -255, "d": 712060}
+{"filename": "fractions/test11.py", "a": 522, "b": 562, "c": 570, "d": 38514}
+{"filename": "fractions/test11.py", "a": 194, "b": 790466, "c": 21213, "d": 817}
+{"filename": "fractions/test11.py", "a": 734724, "b": 15, "c": 8716, "d": 353279}
+{"filename": "fractions/test11.py", "a": 221, "b": 397046, "c": 80456, "d": 703}
+{"filename": "fractions/test11.py", "a": 18, "b": 356757, "c": 72672, "d": 117161}
+{"filename": "fractions/test11.py", "a": 8679, "b": 6374, "c": 6994, "d": 11}
+{"filename": "fractions/test11.py", "a": 29, "b": 202, "c": 150922, "d": 769895}
+{"filename": "fractions/test11.py", "a": 478307, "b": 350, "c": 48, "d": 797790}
+{"filename": "fractions/test11.py", "a": 583, "b": 336332, "c": 848878, "d": 584}
+{"filename": "fractions/test11.py", "a": 3684, "b": 97, "c": 4169, "d": 940}
+{"filename": "fractions/test12.py", "a": -72, "b": 96, "c": 17, "d": 92}
+{"filename": "fractions/test12.py", "a": -78, "b": 13, "c": 86, "d": 28}
+{"filename": "fractions/test12.py", "a": 66, "b": 18, "c": -91, "d": 39}
+{"filename": "fractions/test12.py", "a": 52, "b": 47, "c": 31, "d": 13}
+{"filename": "fractions/test12.py", "a": 5, "b": 80, "c": -68, "d": 58}
+{"filename": "fractions/test12.py", "a": 14, "b": 26, "c": 5, "d": 24}
+{"filename": "fractions/test12.py", "a": -54, "b": 82, "c": 89, "d": 76}
+{"filename": "fractions/test12.py", "a": 73, "b": 33, "c": 89, "d": 15}
+{"filename": "fractions/test12.py", "a": -13, "b": 42, "c": -6, "d": 85}
+{"filename": "fractions/test12.py", "a": -5, "b": 7, "c": -15, "d": 95}
+{"filename": "fractions/test12.py", "a": 92, "b": 13, "c": -34, "d": 59}
+{"filename": "fractions/test12.py", "a": -92, "b": 1, "c": 56, "d": 10}
+{"filename": "fractions/test12.py", "a": 63, "b": 38, "c": -6, "d": 56}
+{"filename": "fractions/test12.py", "a": 49, "b": 57, "c": -92, "d": 75}
+{"filename": "fractions/test12.py", "a": -64, "b": 55, "c": -47, "d": 97}
+{"filename": "fractions/test12.py", "a": 12, "b": 23, "c": 56, "d": 47}
+{"filename": "fractions/test12.py", "a": 38, "b": 80, "c": 56, "d": 79}
+{"filename": "fractions/test12.py", "a": -6, "b": 55, "c": -60, "d": 31}
+{"filename": "fractions/test12.py", "a": 48, "b": 76, "c": 15, "d": 96}
+{"filename": "fractions/test12.py", "a": 97, "b": 54, "c": 53, "d": 98}
+{"filename": "fractions/test12.py", "a": 34948, "b": 74287, "c": 81, "d": 30}
+{"filename": "fractions/test12.py", "a": -638, "b": 6278, "c": 68, "d": 801539}
+{"filename": "fractions/test12.py", "a": 614373, "b": -459, "c": 963194, "d": -906}
+{"filename": "fractions/test12.py", "a": 94560, "b": 193, "c": 69831, "d": 169}
+{"filename": "fractions/test12.py", "a": 6856, "b": 711, "c": 100, "d": 260210}
+{"filename": "fractions/test12.py", "a": 6661, "b": 1107, "c": 79312, "d": 6}
+{"filename": "fractions/test12.py", "a": 42, "b": -179, "c": 195013, "d": 314}
+{"filename": "fractions/test12.py", "a": 9869, "b": 67, "c": 90, "d": 645277}
+{"filename": "fractions/test12.py", "a": -624, "b": 146148, "c": 567, "d": 25}
+{"filename": "fractions/test12.py", "a": -451, "b": 351, "c": 34209, "d": 38633}
+{"filename": "fractions/test12.py", "a": 742610, "b": 53227, "c": 24440, "d": -510}
+{"filename": "fractions/test12.py", "a": 189, "b": 420821, "c": 1572, "d": 241746}
+{"filename": "fractions/test12.py", "a": 80208, "b": 48, "c": 8118, "d": 14364}
+{"filename": "fractions/test12.py", "a": 956628, "b": 39309, "c": 35, "d": 8}
+{"filename": "fractions/test12.py", "a": 44702, "b": 41327, "c": 138, "d": 133893}
+{"filename": "fractions/test12.py", "a": 65, "b": 593416, "c": 596, "d": 373718}
+{"filename": "fractions/test12.py", "a": 183, "b": 79, "c": 5552, "d": -768}
+{"filename": "fractions/test12.py", "a": 662806, "b": 97083, "c": 206978, "d": 842}
+{"filename": "fractions/test12.py", "a": 3453, "b": 79584, "c": -520, "d": 34}
+{"filename": "fractions/test12.py", "a": 12972, "b": 55181, "c": 493069, "d": -404}
+{"filename": "fractions/test12.py", "a": 100512, "b": 386451, "c": 6, "d": 11584}
+{"filename": "fractions/test12.py", "a": 622, "b": 39, "c": 189, "d": 1140}
+{"filename": "fractions/test12.py", "a": 23434, "b": 775, "c": 737030, "d": 353959}
+{"filename": "fractions/test12.py", "a": 119243, "b": 49, "c": 579498, "d": 982}
+{"filename": "fractions/test12.py", "a": -733, "b": 71, "c": 946010, "d": 307363}
+{"filename": "fractions/test12.py", "a": 843370, "b": -608, "c": 13648, "d": 548}
+{"filename": "fractions/test12.py", "a": 79993, "b": 881294, "c": 964, "d": 532432}
+{"filename": "fractions/test12.py", "a": 85941, "b": 318, "c": 581670, "d": 385189}
+{"filename": "fractions/test12.py", "a": 751719, "b": 716, "c": 774249, "d": 622}
+{"filename": "fractions/test12.py", "a": -264, "b": 853755, "c": 610350, "d": 689888}
+{"filename": "fractions/test12.py", "a": -562, "b": 89005, "c": 14634, "d": 3194}
+{"filename": "fractions/test12.py", "a": 905326, "b": 23593, "c": 578765, "d": 801}
+{"filename": "fractions/test12.py", "a": 437221, "b": 376712, "c": 98107, "d": 224624}
+{"filename": "fractions/test12.py", "a": 86714, "b": 568, "c": 164813, "d": -237}
+{"filename": "fractions/test12.py", "a": 92361, "b": 358302, "c": 4697, "d": 902}
+{"filename": "fractions/test12.py", "a": 89, "b": 300, "c": 7312, "d": 292}
+{"filename": "fractions/test12.py", "a": 543345, "b": 875573, "c": 484455, "d": 981}
+{"filename": "fractions/test12.py", "a": 6913, "b": 593, "c": 998095, "d": 4146}
+{"filename": "fractions/test12.py", "a": 693, "b": 709, "c": 395, "d": 959983}
+{"filename": "fractions/test12.py", "a": 59272, "b": 700636, "c": 435002, "d": 26496}
+{"filename": "fractions/test13.py", "a": 3.0, "b": -9.2}
+{"filename": "fractions/test13.py", "a": -18.9, "b": 10.6}
+{"filename": "fractions/test13.py", "a": 2.9, "b": 10.5}
+{"filename": "fractions/test13.py", "a": -11.2, "b": -11.3}
+{"filename": "fractions/test13.py", "a": 7.7, "b": -17.2}
+{"filename": "fractions/test13.py", "a": -17.8, "b": -10.6}
+{"filename": "fractions/test13.py", "a": 1.2, "b": -3.1}
+{"filename": "fractions/test13.py", "a": 18.5, "b": 15.5}
+{"filename": "fractions/test13.py", "a": 5.7, "b": 7.8}
+{"filename": "fractions/test13.py", "a": 10.2, "b": -19.6}
+{"filename": "fractions/test13.py", "a": 18.5, "b": 2.9}
+{"filename": "fractions/test13.py", "a": 9.3, "b": 0.7}
+{"filename": "fractions/test13.py", "a": 10.8, "b": -10.9}
+{"filename": "fractions/test13.py", "a": -10.1, "b": 3.5}
+{"filename": "fractions/test13.py", "a": 6.1, "b": 14.0}
+{"filename": "fractions/test13.py", "a": 4.4, "b": 8.5}
+{"filename": "fractions/test13.py", "a": 11.2, "b": 12.0}
+{"filename": "fractions/test13.py", "a": -2.0, "b": 11.0}
+{"filename": "fractions/test13.py", "a": 7.2, "b": -13.0}
+{"filename": "fractions/test13.py", "a": -8.4, "b": 3.7}
+{"filename": "fractions/test13.py", "a": 48.393422, "b": 7.859643}
+{"filename": "fractions/test13.py", "a": 55.445, "b": 5.26116}
+{"filename": "fractions/test13.py", "a": 221.79740815, "b": 68.98}
+{"filename": "fractions/test13.py", "a": 0.0881944, "b": 3.3664903}
+{"filename": "fractions/test13.py", "a": 96.4, "b": 608.1023768}
+{"filename": "fractions/test13.py", "a": -1.3753285203, "b": 6.235755728}
+{"filename": "fractions/test13.py", "a": 0.07, "b": -6.9743116}
+{"filename": "fractions/test13.py", "a": 4.1, "b": 117.2611}
+{"filename": "fractions/test13.py", "a": 3.030363954, "b": 0.0464}
+{"filename": "fractions/test13.py", "a": 70.014059, "b": 8.45086}
+{"filename": "fractions/test13.py", "a": 45.2, "b": 974.999235}
+{"filename": "fractions/test13.py", "a": 305.05389237, "b": 54.43}
+{"filename": "fractions/test13.py", "a": 705.07919, "b": 65.6}
+{"filename": "fractions/test13.py", "a": 37.4, "b": 0.0364}
+{"filename": "fractions/test13.py", "a": 145.25, "b": 0.39}
+{"filename": "fractions/test13.py", "a": 0.06, "b": -3.04017}
+{"filename": "fractions/test13.py", "a": 6.8, "b": 544.8}
+{"filename": "fractions/test13.py", "a": 7.0152000017, "b": 4.445}
+{"filename": "fractions/test13.py", "a": 742.75021, "b": 80.14}
+{"filename": "fractions/test13.py", "a": 784.734, "b": 0.0105576313}
+{"filename": "fractions/test13.py", "a": 42.309, "b": 0.078276345}
+{"filename": "fractions/test13.py", "a": -9.2904365034, "b": 98.05}
+{"filename": "fractions/test13.py", "a": 64.751, "b": 26.744}
+{"filename": "fractions/test13.py", "a": 971.879, "b": 9.7272}
+{"filename": "fractions/test13.py", "a": 0.076699426, "b": 70.325}
+{"filename": "fractions/test13.py", "a": 2.42, "b": 607.145503091}
+{"filename": "fractions/test13.py", "a": 7.88736, "b": -6.694}
+{"filename": "fractions/test13.py", "a": 92.02065966, "b": 0.0822}
+{"filename": "fractions/test13.py", "a": 795.4, "b": 58.422685}
+{"filename": "fractions/test13.py", "a": -7.7467854, "b": 285.50437783}
+{"filename": "fractions/test13.py", "a": 1.469955379, "b": 76.9511935}
+{"filename": "fractions/test13.py", "a": 0.1, "b": 1.95073941}
+{"filename": "fractions/test13.py", "a": 6.5662816, "b": 2.1485259204}
+{"filename": "fractions/test13.py", "a": 654.68556, "b": -5.31}
+{"filename": "fractions/test13.py", "a": -6.1225, "b": 881.121632087}
+{"filename": "fractions/test13.py", "a": 7.155818896, "b": 4.89643956}
+{"filename": "fractions/test13.py", "a": 251.0054, "b": 52.732}
+{"filename": "fractions/test13.py", "a": 35.893898749, "b": 21.6747050916}
+{"filename": "fractions/test13.py", "a": 223.59960166, "b": 1.66}
+{"filename": "fractions/test14.py", "a": -50, "b": 16, "c": -43, "d": 79}
+{"filename": "fractions/test14.py", "a": -13, "b": 34, "c": -46, "d": 78}
+{"filename": "fractions/test14.py", "a": -32, "b": 11, "c": -56, "d": 46}
+{"filename": "fractions/test14.py", "a": -41, "b": 100, "c": -88, "d": 37}
+{"filename": "fractions/test14.py", "a": -37, "b": 85, "c": -82, "d": 25}
+{"filename": "fractions/test14.py", "a": 29, "b": 57, "c": 53, "d": 91}
+{"filename": "fractions/test14.py", "a": -14, "b": 82, "c": -54, "d": 33}
+{"filename": "fractions/test14.py", "a": 53, "b": 10, "c": 67, "d": 49}
+{"filename": "fractions/test14.py", "a": -8, "b": 79, "c": -48, "d": 17}
+{"filename": "fractions/test14.py", "a": 50, "b": 2, "c": -81, "d": 18}
+{"filename": "fractions/test14.py", "a": 50, "b": 30, "c": -96, "d": 37}
+{"filename": "fractions/test14.py", "a": 9, "b": 49, "c": 56, "d": 98}
+{"filename": "fractions/test14.py", "a": -69, "b": 9, "c": -7, "d": 16}
+{"filename": "fractions/test14.py", "a": -66, "b": 64, "c": 81, "d": 70}
+{"filename": "fractions/test14.py", "a": -46, "b": 54, "c": 47, "d": 33}
+{"filename": "fractions/test14.py", "a": -4, "b": 68, "c": -66, "d": 34}
+{"filename": "fractions/test14.py", "a": 1, "b": 24, "c": 78, "d": 78}
+{"filename": "fractions/test14.py", "a": -56, "b": 79, "c": 41, "d": 42}
+{"filename": "fractions/test14.py", "a": 58, "b": 95, "c": 69, "d": 19}
+{"filename": "fractions/test14.py", "a": 73, "b": 12, "c": 42, "d": 52}
+{"filename": "fractions/test14.py", "a": 220, "b": 2833, "c": 115486, "d": 642}
+{"filename": "fractions/test14.py", "a": 404697, "b": 8946, "c": -29, "d": 240223}
+{"filename": "fractions/test14.py", "a": 7984, "b": 769654, "c": 516360, "d": 862}
+{"filename": "fractions/test14.py", "a": 976, "b": 657038, "c": 597556, "d": 5700}
+{"filename": "fractions/test14.py", "a": 994, "b": 476, "c": 709388, "d": 31405}
+{"filename": "fractions/test14.py", "a": 97, "b": 173, "c": 8792, "d": -444}
+{"filename": "fractions/test14.py", "a": 888700, "b": 376456, "c": 9852, "d": 742}
+{"filename": "fractions/test14.py", "a": 518, "b": 800, "c": 3383, "d": 7195}
+{"filename": "fractions/test14.py", "a": 91662, "b": 6539, "c": 42454, "d": 780180}
+{"filename": "fractions/test14.py", "a": 446380, "b": 904291, "c": 344438, "d": -635}
+{"filename": "fractions/test14.py", "a": 163, "b": 796308, "c": 738543, "d": 45434}
+{"filename": "fractions/test14.py", "a": 22639, "b": 510082, "c": 919414, "d": 529594}
+{"filename": "fractions/test14.py", "a": 5416, "b": 746527, "c": 852, "d": 622581}
+{"filename": "fractions/test14.py", "a": 105898, "b": 4003, "c": 49835, "d": 767}
+{"filename": "fractions/test14.py", "a": 1603, "b": 1818, "c": 59, "d": 938926}
+{"filename": "fractions/test14.py", "a": 656958, "b": 810365, "c": 984, "d": 20081}
+{"filename": "fractions/test14.py", "a": 324, "b": 56248, "c": 6739, "d": 318095}
+{"filename": "fractions/test14.py", "a": 461, "b": 371428, "c": 912, "d": 10}
+{"filename": "fractions/test14.py", "a": 484, "b": -594, "c": 635, "d": 234}
+{"filename": "fractions/test14.py", "a": 9176, "b": -85, "c": 83, "d": 34543}
+{"filename": "fractions/test14.py", "a": -491, "b": 172030, "c": 95930, "d": 93}
+{"filename": "fractions/test14.py", "a": 1800, "b": 2958, "c": 794913, "d": 2056}
+{"filename": "fractions/test14.py", "a": 9728, "b": 693674, "c": 2608, "d": 483863}
+{"filename": "fractions/test14.py", "a": 5844, "b": 334765, "c": 85, "d": 513}
+{"filename": "fractions/test14.py", "a": 1622, "b": 19, "c": 7485, "d": 219}
+{"filename": "fractions/test14.py", "a": 2303, "b": 18973, "c": 89967, "d": 962}
+{"filename": "fractions/test14.py", "a": 9615, "b": 883756, "c": 2244, "d": 970}
+{"filename": "fractions/test14.py", "a": 7305, "b": -478, "c": 594145, "d": 144}
+{"filename": "fractions/test14.py", "a": 717, "b": 482997, "c": 414474, "d": 11438}
+{"filename": "fractions/test14.py", "a": 14712, "b": 83458, "c": -735, "d": 499}
+{"filename": "fractions/test14.py", "a": 2350, "b": 795, "c": 220179, "d": -473}
+{"filename": "fractions/test14.py", "a": 2903, "b": 89, "c": 52, "d": 536567}
+{"filename": "fractions/test14.py", "a": 80430, "b": 30220, "c": 709070, "d": 43}
+{"filename": "fractions/test14.py", "a": 69, "b": 72, "c": 31221, "d": 507}
+{"filename": "fractions/test14.py", "a": 977, "b": 287, "c": 82, "d": 564411}
+{"filename": "fractions/test14.py", "a": 1950, "b": 84602, "c": 5273, "d": 2061}
+{"filename": "fractions/test14.py", "a": -534, "b": -579, "c": 25, "d": 290219}
+{"filename": "fractions/test14.py", "a": 887453, "b": 467, "c": -622, "d": 51920}
+{"filename": "fractions/test14.py", "a": 57, "b": 3508, "c": 89, "d": 807}
+{"filename": "fractions/test14.py", "a": 28, "b": 5, "c": 2141, "d": 756287}
+{"filename": "fractions/test15.py", "a": "5/6", "b": "0.3"}
+{"filename": "fractions/test15.py", "a": "4/5", "b": "5/6"}
+{"filename": "fractions/test15.py", "a": "0.7", "b": "355/113"}
+{"filename": "fractions/test15.py", "a": "1", "b": "0.9"}
+{"filename": "fractions/test15.py", "a": "355/113", "b": "3"}
+{"filename": "fractions/test15.py", "a": "1/4", "b": "5/6"}
+{"filename": "fractions/test15.py", "a": "0", "b": "3/4"}
+{"filename": "fractions/test15.py", "a": "1/2", "b": "19/7"}
+{"filename": "fractions/test15.py", "a": "0.1", "b": "1/3"}
+{"filename": "fractions/test15.py", "a": "0", "b": "0.75"}
+{"filename": "fractions/test15.py", "a": "3/4", "b": "0/1"}
+{"filename": "fractions/test15.py", "a": "-4", "b": "5/6"}
+{"filename": "fractions/test15.py", "a": "0.25", "b": "0.25"}
+{"filename": "fractions/test15.py", "a": "82320057", "b": "5842530"}
+{"filename": "fractions/test15.py", "a": "180098269", "b": "317856"}
+{"filename": "fractions/test16.py", "a": -75, "b": 30, "c": -61, "d": 58, "e": -18}
+{"filename": "fractions/test16.py", "a": 18, "b": 31, "c": -96, "d": 60, "e": 28}
+{"filename": "fractions/test16.py", "a": 89, "b": 35, "c": 0, "d": 53, "e": -11}
+{"filename": "fractions/test16.py", "a": 97, "b": 22, "c": 22, "d": 50, "e": 13}
+{"filename": "fractions/test16.py", "a": 99, "b": 4, "c": -26, "d": 38, "e": 93}
+{"filename": "fractions/test16.py", "a": 9, "b": 15, "c": 1, "d": 24, "e": 22}
+{"filename": "fractions/test16.py", "a": 52, "b": 86, "c": -15, "d": 20, "e": 56}
+{"filename": "fractions/test16.py", "a": -73, "b": 32, "c": -66, "d": 19, "e": -46}
+{"filename": "fractions/test16.py", "a": -36, "b": 47, "c": -99, "d": 74, "e": -47}
+{"filename": "fractions/test16.py", "a": -33, "b": 94, "c": 3, "d": 9, "e": 64}
+{"filename": "fractions/test16.py", "a": 82, "b": 54, "c": 20, "d": 18, "e": -37}
+{"filename": "fractions/test16.py", "a": -85, "b": 56, "c": -74, "d": 47, "e": 21}
+{"filename": "fractions/test16.py", "a": -94, "b": 85, "c": 36, "d": 81, "e": -2}
+{"filename": "fractions/test16.py", "a": 7, "b": 82, "c": -26, "d": 48, "e": 20}
+{"filename": "fractions/test16.py", "a": -19, "b": 85, "c": -68, "d": 30, "e": -24}
+{"filename": "fractions/test16.py", "a": 85, "b": 95, "c": -85, "d": 66, "e": 93}
+{"filename": "fractions/test16.py", "a": -51, "b": 5, "c": 85, "d": 2, "e": -5}
+{"filename": "fractions/test16.py", "a": 75, "b": 5, "c": -2, "d": 32, "e": 94}
+{"filename": "fractions/test16.py", "a": 18, "b": 32, "c": -85, "d": 55, "e": 29}
+{"filename": "fractions/test16.py", "a": 41, "b": 35, "c": -80, "d": 42, "e": -25}
+{"filename": "fractions/test16.py", "a": 5541, "b": 959897, "c": 580415, "d": 33576, "e": 872}
+{"filename": "fractions/test16.py", "a": 187, "b": 987, "c": 9, "d": 6602, "e": 830223}
+{"filename": "fractions/test16.py", "a": 72, "b": 424, "c": 9502, "d": 91, "e": 37}
+{"filename": "fractions/test16.py", "a": 45, "b": 417218, "c": 7936, "d": -253, "e": 12991}
+{"filename": "fractions/test16.py", "a": 870410, "b": 4295, "c": 34, "d": 1798, "e": 804}
+{"filename": "fractions/test16.py", "a": 278087, "b": 2596, "c": 4017, "d": 688494, "e": 372404}
+{"filename": "fractions/test16.py", "a": -49, "b": 4782, "c": 648484, "d": 147040, "e": 751165}
+{"filename": "fractions/test16.py", "a": 209370, "b": 1488, "c": 100, "d": 572575, "e": 7113}
+{"filename": "fractions/test16.py", "a": -28, "b": 1323, "c": 443, "d": 94163, "e": 78}
+{"filename": "fractions/test16.py", "a": 577798, "b": 9440, "c": 901, "d": 465, "e": 2883}
+{"filename": "fractions/test16.py", "a": 9064, "b": 1330, "c": 8728, "d": 678, "e": 177}
+{"filename": "fractions/test16.py", "a": 34, "b": 549, "c": 2058, "d": 291773, "e": 408}
+{"filename": "fractions/test16.py", "a": -435, "b": 992, "c": 255296, "d": 11017, "e": 8968}
+{"filename": "fractions/test16.py", "a": 174, "b": 882, "c": 36981, "d": 145, "e": 4}
+{"filename": "fractions/test16.py", "a": -910, "b": 75013, "c": 96620, "d": 644, "e": 868}
+{"filename": "fractions/test16.py", "a": 13899, "b": 787757, "c": 511, "d": 1650, "e": 5682}
+{"filename": "fractions/test16.py", "a": 785741, "b": 857993, "c": 4703, "d": 57662, "e": 59}
+{"filename": "fractions/test16.py", "a": 69419, "b": 868601, "c": 29, "d": 1888, "e": 58747}
+{"filename": "fractions/test16.py", "a": 904, "b": 6271, "c": 29783, "d": 198040, "e": 33}
+{"filename": "fractions/test16.py", "a": 64898, "b": 34, "c": 612320, "d": 97695, "e": 668382}
+{"filename": "fractions/test16.py", "a": 464104, "b": 999, "c": 703, "d": 3584, "e": -79}
+{"filename": "fractions/test16.py", "a": 9696, "b": 539412, "c": 592, "d": 9504, "e": 678}
+{"filename": "fractions/test16.py", "a": 960, "b": 80176, "c": 2581, "d": 134, "e": 264}
+{"filename": "fractions/test16.py", "a": 50529, "b": 9173, "c": 567, "d": 762, "e": 61466}
+{"filename": "fractions/test16.py", "a": 860944, "b": 754825, "c": 271, "d": 10066, "e": 695}
+{"filename": "fractions/test16.py", "a": 351, "b": 86852, "c": 9074, "d": 1102, "e": -205}
+{"filename": "fractions/test16.py", "a": 90714, "b": 1517, "c": 528942, "d": 761, "e": 387845}
+{"filename": "fractions/test16.py", "a": 178966, "b": 9203, "c": 94, "d": 9697, "e": 790131}
+{"filename": "fractions/test16.py", "a": 948831, "b": 780, "c": 503, "d": 53524, "e": 91}
+{"filename": "fractions/test16.py", "a": 154355, "b": 42, "c": 2773, "d": 61, "e": 69646}
+{"filename": "fractions/test16.py", "a": 8584, "b": -266, "c": 616, "d": 889221, "e": 782877}
+{"filename": "fractions/test16.py", "a": 870, "b": 986, "c": 450, "d": 145647, "e": 83}
+{"filename": "fractions/test16.py", "a": 302257, "b": 35025, "c": 465740, "d": -968, "e": 5917}
+{"filename": "fractions/test16.py", "a": 3128, "b": 448031, "c": 589, "d": 59, "e": 876844}
+{"filename": "fractions/test16.py", "a": 72923, "b": 65, "c": 698, "d": -894, "e": 51218}
+{"filename": "fractions/test16.py", "a": 49, "b": 83, "c": 576, "d": 707218, "e": -773}
+{"filename": "fractions/test16.py", "a": 17351, "b": 9461, "c": 65, "d": 230353, "e": 7976}
+{"filename": "fractions/test16.py", "a": 632176, "b": 3768, "c": -268, "d": 303618, "e": 283}
+{"filename": "fractions/test16.py", "a": 648492, "b": 124, "c": 856, "d": 248, "e": 80637}
+{"filename": "fractions/test16.py", "a": 253, "b": 864, "c": 4729, "d": 101, "e": 712989}
+{"filename": "fractions/test17.py", "a": -93, "b": 81, "c": 68, "d": 30, "limit": 100}
+{"filename": "fractions/test17.py", "a": -62, "b": 50, "c": 44, "d": 100, "limit": 10}
+{"filename": "fractions/test17.py", "a": -48, "b": 100, "c": 89, "d": 61, "limit": 100}
+{"filename": "fractions/test17.py", "a": -10, "b": 42, "c": -51, "d": 23, "limit": 20}
+{"filename": "fractions/test17.py", "a": 56, "b": 8, "c": -7, "d": 91, "limit": 100}
+{"filename": "fractions/test17.py", "a": -31, "b": 70, "c": 21, "d": 30, "limit": 10}
+{"filename": "fractions/test17.py", "a": -32, "b": 74, "c": -30, "d": 20, "limit": 100}
+{"filename": "fractions/test17.py", "a": 27, "b": 31, "c": -90, "d": 56, "limit": 100}
+{"filename": "fractions/test17.py", "a": -58, "b": 97, "c": 1, "d": 4, "limit": 50}
+{"filename": "fractions/test17.py", "a": 19, "b": 25, "c": 61, "d": 51, "limit": 10}
+{"filename": "fractions/test17.py", "a": -87, "b": 33, "c": -39, "d": 57, "limit": 100}
+{"filename": "fractions/test17.py", "a": -23, "b": 95, "c": -52, "d": 27, "limit": 100}
+{"filename": "fractions/test17.py", "a": -100, "b": 2, "c": -47, "d": 87, "limit": 10}
+{"filename": "fractions/test17.py", "a": 98, "b": 54, "c": -48, "d": 88, "limit": 100}
+{"filename": "fractions/test17.py", "a": -48, "b": 23, "c": 38, "d": 17, "limit": 100}
+{"filename": "fractions/test17.py", "a": -63, "b": 19, "c": 57, "d": 53, "limit": 10}
+{"filename": "fractions/test17.py", "a": -62, "b": 54, "c": -8, "d": 63, "limit": 20}
+{"filename": "fractions/test17.py", "a": 86, "b": 96, "c": -68, "d": 29, "limit": 100}
+{"filename": "fractions/test17.py", "a": 44, "b": 14, "c": -56, "d": 53, "limit": 50}
+{"filename": "fractions/test17.py", "a": -5, "b": 8, "c": 74, "d": 61, "limit": 1000}
+{"filename": "fractions/test17.py", "a": 7706, "b": 71455, "c": 71, "d": 175200, "limit": 950341}
+{"filename": "fractions/test17.py", "a": -566, "b": 977987, "c": 155, "d": 1578, "limit": 2192}
+{"filename": "fractions/test17.py", "a": 885, "b": 32, "c": -959, "d": 7641, "limit": 948358}
+{"filename": "fractions/test17.py", "a": 645406, "b": 299, "c": -241, "d": 2404, "limit": 6351}
+{"filename": "fractions/test17.py", "a": 958, "b": 60, "c": 2250, "d": 871855, "limit": 642751}
+{"filename": "fractions/test17.py", "a": 119270, "b": 449, "c": 766, "d": 138770, "limit": 366850}
+{"filename": "fractions/test17.py", "a": 79, "b": 870387, "c": 47066, "d": -122, "limit": 59}
+{"filename": "fractions/test17.py", "a": -109, "b": 66, "c": 5557, "d": 917, "limit": 887}
+{"filename": "fractions/test17.py", "a": 101226, "b": 874, "c": 598, "d": 942, "limit": 37}
+{"filename": "fractions/test17.py", "a": 718110, "b": 40, "c": 165, "d": 98148, "limit": 52}
+{"filename": "fractions/test17.py", "a": 51, "b": 90, "c": 4319, "d": 6946, "limit": 7886}
+{"filename": "fractions/test17.py", "a": 384193, "b": -874, "c": 163430, "d": 481554, "limit": 5690}
+{"filename": "fractions/test17.py", "a": 621, "b": 77393, "c": 695, "d": 57262, "limit": 83}
+{"filename": "fractions/test17.py", "a": 979, "b": 405, "c": 331, "d": 50868, "limit": 80443}
+{"filename": "fractions/test17.py", "a": 4706, "b": 925, "c": 33386, "d": 96184, "limit": 485}
+{"filename": "fractions/test17.py", "a": 840, "b": -877, "c": 131229, "d": 34, "limit": 739}
+{"filename": "fractions/test17.py", "a": 7947, "b": 178, "c": 993176, "d": 2746, "limit": 40}
+{"filename": "fractions/test17.py", "a": 519551, "b": 77743, "c": 406849, "d": 57104, "limit": 880}
+{"filename": "fractions/test17.py", "a": 4883, "b": 202, "c": -119, "d": 65323, "limit": 964}
+{"filename": "fractions/test17.py", "a": 14, "b": 27, "c": 537434, "d": 288, "limit": 8436}
+{"filename": "fractions/test17.py", "a": 430619, "b": -343, "c": 285, "d": 944786, "limit": 9727}
+{"filename": "fractions/test17.py", "a": 26, "b": 180, "c": -140, "d": 136207, "limit": 806668}
+{"filename": "fractions/test17.py", "a": 808105, "b": 191, "c": 4653, "d": 656, "limit": 99}
+{"filename": "fractions/test17.py", "a": 27690, "b": 72448, "c": 671639, "d": 32, "limit": 203}
+{"filename": "fractions/test17.py", "a": 32, "b": 625, "c": -616, "d": 16976, "limit": 23}
+{"filename": "fractions/test17.py", "a": 575847, "b": 99060, "c": 6479, "d": 474013, "limit": 73614}
+{"filename": "fractions/test17.py", "a": 784666, "b": 528234, "c": 7950, "d": 585, "limit": 605}
+{"filename": "fractions/test17.py", "a": 582, "b": 970911, "c": 97, "d": 537165, "limit": 1165}
+{"filename": "fractions/test17.py", "a": 9510, "b": 12, "c": 26435, "d": 268, "limit": 270922}
+{"filename": "fractions/test17.py", "a": -974, "b": 677, "c": 8606, "d": 254434, "limit": 8420}
+{"filename": "fractions/test17.py", "a": 638783, "b": 892522, "c": -509, "d": 136312, "limit": 646}
+{"filename": "fractions/test17.py", "a": 1658, "b": 49, "c": 743261, "d": 321375, "limit": 97}
+{"filename": "fractions/test17.py", "a": 88812, "b": 1927, "c": 18, "d": 89169, "limit": 96479}
+{"filename": "fractions/test17.py", "a": 791362, "b": -940, "c": 644079, "d": 2736, "limit": 393}
+{"filename": "fractions/test17.py", "a": 5330, "b": -161, "c": 777901, "d": 80125, "limit": 436}
+{"filename": "fractions/test17.py", "a": 1015, "b": 2607, "c": 27, "d": 553, "limit": 119150}
+{"filename": "fractions/test19.py", "a": -2.5, "b": -2.3, "c": -11.0, "d": 7.7}
+{"filename": "fractions/test19.py", "a": 3.141592653589793, "b": -4.6, "c": 15.5, "d": 0.3}
+{"filename": "fractions/test19.py", "a": 10.1, "b": 5.1, "c": 0.2, "d": 4.8}
+{"filename": "fractions/test19.py", "a": -2.1, "b": 4.3, "c": 4.0, "d": -13.0}
+{"filename": "fractions/test19.py", "a": 5.8, "b": -8.9, "c": 4.2, "d": -14.7}
+{"filename": "fractions/test19.py", "a": 1.3, "b": -8.5, "c": 16.2, "d": 13.5}
+{"filename": "fractions/test19.py", "a": -17.7, "b": 0.3, "c": -11.0, "d": 11.2}
+{"filename": "fractions/test19.py", "a": -9.7, "b": -6.1, "c": 15.1, "d": 0.4}
+{"filename": "fractions/test19.py", "a": -9.9, "b": -17.2, "c": -5.8, "d": -2.7}
+{"filename": "fractions/test19.py", "a": 3.6, "b": -12.2, "c": 19.3, "d": -6.0}
+{"filename": "fractions/test19.py", "a": 16.8, "b": -11.5, "c": 8.0, "d": 0.8}
+{"filename": "fractions/test19.py", "a": 12.9, "b": 0.1, "c": 9.4, "d": 8.3}
+{"filename": "fractions/test19.py", "a": 10.8, "b": -4.6, "c": 11.3, "d": 15.7}
+{"filename": "fractions/test19.py", "a": -14.6, "b": -12.9, "c": 5.8, "d": -9.7}
+{"filename": "fractions/test19.py", "a": 10.4, "b": 9.5, "c": -6.1, "d": -16.1}
+{"filename": "fractions/test19.py", "a": 9.1, "b": 20.0, "c": 5.1, "d": -7.0}
+{"filename": "fractions/test19.py", "a": 11.5, "b": -1.6, "c": 14.9, "d": -5.0}
+{"filename": "fractions/test19.py", "a": 17.4, "b": 12.4, "c": 19.2, "d": 4.3}
+{"filename": "fractions/test19.py", "a": 14.2, "b": -15.5, "c": -5.2, "d": 11.9}
+{"filename": "fractions/test19.py", "a": -2.5, "b": -5.6, "c": -17.3, "d": -7.5}
+{"filename": "fractions/test19.py", "a": 5.17002495, "b": -3.4812, "c": 8.7018650037, "d": 0.04619}
+{"filename": "fractions/test19.py", "a": 8.11279501, "b": -2.6226, "c": 47.622377098, "d": 0.613}
+{"filename": "fractions/test19.py", "a": 99.2, "b": 60.559619, "c": 1.2564, "d": 55.4}
+{"filename": "fractions/test19.py", "a": 164.8923, "b": 0.0339994064, "c": 91.5, "d": 854.2704036}
+{"filename": "fractions/test19.py", "a": 612.275439012, "b": 501.0683185, "c": 1.538, "d": -5.12387}
+{"filename": "fractions/test19.py", "a": 9.5, "b": 0.0748688345, "c": 0.01254, "d": -0.56683397}
+{"filename": "fractions/test19.py", "a": 0.089468, "b": 0.085, "c": 0.05777619, "d": 0.0517292}
+{"filename": "fractions/test19.py", "a": -2.10811544, "b": 26.3, "c": 263.75072912, "d": 476.06644936}
+{"filename": "fractions/test19.py", "a": 0.14758, "b": 2.9, "c": 757.62, "d": 44.9}
+{"filename": "fractions/test19.py", "a": 8.4, "b": 8.1342984, "c": 0.013044535, "d": 223.58}
+{"filename": "fractions/test19.py", "a": 37.5, "b": 75.441, "c": 3.445, "d": 5.3624685407}
+{"filename": "fractions/test19.py", "a": 0.019630468, "b": 8.068, "c": 0.445565688, "d": 0.82}
+{"filename": "fractions/test19.py", "a": 0.0546, "b": 35.07544, "c": 81.95, "d": 3.76367118}
+{"filename": "fractions/test19.py", "a": 3.391876, "b": 18.191, "c": 2.41, "d": 0.075}
+{"filename": "fractions/test19.py", "a": 948.5339152, "b": 39.8, "c": 0.465164389, "d": 25.8623271}
+{"filename": "fractions/test19.py", "a": -0.30121633, "b": -2.3241, "c": 0.09334, "d": 323.99}
+{"filename": "fractions/test19.py", "a": 21.45788553, "b": 314.747, "c": -7.9276, "d": 5.2195326}
+{"filename": "fractions/test19.py", "a": 9.10274, "b": -7.76239606, "c": 2.546198, "d": 851.2489}
+{"filename": "fractions/test19.py", "a": 74.951967, "b": -0.16, "c": 6.6, "d": 22.2}
+{"filename": "fractions/test19.py", "a": 255.4905607, "b": 2.04818267, "c": 5.5293, "d": 200.277}
+{"filename": "fractions/test19.py", "a": 7.881, "b": 0.0021832, "c": 222.3367, "d": 92.571}
+{"filename": "fractions/test19.py", "a": 8.9521, "b": 52.0047977, "c": -7.09840026, "d": 5.438}
+{"filename": "fractions/test19.py", "a": 556.8455, "b": 741.79, "c": 66.662047794, "d": 0.0749}
+{"filename": "fractions/test19.py", "a": 19.574437, "b": 0.61, "c": 2.5521661477, "d": 0.0233578}
+{"filename": "fractions/test19.py", "a": -9.39, "b": 779.5801942281, "c": 6.4556248, "d": 0.0835}
+{"filename": "fractions/test19.py", "a": 6.6967986, "b": 0.034212, "c": 52.63155, "d": 3.3}
+{"filename": "fractions/test19.py", "a": 67.23836, "b": 281.6179636, "c": 0.01486, "d": 0.0593}
+{"filename": "fractions/test19.py", "a": 7.3, "b": 138.2107301691, "c": 0.029114688, "d": 0.0348}
+{"filename": "fractions/test19.py", "a": -1.902978, "b": 719.585646, "c": 0.06456, "d": 3.60588758}
+{"filename": "fractions/test19.py", "a": 378.5815, "b": 0.0436447, "c": 315.8724954759, "d": 653.8587}
+{"filename": "fractions/test19.py", "a": 3.45008, "b": 53.85, "c": -2.7654813, "d": 0.01631269}
+{"filename": "fractions/test19.py", "a": 6.5264, "b": 0.0288, "c": 38.6862, "d": 824.5}
+{"filename": "fractions/test19.py", "a": 0.01745291, "b": 614.0, "c": 85.916645693, "d": 5.1}
+{"filename": "fractions/test19.py", "a": 49.31, "b": 72.0490133, "c": 0.016179, "d": 5.597288}
+{"filename": "fractions/test19.py", "a": 3.5640649825, "b": 10.65239, "c": 8.23921269, "d": 0.1}
+{"filename": "fractions/test19.py", "a": 5.160416, "b": 141.87454, "c": -1.22, "d": 47.6513}
+{"filename": "fractions/test19.py", "a": 3.1, "b": -7.59, "c": 10.8922418, "d": -6.50160536}
+{"filename": "fractions/test19.py", "a": 0.0162, "b": 12.6, "c": 5.23, "d": 4.76258}
+{"filename": "fractions/test2.py", "a": 9, "b": 81}
+{"filename": "fractions/test2.py", "a": 98, "b": 80}
+{"filename": "fractions/test2.py", "a": -40, "b": 91}
+{"filename": "fractions/test2.py", "a": -84, "b": 59}
+{"filename": "fractions/test2.py", "a": -22, "b": 37}
+{"filename": "fractions/test2.py", "a": 75, "b": 1}
+{"filename": "fractions/test2.py", "a": 38, "b": 40}
+{"filename": "fractions/test2.py", "a": 6, "b": 2}
+{"filename": "fractions/test2.py", "a": 9, "b": 22}
+{"filename": "fractions/test2.py", "a": -94, "b": 63}
+{"filename": "fractions/test2.py", "a": 12, "b": 20}
+{"filename": "fractions/test2.py", "a": 51, "b": 54}
+{"filename": "fractions/test2.py", "a": 66, "b": 91}
+{"filename": "fractions/test2.py", "a": 31, "b": 74}
+{"filename": "fractions/test2.py", "a": 8, "b": 93}
+{"filename": "fractions/test2.py", "a": -21, "b": 54}
+{"filename": "fractions/test2.py", "a": 96, "b": 34}
+{"filename": "fractions/test2.py", "a": -46, "b": 100}
+{"filename": "fractions/test2.py", "a": 48, "b": 59}
+{"filename": "fractions/test2.py", "a": 75, "b": 43}
+{"filename": "fractions/test2.py", "a": 437997, "b": 780470}
+{"filename": "fractions/test2.py", "a": 109371, "b": 587}
+{"filename": "fractions/test2.py", "a": 70061, "b": 824}
+{"filename": "fractions/test2.py", "a": 328456, "b": -673}
+{"filename": "fractions/test2.py", "a": 946372, "b": 446695}
+{"filename": "fractions/test2.py", "a": 3935, "b": 8285}
+{"filename": "fractions/test2.py", "a": 506073, "b": 734102}
+{"filename": "fractions/test2.py", "a": 791221, "b": 753596}
+{"filename": "fractions/test2.py", "a": 526394, "b": -401}
+{"filename": "fractions/test2.py", "a": 785480, "b": 86}
+{"filename": "fractions/test2.py", "a": 424, "b": 25493}
+{"filename": "fractions/test2.py", "a": 17, "b": 310}
+{"filename": "fractions/test2.py", "a": 115, "b": 371}
+{"filename": "fractions/test2.py", "a": 10662, "b": 177}
+{"filename": "fractions/test2.py", "a": 72, "b": 474}
+{"filename": "fractions/test2.py", "a": 303959, "b": 27620}
+{"filename": "fractions/test2.py", "a": 582153, "b": 4829}
+{"filename": "fractions/test2.py", "a": 9316, "b": 92}
+{"filename": "fractions/test2.py", "a": 781734, "b": 44216}
+{"filename": "fractions/test2.py", "a": 984, "b": 6033}
+{"filename": "fractions/test2.py", "a": 563, "b": 378078}
+{"filename": "fractions/test2.py", "a": 490996, "b": 123642}
+{"filename": "fractions/test2.py", "a": 444595, "b": 22047}
+{"filename": "fractions/test2.py", "a": 5341, "b": 8}
+{"filename": "fractions/test2.py", "a": 74795, "b": 13}
+{"filename": "fractions/test2.py", "a": 2, "b": 35251}
+{"filename": "fractions/test2.py", "a": 942420, "b": 773421}
+{"filename": "fractions/test2.py", "a": 5395, "b": 3999}
+{"filename": "fractions/test2.py", "a": 73, "b": 5390}
+{"filename": "fractions/test2.py", "a": 67449, "b": 951117}
+{"filename": "fractions/test2.py", "a": 145, "b": 967157}
+{"filename": "fractions/test2.py", "a": 957, "b": 355660}
+{"filename": "fractions/test2.py", "a": 641, "b": 936709}
+{"filename": "fractions/test2.py", "a": 199260, "b": -663}
+{"filename": "fractions/test2.py", "a": 411, "b": 769}
+{"filename": "fractions/test2.py", "a": 69, "b": 351970}
+{"filename": "fractions/test2.py", "a": 78, "b": 775}
+{"filename": "fractions/test2.py", "a": 648042, "b": 71106}
+{"filename": "fractions/test2.py", "a": 678621, "b": 654}
+{"filename": "fractions/test2.py", "a": 410805, "b": 936}
+{"filename": "fractions/test20.py", "a": -74, "b": 55, "c": 4, "d": 64, "e": -78, "f": 36}
+{"filename": "fractions/test20.py", "a": 96, "b": 42, "c": 69, "d": 77, "e": -2, "f": 58}
+{"filename": "fractions/test20.py", "a": 32, "b": 49, "c": -76, "d": 36, "e": -35, "f": 3}
+{"filename": "fractions/test20.py", "a": 71, "b": 67, "c": -64, "d": 15, "e": 57, "f": 28}
+{"filename": "fractions/test20.py", "a": -3, "b": 55, "c": 53, "d": 57, "e": 42, "f": 33}
+{"filename": "fractions/test20.py", "a": -26, "b": 54, "c": 46, "d": 24, "e": 66, "f": 63}
+{"filename": "fractions/test20.py", "a": -67, "b": 49, "c": 4, "d": 43, "e": 48, "f": 46}
+{"filename": "fractions/test20.py", "a": -65, "b": 49, "c": 57, "d": 65, "e": 80, "f": 9}
+{"filename": "fractions/test20.py", "a": 92, "b": 70, "c": -62, "d": 17, "e": 35, "f": 85}
+{"filename": "fractions/test20.py", "a": 21, "b": 19, "c": -59, "d": 7, "e": -61, "f": 39}
+{"filename": "fractions/test20.py", "a": -72, "b": 44, "c": -44, "d": 20, "e": 99, "f": 13}
+{"filename": "fractions/test20.py", "a": -87, "b": 96, "c": -98, "d": 16, "e": -94, "f": 34}
+{"filename": "fractions/test20.py", "a": -72, "b": 5, "c": -16, "d": 97, "e": 2, "f": 89}
+{"filename": "fractions/test20.py", "a": 22, "b": 64, "c": -64, "d": 11, "e": -47, "f": 10}
+{"filename": "fractions/test20.py", "a": 64, "b": 100, "c": 67, "d": 73, "e": 25, "f": 23}
+{"filename": "fractions/test20.py", "a": -38, "b": 74, "c": 75, "d": 74, "e": 90, "f": 78}
+{"filename": "fractions/test20.py", "a": -33, "b": 2, "c": -5, "d": 40, "e": -91, "f": 33}
+{"filename": "fractions/test20.py", "a": -63, "b": 81, "c": -55, "d": 67, "e": 70, "f": 74}
+{"filename": "fractions/test20.py", "a": -45, "b": 19, "c": 95, "d": 31, "e": 42, "f": 97}
+{"filename": "fractions/test20.py", "a": 84, "b": 492, "c": 492322, "d": 48892, "e": 272346, "f": 183068}
+{"filename": "fractions/test20.py", "a": -552, "b": 69283, "c": 367956, "d": 775, "e": -925, "f": 65}
+{"filename": "fractions/test20.py", "a": 97, "b": 39961, "c": 831496, "d": 78, "e": 926933, "f": 136905}
+{"filename": "fractions/test20.py", "a": 8300, "b": 9075, "c": 8113, "d": 552698, "e": 8210, "f": 745}
+{"filename": "fractions/test20.py", "a": 619, "b": 3191, "c": 910975, "d": 4027, "e": 5477, "f": 774}
+{"filename": "fractions/test20.py", "a": 93793, "b": 38734, "c": 19217, "d": 477, "e": 527, "f": 947}
+{"filename": "fractions/test20.py", "a": 797, "b": 1430, "c": 26345, "d": 139503, "e": 81, "f": 88960}
+{"filename": "fractions/test20.py", "a": 631768, "b": 79, "c": 56, "d": 820, "e": 580, "f": 98024}
+{"filename": "fractions/test20.py", "a": -674, "b": 291362, "c": 190, "d": 233665, "e": 430, "f": 2127}
+{"filename": "fractions/test20.py", "a": 241, "b": 7089, "c": 14, "d": 8078, "e": 194, "f": 756}
+{"filename": "fractions/test20.py", "a": 243183, "b": 3198, "c": 830066, "d": 48550, "e": 832, "f": 22326}
+{"filename": "fractions/test20.py", "a": 6172, "b": 484, "c": 546695, "d": 848289, "e": 753, "f": 9498}
+{"filename": "fractions/test20.py", "a": 44392, "b": 51, "c": 68352, "d": 879569, "e": 98, "f": 1714}
+{"filename": "fractions/test20.py", "a": 33145, "b": 131297, "c": 78, "d": 306, "e": 10153, "f": 556183}
+{"filename": "fractions/test20.py", "a": 501, "b": 341, "c": 347, "d": 883096, "e": 919, "f": 550415}
+{"filename": "fractions/test20.py", "a": 30616, "b": -776, "c": 2308, "d": 35271, "e": 4030, "f": 677967}
+{"filename": "fractions/test20.py", "a": 833955, "b": 2803, "c": 674, "d": 54659, "e": 103393, "f": 730778}
+{"filename": "fractions/test20.py", "a": 3964, "b": 332, "c": 52, "d": 549760, "e": 829660, "f": 348}
+{"filename": "fractions/test20.py", "a": 245574, "b": 785, "c": 26, "d": -231, "e": 39, "f": 880}
+{"filename": "fractions/test20.py", "a": 64007, "b": 557, "c": 2368, "d": 389, "e": 8233, "f": 449}
+{"filename": "fractions/test20.py", "a": 819230, "b": 777795, "c": -939, "d": 3610, "e": 77604, "f": 897}
+{"filename": "fractions/test20.py", "a": 704, "b": -480, "c": 200, "d": 6493, "e": 21172, "f": 843}
+{"filename": "fractions/test20.py", "a": 67, "b": 15156, "c": 204, "d": 663, "e": 647774, "f": 617}
+{"filename": "fractions/test20.py", "a": 64623, "b": 726579, "c": 7826, "d": 2540, "e": 583466, "f": 811483}
+{"filename": "fractions/test20.py", "a": 88, "b": 60, "c": 21, "d": 13, "e": 5048, "f": 920}
+{"filename": "fractions/test20.py", "a": 848488, "b": 3792, "c": 275643, "d": -461, "e": 674790, "f": 859231}
+{"filename": "fractions/test20.py", "a": 706, "b": 723, "c": 86970, "d": 61010, "e": 939349, "f": 279578}
+{"filename": "fractions/test20.py", "a": 982, "b": 437, "c": 409515, "d": 3, "e": 104466, "f": 5935}
+{"filename": "fractions/test20.py", "a": 18, "b": 543, "c": 964, "d": 44534, "e": 6559, "f": 11}
+{"filename": "fractions/test20.py", "a": 3616, "b": 417423, "c": 794187, "d": 31153, "e": 2544, "f": 18373}
+{"filename": "fractions/test20.py", "a": 533, "b": 90, "c": 170222, "d": 899756, "e": 185, "f": 761345}
+{"filename": "fractions/test20.py", "a": 660, "b": 2664, "c": -148, "d": 50222, "e": 78, "f": -308}
+{"filename": "fractions/test20.py", "a": 95342, "b": 674, "c": 416251, "d": 8384, "e": 267, "f": 7751}
+{"filename": "fractions/test20.py", "a": 587838, "b": 414, "c": 257899, "d": -908, "e": 6826, "f": 56621}
+{"filename": "fractions/test20.py", "a": 684340, "b": 131, "c": 237998, "d": 235, "e": 4780, "f": 131}
+{"filename": "fractions/test20.py", "a": 888, "b": -910, "c": 734, "d": 40381, "e": 676271, "f": 554610}
+{"filename": "fractions/test20.py", "a": 27, "b": 309, "c": 274, "d": 5868, "e": 4574, "f": 22284}
+{"filename": "fractions/test20.py", "a": 63, "b": 48909, "c": 380133, "d": 5607, "e": 834, "f": 91038}
+{"filename": "fractions/test20.py", "a": 866256, "b": 43260, "c": 174509, "d": 21, "e": 1, "f": 34033}
+{"filename": "fractions/test20.py", "a": 200, "b": 30451, "c": 417220, "d": 710941, "e": 56, "f": 598}
+{"filename": "fractions/test20.py", "a": 283, "b": 6714, "c": 1867, "d": 516, "e": 244100, "f": 358622}
+{"filename": "fractions/test3.py", "a": 14.5}
+{"filename": "fractions/test3.py", "a": -10.4}
+{"filename": "fractions/test3.py", "a": 2.3}
+{"filename": "fractions/test3.py", "a": -12.5}
+{"filename": "fractions/test3.py", "a": -15.5}
+{"filename": "fractions/test3.py", "a": 0.3}
+{"filename": "fractions/test3.py", "a": -1.2}
+{"filename": "fractions/test3.py", "a": -2.2}
+{"filename": "fractions/test3.py", "a": 3.5}
+{"filename": "fractions/test3.py", "a": 0.7}
+{"filename": "fractions/test3.py", "a": 12.2}
+{"filename": "fractions/test3.py", "a": -10.2}
+{"filename": "fractions/test3.py", "a": -4.9}
+{"filename": "fractions/test3.py", "a": -5.3}
+{"filename": "fractions/test3.py", "a": -4.8}
+{"filename": "fractions/test3.py", "a": 2.9}
+{"filename": "fractions/test3.py", "a": -3.9}
+{"filename": "fractions/test3.py", "a": 17.6}
+{"filename": "fractions/test3.py", "a": 1.1}
+{"filename": "fractions/test3.py", "a": 18.9}
+{"filename": "fractions/test3.py", "a": 8.5}
+{"filename": "fractions/test3.py", "a": 7.456701}
+{"filename": "fractions/test3.py", "a": 827.8949}
+{"filename": "fractions/test3.py", "a": 103.1082}
+{"filename": "fractions/test3.py", "a": -3.34506855}
+{"filename": "fractions/test3.py", "a": 688.724392}
+{"filename": "fractions/test3.py", "a": 2.95}
+{"filename": "fractions/test3.py", "a": 1.346}
+{"filename": "fractions/test3.py", "a": 51.9463291}
+{"filename": "fractions/test3.py", "a": 8.15}
+{"filename": "fractions/test3.py", "a": 0.0172188805}
+{"filename": "fractions/test3.py", "a": 25.531776}
+{"filename": "fractions/test3.py", "a": 2.226}
+{"filename": "fractions/test3.py", "a": 720.30775364}
+{"filename": "fractions/test3.py", "a": 0.6395}
+{"filename": "fractions/test3.py", "a": 8.93484113}
+{"filename": "fractions/test3.py", "a": -0.6}
+{"filename": "fractions/test3.py", "a": 0.06}
+{"filename": "fractions/test3.py", "a": 130.326744586}
+{"filename": "fractions/test3.py", "a": 98.9}
+{"filename": "fractions/test3.py", "a": 0.0117327}
+{"filename": "fractions/test3.py", "a": 0.545}
+{"filename": "fractions/test3.py", "a": 0.5084257475}
+{"filename": "fractions/test3.py", "a": 9.55134}
+{"filename": "fractions/test3.py", "a": 509.371172008}
+{"filename": "fractions/test3.py", "a": 69.3576153873}
+{"filename": "fractions/test3.py", "a": 3.1618098411}
+{"filename": "fractions/test3.py", "a": 1.8485}
+{"filename": "fractions/test3.py", "a": 315.4}
+{"filename": "fractions/test3.py", "a": 679.6896231}
+{"filename": "fractions/test3.py", "a": 2.983654884}
+{"filename": "fractions/test3.py", "a": -2.9869257107}
+{"filename": "fractions/test3.py", "a": 3.665158}
+{"filename": "fractions/test3.py", "a": -0.4493667}
+{"filename": "fractions/test3.py", "a": 8.88}
+{"filename": "fractions/test3.py", "a": 8.6}
+{"filename": "fractions/test3.py", "a": 904.938041052}
+{"filename": "fractions/test3.py", "a": 6.91993}
+{"filename": "fractions/test3.py", "a": 144.196}
+{"filename": "fractions/test3.py", "a": 0.075931}
+{"filename": "fractions/test4.py", "a": "1/3"}
+{"filename": "fractions/test4.py", "a": "-4"}
+{"filename": "fractions/test4.py", "a": "0.3"}
+{"filename": "fractions/test4.py", "a": "0.7"}
+{"filename": "fractions/test4.py", "a": "0/1"}
+{"filename": "fractions/test4.py", "a": "-2"}
+{"filename": "fractions/test4.py", "a": "0.75"}
+{"filename": "fractions/test4.py", "a": "19/7"}
+{"filename": "fractions/test4.py", "a": "7/8"}
+{"filename": "fractions/test4.py", "a": "0/1"}
+{"filename": "fractions/test4.py", "a": "1/3"}
+{"filename": "fractions/test4.py", "a": "2/5"}
+{"filename": "fractions/test4.py", "a": "355/113"}
+{"filename": "fractions/test4.py", "a": "3/4"}
+{"filename": "fractions/test4.py", "a": "1/3"}
+{"filename": "fractions/test4.py", "a": "0"}
+{"filename": "fractions/test4.py", "a": "0.75"}
+{"filename": "fractions/test4.py", "a": "235006969598"}
+{"filename": "fractions/test4.py", "a": "686313968068"}
+{"filename": "fractions/test4.py", "a": "59884783513918"}
+{"filename": "fractions/test4.py", "a": "20150282"}
+{"filename": "fractions/test4.py", "a": "128914711"}
+{"filename": "fractions/test4.py", "a": "04402"}
+{"filename": "fractions/test4.py", "a": "007452603"}
+{"filename": "fractions/test4.py", "a": "86408"}
+{"filename": "fractions/test5.py", "a": 72, "b": 37, "c": 10}
+{"filename": "fractions/test5.py", "a": -19, "b": 80, "c": 50}
+{"filename": "fractions/test5.py", "a": 46, "b": 61, "c": 100}
+{"filename": "fractions/test5.py", "a": -47, "b": 47, "c": 10}
+{"filename": "fractions/test5.py", "a": 69, "b": 12, "c": 1000}
+{"filename": "fractions/test5.py", "a": 24, "b": 43, "c": 50}
+{"filename": "fractions/test5.py", "a": 29, "b": 25, "c": 1000}
+{"filename": "fractions/test5.py", "a": 33, "b": 76, "c": 100}
+{"filename": "fractions/test5.py", "a": 59, "b": 58, "c": 20}
+{"filename": "fractions/test5.py", "a": -75, "b": 89, "c": 10}
+{"filename": "fractions/test5.py", "a": -68, "b": 91, "c": 20}
+{"filename": "fractions/test5.py", "a": 50, "b": 43, "c": 100}
+{"filename": "fractions/test5.py", "a": 14, "b": 38, "c": 1000}
+{"filename": "fractions/test5.py", "a": -29, "b": 46, "c": 100}
+{"filename": "fractions/test5.py", "a": -53, "b": 80, "c": 20}
+{"filename": "fractions/test5.py", "a": 36, "b": 87, "c": 100}
+{"filename": "fractions/test5.py", "a": 73, "b": 3, "c": 10}
+{"filename": "fractions/test5.py", "a": 63, "b": 6, "c": 1000}
+{"filename": "fractions/test5.py", "a": 28, "b": 9, "c": 10}
+{"filename": "fractions/test5.py", "a": -29, "b": 23, "c": 50}
+{"filename": "fractions/test5.py", "a": 620081, "b": 706, "c": 94}
+{"filename": "fractions/test5.py", "a": -671, "b": 604, "c": 262352}
+{"filename": "fractions/test5.py", "a": 88, "b": 71815, "c": 312}
+{"filename": "fractions/test5.py", "a": 32119, "b": 376, "c": 339}
+{"filename": "fractions/test5.py", "a": 33350, "b": 451539, "c": 8263}
+{"filename": "fractions/test5.py", "a": 13, "b": 381072, "c": 84}
+{"filename": "fractions/test5.py", "a": 92858, "b": 4522, "c": 2242}
+{"filename": "fractions/test5.py", "a": 17200, "b": 77, "c": 385}
+{"filename": "fractions/test5.py", "a": 107, "b": 62, "c": 9}
+{"filename": "fractions/test5.py", "a": 121672, "b": 495027, "c": 24526}
+{"filename": "fractions/test5.py", "a": 41, "b": 7724, "c": 25}
+{"filename": "fractions/test5.py", "a": 7353, "b": 606, "c": 787}
+{"filename": "fractions/test5.py", "a": 204501, "b": 508637, "c": 948}
+{"filename": "fractions/test5.py", "a": 182004, "b": 80187, "c": 29778}
+{"filename": "fractions/test5.py", "a": 87, "b": -534, "c": 75020}
+{"filename": "fractions/test5.py", "a": 19, "b": 65916, "c": 10203}
+{"filename": "fractions/test5.py", "a": 8928, "b": 8, "c": 743401}
+{"filename": "fractions/test5.py", "a": 90130, "b": 574, "c": 30}
+{"filename": "fractions/test5.py", "a": 320, "b": 88, "c": 967064}
+{"filename": "fractions/test5.py", "a": 243413, "b": 694222, "c": 78401}
+{"filename": "fractions/test5.py", "a": 24055, "b": 895, "c": 292328}
+{"filename": "fractions/test5.py", "a": -577, "b": 906, "c": 591}
+{"filename": "fractions/test5.py", "a": 823050, "b": 671461, "c": 36869}
+{"filename": "fractions/test5.py", "a": 78577, "b": 859439, "c": 1754}
+{"filename": "fractions/test5.py", "a": 214, "b": 6568, "c": 2738}
+{"filename": "fractions/test5.py", "a": 58, "b": 63394, "c": 41}
+{"filename": "fractions/test5.py", "a": 61102, "b": 56933, "c": 154}
+{"filename": "fractions/test5.py", "a": 641, "b": 571006, "c": 980334}
+{"filename": "fractions/test5.py", "a": 567, "b": 70, "c": 17727}
+{"filename": "fractions/test5.py", "a": 728, "b": 692528, "c": 20973}
+{"filename": "fractions/test5.py", "a": 91518, "b": 3631, "c": 6}
+{"filename": "fractions/test5.py", "a": 541, "b": 692240, "c": 839}
+{"filename": "fractions/test5.py", "a": 388345, "b": 65465, "c": 791}
+{"filename": "fractions/test5.py", "a": 45, "b": 510558, "c": 123777}
+{"filename": "fractions/test5.py", "a": 642, "b": 433075, "c": 675507}
+{"filename": "fractions/test5.py", "a": -269, "b": 1219, "c": 814167}
+{"filename": "fractions/test5.py", "a": 55, "b": 2670, "c": 21368}
+{"filename": "fractions/test5.py", "a": 2, "b": 442, "c": 18564}
+{"filename": "fractions/test6.py", "a": -13, "b": 89, "c": -28, "d": 67}
+{"filename": "fractions/test6.py", "a": -99, "b": 11, "c": -86, "d": 54}
+{"filename": "fractions/test6.py", "a": 25, "b": 25, "c": 24, "d": 53}
+{"filename": "fractions/test6.py", "a": 57, "b": 68, "c": -59, "d": 88}
+{"filename": "fractions/test6.py", "a": 82, "b": 49, "c": 9, "d": 7}
+{"filename": "fractions/test6.py", "a": 44, "b": 82, "c": 15, "d": 91}
+{"filename": "fractions/test6.py", "a": 3, "b": 58, "c": -98, "d": 70}
+{"filename": "fractions/test6.py", "a": -100, "b": 85, "c": 52, "d": 98}
+{"filename": "fractions/test6.py", "a": -60, "b": 56, "c": 41, "d": 80}
+{"filename": "fractions/test6.py", "a": -81, "b": 79, "c": -15, "d": 100}
+{"filename": "fractions/test6.py", "a": -57, "b": 35, "c": -46, "d": 21}
+{"filename": "fractions/test6.py", "a": -44, "b": 40, "c": 1, "d": 58}
+{"filename": "fractions/test6.py", "a": -14, "b": 57, "c": 27, "d": 16}
+{"filename": "fractions/test6.py", "a": -17, "b": 39, "c": 14, "d": 83}
+{"filename": "fractions/test6.py", "a": 74, "b": 98, "c": -5, "d": 14}
+{"filename": "fractions/test6.py", "a": -13, "b": 49, "c": 81, "d": 33}
+{"filename": "fractions/test6.py", "a": 4, "b": 55, "c": -10, "d": 59}
+{"filename": "fractions/test6.py", "a": 16, "b": 11, "c": 27, "d": 9}
+{"filename": "fractions/test6.py", "a": -84, "b": 97, "c": 55, "d": 75}
+{"filename": "fractions/test6.py", "a": 34, "b": 36, "c": 60, "d": 66}
+{"filename": "fractions/test6.py", "a": 8430, "b": 774, "c": 509, "d": 59416}
+{"filename": "fractions/test6.py", "a": 83053, "b": 228519, "c": 121, "d": 183644}
+{"filename": "fractions/test6.py", "a": 636, "b": -787, "c": 79, "d": 474}
+{"filename": "fractions/test6.py", "a": 724056, "b": 870, "c": 920255, "d": 86508}
+{"filename": "fractions/test6.py", "a": 155711, "b": 3562, "c": 659, "d": 803951}
+{"filename": "fractions/test6.py", "a": 995705, "b": 986065, "c": 81799, "d": 73}
+{"filename": "fractions/test6.py", "a": 28614, "b": 34290, "c": 200, "d": 2934}
+{"filename": "fractions/test6.py", "a": 2, "b": 250, "c": 3344, "d": 34}
+{"filename": "fractions/test6.py", "a": 31, "b": 646, "c": -647, "d": 2523}
+{"filename": "fractions/test6.py", "a": 37745, "b": 78071, "c": 523735, "d": 59313}
+{"filename": "fractions/test6.py", "a": 2271, "b": 7374, "c": 775, "d": 34452}
+{"filename": "fractions/test6.py", "a": 2165, "b": -696, "c": 389819, "d": 778152}
+{"filename": "fractions/test6.py", "a": 829686, "b": 77, "c": 5991, "d": 8418}
+{"filename": "fractions/test6.py", "a": -614, "b": 134, "c": 427198, "d": 822}
+{"filename": "fractions/test6.py", "a": 1069, "b": 293, "c": 232002, "d": 375996}
+{"filename": "fractions/test6.py", "a": 86926, "b": 316, "c": 712867, "d": 423}
+{"filename": "fractions/test6.py", "a": 28834, "b": 14143, "c": 712720, "d": 99335}
+{"filename": "fractions/test6.py", "a": 701860, "b": 11789, "c": 263532, "d": 4126}
+{"filename": "fractions/test6.py", "a": 2600, "b": 33, "c": -925, "d": 3169}
+{"filename": "fractions/test6.py", "a": 134640, "b": 92, "c": 546, "d": 576604}
+{"filename": "fractions/test6.py", "a": 1888, "b": 3327, "c": 91015, "d": 238}
+{"filename": "fractions/test6.py", "a": 24534, "b": 51, "c": 439651, "d": 685801}
+{"filename": "fractions/test6.py", "a": 8800, "b": 753868, "c": 255706, "d": 153677}
+{"filename": "fractions/test6.py", "a": 764, "b": 29903, "c": 613, "d": 9181}
+{"filename": "fractions/test6.py", "a": 22, "b": 562, "c": 40896, "d": 80352}
+{"filename": "fractions/test6.py", "a": 8846, "b": 624, "c": 3409, "d": 36}
+{"filename": "fractions/test6.py", "a": 54, "b": 23376, "c": 2185, "d": 32}
+{"filename": "fractions/test6.py", "a": -30, "b": 333, "c": 12043, "d": 305151}
+{"filename": "fractions/test6.py", "a": 1822, "b": 41332, "c": 965, "d": 7505}
+{"filename": "fractions/test6.py", "a": 5867, "b": -341, "c": 31, "d": 31124}
+{"filename": "fractions/test6.py", "a": 397797, "b": 440, "c": 4845, "d": 203367}
+{"filename": "fractions/test6.py", "a": 36687, "b": 363, "c": 811633, "d": 38}
+{"filename": "fractions/test6.py", "a": 273449, "b": 254, "c": 7352, "d": 347866}
+{"filename": "fractions/test6.py", "a": 241267, "b": 16124, "c": 67, "d": 22991}
+{"filename": "fractions/test6.py", "a": 83606, "b": 787983, "c": 970, "d": -960}
+{"filename": "fractions/test6.py", "a": -527, "b": 67235, "c": 21, "d": 13}
+{"filename": "fractions/test6.py", "a": 68650, "b": 61, "c": 519, "d": 465559}
+{"filename": "fractions/test6.py", "a": 3929, "b": 384905, "c": 19408, "d": 292}
+{"filename": "fractions/test6.py", "a": 3883, "b": 90, "c": 880, "d": 405}
+{"filename": "fractions/test6.py", "a": 872292, "b": 785, "c": 831, "d": 821010}
+{"filename": "fractions/test7.py", "a": 9, "b": 41, "c": 76, "d": 26}
+{"filename": "fractions/test7.py", "a": -91, "b": 82, "c": -55, "d": 27}
+{"filename": "fractions/test7.py", "a": 2, "b": 60, "c": 35, "d": 35}
+{"filename": "fractions/test7.py", "a": -33, "b": 17, "c": 54, "d": 63}
+{"filename": "fractions/test7.py", "a": -83, "b": 91, "c": -52, "d": 79}
+{"filename": "fractions/test7.py", "a": 15, "b": 59, "c": 31, "d": 23}
+{"filename": "fractions/test7.py", "a": 36, "b": 17, "c": 68, "d": 38}
+{"filename": "fractions/test7.py", "a": 77, "b": 98, "c": -26, "d": 96}
+{"filename": "fractions/test7.py", "a": -85, "b": 81, "c": 6, "d": 87}
+{"filename": "fractions/test7.py", "a": 81, "b": 99, "c": 87, "d": 15}
+{"filename": "fractions/test7.py", "a": 19, "b": 13, "c": 88, "d": 30}
+{"filename": "fractions/test7.py", "a": -74, "b": 72, "c": -71, "d": 54}
+{"filename": "fractions/test7.py", "a": 80, "b": 25, "c": 40, "d": 94}
+{"filename": "fractions/test7.py", "a": -26, "b": 28, "c": -50, "d": 59}
+{"filename": "fractions/test7.py", "a": 38, "b": 22, "c": -67, "d": 20}
+{"filename": "fractions/test7.py", "a": 61, "b": 65, "c": 3, "d": 46}
+{"filename": "fractions/test7.py", "a": 23, "b": 32, "c": 42, "d": 83}
+{"filename": "fractions/test7.py", "a": -99, "b": 73, "c": -35, "d": 33}
+{"filename": "fractions/test7.py", "a": -42, "b": 48, "c": 33, "d": 68}
+{"filename": "fractions/test7.py", "a": 28, "b": 47, "c": 28, "d": 76}
+{"filename": "fractions/test7.py", "a": 851, "b": 468, "c": -902, "d": 630}
+{"filename": "fractions/test7.py", "a": 224114, "b": 51, "c": 469507, "d": 1118}
+{"filename": "fractions/test7.py", "a": 54095, "b": 762731, "c": 385, "d": -895}
+{"filename": "fractions/test7.py", "a": 4272, "b": -996, "c": 9730, "d": 986538}
+{"filename": "fractions/test7.py", "a": 220, "b": 260, "c": 199455, "d": 708580}
+{"filename": "fractions/test7.py", "a": 75905, "b": 424, "c": 9959, "d": 8517}
+{"filename": "fractions/test7.py", "a": 52552, "b": 83, "c": 14169, "d": 344}
+{"filename": "fractions/test7.py", "a": 781703, "b": 46063, "c": 19825, "d": 60}
+{"filename": "fractions/test7.py", "a": 1465, "b": -560, "c": -918, "d": 56}
+{"filename": "fractions/test7.py", "a": 9127, "b": 446, "c": -629, "d": 172}
+{"filename": "fractions/test7.py", "a": 6887, "b": 311625, "c": -334, "d": 76714}
+{"filename": "fractions/test7.py", "a": 9869, "b": 7183, "c": 8653, "d": -466}
+{"filename": "fractions/test7.py", "a": 579, "b": 444535, "c": 960, "d": 324858}
+{"filename": "fractions/test7.py", "a": 331, "b": 282969, "c": 43, "d": 8089}
+{"filename": "fractions/test7.py", "a": 8498, "b": 603548, "c": 62, "d": 2364}
+{"filename": "fractions/test7.py", "a": 720150, "b": 269071, "c": 665259, "d": 742176}
+{"filename": "fractions/test7.py", "a": 651634, "b": 76339, "c": 252963, "d": 306366}
+{"filename": "fractions/test7.py", "a": 254940, "b": 802549, "c": 249, "d": 305}
+{"filename": "fractions/test7.py", "a": 72, "b": 181244, "c": 5, "d": 5}
+{"filename": "fractions/test7.py", "a": 17157, "b": 557706, "c": 89, "d": 52}
+{"filename": "fractions/test7.py", "a": 90, "b": 587, "c": 85, "d": 850}
+{"filename": "fractions/test7.py", "a": 426449, "b": 703218, "c": 925652, "d": 684}
+{"filename": "fractions/test7.py", "a": 82, "b": -436, "c": 561959, "d": 18944}
+{"filename": "fractions/test7.py", "a": 892, "b": 9100, "c": 15, "d": 31}
+{"filename": "fractions/test7.py", "a": 790656, "b": 147164, "c": 184, "d": -87}
+{"filename": "fractions/test7.py", "a": 60, "b": 676, "c": 37370, "d": 1037}
+{"filename": "fractions/test7.py", "a": 992808, "b": 996, "c": 179311, "d": 118}
+{"filename": "fractions/test7.py", "a": 4908, "b": 589, "c": 339639, "d": 602}
+{"filename": "fractions/test7.py", "a": 54, "b": 905, "c": 524186, "d": 2885}
+{"filename": "fractions/test7.py", "a": 64746, "b": 37, "c": 329, "d": 644}
+{"filename": "fractions/test7.py", "a": 43, "b": 643290, "c": 910, "d": 6571}
+{"filename": "fractions/test7.py", "a": 8071, "b": 8649, "c": 948, "d": 13567}
+{"filename": "fractions/test7.py", "a": 85712, "b": 48544, "c": 5229, "d": 88381}
+{"filename": "fractions/test7.py", "a": 206, "b": 305924, "c": 9488, "d": 546895}
+{"filename": "fractions/test7.py", "a": 686, "b": 28351, "c": 47916, "d": 65}
+{"filename": "fractions/test7.py", "a": 151152, "b": 29, "c": 891, "d": 408}
+{"filename": "fractions/test7.py", "a": 72187, "b": 1554, "c": 514, "d": 505475}
+{"filename": "fractions/test7.py", "a": -895, "b": 392233, "c": 12, "d": 327782}
+{"filename": "fractions/test7.py", "a": 970, "b": 740, "c": 844842, "d": 534}
+{"filename": "fractions/test7.py", "a": 6678, "b": 329, "c": -217, "d": 21380}
+{"filename": "fractions/test8.py", "a": -47, "b": 35}
+{"filename": "fractions/test8.py", "a": -37, "b": 6}
+{"filename": "fractions/test8.py", "a": 66, "b": 31}
+{"filename": "fractions/test8.py", "a": 82, "b": 60}
+{"filename": "fractions/test8.py", "a": -42, "b": 99}
+{"filename": "fractions/test8.py", "a": 53, "b": 77}
+{"filename": "fractions/test8.py", "a": -93, "b": 15}
+{"filename": "fractions/test8.py", "a": 27, "b": 64}
+{"filename": "fractions/test8.py", "a": -35, "b": 98}
+{"filename": "fractions/test8.py", "a": 42, "b": 31}
+{"filename": "fractions/test8.py", "a": 23, "b": 46}
+{"filename": "fractions/test8.py", "a": 70, "b": 6}
+{"filename": "fractions/test8.py", "a": -72, "b": 41}
+{"filename": "fractions/test8.py", "a": 61, "b": 41}
+{"filename": "fractions/test8.py", "a": 91, "b": 22}
+{"filename": "fractions/test8.py", "a": -76, "b": 99}
+{"filename": "fractions/test8.py", "a": 60, "b": 16}
+{"filename": "fractions/test8.py", "a": 42, "b": 44}
+{"filename": "fractions/test8.py", "a": 49, "b": 86}
+{"filename": "fractions/test8.py", "a": 21, "b": 68}
+{"filename": "fractions/test8.py", "a": 405, "b": 615}
+{"filename": "fractions/test8.py", "a": 32180, "b": 736696}
+{"filename": "fractions/test8.py", "a": 4456, "b": 315819}
+{"filename": "fractions/test8.py", "a": 478629, "b": 146}
+{"filename": "fractions/test8.py", "a": 15900, "b": 8414}
+{"filename": "fractions/test8.py", "a": 6407, "b": 895185}
+{"filename": "fractions/test8.py", "a": 466452, "b": 529715}
+{"filename": "fractions/test8.py", "a": 289012, "b": 508}
+{"filename": "fractions/test8.py", "a": 453, "b": 82223}
+{"filename": "fractions/test8.py", "a": 910, "b": 1}
+{"filename": "fractions/test8.py", "a": -951, "b": 715546}
+{"filename": "fractions/test8.py", "a": 700592, "b": 516278}
+{"filename": "fractions/test8.py", "a": -446, "b": 6313}
+{"filename": "fractions/test8.py", "a": 791, "b": 208246}
+{"filename": "fractions/test8.py", "a": 99, "b": 13}
+{"filename": "fractions/test8.py", "a": 392809, "b": -876}
+{"filename": "fractions/test8.py", "a": 430, "b": 9181}
+{"filename": "fractions/test8.py", "a": 307833, "b": 4915}
+{"filename": "fractions/test8.py", "a": 669985, "b": -354}
+{"filename": "fractions/test8.py", "a": 2220, "b": 37848}
+{"filename": "fractions/test8.py", "a": -787, "b": 2981}
+{"filename": "fractions/test8.py", "a": 175548, "b": 8763}
+{"filename": "fractions/test8.py", "a": 7042, "b": 92867}
+{"filename": "fractions/test8.py", "a": 32, "b": 38}
+{"filename": "fractions/test8.py", "a": 155, "b": 354}
+{"filename": "fractions/test8.py", "a": 494700, "b": 97328}
+{"filename": "fractions/test8.py", "a": 43761, "b": 886}
+{"filename": "fractions/test8.py", "a": 1116, "b": 790711}
+{"filename": "fractions/test8.py", "a": 64, "b": 31110}
+{"filename": "fractions/test8.py", "a": 8216, "b": 899679}
+{"filename": "fractions/test8.py", "a": 94, "b": 981498}
+{"filename": "fractions/test8.py", "a": 277576, "b": -969}
+{"filename": "fractions/test8.py", "a": 2413, "b": 89015}
+{"filename": "fractions/test8.py", "a": 644076, "b": 92291}
+{"filename": "fractions/test8.py", "a": 15, "b": 142}
+{"filename": "fractions/test8.py", "a": 633931, "b": 99585}
+{"filename": "fractions/test8.py", "a": 781886, "b": 157760}
+{"filename": "fractions/test8.py", "a": -260, "b": 480988}
+{"filename": "fractions/test8.py", "a": 99852, "b": 30708}
+{"filename": "fractions/test8.py", "a": 942490, "b": 59114}
+{"filename": "fractions/test9.py", "a": 16.0, "b": 0.75}
+{"filename": "fractions/test9.py", "a": -8.5, "b": 4.8}
+{"filename": "fractions/test9.py", "a": -18.2, "b": -19.9}
+{"filename": "fractions/test9.py", "a": 17.7, "b": -1.7}
+{"filename": "fractions/test9.py", "a": 12.0, "b": -15.3}
+{"filename": "fractions/test9.py", "a": 20.0, "b": -9.5}
+{"filename": "fractions/test9.py", "a": -8.4, "b": -1.2}
+{"filename": "fractions/test9.py", "a": 5.2, "b": -5.0}
+{"filename": "fractions/test9.py", "a": -18.1, "b": 15.6}
+{"filename": "fractions/test9.py", "a": 0.4, "b": -14.8}
+{"filename": "fractions/test9.py", "a": 3.5, "b": 19.2}
+{"filename": "fractions/test9.py", "a": -6.7, "b": 13.7}
+{"filename": "fractions/test9.py", "a": -13.7, "b": 15.6}
+{"filename": "fractions/test9.py", "a": 15.6, "b": -16.7}
+{"filename": "fractions/test9.py", "a": -5.5, "b": -10.2}
+{"filename": "fractions/test9.py", "a": 10.9, "b": 4.9}
+{"filename": "fractions/test9.py", "a": 1.6, "b": -11.4}
+{"filename": "fractions/test9.py", "a": -12.4, "b": 1.5}
+{"filename": "fractions/test9.py", "a": 4.2, "b": 14.8}
+{"filename": "fractions/test9.py", "a": -10.3, "b": 18.9}
+{"filename": "fractions/test9.py", "a": 0.08, "b": 584.034050088}
+{"filename": "fractions/test9.py", "a": 555.78, "b": 539.5437273}
+{"filename": "fractions/test9.py", "a": 6.39, "b": 0.067365237}
+{"filename": "fractions/test9.py", "a": 137.19416, "b": -9.9522}
+{"filename": "fractions/test9.py", "a": 9.063912, "b": 3.566352594}
+{"filename": "fractions/test9.py", "a": 39.53754746, "b": 0.0670296}
+{"filename": "fractions/test9.py", "a": 945.665680592, "b": 0.0420564}
+{"filename": "fractions/test9.py", "a": 6.337, "b": -8.64099083}
+{"filename": "fractions/test9.py", "a": 127.408994, "b": 0.0}
+{"filename": "fractions/test9.py", "a": -3.84, "b": 5.19989284}
+{"filename": "fractions/test9.py", "a": 0.00814, "b": 1.7667}
+{"filename": "fractions/test9.py", "a": 0.07, "b": -0.9528358}
+{"filename": "fractions/test9.py", "a": 1.5655344, "b": 64.06965022}
+{"filename": "fractions/test9.py", "a": 0.0271149, "b": -8.80496017}
+{"filename": "fractions/test9.py", "a": 28.3211308823, "b": 0.07403812}
+{"filename": "fractions/test9.py", "a": 0.003552655, "b": 48.91000649}
+{"filename": "fractions/test9.py", "a": 26.0371, "b": 0.028437}
+{"filename": "fractions/test9.py", "a": 4.064, "b": 5.19}
+{"filename": "fractions/test9.py", "a": 4.521750415, "b": 2.663683}
+{"filename": "fractions/test9.py", "a": 12.10505822, "b": 699.6}
+{"filename": "fractions/test9.py", "a": 1.5, "b": 0.04672806}
+{"filename": "fractions/test9.py", "a": 26.30256, "b": 5.514845}
+{"filename": "fractions/test9.py", "a": 11.5677, "b": 463.72}
+{"filename": "fractions/test9.py", "a": -6.4976733, "b": 757.944493335}
+{"filename": "fractions/test9.py", "a": -1.73, "b": 789.1}
+{"filename": "fractions/test9.py", "a": 8.4028121769, "b": 3.786}
+{"filename": "fractions/test9.py", "a": 5.6393, "b": 8.9}
+{"filename": "fractions/test9.py", "a": 979.739489654, "b": 4.653}
+{"filename": "fractions/test9.py", "a": 307.12370224, "b": 4.87173996}
+{"filename": "fractions/test9.py", "a": 0.0380024, "b": 0.096}
+{"filename": "fractions/test9.py", "a": -5.25219613, "b": 0.00336268}
+{"filename": "fractions/test9.py", "a": -3.7338125217, "b": 3.987833908}
+{"filename": "fractions/test9.py", "a": 8.1, "b": 0.086736}
+{"filename": "fractions/test9.py", "a": 38.7, "b": 2.3036745724}
+{"filename": "fractions/test9.py", "a": -5.8273, "b": 0.0280217}
+{"filename": "fractions/test9.py", "a": 606.771893, "b": -1.3601}
+{"filename": "fractions/test9.py", "a": 1.606, "b": 2.8581014}
+{"filename": "fractions/test9.py", "a": 3.58923, "b": 968.3418}
+{"filename": "fractions/test9.py", "a": 0.02, "b": 0.00976}
+{"filename": "fractions/test9.py", "a": 0.7809428, "b": 9.34}

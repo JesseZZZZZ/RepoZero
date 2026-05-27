@@ -1,0 +1,780 @@
+{"filename": "furl/test1.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test1.py", "a": "http://example.com:3000/api/v1"}
+{"filename": "furl/test1.py", "a": "https://example.com:443"}
+{"filename": "furl/test1.py", "a": "https://admin:password@example.com/secure"}
+{"filename": "furl/test1.py", "a": "https://example.com/path?filter=active&sort=date"}
+{"filename": "furl/test1.py", "a": "http://example.com/users?page=1&limit=10"}
+{"filename": "furl/test1.py", "a": "http://example.com:8080"}
+{"filename": "furl/test1.py", "a": "https://example.com/./path/./to"}
+{"filename": "furl/test1.py", "a": "https://localhost:8080"}
+{"filename": "furl/test1.py", "a": "http://example.com/api/v1/users"}
+{"filename": "furl/test1.py", "a": "http://example.com:3000/api/v1"}
+{"filename": "furl/test1.py", "a": "https://api.example.com/v3/data?format=json"}
+{"filename": "furl/test1.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test1.py", "a": "http://example.com/path/../other"}
+{"filename": "furl/test1.py", "a": "https://admin:password@example.com/secure"}
+{"filename": "furl/test1.py", "a": "http://127.0.0.1:8000"}
+{"filename": "furl/test1.py", "a": "http://127.0.0.1:8000"}
+{"filename": "furl/test1.py", "a": "http://example.com/api/v1/users"}
+{"filename": "furl/test1.py", "a": "https://example.com/./path/./to"}
+{"filename": "furl/test1.py", "a": "http://example.com:8080"}
+{"filename": "furl/test1.py", "a": "https://example.com/path/to/resource"}
+{"filename": "furl/test1.py", "a": "https://example.com/path?param1=val1&param2=val2"}
+{"filename": "furl/test1.py", "a": "http://example.com/users?page=1&limit=10"}
+{"filename": "furl/test1.py", "a": "https://example.com"}
+{"filename": "furl/test1.py", "a": "http://example.com/users?page=1&limit=10"}
+{"filename": "furl/test1.py", "a": "http://example.com/a/b/c/d/e"}
+{"filename": "furl/test1.py", "a": "https://example.com/api?key=123&value=abc"}
+{"filename": "furl/test1.py", "a": "http://example.com/path"}
+{"filename": "furl/test1.py", "a": "https://example.com#section"}
+{"filename": "furl/test1.py", "a": "https://example.com/path/to/resource"}
+{"filename": "furl/test1.py", "a": "http://example.com"}
+{"filename": "furl/test1.py", "a": "https://192.168.1.1:9000"}
+{"filename": "furl/test1.py", "a": "http://localhost:3000"}
+{"filename": "furl/test1.py", "a": "https://admin:password@example.com/secure"}
+{"filename": "furl/test1.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test1.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test1.py", "a": "https://admin:password@example.com/secure"}
+{"filename": "furl/test1.py", "a": "https://subdomain.example.com/path"}
+{"filename": "furl/test1.py", "a": "http://example.com/path?query=value#fragment"}
+{"filename": "furl/test1.py", "a": "https://api.example.com/v2/data"}
+{"filename": "furl/test1.py", "a": "http://example.com/path/../other"}
+{"filename": "furl/test1.py", "a": "https://example.com:443"}
+{"filename": "furl/test1.py", "a": "http://example.com/path?query=value#fragment"}
+{"filename": "furl/test1.py", "a": "https://example.com/path?filter=active&sort=date"}
+{"filename": "furl/test1.py", "a": "http://example.com/search?q=test"}
+{"filename": "furl/test1.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test1.py", "a": "http://example.com:3000/api/v1"}
+{"filename": "furl/test1.py", "a": "https://example.com#section"}
+{"filename": "furl/test1.py", "a": "https://localhost:8080"}
+{"filename": "furl/test1.py", "a": "https://api.example.com/v2/data"}
+{"filename": "furl/test1.py", "a": "https://api.example.com/v2/data"}
+{"filename": "furl/test1.py", "a": "https://example.com/./path/./to"}
+{"filename": "furl/test1.py", "a": "http://example.com/path/to/file.html"}
+{"filename": "furl/test1.py", "a": "https://example.com/path?param1=val1&param2=val2"}
+{"filename": "furl/test1.py", "a": "http://example.com/search?q=test"}
+{"filename": "furl/test1.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test1.py", "a": "https://example.com/path?param1=val1&param2=val2"}
+{"filename": "furl/test1.py", "a": "http://example.com:8080"}
+{"filename": "furl/test1.py", "a": "http://example.com:3000/api/v1"}
+{"filename": "furl/test1.py", "a": "http://example.com"}
+{"filename": "furl/test2.py", "a": "https://example.com/api?key=123&value=abc", "b": "api.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/api/v1/users", "b": "cdn.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/to/file.html", "b": "mail.example.com"}
+{"filename": "furl/test2.py", "a": "https://subdomain.example.com/path", "b": "example.com"}
+{"filename": "furl/test2.py", "a": "https://example.com/api?key=123&value=abc", "b": "127.0.0.1"}
+{"filename": "furl/test2.py", "a": "http://example.com/users?page=1&limit=10", "b": "app.example.co"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/to/file.html", "b": "test.example.net"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/../other", "b": "news.example.org"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/to/file.html", "b": "subdomain.example.org"}
+{"filename": "furl/test2.py", "a": "http://user:pass@example.com", "b": "example.com"}
+{"filename": "furl/test2.py", "a": "http://localhost:3000", "b": "secure.example.com"}
+{"filename": "furl/test2.py", "a": "https://example.com#section", "b": "google.com"}
+{"filename": "furl/test2.py", "a": "http://localhost:3000", "b": "subdomain.example.org"}
+{"filename": "furl/test2.py", "a": "https://api.example.com/v2/data", "b": "ftp.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com", "b": "localhost"}
+{"filename": "furl/test2.py", "a": "https://example.com:443", "b": "ftp.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com:8080", "b": "api.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/users?page=1&limit=10", "b": "github.com"}
+{"filename": "furl/test2.py", "a": "https://example.com/api?key=123&value=abc", "b": "www.example.com"}
+{"filename": "furl/test2.py", "a": "http://user:pass@example.com", "b": "secure.example.com"}
+{"filename": "furl/test2.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "docs.example.io"}
+{"filename": "furl/test2.py", "a": "ftp://ftp.example.com/files", "b": "static.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/to/file.html", "b": "api.example.com"}
+{"filename": "furl/test2.py", "a": "https://subdomain.example.com/path", "b": "subdomain.example.org"}
+{"filename": "furl/test2.py", "a": "http://example.com/path", "b": "github.com"}
+{"filename": "furl/test2.py", "a": "https://192.168.1.1:9000", "b": "docs.example.io"}
+{"filename": "furl/test2.py", "a": "http://example.com/users?page=1&limit=10", "b": "google.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/path", "b": "stackoverflow.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/../other", "b": "subdomain.example.org"}
+{"filename": "furl/test2.py", "a": "https://api.example.com/v3/data?format=json", "b": "blog.example.net"}
+{"filename": "furl/test2.py", "a": "https://localhost:8080", "b": "api.example.com"}
+{"filename": "furl/test2.py", "a": "https://admin:password@example.com/secure", "b": "google.com"}
+{"filename": "furl/test2.py", "a": "http://127.0.0.1:8000", "b": "cdn.example.com"}
+{"filename": "furl/test2.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "stackoverflow.com"}
+{"filename": "furl/test2.py", "a": "https://admin:password@example.com/secure", "b": "api.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com:3000/api/v1", "b": "subdomain.example.org"}
+{"filename": "furl/test2.py", "a": "http://example.com/search?q=test", "b": "test.example.net"}
+{"filename": "furl/test2.py", "a": "https://api.example.com/v2/data", "b": "127.0.0.1"}
+{"filename": "furl/test2.py", "a": "http://example.com/path?query=value#fragment", "b": "localhost"}
+{"filename": "furl/test2.py", "a": "https://example.com/path/to/resource", "b": "app.example.co"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/../other", "b": "app.example.co"}
+{"filename": "furl/test2.py", "a": "https://example.com:443", "b": "google.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/a/b/c/d/e", "b": "news.example.org"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/../other", "b": "app.example.co"}
+{"filename": "furl/test2.py", "a": "https://example.com#section", "b": "static.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com:3000/api/v1", "b": "192.168.1.100"}
+{"filename": "furl/test2.py", "a": "http://example.com/search?q=test", "b": "test.example.net"}
+{"filename": "furl/test2.py", "a": "https://admin:password@example.com/secure", "b": "app.example.co"}
+{"filename": "furl/test2.py", "a": "http://example.com/a/b/c/d/e", "b": "test.example.net"}
+{"filename": "furl/test2.py", "a": "https://example.com/path?filter=active&sort=date", "b": "cdn.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com:3000/api/v1", "b": "github.com"}
+{"filename": "furl/test2.py", "a": "http://example.com:8080", "b": "api.example.com"}
+{"filename": "furl/test2.py", "a": "https://subdomain.example.com/path", "b": "secure.example.com"}
+{"filename": "furl/test2.py", "a": "https://example.com/api?key=123&value=abc", "b": "www.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/search?q=test", "b": "localhost"}
+{"filename": "furl/test2.py", "a": "http://example.com/path/to/file.html", "b": "google.com"}
+{"filename": "furl/test2.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "192.168.1.100"}
+{"filename": "furl/test2.py", "a": "https://example.com#section", "b": "subdomain.example.org"}
+{"filename": "furl/test2.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "www.example.com"}
+{"filename": "furl/test2.py", "a": "http://example.com/search?q=test", "b": "secure.example.com"}
+{"filename": "furl/test3.py", "a": "http://example.com/path?query=value#fragment", "b": 5000}
+{"filename": "furl/test3.py", "a": "https://192.168.1.1:9000", "b": 5000}
+{"filename": "furl/test3.py", "a": "https://example.com/api?key=123&value=abc", "b": 7000}
+{"filename": "furl/test3.py", "a": "https://example.com/path/to/resource", "b": 9000}
+{"filename": "furl/test3.py", "a": "http://localhost:3000", "b": 3306}
+{"filename": "furl/test3.py", "a": "http://example.com/users?page=1&limit=10", "b": 3000}
+{"filename": "furl/test3.py", "a": "http://example.com/search?q=test", "b": 443}
+{"filename": "furl/test3.py", "a": "https://admin:password@example.com/secure", "b": 443}
+{"filename": "furl/test3.py", "a": "https://192.168.1.1:9000", "b": 8000}
+{"filename": "furl/test3.py", "a": "ftp://ftp.example.com/files", "b": 5000}
+{"filename": "furl/test3.py", "a": "https://example.com/path?filter=active&sort=date", "b": 8080}
+{"filename": "furl/test3.py", "a": "http://example.com/path/../other", "b": 9000}
+{"filename": "furl/test3.py", "a": "http://example.com/search?q=test", "b": 80}
+{"filename": "furl/test3.py", "a": "https://example.com/./path/./to", "b": 9000}
+{"filename": "furl/test3.py", "a": "https://localhost:8080", "b": 4000}
+{"filename": "furl/test3.py", "a": "http://example.com/path/../other", "b": 9200}
+{"filename": "furl/test3.py", "a": "https://example.com/api?key=123&value=abc", "b": 5432}
+{"filename": "furl/test3.py", "a": "http://user:pass@example.com", "b": 5432}
+{"filename": "furl/test3.py", "a": "http://testuser:testpass@example.com:8080/api", "b": 3000}
+{"filename": "furl/test3.py", "a": "http://example.com/api/v1/users", "b": 9200}
+{"filename": "furl/test3.py", "a": "https://example.com/./path/./to", "b": 3306}
+{"filename": "furl/test3.py", "a": "http://example.com:3000/api/v1", "b": 9200}
+{"filename": "furl/test3.py", "a": "http://example.com/api/v1/users", "b": 3000}
+{"filename": "furl/test3.py", "a": "http://example.com/path/to/file.html", "b": 5432}
+{"filename": "furl/test3.py", "a": "http://testuser:testpass@example.com:8080/api", "b": 3000}
+{"filename": "furl/test3.py", "a": "https://192.168.1.1:9000", "b": 3000}
+{"filename": "furl/test3.py", "a": "http://example.com/api/v1/users", "b": 8888}
+{"filename": "furl/test3.py", "a": "http://127.0.0.1:8000", "b": 7000}
+{"filename": "furl/test3.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": 4000}
+{"filename": "furl/test3.py", "a": "ftp://ftp.example.com/files", "b": 443}
+{"filename": "furl/test3.py", "a": "http://example.com/api/v1/users", "b": 27017}
+{"filename": "furl/test3.py", "a": "http://example.com/api/v1/users", "b": 9000}
+{"filename": "furl/test3.py", "a": "https://example.com#section", "b": 8888}
+{"filename": "furl/test3.py", "a": "http://example.com/path?query=value#fragment", "b": 4000}
+{"filename": "furl/test3.py", "a": "http://user:pass@example.com", "b": 8000}
+{"filename": "furl/test3.py", "a": "https://example.com/api?key=123&value=abc", "b": 8000}
+{"filename": "furl/test3.py", "a": "http://example.com/path/../other", "b": 8888}
+{"filename": "furl/test3.py", "a": "https://api.example.com/v2/data", "b": 9200}
+{"filename": "furl/test3.py", "a": "http://example.com/path", "b": 3000}
+{"filename": "furl/test3.py", "a": "ftp://ftp.example.com/files", "b": 27017}
+{"filename": "furl/test3.py", "a": "https://example.com/./path/./to", "b": 8000}
+{"filename": "furl/test3.py", "a": "https://example.com/api?key=123&value=abc", "b": 8000}
+{"filename": "furl/test3.py", "a": "http://example.com:8080", "b": 5432}
+{"filename": "furl/test3.py", "a": "http://example.com/path", "b": 5432}
+{"filename": "furl/test3.py", "a": "https://example.com#section", "b": 8080}
+{"filename": "furl/test3.py", "a": "http://example.com/path", "b": 3000}
+{"filename": "furl/test3.py", "a": "https://example.com", "b": 8000}
+{"filename": "furl/test3.py", "a": "https://localhost:8080", "b": 9200}
+{"filename": "furl/test3.py", "a": "https://example.com/api?key=123&value=abc", "b": 6379}
+{"filename": "furl/test3.py", "a": "https://example.com/api?key=123&value=abc", "b": 27017}
+{"filename": "furl/test3.py", "a": "https://example.com:443", "b": 6379}
+{"filename": "furl/test3.py", "a": "https://example.com/path?filter=active&sort=date", "b": 4000}
+{"filename": "furl/test3.py", "a": "https://example.com/path/to/resource", "b": 5432}
+{"filename": "furl/test3.py", "a": "https://example.com:443", "b": 5432}
+{"filename": "furl/test3.py", "a": "https://subdomain.example.com/path", "b": 5000}
+{"filename": "furl/test3.py", "a": "https://example.com/api?key=123&value=abc", "b": 9000}
+{"filename": "furl/test3.py", "a": "https://admin:password@example.com/secure", "b": 9200}
+{"filename": "furl/test3.py", "a": "https://api.example.com/v3/data?format=json", "b": 5000}
+{"filename": "furl/test3.py", "a": "https://admin:password@example.com/secure", "b": 80}
+{"filename": "furl/test3.py", "a": "http://example.com/users?page=1&limit=10", "b": 27017}
+{"filename": "furl/test4.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test4.py", "a": "http://example.com/search?q=test"}
+{"filename": "furl/test4.py", "a": "https://subdomain.example.com/path"}
+{"filename": "furl/test4.py", "a": "https://api.example.com/v3/data?format=json"}
+{"filename": "furl/test4.py", "a": "https://example.com#section"}
+{"filename": "furl/test4.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test4.py", "a": "https://example.com/path?filter=active&sort=date"}
+{"filename": "furl/test4.py", "a": "https://example.com:443"}
+{"filename": "furl/test4.py", "a": "https://example.com/./path/./to"}
+{"filename": "furl/test4.py", "a": "http://127.0.0.1:8000"}
+{"filename": "furl/test4.py", "a": "https://subdomain.example.com/path"}
+{"filename": "furl/test4.py", "a": "http://example.com"}
+{"filename": "furl/test4.py", "a": "http://example.com/api/v1/users"}
+{"filename": "furl/test4.py", "a": "https://example.com/path?param1=val1&param2=val2"}
+{"filename": "furl/test4.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test4.py", "a": "http://example.com/a/b/c/d/e"}
+{"filename": "furl/test4.py", "a": "https://api.example.com/v3/data?format=json"}
+{"filename": "furl/test4.py", "a": "https://example.com/path?filter=active&sort=date"}
+{"filename": "furl/test4.py", "a": "https://example.com/api?key=123&value=abc"}
+{"filename": "furl/test4.py", "a": "http://localhost:3000"}
+{"filename": "furl/test4.py", "a": "https://example.com/api?key=123&value=abc"}
+{"filename": "furl/test4.py", "a": "https://admin:password@example.com/secure"}
+{"filename": "furl/test4.py", "a": "https://localhost:8080"}
+{"filename": "furl/test4.py", "a": "http://example.com/users?page=1&limit=10"}
+{"filename": "furl/test4.py", "a": "http://example.com/users?page=1&limit=10"}
+{"filename": "furl/test4.py", "a": "http://example.com"}
+{"filename": "furl/test4.py", "a": "http://example.com"}
+{"filename": "furl/test4.py", "a": "http://example.com/users?page=1&limit=10"}
+{"filename": "furl/test4.py", "a": "https://example.com/api?key=123&value=abc"}
+{"filename": "furl/test4.py", "a": "http://example.com/path?query=value#fragment"}
+{"filename": "furl/test4.py", "a": "https://example.com#section"}
+{"filename": "furl/test4.py", "a": "http://example.com/users?page=1&limit=10"}
+{"filename": "furl/test4.py", "a": "http://example.com"}
+{"filename": "furl/test4.py", "a": "http://example.com:3000/api/v1"}
+{"filename": "furl/test4.py", "a": "https://api.example.com/v3/data?format=json"}
+{"filename": "furl/test4.py", "a": "https://example.com/api?key=123&value=abc"}
+{"filename": "furl/test4.py", "a": "http://example.com"}
+{"filename": "furl/test4.py", "a": "http://example.com/path?query=value#fragment"}
+{"filename": "furl/test4.py", "a": "http://example.com/search?q=test"}
+{"filename": "furl/test4.py", "a": "https://api.example.com/v2/data"}
+{"filename": "furl/test4.py", "a": "https://example.com/api?key=123&value=abc"}
+{"filename": "furl/test4.py", "a": "http://example.com:8080"}
+{"filename": "furl/test4.py", "a": "http://example.com/api/v1/users"}
+{"filename": "furl/test4.py", "a": "https://example.com/./path/./to"}
+{"filename": "furl/test4.py", "a": "https://example.com/path?param1=val1&param2=val2"}
+{"filename": "furl/test4.py", "a": "http://example.com:8080"}
+{"filename": "furl/test4.py", "a": "https://localhost:8080"}
+{"filename": "furl/test4.py", "a": "http://example.com/path"}
+{"filename": "furl/test4.py", "a": "http://example.com/path/../other"}
+{"filename": "furl/test4.py", "a": "https://api.example.com/v3/data?format=json"}
+{"filename": "furl/test4.py", "a": "https://192.168.1.1:9000"}
+{"filename": "furl/test4.py", "a": "http://localhost:3000"}
+{"filename": "furl/test4.py", "a": "https://example.com/path/to/resource"}
+{"filename": "furl/test4.py", "a": "ftp://ftp.example.com/files"}
+{"filename": "furl/test4.py", "a": "http://example.com/search?q=test"}
+{"filename": "furl/test4.py", "a": "http://localhost:3000"}
+{"filename": "furl/test4.py", "a": "https://api.example.com/v2/data"}
+{"filename": "furl/test4.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test4.py", "a": "https://admin:password@example.com/secure"}
+{"filename": "furl/test4.py", "a": "https://example.com#section"}
+{"filename": "furl/test5.py", "a": "https://example.com"}
+{"filename": "furl/test5.py", "a": "http://example.com/a/b/c/d/e"}
+{"filename": "furl/test5.py", "a": "https://example.com#section"}
+{"filename": "furl/test5.py", "a": "https://example.com"}
+{"filename": "furl/test5.py", "a": "https://api.example.com/v2/data"}
+{"filename": "furl/test5.py", "a": "http://example.com/a/b/c/d/e"}
+{"filename": "furl/test5.py", "a": "http://example.com"}
+{"filename": "furl/test5.py", "a": "https://example.com:443"}
+{"filename": "furl/test5.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test5.py", "a": "https://192.168.1.1:9000"}
+{"filename": "furl/test5.py", "a": "http://example.com/path/to/file.html"}
+{"filename": "furl/test5.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test5.py", "a": "http://example.com"}
+{"filename": "furl/test5.py", "a": "http://127.0.0.1:8000"}
+{"filename": "furl/test5.py", "a": "http://example.com:3000/api/v1"}
+{"filename": "furl/test5.py", "a": "http://example.com"}
+{"filename": "furl/test5.py", "a": "https://localhost:8080"}
+{"filename": "furl/test5.py", "a": "https://example.com/path?filter=active&sort=date"}
+{"filename": "furl/test5.py", "a": "http://example.com/path"}
+{"filename": "furl/test5.py", "a": "http://user:pass@example.com"}
+{"filename": "furl/test5.py", "a": "https://192.168.1.1:9000"}
+{"filename": "furl/test5.py", "a": "https://admin:password@example.com/secure"}
+{"filename": "furl/test5.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test5.py", "a": "https://example.com/./path/./to"}
+{"filename": "furl/test5.py", "a": "http://example.com/path"}
+{"filename": "furl/test5.py", "a": "https://subdomain.example.com/path"}
+{"filename": "furl/test5.py", "a": "https://localhost:8080"}
+{"filename": "furl/test5.py", "a": "http://example.com/path/to/file.html"}
+{"filename": "furl/test5.py", "a": "https://example.com/path/to/resource"}
+{"filename": "furl/test5.py", "a": "http://example.com/path?query=value#fragment"}
+{"filename": "furl/test5.py", "a": "http://example.com/a/b/c/d/e"}
+{"filename": "furl/test5.py", "a": "http://example.com/path/../other"}
+{"filename": "furl/test5.py", "a": "https://example.com/./path/./to"}
+{"filename": "furl/test5.py", "a": "http://127.0.0.1:8000"}
+{"filename": "furl/test5.py", "a": "http://example.com:3000/api/v1"}
+{"filename": "furl/test5.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test5.py", "a": "https://example.com"}
+{"filename": "furl/test5.py", "a": "ftp://ftp.example.com/files"}
+{"filename": "furl/test5.py", "a": "http://example.com/path?query=value#fragment"}
+{"filename": "furl/test5.py", "a": "http://example.com/search?q=test"}
+{"filename": "furl/test5.py", "a": "http://example.com/a/b/c/d/e"}
+{"filename": "furl/test5.py", "a": "https://example.com"}
+{"filename": "furl/test5.py", "a": "https://example.com:443"}
+{"filename": "furl/test5.py", "a": "https://example.com/./path/./to"}
+{"filename": "furl/test5.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test5.py", "a": "https://admin:password@example.com/secure"}
+{"filename": "furl/test5.py", "a": "https://localhost:8080"}
+{"filename": "furl/test5.py", "a": "http://example.com/users?page=1&limit=10"}
+{"filename": "furl/test5.py", "a": "http://example.com"}
+{"filename": "furl/test5.py", "a": "https://example.com:443"}
+{"filename": "furl/test5.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test5.py", "a": "http://testuser:testpass@example.com:8080/api"}
+{"filename": "furl/test5.py", "a": "https://example.com#section"}
+{"filename": "furl/test5.py", "a": "https://example.com/path?filter=active&sort=date"}
+{"filename": "furl/test5.py", "a": "https://example.com:443"}
+{"filename": "furl/test5.py", "a": "https://example.com/path/to/resource"}
+{"filename": "furl/test5.py", "a": "https://subdomain.example.com/path"}
+{"filename": "furl/test5.py", "a": "https://api.example.com/v3/data?format=json"}
+{"filename": "furl/test5.py", "a": "https://api.example.com/v2/data"}
+{"filename": "furl/test5.py", "a": "https://localhost:8080"}
+{"filename": "furl/test6.py", "a": "http://example.com/search?q=test", "b": "offset", "c": "undefined"}
+{"filename": "furl/test6.py", "a": "https://api.example.com/v3/data?format=json", "b": "api_key", "c": "xml"}
+{"filename": "furl/test6.py", "a": "https://example.com:443", "b": "token", "c": "video"}
+{"filename": "furl/test6.py", "a": "http://example.com", "b": "offset", "c": "null"}
+{"filename": "furl/test6.py", "a": "https://example.com/path/to/resource", "b": "limit", "c": "javascript"}
+{"filename": "furl/test6.py", "a": "https://example.com/path?filter=active&sort=date", "b": "filter", "c": "value"}
+{"filename": "furl/test6.py", "a": "https://api.example.com/v2/data", "b": "type", "c": "true"}
+{"filename": "furl/test6.py", "a": "https://example.com:443", "b": "user_id", "c": "json"}
+{"filename": "furl/test6.py", "a": "http://example.com/a/b/c/d/e", "b": "count", "c": "undefined"}
+{"filename": "furl/test6.py", "a": "https://subdomain.example.com/path", "b": "name", "c": "hello"}
+{"filename": "furl/test6.py", "a": "http://example.com/path?query=value#fragment", "b": "category", "c": "world"}
+{"filename": "furl/test6.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "limit", "c": "test"}
+{"filename": "furl/test6.py", "a": "http://example.com/path/../other", "b": "count", "c": "json"}
+{"filename": "furl/test6.py", "a": "https://api.example.com/v3/data?format=json", "b": "search", "c": "image"}
+{"filename": "furl/test6.py", "a": "https://example.com/api?key=123&value=abc", "b": "count", "c": "example"}
+{"filename": "furl/test6.py", "a": "ftp://ftp.example.com/files", "b": "query", "c": "data"}
+{"filename": "furl/test6.py", "a": "https://example.com#section", "b": "type", "c": "123"}
+{"filename": "furl/test6.py", "a": "http://example.com/users?page=1&limit=10", "b": "category", "c": "test"}
+{"filename": "furl/test6.py", "a": "https://api.example.com/v2/data", "b": "filter", "c": "null"}
+{"filename": "furl/test6.py", "a": "https://localhost:8080", "b": "id", "c": "example"}
+{"filename": "furl/test6.py", "a": "http://example.com/path", "b": "offset", "c": "null"}
+{"filename": "furl/test6.py", "a": "https://example.com#section", "b": "callback", "c": "example"}
+{"filename": "furl/test6.py", "a": "http://example.com/users?page=1&limit=10", "b": "filter", "c": "video"}
+{"filename": "furl/test6.py", "a": "http://example.com/path?query=value#fragment", "b": "name", "c": "html"}
+{"filename": "furl/test6.py", "a": "http://example.com/path", "b": "search", "c": "video"}
+{"filename": "furl/test6.py", "a": "https://example.com/api?key=123&value=abc", "b": "name", "c": "css"}
+{"filename": "furl/test6.py", "a": "https://api.example.com/v3/data?format=json", "b": "token", "c": "undefined"}
+{"filename": "furl/test6.py", "a": "http://example.com/search?q=test", "b": "query", "c": "json"}
+{"filename": "furl/test6.py", "a": "http://example.com/path/../other", "b": "api_key", "c": "abc"}
+{"filename": "furl/test6.py", "a": "https://example.com/./path/./to", "b": "api_key", "c": "image"}
+{"filename": "furl/test6.py", "a": "https://api.example.com/v3/data?format=json", "b": "sort", "c": "data"}
+{"filename": "furl/test6.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "count", "c": "javascript"}
+{"filename": "furl/test6.py", "a": "https://example.com:443", "b": "api_key", "c": "image"}
+{"filename": "furl/test6.py", "a": "http://example.com:8080", "b": "token", "c": "image"}
+{"filename": "furl/test6.py", "a": "http://example.com/path?query=value#fragment", "b": "type", "c": "javascript"}
+{"filename": "furl/test6.py", "a": "https://localhost:8080", "b": "type", "c": "123"}
+{"filename": "furl/test6.py", "a": "https://example.com", "b": "query", "c": "123"}
+{"filename": "furl/test6.py", "a": "https://example.com#section", "b": "order", "c": "video"}
+{"filename": "furl/test6.py", "a": "http://example.com/api/v1/users", "b": "offset", "c": "hello"}
+{"filename": "furl/test6.py", "a": "https://example.com", "b": "sort", "c": "value"}
+{"filename": "furl/test6.py", "a": "http://example.com/api/v1/users", "b": "search", "c": "hello"}
+{"filename": "furl/test6.py", "a": "https://192.168.1.1:9000", "b": "count", "c": "123"}
+{"filename": "furl/test6.py", "a": "ftp://ftp.example.com/files", "b": "count", "c": "test"}
+{"filename": "furl/test6.py", "a": "https://localhost:8080", "b": "token", "c": "python"}
+{"filename": "furl/test6.py", "a": "http://example.com/api/v1/users", "b": "filter", "c": "test"}
+{"filename": "furl/test6.py", "a": "http://example.com/search?q=test", "b": "id", "c": "abc"}
+{"filename": "furl/test6.py", "a": "http://example.com/api/v1/users", "b": "query", "c": "123"}
+{"filename": "furl/test6.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "sort", "c": "example"}
+{"filename": "furl/test6.py", "a": "http://example.com/api/v1/users", "b": "user_id", "c": "123"}
+{"filename": "furl/test6.py", "a": "http://example.com/a/b/c/d/e", "b": "user_id", "c": "video"}
+{"filename": "furl/test6.py", "a": "http://example.com/path/../other", "b": "search", "c": "value"}
+{"filename": "furl/test6.py", "a": "http://example.com:8080", "b": "order", "c": "hello"}
+{"filename": "furl/test6.py", "a": "https://api.example.com/v3/data?format=json", "b": "page", "c": "html"}
+{"filename": "furl/test6.py", "a": "http://example.com/a/b/c/d/e", "b": "session_id", "c": "video"}
+{"filename": "furl/test6.py", "a": "http://example.com/users?page=1&limit=10", "b": "name", "c": "json"}
+{"filename": "furl/test6.py", "a": "https://example.com/path?filter=active&sort=date", "b": "filter", "c": "example"}
+{"filename": "furl/test6.py", "a": "https://localhost:8080", "b": "search", "c": "python"}
+{"filename": "furl/test6.py", "a": "http://example.com/path/to/file.html", "b": "limit", "c": "css"}
+{"filename": "furl/test6.py", "a": "http://example.com/api/v1/users", "b": "callback", "c": "video"}
+{"filename": "furl/test6.py", "a": "http://example.com/api/v1/users", "b": "offset", "c": "world"}
+{"filename": "furl/test7.py", "a": "https://example.com", "b": "ws", "c": 6379, "d": "/data/export"}
+{"filename": "furl/test7.py", "a": "https://example.com/path/to/resource", "b": "ws", "c": 27017, "d": "/app/index.html"}
+{"filename": "furl/test7.py", "a": "http://example.com:3000/api/v1", "b": "ftps", "c": 3000, "d": "/status"}
+{"filename": "furl/test7.py", "a": "https://192.168.1.1:9000", "b": "ws", "c": 8000, "d": "/data/export"}
+{"filename": "furl/test7.py", "a": "https://example.com/./path/./to", "b": "ftps", "c": 9000, "d": "/health"}
+{"filename": "furl/test7.py", "a": "ftp://ftp.example.com/files", "b": "ftp", "c": 9200, "d": "/api/v1"}
+{"filename": "furl/test7.py", "a": "http://example.com/users?page=1&limit=10", "b": "ws", "c": 9000, "d": "/api/v2/users"}
+{"filename": "furl/test7.py", "a": "http://user:pass@example.com", "b": "wss", "c": 4000, "d": "/users/profile"}
+{"filename": "furl/test7.py", "a": "https://example.com#section", "b": "ftp", "c": 8000, "d": "/health"}
+{"filename": "furl/test7.py", "a": "https://example.com/path/to/resource", "b": "ftp", "c": 5000, "d": "/api"}
+{"filename": "furl/test7.py", "a": "http://example.com/path?query=value#fragment", "b": "ws", "c": 8080, "d": "/register"}
+{"filename": "furl/test7.py", "a": "http://example.com/search?q=test", "b": "http", "c": 6379, "d": "/api"}
+{"filename": "furl/test7.py", "a": "https://subdomain.example.com/path", "b": "http", "c": 8000, "d": "/path/to/resource"}
+{"filename": "furl/test7.py", "a": "http://example.com", "b": "ftp", "c": 9200, "d": "/data/export"}
+{"filename": "furl/test7.py", "a": "http://user:pass@example.com", "b": "ftp", "c": 27017, "d": "/path/to/resource"}
+{"filename": "furl/test7.py", "a": "https://api.example.com/v2/data", "b": "ftps", "c": 80, "d": "/static/css/style.css"}
+{"filename": "furl/test7.py", "a": "http://example.com/search?q=test", "b": "https", "c": 9200, "d": "/files/download"}
+{"filename": "furl/test7.py", "a": "https://localhost:8080", "b": "ws", "c": 5432, "d": "/register"}
+{"filename": "furl/test7.py", "a": "https://api.example.com/v3/data?format=json", "b": "https", "c": 5432, "d": "/register"}
+{"filename": "furl/test7.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "ftps", "c": 443, "d": "/register"}
+{"filename": "furl/test7.py", "a": "http://example.com/path", "b": "ws", "c": 9000, "d": "/register"}
+{"filename": "furl/test7.py", "a": "https://localhost:8080", "b": "http", "c": 443, "d": "/app/index.html"}
+{"filename": "furl/test7.py", "a": "ftp://ftp.example.com/files", "b": "ftp", "c": 443, "d": "/api/v1"}
+{"filename": "furl/test7.py", "a": "http://example.com", "b": "wss", "c": 6379, "d": "/status"}
+{"filename": "furl/test7.py", "a": "https://example.com/./path/./to", "b": "wss", "c": 7000, "d": "/api/v2/users"}
+{"filename": "furl/test7.py", "a": "https://localhost:8080", "b": "wss", "c": 443, "d": "/admin/dashboard"}
+{"filename": "furl/test7.py", "a": "http://example.com/api/v1/users", "b": "ws", "c": 7000, "d": "/docs/api.html"}
+{"filename": "furl/test7.py", "a": "http://user:pass@example.com", "b": "ws", "c": 8000, "d": "/data/export"}
+{"filename": "furl/test7.py", "a": "http://127.0.0.1:8000", "b": "ws", "c": 27017, "d": "/docs/api.html"}
+{"filename": "furl/test7.py", "a": "https://example.com/api?key=123&value=abc", "b": "ftps", "c": 27017, "d": "/login"}
+{"filename": "furl/test7.py", "a": "http://user:pass@example.com", "b": "https", "c": 27017, "d": "/api/v2/users"}
+{"filename": "furl/test7.py", "a": "http://127.0.0.1:8000", "b": "https", "c": 80, "d": "/login"}
+{"filename": "furl/test7.py", "a": "http://example.com/path", "b": "http", "c": 8888, "d": "/images/avatar.png"}
+{"filename": "furl/test7.py", "a": "https://api.example.com/v3/data?format=json", "b": "ws", "c": 9200, "d": "/graphql"}
+{"filename": "furl/test7.py", "a": "http://127.0.0.1:8000", "b": "ws", "c": 8888, "d": "/status"}
+{"filename": "furl/test7.py", "a": "http://example.com/path/to/file.html", "b": "http", "c": 9000, "d": "/users/profile"}
+{"filename": "furl/test7.py", "a": "https://localhost:8080", "b": "https", "c": 7000, "d": "/admin/dashboard"}
+{"filename": "furl/test7.py", "a": "https://192.168.1.1:9000", "b": "http", "c": 8080, "d": "/app/index.html"}
+{"filename": "furl/test7.py", "a": "http://127.0.0.1:8000", "b": "ws", "c": 3000, "d": "/status"}
+{"filename": "furl/test7.py", "a": "https://192.168.1.1:9000", "b": "ftp", "c": 9200, "d": "/path/to/resource"}
+{"filename": "furl/test7.py", "a": "http://example.com/a/b/c/d/e", "b": "ftp", "c": 4000, "d": "/images/avatar.png"}
+{"filename": "furl/test7.py", "a": "http://example.com/path", "b": "ftps", "c": 7000, "d": "/status"}
+{"filename": "furl/test7.py", "a": "http://example.com:8080", "b": "ftp", "c": 9000, "d": "/users/profile"}
+{"filename": "furl/test7.py", "a": "https://api.example.com/v3/data?format=json", "b": "wss", "c": 80, "d": "/path/to/resource"}
+{"filename": "furl/test7.py", "a": "https://api.example.com/v2/data", "b": "wss", "c": 8000, "d": "/app/index.html"}
+{"filename": "furl/test7.py", "a": "http://example.com:8080", "b": "wss", "c": 9000, "d": "/health"}
+{"filename": "furl/test7.py", "a": "https://example.com/path/to/resource", "b": "http", "c": 5000, "d": "/images/avatar.png"}
+{"filename": "furl/test7.py", "a": "http://example.com/path?query=value#fragment", "b": "https", "c": 8888, "d": "/admin/dashboard"}
+{"filename": "furl/test7.py", "a": "https://admin:password@example.com/secure", "b": "ftp", "c": 3000, "d": "/static/css/style.css"}
+{"filename": "furl/test7.py", "a": "ftp://ftp.example.com/files", "b": "wss", "c": 4000, "d": "/search"}
+{"filename": "furl/test7.py", "a": "https://example.com/api?key=123&value=abc", "b": "http", "c": 6379, "d": "/graphql"}
+{"filename": "furl/test7.py", "a": "https://api.example.com/v2/data", "b": "ftps", "c": 27017, "d": "/login"}
+{"filename": "furl/test7.py", "a": "https://example.com/./path/./to", "b": "ws", "c": 5000, "d": "/static/css/style.css"}
+{"filename": "furl/test7.py", "a": "https://example.com/path/to/resource", "b": "wss", "c": 8000, "d": "/path/to/resource"}
+{"filename": "furl/test7.py", "a": "http://example.com:8080", "b": "wss", "c": 27017, "d": "/search"}
+{"filename": "furl/test7.py", "a": "http://example.com/api/v1/users", "b": "http", "c": 6379, "d": "/app/index.html"}
+{"filename": "furl/test7.py", "a": "http://example.com/api/v1/users", "b": "ws", "c": 27017, "d": "/login"}
+{"filename": "furl/test7.py", "a": "http://example.com/path/../other", "b": "http", "c": 3000, "d": "/status"}
+{"filename": "furl/test7.py", "a": "https://example.com/./path/./to", "b": "http", "c": 5000, "d": "/data/export"}
+{"filename": "furl/test7.py", "a": "http://example.com:3000/api/v1", "b": "ftp", "c": 80, "d": "/data/export"}
+{"filename": "furl/test8.py", "a": "http://127.0.0.1:8000", "b": "name", "c": "true", "d": "callback"}
+{"filename": "furl/test8.py", "a": "https://admin:password@example.com/secure", "b": "count", "c": "test", "d": "callback"}
+{"filename": "furl/test8.py", "a": "https://subdomain.example.com/path", "b": "query", "c": "xml", "d": "user_id"}
+{"filename": "furl/test8.py", "a": "https://subdomain.example.com/path", "b": "name", "c": "hello", "d": "token"}
+{"filename": "furl/test8.py", "a": "http://example.com/api/v1/users", "b": "session_id", "c": "image", "d": "type"}
+{"filename": "furl/test8.py", "a": "https://api.example.com/v3/data?format=json", "b": "user_id", "c": "abc", "d": "count"}
+{"filename": "furl/test8.py", "a": "https://localhost:8080", "b": "offset", "c": "hello", "d": "key"}
+{"filename": "furl/test8.py", "a": "https://example.com:443", "b": "limit", "c": "undefined", "d": "query"}
+{"filename": "furl/test8.py", "a": "http://example.com/path?query=value#fragment", "b": "name", "c": "python", "d": "filter"}
+{"filename": "furl/test8.py", "a": "http://127.0.0.1:8000", "b": "offset", "c": "hello", "d": "count"}
+{"filename": "furl/test8.py", "a": "http://example.com/search?q=test", "b": "limit", "c": "python", "d": "id"}
+{"filename": "furl/test8.py", "a": "http://example.com:8080", "b": "order", "c": "hello", "d": "count"}
+{"filename": "furl/test8.py", "a": "http://example.com/path/to/file.html", "b": "page", "c": "video", "d": "tag"}
+{"filename": "furl/test8.py", "a": "http://example.com/api/v1/users", "b": "page", "c": "css", "d": "callback"}
+{"filename": "furl/test8.py", "a": "http://example.com/api/v1/users", "b": "name", "c": "example", "d": "order"}
+{"filename": "furl/test8.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "callback", "c": "false", "d": "user_id"}
+{"filename": "furl/test8.py", "a": "http://example.com/search?q=test", "b": "token", "c": "world", "d": "page"}
+{"filename": "furl/test8.py", "a": "https://api.example.com/v3/data?format=json", "b": "sort", "c": "true", "d": "filter"}
+{"filename": "furl/test8.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "query", "c": "null", "d": "page"}
+{"filename": "furl/test8.py", "a": "http://example.com:3000/api/v1", "b": "id", "c": "javascript", "d": "order"}
+{"filename": "furl/test8.py", "a": "https://192.168.1.1:9000", "b": "count", "c": "hello", "d": "filter"}
+{"filename": "furl/test8.py", "a": "https://example.com/path/to/resource", "b": "limit", "c": "hello", "d": "page"}
+{"filename": "furl/test8.py", "a": "http://example.com", "b": "callback", "c": "data", "d": "tag"}
+{"filename": "furl/test8.py", "a": "http://example.com/path", "b": "order", "c": "javascript", "d": "count"}
+{"filename": "furl/test8.py", "a": "http://example.com/path", "b": "order", "c": "value", "d": "filter"}
+{"filename": "furl/test8.py", "a": "https://example.com#section", "b": "session_id", "c": "test", "d": "offset"}
+{"filename": "furl/test8.py", "a": "http://example.com/path/../other", "b": "order", "c": "html", "d": "key"}
+{"filename": "furl/test8.py", "a": "http://example.com/path?query=value#fragment", "b": "page", "c": "undefined", "d": "name"}
+{"filename": "furl/test8.py", "a": "https://example.com/path?filter=active&sort=date", "b": "sort", "c": "abc", "d": "limit"}
+{"filename": "furl/test8.py", "a": "https://example.com/path/to/resource", "b": "session_id", "c": "video", "d": "category"}
+{"filename": "furl/test8.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "sort", "c": "abc", "d": "type"}
+{"filename": "furl/test8.py", "a": "https://example.com/path?filter=active&sort=date", "b": "type", "c": "image", "d": "user_id"}
+{"filename": "furl/test8.py", "a": "http://example.com", "b": "query", "c": "hello", "d": "type"}
+{"filename": "furl/test8.py", "a": "https://subdomain.example.com/path", "b": "id", "c": "javascript", "d": "callback"}
+{"filename": "furl/test8.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "type", "c": "undefined", "d": "key"}
+{"filename": "furl/test8.py", "a": "http://example.com/a/b/c/d/e", "b": "id", "c": "example", "d": "user_id"}
+{"filename": "furl/test8.py", "a": "ftp://ftp.example.com/files", "b": "query", "c": "html", "d": "limit"}
+{"filename": "furl/test8.py", "a": "https://example.com/path/to/resource", "b": "user_id", "c": "null", "d": "filter"}
+{"filename": "furl/test8.py", "a": "http://example.com/search?q=test", "b": "name", "c": "css", "d": "search"}
+{"filename": "furl/test8.py", "a": "http://example.com/path/../other", "b": "id", "c": "null", "d": "callback"}
+{"filename": "furl/test8.py", "a": "http://example.com", "b": "id", "c": "example", "d": "page"}
+{"filename": "furl/test8.py", "a": "http://example.com/path/../other", "b": "type", "c": "hello", "d": "count"}
+{"filename": "furl/test8.py", "a": "https://api.example.com/v2/data", "b": "key", "c": "python", "d": "token"}
+{"filename": "furl/test8.py", "a": "http://example.com:3000/api/v1", "b": "api_key", "c": "data", "d": "offset"}
+{"filename": "furl/test8.py", "a": "http://example.com:3000/api/v1", "b": "key", "c": "undefined", "d": "tag"}
+{"filename": "furl/test8.py", "a": "http://example.com/users?page=1&limit=10", "b": "count", "c": "null", "d": "query"}
+{"filename": "furl/test8.py", "a": "http://example.com/path/../other", "b": "tag", "c": "123", "d": "id"}
+{"filename": "furl/test8.py", "a": "https://example.com/api?key=123&value=abc", "b": "token", "c": "false", "d": "type"}
+{"filename": "furl/test8.py", "a": "http://example.com/api/v1/users", "b": "callback", "c": "false", "d": "order"}
+{"filename": "furl/test8.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "offset", "c": "abc", "d": "tag"}
+{"filename": "furl/test8.py", "a": "https://localhost:8080", "b": "tag", "c": "true", "d": "order"}
+{"filename": "furl/test8.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "name", "c": "json", "d": "count"}
+{"filename": "furl/test8.py", "a": "https://localhost:8080", "b": "query", "c": "true", "d": "filter"}
+{"filename": "furl/test8.py", "a": "http://example.com/path/to/file.html", "b": "page", "c": "python", "d": "offset"}
+{"filename": "furl/test8.py", "a": "http://example.com:8080", "b": "session_id", "c": "json", "d": "filter"}
+{"filename": "furl/test8.py", "a": "https://example.com/path?filter=active&sort=date", "b": "id", "c": "example", "d": "token"}
+{"filename": "furl/test8.py", "a": "http://127.0.0.1:8000", "b": "limit", "c": "undefined", "d": "type"}
+{"filename": "furl/test8.py", "a": "http://127.0.0.1:8000", "b": "api_key", "c": "abc", "d": "query"}
+{"filename": "furl/test8.py", "a": "https://subdomain.example.com/path", "b": "filter", "c": "html", "d": "api_key"}
+{"filename": "furl/test8.py", "a": "https://example.com/api?key=123&value=abc", "b": "search", "c": "javascript", "d": "name"}
+{"filename": "furl/test9.py", "a": "http://localhost:3000", "b": "users"}
+{"filename": "furl/test9.py", "a": "http://example.com", "b": "images"}
+{"filename": "furl/test9.py", "a": "https://192.168.1.1:9000", "b": "users"}
+{"filename": "furl/test9.py", "a": "ftp://ftp.example.com/files", "b": "v1"}
+{"filename": "furl/test9.py", "a": "http://example.com/api/v1/users", "b": "users"}
+{"filename": "furl/test9.py", "a": "http://user:pass@example.com", "b": "data"}
+{"filename": "furl/test9.py", "a": "https://localhost:8080", "b": "docs"}
+{"filename": "furl/test9.py", "a": "http://example.com/path", "b": "v1"}
+{"filename": "furl/test9.py", "a": "http://example.com/path/to/file.html", "b": "images"}
+{"filename": "furl/test9.py", "a": "http://example.com:3000/api/v1", "b": "files"}
+{"filename": "furl/test9.py", "a": "http://example.com/path?query=value#fragment", "b": "public"}
+{"filename": "furl/test9.py", "a": "ftp://ftp.example.com/files", "b": "docs"}
+{"filename": "furl/test9.py", "a": "https://example.com/./path/./to", "b": "docs"}
+{"filename": "furl/test9.py", "a": "http://example.com/path/to/file.html", "b": "v1"}
+{"filename": "furl/test9.py", "a": "http://example.com/path/../other", "b": "files"}
+{"filename": "furl/test9.py", "a": "http://example.com/a/b/c/d/e", "b": "docs"}
+{"filename": "furl/test9.py", "a": "http://example.com:8080", "b": "data"}
+{"filename": "furl/test9.py", "a": "https://localhost:8080", "b": "docs"}
+{"filename": "furl/test9.py", "a": "https://example.com/path/to/resource", "b": "v1"}
+{"filename": "furl/test9.py", "a": "http://example.com/api/v1/users", "b": "static"}
+{"filename": "furl/test9.py", "a": "https://example.com/path/to/resource", "b": "data"}
+{"filename": "furl/test9.py", "a": "https://example.com/path?filter=active&sort=date", "b": "files"}
+{"filename": "furl/test9.py", "a": "https://api.example.com/v3/data?format=json", "b": "users"}
+{"filename": "furl/test9.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "v1"}
+{"filename": "furl/test9.py", "a": "https://localhost:8080", "b": "docs"}
+{"filename": "furl/test9.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "assets"}
+{"filename": "furl/test9.py", "a": "http://example.com:8080", "b": "users"}
+{"filename": "furl/test9.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "public"}
+{"filename": "furl/test9.py", "a": "ftp://ftp.example.com/files", "b": "images"}
+{"filename": "furl/test9.py", "a": "http://example.com:3000/api/v1", "b": "data"}
+{"filename": "furl/test9.py", "a": "https://api.example.com/v3/data?format=json", "b": "assets"}
+{"filename": "furl/test9.py", "a": "https://example.com/api?key=123&value=abc", "b": "assets"}
+{"filename": "furl/test9.py", "a": "https://example.com#section", "b": "assets"}
+{"filename": "furl/test9.py", "a": "http://example.com/path?query=value#fragment", "b": "v1"}
+{"filename": "furl/test9.py", "a": "https://localhost:8080", "b": "users"}
+{"filename": "furl/test9.py", "a": "http://example.com/path", "b": "api"}
+{"filename": "furl/test9.py", "a": "https://example.com#section", "b": "files"}
+{"filename": "furl/test9.py", "a": "http://example.com/search?q=test", "b": "files"}
+{"filename": "furl/test9.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "v1"}
+{"filename": "furl/test9.py", "a": "http://example.com/search?q=test", "b": "static"}
+{"filename": "furl/test9.py", "a": "https://example.com:443", "b": "images"}
+{"filename": "furl/test9.py", "a": "http://example.com/api/v1/users", "b": "files"}
+{"filename": "furl/test9.py", "a": "https://api.example.com/v2/data", "b": "static"}
+{"filename": "furl/test9.py", "a": "http://example.com/path?query=value#fragment", "b": "api"}
+{"filename": "furl/test9.py", "a": "https://example.com/path/to/resource", "b": "images"}
+{"filename": "furl/test9.py", "a": "http://example.com", "b": "assets"}
+{"filename": "furl/test9.py", "a": "https://api.example.com/v3/data?format=json", "b": "files"}
+{"filename": "furl/test9.py", "a": "http://example.com:3000/api/v1", "b": "docs"}
+{"filename": "furl/test9.py", "a": "http://example.com/api/v1/users", "b": "public"}
+{"filename": "furl/test9.py", "a": "http://127.0.0.1:8000", "b": "data"}
+{"filename": "furl/test9.py", "a": "http://example.com/path", "b": "users"}
+{"filename": "furl/test9.py", "a": "https://subdomain.example.com/path", "b": "assets"}
+{"filename": "furl/test9.py", "a": "https://192.168.1.1:9000", "b": "docs"}
+{"filename": "furl/test9.py", "a": "https://admin:password@example.com/secure", "b": "users"}
+{"filename": "furl/test9.py", "a": "http://example.com", "b": "static"}
+{"filename": "furl/test9.py", "a": "http://127.0.0.1:8000", "b": "public"}
+{"filename": "furl/test9.py", "a": "https://example.com#section", "b": "api"}
+{"filename": "furl/test9.py", "a": "https://example.com#section", "b": "users"}
+{"filename": "furl/test9.py", "a": "ftp://ftp.example.com/files", "b": "data"}
+{"filename": "furl/test9.py", "a": "http://127.0.0.1:8000", "b": "assets"}
+{"filename": "furl/test10.py", "a": "https://example.com/api?key=123&value=abc", "b": "name"}
+{"filename": "furl/test10.py", "a": "http://example.com/a/b/c/d/e", "b": "user_id"}
+{"filename": "furl/test10.py", "a": "https://example.com/path?filter=active&sort=date", "b": "sort"}
+{"filename": "furl/test10.py", "a": "https://192.168.1.1:9000", "b": "user_id"}
+{"filename": "furl/test10.py", "a": "http://example.com:8080", "b": "name"}
+{"filename": "furl/test10.py", "a": "https://subdomain.example.com/path", "b": "order"}
+{"filename": "furl/test10.py", "a": "http://localhost:3000", "b": "type"}
+{"filename": "furl/test10.py", "a": "http://example.com:8080", "b": "count"}
+{"filename": "furl/test10.py", "a": "http://user:pass@example.com", "b": "category"}
+{"filename": "furl/test10.py", "a": "http://example.com/search?q=test", "b": "callback"}
+{"filename": "furl/test10.py", "a": "https://example.com/path/to/resource", "b": "callback"}
+{"filename": "furl/test10.py", "a": "http://localhost:3000", "b": "count"}
+{"filename": "furl/test10.py", "a": "https://example.com/path/to/resource", "b": "type"}
+{"filename": "furl/test10.py", "a": "http://example.com/api/v1/users", "b": "name"}
+{"filename": "furl/test10.py", "a": "http://example.com:3000/api/v1", "b": "filter"}
+{"filename": "furl/test10.py", "a": "http://example.com/path?query=value#fragment", "b": "order"}
+{"filename": "furl/test10.py", "a": "https://example.com:443", "b": "key"}
+{"filename": "furl/test10.py", "a": "http://example.com:3000/api/v1", "b": "count"}
+{"filename": "furl/test10.py", "a": "http://example.com/search?q=test", "b": "callback"}
+{"filename": "furl/test10.py", "a": "https://192.168.1.1:9000", "b": "query"}
+{"filename": "furl/test10.py", "a": "https://example.com:443", "b": "tag"}
+{"filename": "furl/test10.py", "a": "https://example.com/path/to/resource", "b": "type"}
+{"filename": "furl/test10.py", "a": "http://example.com/path?query=value#fragment", "b": "search"}
+{"filename": "furl/test10.py", "a": "http://example.com/path", "b": "sort"}
+{"filename": "furl/test10.py", "a": "https://example.com/./path/./to", "b": "callback"}
+{"filename": "furl/test10.py", "a": "http://example.com/path", "b": "order"}
+{"filename": "furl/test10.py", "a": "https://api.example.com/v2/data", "b": "api_key"}
+{"filename": "furl/test10.py", "a": "http://example.com:8080", "b": "category"}
+{"filename": "furl/test10.py", "a": "http://example.com/search?q=test", "b": "limit"}
+{"filename": "furl/test10.py", "a": "https://example.com#section", "b": "user_id"}
+{"filename": "furl/test10.py", "a": "https://example.com/path/to/resource", "b": "query"}
+{"filename": "furl/test10.py", "a": "http://example.com/path/to/file.html", "b": "callback"}
+{"filename": "furl/test10.py", "a": "https://example.com/path?filter=active&sort=date", "b": "filter"}
+{"filename": "furl/test10.py", "a": "http://example.com/path/to/file.html", "b": "tag"}
+{"filename": "furl/test10.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "session_id"}
+{"filename": "furl/test10.py", "a": "http://user:pass@example.com", "b": "key"}
+{"filename": "furl/test10.py", "a": "http://example.com", "b": "filter"}
+{"filename": "furl/test10.py", "a": "https://admin:password@example.com/secure", "b": "filter"}
+{"filename": "furl/test10.py", "a": "http://localhost:3000", "b": "page"}
+{"filename": "furl/test10.py", "a": "http://user:pass@example.com", "b": "session_id"}
+{"filename": "furl/test10.py", "a": "http://example.com/a/b/c/d/e", "b": "token"}
+{"filename": "furl/test10.py", "a": "http://example.com", "b": "session_id"}
+{"filename": "furl/test10.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "callback"}
+{"filename": "furl/test10.py", "a": "http://example.com:8080", "b": "filter"}
+{"filename": "furl/test10.py", "a": "http://example.com/path/../other", "b": "sort"}
+{"filename": "furl/test10.py", "a": "http://example.com/a/b/c/d/e", "b": "api_key"}
+{"filename": "furl/test10.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "category"}
+{"filename": "furl/test10.py", "a": "http://example.com", "b": "limit"}
+{"filename": "furl/test10.py", "a": "http://localhost:3000", "b": "type"}
+{"filename": "furl/test10.py", "a": "https://example.com/path/to/resource", "b": "id"}
+{"filename": "furl/test10.py", "a": "http://example.com/path?query=value#fragment", "b": "order"}
+{"filename": "furl/test10.py", "a": "https://example.com:443", "b": "session_id"}
+{"filename": "furl/test10.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "search"}
+{"filename": "furl/test10.py", "a": "https://example.com/path/to/resource", "b": "callback"}
+{"filename": "furl/test10.py", "a": "http://example.com/a/b/c/d/e", "b": "name"}
+{"filename": "furl/test10.py", "a": "http://example.com", "b": "order"}
+{"filename": "furl/test10.py", "a": "https://example.com/./path/./to", "b": "sort"}
+{"filename": "furl/test10.py", "a": "https://example.com/path/to/resource", "b": "token"}
+{"filename": "furl/test10.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "filter"}
+{"filename": "furl/test10.py", "a": "https://example.com/api?key=123&value=abc", "b": "order"}
+{"filename": "furl/test11.py", "a": "http://user:pass@example.com", "b": "guest", "c": "letmein"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "alice", "c": "secret"}
+{"filename": "furl/test11.py", "a": "https://example.com:443", "b": "eve", "c": "secret"}
+{"filename": "furl/test11.py", "a": "http://example.com/path", "b": "grace", "c": "monkey"}
+{"filename": "furl/test11.py", "a": "https://example.com:443", "b": "david", "c": "password"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "jane", "c": "master"}
+{"filename": "furl/test11.py", "a": "http://example.com/path", "b": "charlie", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "https://localhost:8080", "b": "grace", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "http://example.com/path", "b": "charlie", "c": "pass123"}
+{"filename": "furl/test11.py", "a": "https://example.com/path/to/resource", "b": "bob", "c": "login"}
+{"filename": "furl/test11.py", "a": "https://example.com/path/to/resource", "b": "demo", "c": "pass123"}
+{"filename": "furl/test11.py", "a": "https://api.example.com/v2/data", "b": "bob", "c": "dragon"}
+{"filename": "furl/test11.py", "a": "http://example.com/path", "b": "grace", "c": "master"}
+{"filename": "furl/test11.py", "a": "http://example.com", "b": "root", "c": "dragon"}
+{"filename": "furl/test11.py", "a": "https://api.example.com/v2/data", "b": "root", "c": "letmein"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "alice", "c": "secret"}
+{"filename": "furl/test11.py", "a": "https://example.com:443", "b": "admin", "c": "letmein"}
+{"filename": "furl/test11.py", "a": "https://localhost:8080", "b": "charlie", "c": "login"}
+{"filename": "furl/test11.py", "a": "https://example.com", "b": "bob", "c": "master"}
+{"filename": "furl/test11.py", "a": "http://example.com", "b": "root", "c": "letmein"}
+{"filename": "furl/test11.py", "a": "https://localhost:8080", "b": "guest", "c": "dragon"}
+{"filename": "furl/test11.py", "a": "http://user:pass@example.com", "b": "testuser", "c": "password"}
+{"filename": "furl/test11.py", "a": "https://example.com/path/to/resource", "b": "john", "c": "master"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "demo", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "jane", "c": "qwerty"}
+{"filename": "furl/test11.py", "a": "http://localhost:3000", "b": "john", "c": "admin123"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "alice", "c": "welcome"}
+{"filename": "furl/test11.py", "a": "http://example.com", "b": "john", "c": "pass123"}
+{"filename": "furl/test11.py", "a": "http://localhost:3000", "b": "admin", "c": "letmein"}
+{"filename": "furl/test11.py", "a": "http://localhost:3000", "b": "grace", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "https://localhost:8080", "b": "charlie", "c": "qwerty"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "alice", "c": "password"}
+{"filename": "furl/test11.py", "a": "https://localhost:8080", "b": "guest", "c": "password"}
+{"filename": "furl/test11.py", "a": "http://example.com", "b": "bob", "c": "welcome"}
+{"filename": "furl/test11.py", "a": "https://admin:password@example.com/secure", "b": "alice", "c": "admin123"}
+{"filename": "furl/test11.py", "a": "http://example.com/users?page=1&limit=10", "b": "john", "c": "monkey"}
+{"filename": "furl/test11.py", "a": "https://localhost:8080", "b": "guest", "c": "dragon"}
+{"filename": "furl/test11.py", "a": "https://admin:password@example.com/secure", "b": "jane", "c": "111111"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "guest", "c": "monkey"}
+{"filename": "furl/test11.py", "a": "https://api.example.com/v2/data", "b": "david", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "http://example.com/path", "b": "charlie", "c": "welcome"}
+{"filename": "furl/test11.py", "a": "http://example.com/path", "b": "guest", "c": "welcome"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "grace", "c": "secret"}
+{"filename": "furl/test11.py", "a": "http://example.com:8080", "b": "frank", "c": "monkey"}
+{"filename": "furl/test11.py", "a": "https://example.com:443", "b": "bob", "c": "welcome"}
+{"filename": "furl/test11.py", "a": "http://example.com/users?page=1&limit=10", "b": "user", "c": "111111"}
+{"filename": "furl/test11.py", "a": "http://example.com:8080", "b": "root", "c": "demo123"}
+{"filename": "furl/test11.py", "a": "https://localhost:8080", "b": "guest", "c": "welcome"}
+{"filename": "furl/test11.py", "a": "https://api.example.com/v2/data", "b": "demo", "c": "master"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "user", "c": "pass123"}
+{"filename": "furl/test11.py", "a": "https://api.example.com/v2/data", "b": "frank", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "http://example.com:8080", "b": "root", "c": "test123"}
+{"filename": "furl/test11.py", "a": "https://admin:password@example.com/secure", "b": "root", "c": "dragon"}
+{"filename": "furl/test11.py", "a": "https://localhost:8080", "b": "admin", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "https://example.com:443", "b": "testuser", "c": "monkey"}
+{"filename": "furl/test11.py", "a": "https://admin:password@example.com/secure", "b": "alice", "c": "qwerty"}
+{"filename": "furl/test11.py", "a": "https://example.com:443", "b": "root", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "http://example.com", "b": "charlie", "c": "abc123"}
+{"filename": "furl/test11.py", "a": "http://localhost:3000", "b": "jane", "c": "demo123"}
+{"filename": "furl/test11.py", "a": "http://example.com/api/v1/users", "b": "john", "c": "welcome"}
+{"filename": "furl/test12.py", "a": "https://admin:password@example.com/secure", "b": "comments", "c": "section", "d": "article"}
+{"filename": "furl/test12.py", "a": "https://example.com/api?key=123&value=abc", "b": "nav", "c": "article", "d": "main"}
+{"filename": "furl/test12.py", "a": "http://example.com/path?query=value#fragment", "b": "main", "c": "data", "d": "header"}
+{"filename": "furl/test12.py", "a": "https://api.example.com/v3/data?format=json", "b": "nav", "c": "data", "d": "header"}
+{"filename": "furl/test12.py", "a": "http://example.com/path/../other", "b": "article", "c": "main", "d": "summary"}
+{"filename": "furl/test12.py", "a": "http://example.com/path", "b": "results", "c": "main", "d": "details"}
+{"filename": "furl/test12.py", "a": "http://example.com:8080", "b": "summary", "c": "comments", "d": "header"}
+{"filename": "furl/test12.py", "a": "https://example.com/./path/./to", "b": "nav", "c": "content", "d": "article"}
+{"filename": "furl/test12.py", "a": "http://user:pass@example.com", "b": "results", "c": "section", "d": "header"}
+{"filename": "furl/test12.py", "a": "http://example.com", "b": "header", "c": "content", "d": "section"}
+{"filename": "furl/test12.py", "a": "https://example.com/./path/./to", "b": "top", "c": "section", "d": "summary"}
+{"filename": "furl/test12.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "results", "c": "footer", "d": "section"}
+{"filename": "furl/test12.py", "a": "http://example.com/path/../other", "b": "main", "c": "data", "d": "results"}
+{"filename": "furl/test12.py", "a": "http://example.com/search?q=test", "b": "data", "c": "content", "d": "main"}
+{"filename": "furl/test12.py", "a": "https://admin:password@example.com/secure", "b": "info", "c": "section", "d": "top"}
+{"filename": "furl/test12.py", "a": "http://example.com/path?query=value#fragment", "b": "details", "c": "main", "d": "footer"}
+{"filename": "furl/test12.py", "a": "http://example.com/path", "b": "bottom", "c": "info", "d": "details"}
+{"filename": "furl/test12.py", "a": "https://example.com/path?filter=active&sort=date", "b": "comments", "c": "top", "d": "details"}
+{"filename": "furl/test12.py", "a": "https://example.com/path?filter=active&sort=date", "b": "comments", "c": "results", "d": "bottom"}
+{"filename": "furl/test12.py", "a": "https://api.example.com/v2/data", "b": "nav", "c": "section", "d": "data"}
+{"filename": "furl/test12.py", "a": "http://example.com/path", "b": "main", "c": "content", "d": "nav"}
+{"filename": "furl/test12.py", "a": "http://localhost:3000", "b": "details", "c": "info", "d": "data"}
+{"filename": "furl/test12.py", "a": "http://example.com/path?query=value#fragment", "b": "results", "c": "section", "d": "nav"}
+{"filename": "furl/test12.py", "a": "https://example.com", "b": "info", "c": "article", "d": "main"}
+{"filename": "furl/test12.py", "a": "http://127.0.0.1:8000", "b": "section", "c": "data", "d": "bottom"}
+{"filename": "furl/test12.py", "a": "http://example.com/a/b/c/d/e", "b": "main", "c": "content", "d": "article"}
+{"filename": "furl/test12.py", "a": "https://example.com", "b": "details", "c": "header", "d": "info"}
+{"filename": "furl/test12.py", "a": "https://localhost:8080", "b": "section", "c": "nav", "d": "content"}
+{"filename": "furl/test12.py", "a": "https://example.com/./path/./to", "b": "content", "c": "article", "d": "top"}
+{"filename": "furl/test12.py", "a": "https://example.com", "b": "nav", "c": "summary", "d": "header"}
+{"filename": "furl/test12.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "footer", "c": "content", "d": "article"}
+{"filename": "furl/test12.py", "a": "http://example.com:3000/api/v1", "b": "bottom", "c": "data", "d": "results"}
+{"filename": "furl/test12.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "content", "c": "article", "d": "nav"}
+{"filename": "furl/test12.py", "a": "https://example.com:443", "b": "comments", "c": "main", "d": "nav"}
+{"filename": "furl/test12.py", "a": "http://example.com/path", "b": "main", "c": "info", "d": "section"}
+{"filename": "furl/test12.py", "a": "http://example.com/search?q=test", "b": "data", "c": "info", "d": "summary"}
+{"filename": "furl/test12.py", "a": "http://example.com:3000/api/v1", "b": "nav", "c": "data", "d": "main"}
+{"filename": "furl/test12.py", "a": "https://example.com/api?key=123&value=abc", "b": "content", "c": "results", "d": "data"}
+{"filename": "furl/test12.py", "a": "http://example.com/path/../other", "b": "bottom", "c": "info", "d": "data"}
+{"filename": "furl/test12.py", "a": "https://example.com/path?filter=active&sort=date", "b": "data", "c": "content", "d": "nav"}
+{"filename": "furl/test12.py", "a": "https://192.168.1.1:9000", "b": "info", "c": "results", "d": "header"}
+{"filename": "furl/test12.py", "a": "https://admin:password@example.com/secure", "b": "footer", "c": "summary", "d": "details"}
+{"filename": "furl/test12.py", "a": "https://example.com/api?key=123&value=abc", "b": "main", "c": "header", "d": "summary"}
+{"filename": "furl/test12.py", "a": "https://api.example.com/v3/data?format=json", "b": "details", "c": "comments", "d": "results"}
+{"filename": "furl/test12.py", "a": "http://example.com:8080", "b": "details", "c": "footer", "d": "data"}
+{"filename": "furl/test12.py", "a": "http://user:pass@example.com", "b": "content", "c": "header", "d": "summary"}
+{"filename": "furl/test12.py", "a": "https://localhost:8080", "b": "content", "c": "top", "d": "summary"}
+{"filename": "furl/test12.py", "a": "http://example.com/api/v1/users", "b": "results", "c": "content", "d": "info"}
+{"filename": "furl/test12.py", "a": "https://example.com/path?filter=active&sort=date", "b": "article", "c": "info", "d": "comments"}
+{"filename": "furl/test12.py", "a": "http://example.com/path/to/file.html", "b": "article", "c": "nav", "d": "header"}
+{"filename": "furl/test12.py", "a": "https://example.com", "b": "bottom", "c": "info", "d": "footer"}
+{"filename": "furl/test12.py", "a": "http://example.com/path/../other", "b": "nav", "c": "summary", "d": "bottom"}
+{"filename": "furl/test12.py", "a": "http://example.com/a/b/c/d/e", "b": "details", "c": "comments", "d": "main"}
+{"filename": "furl/test12.py", "a": "https://localhost:8080", "b": "footer", "c": "top", "d": "results"}
+{"filename": "furl/test12.py", "a": "https://localhost:8080", "b": "footer", "c": "comments", "d": "summary"}
+{"filename": "furl/test12.py", "a": "https://api.example.com/v3/data?format=json", "b": "footer", "c": "header", "d": "details"}
+{"filename": "furl/test12.py", "a": "http://example.com/path", "b": "header", "c": "main", "d": "content"}
+{"filename": "furl/test12.py", "a": "https://example.com:443", "b": "info", "c": "top", "d": "article"}
+{"filename": "furl/test12.py", "a": "https://example.com/api?key=123&value=abc", "b": "footer", "c": "nav", "d": "bottom"}
+{"filename": "furl/test12.py", "a": "http://example.com/path/to/file.html", "b": "header", "c": "details", "d": "section"}
+{"filename": "furl/test13.py", "a": "https://example.com/./path/./to", "b": "/search", "c": 443}
+{"filename": "furl/test13.py", "a": "http://example.com:3000/api/v1", "b": "/data/export", "c": 6379}
+{"filename": "furl/test13.py", "a": "https://example.com/path/to/resource", "b": "/search", "c": 5432}
+{"filename": "furl/test13.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "/logout", "c": 8000}
+{"filename": "furl/test13.py", "a": "http://example.com:8080", "b": "/api/v1", "c": 7000}
+{"filename": "furl/test13.py", "a": "http://example.com/path", "b": "/files/download", "c": 3306}
+{"filename": "furl/test13.py", "a": "https://api.example.com/v3/data?format=json", "b": "/register", "c": 3000}
+{"filename": "furl/test13.py", "a": "https://example.com/./path/./to", "b": "/data/export", "c": 8080}
+{"filename": "furl/test13.py", "a": "http://example.com:8080", "b": "/admin/dashboard", "c": 80}
+{"filename": "furl/test13.py", "a": "https://example.com/./path/./to", "b": "/graphql", "c": 8000}
+{"filename": "furl/test13.py", "a": "https://subdomain.example.com/path", "b": "/images/avatar.png", "c": 8888}
+{"filename": "furl/test13.py", "a": "http://example.com/users?page=1&limit=10", "b": "/images/avatar.png", "c": 7000}
+{"filename": "furl/test13.py", "a": "http://127.0.0.1:8000", "b": "/app/index.html", "c": 8080}
+{"filename": "furl/test13.py", "a": "https://example.com/path/to/resource", "b": "/health", "c": 6379}
+{"filename": "furl/test13.py", "a": "http://user:pass@example.com", "b": "/path/to/resource", "c": 9000}
+{"filename": "furl/test13.py", "a": "http://example.com/path", "b": "/login", "c": 8888}
+{"filename": "furl/test13.py", "a": "http://example.com/a/b/c/d/e", "b": "/graphql", "c": 9000}
+{"filename": "furl/test13.py", "a": "https://192.168.1.1:9000", "b": "/images/avatar.png", "c": 4000}
+{"filename": "furl/test13.py", "a": "http://example.com/path", "b": "/images/avatar.png", "c": 8000}
+{"filename": "furl/test13.py", "a": "https://admin:password@example.com/secure", "b": "/static/css/style.css", "c": 3000}
+{"filename": "furl/test13.py", "a": "ftp://ftp.example.com/files", "b": "/data/export", "c": 5432}
+{"filename": "furl/test13.py", "a": "http://example.com/api/v1/users", "b": "/app/index.html", "c": 443}
+{"filename": "furl/test13.py", "a": "http://example.com/path/../other", "b": "/docs/api.html", "c": 3000}
+{"filename": "furl/test13.py", "a": "https://api.example.com/v3/data?format=json", "b": "/data/export", "c": 9200}
+{"filename": "furl/test13.py", "a": "http://127.0.0.1:8000", "b": "/search", "c": 8888}
+{"filename": "furl/test13.py", "a": "http://example.com/search?q=test", "b": "/data/export", "c": 4000}
+{"filename": "furl/test13.py", "a": "https://example.com/api?key=123&value=abc", "b": "/logout", "c": 80}
+{"filename": "furl/test13.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "/status", "c": 9000}
+{"filename": "furl/test13.py", "a": "https://admin:password@example.com/secure", "b": "/search", "c": 6379}
+{"filename": "furl/test13.py", "a": "http://user:pass@example.com", "b": "/logout", "c": 9000}
+{"filename": "furl/test13.py", "a": "https://192.168.1.1:9000", "b": "/health", "c": 9000}
+{"filename": "furl/test13.py", "a": "http://example.com/a/b/c/d/e", "b": "/logout", "c": 443}
+{"filename": "furl/test13.py", "a": "https://api.example.com/v2/data", "b": "/register", "c": 3306}
+{"filename": "furl/test13.py", "a": "http://example.com/path/../other", "b": "/data/export", "c": 9000}
+{"filename": "furl/test13.py", "a": "http://user:pass@example.com", "b": "/graphql", "c": 27017}
+{"filename": "furl/test13.py", "a": "http://testuser:testpass@example.com:8080/api", "b": "/users/profile", "c": 3000}
+{"filename": "furl/test13.py", "a": "http://example.com/api/v1/users", "b": "/health", "c": 7000}
+{"filename": "furl/test13.py", "a": "http://example.com/api/v1/users", "b": "/status", "c": 8888}
+{"filename": "furl/test13.py", "a": "https://admin:password@example.com/secure", "b": "/docs/api.html", "c": 80}
+{"filename": "furl/test13.py", "a": "https://example.com:443", "b": "/logout", "c": 7000}
+{"filename": "furl/test13.py", "a": "https://example.com#section", "b": "/api", "c": 6379}
+{"filename": "furl/test13.py", "a": "http://example.com:3000/api/v1", "b": "/api", "c": 8000}
+{"filename": "furl/test13.py", "a": "https://example.com/path/to/resource", "b": "/users/profile", "c": 8080}
+{"filename": "furl/test13.py", "a": "http://example.com/path/to/file.html", "b": "/health", "c": 9200}
+{"filename": "furl/test13.py", "a": "http://example.com/users?page=1&limit=10", "b": "/app/index.html", "c": 80}
+{"filename": "furl/test13.py", "a": "http://example.com:3000/api/v1", "b": "/api/v1", "c": 8080}
+{"filename": "furl/test13.py", "a": "http://example.com", "b": "/data/export", "c": 6379}
+{"filename": "furl/test13.py", "a": "http://example.com", "b": "/register", "c": 6379}
+{"filename": "furl/test13.py", "a": "https://api.example.com/v3/data?format=json", "b": "/graphql", "c": 8080}
+{"filename": "furl/test13.py", "a": "http://example.com/users?page=1&limit=10", "b": "/data/export", "c": 4000}
+{"filename": "furl/test13.py", "a": "http://example.com/path/to/file.html", "b": "/health", "c": 7000}
+{"filename": "furl/test13.py", "a": "http://127.0.0.1:8000", "b": "/static/css/style.css", "c": 3306}
+{"filename": "furl/test13.py", "a": "http://example.com/users?page=1&limit=10", "b": "/login", "c": 7000}
+{"filename": "furl/test13.py", "a": "http://example.com/path", "b": "/users/profile", "c": 8080}
+{"filename": "furl/test13.py", "a": "http://127.0.0.1:8000", "b": "/data/export", "c": 443}
+{"filename": "furl/test13.py", "a": "http://example.com/path/to/file.html", "b": "/login", "c": 7000}
+{"filename": "furl/test13.py", "a": "http://example.com:8080", "b": "/static/css/style.css", "c": 3000}
+{"filename": "furl/test13.py", "a": "https://example.com/path?param1=val1&param2=val2", "b": "/images/avatar.png", "c": 7000}
+{"filename": "furl/test13.py", "a": "http://example.com/search?q=test", "b": "/api/v1", "c": 6379}
+{"filename": "furl/test13.py", "a": "https://admin:password@example.com/secure", "b": "/logout", "c": 7000}

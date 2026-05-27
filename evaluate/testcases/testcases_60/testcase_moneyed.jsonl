@@ -1,0 +1,420 @@
+{"filename": "moneyed/test1.py", "amount": 989.06}
+{"filename": "moneyed/test1.py", "amount": 301.55}
+{"filename": "moneyed/test1.py", "amount": 534.38}
+{"filename": "moneyed/test1.py", "amount": 880.6}
+{"filename": "moneyed/test1.py", "amount": 275.18}
+{"filename": "moneyed/test1.py", "amount": 852.03}
+{"filename": "moneyed/test1.py", "amount": 586.66}
+{"filename": "moneyed/test1.py", "amount": 64.87}
+{"filename": "moneyed/test1.py", "amount": 716.25}
+{"filename": "moneyed/test1.py", "amount": 522.95}
+{"filename": "moneyed/test1.py", "amount": 851.64}
+{"filename": "moneyed/test1.py", "amount": 815.92}
+{"filename": "moneyed/test1.py", "amount": 459.65}
+{"filename": "moneyed/test1.py", "amount": 590.85}
+{"filename": "moneyed/test1.py", "amount": 42.04}
+{"filename": "moneyed/test1.py", "amount": 744.45}
+{"filename": "moneyed/test1.py", "amount": 381.57}
+{"filename": "moneyed/test1.py", "amount": 387.92}
+{"filename": "moneyed/test1.py", "amount": 591.43}
+{"filename": "moneyed/test1.py", "amount": 866.61}
+{"filename": "moneyed/test1.py", "amount": 0.050459}
+{"filename": "moneyed/test1.py", "amount": 1.558}
+{"filename": "moneyed/test1.py", "amount": 2.8}
+{"filename": "moneyed/test1.py", "amount": 7.29199122}
+{"filename": "moneyed/test1.py", "amount": 35.45}
+{"filename": "moneyed/test1.py", "amount": 50.94}
+{"filename": "moneyed/test1.py", "amount": 51.22}
+{"filename": "moneyed/test1.py", "amount": 0.076024}
+{"filename": "moneyed/test1.py", "amount": 800.30216376}
+{"filename": "moneyed/test1.py", "amount": 0.7250783}
+{"filename": "moneyed/test1.py", "amount": 0.0731127993}
+{"filename": "moneyed/test1.py", "amount": 3.865637799}
+{"filename": "moneyed/test1.py", "amount": 6.24449}
+{"filename": "moneyed/test1.py", "amount": 4.392672416}
+{"filename": "moneyed/test1.py", "amount": 983.5698}
+{"filename": "moneyed/test1.py", "amount": 30.4740674}
+{"filename": "moneyed/test1.py", "amount": 17.949261787}
+{"filename": "moneyed/test1.py", "amount": 11.52980196}
+{"filename": "moneyed/test1.py", "amount": 0.043}
+{"filename": "moneyed/test1.py", "amount": 0.0}
+{"filename": "moneyed/test1.py", "amount": 3.7895777754}
+{"filename": "moneyed/test1.py", "amount": 422.23171}
+{"filename": "moneyed/test1.py", "amount": -6.913616666}
+{"filename": "moneyed/test1.py", "amount": 934.882522}
+{"filename": "moneyed/test1.py", "amount": 12.0790954}
+{"filename": "moneyed/test1.py", "amount": 49.69104}
+{"filename": "moneyed/test1.py", "amount": 3.5801773}
+{"filename": "moneyed/test1.py", "amount": -2.72097}
+{"filename": "moneyed/test1.py", "amount": 6.9}
+{"filename": "moneyed/test1.py", "amount": -9.35936426}
+{"filename": "moneyed/test1.py", "amount": 0.09}
+{"filename": "moneyed/test1.py", "amount": 35.006}
+{"filename": "moneyed/test1.py", "amount": 5.8802}
+{"filename": "moneyed/test1.py", "amount": 62.7426}
+{"filename": "moneyed/test1.py", "amount": 39.014953}
+{"filename": "moneyed/test1.py", "amount": 815.88440687}
+{"filename": "moneyed/test1.py", "amount": 58.6541}
+{"filename": "moneyed/test1.py", "amount": 17.96}
+{"filename": "moneyed/test1.py", "amount": 209.4256403}
+{"filename": "moneyed/test1.py", "amount": 39.7}
+{"filename": "moneyed/test10.py", "amount": 112.99, "currency": "GBP"}
+{"filename": "moneyed/test10.py", "amount": 89.08, "currency": "USD"}
+{"filename": "moneyed/test10.py", "amount": 37.85, "currency": "JPY"}
+{"filename": "moneyed/test10.py", "amount": 760.61, "currency": "JPY"}
+{"filename": "moneyed/test10.py", "amount": 145.52, "currency": "CHF"}
+{"filename": "moneyed/test10.py", "amount": 859.87, "currency": "CNY"}
+{"filename": "moneyed/test10.py", "amount": 120.64, "currency": "CNY"}
+{"filename": "moneyed/test10.py", "amount": 867.0, "currency": "CAD"}
+{"filename": "moneyed/test10.py", "amount": 384.38, "currency": "USD"}
+{"filename": "moneyed/test10.py", "amount": 951.11, "currency": "JPY"}
+{"filename": "moneyed/test10.py", "amount": 577.5, "currency": "EUR"}
+{"filename": "moneyed/test10.py", "amount": 786.56, "currency": "JPY"}
+{"filename": "moneyed/test10.py", "amount": 218.92, "currency": "CHF"}
+{"filename": "moneyed/test10.py", "amount": 350.01, "currency": "AUD"}
+{"filename": "moneyed/test10.py", "amount": 251.99, "currency": "CAD"}
+{"filename": "moneyed/test10.py", "amount": 293.67, "currency": "CHF"}
+{"filename": "moneyed/test10.py", "amount": 624.98, "currency": "USD"}
+{"filename": "moneyed/test10.py", "amount": 212.14, "currency": "CHF"}
+{"filename": "moneyed/test10.py", "amount": 133.06, "currency": "CHF"}
+{"filename": "moneyed/test10.py", "amount": 566.9, "currency": "CNY"}
+{"filename": "moneyed/test11.py", "amount": 441.13, "currency": "JPY"}
+{"filename": "moneyed/test11.py", "amount": 759.91, "currency": "CHF"}
+{"filename": "moneyed/test11.py", "amount": 875.28, "currency": "USD"}
+{"filename": "moneyed/test11.py", "amount": 744.4, "currency": "JPY"}
+{"filename": "moneyed/test11.py", "amount": 565.84, "currency": "USD"}
+{"filename": "moneyed/test11.py", "amount": 450.8, "currency": "JPY"}
+{"filename": "moneyed/test11.py", "amount": 765.68, "currency": "CAD"}
+{"filename": "moneyed/test11.py", "amount": 496.74, "currency": "CNY"}
+{"filename": "moneyed/test11.py", "amount": 167.66, "currency": "USD"}
+{"filename": "moneyed/test11.py", "amount": 957.44, "currency": "USD"}
+{"filename": "moneyed/test11.py", "amount": 693.13, "currency": "JPY"}
+{"filename": "moneyed/test11.py", "amount": 11.61, "currency": "EUR"}
+{"filename": "moneyed/test11.py", "amount": 857.0, "currency": "CNY"}
+{"filename": "moneyed/test11.py", "amount": 797.89, "currency": "EUR"}
+{"filename": "moneyed/test11.py", "amount": 7.45, "currency": "AUD"}
+{"filename": "moneyed/test11.py", "amount": 454.17, "currency": "GBP"}
+{"filename": "moneyed/test11.py", "amount": 45.68, "currency": "EUR"}
+{"filename": "moneyed/test11.py", "amount": 356.43, "currency": "EUR"}
+{"filename": "moneyed/test11.py", "amount": 212.44, "currency": "CNY"}
+{"filename": "moneyed/test11.py", "amount": 260.41, "currency": "EUR"}
+{"filename": "moneyed/test12.py", "amount1": 573.46, "amount2": 960.47, "currency": "EUR"}
+{"filename": "moneyed/test12.py", "amount1": 298.5, "amount2": 391.99, "currency": "JPY"}
+{"filename": "moneyed/test12.py", "amount1": 282.72, "amount2": 94.22, "currency": "EUR"}
+{"filename": "moneyed/test12.py", "amount1": 584.9, "amount2": 675.64, "currency": "CNY"}
+{"filename": "moneyed/test12.py", "amount1": 292.28, "amount2": 455.4, "currency": "CAD"}
+{"filename": "moneyed/test12.py", "amount1": 190.67, "amount2": 489.13, "currency": "EUR"}
+{"filename": "moneyed/test12.py", "amount1": 306.2, "amount2": 784.15, "currency": "GBP"}
+{"filename": "moneyed/test12.py", "amount1": 525.81, "amount2": 806.61, "currency": "CAD"}
+{"filename": "moneyed/test12.py", "amount1": 998.31, "amount2": 102.15, "currency": "EUR"}
+{"filename": "moneyed/test12.py", "amount1": 302.91, "amount2": 724.34, "currency": "CHF"}
+{"filename": "moneyed/test12.py", "amount1": 88.96, "amount2": 86.56, "currency": "CNY"}
+{"filename": "moneyed/test12.py", "amount1": 484.12, "amount2": 249.38, "currency": "AUD"}
+{"filename": "moneyed/test12.py", "amount1": 319.17, "amount2": 947.85, "currency": "USD"}
+{"filename": "moneyed/test12.py", "amount1": 570.99, "amount2": 825.82, "currency": "CAD"}
+{"filename": "moneyed/test12.py", "amount1": 785.65, "amount2": 656.94, "currency": "CNY"}
+{"filename": "moneyed/test12.py", "amount1": 326.05, "amount2": 483.43, "currency": "CNY"}
+{"filename": "moneyed/test12.py", "amount1": 470.03, "amount2": 973.26, "currency": "GBP"}
+{"filename": "moneyed/test12.py", "amount1": 628.86, "amount2": 314.57, "currency": "USD"}
+{"filename": "moneyed/test12.py", "amount1": 614.12, "amount2": 295.89, "currency": "EUR"}
+{"filename": "moneyed/test12.py", "amount1": 540.14, "amount2": 748.71, "currency": "AUD"}
+{"filename": "moneyed/test13.py", "amount1": 566.94, "amount2": 222.04, "currency": "AUD"}
+{"filename": "moneyed/test13.py", "amount1": 803.84, "amount2": 430.74, "currency": "CAD"}
+{"filename": "moneyed/test13.py", "amount1": 162.61, "amount2": 847.7, "currency": "GBP"}
+{"filename": "moneyed/test13.py", "amount1": 111.62, "amount2": 26.76, "currency": "EUR"}
+{"filename": "moneyed/test13.py", "amount1": 932.52, "amount2": 198.68, "currency": "JPY"}
+{"filename": "moneyed/test13.py", "amount1": 73.23, "amount2": 723.75, "currency": "JPY"}
+{"filename": "moneyed/test13.py", "amount1": 180.57, "amount2": 616.21, "currency": "JPY"}
+{"filename": "moneyed/test13.py", "amount1": 325.56, "amount2": 152.93, "currency": "CHF"}
+{"filename": "moneyed/test13.py", "amount1": 182.85, "amount2": 206.12, "currency": "CNY"}
+{"filename": "moneyed/test13.py", "amount1": 386.18, "amount2": 857.27, "currency": "CAD"}
+{"filename": "moneyed/test13.py", "amount1": 550.06, "amount2": 496.7, "currency": "EUR"}
+{"filename": "moneyed/test13.py", "amount1": 243.58, "amount2": 484.95, "currency": "CAD"}
+{"filename": "moneyed/test13.py", "amount1": 524.78, "amount2": 782.59, "currency": "CHF"}
+{"filename": "moneyed/test13.py", "amount1": 736.84, "amount2": 804.64, "currency": "USD"}
+{"filename": "moneyed/test13.py", "amount1": 424.46, "amount2": 23.32, "currency": "CHF"}
+{"filename": "moneyed/test13.py", "amount1": 177.14, "amount2": 121.22, "currency": "CNY"}
+{"filename": "moneyed/test13.py", "amount1": 654.09, "amount2": 597.31, "currency": "CAD"}
+{"filename": "moneyed/test13.py", "amount1": 152.28, "amount2": 376.53, "currency": "CHF"}
+{"filename": "moneyed/test13.py", "amount1": 944.61, "amount2": 315.65, "currency": "GBP"}
+{"filename": "moneyed/test13.py", "amount1": 988.6, "amount2": 871.37, "currency": "GBP"}
+{"filename": "moneyed/test14.py", "amount": 244.64, "currency": "CHF"}
+{"filename": "moneyed/test14.py", "amount": 753.97, "currency": "JPY"}
+{"filename": "moneyed/test14.py", "amount": 180.64, "currency": "GBP"}
+{"filename": "moneyed/test14.py", "amount": 887.76, "currency": "CNY"}
+{"filename": "moneyed/test14.py", "amount": 368.47, "currency": "CHF"}
+{"filename": "moneyed/test14.py", "amount": 127.33, "currency": "GBP"}
+{"filename": "moneyed/test14.py", "amount": 173.01, "currency": "CHF"}
+{"filename": "moneyed/test14.py", "amount": 175.63, "currency": "CHF"}
+{"filename": "moneyed/test14.py", "amount": 502.91, "currency": "CAD"}
+{"filename": "moneyed/test14.py", "amount": 81.93, "currency": "JPY"}
+{"filename": "moneyed/test14.py", "amount": 623.9, "currency": "CHF"}
+{"filename": "moneyed/test14.py", "amount": 772.59, "currency": "EUR"}
+{"filename": "moneyed/test14.py", "amount": 272.97, "currency": "JPY"}
+{"filename": "moneyed/test14.py", "amount": 460.43, "currency": "USD"}
+{"filename": "moneyed/test14.py", "amount": 983.45, "currency": "AUD"}
+{"filename": "moneyed/test14.py", "amount": 937.82, "currency": "CAD"}
+{"filename": "moneyed/test14.py", "amount": 923.78, "currency": "AUD"}
+{"filename": "moneyed/test14.py", "amount": 814.75, "currency": "CNY"}
+{"filename": "moneyed/test14.py", "amount": 359.09, "currency": "EUR"}
+{"filename": "moneyed/test14.py", "amount": 854.51, "currency": "AUD"}
+{"filename": "moneyed/test15.py", "amount": 351.22, "currency": "CHF"}
+{"filename": "moneyed/test15.py", "amount": 847.41, "currency": "GBP"}
+{"filename": "moneyed/test15.py", "amount": 887.36, "currency": "GBP"}
+{"filename": "moneyed/test15.py", "amount": 8.37, "currency": "CHF"}
+{"filename": "moneyed/test15.py", "amount": 493.02, "currency": "EUR"}
+{"filename": "moneyed/test15.py", "amount": 547.99, "currency": "AUD"}
+{"filename": "moneyed/test15.py", "amount": 65.17, "currency": "AUD"}
+{"filename": "moneyed/test15.py", "amount": 698.41, "currency": "JPY"}
+{"filename": "moneyed/test15.py", "amount": 998.91, "currency": "EUR"}
+{"filename": "moneyed/test15.py", "amount": 783.75, "currency": "AUD"}
+{"filename": "moneyed/test15.py", "amount": 447.8, "currency": "CNY"}
+{"filename": "moneyed/test15.py", "amount": 6.18, "currency": "EUR"}
+{"filename": "moneyed/test15.py", "amount": 132.42, "currency": "CHF"}
+{"filename": "moneyed/test15.py", "amount": 859.57, "currency": "CHF"}
+{"filename": "moneyed/test15.py", "amount": 628.18, "currency": "AUD"}
+{"filename": "moneyed/test15.py", "amount": 436.63, "currency": "JPY"}
+{"filename": "moneyed/test15.py", "amount": 340.87, "currency": "EUR"}
+{"filename": "moneyed/test15.py", "amount": 319.39, "currency": "JPY"}
+{"filename": "moneyed/test15.py", "amount": 971.17, "currency": "JPY"}
+{"filename": "moneyed/test15.py", "amount": 106.58, "currency": "USD"}
+{"filename": "moneyed/test16.py", "amount": 753.58, "currency": "JPY"}
+{"filename": "moneyed/test16.py", "amount": 476.76, "currency": "CNY"}
+{"filename": "moneyed/test16.py", "amount": 606.95, "currency": "CAD"}
+{"filename": "moneyed/test16.py", "amount": 68.17, "currency": "JPY"}
+{"filename": "moneyed/test16.py", "amount": 674.16, "currency": "EUR"}
+{"filename": "moneyed/test16.py", "amount": 88.72, "currency": "EUR"}
+{"filename": "moneyed/test16.py", "amount": 146.12, "currency": "CAD"}
+{"filename": "moneyed/test16.py", "amount": 740.51, "currency": "CNY"}
+{"filename": "moneyed/test16.py", "amount": 531.25, "currency": "EUR"}
+{"filename": "moneyed/test16.py", "amount": 924.91, "currency": "CNY"}
+{"filename": "moneyed/test16.py", "amount": 103.36, "currency": "JPY"}
+{"filename": "moneyed/test16.py", "amount": 260.37, "currency": "CAD"}
+{"filename": "moneyed/test16.py", "amount": 573.99, "currency": "USD"}
+{"filename": "moneyed/test16.py", "amount": 553.07, "currency": "EUR"}
+{"filename": "moneyed/test16.py", "amount": 981.46, "currency": "CAD"}
+{"filename": "moneyed/test16.py", "amount": 211.64, "currency": "CAD"}
+{"filename": "moneyed/test16.py", "amount": 539.25, "currency": "USD"}
+{"filename": "moneyed/test16.py", "amount": 615.42, "currency": "CHF"}
+{"filename": "moneyed/test16.py", "amount": 47.96, "currency": "USD"}
+{"filename": "moneyed/test16.py", "amount": 742.96, "currency": "GBP"}
+{"filename": "moneyed/test17.py", "amount": 150.61, "currency": "GBP", "factor": 9.23}
+{"filename": "moneyed/test17.py", "amount": 305.32, "currency": "EUR", "factor": 8.6}
+{"filename": "moneyed/test17.py", "amount": 757.24, "currency": "USD", "factor": 9.06}
+{"filename": "moneyed/test17.py", "amount": 684.29, "currency": "EUR", "factor": 2.83}
+{"filename": "moneyed/test17.py", "amount": 71.62, "currency": "CHF", "factor": 9.47}
+{"filename": "moneyed/test17.py", "amount": 89.16, "currency": "CHF", "factor": 8.17}
+{"filename": "moneyed/test17.py", "amount": 320.23, "currency": "CHF", "factor": 7.23}
+{"filename": "moneyed/test17.py", "amount": 857.85, "currency": "EUR", "factor": 9.64}
+{"filename": "moneyed/test17.py", "amount": 575.05, "currency": "AUD", "factor": 6.35}
+{"filename": "moneyed/test17.py", "amount": 910.66, "currency": "AUD", "factor": 4.5}
+{"filename": "moneyed/test17.py", "amount": 684.46, "currency": "AUD", "factor": 6.77}
+{"filename": "moneyed/test17.py", "amount": 823.51, "currency": "GBP", "factor": 5.84}
+{"filename": "moneyed/test17.py", "amount": 72.58, "currency": "CNY", "factor": 1.54}
+{"filename": "moneyed/test17.py", "amount": 859.98, "currency": "CHF", "factor": 7.7}
+{"filename": "moneyed/test17.py", "amount": 845.74, "currency": "CHF", "factor": 7.41}
+{"filename": "moneyed/test17.py", "amount": 404.49, "currency": "CAD", "factor": 3.95}
+{"filename": "moneyed/test17.py", "amount": 933.85, "currency": "CAD", "factor": 9.79}
+{"filename": "moneyed/test17.py", "amount": 590.6, "currency": "USD", "factor": 5.99}
+{"filename": "moneyed/test17.py", "amount": 996.63, "currency": "GBP", "factor": 7.03}
+{"filename": "moneyed/test17.py", "amount": 796.93, "currency": "EUR", "factor": 5.62}
+{"filename": "moneyed/test18.py", "amount": 670.08, "currency": "JPY", "divisor": 8.13}
+{"filename": "moneyed/test18.py", "amount": 282.6, "currency": "AUD", "divisor": 9.98}
+{"filename": "moneyed/test18.py", "amount": 610.06, "currency": "CNY", "divisor": 1.47}
+{"filename": "moneyed/test18.py", "amount": 604.21, "currency": "CAD", "divisor": 4.95}
+{"filename": "moneyed/test18.py", "amount": 323.29, "currency": "CNY", "divisor": 7.65}
+{"filename": "moneyed/test18.py", "amount": 144.1, "currency": "CNY", "divisor": 6.25}
+{"filename": "moneyed/test18.py", "amount": 693.0, "currency": "USD", "divisor": 4.42}
+{"filename": "moneyed/test18.py", "amount": 653.78, "currency": "USD", "divisor": 8.69}
+{"filename": "moneyed/test18.py", "amount": 954.82, "currency": "JPY", "divisor": 0.15}
+{"filename": "moneyed/test18.py", "amount": 145.01, "currency": "AUD", "divisor": 1.18}
+{"filename": "moneyed/test18.py", "amount": 239.87, "currency": "AUD", "divisor": 9.78}
+{"filename": "moneyed/test18.py", "amount": 383.37, "currency": "EUR", "divisor": 7.67}
+{"filename": "moneyed/test18.py", "amount": 453.32, "currency": "CNY", "divisor": 4.78}
+{"filename": "moneyed/test18.py", "amount": 452.55, "currency": "CNY", "divisor": 2.98}
+{"filename": "moneyed/test18.py", "amount": 605.94, "currency": "EUR", "divisor": 5.06}
+{"filename": "moneyed/test18.py", "amount": 563.26, "currency": "EUR", "divisor": 7.49}
+{"filename": "moneyed/test18.py", "amount": 413.41, "currency": "USD", "divisor": 0.28}
+{"filename": "moneyed/test18.py", "amount": 639.13, "currency": "USD", "divisor": 9.77}
+{"filename": "moneyed/test18.py", "amount": 516.94, "currency": "CAD", "divisor": 3.59}
+{"filename": "moneyed/test18.py", "amount": 696.98, "currency": "USD", "divisor": 9.29}
+{"filename": "moneyed/test19.py", "amount1": 51.29, "amount2": 40.85, "currency": "GBP"}
+{"filename": "moneyed/test19.py", "amount1": 54.9, "amount2": 995.11, "currency": "EUR"}
+{"filename": "moneyed/test19.py", "amount1": 540.03, "amount2": 400.8, "currency": "CNY"}
+{"filename": "moneyed/test19.py", "amount1": 596.65, "amount2": 888.67, "currency": "AUD"}
+{"filename": "moneyed/test19.py", "amount1": 350.22, "amount2": 678.21, "currency": "USD"}
+{"filename": "moneyed/test19.py", "amount1": 8.81, "amount2": 667.07, "currency": "AUD"}
+{"filename": "moneyed/test19.py", "amount1": 190.22, "amount2": 53.46, "currency": "EUR"}
+{"filename": "moneyed/test19.py", "amount1": 983.9, "amount2": 567.06, "currency": "GBP"}
+{"filename": "moneyed/test19.py", "amount1": 419.93, "amount2": 692.62, "currency": "CNY"}
+{"filename": "moneyed/test19.py", "amount1": 593.88, "amount2": 532.48, "currency": "AUD"}
+{"filename": "moneyed/test19.py", "amount1": 348.22, "amount2": 132.23, "currency": "USD"}
+{"filename": "moneyed/test19.py", "amount1": 779.91, "amount2": 725.95, "currency": "AUD"}
+{"filename": "moneyed/test19.py", "amount1": 894.2, "amount2": 224.81, "currency": "USD"}
+{"filename": "moneyed/test19.py", "amount1": 197.25, "amount2": 630.55, "currency": "EUR"}
+{"filename": "moneyed/test19.py", "amount1": 508.88, "amount2": 679.89, "currency": "GBP"}
+{"filename": "moneyed/test19.py", "amount1": 74.0, "amount2": 515.47, "currency": "CHF"}
+{"filename": "moneyed/test19.py", "amount1": 831.12, "amount2": 171.86, "currency": "CHF"}
+{"filename": "moneyed/test19.py", "amount1": 204.37, "amount2": 883.69, "currency": "CAD"}
+{"filename": "moneyed/test19.py", "amount1": 830.1, "amount2": 448.41, "currency": "CAD"}
+{"filename": "moneyed/test19.py", "amount1": 200.03, "amount2": 833.35, "currency": "AUD"}
+{"filename": "moneyed/test2.py", "amount": 834.96, "currency": "JPY"}
+{"filename": "moneyed/test2.py", "amount": 744.82, "currency": "AUD"}
+{"filename": "moneyed/test2.py", "amount": 832.39, "currency": "EUR"}
+{"filename": "moneyed/test2.py", "amount": 332.52, "currency": "AUD"}
+{"filename": "moneyed/test2.py", "amount": 863.04, "currency": "CHF"}
+{"filename": "moneyed/test2.py", "amount": 656.22, "currency": "CAD"}
+{"filename": "moneyed/test2.py", "amount": 857.77, "currency": "CHF"}
+{"filename": "moneyed/test2.py", "amount": 644.18, "currency": "EUR"}
+{"filename": "moneyed/test2.py", "amount": 579.74, "currency": "CAD"}
+{"filename": "moneyed/test2.py", "amount": 758.9, "currency": "EUR"}
+{"filename": "moneyed/test2.py", "amount": 374.49, "currency": "CAD"}
+{"filename": "moneyed/test2.py", "amount": 295.2, "currency": "GBP"}
+{"filename": "moneyed/test2.py", "amount": 326.13, "currency": "GBP"}
+{"filename": "moneyed/test2.py", "amount": 884.81, "currency": "USD"}
+{"filename": "moneyed/test2.py", "amount": 324.72, "currency": "EUR"}
+{"filename": "moneyed/test2.py", "amount": 325.68, "currency": "CAD"}
+{"filename": "moneyed/test2.py", "amount": 915.12, "currency": "AUD"}
+{"filename": "moneyed/test2.py", "amount": 302.5, "currency": "USD"}
+{"filename": "moneyed/test2.py", "amount": 712.46, "currency": "JPY"}
+{"filename": "moneyed/test2.py", "amount": 73.86, "currency": "GBP"}
+{"filename": "moneyed/test20.py", "amount1": 441.24, "amount2": 78.37, "amount3": 886.56, "currency": "CNY"}
+{"filename": "moneyed/test20.py", "amount1": 782.16, "amount2": 260.55, "amount3": 400.76, "currency": "AUD"}
+{"filename": "moneyed/test20.py", "amount1": 962.37, "amount2": 255.8, "amount3": 270.21, "currency": "EUR"}
+{"filename": "moneyed/test20.py", "amount1": 774.6, "amount2": 931.36, "amount3": 949.39, "currency": "GBP"}
+{"filename": "moneyed/test20.py", "amount1": 914.82, "amount2": 816.0, "amount3": 327.36, "currency": "USD"}
+{"filename": "moneyed/test20.py", "amount1": 934.92, "amount2": 949.34, "amount3": 780.36, "currency": "GBP"}
+{"filename": "moneyed/test20.py", "amount1": 900.05, "amount2": 78.7, "amount3": 783.42, "currency": "USD"}
+{"filename": "moneyed/test20.py", "amount1": 866.29, "amount2": 640.76, "amount3": 632.57, "currency": "CHF"}
+{"filename": "moneyed/test20.py", "amount1": 347.14, "amount2": 32.15, "amount3": 587.55, "currency": "CHF"}
+{"filename": "moneyed/test20.py", "amount1": 477.26, "amount2": 987.11, "amount3": 204.9, "currency": "CHF"}
+{"filename": "moneyed/test20.py", "amount1": 767.78, "amount2": 293.11, "amount3": 225.43, "currency": "GBP"}
+{"filename": "moneyed/test20.py", "amount1": 996.23, "amount2": 363.7, "amount3": 403.97, "currency": "JPY"}
+{"filename": "moneyed/test20.py", "amount1": 301.0, "amount2": 668.37, "amount3": 194.41, "currency": "JPY"}
+{"filename": "moneyed/test20.py", "amount1": 413.29, "amount2": 620.18, "amount3": 70.58, "currency": "AUD"}
+{"filename": "moneyed/test20.py", "amount1": 775.65, "amount2": 636.2, "amount3": 422.48, "currency": "CHF"}
+{"filename": "moneyed/test20.py", "amount1": 970.33, "amount2": 812.53, "amount3": 770.85, "currency": "GBP"}
+{"filename": "moneyed/test20.py", "amount1": 866.23, "amount2": 509.03, "amount3": 454.46, "currency": "AUD"}
+{"filename": "moneyed/test20.py", "amount1": 469.09, "amount2": 89.79, "amount3": 853.15, "currency": "GBP"}
+{"filename": "moneyed/test20.py", "amount1": 854.65, "amount2": 794.2, "amount3": 846.62, "currency": "USD"}
+{"filename": "moneyed/test20.py", "amount1": 4.62, "amount2": 199.7, "amount3": 52.62, "currency": "CNY"}
+{"filename": "moneyed/test3.py", "amount1": 842.11, "amount2": 666.36, "currency": "EUR"}
+{"filename": "moneyed/test3.py", "amount1": 287.52, "amount2": 396.84, "currency": "EUR"}
+{"filename": "moneyed/test3.py", "amount1": 476.48, "amount2": 683.04, "currency": "CHF"}
+{"filename": "moneyed/test3.py", "amount1": 787.14, "amount2": 318.24, "currency": "USD"}
+{"filename": "moneyed/test3.py", "amount1": 916.77, "amount2": 967.96, "currency": "CNY"}
+{"filename": "moneyed/test3.py", "amount1": 185.9, "amount2": 721.0, "currency": "AUD"}
+{"filename": "moneyed/test3.py", "amount1": 372.75, "amount2": 808.18, "currency": "GBP"}
+{"filename": "moneyed/test3.py", "amount1": 447.96, "amount2": 843.55, "currency": "AUD"}
+{"filename": "moneyed/test3.py", "amount1": 544.97, "amount2": 354.69, "currency": "EUR"}
+{"filename": "moneyed/test3.py", "amount1": 82.0, "amount2": 352.36, "currency": "EUR"}
+{"filename": "moneyed/test3.py", "amount1": 513.59, "amount2": 847.9, "currency": "GBP"}
+{"filename": "moneyed/test3.py", "amount1": 611.09, "amount2": 777.08, "currency": "AUD"}
+{"filename": "moneyed/test3.py", "amount1": 895.19, "amount2": 867.37, "currency": "CHF"}
+{"filename": "moneyed/test3.py", "amount1": 106.56, "amount2": 137.31, "currency": "JPY"}
+{"filename": "moneyed/test3.py", "amount1": 233.62, "amount2": 49.16, "currency": "GBP"}
+{"filename": "moneyed/test3.py", "amount1": 142.64, "amount2": 859.01, "currency": "CAD"}
+{"filename": "moneyed/test3.py", "amount1": 743.96, "amount2": 101.04, "currency": "AUD"}
+{"filename": "moneyed/test3.py", "amount1": 696.5, "amount2": 679.65, "currency": "CNY"}
+{"filename": "moneyed/test3.py", "amount1": 659.88, "amount2": 343.74, "currency": "CHF"}
+{"filename": "moneyed/test3.py", "amount1": 228.12, "amount2": 673.32, "currency": "AUD"}
+{"filename": "moneyed/test5.py", "amount": 129.4, "currency": "GBP"}
+{"filename": "moneyed/test5.py", "amount": 444.36, "currency": "JPY"}
+{"filename": "moneyed/test5.py", "amount": 551.77, "currency": "CHF"}
+{"filename": "moneyed/test5.py", "amount": 169.53, "currency": "USD"}
+{"filename": "moneyed/test5.py", "amount": 502.88, "currency": "JPY"}
+{"filename": "moneyed/test5.py", "amount": 447.67, "currency": "USD"}
+{"filename": "moneyed/test5.py", "amount": 180.99, "currency": "AUD"}
+{"filename": "moneyed/test5.py", "amount": 472.49, "currency": "CAD"}
+{"filename": "moneyed/test5.py", "amount": 377.77, "currency": "CHF"}
+{"filename": "moneyed/test5.py", "amount": 8.32, "currency": "CNY"}
+{"filename": "moneyed/test5.py", "amount": 789.51, "currency": "CNY"}
+{"filename": "moneyed/test5.py", "amount": 499.83, "currency": "AUD"}
+{"filename": "moneyed/test5.py", "amount": 974.0, "currency": "CHF"}
+{"filename": "moneyed/test5.py", "amount": 805.05, "currency": "CHF"}
+{"filename": "moneyed/test5.py", "amount": 49.66, "currency": "CHF"}
+{"filename": "moneyed/test5.py", "amount": 466.81, "currency": "JPY"}
+{"filename": "moneyed/test5.py", "amount": 667.17, "currency": "CAD"}
+{"filename": "moneyed/test5.py", "amount": 788.85, "currency": "GBP"}
+{"filename": "moneyed/test5.py", "amount": 739.46, "currency": "CNY"}
+{"filename": "moneyed/test5.py", "amount": 933.38, "currency": "USD"}
+{"filename": "moneyed/test6.py", "amount": 474.79, "currency": "JPY"}
+{"filename": "moneyed/test6.py", "amount": 133.13, "currency": "GBP"}
+{"filename": "moneyed/test6.py", "amount": 410.01, "currency": "JPY"}
+{"filename": "moneyed/test6.py", "amount": 268.97, "currency": "JPY"}
+{"filename": "moneyed/test6.py", "amount": 624.02, "currency": "CAD"}
+{"filename": "moneyed/test6.py", "amount": 49.08, "currency": "CHF"}
+{"filename": "moneyed/test6.py", "amount": 880.46, "currency": "JPY"}
+{"filename": "moneyed/test6.py", "amount": 313.93, "currency": "CNY"}
+{"filename": "moneyed/test6.py", "amount": 639.17, "currency": "JPY"}
+{"filename": "moneyed/test6.py", "amount": 941.4, "currency": "JPY"}
+{"filename": "moneyed/test6.py", "amount": 807.86, "currency": "JPY"}
+{"filename": "moneyed/test6.py", "amount": 261.06, "currency": "EUR"}
+{"filename": "moneyed/test6.py", "amount": 519.05, "currency": "AUD"}
+{"filename": "moneyed/test6.py", "amount": 820.78, "currency": "GBP"}
+{"filename": "moneyed/test6.py", "amount": 571.72, "currency": "EUR"}
+{"filename": "moneyed/test6.py", "amount": 918.14, "currency": "USD"}
+{"filename": "moneyed/test6.py", "amount": 177.57, "currency": "GBP"}
+{"filename": "moneyed/test6.py", "amount": 214.44, "currency": "CNY"}
+{"filename": "moneyed/test6.py", "amount": 201.51, "currency": "CAD"}
+{"filename": "moneyed/test6.py", "amount": 173.94, "currency": "CNY"}
+{"filename": "moneyed/test7.py", "amount1": 112.28, "amount2": 47.97, "currency": "USD"}
+{"filename": "moneyed/test7.py", "amount1": 655.33, "amount2": 22.69, "currency": "JPY"}
+{"filename": "moneyed/test7.py", "amount1": 485.76, "amount2": 510.24, "currency": "CAD"}
+{"filename": "moneyed/test7.py", "amount1": 220.81, "amount2": 513.49, "currency": "USD"}
+{"filename": "moneyed/test7.py", "amount1": 325.62, "amount2": 759.64, "currency": "GBP"}
+{"filename": "moneyed/test7.py", "amount1": 873.27, "amount2": 68.86, "currency": "AUD"}
+{"filename": "moneyed/test7.py", "amount1": 875.19, "amount2": 552.04, "currency": "CNY"}
+{"filename": "moneyed/test7.py", "amount1": 778.37, "amount2": 94.04, "currency": "CNY"}
+{"filename": "moneyed/test7.py", "amount1": 381.14, "amount2": 166.95, "currency": "CAD"}
+{"filename": "moneyed/test7.py", "amount1": 602.71, "amount2": 138.26, "currency": "JPY"}
+{"filename": "moneyed/test7.py", "amount1": 810.32, "amount2": 846.36, "currency": "CNY"}
+{"filename": "moneyed/test7.py", "amount1": 891.71, "amount2": 599.55, "currency": "USD"}
+{"filename": "moneyed/test7.py", "amount1": 660.81, "amount2": 386.28, "currency": "CAD"}
+{"filename": "moneyed/test7.py", "amount1": 775.81, "amount2": 296.74, "currency": "GBP"}
+{"filename": "moneyed/test7.py", "amount1": 653.63, "amount2": 693.91, "currency": "CAD"}
+{"filename": "moneyed/test7.py", "amount1": 556.64, "amount2": 45.74, "currency": "AUD"}
+{"filename": "moneyed/test7.py", "amount1": 200.33, "amount2": 860.47, "currency": "GBP"}
+{"filename": "moneyed/test7.py", "amount1": 150.3, "amount2": 372.65, "currency": "AUD"}
+{"filename": "moneyed/test7.py", "amount1": 152.57, "amount2": 974.8, "currency": "JPY"}
+{"filename": "moneyed/test7.py", "amount1": 460.29, "amount2": 611.05, "currency": "CHF"}
+{"filename": "moneyed/test8.py", "amount1": 439.5, "amount2": 735.29, "currency": "GBP"}
+{"filename": "moneyed/test8.py", "amount1": 171.69, "amount2": 293.12, "currency": "USD"}
+{"filename": "moneyed/test8.py", "amount1": 731.54, "amount2": 837.6, "currency": "CAD"}
+{"filename": "moneyed/test8.py", "amount1": 337.84, "amount2": 803.96, "currency": "CNY"}
+{"filename": "moneyed/test8.py", "amount1": 9.75, "amount2": 159.86, "currency": "EUR"}
+{"filename": "moneyed/test8.py", "amount1": 825.27, "amount2": 37.25, "currency": "EUR"}
+{"filename": "moneyed/test8.py", "amount1": 102.07, "amount2": 599.52, "currency": "EUR"}
+{"filename": "moneyed/test8.py", "amount1": 994.89, "amount2": 135.68, "currency": "CNY"}
+{"filename": "moneyed/test8.py", "amount1": 813.93, "amount2": 137.85, "currency": "CNY"}
+{"filename": "moneyed/test8.py", "amount1": 367.45, "amount2": 908.57, "currency": "CNY"}
+{"filename": "moneyed/test8.py", "amount1": 547.61, "amount2": 440.94, "currency": "USD"}
+{"filename": "moneyed/test8.py", "amount1": 735.73, "amount2": 196.55, "currency": "CHF"}
+{"filename": "moneyed/test8.py", "amount1": 98.37, "amount2": 209.57, "currency": "CNY"}
+{"filename": "moneyed/test8.py", "amount1": 87.82, "amount2": 596.88, "currency": "EUR"}
+{"filename": "moneyed/test8.py", "amount1": 805.23, "amount2": 117.2, "currency": "EUR"}
+{"filename": "moneyed/test8.py", "amount1": 273.35, "amount2": 258.97, "currency": "CNY"}
+{"filename": "moneyed/test8.py", "amount1": 964.17, "amount2": 765.3, "currency": "CNY"}
+{"filename": "moneyed/test8.py", "amount1": 527.02, "amount2": 547.75, "currency": "USD"}
+{"filename": "moneyed/test8.py", "amount1": 806.34, "amount2": 901.45, "currency": "USD"}
+{"filename": "moneyed/test8.py", "amount1": 967.46, "amount2": 548.79, "currency": "CAD"}
+{"filename": "moneyed/test9.py", "amount": 937.19, "currency": "CNY"}
+{"filename": "moneyed/test9.py", "amount": 23.8, "currency": "CAD"}
+{"filename": "moneyed/test9.py", "amount": 149.46, "currency": "CHF"}
+{"filename": "moneyed/test9.py", "amount": 85.36, "currency": "CNY"}
+{"filename": "moneyed/test9.py", "amount": 699.64, "currency": "EUR"}
+{"filename": "moneyed/test9.py", "amount": 666.37, "currency": "AUD"}
+{"filename": "moneyed/test9.py", "amount": 366.85, "currency": "CHF"}
+{"filename": "moneyed/test9.py", "amount": 903.43, "currency": "EUR"}
+{"filename": "moneyed/test9.py", "amount": 637.61, "currency": "USD"}
+{"filename": "moneyed/test9.py", "amount": 1.14, "currency": "GBP"}
+{"filename": "moneyed/test9.py", "amount": 870.32, "currency": "EUR"}
+{"filename": "moneyed/test9.py", "amount": 168.51, "currency": "USD"}
+{"filename": "moneyed/test9.py", "amount": 425.11, "currency": "JPY"}
+{"filename": "moneyed/test9.py", "amount": 644.42, "currency": "CAD"}
+{"filename": "moneyed/test9.py", "amount": 922.69, "currency": "AUD"}
+{"filename": "moneyed/test9.py", "amount": 947.28, "currency": "JPY"}
+{"filename": "moneyed/test9.py", "amount": 500.53, "currency": "AUD"}
+{"filename": "moneyed/test9.py", "amount": 679.53, "currency": "CHF"}
+{"filename": "moneyed/test9.py", "amount": 498.71, "currency": "GBP"}
+{"filename": "moneyed/test9.py", "amount": 321.05, "currency": "AUD"}

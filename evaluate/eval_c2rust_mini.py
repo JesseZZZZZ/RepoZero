@@ -4,13 +4,14 @@ import os
 from collections import defaultdict
 from pathlib import Path
 
+EVAL_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = Path(__file__).resolve().parent.parent
 model_name = "ernie-5.0"
 
 CPP_BASE = REPO_ROOT / "C2Rust" / "CppLarge"
 RS_BASE = REPO_ROOT / "C2Rust" / "CppLarge" / "output_mini_large" / model_name / "packages"
 CACHE_FILE = REPO_ROOT / "C2Rust" / "CppLarge" / "output_mini_large" / model_name / f"test_results_cache_{model_name}.json"
-API_LINE_COUNTS = CPP_BASE / "test_cases_clean" / "api_line_counts.jsonl"
+API_LINE_COUNTS = EVAL_ROOT / "testcases" / "c2rust" / "api_line_counts.jsonl"
 
 gold_pkgs = [
     "Clipper",
@@ -254,4 +255,4 @@ def main(input_jsonl):
 
 
 if __name__ == "__main__":
-    main(str(CPP_BASE / "test_cases_clean" / "cleaned_test_cases.jsonl"))
+    main(str(EVAL_ROOT / "testcases" / "c2rust" / "cleaned_test_cases.jsonl"))

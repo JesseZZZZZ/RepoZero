@@ -5,6 +5,7 @@ import os
 from collections import defaultdict
 from pathlib import Path
 
+EVAL_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 PYTHON_BIN = os.environ.get("PYTHON_BIN", "python3")
@@ -158,7 +159,7 @@ def main():
     parser.add_argument(
         "--jsonl-dir",
         type=str,
-        default=str(REPO_ROOT / "Py2JS" / "testcases"),
+        default=str(EVAL_ROOT / "testcases" / "testcases_enhanced"),
         help="Directory containing evaluation JSONL files",
     )
     parser.add_argument(
@@ -170,7 +171,7 @@ def main():
     args = parser.parse_args()
 
     model_name  = args.model
-    results_dir = str(REPO_ROOT / "evaluate" / "results" / f"{model_name}_mini")
+    results_dir = str(EVAL_ROOT / "results" / f"{model_name}_mini")
 
     analyze_directory(args.jsonl_dir, args.dataset_root, model_name, results_dir)
 

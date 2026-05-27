@@ -1,0 +1,424 @@
+{"filename": "rsa/test10.py", "bits": 256, "multiplier": 7}
+{"filename": "rsa/test10.py", "bits": 2048, "multiplier": 31}
+{"filename": "rsa/test10.py", "bits": 512, "multiplier": 36}
+{"filename": "rsa/test10.py", "bits": 256, "multiplier": 12}
+{"filename": "rsa/test10.py", "bits": 2048, "multiplier": 44}
+{"filename": "rsa/test10.py", "bits": 2048, "multiplier": 16}
+{"filename": "rsa/test10.py", "bits": 1024, "multiplier": 22}
+{"filename": "rsa/test10.py", "bits": 1024, "multiplier": 17}
+{"filename": "rsa/test10.py", "bits": 512, "multiplier": 48}
+{"filename": "rsa/test10.py", "bits": 1024, "multiplier": 25}
+{"filename": "rsa/test10.py", "bits": 512, "multiplier": 21}
+{"filename": "rsa/test10.py", "bits": 256, "multiplier": 49}
+{"filename": "rsa/test10.py", "bits": 2048, "multiplier": 42}
+{"filename": "rsa/test10.py", "bits": 256, "multiplier": 43}
+{"filename": "rsa/test10.py", "bits": 426, "multiplier": 338469}
+{"filename": "rsa/test10.py", "bits": 2104, "multiplier": 309}
+{"filename": "rsa/test10.py", "bits": 539, "multiplier": 566}
+{"filename": "rsa/test10.py", "bits": 647, "multiplier": 8582}
+{"filename": "rsa/test10.py", "bits": 433, "multiplier": 882}
+{"filename": "rsa/test10.py", "bits": 144, "multiplier": 208404}
+{"filename": "rsa/test10.py", "bits": 243, "multiplier": -775}
+{"filename": "rsa/test10.py", "bits": 904, "multiplier": 69}
+{"filename": "rsa/test10.py", "bits": 2245, "multiplier": 92016}
+{"filename": "rsa/test10.py", "bits": 633, "multiplier": 72511}
+{"filename": "rsa/test10.py", "bits": 653, "multiplier": 52464}
+{"filename": "rsa/test10.py", "bits": 465, "multiplier": 53600}
+{"filename": "rsa/test10.py", "bits": 466, "multiplier": -215}
+{"filename": "rsa/test11.py", "bits": 1024, "hash_method": "MD5", "message": "Special chars: !@#$%^&*()"}
+{"filename": "rsa/test11.py", "bits": 1024, "hash_method": "SHA-1", "message": "A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message "}
+{"filename": "rsa/test11.py", "bits": 512, "hash_method": "SHA-256", "message": "Edges: \"quotes' and back\\slash"}
+{"filename": "rsa/test11.py", "bits": 1024, "hash_method": "SHA-1", "message": "Test message"}
+{"filename": "rsa/test11.py", "bits": 512, "hash_method": "SHA-1", "message": "Hello RSA"}
+{"filename": "rsa/test11.py", "bits": 512, "hash_method": "MD5", "message": "Hello RSA"}
+{"filename": "rsa/test11.py", "bits": 1024, "hash_method": "MD5", "message": "Edges: \"quotes' and back\\slash"}
+{"filename": "rsa/test11.py", "bits": 512, "hash_method": "MD5", "message": "Special chars: !@#$%^&*()"}
+{"filename": "rsa/test11.py", "bits": 2048, "hash_method": "SHA-1", "message": "Test message"}
+{"filename": "rsa/test11.py", "bits": 2048, "hash_method": "SHA-256", "message": "Special chars: !@#$%^&*()"}
+{"filename": "rsa/test11.py", "bits": 2048, "hash_method": "MD5", "message": "秘密消息"}
+{"filename": "rsa/test11.py", "bits": 2048, "hash_method": "SHA-1", "message": "Quick brown fox"}
+{"filename": "rsa/test11.py", "bits": 2048, "hash_method": "SHA-1", "message": "Special chars: !@#$%^&*()"}
+{"filename": "rsa/test11.py", "bits": 1024, "hash_method": "SHA-256", "message": "Lorem ipsum dolor sit amet"}
+{"filename": "rsa/test15.py", "n": 413128090032056711697964178439917639060223499416295027684765, "exponent": 5}
+{"filename": "rsa/test15.py", "n": 89886426607682488340318951164687907521144930530574675205117, "exponent": 50}
+{"filename": "rsa/test15.py", "n": 1168516043947322133899010026520557643617892608548717882713563, "exponent": 46}
+{"filename": "rsa/test15.py", "n": 748087582477779804512065812476879032593365810924749769293926, "exponent": 22}
+{"filename": "rsa/test15.py", "n": 93439213398521765496820473544357707125013134312580874685037, "exponent": 37}
+{"filename": "rsa/test15.py", "n": 810025232682387588466158537120352957213675020451580045886638, "exponent": 43}
+{"filename": "rsa/test15.py", "n": 231247983219152464113215172311230555727081698327679219513148, "exponent": 38}
+{"filename": "rsa/test15.py", "n": 1524435852587035818104432953801874740196653949898548432086342, "exponent": 20}
+{"filename": "rsa/test15.py", "n": 1350089772138055484909743760117520844011774847802124348374649, "exponent": 22}
+{"filename": "rsa/test15.py", "n": 276687380974790468504491898822626696546869903879455563143162, "exponent": 47}
+{"filename": "rsa/test15.py", "n": 812752325659973534646293149061401383576878596891898525492027, "exponent": 21}
+{"filename": "rsa/test15.py", "n": 937420337380463718505465170260259344073209560408107350048292, "exponent": 19}
+{"filename": "rsa/test15.py", "n": 117091562025867755439897894464924208047455238619234554858309, "exponent": 2}
+{"filename": "rsa/test15.py", "n": 1222852358334978682276077121711200122720169126408475450003412, "exponent": 22}
+{"filename": "rsa/test15.py", "n": 779888328725045651478919809401683660727880276687820624226544, "exponent": 27}
+{"filename": "rsa/test15.py", "n": 756137636850364349999064329607140751819230984012842010964866, "exponent": 34}
+{"filename": "rsa/test15.py", "n": 519303953141439560519607260364212609224971451870755679461615, "exponent": 11}
+{"filename": "rsa/test15.py", "n": 767689335543151865990661861378002444628500257263482584856975, "exponent": 7}
+{"filename": "rsa/test15.py", "n": 1109845533094065024982887140421506640400981985658349664519843, "exponent": 36}
+{"filename": "rsa/test15.py", "n": 1359949776666477327944470867106118733311442791651871917095949, "exponent": 14}
+{"filename": "rsa/test15.py", "n": 656, "exponent": 65165}
+{"filename": "rsa/test15.py", "n": 32174, "exponent": 3308}
+{"filename": "rsa/test15.py", "n": 77, "exponent": 28}
+{"filename": "rsa/test15.py", "n": 8984, "exponent": 525}
+{"filename": "rsa/test15.py", "n": 442, "exponent": 1334}
+{"filename": "rsa/test15.py", "n": 448177, "exponent": 505}
+{"filename": "rsa/test15.py", "n": 43, "exponent": 2228}
+{"filename": "rsa/test15.py", "n": 8808, "exponent": 139}
+{"filename": "rsa/test15.py", "n": 342, "exponent": -564}
+{"filename": "rsa/test15.py", "n": 563, "exponent": 61}
+{"filename": "rsa/test15.py", "n": 160413, "exponent": 97}
+{"filename": "rsa/test15.py", "n": 260067, "exponent": 973417}
+{"filename": "rsa/test15.py", "n": 49443, "exponent": 510699}
+{"filename": "rsa/test15.py", "n": 4652, "exponent": 947}
+{"filename": "rsa/test15.py", "n": 6365, "exponent": 43385}
+{"filename": "rsa/test15.py", "n": 197, "exponent": 682}
+{"filename": "rsa/test15.py", "n": 33, "exponent": 328}
+{"filename": "rsa/test15.py", "n": 769182, "exponent": 59}
+{"filename": "rsa/test15.py", "n": 827363, "exponent": 57546}
+{"filename": "rsa/test15.py", "n": 89, "exponent": 727774}
+{"filename": "rsa/test15.py", "n": 487, "exponent": 752}
+{"filename": "rsa/test15.py", "n": 23, "exponent": 44}
+{"filename": "rsa/test15.py", "n": 3747, "exponent": 420863}
+{"filename": "rsa/test15.py", "n": 538, "exponent": 580}
+{"filename": "rsa/test15.py", "n": 491, "exponent": 32540}
+{"filename": "rsa/test15.py", "n": 912, "exponent": -161}
+{"filename": "rsa/test15.py", "n": -334, "exponent": 57492}
+{"filename": "rsa/test15.py", "n": 803156, "exponent": 922565}
+{"filename": "rsa/test15.py", "n": 992974, "exponent": -379}
+{"filename": "rsa/test15.py", "n": 602, "exponent": 62}
+{"filename": "rsa/test15.py", "n": 367713, "exponent": 3978}
+{"filename": "rsa/test15.py", "n": 7873, "exponent": 81}
+{"filename": "rsa/test15.py", "n": 201252, "exponent": 143010}
+{"filename": "rsa/test15.py", "n": 392, "exponent": 580468}
+{"filename": "rsa/test15.py", "n": 22458, "exponent": 417751}
+{"filename": "rsa/test15.py", "n": 5199, "exponent": 4298}
+{"filename": "rsa/test15.py", "n": 24, "exponent": 69}
+{"filename": "rsa/test15.py", "n": 350, "exponent": 994969}
+{"filename": "rsa/test15.py", "n": 33577, "exponent": 585835}
+{"filename": "rsa/test15.py", "n": 18270, "exponent": 93}
+{"filename": "rsa/test16.py", "n": 1463807496228969572848150498313681485059669872556809978654118, "e": 147180437202552539351547522477063710669057668655915236874131, "d": 1092046238168459733409292030157204463740586676260259203718982}
+{"filename": "rsa/test16.py", "n": 61473422333542041928446724405108857732014602306467353176229, "e": 434946039822715741912675419932457539859824305462910070267940, "d": 725433707802036852835059222838945508612845338644935758010101}
+{"filename": "rsa/test16.py", "n": 1265083670141807364645835911765023011520340993944929671027033, "e": 932088326778459578790135547227737449492745968374387672429234, "d": 494886784173022505644150873194613270314816111505894447358938}
+{"filename": "rsa/test16.py", "n": 661083311279021228467123981714769434533194527934063459416437, "e": 1212161583785010239940170563211440932440586250782461379774141, "d": 893873997216679885426120827069856211205802938130520128428670}
+{"filename": "rsa/test16.py", "n": 2443938992158900690705657356844027572153789775230358896482, "e": 34908439956753153588551069525163140663809934631808781961050, "d": 106147005671478854200378461748900678450117388119568484378439}
+{"filename": "rsa/test16.py", "n": 188381192861005946173530024960725624678021755729330799846178, "e": 806707218053505015791090295414552783864976801714409596633722, "d": 78453572931249190615521612154577848738551495401988196204252}
+{"filename": "rsa/test16.py", "n": 100045631531807404311629709283077316213550306740433440172278, "e": 75054868118000248564616232914495147280903547627450670747200, "d": 86475067864637159669726494989638820593592217565677540346230}
+{"filename": "rsa/test16.py", "n": 374866290325839203678213751960227343886411106323552396510229, "e": 1496218676712079929549017790544100805863703424146156911927301, "d": 1003551060656304450382927876045368449117158456772839633332197}
+{"filename": "rsa/test16.py", "n": 655162797255548676205364191227910779249753080700444329555221, "e": 662662422059382529369735951380298890648542729816473091849211, "d": 928074153690245727739585638427089737075168093950431877497435}
+{"filename": "rsa/test16.py", "n": 1115915237502145815196536455377556088653238789624967897272074, "e": 1261957984265611057788511496647716376051797551167308661006223, "d": 1466858114601655697293611296869332855364994009341778141586064}
+{"filename": "rsa/test16.py", "n": 1416538314655225006012207547809141698128879527211622725688537, "e": 956192125339070817103733272380544088210064109411812688308736, "d": 472202229440548620966878892852749352945940228418254241448450}
+{"filename": "rsa/test16.py", "n": 298287113226595612857504545190804546559899468089998904814506, "e": 444861444597816425161904332551480857689830452405563361783262, "d": 76985453662765371009574889822982471021943497691231578576117}
+{"filename": "rsa/test16.py", "n": 1170805191416506491498119281546077339099809448763373249808136, "e": 1193942924518420200630037102639258289504791186452091102620857, "d": 828013658058560391428515232817393043808943484562390888235023}
+{"filename": "rsa/test16.py", "n": 1046926440756940117036518947211992674288363187600903289813506, "e": 1194889123941262912344245600234513892991516259576931940038046, "d": 1389449423104289898388600117034445699506170030811045292952397}
+{"filename": "rsa/test16.py", "n": 1386553785661552816566937470725067816146377962490788954096105, "e": 643937188242357149228663017104135845103025078924618033468888, "d": 426421248771985270027999959978689913089531851160918156382304}
+{"filename": "rsa/test16.py", "n": 1251674208741924837917764586028420322202209372546786950183745, "e": 1393257378239262133337142822999749244640071000081120678341980, "d": 983616815183958120059884016278699355789611355874292763267302}
+{"filename": "rsa/test16.py", "n": 1007820799223507703103086335002830279637290807330822175381950, "e": 298701182461787309922464416733491279210636086752128151378372, "d": 516161571891394978662282531470588646748478608060727561117358}
+{"filename": "rsa/test16.py", "n": 1131556442656313583531833025768206741575665465351005892373656, "e": 1378303176362154791444809062699036156127486110624365829188348, "d": 729812775889604082909623910698180640809771101399776136825160}
+{"filename": "rsa/test16.py", "n": 1044317759969900943456080465705470288840053678816470712352145, "e": 1468482757662685383978054720032220729171342363189303613510884, "d": 133339745043553349955581225565945158634795093102202739147363}
+{"filename": "rsa/test16.py", "n": 793298544869016785362323987078326721420522652692852446574544, "e": 643440265913440880776532454293414532639285044965796542576766, "d": 577577858110612499446148956865306457516602472491340986268495}
+{"filename": "rsa/test16.py", "n": 122, "e": 405068, "d": 24792}
+{"filename": "rsa/test16.py", "n": 5, "e": -411, "d": 37}
+{"filename": "rsa/test16.py", "n": 21191, "e": 646, "d": -166}
+{"filename": "rsa/test16.py", "n": 37590, "e": 4337, "d": 74280}
+{"filename": "rsa/test16.py", "n": 50652, "e": 1571, "d": 5895}
+{"filename": "rsa/test16.py", "n": 267030, "e": 555, "d": -577}
+{"filename": "rsa/test16.py", "n": 798, "e": 423225, "d": 6099}
+{"filename": "rsa/test16.py", "n": 542, "e": 978, "d": 957513}
+{"filename": "rsa/test16.py", "n": 584, "e": 5940, "d": 36}
+{"filename": "rsa/test16.py", "n": 892, "e": 16, "d": 5521}
+{"filename": "rsa/test16.py", "n": 316041, "e": 5618, "d": 15}
+{"filename": "rsa/test16.py", "n": 77, "e": 85381, "d": 81}
+{"filename": "rsa/test16.py", "n": 8472, "e": 83, "d": 364841}
+{"filename": "rsa/test16.py", "n": 7571, "e": 2460, "d": 88}
+{"filename": "rsa/test16.py", "n": 1067, "e": 292, "d": 72}
+{"filename": "rsa/test16.py", "n": 399368, "e": 466501, "d": 6}
+{"filename": "rsa/test16.py", "n": 70, "e": 56, "d": 40184}
+{"filename": "rsa/test16.py", "n": 115371, "e": 702140, "d": 3140}
+{"filename": "rsa/test16.py", "n": 3270, "e": -846, "d": 750080}
+{"filename": "rsa/test16.py", "n": 1121, "e": 310779, "d": 897}
+{"filename": "rsa/test16.py", "n": 975721, "e": 7340, "d": 9095}
+{"filename": "rsa/test16.py", "n": 950376, "e": 9209, "d": 825157}
+{"filename": "rsa/test16.py", "n": 791, "e": 61, "d": 52561}
+{"filename": "rsa/test16.py", "n": 413, "e": 6397, "d": 8679}
+{"filename": "rsa/test16.py", "n": 54978, "e": 52, "d": -303}
+{"filename": "rsa/test16.py", "n": 414, "e": 45, "d": 240247}
+{"filename": "rsa/test16.py", "n": 492, "e": -710, "d": 604038}
+{"filename": "rsa/test16.py", "n": 661289, "e": 301878, "d": 51700}
+{"filename": "rsa/test16.py", "n": 62, "e": 43, "d": -562}
+{"filename": "rsa/test16.py", "n": 879, "e": 38255, "d": 22329}
+{"filename": "rsa/test16.py", "n": 270330, "e": 7539, "d": 325}
+{"filename": "rsa/test16.py", "n": 867790, "e": 242594, "d": -111}
+{"filename": "rsa/test16.py", "n": 630266, "e": -41, "d": 312}
+{"filename": "rsa/test16.py", "n": 87, "e": -590, "d": 492596}
+{"filename": "rsa/test16.py", "n": 450215, "e": 35, "d": 651087}
+{"filename": "rsa/test16.py", "n": 830415, "e": 542, "d": 85}
+{"filename": "rsa/test16.py", "n": 7, "e": 847442, "d": 256}
+{"filename": "rsa/test16.py", "n": 442611, "e": -287, "d": 73024}
+{"filename": "rsa/test16.py", "n": 94136, "e": 37, "d": 77201}
+{"filename": "rsa/test17.py", "bits": 256, "messages": [""], "sigs": ["IfxzC0KxWZ2VQbeM9t22ujqQhEfSYaJCocVBf0N6n4v7V/kOtfMR/YwkIYYhCBlry1Vbd6ovbhferyo4s7YPbv4tY1KKABOG5RdBMDLPL2d5MPT1zv0pyfjJx2Zr8zjRyJFi8pU/p7OqfKrkXitJGt5hrPW6CJ/GgqbqGl9CRzo=", "1W6Rj6vWC4vjyHZaD6qs1A0dQsJ7g3KvJ7WKMpHuZnSqueKk/M5+i2ob6ur1GQNlisljLz30eic2o1pdMLfMrCcHjnY4YQPBTCB+tpoIJTQtHhAv6+35YHC0YXrxoo8aeYXYTd8uTRr7gBrYwYQZvRdQ8PwidXHQfmeXlz1B/aQ=", "ZH16dGa/7qKoY6uVncTlQUuYf+fgZf2jOa6lbu5lo1xDZghgNe31npDaAgteJeWsOaMr5lV0P68PMidVJt/YXkCZigj2s8M1pdZ9e7AawyR6aUJj35swngxdgEHrQ9S2BO8APPaEsUlzI15wkoMos80NCr6U4bfO+J0Gcl6trfs="]}
+{"filename": "rsa/test17.py", "bits": 2048, "messages": ["Special chars: !@#$%^&*()", "", "Lorem ipsum dolor sit amet"], "sigs": ["3Vfo6CeiM/ykZoQv4xM1h80CCzVPjPg3u4AdN02eGOrepgEuhSkQAsHnD1e4gi8jKetHTKpjVsNUJd3nAEVD4rey9ToBIL2wcwHfkNkhNXwBQvNiHXecgXx5mwNMnJbyNlxfNMtB/JOidaz58uYeWU3U43aoGspVO1pgcHuBNEI=", "UrQcxrxYNBiGvbchKAFkOHwnUUAFCOL7oTdsHaaooZc3RyLQRTfNGcOj7PoJIoXrUiMu7w410yQAWmxS38W8GEuabtmWUzPj5JuflxwN9O7BDFjw+63UyWccmBnEABR7CSshjhBHkZkwwk+RHqZsYC2EUitG+MuMwJ5gznDcu18=", "lrvMzGBNWIP/S95bmr3CbKTcAgNmRtv8cVj8vJrZ5PLyctF5uS1tozR+FYlgBCco70RRPU8pSHtL2XoV25AvUULNgdqoOjRnVbgPkF4j1rTr+jnMfiJy9EHafebQro1ACtngxci8El3lCJEZRaMMssyctt4fNyvHfQBKT+NqUiQ="]}
+{"filename": "rsa/test17.py", "bits": 1024, "messages": ["<html><body>test</body></html>"], "sigs": ["FKA2+BWgAuOk71cAEe8zLFiuYKxS7eVeO5xWXZkugokfDiBH7aj4G4YK9aaJ+jn6DGrog+ZLN1z17G6Qa4He4iMYHnnTGQ8H5B9wWhMQ4J+v6t/67kSuSiryqIFoJSKWmSbcBjmhH9LjY9whY4QkY8lc06u5GNyWoaRlDIgW70Y=", "omnrQ8ET9TwvJsBafEaeEr7vKF172h/mmQ/4og1/9w5aH6ElhazGBgkKmAmcr9UfMBA5Feodp4CbFNUWlJSgzDW9epLh3ysCY0ii/XJ5eKv6Ud+HIl/BggnHnIdODeltzVlepbR6Tyn4I4ooXKcS0ukCX29K0o8xQ9XMPwZjQlc="]}
+{"filename": "rsa/test17.py", "bits": 1024, "messages": ["<html><body>test</body></html>"], "sigs": ["EotNkSI/nnRCOqf4XkNe89qXYn2JTWWFCWtb5hfamN9LKd55TJOi2PLeH1eQtfeo90UwFnQOvB8h0eV0XjTsCteeK0q7dv+JGUhI6y97W0tvnNHV1f17yF0ukrg6Hn28FwNNbmfzNHpx4pz775cxFRLUcPPKe/DjH/Dlub2emVY=", "qTM/pWNUxMP3gLBkLQcPVW1B5lFd3fSLdriOgJXzvWaQLPW3hJB+qQ7ApbeMmSOO+icgEx9OJAIwZa15MoiObG31PG3GIMVrMSo0O25/I474At/xEI82HuI6FQojDE3JIKyHZIi6APvpjKm+sGqT20nEmo029HmSu16eo+DfQRY=", "Rsc0NkIhZawCx4mOZo92SogaqIM94GPOiLA9hcJSFCW8d26kleOWcAVQCaCjfCMwkPpW+kmBoUB106gwMP4i9He9xZW7X99Vtl+IKROs4viZN54+dt+5K3Fv/dbU1WBZY1Suj5jaPtTgKseZ0BZbj3N20GEdCraCfqWAXHh8M0Y="]}
+{"filename": "rsa/test17.py", "bits": 3072, "messages": ["CSV,TSV;special|delimiters"], "sigs": ["M/eyPFWwr/uVai0pZ1tgq65BuD1ncrkl+FqYcCaSfUW0JrfgUET9M1yUIi9oEB4N7jJgkhHkswnJugpE8e7KPRqRmidbb1NYbpjZHednm7ZEeOccprFJabszyJqzJUp+Yf2klRmLL1/YzOaebLzhMTNViEJ+nhh+xh1RX8RZh4c=", "N91mI65VnD03aOZ/kaWn8rs9oVdmunN96vPazEMLIRFYAL3Hbo3aIdY358tIEql1cwhcL8mmQIyS58jPsb5EXtKgwivyKwb07pTk77cbxIdKR8YgCyWOegxtTxqCNNlu1ZXk1e+iYsTG/sqVLPQmS6/3yOXd7pxKpbaZIyhSAGg=", "4O+PK2FFpLjIQEandZ+AV0PE8WxCvWDq2hxYNgAYmu4AVtO7Y23Sq4s3IiEmpumJghUW3+vUxOEnlqn6uXqxjFZ02AZSfnD77nfkBaCd2liqgv2uksy4P3qS9dNVM9wOx/3rL6XYNAXSDAel1ao3sRTjjO4Ao17Hnm4985Yw0Nc="]}
+{"filename": "rsa/test17.py", "bits": 256, "messages": ["Special chars: !@#$%^&*()"], "sigs": ["WAhNvIf3gBIzrh3GaI276rzeaKhB/T5H13hxi8LkHUrE2f+sLjAhREkoEz3+aPNPs1piDOR3eKIG2grU7iMsJtCIu2GaEXYCEY9ONzP3ua8eeKm4cYvPtDGaxKVRbLUpohSyGx7GrivZNyPpddbr/r8KGF5Qxq7tcin2OJDt5aI=", "SWzNa0J+Xsa4HrqXWeXhMRBDs/cd1T52+VcRidEtKgpLXz7bmvtL50T4w54+l8plWjfiXu7fHV0uVCrkNO+w/cNesSiANXufrdJhOWQrfrhQKT3jOLAIGgpTWn7jbvtmWbgLB4L4gJkfLfhw99DEfbiqZIGyBrXsrl2k8Zk6bb8=", "8Gu7FYuUKQJ4CIOwW9DCr7UBZBNcZXNcByY7yQiBta31kL5OrY4lz9YFSphXXQ+0h+ScHw5tlkO4bSlBYdo8qi8YFLLWWGPKLqcXffD/T0lsgr4wS1Yojyn2DDED3lBAIZKiLINOoOfyJWpwAPeO/EPCzQEObBNF1NSkZcEKECE="]}
+{"filename": "rsa/test17.py", "bits": 256, "messages": ["秘密消息", "Special chars: !@#$%^&*()"], "sigs": ["ZGxMGIFymF1Ep/TetxdrMOr24wOg+rOP0o9MIXOmKNKmnsagZPrza40Smw9+eaar0w+OZDS+Aji2qH0v/NX72kCBM/ZSYqZQqD1gy6TBHfqPv26aV+QCP/nMp1SQd0WuCb1xWAX1VeLgVyid7AyxG0wa93DrMcpv16AssTOoMM0=", "lfSd+6Ry2R7d4WfYrk7Plz7P+/DPlLESdvEUdw2wEBxRJFDI0ADA5rmqhz+YgMoCUHwxwmNFrm87OB07oAzKk56ALuH/inYscZBs08pumO8H9evIn1yXPp81LTV3tpo+sTS4xkg7P94DQr9swj8w/2BSGjLmuslsKfxMEqR4o1A=", "LceE+eqH1yLA1EeY5Ku6s4NmrRJXs2z3BYlJnoX6kIF296QT8xaoMl4HB93ABiIeWfzn0SGPrvGaQmavlhe2Zz8/jHGSFpqNddWefkbnxh7Y2KsWgO+TiiLo71Fs6Promoq3B8SLxD54XTutMwP7EqVCl2zOoS/q15LjbRSgo10="]}
+{"filename": "rsa/test17.py", "bits": 512, "messages": ["Multiline\nstring\nwith newlines", "Special chars: !@#$%^&*()", "<html><body>test</body></html>"], "sigs": ["0su4lZjqGkc303eDCHivjY9DxnAGVA5GkZhGb3uBUa+V+XYN9OXUorsPaBW1I93YP/ziMSYw/t5xISJNUNG/OqoikkE1pLKelRozD7e2yxBHNIDoWqYpPSNrAaWJR8TvaKvJzlmrJPsCFNowg89NscmDMSh2GTyNcGcprqJiDIs=", "rTmHXVlOdSOWLDOPMyGkdzhzp9a6jjB4/kI1Zi98mTW9QjUwadeGRrjMhGKMZa9gCFqYB9CJxZclzqaPuhFmPjgXAC2xxysZy3Lkj8mFdV7eZyAg+f0h8ZswY1KkOMkN6/N46ovyS2iMdpMfmtk9qubfTBzN2Nc2EuhKGKSJ5ZE="]}
+{"filename": "rsa/test17.py", "bits": 1024, "messages": ["Lorem ipsum dolor sit amet", "Test message"], "sigs": ["UzKEBQB7f/FKl0HPXvavK8eVMgpL7lyWFherRGQs1pRmNM9Syp+V94ADBWImQaMAt2dyUOhA4vvgE/kwjewhIIapeWnv+g1Rt9+pT1RFbBCvErS6+QLv5Gdfm6lLiXSYKvWeoRvQvZ9fzqLvM83qohixQbJ/FOML4nUt62QzUko=", "GOK4OHRJ1deYmJF1cnDEBFk4zBaWkrQWRrcDT83CwwiwASJyKw/t8Iqft4EhnIxLVTDjjMMdLbry2OtVSssi6GbA5wFe2ogxuf1feP92AHNKoX7osW4doYSPNCiO1RNjAkjLa5jsXGooNE2MFvhFl1752Wb3iWEKgB6IJfrE4tA=", "uH+xoz8GpMjxZtb/QyUo3xAc14EzwQJipfJhA2kW0p230fGwJBT/2odb+aIWKGYtOr4KvXY+7FoKQgvxCzTgxi9u0G7BdHcWE9tgrOi9BSHj/eO2g6QvgzqZy5cpr9neTrTkHxLTjRjF0ljOd0FMCqD8Rk94HbMc4JdPjx6U3KQ="]}
+{"filename": "rsa/test17.py", "bits": 2048, "messages": ["🎉 Emoji test 🎊"], "sigs": ["wFKAk7qAEmlhvGG5a0nv+cocr3asyC6LONCy0drMZVka/XfCMzNY5AizZLd9b7BHAnCTNQCdRbIZIpO0DssyKdEufP2xkbgzEGJLWiLzZ2cWx6WzRSdHzU8Os3TcCNTgWL5dRw4ZI8FfkWy62XFapmkpL3376qCVvw51oPOXDlI=", "FDUgFS2AwFAmXklidYOGaStziGuUtxkHcZugcrrtIX75IE5Ix5xuUmBPveky+pIB5+D0xLQ62/cO8v099hnLgHza1T+smhtUzXxgW+a5Jvd8WPpUqXr5jBGTeCSGuV/w/AHfQ1emLk2bQHy7HWQ4GlN22JNvuyB9az6u/VqViHI="]}
+{"filename": "rsa/test17.py", "bits": 256, "messages": ["秘密消息"], "sigs": ["kjOdFjVdoTaZVI6VmkIseKOLoiqvXxs6aXlrtpHz2NprAvLCuSqOFTJ4wRILxOWLAc88K2qExhV7vts45S933IVMmUtj5Jv2ELsaXRLE9xGSktRb1djp4PNL83KDlUDBBaOVnesHCJLYIm7n66zSSPs1Ca6LwjSlpBh96m8A8mM=", "LbeCTNIiTvoq3qzIRnZxgdODxYL13J0mYRzKJBuIXqMuYB2pGgG/t0NYJSlCQ6Lfson9Be7sTmHk9gPfUVm45akM8x+fNsxEEGP1SZcs3oVq/HHi0qlht5RLRtSwgFz5rj1XL5e6BTZA516ES81yTet9Nj862Xncgk9prWpdH1w="]}
+{"filename": "rsa/test17.py", "bits": 1024, "messages": ["秘密消息"], "sigs": ["YDlRYOWy8CGmByvLmK/v8eGHa0COGH/M8BC6hCwRTzMIKl4mUq4mD9DwmWYfETsi8XG/TRr1pD4eYUKeacyO6DPd3rgm6ieC4FcVLbmJ9AeoaPg7N/oMKQymI3STqfDntNr9zlQYXyDwfHeciSZILvTrUgyhsxOZ2Nj93x0KqXI="]}
+{"filename": "rsa/test17.py", "bits": 256, "messages": ["Edges: \"quotes' and back\\slash"], "sigs": ["N2TbzHtj3xJHGOYBrqjEpg//feQ5WVRzddlrZWcg0uYAyXyzx2jNXH1nGSabAi2qw366w9wnBtvxIXJMFP7jYMSQcqCCjI6V/ohktmyNiW8TgX2W4CGPVzaapJwsEs5/r/R1DSH8Rsktn1ty+dWtaJeCh3QpweoMOW6No38cTEg=", "lb1UjPLhDdwXgU9ANliYcyGHaTjjkMVLwH9eMl8Kv2xITTFcPSssNPVIGDpRFw8hjBsRhY2dDMtigaKkdynh2ii93CfRAAdc0GqkmogCwAf2n9O8afIM8/qbANu0iSyDoDnL7O+BaDL4XiuW0dz9s+tghZ4vHrW1ABOzzb+XUzI=", "Ji0OEDX01ohMQLe09zHGdP4QJGa7LT3znXqaLahfylbUkif4OblgKNpUXtGyQwZ42wYC2kZHBx9aHytOJgyPoalEG+DEHz0KYhKMX4OM3SCwJDU8Jx5RdVQu8gyb6cfuOmWRoyHLa/gR+KwPUTFl+b9iEH7/BfLnoK8v0J5Dads="]}
+{"filename": "rsa/test17.py", "bits": 256, "messages": ["日本語メッセージ"], "sigs": ["HJWqT9tOanlOLDg0BWBDvYV8nt4lRiX9ycWRfqEIm+2idW0Y6IeruNSqLti1DsVrG0UCmmpNzQ5vXEBtmjk9Bw4nC2VV1ixKhQjFQT2w/iIjxzQ9nasiaUep2coS1AGTTFG3/rp2rrB9RyUAOcs1iYsn/0m3UUYzH5gBcl5ZQNM="]}
+{"filename": "rsa/test17.py", "bits": 512, "messages": ["Edges: \"quotes' and back\\slash"], "sigs": ["tuf4cV+1wRJfDJkNzB0tboo9zyGfgXhXC7talDZSi8WeEERQVBBzeYV3HsEpi88FMJIU3xhiqaRUFaFPwyj1dSegJ+GYjSGld53lbqLQQPjt2zldx2UMJiv4ccqRXK8xyF8tu/KZkZ74l15SLr6mZsfmbPLxwH7Yjv6V5xdFVKI=", "9K4SHMSjZwo9wRHgm+NYKZMH1RNXHHeDejSlEzxdbGV0CcAK0I2e+LAoFpQ3Bn/kU8gNQIbyALAFfrU3ZVjwfbwTpBiX1Aps3LTMSPV0XCKZtPYeGqyK4zQSaI2PwtRjBGAYI1V9vadIKbvv3hqpojZ/8q3EmqENl8wN2wObevc=", "Zoq9106/2LkGmWycb6B3OiqsIUgFf2AK152DQ7teyl5Ov55s3PRwETniVP/VsLxCyVRpaN6OgPlrdTyIN4l5PYjAyEtedu/L9hNkZwpw74eWZms4NjPfdyNR9HiuKfwq/xKFkdxiR8fRLp99j9I7cpG2cW8I3yfOMdDmcPDmJyU="]}
+{"filename": "rsa/test17.py", "bits": 2048, "messages": ["CSV,TSV;special|delimiters"], "sigs": ["Plq7Hgy2SxwJg0aiskliNFxSeCUIzIj3nKoXG4kgRFVlITAVBRTO/OO61blqRb0/plAihcsQcE8vd30zgLZVNbu6/1ZookydW5PNzHZngBv/cLOIzTTb9CUnTqtto4LWF8PyBR8w50bgDM68eA6ozZawfFhIg9cdiT7i4XwJxJQ="]}
+{"filename": "rsa/test18.py", "bits": 2048, "threshold": 30, "msg": "CSV,TSV;special|delimiters", "calc": "bits * threshold // cipher_len"}
+{"filename": "rsa/test18.py", "bits": 256, "threshold": 32, "msg": "Hello RSA", "calc": "cipher_len - threshold"}
+{"filename": "rsa/test18.py", "bits": 2048, "threshold": 1, "msg": "Hello RSA", "calc": "(bits + threshold) * cipher_len % 1000"}
+{"filename": "rsa/test18.py", "bits": 512, "threshold": 25, "msg": "Multiline\nstring\nwith newlines", "calc": "(cipher_len + threshold) * 2"}
+{"filename": "rsa/test18.py", "bits": 2048, "threshold": 39, "msg": "Multiline\nstring\nwith newlines", "calc": "bits * threshold // cipher_len"}
+{"filename": "rsa/test18.py", "bits": 256, "threshold": 22, "msg": "秘密消息", "calc": "bits + threshold + cipher_len"}
+{"filename": "rsa/test18.py", "bits": 2048, "threshold": 39, "msg": "Hello RSA", "calc": "cipher_len % threshold + bits"}
+{"filename": "rsa/test18.py", "bits": 2048, "threshold": 41, "msg": "A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message ", "calc": "cipher_len * bits // 100"}
+{"filename": "rsa/test18.py", "bits": 512, "threshold": 30, "msg": "Lorem ipsum dolor sit amet", "calc": "bits * threshold // cipher_len"}
+{"filename": "rsa/test18.py", "bits": 256, "threshold": 3, "msg": "Test message", "calc": "(cipher_len + threshold) * 2"}
+{"filename": "rsa/test18.py", "bits": 2048, "threshold": 8, "msg": "", "calc": "threshold * bits + cipher_len"}
+{"filename": "rsa/test18.py", "bits": 512, "threshold": 15, "msg": "CSV,TSV;special|delimiters", "calc": "bits * threshold // cipher_len"}
+{"filename": "rsa/test18.py", "bits": 316, "threshold": 4405, "msg": "YJABVCLHJ", "calc": "4163862"}
+{"filename": "rsa/test18.py", "bits": 910, "threshold": 773316, "msg": "58574601233", "calc": "70384541673557"}
+{"filename": "rsa/test18.py", "bits": 693, "threshold": -348, "msg": "Vfq4kTtQUCfAuXospXDcMBc6y9nO", "calc": "503054992835455"}
+{"filename": "rsa/test19.py", "bits": 256, "rounds": 8, "base_message": ""}
+{"filename": "rsa/test19.py", "bits": 1024, "rounds": 42, "base_message": "<html><body>test</body></html>"}
+{"filename": "rsa/test19.py", "bits": 512, "rounds": 9, "base_message": "Quick brown fox"}
+{"filename": "rsa/test19.py", "bits": 1024, "rounds": 10, "base_message": "日本語メッセージ"}
+{"filename": "rsa/test19.py", "bits": 2048, "rounds": 23, "base_message": "Multiline\nstring\nwith newlines"}
+{"filename": "rsa/test19.py", "bits": 256, "rounds": 29, "base_message": "Test message"}
+{"filename": "rsa/test19.py", "bits": 2048, "rounds": 24, "base_message": "Quick brown fox"}
+{"filename": "rsa/test19.py", "bits": 256, "rounds": 25, "base_message": "1234567890"}
+{"filename": "rsa/test19.py", "bits": 512, "rounds": 23, "base_message": "🎉 Emoji test 🎊"}
+{"filename": "rsa/test19.py", "bits": 256, "rounds": 18, "base_message": "Quick brown fox"}
+{"filename": "rsa/test19.py", "bits": 1024, "rounds": 12, "base_message": "Multiline\nstring\nwith newlines"}
+{"filename": "rsa/test19.py", "bits": 2048, "rounds": 32, "base_message": "Hello RSA"}
+{"filename": "rsa/test19.py", "bits": 481, "rounds": 135, "base_message": "DMHKRXL"}
+{"filename": "rsa/test19.py", "bits": 910, "rounds": 903, "base_message": "xtOqJkWXAHAz99Rf3p37Zg6MjTjE v84u1lgzU"}
+{"filename": "rsa/test19.py", "bits": 188, "rounds": -759, "base_message": "hvnodbxqm"}
+{"filename": "rsa/test19.py", "bits": 900, "rounds": 974, "base_message": "ujpnoqii"}
+{"filename": "rsa/test19.py", "bits": 416, "rounds": 64, "base_message": "iENo3ig6SjY9tPQaI"}
+{"filename": "rsa/test2.py", "bits": 1024}
+{"filename": "rsa/test2.py", "bits": 256}
+{"filename": "rsa/test2.py", "bits": 2048}
+{"filename": "rsa/test2.py", "bits": 256}
+{"filename": "rsa/test2.py", "bits": 256}
+{"filename": "rsa/test2.py", "bits": 512}
+{"filename": "rsa/test2.py", "bits": 512}
+{"filename": "rsa/test2.py", "bits": 1024}
+{"filename": "rsa/test2.py", "bits": 256}
+{"filename": "rsa/test2.py", "bits": 2048}
+{"filename": "rsa/test2.py", "bits": 2048}
+{"filename": "rsa/test2.py", "bits": 2048}
+{"filename": "rsa/test2.py", "bits": 2048}
+{"filename": "rsa/test2.py", "bits": 4728}
+{"filename": "rsa/test2.py", "bits": 854}
+{"filename": "rsa/test2.py", "bits": 243}
+{"filename": "rsa/test2.py", "bits": 719}
+{"filename": "rsa/test2.py", "bits": 1752}
+{"filename": "rsa/test2.py", "bits": 919}
+{"filename": "rsa/test2.py", "bits": 437}
+{"filename": "rsa/test2.py", "bits": 4798}
+{"filename": "rsa/test2.py", "bits": 857}
+{"filename": "rsa/test2.py", "bits": 184}
+{"filename": "rsa/test2.py", "bits": 1572}
+{"filename": "rsa/test2.py", "bits": 2903}
+{"filename": "rsa/test2.py", "bits": 904}
+{"filename": "rsa/test2.py", "bits": 302}
+{"filename": "rsa/test2.py", "bits": 1002}
+{"filename": "rsa/test2.py", "bits": 4524}
+{"filename": "rsa/test2.py", "bits": 637}
+{"filename": "rsa/test5.py", "bits": 2048, "message": "Quick brown fox"}
+{"filename": "rsa/test5.py", "bits": 1024, "message": "Multiline\nstring\nwith newlines"}
+{"filename": "rsa/test5.py", "bits": 2048, "message": "A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message A very long message "}
+{"filename": "rsa/test5.py", "bits": 512, "message": "1234567890"}
+{"filename": "rsa/test5.py", "bits": 512, "message": "CSV,TSV;special|delimiters"}
+{"filename": "rsa/test5.py", "bits": 1024, "message": "Hello RSA"}
+{"filename": "rsa/test5.py", "bits": 1024, "message": "秘密消息"}
+{"filename": "rsa/test5.py", "bits": 1024, "message": "Quick brown fox"}
+{"filename": "rsa/test5.py", "bits": 1024, "message": "日本語メッセージ"}
+{"filename": "rsa/test5.py", "bits": 1024, "message": "日本語メッセージ"}
+{"filename": "rsa/test5.py", "bits": 517, "message": "tPaNCTIHV3RJ4fvO3LDfsQAozMbXYsBONU7KTv3o8"}
+{"filename": "rsa/test5.py", "bits": 499, "message": "KHTTfiSdJeBhlI"}
+{"filename": "rsa/test5.py", "bits": 906, "message": "TzKwUYp6UDKtg57VpEf21pn8MYUBW1Wt7uSqjbNy"}
+{"filename": "rsa/test5.py", "bits": 932, "message": "9cddET"}
+{"filename": "rsa/test5.py", "bits": 726, "message": "MAwz18pNSemfSR pzovhNju"}
+{"filename": "rsa/test5.py", "bits": 3178, "message": "CXNVSVMYKWVIEQ"}
+{"filename": "rsa/test5.py", "bits": 995, "message": "Tq5BNaFrR4YgkixCgkJfi a1qaxQgo4Zu4vrSXr"}
+{"filename": "rsa/test5.py", "bits": 709, "message": "arNpVV2NVv8Fl7"}
+{"filename": "rsa/test5.py", "bits": 679, "message": "IlLK2wiRObT9VudKS1"}
+{"filename": "rsa/test5.py", "bits": 565, "message": "0qkf7BYxZihGyXgYMDOj34puRy6jdzvJdLCACpmVJ"}
+{"filename": "rsa/test7.py", "n1": 1491502466820736178062333802454124980931322733009418054344947, "n2": 744514661497555703843038097685885631370116914071411604711688}
+{"filename": "rsa/test7.py", "n1": 1515553435075116094539597757058780593387384662319341705678549, "n2": 928410961863656167597320572372124888211357182281387893618245}
+{"filename": "rsa/test7.py", "n1": 1038438389780517430913614247295868356109570389186769959830599, "n2": 896054179266433843203624998225668475432079047981683614325719}
+{"filename": "rsa/test7.py", "n1": 863598250478139223433811950003603058359616179384229505980198, "n2": 157815421649233060121158986845736442030865041658974967356820}
+{"filename": "rsa/test7.py", "n1": 1058611707979029056672044876099882861489540867088856613022186, "n2": 246807428086971877450170760488098919612170026713284255092613}
+{"filename": "rsa/test7.py", "n1": 827436586257217003760727797102739283105544520707859248503054, "n2": 560370301784491339796472097400857556912985940456798766192922}
+{"filename": "rsa/test7.py", "n1": 1103197889821571001755353786824125563871303524810271657600355, "n2": 162303944925030688024544842154687779006658147939560239304599}
+{"filename": "rsa/test7.py", "n1": 945305841747173044366153290829458070797198524794969638094748, "n2": 1096957712711183727051447410458463261192452258274943730597392}
+{"filename": "rsa/test7.py", "n1": 862563244280361720430936090782061972639133461760421935416469, "n2": 250231244506319496742698267098114507172108986173557935413627}
+{"filename": "rsa/test7.py", "n1": 140787071730874670504289867528933217989809251880057229255527, "n2": 300026290042863161231237101533998995890955651318485735637352}
+{"filename": "rsa/test7.py", "n1": 682107176881979812886368197666465001649991665850634607445722, "n2": 1365992655226607399603658534210406484226424686681691918172392}
+{"filename": "rsa/test7.py", "n1": 1589742466168513108209314063955906876089922691331334569039657, "n2": 872918405773669918490153598086043271249174118666655186676349}
+{"filename": "rsa/test7.py", "n1": 1310556316586571932493303772611146187751258142468680026053941, "n2": 418458824145915108637529609510176193522253938750363081469492}
+{"filename": "rsa/test7.py", "n1": 39455754482811972565547012779920297261790612214349701564366, "n2": 1527666708344559312485262642189247031014938792109926462137363}
+{"filename": "rsa/test7.py", "n1": 1417211179563294479318803448171009657124564011365751783383300, "n2": 563471936883203269313959620352691440671541607726589853627820}
+{"filename": "rsa/test7.py", "n1": 1343967937533296897169654185088871284677708684129673430456542, "n2": 1382628660973614434519181016225668772048473679013510023622715}
+{"filename": "rsa/test7.py", "n1": 965918843001313273304310068417194782794862972579135628834804, "n2": 285512193598007240147162867839510663231018280099498509697679}
+{"filename": "rsa/test7.py", "n1": 644255796871465405982544283244509667062818132289120550658973, "n2": 359324974973028672817797935931364967158528488745099289842330}
+{"filename": "rsa/test7.py", "n1": 1317622762794499043816287179616824792928394427641726884344137, "n2": 1572283645732500403925560862174401714054593941444679797297889}
+{"filename": "rsa/test7.py", "n1": 246432937548265099562800775693413136029513365851357598310625, "n2": 1249684057719044955374953338185570749558106007246119108869153}
+{"filename": "rsa/test7.py", "n1": 879410, "n2": 65278}
+{"filename": "rsa/test7.py", "n1": 518201, "n2": 254988}
+{"filename": "rsa/test7.py", "n1": 3788, "n2": 316}
+{"filename": "rsa/test7.py", "n1": 874, "n2": -504}
+{"filename": "rsa/test7.py", "n1": 690790, "n2": 10374}
+{"filename": "rsa/test7.py", "n1": 222070, "n2": 638}
+{"filename": "rsa/test7.py", "n1": -907, "n2": 58085}
+{"filename": "rsa/test7.py", "n1": 732, "n2": 3878}
+{"filename": "rsa/test7.py", "n1": 1486, "n2": 862815}
+{"filename": "rsa/test7.py", "n1": 28148, "n2": 97}
+{"filename": "rsa/test7.py", "n1": 90, "n2": 83510}
+{"filename": "rsa/test7.py", "n1": 170138, "n2": 588}
+{"filename": "rsa/test7.py", "n1": 13083, "n2": 183}
+{"filename": "rsa/test7.py", "n1": 628943, "n2": -390}
+{"filename": "rsa/test7.py", "n1": 41, "n2": 8161}
+{"filename": "rsa/test7.py", "n1": 471, "n2": 244}
+{"filename": "rsa/test7.py", "n1": 17369, "n2": 151893}
+{"filename": "rsa/test7.py", "n1": 1668, "n2": 6}
+{"filename": "rsa/test7.py", "n1": 519478, "n2": 342}
+{"filename": "rsa/test7.py", "n1": 623, "n2": 17315}
+{"filename": "rsa/test7.py", "n1": 6523, "n2": -117}
+{"filename": "rsa/test7.py", "n1": 1893, "n2": 39}
+{"filename": "rsa/test7.py", "n1": 880064, "n2": 50204}
+{"filename": "rsa/test7.py", "n1": 666, "n2": 83}
+{"filename": "rsa/test7.py", "n1": 1065, "n2": 8104}
+{"filename": "rsa/test7.py", "n1": 2355, "n2": 8476}
+{"filename": "rsa/test7.py", "n1": 623635, "n2": 152204}
+{"filename": "rsa/test7.py", "n1": 859, "n2": 9251}
+{"filename": "rsa/test7.py", "n1": 792186, "n2": 807055}
+{"filename": "rsa/test7.py", "n1": 80, "n2": 463285}
+{"filename": "rsa/test7.py", "n1": 28, "n2": 17783}
+{"filename": "rsa/test7.py", "n1": 619334, "n2": 10}
+{"filename": "rsa/test7.py", "n1": 7817, "n2": 212}
+{"filename": "rsa/test7.py", "n1": 951, "n2": 284946}
+{"filename": "rsa/test7.py", "n1": 353166, "n2": 72458}
+{"filename": "rsa/test7.py", "n1": 944287, "n2": 437049}
+{"filename": "rsa/test7.py", "n1": 7278, "n2": -697}
+{"filename": "rsa/test7.py", "n1": 82, "n2": 872}
+{"filename": "rsa/test7.py", "n1": 74, "n2": 520}
+{"filename": "rsa/test7.py", "n1": 199, "n2": 177283}
+{"filename": "rsa/test8.py", "bits": 1024, "msg_len": 8}
+{"filename": "rsa/test8.py", "bits": 512, "msg_len": 27}
+{"filename": "rsa/test8.py", "bits": 2048, "msg_len": 35}
+{"filename": "rsa/test8.py", "bits": 1024, "msg_len": 26}
+{"filename": "rsa/test8.py", "bits": 2048, "msg_len": 41}
+{"filename": "rsa/test8.py", "bits": 2048, "msg_len": 47}
+{"filename": "rsa/test8.py", "bits": 512, "msg_len": 26}
+{"filename": "rsa/test8.py", "bits": 2048, "msg_len": 15}
+{"filename": "rsa/test8.py", "bits": 2048, "msg_len": 30}
+{"filename": "rsa/test8.py", "bits": 256, "msg_len": 4}
+{"filename": "rsa/test8.py", "bits": 1024, "msg_len": 39}
+{"filename": "rsa/test8.py", "bits": 1024, "msg_len": 26}
+{"filename": "rsa/test8.py", "bits": 512, "msg_len": 10}
+{"filename": "rsa/test8.py", "bits": 915, "msg_len": 93}
+{"filename": "rsa/test8.py", "bits": 2285, "msg_len": -526}
+{"bits": 1024, "multiplier": 1, "filename": "rsa/test10.py"}
+{"bits": 1024, "multiplier": 50, "filename": "rsa/test10.py"}
+{"bits": 512, "multiplier": 1, "filename": "rsa/test10.py"}
+{"bits": 512, "multiplier": 100, "filename": "rsa/test10.py"}
+{"bits": 3072, "multiplier": 10, "filename": "rsa/test10.py"}
+{"bits": 256, "multiplier": 1, "filename": "rsa/test10.py"}
+{"bits": 2048, "multiplier": 100, "filename": "rsa/test10.py"}
+{"bits": 1024, "multiplier": 3, "filename": "rsa/test10.py"}
+{"bits": 2048, "hash_method": "MD5", "message": "", "filename": "rsa/test11.py"}
+{"bits": 512, "hash_method": "SHA-256", "message": "Unicode测试: 中文, 日本語, 한국어", "filename": "rsa/test11.py"}
+{"bits": 1024, "hash_method": "SHA-1", "message": "   \t\n  ", "filename": "rsa/test11.py"}
+{"bits": 2048, "hash_method": "SHA-256", "message": "Path: C:\\Users\\Test\\File.txt", "filename": "rsa/test11.py"}
+{"bits": 512, "hash_method": "MD5", "message": "The quick brown fox jumps over the lazy dog", "filename": "rsa/test11.py"}
+{"bits": 1024, "hash_method": "SHA-256", "message": "Single", "filename": "rsa/test11.py"}
+{"bits": 2048, "hash_method": "SHA-1", "message": "Numbers: 12345, Floats: 3.14, Hex: 0xFF", "filename": "rsa/test11.py"}
+{"bits": 512, "hash_method": "SHA-1", "message": "a", "filename": "rsa/test11.py"}
+{"bits": 1024, "hash_method": "MD5", "message": "Special: <html>&\"'</html>", "filename": "rsa/test11.py"}
+{"bits": 2048, "hash_method": "SHA-256", "message": "Emoji test: 🎉🔒📧✅", "filename": "rsa/test11.py"}
+{"n": 1024, "exponent": 2, "filename": "rsa/test15.py"}
+{"n": 1000, "exponent": 100, "filename": "rsa/test15.py"}
+{"n": 12345678901234567890, "exponent": 1, "filename": "rsa/test15.py"}
+{"n": 999999999999999999999999999999, "exponent": 3, "filename": "rsa/test15.py"}
+{"n": 1267650600228229401496703205376, "exponent": 10, "filename": "rsa/test15.py"}
+{"n": 100000000000000000000000000000000000000000000000000, "exponent": 1000, "filename": "rsa/test15.py"}
+{"n": 1152921504606846976, "exponent": 1048576, "filename": "rsa/test15.py"}
+{"n": 18446744073709551615, "exponent": 100, "filename": "rsa/test15.py"}
+{"n": 99999999999999999999999999999999999999999999999999, "exponent": 7, "filename": "rsa/test15.py"}
+{"n": 123456789012345678901234567890123456789012345678901234567890, "exponent": 123, "filename": "rsa/test15.py"}
+{"n": 255, "e": 17, "d": 1, "filename": "rsa/test16.py"}
+{"n": 256, "e": 65537, "d": 1, "filename": "rsa/test16.py"}
+{"n": 100000000000000000000, "e": 10000000000, "d": 10000000000, "filename": "rsa/test16.py"}
+{"n": 1000000000000000000000000000000000000000000000000000000000000, "e": 1000000000000000000000000000000, "d": 1000000000000000000000000000000, "filename": "rsa/test16.py"}
+{"n": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, "e": 100000000000000000000000000000000000000000000000000, "d": 100000000000000000000000000000000000000000000000000, "filename": "rsa/test16.py"}
+{"n": 1, "e": 1, "d": 1, "filename": "rsa/test16.py"}
+{"n": 123456789012345678901234567890, "e": 987654321, "d": 123456789, "filename": "rsa/test16.py"}
+{"n": 340282366920938463463374607431768211455, "e": 18446744073709551616, "d": 18446744073709551616, "filename": "rsa/test16.py"}
+{"n": 1000000000000000000000000000000, "e": 1, "d": 1000000000000000000000000000000, "filename": "rsa/test16.py"}
+{"n": 100000000000000000000000000000000000000000000000000, "e": 10000000000000000000000000, "d": 10000000000000000000000000, "filename": "rsa/test16.py"}
+{"bits": 1024, "threshold": 100, "msg": "Test message one", "calc": "cipher_len * 2", "filename": "rsa/test18.py"}
+{"bits": 512, "threshold": 1000, "msg": "Short", "calc": "cipher_len // 2", "filename": "rsa/test18.py"}
+{"bits": 2048, "threshold": 0, "msg": "Threshold zero test", "calc": "cipher_len", "filename": "rsa/test18.py"}
+{"bits": 256, "threshold": 50, "msg": "Tiny key test", "calc": "cipher_len + threshold", "filename": "rsa/test18.py"}
+{"bits": 1024, "threshold": 200, "msg": "", "calc": "cipher_len - 50", "filename": "rsa/test18.py"}
+{"bits": 512, "threshold": 30, "msg": "Special chars: !@#$%", "calc": "bits // 8", "filename": "rsa/test18.py"}
+{"bits": 2048, "threshold": 500, "msg": "Unicode: 你好", "calc": "(cipher_len + bits) // threshold", "filename": "rsa/test18.py"}
+{"bits": 256, "threshold": 10, "msg": "A", "calc": "threshold * 5", "filename": "rsa/test18.py"}
+{"bits": 1024, "threshold": 64, "msg": "Boundary test exact", "calc": "cipher_len", "filename": "rsa/test18.py"}
+{"bits": 512, "threshold": 128, "msg": "Negative result test", "calc": "threshold - cipher_len", "filename": "rsa/test18.py"}
+{"bits": 256, "rounds": 1, "base_message": "X", "filename": "rsa/test19.py"}
+{"bits": 512, "rounds": 100, "base_message": "Loop", "filename": "rsa/test19.py"}
+{"bits": 1024, "rounds": 1, "base_message": "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "filename": "rsa/test19.py"}
+{"bits": 2048, "rounds": 50, "base_message": "Performance test message", "filename": "rsa/test19.py"}
+{"bits": 256, "rounds": 5, "base_message": "🎉 Emoji test 🚀", "filename": "rsa/test19.py"}
+{"bits": 768, "rounds": 15, "base_message": "Non-standard bit size", "filename": "rsa/test19.py"}
+{"bits": 1024, "rounds": 99, "base_message": "Many rounds", "filename": "rsa/test19.py"}
+{"bits": 512, "rounds": 1, "base_message": "", "filename": "rsa/test19.py"}
+{"bits": 2048, "rounds": 1, "base_message": "Single round with unicode 中文测试", "filename": "rsa/test19.py"}
+{"bits": 512, "filename": "rsa/test2.py"}
+{"bits": 768, "filename": "rsa/test2.py"}
+{"bits": 1280, "filename": "rsa/test2.py"}
+{"bits": 1536, "filename": "rsa/test2.py"}
+{"bits": 384, "filename": "rsa/test2.py"}
+{"bits": 640, "filename": "rsa/test2.py"}
+{"bits": 1984, "filename": "rsa/test2.py"}
+{"bits": 1024, "message": "", "filename": "rsa/test5.py"}
+{"bits": 512, "message": "🌟🎄🎁🎅🤶", "filename": "rsa/test5.py"}
+{"bits": 1024, "message": "Привет мир", "filename": "rsa/test5.py"}
+{"bits": 2048, "message": "Z", "filename": "rsa/test5.py"}
+{"bits": 512, "message": "{\"nested\":{\"array\":[1,2,3]}}", "filename": "rsa/test5.py"}
+{"bits": 1024, "message": "user@example.com", "filename": "rsa/test5.py"}
+{"bits": 2048, "message": "Tab\there\tand\tspaces   end", "filename": "rsa/test5.py"}
+{"bits": 512, "message": "ÖÄÜßöäü€", "filename": "rsa/test5.py"}
+{"n1": 98765432109876543210987654321098765432109876543210, "n2": 98765432109876543210987654321098765432109876543210, "filename": "rsa/test7.py"}
+{"n1": 12345678901234567890123456789012345678901234567890, "n2": 24691357802469135780246913578024691357802469135780, "filename": "rsa/test7.py"}
+{"n1": 10000000000000000000000000000000000000000000000001, "n2": 10000000000000000000000000000000000000000000000002, "filename": "rsa/test7.py"}
+{"n1": 10000000000000000000000000000000000000000000000002, "n2": 10000000000000000000000000000000000000000000000004, "filename": "rsa/test7.py"}
+{"n1": 12345000000000000000000000000000000000000000000000, "n2": 24690000000000000000000000000000000000000000000000, "filename": "rsa/test7.py"}
+{"n1": 99999999999999999999999999999999999999999999999999, "n2": 99999999999999999999999999999999999999999999999998, "filename": "rsa/test7.py"}
+{"n1": 33333333333333333333333333333333333333333333333330, "n2": 66666666666666666666666666666666666666666666666690, "filename": "rsa/test7.py"}
+{"n1": 99999999999999999999999999999999999999999999999999, "n2": 1, "filename": "rsa/test7.py"}
+{"n1": 33333333333333333333333333333333333333333333333333, "n2": 33333333333333333333333333333333333333333333333336, "filename": "rsa/test7.py"}
+{"n1": 11223344556677889900112233445566778899001122334455, "n2": 99887766554433221100998877665544332211009988776655, "filename": "rsa/test7.py"}
+{"bits": 256, "msg_len": 1, "filename": "rsa/test8.py"}
+{"bits": 256, "msg_len": 20, "filename": "rsa/test8.py"}
+{"bits": 512, "msg_len": 1, "filename": "rsa/test8.py"}
+{"bits": 512, "msg_len": 50, "filename": "rsa/test8.py"}
+{"bits": 1024, "msg_len": 1, "filename": "rsa/test8.py"}
+{"bits": 1024, "msg_len": 100, "filename": "rsa/test8.py"}
+{"bits": 2048, "msg_len": 1, "filename": "rsa/test8.py"}
+{"bits": 2048, "msg_len": 200, "filename": "rsa/test8.py"}
+{"bits": 3072, "msg_len": 50, "filename": "rsa/test8.py"}

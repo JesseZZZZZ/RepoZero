@@ -5,6 +5,8 @@ import os
 from collections import defaultdict
 from pathlib import Path
 
+EVAL_ROOT = Path(__file__).resolve().parent
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 PYTHON_BIN = os.environ.get("PYTHON_BIN", "python3")
@@ -164,13 +166,13 @@ def main():
     if args.jsonl_dir is not None:
         jsonl_dir = args.jsonl_dir
     elif args.testcase_type == "enhanced":
-        jsonl_dir = str(REPO_ROOT / "Py2JS" / "testcases_enhanced")
+        jsonl_dir = str(EVAL_ROOT / "testcases" / "testcases_enhanced")
     else:  # "60"
-        jsonl_dir = str(REPO_ROOT / "Py2JS" / "testcases_60")
+        jsonl_dir = str(EVAL_ROOT / "testcases" / "testcases_60")
 
     model_name   = args.model
     output_root  = str(REPO_ROOT / "Py2JS" / "output" / model_name)
-    results_dir  = str(REPO_ROOT / "evaluate" / "results" / model_name)
+    results_dir  = str(EVAL_ROOT / "results" / model_name)
 
     analyze_directory(jsonl_dir, args.dataset_root, output_root, results_dir)
 

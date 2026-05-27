@@ -1,0 +1,853 @@
+{"filename": "idna/test1.py", "domain": "example.com"}
+{"filename": "idna/test1.py", "domain": "münchen.de"}
+{"filename": "idna/test1.py", "domain": "中国.中国"}
+{"filename": "idna/test1.py", "domain": "café.fr"}
+{"filename": "idna/test1.py", "domain": "例え.jp"}
+{"filename": "idna/test1.py", "domain": "москва.рф"}
+{"filename": "idna/test1.py", "domain": "bäckerei.at"}
+{"filename": "idna/test1.py", "domain": "προγραμματισμός.gr"}
+{"filename": "idna/test1.py", "domain": "السعودية.sa"}
+{"filename": "idna/test1.py", "domain": "プログラム.jp"}
+{"filename": "idna/test1.py", "domain": "караоке.kz"}
+{"filename": "idna/test1.py", "domain": "résumé.com"}
+{"filename": "idna/test1.py", "domain": "సాంకేతికతłęь.in"}
+{"filename": "idna/test1.py", "domain": "компьютер.ru"}
+{"filename": "idna/test1.py", "domain": "apache.org"}
+{"filename": "idna/test1.py", "domain": "футбол.укр"}
+{"filename": "idna/test1.py", "domain": "программирование.рф"}
+{"filename": "idna/test1.py", "domain": "例.cn"}
+{"filename": "idna/test1.py", "domain": "jcwlfdkizzj"}
+{"filename": "idna/test1.py", "domain": "FYnM2EBjEPMXIvGtBOOBIUltmY60X1TFYiZAgj"}
+{"filename": "idna/test1.py", "domain": "D7zECzE2EV5nO1"}
+{"filename": "idna/test1.py", "domain": "hZ4HgvqGq2oF5r5WeEjRn1R"}
+{"filename": "idna/test1.py", "domain": "6mZ2rW4w7TDGNmXQhpraw0kbKNMNQ3i5Dd6g18bW"}
+{"filename": "idna/test1.py", "domain": "wlwcwxtxjjzag"}
+{"filename": "idna/test1.py", "domain": "077507"}
+{"filename": "idna/test1.py", "domain": "XKCWUUZNAXF"}
+{"filename": "idna/test1.py", "domain": "qxxjzq"}
+{"filename": "idna/test1.py", "domain": "692759"}
+{"filename": "idna/test1.py", "domain": "oxoxictikz"}
+{"filename": "idna/test1.py", "domain": "gvKJx4IWV6"}
+{"filename": "idna/test1.py", "domain": "jtzsrbbmgrizsv"}
+{"filename": "idna/test1.py", "domain": "x21RYWrXDaaUUITKkOkorABtbhGWhr9hrR9tNfAG0s6Mq6G"}
+{"filename": "idna/test1.py", "domain": "ngakeprfymceok"}
+{"filename": "idna/test1.py", "domain": "t1ZJdZgijQgayOflgJa8"}
+{"filename": "idna/test1.py", "domain": "g36dDQcCIDWaLvmczuynY4cNvx7FEjb9E"}
+{"filename": "idna/test1.py", "domain": "xjpaoSJmLCqVpfGtMxov27qxf1SPStUuZ0RUkHcwyfiXk8wt9G"}
+{"filename": "idna/test1.py", "domain": "QBKWN"}
+{"filename": "idna/test1.py", "domain": "bFRpi8YiAimVNvidrZC65ELeGuueM"}
+{"filename": "idna/test1.py", "domain": "MLZQYJTWONYZZY"}
+{"filename": "idna/test1.py", "domain": "utwyxgrerxu"}
+{"filename": "idna/test1.py", "domain": "YKZDFGWWUMWR"}
+{"filename": "idna/test1.py", "domain": "3393648"}
+{"filename": "idna/test1.py", "domain": "96494918449"}
+{"filename": "idna/test1.py", "domain": "pUPSCqACy54"}
+{"filename": "idna/test1.py", "domain": "R09NzB8m65fbwn2HE"}
+{"filename": "idna/test1.py", "domain": "MyiXnKVIw3"}
+{"filename": "idna/test1.py", "domain": "5ramqg1s2IbH4e"}
+{"filename": "idna/test1.py", "domain": "XHBSDSNN"}
+{"filename": "idna/test1.py", "domain": "rxTCplSIfj0nmY4db3BO1sl"}
+{"filename": "idna/test1.py", "domain": "ORUlgmgKLJHQzvajtaaHlnQlswdj9HkrD0CqJ"}
+{"filename": "idna/test10.py", "domain": "example.com", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "münchen.de", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "中国.中国", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "café.fr", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "例え.jp", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "москва.рф", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "bäckerei.at", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "προγραμματισμός.gr", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "السعودية.sa", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "プログラム.jp", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "караоке.kz", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "résumé.com", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "apache.org", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "футбол.укр", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "компьютер.ru", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "xn--n3h.com", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "Saint-Raphaël.fr", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "例.cn", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": " Grüne.de", "transitional": false, "strict": false, "verify_checks": false}
+{"filename": "idna/test10.py", "domain": "дом.рф", "transitional": true, "strict": true, "verify_checks": true}
+{"filename": "idna/test10.py", "domain": "Cu3rBKX 2oxWrnXg8n0"}
+{"filename": "idna/test10.py", "domain": "Y2Sza9pG7 UwHTYnwcppryZkc"}
+{"filename": "idna/test10.py", "domain": "qeardOcd91XEGWQYDSbGGxBro9bNhFx0"}
+{"filename": "idna/test10.py", "domain": "OVFMSIAAPIXZVP"}
+{"filename": "idna/test10.py", "domain": "LCMWNV"}
+{"filename": "idna/test10.py", "domain": "FKKIFZAOEGNWRT"}
+{"filename": "idna/test10.py", "domain": "nfRHy34UD6LURHGx0KZ4sW0rM1qlVFX5hKPYbX"}
+{"filename": "idna/test10.py", "domain": "JKFBRWOWPUYWJ"}
+{"filename": "idna/test10.py", "domain": "WRDWRASKRNAI"}
+{"filename": "idna/test10.py", "domain": "985688"}
+{"filename": "idna/test10.py", "domain": "bgvaof"}
+{"filename": "idna/test10.py", "domain": "zjgpyqt"}
+{"filename": "idna/test10.py", "domain": "IAQYJCGSATDG"}
+{"filename": "idna/test10.py", "domain": "3eUXobdO3ov"}
+{"filename": "idna/test10.py", "domain": "DGOXmo1ArqBWVHlNFhSEN"}
+{"filename": "idna/test10.py", "domain": "LqiNwMaYugJ"}
+{"filename": "idna/test10.py", "domain": "9gWHqQebwyQ5jQVaD7yR2Sf55jFJOHOAho0sF6gAW1rSBNz"}
+{"filename": "idna/test10.py", "domain": "xOWyx4tFSAvgJ9RjplVdlMkHLxERNr4Vzj936pwPk7UCThl"}
+{"filename": "idna/test10.py", "domain": "585900557"}
+{"filename": "idna/test10.py", "domain": "RFgmb796YArwndP2keQLT"}
+{"filename": "idna/test10.py", "domain": "LVVHHSSELTRS"}
+{"filename": "idna/test10.py", "domain": "8113532430294"}
+{"filename": "idna/test10.py", "domain": "NXTTXXAYMLQAUAV"}
+{"filename": "idna/test10.py", "domain": "Fpg8Yrm5Q4 PARHeButeR"}
+{"filename": "idna/test10.py", "domain": "pcawlrbhftaz"}
+{"filename": "idna/test10.py", "domain": "MDKLAJCAB"}
+{"filename": "idna/test10.py", "domain": "j0GaN6A3ErK2M3LaW"}
+{"filename": "idna/test10.py", "domain": "782842205"}
+{"filename": "idna/test10.py", "domain": "sarotjlspptua"}
+{"filename": "idna/test10.py", "domain": "mteib"}
+{"filename": "idna/test10.py", "domain": "081365678644"}
+{"filename": "idna/test10.py", "domain": "VIVIwriqrHBdaIbRKCwmp82irzbjWbQmu0uZg"}
+{"filename": "idna/test10.py", "domain": "7bqEOT9A1p9JLz2az1lqq4TBWQumB6WWc"}
+{"filename": "idna/test10.py", "domain": "ZMqXtSujZOrJwSa6VHWQkPO3lAw"}
+{"filename": "idna/test10.py", "domain": "qivzppkulksoqq"}
+{"filename": "idna/test10.py", "domain": "lTngFdKJMeEs qSoqhkNQ3B"}
+{"filename": "idna/test10.py", "domain": "Xd9lb7oE"}
+{"filename": "idna/test10.py", "domain": "xsecl"}
+{"filename": "idna/test10.py", "domain": "W6XLbIpPWUV9kUe6Bx1kxyxHUp E3Fy7JfB"}
+{"filename": "idna/test10.py", "domain": "JygDFwnKs"}
+{"filename": "idna/test11.py", "domain": "example.com", "rounds": 1, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "münchen.de", "rounds": 3, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "中国.中国", "rounds": 5, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "café.fr", "rounds": 2, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "例え.jp", "rounds": 4, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "москва.рф", "rounds": 3, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "bäckerei.at", "rounds": 1, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "προγραμματισμός.gr", "rounds": 6, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "السعودية.sa", "rounds": 2, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "プログラム.jp", "rounds": 4, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "караоке.kz", "rounds": 3, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "résumé.com", "rounds": 5, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "apache.org", "rounds": 1, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "футбол.укр", "rounds": 3, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "компьютер.ru", "rounds": 2, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "xn--n3h.com", "rounds": 4, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "Saint-Raphaël.fr", "rounds": 5, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "例.cn", "rounds": 6, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": " Grüne.de", "rounds": 2, "use_uts46": false}
+{"filename": "idna/test11.py", "domain": "дом.рф", "rounds": 3, "use_uts46": true}
+{"filename": "idna/test11.py", "domain": "qNrL1p9flmnA1OYsZet9uVcu3yAqC1HZAAnNZ5xsG35I5n"}
+{"filename": "idna/test11.py", "domain": "12lNWNEFwzD4ko1nFq9c95BH2Ky4Ah txkeu"}
+{"filename": "idna/test11.py", "domain": "KRVCUOMU"}
+{"filename": "idna/test11.py", "domain": "kybcophdqupi"}
+{"filename": "idna/test11.py", "domain": "deptgb"}
+{"filename": "idna/test11.py", "domain": "7wW8YwRd"}
+{"filename": "idna/test11.py", "domain": "OXCZh3HUNud2zPakEFB2tzZXhDM MTMIylxxPJe"}
+{"filename": "idna/test11.py", "domain": "Xe325ie3tB7cfwXeRaxQGfdCnf08MJR"}
+{"filename": "idna/test11.py", "domain": "JEUXJT"}
+{"filename": "idna/test11.py", "domain": "FPSDDROOY"}
+{"filename": "idna/test11.py", "domain": "8190783120919"}
+{"filename": "idna/test11.py", "domain": "767093042318"}
+{"filename": "idna/test11.py", "domain": "hzdgixysexlhe"}
+{"filename": "idna/test11.py", "domain": "59386073479284"}
+{"filename": "idna/test11.py", "domain": "fcwlxkifntm"}
+{"filename": "idna/test11.py", "domain": "VtPcD3kUb9beoAKOCi"}
+{"filename": "idna/test11.py", "domain": "A0VXNnXBtb2t18dPW9Ek"}
+{"filename": "idna/test11.py", "domain": "9585478270083"}
+{"filename": "idna/test11.py", "domain": "ffdkfv"}
+{"filename": "idna/test11.py", "domain": "fj7g xfXj7gtxZWgV"}
+{"filename": "idna/test11.py", "domain": "tlnugsjbb"}
+{"filename": "idna/test11.py", "domain": "jamwzthqigdjfzg"}
+{"filename": "idna/test11.py", "domain": "xnqnwf"}
+{"filename": "idna/test11.py", "domain": "yzjnrmdrind"}
+{"filename": "idna/test11.py", "domain": "ZveY8zvZhhcf4AHu3pcdnfqrLZvu8SKnpDUpuIK"}
+{"filename": "idna/test11.py", "domain": "XqB44Re4NDn27P"}
+{"filename": "idna/test11.py", "domain": "pzrdfjvjhe"}
+{"filename": "idna/test11.py", "domain": "GhFRWpWvQzCLSg59FDj04jVCWkic6QAS1JIP"}
+{"filename": "idna/test11.py", "domain": "fyblfkjxbo8RSoqjjDHaJcT7uXQQn8jcRoxXFXkltyw"}
+{"filename": "idna/test11.py", "domain": "529953747910"}
+{"filename": "idna/test11.py", "domain": "DGP9kkNpTa60yyHDwYWwocLc3wzxkBq"}
+{"filename": "idna/test11.py", "domain": "1KMRftEY gqcQQb0f"}
+{"filename": "idna/test11.py", "domain": "2520719"}
+{"filename": "idna/test11.py", "domain": "E3jDxIDJVdS5LHRGN8bxZt7 0C2fOK7NTxKrrXOn"}
+{"filename": "idna/test11.py", "domain": "Lm3MIXzb4KvDYYvxJBni4HWoUvPz8 LTn7aSjtr6cfwINXxP"}
+{"filename": "idna/test11.py", "domain": "39659641"}
+{"filename": "idna/test11.py", "domain": "qumtmzlrdrw"}
+{"filename": "idna/test11.py", "domain": "tmbwfynegit"}
+{"filename": "idna/test11.py", "domain": "fbfT8SYAJFtyrUyz6Yk64nlNsGjK"}
+{"filename": "idna/test11.py", "domain": "qkoazicsrjjjuvw"}
+{"filename": "idna/test12.py", "domain": "example.com", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "münchen.de", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "中国.中国", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "café.fr", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "例え.jp", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "москва.рф", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "bäckerei.at", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "προγραμματισμός.gr", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "السعودية.sa", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "プログラム.jp", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "караоке.kz", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "résumé.com", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "apache.org", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "футбол.укр", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "компьютер.ru", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "xn--n3h.com", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "Saint-Raphaël.fr", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "例.cn", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": " Grüne.de", "transitional": false, "bidi_check": false}
+{"filename": "idna/test12.py", "domain": "дом.рф", "transitional": true, "bidi_check": true}
+{"filename": "idna/test12.py", "domain": "iz2Vlr"}
+{"filename": "idna/test12.py", "domain": "5565827"}
+{"filename": "idna/test12.py", "domain": "ohdfpyicgggmamh"}
+{"filename": "idna/test12.py", "domain": "zGTI4ptE3FjuVmFA NEdv"}
+{"filename": "idna/test12.py", "domain": "034394079312980"}
+{"filename": "idna/test12.py", "domain": "oNAiT3nRcRzJzHhA2Mzy6VT1xX dNJQsUbH2toM7Axia3"}
+{"filename": "idna/test12.py", "domain": "EXDWJUBFJQRLR"}
+{"filename": "idna/test12.py", "domain": "ltdbilo"}
+{"filename": "idna/test12.py", "domain": "rthnizrdkvwvfuf"}
+{"filename": "idna/test12.py", "domain": "261731568063"}
+{"filename": "idna/test12.py", "domain": "6092252"}
+{"filename": "idna/test12.py", "domain": "0q0qCwTFB3uUsjoodxi"}
+{"filename": "idna/test12.py", "domain": "gP5dy88eB6 SwxW71JeykJqchZAeLFHaegeq6yjAQ"}
+{"filename": "idna/test12.py", "domain": "7OA5VOcjP7"}
+{"filename": "idna/test12.py", "domain": "wcrsocmd"}
+{"filename": "idna/test12.py", "domain": "KyS3dg13veFacSKFO37eOSVxoFcGR5gIc6Tb344RsVdma6s"}
+{"filename": "idna/test12.py", "domain": "460029"}
+{"filename": "idna/test12.py", "domain": "uzrvLLnLzq4RBGjsTRtfHL6VJj261wa0eVZR5gcpp1WjyPn"}
+{"filename": "idna/test12.py", "domain": "BZhbsVVFeorOLgel"}
+{"filename": "idna/test12.py", "domain": "Ree51tCns75b5Ac"}
+{"filename": "idna/test12.py", "domain": "V3BXthpI2V4zQRFhk5qk 1uasny2QRbTv0PzDhOPA"}
+{"filename": "idna/test12.py", "domain": "T0k 2ITRQuYP5dIAFNf7IrHIIku"}
+{"filename": "idna/test12.py", "domain": "AEASLDEISU"}
+{"filename": "idna/test12.py", "domain": "BYNYMML"}
+{"filename": "idna/test12.py", "domain": "wdljsjghw"}
+{"filename": "idna/test12.py", "domain": "NGZMDSDE"}
+{"filename": "idna/test12.py", "domain": "bcphiceaqgiagzd"}
+{"filename": "idna/test12.py", "domain": "dyven"}
+{"filename": "idna/test12.py", "domain": "RJMDZFPEFZOUGZ"}
+{"filename": "idna/test12.py", "domain": "OHHJWDBTTHPS"}
+{"filename": "idna/test12.py", "domain": "498946369654830"}
+{"filename": "idna/test12.py", "domain": "ck1KKcUWcZFw iyHo8u6VkUIX0Q"}
+{"filename": "idna/test12.py", "domain": "THKPOY"}
+{"filename": "idna/test12.py", "domain": "3Sp58FnmwsfG vzHOoN5bwQGsHS3B6BA0T"}
+{"filename": "idna/test12.py", "domain": "4956896"}
+{"filename": "idna/test12.py", "domain": "nftwnicffiutmt"}
+{"filename": "idna/test12.py", "domain": "2079948925"}
+{"filename": "idna/test12.py", "domain": "02862787872"}
+{"filename": "idna/test12.py", "domain": "Jq2gI40LfBans56KvLNmMv7UqgDOEX5y9fhFL"}
+{"filename": "idna/test12.py", "domain": "OPkSbKdvKd"}
+{"filename": "idna/test13.py", "input1": "example.com", "input2": "test.org", "mode": "compare", "transitional": false}
+{"filename": "idna/test13.py", "input1": "münchen.de", "input2": "münchen.de", "mode": "compare", "transitional": true}
+{"filename": "idna/test13.py", "input1": "中国.中国", "input2": "中国.中国", "mode": "compare", "transitional": false}
+{"filename": "idna/test13.py", "input1": "café.fr", "input2": "cafe.fr", "mode": "compare", "transitional": true}
+{"filename": "idna/test13.py", "input1": "例え.jp", "input2": "例え.jp", "mode": "compare", "transitional": false}
+{"filename": "idna/test13.py", "input1": "москва.рф", "input2": "москва.рф", "mode": "compare", "transitional": true}
+{"filename": "idna/test13.py", "input1": "bäckerei.at", "input2": "backerei.at", "mode": "merge", "transitional": false}
+{"filename": "idna/test13.py", "input1": "προγραμματισμός.gr", "input2": "programmatismos.gr", "mode": "merge", "transitional": true}
+{"filename": "idna/test13.py", "input1": "السعودية.sa", "input2": "السعودية.sa", "mode": "validate", "transitional": false}
+{"filename": "idna/test13.py", "input1": "プログラム.jp", "input2": "program.jp", "mode": "validate", "transitional": true}
+{"filename": "idna/test13.py", "input1": "караоке.kz", "input2": "karaoke.kz", "mode": "compare", "transitional": false}
+{"filename": "idna/test13.py", "input1": "résumé.com", "input2": "resume.com", "mode": "merge", "transitional": true}
+{"filename": "idna/test13.py", "input1": "apache.org", "input2": "httpd.org", "mode": "compare", "transitional": false}
+{"filename": "idna/test13.py", "input1": "футбол.укр", "input2": "футбол.укр", "mode": "validate", "transitional": true}
+{"filename": "idna/test13.py", "input1": "компьютер.ru", "input2": "computer.ru", "mode": "merge", "transitional": false}
+{"filename": "idna/test13.py", "input1": "xn--n3h.com", "input2": "xn--n3h.com", "mode": "compare", "transitional": true}
+{"filename": "idna/test13.py", "input1": "Saint-Raphaël.fr", "input2": "saint-raphael.fr", "mode": "validate", "transitional": false}
+{"filename": "idna/test13.py", "input1": "例.cn", "input2": "例.cn", "mode": "merge", "transitional": true}
+{"filename": "idna/test13.py", "input1": " Grüne.de", "input2": " gruene.de", "mode": "compare", "transitional": false}
+{"filename": "idna/test13.py", "input1": "дом.рф", "input2": "дом.рф", "mode": "validate", "transitional": true}
+{"filename": "idna/test14.py", "domain": "example.com", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "münchen.de", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "中国.中国", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "café.fr", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "例え.jp", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "москва.рф", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "bäckerei.at", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "προγραμματισμός.gr", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "السعودية.sa", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "プログラム.jp", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "караоке.kz", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "résumé.com", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "apache.org", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "футбол.укр", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "компьютер.ru", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "xn--n3h.com", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "Saint-Raphaël.fr", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "例.cn", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": " Grüne.de", "enable_strict": false, "enable_uts46": true, "check_bidi": false}
+{"filename": "idna/test14.py", "domain": "дом.рф", "enable_strict": true, "enable_uts46": false, "check_bidi": true}
+{"filename": "idna/test14.py", "domain": "882755111"}
+{"filename": "idna/test14.py", "domain": "XpuJ3RI"}
+{"filename": "idna/test14.py", "domain": "ZAFIKIWPFG"}
+{"filename": "idna/test14.py", "domain": "AXCHDHG"}
+{"filename": "idna/test14.py", "domain": "nnu21fo5LN0vCBWARp"}
+{"filename": "idna/test14.py", "domain": "NVNZOSX"}
+{"filename": "idna/test14.py", "domain": "TJULGSQXQOG"}
+{"filename": "idna/test14.py", "domain": "OK9ZGCVuB3fR0ZDmQKUW6tdge Me3B7szET4L1SR"}
+{"filename": "idna/test14.py", "domain": "0Plz7VDMj"}
+{"filename": "idna/test14.py", "domain": "01839298591526"}
+{"filename": "idna/test14.py", "domain": "9uGHfL Uw2Gu5zxvMeLfM8NaHjU9WXkZv"}
+{"filename": "idna/test14.py", "domain": "Ed9TOzMCmWMmCpV0fpooDWjLBeS"}
+{"filename": "idna/test14.py", "domain": "pbkiwnoybgtin"}
+{"filename": "idna/test14.py", "domain": "4zqoj19"}
+{"filename": "idna/test14.py", "domain": "21pmNR7zHVOIVDZWkCjDj5BGCbvA4 UOYzKryV"}
+{"filename": "idna/test14.py", "domain": "2dLFOOTPF p0NEAUI5Q"}
+{"filename": "idna/test14.py", "domain": "nibsoij"}
+{"filename": "idna/test14.py", "domain": "7183064"}
+{"filename": "idna/test14.py", "domain": "AvqzmlQ KutC6ENUPuqJVmfxKZ0wRwNbk"}
+{"filename": "idna/test14.py", "domain": "Ayt7e"}
+{"filename": "idna/test14.py", "domain": "txiyh"}
+{"filename": "idna/test14.py", "domain": "xnBy6s2kMkc"}
+{"filename": "idna/test14.py", "domain": "cfucF13XLbxVcckWdgHB42n p2X4P9olJZ6hH5oHgTEXu"}
+{"filename": "idna/test14.py", "domain": "3jhH VSD0dbMYGhyG2xs5uxh5sBSr"}
+{"filename": "idna/test14.py", "domain": "118016292242403"}
+{"filename": "idna/test14.py", "domain": "nIn7xFYpujTQTmdGpM"}
+{"filename": "idna/test14.py", "domain": "adqgt"}
+{"filename": "idna/test14.py", "domain": "IGcVnQEiMbVw4IMXKUkSGrH uvkvdF60rAzGRw"}
+{"filename": "idna/test14.py", "domain": "PR2E41iBVl"}
+{"filename": "idna/test14.py", "domain": "QGTEEPFRCZXB"}
+{"filename": "idna/test14.py", "domain": "tshlfpueqov"}
+{"filename": "idna/test14.py", "domain": "JOBpUXQNdPPhxTEVsUQ47ebeC5E"}
+{"filename": "idna/test14.py", "domain": "rgikeeuoht"}
+{"filename": "idna/test14.py", "domain": "lHTEHP9v IMM4Gz8DV"}
+{"filename": "idna/test14.py", "domain": "1XF8ibaY2diCjnRgRj"}
+{"filename": "idna/test14.py", "domain": "90632"}
+{"filename": "idna/test14.py", "domain": "35789114686"}
+{"filename": "idna/test14.py", "domain": "265682214458044"}
+{"filename": "idna/test14.py", "domain": "0rkakd"}
+{"filename": "idna/test14.py", "domain": "beURfqYjJ8gzaAnjjCBP2dSI37E0MFOHMHQDC5O2H"}
+{"filename": "idna/test15.py", "domain": "example.com", "strict": false}
+{"filename": "idna/test15.py", "domain": "münchen.de", "strict": true}
+{"filename": "idna/test15.py", "domain": "中国.中国", "strict": false}
+{"filename": "idna/test15.py", "domain": "café.fr", "strict": true}
+{"filename": "idna/test15.py", "domain": "例え.jp", "strict": false}
+{"filename": "idna/test15.py", "domain": "москва.рф", "strict": true}
+{"filename": "idna/test15.py", "domain": "bäckerei.at", "strict": false}
+{"filename": "idna/test15.py", "domain": "προγραμματισμός.gr", "strict": true}
+{"filename": "idna/test15.py", "domain": "السعودية.sa", "strict": false}
+{"filename": "idna/test15.py", "domain": "プログラム.jp", "strict": true}
+{"filename": "idna/test15.py", "domain": "караоке.kz", "strict": false}
+{"filename": "idna/test15.py", "domain": "résumé.com", "strict": true}
+{"filename": "idna/test15.py", "domain": "apache.org", "strict": false}
+{"filename": "idna/test15.py", "domain": "футбол.укр", "strict": true}
+{"filename": "idna/test15.py", "domain": "компьютер.ru", "strict": false}
+{"filename": "idna/test15.py", "domain": "xn--n3h.com", "strict": true}
+{"filename": "idna/test15.py", "domain": "Saint-Raphaël.fr", "strict": false}
+{"filename": "idna/test15.py", "domain": "例.cn", "strict": true}
+{"filename": "idna/test15.py", "domain": " Grüne.de", "strict": false}
+{"filename": "idna/test15.py", "domain": "дом.рф", "strict": true}
+{"filename": "idna/test15.py", "domain": "bssqyhtzaq"}
+{"filename": "idna/test15.py", "domain": "302175156662289"}
+{"filename": "idna/test15.py", "domain": "hAAWDjbjc0UgoU2S Fil"}
+{"filename": "idna/test15.py", "domain": "O6xrySnLg01KZwnPF6Q3XPnP80UnlEXkr2LLYfwP"}
+{"filename": "idna/test15.py", "domain": "Jjprionx0QDXZWTfISbA"}
+{"filename": "idna/test15.py", "domain": "4426555630"}
+{"filename": "idna/test15.py", "domain": "byPnEn5ebP85eqFbUHrR6p"}
+{"filename": "idna/test15.py", "domain": "HFBJFLLLP"}
+{"filename": "idna/test15.py", "domain": "avmhsfjpsxyud"}
+{"filename": "idna/test15.py", "domain": "StR5vy3lNN561dg H1w6z"}
+{"filename": "idna/test15.py", "domain": "uhzk 4nhShcF23HKwgU0ql4kwnglGqpWLI"}
+{"filename": "idna/test15.py", "domain": "LOJOBF"}
+{"filename": "idna/test15.py", "domain": "XMFDUGUQTZTLTG"}
+{"filename": "idna/test15.py", "domain": "28482087"}
+{"filename": "idna/test15.py", "domain": "WBBGTBOXWUUI"}
+{"filename": "idna/test15.py", "domain": "61167"}
+{"filename": "idna/test15.py", "domain": "ydunjcs"}
+{"filename": "idna/test15.py", "domain": "845463"}
+{"filename": "idna/test15.py", "domain": "JFGBBYVICJYRNSQ"}
+{"filename": "idna/test15.py", "domain": "XMDEDxd"}
+{"filename": "idna/test15.py", "domain": "ZDEFZNJHM"}
+{"filename": "idna/test15.py", "domain": "PuaER9q8"}
+{"filename": "idna/test15.py", "domain": "LMEqZuV7vxrpedYcqkG2"}
+{"filename": "idna/test15.py", "domain": "zwdqkwgtuyqmy"}
+{"filename": "idna/test15.py", "domain": "NxeYOJEByscFNgBBUy hhm3DBPQ5rnezOKcMmc4Kp4Ggvx7"}
+{"filename": "idna/test15.py", "domain": "UPGRHXSKNHD"}
+{"filename": "idna/test15.py", "domain": "pRk4MnZt3i8WBeaIBn2dmIIF sscmAVdhsooU6DVGyiEC"}
+{"filename": "idna/test15.py", "domain": "jxeagdqfpbtgi"}
+{"filename": "idna/test15.py", "domain": "zblgzm"}
+{"filename": "idna/test15.py", "domain": "FKHDEASPAS"}
+{"filename": "idna/test15.py", "domain": "pz2cuX50JLSSZyrjrp eVVi2bB738EK1fw"}
+{"filename": "idna/test15.py", "domain": "eDdQi5RBV79qf2rNVDbqdd9lFPnQOI kGPUbxkJhke"}
+{"filename": "idna/test15.py", "domain": "931927515767623"}
+{"filename": "idna/test15.py", "domain": "slwtgomlevplf"}
+{"filename": "idna/test15.py", "domain": "t2WZN12D0yJUM4Ou9jEsA6l5xvXlQN uuLUj"}
+{"filename": "idna/test15.py", "domain": "599394078"}
+{"filename": "idna/test15.py", "domain": "5JGIcJR6KuBNUZMFEhj9eoYJ59JWFj"}
+{"filename": "idna/test15.py", "domain": "FklV1gZIvF4FO6nq3Bp0fn90Y4r5N"}
+{"filename": "idna/test15.py", "domain": "3M1p8PF 9sUpkR7"}
+{"filename": "idna/test15.py", "domain": "WbLTykMnnFRHtLh2qgFdz7HQHi8J ocvVF9sJyTUE7TiJ9CYUAiIMImgde"}
+{"filename": "idna/test16.py", "domain": "example.com", "encoding_policy": "transitional"}
+{"filename": "idna/test16.py", "domain": "münchen.de", "encoding_policy": "nontransitional"}
+{"filename": "idna/test16.py", "domain": "中国.中国", "encoding_policy": "both"}
+{"filename": "idna/test16.py", "domain": "café.fr", "encoding_policy": "transitional"}
+{"filename": "idna/test16.py", "domain": "例え.jp", "encoding_policy": "nontransitional"}
+{"filename": "idna/test16.py", "domain": "москва.рф", "encoding_policy": "both"}
+{"filename": "idna/test16.py", "domain": "bäckerei.at", "encoding_policy": "transitional"}
+{"filename": "idna/test16.py", "domain": "προγραμματισμός.gr", "encoding_policy": "nontransitional"}
+{"filename": "idna/test16.py", "domain": "السعودية.sa", "encoding_policy": "both"}
+{"filename": "idna/test16.py", "domain": "プログラム.jp", "encoding_policy": "transitional"}
+{"filename": "idna/test16.py", "domain": "караоке.kz", "encoding_policy": "nontransitional"}
+{"filename": "idna/test16.py", "domain": "résumé.com", "encoding_policy": "both"}
+{"filename": "idna/test16.py", "domain": "apache.org", "encoding_policy": "transitional"}
+{"filename": "idna/test16.py", "domain": "футбол.укр", "encoding_policy": "nontransitional"}
+{"filename": "idna/test16.py", "domain": "компьютер.ru", "encoding_policy": "both"}
+{"filename": "idna/test16.py", "domain": "xn--n3h.com", "encoding_policy": "transitional"}
+{"filename": "idna/test16.py", "domain": "Saint-Raphaël.fr", "encoding_policy": "nontransitional"}
+{"filename": "idna/test16.py", "domain": "例.cn", "encoding_policy": "both"}
+{"filename": "idna/test16.py", "domain": " Grüne.de", "encoding_policy": "transitional"}
+{"filename": "idna/test16.py", "domain": "дом.рф", "encoding_policy": "nontransitional"}
+{"filename": "idna/test17.py", "input": "example.com", "process_type": "simple", "validate": false}
+{"filename": "idna/test17.py", "input": "münchen.de", "process_type": "full", "validate": true}
+{"filename": "idna/test17.py", "input": "中国.中国", "process_type": "strict", "validate": false}
+{"filename": "idna/test17.py", "input": "café.fr", "process_type": "simple", "validate": true}
+{"filename": "idna/test17.py", "input": "例え.jp", "process_type": "full", "validate": false}
+{"filename": "idna/test17.py", "input": "москва.рф", "process_type": "strict", "validate": true}
+{"filename": "idna/test17.py", "input": "bäckerei.at", "process_type": "simple", "validate": false}
+{"filename": "idna/test17.py", "input": "προγραμματισμός.gr", "process_type": "full", "validate": true}
+{"filename": "idna/test17.py", "input": "السعودية.sa", "process_type": "strict", "validate": false}
+{"filename": "idna/test17.py", "input": "プログラム.jp", "process_type": "simple", "validate": true}
+{"filename": "idna/test17.py", "input": "караоке.kz", "process_type": "full", "validate": false}
+{"filename": "idna/test17.py", "input": "résumé.com", "process_type": "strict", "validate": true}
+{"filename": "idna/test17.py", "input": "apache.org", "process_type": "simple", "validate": false}
+{"filename": "idna/test17.py", "input": "футбол.укр", "process_type": "full", "validate": true}
+{"filename": "idna/test17.py", "input": "компьютер.ru", "process_type": "strict", "validate": false}
+{"filename": "idna/test17.py", "input": "xn--n3h.com", "process_type": "simple", "validate": true}
+{"filename": "idna/test17.py", "input": "Saint-Raphaël.fr", "process_type": "full", "validate": false}
+{"filename": "idna/test17.py", "input": "例.cn", "process_type": "strict", "validate": true}
+{"filename": "idna/test17.py", "input": " Grüne.de", "process_type": "simple", "validate": false}
+{"filename": "idna/test17.py", "input": "дом.рф", "process_type": "full", "validate": true}
+{"filename": "idna/test18.py", "domain": "example.com", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "münchen.de", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "中国.中国", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "café.fr", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "例え.jp", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "москва.рф", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "bäckerei.at", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "προγραμματισμός.gr", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "السعودية.sa", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "プログラム.jp", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "караоке.kz", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "résumé.com", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "apache.org", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "футбол.укр", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "компьютер.ru", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "xn--n3h.com", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "Saint-Raphaël.fr", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "例.cn", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": " Grüne.de", "use_transitional": false, "use_strict": false, "check_all": false}
+{"filename": "idna/test18.py", "domain": "дом.рф", "use_transitional": true, "use_strict": true, "check_all": true}
+{"filename": "idna/test18.py", "domain": "4gsKs9wlnI 8CrIk6XH1ftRfhh8IY7F1S"}
+{"filename": "idna/test18.py", "domain": "MEZNHHM"}
+{"filename": "idna/test18.py", "domain": "GXhmDBzodvR5jLCWZrCa"}
+{"filename": "idna/test18.py", "domain": "5583675089902"}
+{"filename": "idna/test18.py", "domain": "EVCXAYLTTBBQMZK"}
+{"filename": "idna/test18.py", "domain": "wjlmv"}
+{"filename": "idna/test18.py", "domain": "mJfD8xNn4P6mIf0UFNLla0pGm k3pdJMOrCHG"}
+{"filename": "idna/test18.py", "domain": "15356913"}
+{"filename": "idna/test18.py", "domain": "1068914400111"}
+{"filename": "idna/test18.py", "domain": "428310850061341"}
+{"filename": "idna/test18.py", "domain": "CDdDIJNUjcG99C"}
+{"filename": "idna/test18.py", "domain": "FPsnkoQ8NM4sIWuCFUfo"}
+{"filename": "idna/test18.py", "domain": "ZoznbxcUwuPPqn"}
+{"filename": "idna/test18.py", "domain": "5xu962yFKWEZX4Tc5ZAoc3WT6NhGgYDOsdSRSLvKhhKLF6NDYZ"}
+{"filename": "idna/test18.py", "domain": "livnfxseidtcgw"}
+{"filename": "idna/test18.py", "domain": "COOPKQPI"}
+{"filename": "idna/test18.py", "domain": "7345866"}
+{"filename": "idna/test18.py", "domain": "DZ2HSd8DZKQEbwtVOwbO"}
+{"filename": "idna/test18.py", "domain": "yinainqf"}
+{"filename": "idna/test18.py", "domain": "604316330691814"}
+{"filename": "idna/test18.py", "domain": "D8EBg47HDuWQkG8cLsDq"}
+{"filename": "idna/test18.py", "domain": "72732640976"}
+{"filename": "idna/test18.py", "domain": "NlhRCBN3ONDu1opfdudy1VWpxA9iyBCcIC2RRZZGpdYdUomu"}
+{"filename": "idna/test18.py", "domain": "718334090"}
+{"filename": "idna/test18.py", "domain": "iokyiphaplelka"}
+{"filename": "idna/test18.py", "domain": "yccnhxcbounn"}
+{"filename": "idna/test18.py", "domain": "lJXtOH0AwdWRwNKXby"}
+{"filename": "idna/test18.py", "domain": "Eh6q5"}
+{"filename": "idna/test18.py", "domain": "957914514877149"}
+{"filename": "idna/test18.py", "domain": "xedugkbputhem"}
+{"filename": "idna/test18.py", "domain": "E26q4QFrtd"}
+{"filename": "idna/test18.py", "domain": "PZIZw"}
+{"filename": "idna/test18.py", "domain": "ZBM8WrjGzfeZyg9BFRa0IKZ6"}
+{"filename": "idna/test18.py", "domain": "gidfrw"}
+{"filename": "idna/test18.py", "domain": "y4m uZOVKEe0EeTf305KbMbziyFKK9UNL"}
+{"filename": "idna/test18.py", "domain": "03721561653"}
+{"filename": "idna/test18.py", "domain": "nhtIJfGu5OWYoQTW2XsYzcHFpNus8QeXCPoM4PMgGRMEsF"}
+{"filename": "idna/test18.py", "domain": "h0Y7YkA nd1iSJqSwENTnpWXltQ6u"}
+{"filename": "idna/test18.py", "domain": "eBT7awl"}
+{"filename": "idna/test18.py", "domain": "mhCMkTRFqz7m"}
+{"filename": "idna/test19.py", "domain": "example.com", "config": "relaxed", "verify": false}
+{"filename": "idna/test19.py", "domain": "münchen.de", "config": "standard", "verify": true}
+{"filename": "idna/test19.py", "domain": "中国.中国", "config": "strict", "verify": false}
+{"filename": "idna/test19.py", "domain": "café.fr", "config": "relaxed", "verify": true}
+{"filename": "idna/test19.py", "domain": "例え.jp", "config": "standard", "verify": false}
+{"filename": "idna/test19.py", "domain": "москва.рф", "config": "strict", "verify": true}
+{"filename": "idna/test19.py", "domain": "bäckerei.at", "config": "relaxed", "verify": false}
+{"filename": "idna/test19.py", "domain": "προγραμματισμός.gr", "config": "standard", "verify": true}
+{"filename": "idna/test19.py", "domain": "السعودية.sa", "config": "strict", "verify": false}
+{"filename": "idna/test19.py", "domain": "プログラム.jp", "config": "relaxed", "verify": true}
+{"filename": "idna/test19.py", "domain": "караоке.kz", "config": "standard", "verify": false}
+{"filename": "idna/test19.py", "domain": "résumé.com", "config": "strict", "verify": true}
+{"filename": "idna/test19.py", "domain": "apache.org", "config": "relaxed", "verify": false}
+{"filename": "idna/test19.py", "domain": "футбол.укр", "config": "standard", "verify": true}
+{"filename": "idna/test19.py", "domain": "компьютер.ru", "config": "strict", "verify": false}
+{"filename": "idna/test19.py", "domain": "xn--n3h.com", "config": "relaxed", "verify": true}
+{"filename": "idna/test19.py", "domain": "Saint-Raphaël.fr", "config": "standard", "verify": false}
+{"filename": "idna/test19.py", "domain": "例.cn", "config": "strict", "verify": true}
+{"filename": "idna/test19.py", "domain": " Grüne.de", "config": "relaxed", "verify": false}
+{"filename": "idna/test19.py", "domain": "дом.рф", "config": "standard", "verify": true}
+{"filename": "idna/test2.py", "label": "example"}
+{"filename": "idna/test2.py", "label": "münchen"}
+{"filename": "idna/test2.py", "label": "中国"}
+{"filename": "idna/test2.py", "label": "café"}
+{"filename": "idna/test2.py", "label": "例え"}
+{"filename": "idna/test2.py", "label": "москва"}
+{"filename": "idna/test2.py", "label": "bäckerei"}
+{"filename": "idna/test2.py", "label": "πρόγραμμα"}
+{"filename": "idna/test2.py", "label": "السعودية"}
+{"filename": "idna/test2.py", "label": "プログラム"}
+{"filename": "idna/test2.py", "label": "караоке"}
+{"filename": "idna/test2.py", "label": "résumé"}
+{"filename": "idna/test2.py", "label": "సాంకేతికతłęь"}
+{"filename": "idna/test2.py", "label": "компьютер"}
+{"filename": "idna/test2.py", "label": "apache"}
+{"filename": "idna/test2.py", "label": "футбол"}
+{"filename": "idna/test2.py", "label": "программирование"}
+{"filename": "idna/test2.py", "label": "例"}
+{"filename": "idna/test2.py", "label": "cxndpiu"}
+{"filename": "idna/test2.py", "label": "YZSHczqXJ9OGkUHgvwsNUSO"}
+{"filename": "idna/test2.py", "label": "ozxwphdk"}
+{"filename": "idna/test2.py", "label": "FhQpjFtaws8XePWBfsBe"}
+{"filename": "idna/test2.py", "label": "WISWMRQCDEMBL"}
+{"filename": "idna/test2.py", "label": "XMAFIBFLVHMK"}
+{"filename": "idna/test2.py", "label": "bxzwdjbbwneunev"}
+{"filename": "idna/test2.py", "label": "jevwr"}
+{"filename": "idna/test2.py", "label": "kizuuprt"}
+{"filename": "idna/test2.py", "label": "fvpuBhue87q2dk6"}
+{"filename": "idna/test2.py", "label": "JXATEMDGEC"}
+{"filename": "idna/test2.py", "label": "wgnqhcu"}
+{"filename": "idna/test2.py", "label": "EJVYCAQGFYZ"}
+{"filename": "idna/test2.py", "label": "wJalhC"}
+{"filename": "idna/test2.py", "label": "72PNrVY9h3ybr7dlKtWPBiBdMITYJm47QgU5wM3bM"}
+{"filename": "idna/test2.py", "label": "6HyCxWBaJKd5AHPVTzngfBGGXpyJhm1ban0VlhhjXV"}
+{"filename": "idna/test2.py", "label": "KASPVRPGKKQIOGR"}
+{"filename": "idna/test2.py", "label": "7215308030"}
+{"filename": "idna/test2.py", "label": "heFET6XA2"}
+{"filename": "idna/test2.py", "label": "yqQ1lU7Vqip3g"}
+{"filename": "idna/test2.py", "label": "L4VxJXMy1ElivEDLS5J"}
+{"filename": "idna/test2.py", "label": "RipJhXKEaDOzVmAelcRG4JtWsuY"}
+{"filename": "idna/test2.py", "label": "489193399652"}
+{"filename": "idna/test2.py", "label": "ETFEGSRKJYVID"}
+{"filename": "idna/test2.py", "label": "uxuxluvwk"}
+{"filename": "idna/test2.py", "label": "458292424598"}
+{"filename": "idna/test2.py", "label": "ZU40Am33eR"}
+{"filename": "idna/test2.py", "label": "CAwETvkg6g0tDiVHd"}
+{"filename": "idna/test2.py", "label": "WMLDB"}
+{"filename": "idna/test2.py", "label": "853985"}
+{"filename": "idna/test2.py", "label": "95076"}
+{"filename": "idna/test2.py", "label": "ICsfbVVNbbmF"}
+{"filename": "idna/test2.py", "label": "57516567"}
+{"filename": "idna/test2.py", "label": "fmOTSVpsWd6M4sgTp0vs"}
+{"filename": "idna/test2.py", "label": "ZdTNVQEMt9RalobdNhpAd"}
+{"filename": "idna/test2.py", "label": "02150"}
+{"filename": "idna/test2.py", "label": "UXAe9H6IQxgNhLiwroNELgpQgVa5MDWcKVuJXco"}
+{"filename": "idna/test20.py", "domain": "example.com", "mode": "basic", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "münchen.de", "mode": "advanced", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": "中国.中国", "mode": "comprehensive", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "café.fr", "mode": "basic", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": "例え.jp", "mode": "advanced", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "москва.рф", "mode": "comprehensive", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": "bäckerei.at", "mode": "basic", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "προγραμματισμός.gr", "mode": "advanced", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": "السعودية.sa", "mode": "comprehensive", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "プログラム.jp", "mode": "basic", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": "караоке.kz", "mode": "advanced", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "résumé.com", "mode": "comprehensive", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": "apache.org", "mode": "basic", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "футбол.укр", "mode": "advanced", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": "компьютер.ru", "mode": "comprehensive", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "xn--n3h.com", "mode": "basic", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": "Saint-Raphaël.fr", "mode": "advanced", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "mode": "comprehensive", "domain": "例.cn", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test20.py", "domain": " Grüne.de", "mode": "basic", "transitional": false, "strict": false, "validate_all": false}
+{"filename": "idna/test20.py", "domain": "дом.рф", "mode": "advanced", "transitional": true, "strict": true, "validate_all": true}
+{"filename": "idna/test3.py", "domain": "example.com", "strict": false}
+{"filename": "idna/test3.py", "domain": "münchen.de", "strict": true}
+{"filename": "idna/test3.py", "domain": "中国.中国", "strict": false}
+{"filename": "idna/test3.py", "domain": "café.fr", "strict": true}
+{"filename": "idna/test3.py", "domain": "例え.jp", "strict": false}
+{"filename": "idna/test3.py", "domain": "москва.рф", "strict": true}
+{"filename": "idna/test3.py", "domain": "bäckerei.at", "strict": false}
+{"filename": "idna/test3.py", "domain": "προγραμματισμός.gr", "strict": true}
+{"filename": "idna/test3.py", "domain": "السعودية.sa", "strict": false}
+{"filename": "idna/test3.py", "domain": "プログラム.jp", "strict": true}
+{"filename": "idna/test3.py", "domain": "караоке.kz", "strict": false}
+{"filename": "idna/test3.py", "domain": "résumé.com", "strict": true}
+{"filename": "idna/test3.py", "domain": "apache.org", "strict": false}
+{"filename": "idna/test3.py", "domain": "футбол.укр", "strict": true}
+{"filename": "idna/test3.py", "domain": "компьютер.ru", "strict": false}
+{"filename": "idna/test3.py", "domain": "xn--n3h.com", "strict": true}
+{"filename": "idna/test3.py", "domain": "Saint-Raphaël.fr", "strict": false}
+{"filename": "idna/test3.py", "domain": "例.cn", "strict": true}
+{"filename": "idna/test3.py", "domain": "дом.рф", "strict": true}
+{"filename": "idna/test4.py", "input": "example.com", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "münchen.de", "use_uts46": false}
+{"filename": "idna/test4.py", "input": "中国.中国", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "café.fr", "use_uts46": false}
+{"filename": "idna/test4.py", "input": "例え.jp", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "москва.рф", "use_uts46": false}
+{"filename": "idna/test4.py", "input": "bäckerei.at", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "προγραμματισμός.gr", "use_uts46": false}
+{"filename": "idna/test4.py", "input": "السعودية.sa", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "プログラム.jp", "use_uts46": false}
+{"filename": "idna/test4.py", "input": "караоке.kz", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "résumé.com", "use_uts46": false}
+{"filename": "idna/test4.py", "input": "apache.org", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "футбол.укр", "use_uts46": false}
+{"filename": "idna/test4.py", "input": "компьютер.ru", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "Saint-Raphaël.fr", "use_uts46": true}
+{"filename": "idna/test4.py", "input": "例.cn", "use_uts46": false}
+{"filename": "idna/test4.py", "input": "дом.рф", "use_uts46": false}
+{"filename": "idna/test5.py", "domain": "example.com", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "münchen.de", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "中国.中国", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "café.fr", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "例え.jp", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "москва.рф", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "bäckerei.at", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "προγραμματισμός.gr", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "السعودية.sa", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "プログラム.jp", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "караоке.kz", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "résumé.com", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "apache.org", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "футбол.укр", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "компьютер.ru", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "xn--n3h.com", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "Saint-Raphaël.fr", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "例.cn", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": " Grüne.de", "transitional": false, "strict": false}
+{"filename": "idna/test5.py", "domain": "дом.рф", "transitional": true, "strict": true}
+{"filename": "idna/test5.py", "domain": "Bd2lxcYub0o5fPXPrUkwJ7eQ5"}
+{"filename": "idna/test5.py", "domain": "3MvAIUXivvVqAH3VUeGlgl5SOLMi27gzFKHria4ZqX"}
+{"filename": "idna/test5.py", "domain": "WQnGxap4h2nGDOwrmVKuaFvo6PDRWOqwCW3UbQOJQ72dkeS"}
+{"filename": "idna/test5.py", "domain": "pB72R4m6fvPzB5KhAnwLc7Y XRzEoamU5b5qX6W"}
+{"filename": "idna/test5.py", "domain": "czuurqasnszv"}
+{"filename": "idna/test5.py", "domain": "NzvA 4OdLOMm"}
+{"filename": "idna/test5.py", "domain": "96691926683"}
+{"filename": "idna/test5.py", "domain": "tregvjplermuntx"}
+{"filename": "idna/test5.py", "domain": "mhrfqzoo"}
+{"filename": "idna/test5.py", "domain": "8XHn94Ig3W2uW FAJZq1bYEKT"}
+{"filename": "idna/test5.py", "domain": "bvjwgor"}
+{"filename": "idna/test5.py", "domain": "xnvkddirvrurpgw"}
+{"filename": "idna/test5.py", "domain": "WSOCTAMDS"}
+{"filename": "idna/test5.py", "domain": "HTZXERSVUU"}
+{"filename": "idna/test5.py", "domain": "24237"}
+{"filename": "idna/test5.py", "domain": "8659113526830"}
+{"filename": "idna/test5.py", "domain": "987363185197"}
+{"filename": "idna/test5.py", "domain": "6109098"}
+{"filename": "idna/test5.py", "domain": "GcEoPqSgK"}
+{"filename": "idna/test5.py", "domain": "prZv2ckvCeNyS9i8gwzpyPvMvYKvXAT98qNd"}
+{"filename": "idna/test5.py", "domain": "469615295751557"}
+{"filename": "idna/test5.py", "domain": "vmceri"}
+{"filename": "idna/test5.py", "domain": "bQuKhqwepfDpvpvE"}
+{"filename": "idna/test5.py", "domain": "VQMSwCW85IeJCcmiA1eHOzRWr3z dNJDI9XReUdljQff"}
+{"filename": "idna/test5.py", "domain": "QQIVRDDENJX"}
+{"filename": "idna/test5.py", "domain": "KHSVOXKIEJV"}
+{"filename": "idna/test5.py", "domain": "6iWHfG9Jv5n8UhNPDrDwPG1hRzjL04n0ggGdHAfKV"}
+{"filename": "idna/test5.py", "domain": "0892612396"}
+{"filename": "idna/test5.py", "domain": "gFhiIc"}
+{"filename": "idna/test5.py", "domain": "AEiP2z4oJaKN0LFIewdPmexZ3EnSvSMp"}
+{"filename": "idna/test5.py", "domain": "SAvgOeVUOVOcLT KZASM"}
+{"filename": "idna/test5.py", "domain": "ovsE6zrTew3lBNsamPbIzdONF"}
+{"filename": "idna/test5.py", "domain": "aY5sSp9EjdkbZCeRhjqi9N9nhLHRpaGDkX503qKW4gf"}
+{"filename": "idna/test5.py", "domain": "dXjYcm7AsHezPU"}
+{"filename": "idna/test5.py", "domain": "eyiscaohuml"}
+{"filename": "idna/test5.py", "domain": "8XRyqJkzHqzbmj00HBx"}
+{"filename": "idna/test5.py", "domain": "4D6ZrGTIQboS0p LDKUd2vaU2LIwKuLk5NugQxiu"}
+{"filename": "idna/test5.py", "domain": "NcPj9i05xi"}
+{"filename": "idna/test5.py", "domain": "KADQWFVQNXW"}
+{"filename": "idna/test5.py", "domain": "kc4ij"}
+{"filename": "idna/test6.py", "domain": "example.com", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "münchen.de", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "中国.中国", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "café.fr", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "例え.jp", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "москва.рф", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "bäckerei.at", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "προγραμματισμός.gr", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "السعودية.sa", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "программа.jp", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "караоке.kz", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "résumé.com", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "apache.org", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "футбол.укр", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "компьютер.ru", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "xn--n3h.com", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "Saint-Raphaël.fr", "check_bidi": true}
+{"filename": "idna/test6.py", "domain": "例.cn", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "дом.рф", "check_bidi": false}
+{"filename": "idna/test6.py", "domain": "ISUBXGKCEQAPPU"}
+{"filename": "idna/test6.py", "domain": "B4BSXU1Ml3wepnuTG48ADB8n28bWTlMF"}
+{"filename": "idna/test6.py", "domain": "hngckmxrjfizc"}
+{"filename": "idna/test6.py", "domain": "waavjEs8"}
+{"filename": "idna/test6.py", "domain": "WGx5zeCLYl97MOxa23XeSzWLHFbn3bCEQ"}
+{"filename": "idna/test6.py", "domain": "UOIFHQo27R1pDDADgkklVB4Z"}
+{"filename": "idna/test6.py", "domain": "ppwjhraurxla"}
+{"filename": "idna/test6.py", "domain": "ohoonsdvoj"}
+{"filename": "idna/test6.py", "domain": "uddakzkqxr"}
+{"filename": "idna/test6.py", "domain": "7nsaFh"}
+{"filename": "idna/test6.py", "domain": "tuorvhrlu"}
+{"filename": "idna/test6.py", "domain": "VllnHVpxoL1CeAxIPUUU"}
+{"filename": "idna/test6.py", "domain": "51541273"}
+{"filename": "idna/test6.py", "domain": "thfrr"}
+{"filename": "idna/test6.py", "domain": "4028253"}
+{"filename": "idna/test6.py", "domain": "6RpnPKc6S3eBjupmxDeRfX"}
+{"filename": "idna/test6.py", "domain": "KcrAw0tr4n3QpbXuf"}
+{"filename": "idna/test6.py", "domain": "duwyscsfsrjxgdj"}
+{"filename": "idna/test6.py", "domain": "sGZxTT9SX"}
+{"filename": "idna/test6.py", "domain": "uXsC8MROh"}
+{"filename": "idna/test6.py", "domain": "ZISKY"}
+{"filename": "idna/test6.py", "domain": "AALMLBAB"}
+{"filename": "idna/test6.py", "domain": "49786990348"}
+{"filename": "idna/test6.py", "domain": "RKQBPUJLKU"}
+{"filename": "idna/test6.py", "domain": "kruwfddctspi"}
+{"filename": "idna/test6.py", "domain": "LZF4ivDagz1yCaMLaIzmFSc1LGYOtp"}
+{"filename": "idna/test6.py", "domain": "xguhTBX9vHzdGxbTuv2ep8Sl8Fn7QbwIpwC8La1Nv536"}
+{"filename": "idna/test6.py", "domain": "PHDZWMJKRMCQWCJ"}
+{"filename": "idna/test6.py", "domain": "JrUsmaYa34qv6y4r"}
+{"filename": "idna/test6.py", "domain": "yxxfpcxawexu"}
+{"filename": "idna/test6.py", "domain": "3Y0H99yN"}
+{"filename": "idna/test6.py", "domain": "p57gD45U7lAxinMbef17exXgYRC8"}
+{"filename": "idna/test7.py", "input": "example.com", "validate": true}
+{"filename": "idna/test7.py", "input": "münchen.de", "validate": false}
+{"filename": "idna/test7.py", "input": "中国.中国", "validate": true}
+{"filename": "idna/test7.py", "input": "café.fr", "validate": false}
+{"filename": "idna/test7.py", "input": "例え.jp", "validate": true}
+{"filename": "idna/test7.py", "input": "москва.рф", "validate": false}
+{"filename": "idna/test7.py", "input": "bäckerei.at", "validate": true}
+{"filename": "idna/test7.py", "input": "προγραμματισμός.gr", "validate": false}
+{"filename": "idna/test7.py", "input": "السعودية.sa", "validate": true}
+{"filename": "idna/test7.py", "input": "プログラム.jp", "validate": false}
+{"filename": "idna/test7.py", "input": "караоке.kz", "validate": true}
+{"filename": "idna/test7.py", "input": "résumé.com", "validate": false}
+{"filename": "idna/test7.py", "input": "apache.org", "validate": true}
+{"filename": "idna/test7.py", "input": "футбол.укр", "validate": false}
+{"filename": "idna/test7.py", "input": "компьютер.ru", "validate": true}
+{"filename": "idna/test7.py", "input": "xn--n3h.com", "validate": false}
+{"filename": "idna/test7.py", "input": "Saint-Raphaël.fr", "validate": true}
+{"filename": "idna/test7.py", "input": "例.cn", "validate": false}
+{"filename": "idna/test7.py", "input": " Grüne.de", "validate": true}
+{"filename": "idna/test7.py", "input": "дом.рф", "validate": false}
+{"filename": "idna/test7.py", "input": "LGTFNVEE"}
+{"filename": "idna/test7.py", "input": "ssEh7YTpZ0OkL1aqyzgA9stq3aptSdgfNfrLjD5eNdb4l"}
+{"filename": "idna/test7.py", "input": "DWIVCOXXGGYA"}
+{"filename": "idna/test7.py", "input": "288232803"}
+{"filename": "idna/test7.py", "input": "QBPJNQ"}
+{"filename": "idna/test7.py", "input": "SbcjPUnMty oz4axVB4"}
+{"filename": "idna/test7.py", "input": "mjfmuky"}
+{"filename": "idna/test7.py", "input": "ggygj"}
+{"filename": "idna/test7.py", "input": "qDt5keX"}
+{"filename": "idna/test7.py", "input": "y1bsKbgwjdgkNG7GALGP0ofARshIxwMiUhpzf6zab3mg"}
+{"filename": "idna/test7.py", "input": "39041521454"}
+{"filename": "idna/test7.py", "input": "kWLrSz1dbO2"}
+{"filename": "idna/test7.py", "input": "aZpaW"}
+{"filename": "idna/test7.py", "input": "7mebMg8ArpeWS2xRzZNysAFwQHlGYvlswCDm"}
+{"filename": "idna/test7.py", "input": "va8PwbYZcwcYN2NLgB8"}
+{"filename": "idna/test7.py", "input": "yBArjblxpGpGe9VIO VLiOI"}
+{"filename": "idna/test7.py", "input": "4gSBOtSnJII"}
+{"filename": "idna/test7.py", "input": "02368060506"}
+{"filename": "idna/test7.py", "input": "GLAXOOLODERVDOT"}
+{"filename": "idna/test7.py", "input": "6uwgdSnQqLq3gIC"}
+{"filename": "idna/test7.py", "input": "m5KLd"}
+{"filename": "idna/test7.py", "input": "mJ8E6MPnCNHRkbQcqzmPgSFT8PYZZEqBgPCQGUd0xVN7"}
+{"filename": "idna/test7.py", "input": "eidjEHDI85obkQBZ5Kk5ks uwP2yW7Y3QtWuyJaE17tekh9pm"}
+{"filename": "idna/test7.py", "input": "nt7f9WKJ8M7Mqd2 0Clf08HqsijNdCQyvDYd1odtEkZE"}
+{"filename": "idna/test7.py", "input": "fxrquwqbdth"}
+{"filename": "idna/test7.py", "input": "ZWnxQ4Cz0HAMM3gW"}
+{"filename": "idna/test7.py", "input": "aCWDp123"}
+{"filename": "idna/test7.py", "input": "twwfsqkyhuk"}
+{"filename": "idna/test7.py", "input": "4AXEJigPdlNswUdE2n MLe2zUkCc6G"}
+{"filename": "idna/test7.py", "input": "820886050774016"}
+{"filename": "idna/test7.py", "input": "0832668264323"}
+{"filename": "idna/test7.py", "input": "ab8MTI0Eb a24"}
+{"filename": "idna/test7.py", "input": "CBXHILFBUHD"}
+{"filename": "idna/test7.py", "input": "moPb0Ww1m"}
+{"filename": "idna/test7.py", "input": "DGPGBR"}
+{"filename": "idna/test7.py", "input": "frOC1XeJKvFJ2E8ZRMqXs Wkp05Q2mUoR5OmPV8eiMFbuLotuw"}
+{"filename": "idna/test7.py", "input": "SQZ9PKgapKeTcJjezKdG7"}
+{"filename": "idna/test7.py", "input": "U85q VMdSIuLTWTxAAbp"}
+{"filename": "idna/test7.py", "input": "2137057"}
+{"filename": "idna/test7.py", "input": "KNBVHYTPPBSMS"}
+{"filename": "idna/test8.py", "domain": "example.com", "mode": "encode", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "münchen.de", "mode": "decode", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": "中国.中国", "mode": "both", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "café.fr", "mode": "encode", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": "例え.jp", "mode": "decode", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "москва.рф", "mode": "both", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": "bäckerei.at", "mode": "encode", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "προγραμματισμός.gr", "mode": "decode", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": "السعودية.sa", "mode": "both", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "プログラム.jp", "mode": "encode", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": "караоке.kz", "mode": "decode", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "résumé.com", "mode": "both", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": "apache.org", "mode": "encode", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "футбол.укр", "mode": "decode", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": "компьютер.ru", "mode": "both", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "xn--n3h.com", "mode": "encode", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": "Saint-Raphaël.fr", "mode": "decode", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "例.cn", "mode": "both", "transitional": true, "strict": true}
+{"filename": "idna/test8.py", "domain": " Grüne.de", "mode": "encode", "transitional": false, "strict": false}
+{"filename": "idna/test8.py", "domain": "дом.рф", "mode": "decode", "transitional": true, "strict": true}
+{"filename": "idna/test9.py", "input": "example.com", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "münchen.de", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "中国.中国", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "café.fr", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "例え.jp", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "москва.рф", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "bäckerei.at", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "προγραμματισμός.gr", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "السعودية.sa", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "プログラム.jp", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "караоке.kz", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "résumé.com", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "apache.org", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "футбол.укр", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "компьютер.ru", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "xn--n3h.com", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "Saint-Raphaël.fr", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "例.cn", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": " Grüne.de", "do_remap": true, "check_valid": true}
+{"filename": "idna/test9.py", "input": "дом.рф", "do_remap": false, "check_valid": false}
+{"filename": "idna/test9.py", "input": "lSZevwAXBmHrXqqCPyVmujErG s9El"}
+{"filename": "idna/test9.py", "input": "TNAVSRVLOWBR"}
+{"filename": "idna/test9.py", "input": "6641212"}
+{"filename": "idna/test9.py", "input": "KGCPZKRIEVLIP"}
+{"filename": "idna/test9.py", "input": "AnzkPFDPPJ30"}
+{"filename": "idna/test9.py", "input": "IHGPYTVE"}
+{"filename": "idna/test9.py", "input": "XqNa8Z"}
+{"filename": "idna/test9.py", "input": "DOAVLRGPWV"}
+{"filename": "idna/test9.py", "input": "pahbe"}
+{"filename": "idna/test9.py", "input": "98001"}
+{"filename": "idna/test9.py", "input": "remmwvwvxv"}
+{"filename": "idna/test9.py", "input": "MCXWIXEPEEI"}
+{"filename": "idna/test9.py", "input": "bQDK85nt 9PJUiEFoj"}
+{"filename": "idna/test9.py", "input": "MSwEtTwW8Rj Ra1s"}
+{"filename": "idna/test9.py", "input": "DBHQJMPH"}
+{"filename": "idna/test9.py", "input": "8308138320"}
+{"filename": "idna/test9.py", "input": "6946555"}
+{"filename": "idna/test9.py", "input": "BSYQJYVEFCFNJ"}
+{"filename": "idna/test9.py", "input": "SUiQXYpQ2JwxKqnSvkyn 625LgW6V9lDpCgcVtbuVfr1pP49o"}
+{"filename": "idna/test9.py", "input": "umtJCGWXakW71rerd2raNiE Kz3SfpgdHwXdP"}
+{"filename": "idna/test9.py", "input": "mifvuqnfxol"}
+{"filename": "idna/test9.py", "input": "hkwhrfgtmx"}
+{"filename": "idna/test9.py", "input": "CCQBBTCRJHI"}
+{"filename": "idna/test9.py", "input": "skjxznsnxmkw"}
+{"filename": "idna/test9.py", "input": "bL1vEUCjEhGP"}
+{"filename": "idna/test9.py", "input": "845054"}
+{"filename": "idna/test9.py", "input": "vbr zgPzYx2v0uNratymSC9xs8i"}
+{"filename": "idna/test9.py", "input": "264046"}
+{"filename": "idna/test9.py", "input": "RZPZD"}
+{"filename": "idna/test9.py", "input": "809594779986056"}
+{"filename": "idna/test9.py", "input": "cidwygfqlfp"}
+{"filename": "idna/test9.py", "input": "pgfghhnq"}
+{"filename": "idna/test9.py", "input": "iYfry1H7GwaB9EPvQYAtwd MRFPqGmQiPi7XGWA2njj"}
+{"filename": "idna/test9.py", "input": "9601658"}
+{"filename": "idna/test9.py", "input": "cwGsxjTKkgUhcP"}
+{"filename": "idna/test9.py", "input": "rMgR9xG28iEmAwMhw9IFHRsnozE j3dmB7puAmxKK0b2"}
+{"filename": "idna/test9.py", "input": "mG4TAmpMakoZ"}
+{"filename": "idna/test9.py", "input": "CQEQKSVDZS"}
+{"filename": "idna/test9.py", "input": "rqhksiwgyfs"}
+{"filename": "idna/test9.py", "input": "ggyuwyuvortyki"}

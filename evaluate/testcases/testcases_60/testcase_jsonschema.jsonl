@@ -1,0 +1,1113 @@
+{"filename": "jsonschema/test1.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test1.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test1.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test1.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test1.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test1.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test1.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test1.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test1.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test1.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test1.py", "a": "50", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test1.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test1.py", "a": "1", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test1.py", "a": "99", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test1.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test1.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test1.py", "a": "10", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test1.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test1.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test1.py", "a": "[\"single\"]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test1.py", "a": "[1]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test1.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test1.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test1.py", "a": "[\"a\", \"b\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test1.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test1.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test1.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test2.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test2.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test2.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test2.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test2.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test2.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test2.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test2.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test2.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test2.py", "a": "50", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test2.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test2.py", "a": "1", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test2.py", "a": "99", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test2.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test2.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test2.py", "a": "10", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test2.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test2.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test2.py", "a": "[\"single\"]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test2.py", "a": "[1]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test2.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test2.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test2.py", "a": "[\"a\", \"b\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test2.py", "a": "123", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test2.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test2.py", "a": "{}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test2.py", "a": "{\"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test2.py", "a": "{\"extra\": \"field\"}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test2.py", "a": "{\"id\": \"string\"}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test2.py", "a": "{}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test2.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test2.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test2.py", "a": "[]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test2.py", "a": "\"hi\"", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test2.py", "a": "null", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test2.py", "a": "{\"user\": {\"name\": 123}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test2.py", "a": "[{\"id\": \"string\"}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test2.py", "a": "123", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"string\"", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test2.py", "a": "123", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test2.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test2.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test2.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test2.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test2.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test2.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test3.py", "a": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test3.py", "a": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test3.py", "a": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test3.py", "a": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test3.py", "a": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test3.py", "a": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test4.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test4.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test4.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test4.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test4.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test4.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"yellow\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test4.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test4.py", "a": "150", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test4.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test4.py", "a": "1", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test4.py", "a": "100", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test4.py", "a": "7", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test4.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test4.py", "a": "7", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test4.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test4.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test4.py", "a": "[\"single\"]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test4.py", "a": "[1, 2, 3, 4]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test4.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test4.py", "a": "[1, 1, 2]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test4.py", "a": "[]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test4.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test4.py", "a": "{\"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test4.py", "a": "{}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test4.py", "a": "{\"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test4.py", "a": "{\"extra\": \"field\"}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test4.py", "a": "{\"id\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test4.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test4.py", "a": "{\"a\": 1, \"b\": 2}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test4.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test4.py", "a": "[]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test4.py", "a": "\"hi\"", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test4.py", "a": "null", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test4.py", "a": "{\"user\": {\"name\": \"John\"}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test4.py", "a": "[{\"id\": \"string\"}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test4.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test4.py", "a": "123", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test4.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test4.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test4.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test4.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test4.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test4.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test5.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test5.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test5.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test5.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test5.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test5.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"yellow\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test5.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test5.py", "a": "150", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test5.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test5.py", "a": "1", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test5.py", "a": "100", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test5.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test5.py", "a": "0", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test5.py", "a": "10", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test5.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test5.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test5.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test5.py", "a": "[1, 2, 3, 4]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test5.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test5.py", "a": "[1, 1, 2]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test5.py", "a": "[\"a\", \"b\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test5.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test5.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test5.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test5.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test5.py", "a": "{\"extra\": \"field\"}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test5.py", "a": "{\"id\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test5.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test5.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test5.py", "a": "\"test string\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test5.py", "a": "[]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test5.py", "a": "42", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test5.py", "a": "100", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test5.py", "a": "{\"user\": {\"name\": \"John\"}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test5.py", "a": "[{\"id\": \"string\"}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test5.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test5.py", "a": "123", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test5.py", "a": "123", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test5.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test5.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test5.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test5.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test5.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test5.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test5.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test6.py", "a": "123", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test6.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test6.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test6.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test6.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test6.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test6.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test6.py", "a": "50", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test6.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test6.py", "a": "0", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test6.py", "a": "99", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test6.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test6.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test6.py", "a": "7", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test6.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test6.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test6.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test6.py", "a": "[1]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test6.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test6.py", "a": "[1, 1, 2]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test6.py", "a": "[\"a\", \"b\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test6.py", "a": "123", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test6.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test6.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test6.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test6.py", "a": "{\"extra\": \"field\"}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test6.py", "a": "{\"id\": \"string\"}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test6.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test6.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test6.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test6.py", "a": "\"hello\"", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test6.py", "a": "42", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test6.py", "a": "100", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test6.py", "a": "{\"user\": {\"name\": 123}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test6.py", "a": "[{\"id\": \"string\"}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test6.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test6.py", "a": "123", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test6.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test6.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test6.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test6.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test6.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test6.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test6.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test7.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test7.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test7.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test7.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test7.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test7.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test7.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"yellow\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test7.py", "a": "-1", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test7.py", "a": "150", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test7.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test7.py", "a": "0", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test7.py", "a": "99", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test7.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test7.py", "a": "0", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test7.py", "a": "7", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test7.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test7.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test7.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test7.py", "a": "[1]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test7.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test7.py", "a": "[1, 1, 2]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test7.py", "a": "[]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test7.py", "a": "123", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test7.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test7.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test7.py", "a": "{\"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test7.py", "a": "{}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test7.py", "a": "{\"id\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test7.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test7.py", "a": "{\"a\": 1, \"b\": 2}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test7.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test7.py", "a": "\"hello\"", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test7.py", "a": "\"hi\"", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test7.py", "a": "100", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test7.py", "a": "{\"user\": {\"name\": \"John\"}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test7.py", "a": "[{\"id\": 1}, {\"id\": 2}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test7.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test7.py", "a": "123", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test7.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test7.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test7.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test7.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test7.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test7.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test7.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\"}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"number\"}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"integer\"}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"boolean\"}", "b": "boolean"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"null\"}", "b": "array"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\"}", "b": "object"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\"}", "b": "null"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"minLength\": 5}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"maxLength\": 10}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"format\": \"email\"}", "b": "boolean"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"format\": \"uri\"}", "b": "array"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"format\": \"date\"}", "b": "object"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"format\": \"date-time\"}", "b": "null"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"number\", \"minimum\": 0}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"number\", \"maximum\": 100}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}", "b": "boolean"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"number\", \"exclusiveMinimum\": 0}", "b": "array"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"number\", \"exclusiveMaximum\": 100}", "b": "object"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"number\", \"multipleOf\": 5}", "b": "null"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"integer\", \"multipleOf\": 2}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}", "b": "boolean"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\", \"minItems\": 1}", "b": "array"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\", \"maxItems\": 3}", "b": "object"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}", "b": "null"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\", \"uniqueItems\": true}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}", "b": "boolean"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"required\": [\"name\"]}", "b": "array"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}", "b": "object"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"additionalProperties\": false}", "b": "null"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"minProperties\": 1}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"maxProperties\": 3}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}", "b": "boolean"}
+{"filename": "jsonschema/test8.py", "a": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}", "b": "array"}
+{"filename": "jsonschema/test8.py", "a": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}", "b": "object"}
+{"filename": "jsonschema/test8.py", "a": "{\"not\": {\"type\": \"null\"}}", "b": "null"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}", "b": "boolean"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\"}", "b": "array"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"number\"}", "b": "object"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"integer\"}", "b": "null"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"boolean\"}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"null\"}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"array\"}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"object\"}", "b": "boolean"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"minLength\": 5}", "b": "array"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"maxLength\": 10}", "b": "object"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}", "b": "null"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"format\": \"email\"}", "b": "string"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"format\": \"uri\"}", "b": "number"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"format\": \"date\"}", "b": "integer"}
+{"filename": "jsonschema/test8.py", "a": "{\"type\": \"string\", \"format\": \"date-time\"}", "b": "boolean"}
+{"filename": "jsonschema/test9.py", "a": "123", "b": "{\"type\": \"string\"}", "c": "email"}
+{"filename": "jsonschema/test9.py", "a": "42.5", "b": "{\"type\": \"number\"}", "c": "uri"}
+{"filename": "jsonschema/test9.py", "a": "42", "b": "{\"type\": \"integer\"}", "c": "date"}
+{"filename": "jsonschema/test9.py", "a": "true", "b": "{\"type\": \"boolean\"}", "c": "date-time"}
+{"filename": "jsonschema/test9.py", "a": "null", "b": "{\"type\": \"null\"}", "c": "hostname"}
+{"filename": "jsonschema/test9.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}", "c": "ipv4"}
+{"filename": "jsonschema/test9.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}", "c": "ipv6"}
+{"filename": "jsonschema/test9.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}", "c": "regex"}
+{"filename": "jsonschema/test9.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}", "c": "email"}
+{"filename": "jsonschema/test9.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}", "c": "uri"}
+{"filename": "jsonschema/test9.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}", "c": "date"}
+{"filename": "jsonschema/test9.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}", "c": "date-time"}
+{"filename": "jsonschema/test9.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}", "c": "hostname"}
+{"filename": "jsonschema/test9.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}", "c": "ipv4"}
+{"filename": "jsonschema/test9.py", "a": "\"yellow\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}", "c": "ipv6"}
+{"filename": "jsonschema/test9.py", "a": "-1", "b": "{\"type\": \"number\", \"minimum\": 0}", "c": "regex"}
+{"filename": "jsonschema/test9.py", "a": "50", "b": "{\"type\": \"number\", \"maximum\": 100}", "c": "email"}
+{"filename": "jsonschema/test9.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}", "c": "uri"}
+{"filename": "jsonschema/test9.py", "a": "1", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}", "c": "date"}
+{"filename": "jsonschema/test9.py", "a": "99", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}", "c": "date-time"}
+{"filename": "jsonschema/test9.py", "a": "7", "b": "{\"type\": \"number\", \"multipleOf\": 5}", "c": "hostname"}
+{"filename": "jsonschema/test9.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}", "c": "ipv4"}
+{"filename": "jsonschema/test9.py", "a": "7", "b": "{\"type\": \"integer\", \"multipleOf\": 2}", "c": "ipv6"}
+{"filename": "jsonschema/test9.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}", "c": "regex"}
+{"filename": "jsonschema/test9.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}", "c": "email"}
+{"filename": "jsonschema/test9.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}", "c": "uri"}
+{"filename": "jsonschema/test9.py", "a": "[1, 2, 3, 4]", "b": "{\"type\": \"array\", \"maxItems\": 3}", "c": "date"}
+{"filename": "jsonschema/test9.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}", "c": "date-time"}
+{"filename": "jsonschema/test9.py", "a": "[1, 1, 2]", "b": "{\"type\": \"array\", \"uniqueItems\": true}", "c": "hostname"}
+{"filename": "jsonschema/test9.py", "a": "[\"a\", \"b\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}", "c": "ipv4"}
+{"filename": "jsonschema/test9.py", "a": "123", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}", "c": "ipv6"}
+{"filename": "jsonschema/test9.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}", "c": "regex"}
+{"filename": "jsonschema/test9.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}", "c": "email"}
+{"filename": "jsonschema/test9.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}", "c": "uri"}
+{"filename": "jsonschema/test9.py", "a": "{}", "b": "{\"type\": \"object\", \"additionalProperties\": false}", "c": "date"}
+{"filename": "jsonschema/test9.py", "a": "{\"id\": \"string\"}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}", "c": "date-time"}
+{"filename": "jsonschema/test9.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}", "c": "hostname"}
+{"filename": "jsonschema/test9.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}", "c": "ipv4"}
+{"filename": "jsonschema/test9.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}", "c": "ipv6"}
+{"filename": "jsonschema/test9.py", "a": "\"hello\"", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}", "c": "regex"}
+{"filename": "jsonschema/test9.py", "a": "\"hi\"", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}", "c": "email"}
+{"filename": "jsonschema/test9.py", "a": "100", "b": "{\"not\": {\"type\": \"null\"}}", "c": "uri"}
+{"filename": "jsonschema/test9.py", "a": "{\"user\": {\"name\": 123}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}", "c": "date"}
+{"filename": "jsonschema/test9.py", "a": "[{\"id\": 1}, {\"id\": 2}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}", "c": "date-time"}
+{"filename": "jsonschema/test9.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}", "c": "hostname"}
+{"filename": "jsonschema/test9.py", "a": "\"string\"", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}", "c": "ipv4"}
+{"filename": "jsonschema/test9.py", "a": "123", "b": "{\"type\": \"string\"}", "c": "ipv6"}
+{"filename": "jsonschema/test9.py", "a": "42.5", "b": "{\"type\": \"number\"}", "c": "regex"}
+{"filename": "jsonschema/test9.py", "a": "42", "b": "{\"type\": \"integer\"}", "c": "email"}
+{"filename": "jsonschema/test9.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}", "c": "uri"}
+{"filename": "jsonschema/test9.py", "a": "123", "b": "{\"type\": \"null\"}", "c": "date"}
+{"filename": "jsonschema/test9.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}", "c": "date-time"}
+{"filename": "jsonschema/test9.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}", "c": "hostname"}
+{"filename": "jsonschema/test9.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}", "c": "ipv4"}
+{"filename": "jsonschema/test9.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}", "c": "ipv6"}
+{"filename": "jsonschema/test9.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}", "c": "regex"}
+{"filename": "jsonschema/test9.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}", "c": "email"}
+{"filename": "jsonschema/test9.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}", "c": "uri"}
+{"filename": "jsonschema/test9.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}", "c": "date"}
+{"filename": "jsonschema/test9.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}", "c": "date-time"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test10.py", "a": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test10.py", "a": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test10.py", "a": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test10.py", "a": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test10.py", "a": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test10.py", "a": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test11.py", "a": "123", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test11.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test11.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test11.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test11.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test11.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test11.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test11.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test11.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test11.py", "a": "150", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test11.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test11.py", "a": "0", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test11.py", "a": "100", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test11.py", "a": "7", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test11.py", "a": "0", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test11.py", "a": "7", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test11.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test11.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test11.py", "a": "[\"single\"]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test11.py", "a": "[1]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test11.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test11.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test11.py", "a": "[\"a\", \"b\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test11.py", "a": "123", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test11.py", "a": "{\"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test11.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test11.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test11.py", "a": "{\"extra\": \"field\"}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test11.py", "a": "{\"id\": \"string\"}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test11.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test11.py", "a": "{\"a\": 1, \"b\": 2}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test11.py", "a": "\"test string\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test11.py", "a": "[]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test11.py", "a": "42", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test11.py", "a": "null", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test11.py", "a": "{\"user\": {\"name\": 123}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test11.py", "a": "[{\"id\": 1}, {\"id\": 2}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test11.py", "a": "123", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"string\"", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test11.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test11.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test11.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test11.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test11.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test11.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test11.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test12.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test12.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test12.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test12.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test12.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test12.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test12.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test12.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test12.py", "a": "150", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test12.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test12.py", "a": "0", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test12.py", "a": "100", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test12.py", "a": "7", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test12.py", "a": "0", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test12.py", "a": "10", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test12.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test12.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test12.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test12.py", "a": "[1]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test12.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test12.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test12.py", "a": "[]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test12.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test12.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test12.py", "a": "{}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test12.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test12.py", "a": "{}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test12.py", "a": "{\"id\": \"string\"}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test12.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test12.py", "a": "{\"a\": 1, \"b\": 2}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test12.py", "a": "\"test string\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test12.py", "a": "[]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test12.py", "a": "\"hi\"", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test12.py", "a": "100", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test12.py", "a": "{\"user\": {\"name\": \"John\"}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test12.py", "a": "[{\"id\": 1}, {\"id\": 2}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test12.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test12.py", "a": "123", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test12.py", "a": "123", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test12.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test12.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test12.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test12.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test12.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test12.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test12.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test12.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test13.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test13.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test13.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test13.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test13.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"yellow\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test13.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test13.py", "a": "50", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test13.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test13.py", "a": "1", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test13.py", "a": "100", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test13.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test13.py", "a": "0", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test13.py", "a": "10", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test13.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test13.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test13.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test13.py", "a": "[1, 2, 3, 4]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test13.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test13.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test13.py", "a": "[]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test13.py", "a": "123", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test13.py", "a": "{\"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test13.py", "a": "{}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test13.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test13.py", "a": "{\"extra\": \"field\"}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test13.py", "a": "{\"id\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test13.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test13.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test13.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test13.py", "a": "\"hello\"", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test13.py", "a": "\"hi\"", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test13.py", "a": "null", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test13.py", "a": "{\"user\": {\"name\": 123}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test13.py", "a": "[{\"id\": \"string\"}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test13.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test13.py", "a": "123", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test13.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test13.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test13.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test13.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test13.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test13.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test13.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test13.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test13.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test14.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test14.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test14.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test14.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test14.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test14.py", "a": "-1", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test14.py", "a": "150", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test14.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test14.py", "a": "0", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test14.py", "a": "99", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test14.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test14.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test14.py", "a": "7", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test14.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test14.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test14.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test14.py", "a": "[1]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test14.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test14.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test14.py", "a": "[\"a\", \"b\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test14.py", "a": "123", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test14.py", "a": "{\"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test14.py", "a": "{}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test14.py", "a": "{\"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test14.py", "a": "{}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test14.py", "a": "{\"id\": \"string\"}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test14.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test14.py", "a": "{\"a\": 1, \"b\": 2}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test14.py", "a": "\"test string\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test14.py", "a": "\"hello\"", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test14.py", "a": "\"hi\"", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test14.py", "a": "100", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test14.py", "a": "{\"user\": {\"name\": 123}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test14.py", "a": "[{\"id\": 1}, {\"id\": 2}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test14.py", "a": "123", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"string\"", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test14.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test14.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test14.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test14.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test14.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test14.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test14.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test15.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test15.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test15.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test15.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test15.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test15.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test15.py", "a": "-1", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test15.py", "a": "50", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test15.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test15.py", "a": "0", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test15.py", "a": "100", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test15.py", "a": "7", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test15.py", "a": "0", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test15.py", "a": "7", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test15.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test15.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test15.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test15.py", "a": "[1, 2, 3, 4]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test15.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test15.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test15.py", "a": "[]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test15.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test15.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test15.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test15.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test15.py", "a": "{\"extra\": \"field\"}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test15.py", "a": "{\"id\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test15.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test15.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test15.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test15.py", "a": "[]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test15.py", "a": "\"hi\"", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test15.py", "a": "100", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test15.py", "a": "{\"user\": {\"name\": \"John\"}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test15.py", "a": "[{\"id\": \"string\"}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test15.py", "a": "123", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"string\"", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test15.py", "a": "123", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test15.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test15.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test15.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test15.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test15.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test15.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test15.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test15.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test15.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"hello\"]", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test16.py", "a": "[42.5, 42.5, 42.5]", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test16.py", "a": "[42, 42]", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test16.py", "a": "[true, true, true, true]", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test16.py", "a": "[null]", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test16.py", "a": "[[1, 2, 3]]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test16.py", "a": "[[1, 2, 3], {\"key\": \"value\"}, [1, 2, 3], {\"key\": \"value\"}]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"hello world\", \"hi\", \"hello world\"]", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test16.py", "a": "[\"short\", \"short\"]", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test16.py", "a": "[\"test\", \"test\"]", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"not-an-email\", \"not-an-email\", \"not-an-email\", \"not-an-email\", \"not-an-email\"]", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"not-a-uri\", \"https://example.com\", \"not-a-uri\"]", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"2023-01-15\"]", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"2023-01-15T10:30:00Z\", \"2023-01-15T10:30:00Z\", \"2023-01-15T10:30:00Z\", \"2023-01-15T10:30:00Z\", \"2023-01-15T10:30:00Z\"]", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"yellow\"]", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test16.py", "a": "[50, 50, 50, -1, 50]", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test16.py", "a": "[150, 150]", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test16.py", "a": "[-10, -10, 50, 50, 50]", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test16.py", "a": "[1, 0, 1, 1, 1]", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test16.py", "a": "[100, 99, 99, 100]", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test16.py", "a": "[15, 15, 15, 15, 7]", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test16.py", "a": "[5, 5, 0, 5]", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test16.py", "a": "[7, 10]", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test16.py", "a": "[[\"a\", \"b\", \"c\"], [\"a\", \"b\", \"c\"], [1, 2, 3], [\"a\", \"b\", \"c\"], [\"a\", \"b\", \"c\"]]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test16.py", "a": "[[\"a\", \"b\", \"c\"]]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test16.py", "a": "[[\"single\"]]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test16.py", "a": "[[1, 2, 3, 4], [1], [1], [1]]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test16.py", "a": "[[1, 2, 3], []]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test16.py", "a": "[[1, 1, 2], [1, 2, 3], [1, 1, 2]]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test16.py", "a": "[[\"a\", \"b\"], [\"a\", \"b\"], [\"a\", \"b\"], [\"a\", \"b\"], [\"a\", \"b\"]]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test16.py", "a": "[123, 123]", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test16.py", "a": "[{\"name\": 123}, {\"name\": 123}, {\"age\": 25}, {\"age\": 25}, {\"age\": 25}]", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test16.py", "a": "[{\"name\": \"John\"}, {\"name\": \"John\"}, {\"name\": \"John\"}, {}, {\"name\": \"John\"}]", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test16.py", "a": "[{\"name\": \"John\", \"age\": 25}, {\"name\": \"John\", \"age\": 25}]", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test16.py", "a": "[{}, {}, {}]", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test16.py", "a": "[{\"id\": \"string\"}, {\"id\": 123}, {\"id\": 123}, {\"id\": \"string\"}]", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test16.py", "a": "[{\"a\": 1}, {}, {}, {\"a\": 1}, {}]", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test16.py", "a": "[{\"a\": 1, \"b\": 2}, {\"a\": 1, \"b\": 2}, {\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}, {\"a\": 1, \"b\": 2}]", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test16.py", "a": "[\"ab\", \"test string\"]", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test16.py", "a": "[\"hello\", [], \"hello\"]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test16.py", "a": "[42, 42, 42]", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test16.py", "a": "[null, null]", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test16.py", "a": "[{\"user\": {\"name\": \"John\"}}, {\"user\": {\"name\": \"John\"}}, {\"user\": {\"name\": \"John\"}}, {\"user\": {\"name\": 123}}]", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test16.py", "a": "[[{\"id\": \"string\"}], [{\"id\": \"string\"}], [{\"id\": 1}, {\"id\": 2}], [{\"id\": 1}, {\"id\": 2}], [{\"id\": 1}, {\"id\": 2}]]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test16.py", "a": "[\"test\", 123]", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test16.py", "a": "[123, 123]", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test16.py", "a": "[123, \"hello\", \"hello\", \"hello\", \"hello\"]", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test16.py", "a": "[42.5, 42.5, 42.5, 42.5]", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test16.py", "a": "[42, 42]", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"string\", true, true, true]", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test16.py", "a": "[null, 123, 123]", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test16.py", "a": "[[1, 2, 3], [1, 2, 3]]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test16.py", "a": "[[1, 2, 3], {\"key\": \"value\"}, [1, 2, 3]]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"hello world\", \"hello world\", \"hello world\", \"hello world\", \"hi\"]", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test16.py", "a": "[\"this is too long\", \"short\"]", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test16.py", "a": "[\"TEST\", \"TEST\", \"TEST\", \"test\", \"test\"]", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"user@example.com\", \"user@example.com\"]", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"https://example.com\", \"not-a-uri\", \"https://example.com\", \"https://example.com\", \"https://example.com\"]", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"not-a-date\"]", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test16.py", "a": "[\"not-datetime\", \"2023-01-15T10:30:00Z\"]", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test18.py", "a": "123", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test18.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test18.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test18.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test18.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test18.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test18.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test18.py", "a": "-1", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test18.py", "a": "150", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test18.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test18.py", "a": "0", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test18.py", "a": "99", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test18.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test18.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test18.py", "a": "10", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test18.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test18.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test18.py", "a": "[\"single\"]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test18.py", "a": "[1, 2, 3, 4]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test18.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test18.py", "a": "[1, 1, 2]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test18.py", "a": "[]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test18.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test18.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test18.py", "a": "{}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test18.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test18.py", "a": "{}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test18.py", "a": "{\"id\": \"string\"}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test18.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test18.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test18.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test18.py", "a": "\"hello\"", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test18.py", "a": "42", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test18.py", "a": "100", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test18.py", "a": "{\"user\": {\"name\": \"John\"}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test18.py", "a": "[{\"id\": \"string\"}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test18.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"string\"", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test18.py", "a": "123", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test18.py", "a": "42", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test18.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test18.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test18.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test18.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test18.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test18.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test19.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test19.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test19.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test19.py", "a": "\"this is too long\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test19.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"https://example.com\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"not-datetime\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"yellow\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test19.py", "a": "-1", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test19.py", "a": "50", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test19.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test19.py", "a": "1", "b": "{\"type\": \"number\", \"exclusiveMinimum\": 0}"}
+{"filename": "jsonschema/test19.py", "a": "100", "b": "{\"type\": \"number\", \"exclusiveMaximum\": 100}"}
+{"filename": "jsonschema/test19.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test19.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test19.py", "a": "10", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test19.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test19.py", "a": "[\"a\", \"b\", \"c\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test19.py", "a": "[]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test19.py", "a": "[1]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test19.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test19.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test19.py", "a": "[]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test19.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test19.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test19.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test19.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test19.py", "a": "{\"extra\": \"field\"}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test19.py", "a": "{\"id\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test19.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test19.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test19.py", "a": "\"ab\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test19.py", "a": "[]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test19.py", "a": "42", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test19.py", "a": "null", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test19.py", "a": "{\"user\": {\"name\": \"John\"}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test19.py", "a": "[{\"id\": \"string\"}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test19.py", "a": "123", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test19.py", "a": "123", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test19.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test19.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test19.py", "a": "true", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test19.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"string\"", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test19.py", "a": "[1, 2, 3]", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test19.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test19.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test19.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"string\"", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test20.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test20.py", "a": "null", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test20.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test20.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"hi\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test20.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test20.py", "a": "\"test\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"not-an-email\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"2023-01-15\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"red\"", "b": "{\"type\": \"string\", \"enum\": [\"red\", \"green\", \"blue\"]}"}
+{"filename": "jsonschema/test20.py", "a": "50", "b": "{\"type\": \"number\", \"minimum\": 0}"}
+{"filename": "jsonschema/test20.py", "a": "50", "b": "{\"type\": \"number\", \"maximum\": 100}"}
+{"filename": "jsonschema/test20.py", "a": "-10", "b": "{\"type\": \"number\", \"minimum\": 0, \"maximum\": 100}"}
+{"filename": "jsonschema/test20.py", "a": "15", "b": "{\"type\": \"number\", \"multipleOf\": 5}"}
+{"filename": "jsonschema/test20.py", "a": "5", "b": "{\"type\": \"integer\", \"minimum\": 1, \"maximum\": 10}"}
+{"filename": "jsonschema/test20.py", "a": "10", "b": "{\"type\": \"integer\", \"multipleOf\": 2}"}
+{"filename": "jsonschema/test20.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}"}
+{"filename": "jsonschema/test20.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"number\"}}"}
+{"filename": "jsonschema/test20.py", "a": "[\"single\"]", "b": "{\"type\": \"array\", \"minItems\": 1}"}
+{"filename": "jsonschema/test20.py", "a": "[1, 2, 3, 4]", "b": "{\"type\": \"array\", \"maxItems\": 3}"}
+{"filename": "jsonschema/test20.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\", \"minItems\": 2, \"maxItems\": 5}"}
+{"filename": "jsonschema/test20.py", "a": "[1, 1, 2]", "b": "{\"type\": \"array\", \"uniqueItems\": true}"}
+{"filename": "jsonschema/test20.py", "a": "[\"a\", \"b\"]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"minItems\": 1, \"maxItems\": 5}"}
+{"filename": "jsonschema/test20.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}"}
+{"filename": "jsonschema/test20.py", "a": "{\"name\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\"}}}"}
+{"filename": "jsonschema/test20.py", "a": "{\"name\": \"John\"}", "b": "{\"type\": \"object\", \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test20.py", "a": "{\"name\": \"John\", \"age\": 25}", "b": "{\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"age\": {\"type\": \"integer\"}}, \"required\": [\"name\"]}"}
+{"filename": "jsonschema/test20.py", "a": "{}", "b": "{\"type\": \"object\", \"additionalProperties\": false}"}
+{"filename": "jsonschema/test20.py", "a": "{\"id\": 123}", "b": "{\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}, \"required\": [\"id\"]}"}
+{"filename": "jsonschema/test20.py", "a": "{\"a\": 1}", "b": "{\"type\": \"object\", \"minProperties\": 1}"}
+{"filename": "jsonschema/test20.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3, \"d\": 4}", "b": "{\"type\": \"object\", \"maxProperties\": 3}"}
+{"filename": "jsonschema/test20.py", "a": "\"test string\"", "b": "{\"allOf\": [{\"type\": \"string\"}, {\"minLength\": 3}]}"}
+{"filename": "jsonschema/test20.py", "a": "[]", "b": "{\"anyOf\": [{\"type\": \"string\"}, {\"type\": \"number\"}]}"}
+{"filename": "jsonschema/test20.py", "a": "42", "b": "{\"oneOf\": [{\"type\": \"string\", \"minLength\": 5}, {\"type\": \"number\", \"minimum\": 0}]}"}
+{"filename": "jsonschema/test20.py", "a": "null", "b": "{\"not\": {\"type\": \"null\"}}"}
+{"filename": "jsonschema/test20.py", "a": "{\"user\": {\"name\": 123}}", "b": "{\"type\": \"object\", \"properties\": {\"user\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}}}}}"}
+{"filename": "jsonschema/test20.py", "a": "[{\"id\": 1}, {\"id\": 2}]", "b": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"integer\"}}}}"}
+{"filename": "jsonschema/test20.py", "a": "\"test\"", "b": "{\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"string\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"string\"", "b": "{\"$id\": \"https://example.com/schema\", \"type\": \"number\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"hello\"", "b": "{\"type\": \"string\"}"}
+{"filename": "jsonschema/test20.py", "a": "42.5", "b": "{\"type\": \"number\"}"}
+{"filename": "jsonschema/test20.py", "a": "42.5", "b": "{\"type\": \"integer\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"string\"", "b": "{\"type\": \"boolean\"}"}
+{"filename": "jsonschema/test20.py", "a": "123", "b": "{\"type\": \"null\"}"}
+{"filename": "jsonschema/test20.py", "a": "[1, 2, 3]", "b": "{\"type\": \"array\"}"}
+{"filename": "jsonschema/test20.py", "a": "{\"key\": \"value\"}", "b": "{\"type\": \"object\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"hello world\"", "b": "{\"type\": \"string\", \"minLength\": 5}"}
+{"filename": "jsonschema/test20.py", "a": "\"short\"", "b": "{\"type\": \"string\", \"maxLength\": 10}"}
+{"filename": "jsonschema/test20.py", "a": "\"TEST\"", "b": "{\"type\": \"string\", \"pattern\": \"^[a-z]+$\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"user@example.com\"", "b": "{\"type\": \"string\", \"format\": \"email\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"not-a-uri\"", "b": "{\"type\": \"string\", \"format\": \"uri\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"not-a-date\"", "b": "{\"type\": \"string\", \"format\": \"date\"}"}
+{"filename": "jsonschema/test20.py", "a": "\"2023-01-15T10:30:00Z\"", "b": "{\"type\": \"string\", \"format\": \"date-time\"}"}

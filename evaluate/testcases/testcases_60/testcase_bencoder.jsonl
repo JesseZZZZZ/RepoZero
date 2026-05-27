@@ -1,0 +1,1056 @@
+{"filename": "bencoder/test1.py", "a": -42}
+{"filename": "bencoder/test1.py", "a": 999999}
+{"filename": "bencoder/test1.py", "a": 65535}
+{"filename": "bencoder/test1.py", "a": -1000}
+{"filename": "bencoder/test1.py", "a": 255}
+{"filename": "bencoder/test1.py", "a": 42}
+{"filename": "bencoder/test1.py", "a": -7}
+{"filename": "bencoder/test1.py", "a": 1000}
+{"filename": "bencoder/test1.py", "a": -10}
+{"filename": "bencoder/test1.py", "a": -100}
+{"filename": "bencoder/test1.py", "a": -7}
+{"filename": "bencoder/test1.py", "a": -100}
+{"filename": "bencoder/test1.py", "a": -255}
+{"filename": "bencoder/test1.py", "a": -7}
+{"filename": "bencoder/test1.py", "a": 65535}
+{"filename": "bencoder/test1.py", "a": -42}
+{"filename": "bencoder/test1.py", "a": -999999}
+{"filename": "bencoder/test1.py", "a": 7}
+{"filename": "bencoder/test1.py", "a": 7}
+{"filename": "bencoder/test1.py", "a": -999999}
+{"filename": "bencoder/test1.py", "a": 386}
+{"filename": "bencoder/test1.py", "a": 82}
+{"filename": "bencoder/test1.py", "a": 497950}
+{"filename": "bencoder/test1.py", "a": 62082}
+{"filename": "bencoder/test1.py", "a": 6}
+{"filename": "bencoder/test1.py", "a": 693831}
+{"filename": "bencoder/test1.py", "a": 9311}
+{"filename": "bencoder/test1.py", "a": 13640}
+{"filename": "bencoder/test1.py", "a": 7020}
+{"filename": "bencoder/test1.py", "a": -923}
+{"filename": "bencoder/test1.py", "a": 635578}
+{"filename": "bencoder/test1.py", "a": 944}
+{"filename": "bencoder/test1.py", "a": 976}
+{"filename": "bencoder/test1.py", "a": 650}
+{"filename": "bencoder/test1.py", "a": 94244}
+{"filename": "bencoder/test1.py", "a": 3367}
+{"filename": "bencoder/test1.py", "a": -839}
+{"filename": "bencoder/test1.py", "a": 827304}
+{"filename": "bencoder/test1.py", "a": 4776}
+{"filename": "bencoder/test1.py", "a": 9897}
+{"filename": "bencoder/test1.py", "a": -175}
+{"filename": "bencoder/test1.py", "a": 78565}
+{"filename": "bencoder/test1.py", "a": 826430}
+{"filename": "bencoder/test1.py", "a": 14}
+{"filename": "bencoder/test1.py", "a": 63}
+{"filename": "bencoder/test1.py", "a": 517832}
+{"filename": "bencoder/test1.py", "a": 19557}
+{"filename": "bencoder/test1.py", "a": 842}
+{"filename": "bencoder/test1.py", "a": 81}
+{"filename": "bencoder/test1.py", "a": 259}
+{"filename": "bencoder/test1.py", "a": 84464}
+{"filename": "bencoder/test1.py", "a": 106636}
+{"filename": "bencoder/test1.py", "a": 472061}
+{"filename": "bencoder/test1.py", "a": 374719}
+{"filename": "bencoder/test1.py", "a": 811}
+{"filename": "bencoder/test1.py", "a": 8841}
+{"filename": "bencoder/test1.py", "a": 194793}
+{"filename": "bencoder/test1.py", "a": 438408}
+{"filename": "bencoder/test1.py", "a": 5267}
+{"filename": "bencoder/test1.py", "a": 6185}
+{"filename": "bencoder/test10.py", "a": 255, "b": "complex"}
+{"filename": "bencoder/test10.py", "a": 1, "b": "decode"}
+{"filename": "bencoder/test10.py", "a": -1000, "b": "value"}
+{"filename": "bencoder/test10.py", "a": 65535, "b": "complex"}
+{"filename": "bencoder/test10.py", "a": 0, "b": "decode"}
+{"filename": "bencoder/test10.py", "a": -10, "b": "test"}
+{"filename": "bencoder/test10.py", "a": 1000, "b": "hello"}
+{"filename": "bencoder/test10.py", "a": 7, "b": "ascii"}
+{"filename": "bencoder/test10.py", "a": -1000, "b": "utf8"}
+{"filename": "bencoder/test10.py", "a": 7, "b": "dict"}
+{"filename": "bencoder/test10.py", "a": 100, "b": "example"}
+{"filename": "bencoder/test10.py", "a": 1, "b": "python"}
+{"filename": "bencoder/test10.py", "a": -42, "b": "structure"}
+{"filename": "bencoder/test10.py", "a": -10, "b": "example"}
+{"filename": "bencoder/test10.py", "a": 999999, "b": "encode"}
+{"filename": "bencoder/test10.py", "a": -1, "b": "string"}
+{"filename": "bencoder/test10.py", "a": -42, "b": "bytes"}
+{"filename": "bencoder/test10.py", "a": 1000, "b": "complex"}
+{"filename": "bencoder/test10.py", "a": 0, "b": "bencoder"}
+{"filename": "bencoder/test10.py", "a": 7, "b": "simple"}
+{"filename": "bencoder/test10.py", "a": 2123, "b": "cpyubqrsvsqmddr"}
+{"filename": "bencoder/test10.py", "a": 636, "b": "e0llJytPOG4a4p8j6DQ8yO4z"}
+{"filename": "bencoder/test10.py", "a": 17, "b": "7OzyJ"}
+{"filename": "bencoder/test10.py", "a": 48734, "b": "936132"}
+{"filename": "bencoder/test10.py", "a": -808, "b": "XkoRXMZo9BN qXOQqUfM91Us35k55UQccTlWEus1"}
+{"filename": "bencoder/test10.py", "a": -842, "b": "IJbQ4BhVVnbigSlyXZYQz883rz7HhAJumCeQUsD8eNKJ"}
+{"filename": "bencoder/test10.py", "a": 695612, "b": "XGKOIBCIBQHEK"}
+{"filename": "bencoder/test10.py", "a": 924, "b": "eYzIpy"}
+{"filename": "bencoder/test10.py", "a": -465, "b": "184019562581"}
+{"filename": "bencoder/test10.py", "a": 254542, "b": "38eZioe6REfuxzonI b5VTjIqBsd88K9DLyghiMN"}
+{"filename": "bencoder/test10.py", "a": 44150, "b": "UDDRIRGBR"}
+{"filename": "bencoder/test10.py", "a": 229797, "b": "zvpbyxvydhilmhs"}
+{"filename": "bencoder/test10.py", "a": 471459, "b": "1zZrbfVxI2jshC9OeRskQ2Ae2j"}
+{"filename": "bencoder/test10.py", "a": 8701, "b": "JGUBBYQIPKNXHL"}
+{"filename": "bencoder/test10.py", "a": 432180, "b": "amsgo"}
+{"filename": "bencoder/test10.py", "a": 134171, "b": "OOKCPPHCHTW"}
+{"filename": "bencoder/test10.py", "a": 368702, "b": "32aks9W2MP5lg3z6HW3d7NHEbPkzOf38W"}
+{"filename": "bencoder/test10.py", "a": 35959, "b": "YgAaQxUtTinCu0EPomTq4hQwet2"}
+{"filename": "bencoder/test10.py", "a": 780288, "b": "TBBJSLMYX"}
+{"filename": "bencoder/test10.py", "a": 9348, "b": "gVkVYssoZrQawqqiFV65NjP6VQjyc1wVm"}
+{"filename": "bencoder/test10.py", "a": -232, "b": "2bldeTEisoc65 eYzp1nkkkGaFY4MGlt6hHTo0YsME7C"}
+{"filename": "bencoder/test10.py", "a": 609421, "b": "oRVjCaTPSoILrVFc s2S4gOMdsDbiFaVGNWKr0MS"}
+{"filename": "bencoder/test10.py", "a": 892764, "b": "DD2fim5Io2 Pr4z9CN"}
+{"filename": "bencoder/test10.py", "a": 2884, "b": "vrwazcxbziqdxrx"}
+{"filename": "bencoder/test10.py", "a": 104020, "b": "zgaHiS2jKXTDqLaODJTmveDAKXLtQbIo7zusLa"}
+{"filename": "bencoder/test10.py", "a": 955635, "b": "dQWzJSubdw3lRnZB5"}
+{"filename": "bencoder/test10.py", "a": 9415, "b": "H8hvO"}
+{"filename": "bencoder/test10.py", "a": 1510, "b": "29795"}
+{"filename": "bencoder/test10.py", "a": 742015, "b": "WuuMBWvAJGvpRrHA5CjkIiPHOs pkcJZve3ItAZb0vgg9eaY"}
+{"filename": "bencoder/test10.py", "a": 46, "b": "myQ8QrP0unU1xGh9u0RV448KqfWHD99SuTr5w9wRi"}
+{"filename": "bencoder/test10.py", "a": 5834, "b": "XIVXI"}
+{"filename": "bencoder/test10.py", "a": 484539, "b": "740420568727091"}
+{"filename": "bencoder/test10.py", "a": 799506, "b": "tcLNl6w bz1E9LsDrsbHbeh0jB9Z7plJIZ"}
+{"filename": "bencoder/test10.py", "a": 251, "b": "BZKVDYYOEUYMP"}
+{"filename": "bencoder/test10.py", "a": 69, "b": "DhDyOfYS"}
+{"filename": "bencoder/test10.py", "a": 454666, "b": "976289042316"}
+{"filename": "bencoder/test10.py", "a": 62, "b": "45Q70uSO9DpIf7qqa9CMS91y4SzBGG72WCls2QZZz"}
+{"filename": "bencoder/test10.py", "a": 5390, "b": "9r1rGXptqbewjEU7c rWq6do"}
+{"filename": "bencoder/test10.py", "a": 476, "b": "947319"}
+{"filename": "bencoder/test10.py", "a": 290517, "b": "84692"}
+{"filename": "bencoder/test11.py", "a": "number", "b": -123456, "c": "complex"}
+{"filename": "bencoder/test11.py", "a": "encode", "b": -999999, "c": "bencoder"}
+{"filename": "bencoder/test11.py", "a": "test", "b": -999999, "c": "string"}
+{"filename": "bencoder/test11.py", "a": "test", "b": -999999, "c": "hello"}
+{"filename": "bencoder/test11.py", "a": "python", "b": -999999, "c": "structure"}
+{"filename": "bencoder/test11.py", "a": "encode", "b": 255, "c": "bencoder"}
+{"filename": "bencoder/test11.py", "a": "random", "b": -42, "c": "world"}
+{"filename": "bencoder/test11.py", "a": "decode", "b": -999999, "c": "string"}
+{"filename": "bencoder/test11.py", "a": "number", "b": -1, "c": "simple"}
+{"filename": "bencoder/test11.py", "a": "value", "b": -255, "c": "list"}
+{"filename": "bencoder/test11.py", "a": "bytes", "b": -1, "c": "python"}
+{"filename": "bencoder/test11.py", "a": "value", "b": -10, "c": "number"}
+{"filename": "bencoder/test11.py", "a": "python", "b": -7, "c": "list"}
+{"filename": "bencoder/test11.py", "a": "list", "b": -123456, "c": "bencoder"}
+{"filename": "bencoder/test11.py", "a": "hello", "b": 0, "c": "bencoder"}
+{"filename": "bencoder/test11.py", "a": "ascii", "b": 1, "c": "string"}
+{"filename": "bencoder/test11.py", "a": "encode", "b": 0, "c": "value"}
+{"filename": "bencoder/test11.py", "a": "test", "b": -123456, "c": "string"}
+{"filename": "bencoder/test11.py", "a": "multiple", "b": 100, "c": "ascii"}
+{"filename": "bencoder/test11.py", "a": "list", "b": -42, "c": "hello"}
+{"filename": "bencoder/test11.py", "a": "pdrphoqxcapdky", "b": 26138, "c": "uvbyoms"}
+{"filename": "bencoder/test11.py", "a": "5ivmLiPblMar7uMkiKsu", "b": 58, "c": "wzcurrdvzwwqoe"}
+{"filename": "bencoder/test11.py", "a": "79898631", "b": 4957, "c": "Tlqt9cHzpgag4fGvUQUTSmF9tOM8SXLytlwD"}
+{"filename": "bencoder/test11.py", "a": "ySnVQ7XLxKYiU53Qs3sBhMBZ4MZGbmY4Krw1GVD", "b": 5880, "c": "6718997"}
+{"filename": "bencoder/test11.py", "a": "C1OcPkqkk", "b": 6646, "c": "xdtAgmUZLO12RQTCmWkpuWH1w VB7veiJF7Ml9hPSR5F"}
+{"filename": "bencoder/test11.py", "a": "ndlkonbere", "b": 15239, "c": "D7XilXgHSGHPu8MZoJGOPKsCSTxkIRsZBh7X8xfoQ8AfJA"}
+{"filename": "bencoder/test11.py", "a": "D9hIuhpXOCi7u0kUvwE6UdLu yMpcvCsnmCXgv7", "b": 994249, "c": "WBIGJJ"}
+{"filename": "bencoder/test11.py", "a": "944IozAhO xSs2j4Zp", "b": 2855, "c": "diyprhco"}
+{"filename": "bencoder/test11.py", "a": "jnvccgnsluirr", "b": 59412, "c": "yaUsF9GHmLnGdoSZteU22D28hMY3193DLgYclrGsioz5uwbh"}
+{"filename": "bencoder/test11.py", "a": "gygzrxskhetieai", "b": 290437, "c": "491709"}
+{"filename": "bencoder/test11.py", "a": "UQBGZWGFEQ", "b": 76, "c": "jinzffub"}
+{"filename": "bencoder/test11.py", "a": "jmumvpwsdhhk", "b": 45091, "c": "wPRb4qG87WLM zRjiJNfNZLWu7nSTYab"}
+{"filename": "bencoder/test11.py", "a": "i6iKxe9tIT28ySsOaeEcrDWvDwhrfk", "b": 111814, "c": "Up6Eah55cuDoycYWIX0wpG9FtPmK iYozgq3QRx"}
+{"filename": "bencoder/test11.py", "a": "pjNitlyecuhkCv", "b": 880266, "c": "FQQKSFJCLVH"}
+{"filename": "bencoder/test11.py", "a": "DSABPB", "b": -315, "c": "SI51Yt0EVRHV4e"}
+{"filename": "bencoder/test11.py", "a": "XYRATNC", "b": 398, "c": "lxkzgg"}
+{"filename": "bencoder/test11.py", "a": "2Pnmb9hUvLNerjJgeL6Ms7azZ4x6V9cKme", "b": 96, "c": "Q75maCupTfnuco9N yh91pYPrMGosDhBjcvRXiel2HW"}
+{"filename": "bencoder/test11.py", "a": "fqytmyinx", "b": 367, "c": "i9ijKtrQFigealW"}
+{"filename": "bencoder/test11.py", "a": "liL8vSjjoyfsPnQLnx9iaKJAVu", "b": 143335, "c": "CMZ36qo4CmZaE2IVGEqSmVZwEyo4n75M8fceI3CUyEW7k"}
+{"filename": "bencoder/test11.py", "a": "WCNXV", "b": 2726, "c": "5198954752"}
+{"filename": "bencoder/test11.py", "a": "KYFYZSEZAWEWZS", "b": 701169, "c": "PZIRSIBIX"}
+{"filename": "bencoder/test11.py", "a": "RwQa87Cl8YXlYd7Tg", "b": 45, "c": "DNAJHQCGIAYVBM"}
+{"filename": "bencoder/test11.py", "a": "HMUSUIILYH", "b": 630151, "c": "xohscxjvmluxyvi"}
+{"filename": "bencoder/test11.py", "a": "kpwjthulttfp", "b": 1452, "c": "094882813"}
+{"filename": "bencoder/test11.py", "a": "SZAYUWCLFI", "b": 465366, "c": "VYgq2GWuJZokRRBffASLWU0 O9Swc5u9KZbY1tT491khGFlz4lb"}
+{"filename": "bencoder/test11.py", "a": "wyqeam", "b": 23603, "c": "BZbYUpNBiqxUHu wTTm6yda5YMG6OMJbW0quzMH"}
+{"filename": "bencoder/test11.py", "a": "96474459", "b": 5263, "c": "3I7 vV2lENFEov43CPuOzgEUNSGdpKJqpJ"}
+{"filename": "bencoder/test11.py", "a": "k70vc5SxhEey0FZzx", "b": 622, "c": "QJTTXAWILIXVX"}
+{"filename": "bencoder/test11.py", "a": "LERJOZ", "b": -58, "c": "189221955482363"}
+{"filename": "bencoder/test11.py", "a": "PhDu9h08R 1MMivecTKSHKUz", "b": 675461, "c": "gl0GKTfRP5xSjh5zJUQYqXQWLZGwgp6XGl"}
+{"filename": "bencoder/test11.py", "a": "323645", "b": 299084, "c": "vSiWuwVK1oYt"}
+{"filename": "bencoder/test11.py", "a": "Zh70h2Ml6Fe3c7210Kh9UK6aADIw0rTvSIg5dbPMlsrM99", "b": 283390, "c": "AYZLUNBUQMVNUFP"}
+{"filename": "bencoder/test11.py", "a": "o4a6xxMKrrv7V", "b": 528210, "c": "DuRY9"}
+{"filename": "bencoder/test11.py", "a": "otofzh", "b": 42, "c": "y6xf88WhLhUxzI9ci2IXapsN25CBVZ3mGVy2AQ7plC1"}
+{"filename": "bencoder/test11.py", "a": "6025887715", "b": 15, "c": "4kp7IK4qBj0"}
+{"filename": "bencoder/test11.py", "a": "20390", "b": 84, "c": "j2t9d"}
+{"filename": "bencoder/test11.py", "a": "iQB8rg55oBryPdPrFW5HB1RLqcw81 XUm", "b": 55, "c": "vZZjPsKVCWQDVz6LnWa"}
+{"filename": "bencoder/test11.py", "a": "BEPSGDRIRBEZ", "b": 642067, "c": "KuNW AEloNWsHLyRf"}
+{"filename": "bencoder/test11.py", "a": "pltwmcllbaw", "b": 879, "c": "YUVukkuwgGl43wwFbZLgxv0vZTerYv0nu"}
+{"filename": "bencoder/test11.py", "a": "QyxxzgPi0KFzDohie3UIkJo2lBqsGnkQeKfDX6SVt655YiA", "b": 73, "c": "qFWdZYC15RO6iZPVsEhM8No5vsnqfB2Q393aB0r7OJ8c"}
+{"filename": "bencoder/test12.py", "a": "value", "b": "nested", "c": -255}
+{"filename": "bencoder/test12.py", "a": "structure", "b": "string", "c": 999999}
+{"filename": "bencoder/test12.py", "a": "complex", "b": "example", "c": -1}
+{"filename": "bencoder/test12.py", "a": "world", "b": "list", "c": 0}
+{"filename": "bencoder/test12.py", "a": "ascii", "b": "utf8", "c": -1}
+{"filename": "bencoder/test12.py", "a": "simple", "b": "hello", "c": -100}
+{"filename": "bencoder/test12.py", "a": "dict", "b": "utf8", "c": -42}
+{"filename": "bencoder/test12.py", "a": "bytes", "b": "nested", "c": 123456}
+{"filename": "bencoder/test12.py", "a": "utf8", "b": "python", "c": 100}
+{"filename": "bencoder/test12.py", "a": "encode", "b": "bytes", "c": 65535}
+{"filename": "bencoder/test12.py", "a": "simple", "b": "number", "c": -999999}
+{"filename": "bencoder/test12.py", "a": "string", "b": "bencoder", "c": 1000}
+{"filename": "bencoder/test12.py", "a": "list", "b": "world", "c": 100}
+{"filename": "bencoder/test12.py", "a": "encode", "b": "utf8", "c": 1000}
+{"filename": "bencoder/test12.py", "a": "string", "b": "utf8", "c": 1000}
+{"filename": "bencoder/test12.py", "a": "list", "b": "dict", "c": -1000}
+{"filename": "bencoder/test12.py", "a": "random", "b": "utf8", "c": 1000}
+{"filename": "bencoder/test12.py", "a": "nested", "b": "value", "c": 0}
+{"filename": "bencoder/test12.py", "a": "random", "b": "string", "c": -255}
+{"filename": "bencoder/test12.py", "a": "structure", "b": "test", "c": 999999}
+{"filename": "bencoder/test12.py", "a": "igasoqc", "b": "wgvdzmg", "c": 97629}
+{"filename": "bencoder/test12.py", "a": "homdmylfwu", "b": "ZKJsCNpyyCZSpxphOZzM024E4zMiJFanHcLgqiz", "c": 6088}
+{"filename": "bencoder/test12.py", "a": "bjqby", "b": "44706878033", "c": 255}
+{"filename": "bencoder/test12.py", "a": "rlivqurjahl", "b": "NHQSARKUJR", "c": 70}
+{"filename": "bencoder/test12.py", "a": "ezisackmbnajdg", "b": "kcpiermeukowfck", "c": 9254}
+{"filename": "bencoder/test12.py", "a": "meFSNBkoB0YS1jR28FKVFAzjkkOZPG7r8rrA5hsGJkKCvAR", "b": "Vn789tIfnh2yVj3", "c": 52428}
+{"filename": "bencoder/test12.py", "a": "jPd9dJVcShCkRSFWk7hjvRazni6vA9P7sFdgREe", "b": "tfxtzzmcvqbxbl", "c": 67}
+{"filename": "bencoder/test12.py", "a": "ceivydwz", "b": "Tkwh9108PslftG2L6gL6VFU6RIIQi Iy2", "c": 595505}
+{"filename": "bencoder/test12.py", "a": "un0nWMra8lERT", "b": "U8bPOCeKwagBIshjiHdJm", "c": 56}
+{"filename": "bencoder/test12.py", "a": "515825", "b": "AxmPiYdc8TQe EP4", "c": 459}
+{"filename": "bencoder/test12.py", "a": "vAOYYFB80hBEwFc5ksEp", "b": "JFM5EWGSKdhVEQM9uKdcaQiSlWpvh", "c": 8672}
+{"filename": "bencoder/test12.py", "a": "b0A5zt", "b": "PNDOUVHRF", "c": 138}
+{"filename": "bencoder/test12.py", "a": "fHnEk1l8HqkeLlPAEis", "b": "DKFEDHNWYEEKJG", "c": 52176}
+{"filename": "bencoder/test12.py", "a": "Lw14pmhAEROgZ NpeCI3fXc565H9PsKc5aB", "b": "94730255105020", "c": 589}
+{"filename": "bencoder/test12.py", "a": "4pRqZ7Svw1mkcr58ISz3N8D3WR7DASnoejCWuxzXBNwe", "b": "gqyrdioanw", "c": 594}
+{"filename": "bencoder/test12.py", "a": "ziwthLVwU2OFeXoUl2ePr5XulX49F6Is45GW", "b": "faotjlqgfl", "c": 414}
+{"filename": "bencoder/test12.py", "a": "90029702686592", "b": "GUSZRRY", "c": 653094}
+{"filename": "bencoder/test12.py", "a": "xmPUEva6a", "b": "52649", "c": 78}
+{"filename": "bencoder/test12.py", "a": "diPx3drhq8xTdBahG79i8MzjXQSf3ajODyJ17ZsFBzD", "b": "umpjyhbuw", "c": 524764}
+{"filename": "bencoder/test12.py", "a": "SUDGqBXm r3Za4tAHZApJrGr", "b": "rSAZ5rStrPIMTE", "c": 776}
+{"filename": "bencoder/test12.py", "a": "hSMMU5Dfu3tKOvEX3GITFBUb CrhPMHQtpbbQM2NsW7Ewy", "b": "ZDYUOGLGCZOMCS", "c": 57}
+{"filename": "bencoder/test12.py", "a": "OYPXTCYHXWXNH", "b": "HteSTBYDqV32z", "c": 377}
+{"filename": "bencoder/test12.py", "a": "HP5xdyfcwJA5Mte7vpU3FuiUP1XcZIPA1pOS6", "b": "4DNN17Cjkb1EGVkNVLzAlZ1JrTVat", "c": 9182}
+{"filename": "bencoder/test12.py", "a": "8nqfXHYg7WJDV4D87wLV", "b": "IGKJX", "c": 2816}
+{"filename": "bencoder/test12.py", "a": "44295944042", "b": "DPQYWGMTUW", "c": 51}
+{"filename": "bencoder/test12.py", "a": "0E2bL7ui xV4gWQe", "b": "MDCEHGLUU", "c": 1559}
+{"filename": "bencoder/test12.py", "a": "KYZfuKd7IYXPtYzoO MzFJ4KprfX30ryVjQd", "b": "6207462305", "c": 826}
+{"filename": "bencoder/test12.py", "a": "ksJHerxLXTjxiG2IOs8MO4ZO ZODt1Ae", "b": "nIewPgYIuGfI1jHV3zIcyrnx75h2dM4o0OhPCqdj1LOR", "c": 72503}
+{"filename": "bencoder/test12.py", "a": "iG2Bw5XMnkQL3707swzm7VkT3SmI8Ae8keOGj", "b": "bpvartcxmbygcqi", "c": 39981}
+{"filename": "bencoder/test12.py", "a": "j8PSRi33Yjb3D561pN13I0iCRr sGf24w9aZtUqcnoybNF8G", "b": "rHVy3XLF7C7FRwhQRZTJbNUFoai2hM olteSv0MKu2H", "c": 3291}
+{"filename": "bencoder/test12.py", "a": "VHJWCTWD", "b": "GMTHWFXOKBUZG", "c": 6138}
+{"filename": "bencoder/test12.py", "a": "awnoppvrrpc", "b": "h3FFMHloYRXDIB2ko2eJCCfLznz N7FhwBVkxCGaSXkkO0O6rNQ", "c": 95}
+{"filename": "bencoder/test12.py", "a": "oXsrMYS", "b": "phqstspmeejb", "c": 722}
+{"filename": "bencoder/test12.py", "a": "GWKVGIHFLUJQEI", "b": "HwtOZV3wKGr629ScFTc513L Ss0UPgZ9oMAS2EcQ8aIoYPYXqpQNnh", "c": 317610}
+{"filename": "bencoder/test12.py", "a": "dggejpwyvtp", "b": "YIIAD", "c": 533363}
+{"filename": "bencoder/test12.py", "a": "NIRNEDETYIN", "b": "0oBKGAQSg rVIBwxZWHJOgSQALDlyjuPlsA", "c": 8839}
+{"filename": "bencoder/test12.py", "a": "X4LEt8xABN", "b": "rX4FGRj8J", "c": 800375}
+{"filename": "bencoder/test12.py", "a": "52474525", "b": "1cDMMZIxzxm", "c": 25}
+{"filename": "bencoder/test12.py", "a": "xthclnl", "b": "uAkPEwkQnfHqdTWv5MyxiCazkQCUEyqQgZ05", "c": 482}
+{"filename": "bencoder/test12.py", "a": "kfaoyxhs", "b": "tgbsnhvwzrrne", "c": 68363}
+{"filename": "bencoder/test13.py", "a": "list", "b": "string", "c": "value"}
+{"filename": "bencoder/test13.py", "a": "random", "b": "encode", "c": "complex"}
+{"filename": "bencoder/test13.py", "a": "multiple", "b": "multiple", "c": "random"}
+{"filename": "bencoder/test13.py", "a": "example", "b": "utf8", "c": "hello"}
+{"filename": "bencoder/test13.py", "a": "complex", "b": "value", "c": "world"}
+{"filename": "bencoder/test13.py", "a": "number", "b": "bencoder", "c": "value"}
+{"filename": "bencoder/test13.py", "a": "data", "b": "test", "c": "bytes"}
+{"filename": "bencoder/test13.py", "a": "encode", "b": "bytes", "c": "dict"}
+{"filename": "bencoder/test13.py", "a": "nested", "b": "value", "c": "list"}
+{"filename": "bencoder/test13.py", "a": "utf8", "b": "value", "c": "test"}
+{"filename": "bencoder/test13.py", "a": "structure", "b": "random", "c": "example"}
+{"filename": "bencoder/test13.py", "a": "hello", "b": "list", "c": "dict"}
+{"filename": "bencoder/test13.py", "a": "nested", "b": "number", "c": "utf8"}
+{"filename": "bencoder/test13.py", "a": "complex", "b": "nested", "c": "simple"}
+{"filename": "bencoder/test13.py", "a": "structure", "b": "example", "c": "encode"}
+{"filename": "bencoder/test13.py", "a": "test", "b": "dict", "c": "test"}
+{"filename": "bencoder/test13.py", "a": "simple", "b": "hello", "c": "hello"}
+{"filename": "bencoder/test13.py", "a": "bytes", "b": "hello", "c": "bytes"}
+{"filename": "bencoder/test13.py", "a": "ascii", "b": "decode", "c": "value"}
+{"filename": "bencoder/test13.py", "a": "python", "b": "bencoder", "c": "test"}
+{"filename": "bencoder/test13.py", "a": "KLa9KD4nm0mOIY9", "b": "OY79z1yMLjstGSuC5MeNNwO8UnYRMpH2E4eyc4QuXOKKJHQIK", "c": "oU8KOU77Gwy wt9WAkhEadj88lh61j"}
+{"filename": "bencoder/test13.py", "a": "72434810467908", "b": "yvkZiy", "c": "8MgcMwHdCbwWfhRm"}
+{"filename": "bencoder/test13.py", "a": "63475", "b": "a1prDKzFUlaibvHrydpPXht4hwC7npA25Zvdt", "c": "bZkNCnVJWemcyR lfdvea52S42xrfkejqOxJ"}
+{"filename": "bencoder/test13.py", "a": "0eTxDtWnABctPsqLEB", "b": "WWQTOXIPE", "c": "gFlUu avDY74guMI9ni4xV2kSalLwQAOQ"}
+{"filename": "bencoder/test13.py", "a": "UFviK5cKpKKH0kCr4wXySY5a4HQGphuNyUE2FKTGTniZIg", "b": "ZXuImdXyeYwtAebJM1r3nfRI1", "c": "hwmryfwkt"}
+{"filename": "bencoder/test13.py", "a": "jriczivyxissxhq", "b": "X5h2lZp0Ld27ORzpprBDLGY 5qsemdcWcQ2mFUHNjaCwN690", "c": "pcicy"}
+{"filename": "bencoder/test13.py", "a": "ujamef", "b": "2gj4o wro8rimFNZ66", "c": "74855529"}
+{"filename": "bencoder/test13.py", "a": "UTIaUrYfKvlqFg60kBNm1O1ML", "b": "714549361", "c": "dRCY70E3yNLSYjplmgZKj0"}
+{"filename": "bencoder/test13.py", "a": "VDHQSVRACFN", "b": "PNByz2mBYyauskDAEPHwWyAkIKzSshsAzCmsW", "c": "iyTNo0E"}
+{"filename": "bencoder/test13.py", "a": "SCXWCJKKGKJBK", "b": "12684409", "c": "FEZFCSJNHAT"}
+{"filename": "bencoder/test13.py", "a": "fNKCR", "b": "I7Wb9jMu1JFone j73cXfiRWxYMDPhclP2", "c": "173374486"}
+{"filename": "bencoder/test13.py", "a": "oG0uarQbinDnuMk7orBVDesWRRU99950zTwrwdjbo0", "b": "Ie0HTeFHd8Xkb6iAOeY05Lkvxm yOMKhv", "c": "TtWIk0dFeMBr3kYMF3JC85 wRAiaeXBCWFzHcquJpB2kbgP"}
+{"filename": "bencoder/test13.py", "a": "tpZipMq9pgEUz4jiw4qdTXXCj", "b": "FLHQKK", "c": "sGl90EIZ"}
+{"filename": "bencoder/test13.py", "a": "BQBCKCQNVQ", "b": "tivtxvpgikp", "c": "8fC9H"}
+{"filename": "bencoder/test13.py", "a": "f71y1Z1ghbbIQnH6XrZYZ", "b": "EAFNCVUUUPWDOZV", "c": "YYCLECQVNCITXZQ"}
+{"filename": "bencoder/test13.py", "a": "cpjmuueferttmy", "b": "Rry6iIWKEGkeKueM588dfhLVcSmCpTmuEcAtyU", "c": "yztTVxf46oLtjJ"}
+{"filename": "bencoder/test13.py", "a": "ymufnb", "b": "aC5bvEwxMb4GtK1aCijVrd Y6mSv", "c": "CSNTTUTEKJLHAH"}
+{"filename": "bencoder/test13.py", "a": "qoehzbnsrihb", "b": "8X3Z3OT2JPKsNdTrD7HObzqKh6l5Qg57l1Z5jPR0HIRCusZ", "c": "q1Si0BlVr1jGGn6LxOp1OuIGoQH"}
+{"filename": "bencoder/test13.py", "a": "oltpifazed", "b": "WKIPBZUTSWZZF", "c": "d2YSXXiFjfYI dKoJXP"}
+{"filename": "bencoder/test13.py", "a": "8gDQW4gx6O", "b": "QG2iDFfyju6RP82dMQSFOKk8", "c": "ozbidznk"}
+{"filename": "bencoder/test13.py", "a": "LGPWGMCOYVH", "b": "F0sIboVLZhpowd6AM7UwDXSnsABaeduxW1SP9kc3zC7", "c": "Vkf6RvMrkThsHV5o1UAme00F7rpirpRb3onzG"}
+{"filename": "bencoder/test13.py", "a": "CKESMTHBMBPAPZ", "b": "spgrjklg", "c": "tbgfaljprlatelt"}
+{"filename": "bencoder/test13.py", "a": "6217731", "b": "aiemyfeojjha", "c": "ib6rMXKrgSRjjlG1lrB fjx5YRRzS24KWliVu"}
+{"filename": "bencoder/test13.py", "a": "THWVDIQ3tQdJFaZroxeVHRKVqL", "b": "Ge2iiReoemMypD7iN4hUcjW0vLdYwhKTVg7ofBmAPS9WJw7l", "c": "ydsocahjw"}
+{"filename": "bencoder/test13.py", "a": "HPV3ckyi6bL6HlA0uLFW6OQHo q3El45XlWsEGi94Xg5OFO81up9FKqL", "b": "qxWn wfEfsYNIGDSfvgc", "c": "V5W2idg3M1CySBtUqM3VyIFI5va TZkrKVe9p"}
+{"filename": "bencoder/test13.py", "a": "XgMELBEMfbgG4X1mWEk", "b": "XC00zq8Yh5PLi1QEuRGzMieOTO HTVl90I53dSZeDF9vBMyCSIWq", "c": "oY0D56 43Cm"}
+{"filename": "bencoder/test13.py", "a": "0evQwdOy5g4btZT8", "b": "zrQvvdyqchg47HUh9oWFn0SldXrR P7vlgfBQ73J8QsYenUWB", "c": "f6Pkj7Wqy6Q0"}
+{"filename": "bencoder/test13.py", "a": "EPohIrQw 8Deh13OVvTbtDU", "b": "BWUus", "c": "83106"}
+{"filename": "bencoder/test13.py", "a": "ucN15OTkJG EyNtMJZhj9Kv8UmpaU7iYFQBDAuWtt", "b": "86779318", "c": "rVZp Tm4hFQ2pb5J7wuNKMDu7ZOw5n"}
+{"filename": "bencoder/test13.py", "a": "3jEea7TT", "b": "HJcHi848x4e2DLjH3ogh43Mae7DqR", "c": "27jEyio4ACZJcqVcdXVGq nnEq9"}
+{"filename": "bencoder/test13.py", "a": "2987068", "b": "orsho", "c": "d9m9MdoW37OR39Hji5HQb4AAP6KKjpcQrUZF"}
+{"filename": "bencoder/test13.py", "a": "834588014926", "b": "06914563310", "c": "DRKRSGMKONGBN"}
+{"filename": "bencoder/test13.py", "a": "02276056189639", "b": "LWDOBKELSPD", "c": "LSFPXZUXNYTJQD"}
+{"filename": "bencoder/test13.py", "a": "YIIJUTM", "b": "GYBLKMIPO", "c": "oDdPLL"}
+{"filename": "bencoder/test13.py", "a": "uhrtizigriobkpm", "b": "pvBS6ArhAISEhrxnegYY9ncdWBrktILrcjRL3EBTRJ", "c": "QDACNGP"}
+{"filename": "bencoder/test13.py", "a": "1tRl6riQLCBK4MKX8TQyeDwE7jkAhQ7VY0oU", "b": "EQjwUurN9WPN5eGAH565gMAd8lmzN", "c": "NGeXKgKNBWX"}
+{"filename": "bencoder/test13.py", "a": "bZtsmqpvkMpWRcle9Ic7MvRUdy uba", "b": "uTB5crX1lcbq0kdF", "c": "JEqiIvj4gz24fmgb4IVmItKAH4jDVzTJXZkrF7gmZ"}
+{"filename": "bencoder/test13.py", "a": "ZZTADRRXETEPY", "b": "1UTrXUuC2qLPDSbxQUZN", "c": "CtwHrQIVIgN6z9E5ZVpZ"}
+{"filename": "bencoder/test13.py", "a": "4M79qJaThfH7BW6lVRmtTIdJTBiF", "b": "458004049868078", "c": "LRVJevzIoDoj1Vfkfi7P0dRxHWFANue8"}
+{"filename": "bencoder/test13.py", "a": "ZMAPLNOOTG", "b": "73uh8SOddn9ZhlhwnZOT3PXUwYjSe", "c": "ffnSWI5R3glVmA"}
+{"filename": "bencoder/test14.py", "a": -1000, "b": 7}
+{"filename": "bencoder/test14.py", "a": 1, "b": 65535}
+{"filename": "bencoder/test14.py", "a": 999999, "b": -1}
+{"filename": "bencoder/test14.py", "a": 1000, "b": -42}
+{"filename": "bencoder/test14.py", "a": 1000, "b": -123456}
+{"filename": "bencoder/test14.py", "a": -255, "b": -10}
+{"filename": "bencoder/test14.py", "a": 10, "b": 255}
+{"filename": "bencoder/test14.py", "a": 10, "b": -10}
+{"filename": "bencoder/test14.py", "a": -100, "b": -7}
+{"filename": "bencoder/test14.py", "a": -999999, "b": -123456}
+{"filename": "bencoder/test14.py", "a": 255, "b": 7}
+{"filename": "bencoder/test14.py", "a": 255, "b": 65535}
+{"filename": "bencoder/test14.py", "a": 123456, "b": -7}
+{"filename": "bencoder/test14.py", "a": 123456, "b": -42}
+{"filename": "bencoder/test14.py", "a": 123456, "b": 1000}
+{"filename": "bencoder/test14.py", "a": -10, "b": -1000}
+{"filename": "bencoder/test14.py", "a": 7, "b": -999999}
+{"filename": "bencoder/test14.py", "a": -255, "b": 65535}
+{"filename": "bencoder/test14.py", "a": 65535, "b": 999999}
+{"filename": "bencoder/test14.py", "a": -7, "b": -42}
+{"filename": "bencoder/test14.py", "a": 32673, "b": 896350}
+{"filename": "bencoder/test14.py", "a": 533, "b": 96}
+{"filename": "bencoder/test14.py", "a": 15, "b": 64860}
+{"filename": "bencoder/test14.py", "a": 862966, "b": 95}
+{"filename": "bencoder/test14.py", "a": 65, "b": 202526}
+{"filename": "bencoder/test14.py", "a": 86, "b": 649496}
+{"filename": "bencoder/test14.py", "a": 71, "b": 3}
+{"filename": "bencoder/test14.py", "a": 605, "b": 27169}
+{"filename": "bencoder/test14.py", "a": 688045, "b": 724421}
+{"filename": "bencoder/test14.py", "a": 227, "b": 155111}
+{"filename": "bencoder/test14.py", "a": 9287, "b": 16}
+{"filename": "bencoder/test14.py", "a": 728921, "b": 71}
+{"filename": "bencoder/test14.py", "a": -676, "b": 5312}
+{"filename": "bencoder/test14.py", "a": 90882, "b": 39}
+{"filename": "bencoder/test14.py", "a": 96668, "b": 118}
+{"filename": "bencoder/test14.py", "a": -792, "b": 64226}
+{"filename": "bencoder/test14.py", "a": 74, "b": 45265}
+{"filename": "bencoder/test14.py", "a": 201167, "b": 24452}
+{"filename": "bencoder/test14.py", "a": 131, "b": -379}
+{"filename": "bencoder/test14.py", "a": 911, "b": 4803}
+{"filename": "bencoder/test14.py", "a": 86048, "b": -93}
+{"filename": "bencoder/test14.py", "a": 7618, "b": 422468}
+{"filename": "bencoder/test14.py", "a": 520, "b": 535565}
+{"filename": "bencoder/test14.py", "a": 626, "b": 2475}
+{"filename": "bencoder/test14.py", "a": 47392, "b": 570}
+{"filename": "bencoder/test14.py", "a": 942488, "b": 4841}
+{"filename": "bencoder/test14.py", "a": 685189, "b": 396146}
+{"filename": "bencoder/test14.py", "a": 8697, "b": 511838}
+{"filename": "bencoder/test14.py", "a": 87, "b": 493}
+{"filename": "bencoder/test14.py", "a": 788921, "b": 698}
+{"filename": "bencoder/test14.py", "a": 9662, "b": 64}
+{"filename": "bencoder/test14.py", "a": 62941, "b": 444641}
+{"filename": "bencoder/test14.py", "a": 476114, "b": 11058}
+{"filename": "bencoder/test14.py", "a": 15604, "b": -439}
+{"filename": "bencoder/test14.py", "a": 791376, "b": 904453}
+{"filename": "bencoder/test14.py", "a": 2935, "b": 10}
+{"filename": "bencoder/test14.py", "a": 481868, "b": 302}
+{"filename": "bencoder/test14.py", "a": 65972, "b": 1562}
+{"filename": "bencoder/test14.py", "a": 163497, "b": -730}
+{"filename": "bencoder/test14.py", "a": 399407, "b": 8533}
+{"filename": "bencoder/test15.py", "a": "multiple", "b": 7, "c": "bencoder", "d": 7}
+{"filename": "bencoder/test15.py", "a": "bytes", "b": 42, "c": "simple", "d": -1}
+{"filename": "bencoder/test15.py", "a": "hello", "b": -10, "c": "utf8", "d": 10}
+{"filename": "bencoder/test15.py", "a": "python", "b": -123456, "c": "simple", "d": -42}
+{"filename": "bencoder/test15.py", "a": "bencoder", "b": -1000, "c": "list", "d": 1}
+{"filename": "bencoder/test15.py", "a": "test", "b": -255, "c": "ascii", "d": 10}
+{"filename": "bencoder/test15.py", "a": "dict", "b": 65535, "c": "bencoder", "d": -1000}
+{"filename": "bencoder/test15.py", "a": "value", "b": 10, "c": "bytes", "d": -42}
+{"filename": "bencoder/test15.py", "a": "simple", "b": 1, "c": "nested", "d": 1000}
+{"filename": "bencoder/test15.py", "a": "string", "b": 255, "c": "multiple", "d": -100}
+{"filename": "bencoder/test15.py", "a": "utf8", "b": 1000, "c": "bencoder", "d": -1}
+{"filename": "bencoder/test15.py", "a": "hello", "b": -999999, "c": "value", "d": -1}
+{"filename": "bencoder/test15.py", "a": "encode", "b": 1, "c": "dict", "d": 999999}
+{"filename": "bencoder/test15.py", "a": "bytes", "b": 7, "c": "test", "d": -10}
+{"filename": "bencoder/test15.py", "a": "python", "b": 1000, "c": "test", "d": -42}
+{"filename": "bencoder/test15.py", "a": "number", "b": 1000, "c": "list", "d": 0}
+{"filename": "bencoder/test15.py", "a": "multiple", "b": -100, "c": "simple", "d": 65535}
+{"filename": "bencoder/test15.py", "a": "structure", "b": 42, "c": "decode", "d": 0}
+{"filename": "bencoder/test15.py", "a": "simple", "b": 999999, "c": "encode", "d": 123456}
+{"filename": "bencoder/test15.py", "a": "random", "b": 42, "c": "nested", "d": -999999}
+{"filename": "bencoder/test15.py", "a": "brtptmnnikal", "b": 176, "c": "7loOmbkMR0dJJW", "d": 744288}
+{"filename": "bencoder/test15.py", "a": "RA3XW7IVNsqLGujMw2V6Yoon91LSUmxHSIoJ", "b": 85250, "c": "94080435174", "d": 308202}
+{"filename": "bencoder/test15.py", "a": "QqYSuNnMC", "b": 8793, "c": "XHnolBI3FcvbYm", "d": 428214}
+{"filename": "bencoder/test15.py", "a": "mbtMgMZR", "b": 98174, "c": "Ziqw6I w3dYIQFKLJPdOHxjoEAC7XlW89Sv", "d": 897994}
+{"filename": "bencoder/test15.py", "a": "DSQATELCDJNJT", "b": 590, "c": "0Qbyd2LzG0YZ2YU9UlDolU3LaETRQsiTxXPp6mktOe", "d": 958859}
+{"filename": "bencoder/test15.py", "a": "HOYINTGBBQVDOAC", "b": 673467, "c": "tqpkrblyufyi", "d": 41}
+{"filename": "bencoder/test15.py", "a": "8h1ANWhG2xNlmFFntMbDgr8gXL9grN0", "b": 38965, "c": "4gzFhUfoU RzK9QqgHM7yrmz78dXCLdnQPRAI1Z", "d": 20}
+{"filename": "bencoder/test15.py", "a": "FJAANI", "b": 37043, "c": "XETFFUZBWUVWMGE", "d": -908}
+{"filename": "bencoder/test15.py", "a": "VsI9coZxQTpzmhCpuwlBPWH nlTA7btKuJWq04oQiCTsh3MR", "b": 5237, "c": "3KJOG", "d": 384}
+{"filename": "bencoder/test15.py", "a": "zrWp7ZgI9VGD4n14Wl5Lhth24iscNmSNiLaCsHaBIXGC9w", "b": 745272, "c": "TdQdiy2mcVkW1qOaeGOw0KtpQvvDfP JbLMXY0mJMWL", "d": 230652}
+{"filename": "bencoder/test15.py", "a": "Cwz5y7B5eIaNqwYkvBBQmHq5H7b05c CDoyNZqdKYIi14sPFVSw1effz", "b": 77, "c": "tzbzr", "d": 535004}
+{"filename": "bencoder/test15.py", "a": "u9xIV8vVyYvvOxJBVRdFwqrx9bN3AGKxfnE4RP", "b": 298, "c": "afD35SrnkbtIXUEV21Ksw3VbsGWGIpm4jdDoKuFP", "d": 1463}
+{"filename": "bencoder/test15.py", "a": "MDGKHZYOXBT", "b": 290406, "c": "679701620936", "d": 519321}
+{"filename": "bencoder/test15.py", "a": "XZfc6r7qxEtAwV3Bv0HIyyTuc1y0XM53", "b": -865, "c": "uqrqqQER52wTa68CrLgIL6G27Anw62eN", "d": 312515}
+{"filename": "bencoder/test15.py", "a": "JbYPOVHv0JgG4ww2aEedMOaJ7eSJun fnOfK5pUTHghr5RekhUzozNgx", "b": 84971, "c": "tnwczsqorosci", "d": 38578}
+{"filename": "bencoder/test15.py", "a": "083012", "b": 76, "c": "nhnbbatpdaxzo", "d": 705821}
+{"filename": "bencoder/test15.py", "a": "22355200321", "b": 58533, "c": "aphsTQPPnYGcwLFWv8", "d": -458}
+{"filename": "bencoder/test15.py", "a": "97ust7HXP1u7lQ4H07e8VeQv", "b": 700999, "c": "363184498306394", "d": 26747}
+{"filename": "bencoder/test15.py", "a": "H05rskMyhdxN4Elddmyb4aa2HvqtI816JahUjI", "b": 17453, "c": "sfpPjeeZQkRuIJWVa", "d": 417613}
+{"filename": "bencoder/test15.py", "a": "IMYIB", "b": 951, "c": "xsFQsps2E9k1kSfSy2GGau6yX7OYIZ8", "d": 8543}
+{"filename": "bencoder/test15.py", "a": "Pit2f7o3XVaH5 xU25exvgSW3HN34gCeDbh9qa", "b": 8196, "c": "54182481", "d": 284598}
+{"filename": "bencoder/test15.py", "a": "TWBcxDfofgzAd WRyDjViiW55CqXnCODHVlrMIfrGIC", "b": 60, "c": "UJKKS", "d": 900}
+{"filename": "bencoder/test15.py", "a": "fMP8oseXdFBEW6SdAbk2h11ypcVWzh2Ld9K5J3Cq5bIMIhumN", "b": 1819, "c": "S8vSiHQgTvSvIk", "d": 315}
+{"filename": "bencoder/test15.py", "a": "6hcb3n6v0MnwOiKTjIk6uDo6LkOoiL", "b": -234, "c": "CYWVQSHFOHSRUXX", "d": 4355}
+{"filename": "bencoder/test15.py", "a": "4AyKN7aK2GEKRRUq", "b": 74847, "c": "7SMzdUoFHO0rXZqx0tfF0bAO579", "d": 99}
+{"filename": "bencoder/test15.py", "a": "pjhgzoyudktiuj", "b": 632409, "c": "pigjtuajbgs", "d": 512982}
+{"filename": "bencoder/test15.py", "a": "744244456189", "b": 732511, "c": "kvbnfdpfgdzp", "d": 857007}
+{"filename": "bencoder/test15.py", "a": "svpaEVKmyHE9SuF mEYXxyUsSK3KczokxiWCiPu", "b": 7733, "c": "4672868", "d": 65024}
+{"filename": "bencoder/test15.py", "a": "QYEROROASJJBM", "b": 190942, "c": "fsOXaVBB0C8k7SRCao ojXAsqeDvI7FNk1WICydZmhXx9U", "d": 625714}
+{"filename": "bencoder/test15.py", "a": "ihqhp", "b": 7942, "c": "LGGFVC", "d": 7877}
+{"filename": "bencoder/test15.py", "a": "tnrah", "b": 154513, "c": "SDOQBBGICX", "d": 207}
+{"filename": "bencoder/test15.py", "a": "Lert78nygiWbP2", "b": 122384, "c": "etyvroqmnhx", "d": 49}
+{"filename": "bencoder/test15.py", "a": "qP9Wzrji BCiEqbZlL7NlPU3", "b": 31691, "c": "oDsr6i", "d": 78566}
+{"filename": "bencoder/test15.py", "a": "rllkxcriycijdoy", "b": 325450, "c": "6DGosgQdmSdmP", "d": 665947}
+{"filename": "bencoder/test15.py", "a": "pwWjFbVqSIKmbKcg6kik4dK45I kwJ0jw2WipSOddpEruluDqrEeK4yU", "b": 497, "c": "KnxSo8mf3g52BRcqpJdfJrT7kSQ38d77QluPpcPW9k", "d": 137161}
+{"filename": "bencoder/test15.py", "a": "2253300912001", "b": 517, "c": "lzvqhdvt", "d": 328423}
+{"filename": "bencoder/test15.py", "a": "319561187853", "b": 335992, "c": "6065302249", "d": 46767}
+{"filename": "bencoder/test15.py", "a": "uF8zfW", "b": 299, "c": "YmNJH", "d": 6011}
+{"filename": "bencoder/test15.py", "a": "efXOE88GmuP1BPJA", "b": 28798, "c": "WLZXK", "d": 33140}
+{"filename": "bencoder/test15.py", "a": "7341546443106", "b": 59, "c": "ZVNKOU", "d": 841177}
+{"filename": "bencoder/test16.py", "a": "structure", "b": "test", "c": "bytes", "d": 0, "e": -7}
+{"filename": "bencoder/test16.py", "a": "random", "b": "hello", "c": "example", "d": 42, "e": -1}
+{"filename": "bencoder/test16.py", "a": "ascii", "b": "data", "c": "decode", "d": -999999, "e": -7}
+{"filename": "bencoder/test16.py", "a": "encode", "b": "ascii", "c": "nested", "d": 1, "e": 10}
+{"filename": "bencoder/test16.py", "a": "decode", "b": "world", "c": "python", "d": -123456, "e": -42}
+{"filename": "bencoder/test16.py", "a": "multiple", "b": "random", "c": "list", "d": 10, "e": -255}
+{"filename": "bencoder/test16.py", "a": "data", "b": "multiple", "c": "value", "d": 1000, "e": 65535}
+{"filename": "bencoder/test16.py", "a": "python", "b": "string", "c": "python", "d": -255, "e": -42}
+{"filename": "bencoder/test16.py", "a": "complex", "b": "value", "c": "value", "d": 100, "e": -10}
+{"filename": "bencoder/test16.py", "a": "list", "b": "python", "c": "complex", "d": 0, "e": 7}
+{"filename": "bencoder/test16.py", "a": "complex", "b": "utf8", "c": "random", "d": 1000, "e": 1000}
+{"filename": "bencoder/test16.py", "a": "number", "b": "list", "c": "dict", "d": -255, "e": 42}
+{"filename": "bencoder/test16.py", "a": "complex", "b": "hello", "c": "utf8", "d": -255, "e": 65535}
+{"filename": "bencoder/test16.py", "a": "dict", "b": "dict", "c": "data", "d": 123456, "e": 10}
+{"filename": "bencoder/test16.py", "a": "multiple", "b": "utf8", "c": "number", "d": -10, "e": -42}
+{"filename": "bencoder/test16.py", "a": "bytes", "b": "multiple", "c": "encode", "d": 123456, "e": 255}
+{"filename": "bencoder/test16.py", "a": "string", "b": "hello", "c": "encode", "d": -255, "e": 999999}
+{"filename": "bencoder/test16.py", "a": "world", "b": "encode", "c": "world", "d": 65535, "e": 1000}
+{"filename": "bencoder/test16.py", "a": "structure", "b": "world", "c": "number", "d": 42, "e": -100}
+{"filename": "bencoder/test16.py", "a": "data", "b": "complex", "c": "multiple", "d": 65535, "e": 0}
+{"filename": "bencoder/test16.py", "a": "XZWCTHHGGV", "b": "jF5sC8Rjrb20WoBHEM", "c": "3419352517", "d": 97, "e": 9336}
+{"filename": "bencoder/test16.py", "a": "2g6RYeFU9dupgvI", "b": "pbxrtrm", "c": "Yz6Oi5CFlzDYbyhL6VLodg5IAO2wS5 Lqc6QJzLrHUzzsE4c5Fel4gsDgElpi", "d": 865, "e": 5438}
+{"filename": "bencoder/test16.py", "a": "vKSuTQpxb7uSUc7sbzYDApI7 utj3W5Q5eiL4yjTa", "b": "kmG6mWdvatkZaJNSLiv61g0eP34Ua8", "c": "03929637644400", "d": -378, "e": -542}
+{"filename": "bencoder/test16.py", "a": "APGSCARYZA", "b": "Eah2WXdcnMhwiRPQchTdhnB", "c": "RNVLQNYOBT", "d": -426, "e": 763}
+{"filename": "bencoder/test16.py", "a": "edkbpzzwdv", "b": "tmCpF1kwzlzDlaMT8DvBA8iJNDuuHQZHRdUgEt", "c": "MZJFIMdA1T2CknWmI1CSyeMEbTWLk6", "d": 453923, "e": 101873}
+{"filename": "bencoder/test16.py", "a": "tBITs", "b": "0EpmV9VXpHt0NswwLzL", "c": "ulwxibhckcgy", "d": 89016, "e": 98754}
+{"filename": "bencoder/test16.py", "a": "Cduj lZBtOXqNfcRFouFzmXVx5yJC", "b": "7975375899", "c": "Hs0Z5w7MIQZNRnq1Hy2p0hw0FVKitaszl", "d": 765996, "e": 82150}
+{"filename": "bencoder/test16.py", "a": "9Us9t8YhO0RlS6JxurZNYX fFo", "b": "yljPm50NhNwa4RKl4ilzJf", "c": "3OBEHpA1Xt8D4SrttRDg78B 7IRzYyXikyujJIebJuDLWxUqM3", "d": -40, "e": 2652}
+{"filename": "bencoder/test16.py", "a": "9272188", "b": "BLZDumM4zC klkdjn0gDNEovX75l7ECBvF6E0AHLb", "c": "pwhpgfbdfuqtji", "d": -794, "e": 488252}
+{"filename": "bencoder/test16.py", "a": "4701224", "b": "IsiT0gNz1oktfRRr", "c": "567897509781", "d": 342453, "e": 16146}
+{"filename": "bencoder/test16.py", "a": "RAZVInht", "b": "C6srb04S EN77HuFX8CDiChZ", "c": "rzukzrkgxrsqfl", "d": -924, "e": 295931}
+{"filename": "bencoder/test16.py", "a": "7h0uS", "b": "FKBDNX", "c": "15152", "d": 690, "e": 62297}
+{"filename": "bencoder/test16.py", "a": "10020047", "b": "zWNsMG2y6ess94DZX hQHoq", "c": "uYgVFcm5Qpm2QHNfYlHDTJxmEWTLCZCipNBN3ONBgvoB", "d": -87, "e": 151073}
+{"filename": "bencoder/test16.py", "a": "qdjwwhbclif", "b": "tmjzvejnrzdzlxg", "c": "fzbwqykyowtws", "d": 571962, "e": 43888}
+{"filename": "bencoder/test16.py", "a": "155137035873988", "b": "9590309", "c": "uSCHLv To9t1c4TXn7w2e3dRa5mByFO7Ja9h", "d": 500295, "e": 333439}
+{"filename": "bencoder/test16.py", "a": "2YdUZiThzPzwF8WXjZCtAeuTlq6y8METjJ0fZyGD", "b": "PP9tZ1W6zS", "c": "tIcSEN 2tBq", "d": 30556, "e": 9374}
+{"filename": "bencoder/test16.py", "a": "9Jx586mH12par6U", "b": "BLXx2kWuJtVKRQ tPaCF0B", "c": "20xW6EMfcAKSDQRctN4q2iI0 3XYeLzo0FBJ", "d": 43, "e": 68189}
+{"filename": "bencoder/test16.py", "a": "eybkr", "b": "XYLZVAWSGCZKYH", "c": "wpthFLpYSwwt 7ivSh8HZrAj5j", "d": 7594, "e": 348047}
+{"filename": "bencoder/test16.py", "a": "axIIh8c8DDFcUuB NPp2aI2P5j0x0o7R6V7LylnfQkGNP3", "b": "hRSr2", "c": "669669311902364", "d": 239215, "e": 513872}
+{"filename": "bencoder/test16.py", "a": "dcpJooZAc4a36G9DfJMNzc3OJSC7dhFLw", "b": "cxsdaxzi", "c": "JATOSCFUODFYPSL", "d": 62, "e": 13005}
+{"filename": "bencoder/test16.py", "a": "prSokeH8XDds7jq", "b": "3Azk4NAitlEcVn1e", "c": "iuX3BDWZm6i3dXL1hUMOW", "d": 41740, "e": 78910}
+{"filename": "bencoder/test16.py", "a": "aiztbrze", "b": "awvurrqpqc", "c": "zCiikv3T2g", "d": 977, "e": 2209}
+{"filename": "bencoder/test16.py", "a": "Mfny5 Ohi0RcZFLtAcL2LyZa6R1oaxqovf", "b": "GQZBKRE", "c": "o4lFcwAZkOIJTcxdM4Cu", "d": 435, "e": 385489}
+{"filename": "bencoder/test16.py", "a": "CFJLKICLKDH", "b": "VMuVs2OjmfRtSCJAH", "c": "yWPCKga9RpUI6YZljJ4r8HCYzUBaZ q13H", "d": 54889, "e": 495176}
+{"filename": "bencoder/test16.py", "a": "Ic7OHJ6dyayi4FjNMCgSeW8WiJvfaOMHeYxap7qDddTjn30", "b": "hgxjlncxxwksf", "c": "LFPQD", "d": 6926, "e": 254}
+{"filename": "bencoder/test16.py", "a": "htfhxl", "b": "bQhKlCUrfaQlHuSpBVNDRUpjOba0z5 LXgqYI2VCGXpmonQJCbYcwiOcJ", "c": "53691287766318", "d": 77120, "e": 463}
+{"filename": "bencoder/test16.py", "a": "vzsiwmj", "b": "uz2izrtk766TDbuEc14XBgZAMS", "c": "235719", "d": 218269, "e": 643487}
+{"filename": "bencoder/test16.py", "a": "ejhN2m6h2Dc0 4IG7MJuAPXH8cib", "b": "gunqhfhiaqxtptb", "c": "GxIpLV3Sa", "d": 231152, "e": 965}
+{"filename": "bencoder/test16.py", "a": "8405288655329", "b": "Gh1OojNiFPM0XH77HqjC", "c": "88760171", "d": 36209, "e": 82}
+{"filename": "bencoder/test16.py", "a": "ROyAXkopygVNZoL1", "b": "Yc8afLJbAFYq4KWaPQU", "c": "uNAudlxVZwuOl2af7pJyIGi9Ss5", "d": 645, "e": 178}
+{"filename": "bencoder/test16.py", "a": "UDRWb", "b": "UuAkZTwC77DiMbkYAMqooAfUsIocDyHQMawix39", "c": "emE8LdZgBzLoaVbVqllulc BpEuubvc7CRZ5TXRDZKStm18", "d": 258284, "e": 388124}
+{"filename": "bencoder/test16.py", "a": "NCLJJIJBJQHCU", "b": "gsW7WYbD8HEbgWeHWoDycrYCHYe6R", "c": "1GxvmYVOPGVnXD0RS", "d": -177, "e": 691639}
+{"filename": "bencoder/test16.py", "a": "4uVGVWHMxtn3NObvMtIaaTwjTrk W8mYmDDlwrfhftW", "b": "zlzbvfcyzw", "c": "rUMNX2DWMwNsRpJVngsaUOtlLcV lTC6Ys9AqyQPhaNR8p7Q75qlu", "d": 656919, "e": 8429}
+{"filename": "bencoder/test16.py", "a": "fmxbjzhtp", "b": "jH3ma5S5oEYbeNEVCILwM", "c": "UXOMKKEVD", "d": 255918, "e": 894}
+{"filename": "bencoder/test16.py", "a": "QIZTJTZM", "b": "QFOEB1AZVnNNDxwr7BKOs2K 1LUg2Awd", "c": "FaLYbDIuHaOo", "d": 951116, "e": -58}
+{"filename": "bencoder/test16.py", "a": "J1JsKLP AmTAOYyiGr0lAo1g4", "b": "uCD3yxx", "c": "012364", "d": 955, "e": 326}
+{"filename": "bencoder/test16.py", "a": "7291673717198", "b": "rbofcyjagu", "c": "17200725203", "d": -193, "e": -170}
+{"filename": "bencoder/test16.py", "a": "123430353", "b": "095242", "c": "bcigt", "d": 795266, "e": 216442}
+{"filename": "bencoder/test16.py", "a": "4821719787", "b": "wnabmi", "c": "01fhprZ60BuqSOm09YSl7Eao0wc5 g2zhKUGP4zgj1wm0Ci8iqI", "d": 20, "e": 272051}
+{"filename": "bencoder/test16.py", "a": "MNKJAFNR", "b": "30755591312785", "c": "jitrazk", "d": 56299, "e": 938232}
+{"filename": "bencoder/test17.py", "a": -255, "b": "bytes"}
+{"filename": "bencoder/test17.py", "a": 7, "b": "encode"}
+{"filename": "bencoder/test17.py", "a": -999999, "b": "random"}
+{"filename": "bencoder/test17.py", "a": 65535, "b": "dict"}
+{"filename": "bencoder/test17.py", "a": -42, "b": "simple"}
+{"filename": "bencoder/test17.py", "a": 42, "b": "structure"}
+{"filename": "bencoder/test17.py", "a": 10, "b": "example"}
+{"filename": "bencoder/test17.py", "a": 7, "b": "dict"}
+{"filename": "bencoder/test17.py", "a": -42, "b": "ascii"}
+{"filename": "bencoder/test17.py", "a": -10, "b": "list"}
+{"filename": "bencoder/test17.py", "a": 1000, "b": "data"}
+{"filename": "bencoder/test17.py", "a": 0, "b": "test"}
+{"filename": "bencoder/test17.py", "a": 100, "b": "decode"}
+{"filename": "bencoder/test17.py", "a": -42, "b": "data"}
+{"filename": "bencoder/test17.py", "a": 7, "b": "random"}
+{"filename": "bencoder/test17.py", "a": -10, "b": "nested"}
+{"filename": "bencoder/test17.py", "a": 100, "b": "python"}
+{"filename": "bencoder/test17.py", "a": 255, "b": "complex"}
+{"filename": "bencoder/test17.py", "a": 7, "b": "utf8"}
+{"filename": "bencoder/test17.py", "a": 255, "b": "data"}
+{"filename": "bencoder/test17.py", "a": 72, "b": "OTLpXO OBHXpcB5R0LyevO2C5hd"}
+{"filename": "bencoder/test17.py", "a": 49, "b": "QOCecFRyE0Nh2iIe17R ajQP"}
+{"filename": "bencoder/test17.py", "a": -90, "b": "91081854"}
+{"filename": "bencoder/test17.py", "a": 3861, "b": "HIOJOZFGXXRWL"}
+{"filename": "bencoder/test17.py", "a": -581, "b": "7JPAiT 1iuWVbR1"}
+{"filename": "bencoder/test17.py", "a": 290, "b": "0uDdGR3cP8ctp05Tx7Snh9p58a8X8axk1sT8OT00V0DU4cZ1L"}
+{"filename": "bencoder/test17.py", "a": 15055, "b": "KNVu5WKj0950SJSrhhbkVFttwC3zIIxghlAd8AsLYgHhHeZ"}
+{"filename": "bencoder/test17.py", "a": 656, "b": "gynrjxq"}
+{"filename": "bencoder/test17.py", "a": 323423, "b": "wlgncedwexffa"}
+{"filename": "bencoder/test17.py", "a": 13, "b": "vwFRxLtKk6VBKOABJ9cce0MEyWPPYCoRNQGYDitdzAcF"}
+{"filename": "bencoder/test17.py", "a": 352, "b": "FXYASMWKIXEBXO"}
+{"filename": "bencoder/test17.py", "a": 865563, "b": "GZVnLyo2M0hCERGu3y0po5pWLviV PLKmmsvYDq8r01C5f7z6CdcLN497"}
+{"filename": "bencoder/test17.py", "a": 7386, "b": "LgqvZTlmTjul4lKw"}
+{"filename": "bencoder/test17.py", "a": 562, "b": "63844542826"}
+{"filename": "bencoder/test17.py", "a": 86433, "b": "iIgQA8e ChRyAmTB1n3Ozs85xYL8jqU8"}
+{"filename": "bencoder/test17.py", "a": 29104, "b": "Try3YqHRSDOAs NY49TlP1XRbfSCyDQaY87wIIk7a"}
+{"filename": "bencoder/test17.py", "a": 414, "b": "dxxbwktvkixfegb"}
+{"filename": "bencoder/test17.py", "a": 95801, "b": "sV6BuVGbapmlKE2fIGOFxluxkzGg38Vnfh2p6JRFz3fyPIkA1"}
+{"filename": "bencoder/test17.py", "a": 110, "b": "FDXvir8iYuYvUAotUuZOj"}
+{"filename": "bencoder/test17.py", "a": 9187, "b": "kzdvlkhzwzcx"}
+{"filename": "bencoder/test17.py", "a": 278, "b": "esntdhtuwq"}
+{"filename": "bencoder/test17.py", "a": -747, "b": "TFTQTK"}
+{"filename": "bencoder/test17.py", "a": 94, "b": "7549416422"}
+{"filename": "bencoder/test17.py", "a": -895, "b": "u7vJz64rXMsoyjp7"}
+{"filename": "bencoder/test17.py", "a": 56, "b": "ozmwtnsoaztjijf"}
+{"filename": "bencoder/test17.py", "a": 63766, "b": "FOZGMEFHTUF"}
+{"filename": "bencoder/test17.py", "a": 51319, "b": "48410028530993"}
+{"filename": "bencoder/test17.py", "a": 92486, "b": "0174448913"}
+{"filename": "bencoder/test17.py", "a": 1610, "b": "tefwoholrn"}
+{"filename": "bencoder/test17.py", "a": 14009, "b": "ugxygp"}
+{"filename": "bencoder/test17.py", "a": 74698, "b": "rjzusa"}
+{"filename": "bencoder/test17.py", "a": 571, "b": "gQCWjabw17kpq5pTqjwcOJo7a5OvyK5gE6AhqC5vgz1rPeg2h4"}
+{"filename": "bencoder/test17.py", "a": 90940, "b": "dou766WOHRObOCYqef 7ScOSoPgJMIRRzRxh"}
+{"filename": "bencoder/test17.py", "a": 64597, "b": "1704874953466"}
+{"filename": "bencoder/test17.py", "a": 1492, "b": "aUeVmsQ7Pf753hlHIqxZoOy4g5 7pll7WA73iYpOYT0pVv"}
+{"filename": "bencoder/test17.py", "a": 83376, "b": "Qao35z87RRDLCP6ONAwbVq9OmRbh 9T91gbPAjxWjmaVdLc6yx9o"}
+{"filename": "bencoder/test17.py", "a": 58800, "b": "WVPGP"}
+{"filename": "bencoder/test17.py", "a": 833, "b": "u0I38RgX"}
+{"filename": "bencoder/test17.py", "a": 838432, "b": "E3bVQX2joK3DfSWnVT5lLDsLIgv2eS MHHEqBgmppAoUxRhUH2b"}
+{"filename": "bencoder/test17.py", "a": 52375, "b": "dimjubibxfsz"}
+{"filename": "bencoder/test18.py", "a": "decode", "b": -1, "c": "bytes", "d": -7}
+{"filename": "bencoder/test18.py", "a": "encode", "b": 42, "c": "value", "d": -10}
+{"filename": "bencoder/test18.py", "a": "random", "b": 255, "c": "bytes", "d": 0}
+{"filename": "bencoder/test18.py", "a": "string", "b": -100, "c": "random", "d": -255}
+{"filename": "bencoder/test18.py", "a": "bytes", "b": 1000, "c": "world", "d": -123456}
+{"filename": "bencoder/test18.py", "a": "random", "b": 100, "c": "ascii", "d": 123456}
+{"filename": "bencoder/test18.py", "a": "ascii", "b": 7, "c": "string", "d": 100}
+{"filename": "bencoder/test18.py", "a": "nested", "b": 123456, "c": "number", "d": 10}
+{"filename": "bencoder/test18.py", "a": "bytes", "b": -7, "c": "string", "d": 42}
+{"filename": "bencoder/test18.py", "a": "python", "b": -1000, "c": "random", "d": -7}
+{"filename": "bencoder/test18.py", "a": "utf8", "b": -7, "c": "value", "d": -42}
+{"filename": "bencoder/test18.py", "a": "encode", "b": 0, "c": "python", "d": -1}
+{"filename": "bencoder/test18.py", "a": "encode", "b": -123456, "c": "encode", "d": 42}
+{"filename": "bencoder/test18.py", "a": "decode", "b": -1000, "c": "structure", "d": -42}
+{"filename": "bencoder/test18.py", "a": "encode", "b": -999999, "c": "number", "d": -100}
+{"filename": "bencoder/test18.py", "a": "utf8", "b": -1, "c": "nested", "d": 10}
+{"filename": "bencoder/test18.py", "a": "structure", "b": -123456, "c": "bytes", "d": 100}
+{"filename": "bencoder/test18.py", "a": "multiple", "b": 42, "c": "list", "d": -255}
+{"filename": "bencoder/test18.py", "a": "complex", "b": -100, "c": "random", "d": 10}
+{"filename": "bencoder/test18.py", "a": "complex", "b": 7, "c": "number", "d": -7}
+{"filename": "bencoder/test18.py", "a": "9936451", "b": 9514, "c": "72894092326567", "d": 908125}
+{"filename": "bencoder/test18.py", "a": "rIeodKmIvFKuZLtCkmjLGbWJydNdSwTMVJAPJTR0", "b": 670497, "c": "VPIJRBXZEVWPBCL", "d": 984}
+{"filename": "bencoder/test18.py", "a": "MUQANK", "b": 315, "c": "5979269655", "d": 413}
+{"filename": "bencoder/test18.py", "a": "ifnolljbmtlm", "b": 8902, "c": "RGLQKQBMK", "d": 278}
+{"filename": "bencoder/test18.py", "a": "qbofgfgyhef", "b": 327341, "c": "UHXVLIFONJEWU", "d": 467213}
+{"filename": "bencoder/test18.py", "a": "YGtHnP9DZaaaljfDIgDHd1nM2De YbICKRgd1WZAcu3rjYfk", "b": 770, "c": "LZRYMZMFXD", "d": 213858}
+{"filename": "bencoder/test18.py", "a": "INVNSUVIYW", "b": 571885, "c": "nHWCLN5JGOXOcpb", "d": -972}
+{"filename": "bencoder/test18.py", "a": "c98AhvZt4TKqFHIusc", "b": 637357, "c": "212324453", "d": 7705}
+{"filename": "bencoder/test18.py", "a": "76869263", "b": 29103, "c": "DSFMRMFFUEJFYV", "d": 56134}
+{"filename": "bencoder/test18.py", "a": "14320721", "b": 61, "c": "nuiZFLL3y4Gul39Ed6wQml8FY", "d": 22879}
+{"filename": "bencoder/test18.py", "a": "88aT5LRqkWxIlgIMb6CfzXI7P27D", "b": 3994, "c": "8730696172493", "d": 2038}
+{"filename": "bencoder/test18.py", "a": "Fm2HAiHtP", "b": 811, "c": "S5nc6HHkHfQZl9sm6", "d": 933}
+{"filename": "bencoder/test18.py", "a": "7985417137322", "b": 982, "c": "dwWtNHxPVUK", "d": 132829}
+{"filename": "bencoder/test18.py", "a": "VJNDPCzzDG9cneSf284EdPWEsm04E3I5UAfPioey49R5vv", "b": 533722, "c": "vkcbhlqx", "d": 367}
+{"filename": "bencoder/test18.py", "a": "2PXqZ8NLfqwkHui9yhPBJ9R antP7dp9xEoOMpZPKUysMfdOcbce", "b": 62290, "c": "228232559", "d": 907}
+{"filename": "bencoder/test18.py", "a": "8YgCdvgQFDMiMOMs2ntYFK5j cgaObD", "b": 76916, "c": "ezgkmsipiedj", "d": 46341}
+{"filename": "bencoder/test18.py", "a": "MvLToqBVktDwtq5kAgNzPo1AcvNTxJ1JsxYim", "b": 33269, "c": "cchsp", "d": 97935}
+{"filename": "bencoder/test18.py", "a": "CENMZAT", "b": 881855, "c": "Ar6KyJ68Hs70p", "d": 8189}
+{"filename": "bencoder/test18.py", "a": "dKltWMC5vw3qUq", "b": 819542, "c": "69607238963", "d": 961737}
+{"filename": "bencoder/test18.py", "a": "n5tYy3UsCBxNECyY2VjnQ VvTmr", "b": 917719, "c": "8FaodDnCoOrjHmmibp5KDsiXFnVubM9NW7", "d": 137977}
+{"filename": "bencoder/test18.py", "a": "ntLFoGQ7EUro7WOE", "b": 36269, "c": "zK52ub3ULk4uoIy0Y5e35lfDtgl4e2tsOwIGYWL917kHHv", "d": 3431}
+{"filename": "bencoder/test18.py", "a": "4RJ9H6U", "b": 472, "c": "epemvcgld", "d": 526}
+{"filename": "bencoder/test18.py", "a": "JzUHlTcO", "b": 6443, "c": "7BkM4KUrSOHCZr3irSEEbwycwHGFrPH6c84te6EEr", "d": 297571}
+{"filename": "bencoder/test18.py", "a": "foEGx", "b": 274200, "c": "odotjkr", "d": 66}
+{"filename": "bencoder/test18.py", "a": "54162352357", "b": 77904, "c": "OCAJXCBQ", "d": 181}
+{"filename": "bencoder/test18.py", "a": "BNYUQ", "b": 186, "c": "636124", "d": 70050}
+{"filename": "bencoder/test18.py", "a": "F8fDpIcaMQAmos", "b": 308, "c": "YEXUZAHEFCK", "d": 601}
+{"filename": "bencoder/test18.py", "a": "QJCUQA", "b": 785, "c": "q10o4", "d": 974}
+{"filename": "bencoder/test18.py", "a": "AYJAREKLQSIGIT", "b": 600, "c": "YJfHhGSYGnOXujmHNciFYah7OM8", "d": 634}
+{"filename": "bencoder/test18.py", "a": "WOYCALHNH", "b": 52357, "c": "duumzsxrum", "d": 83}
+{"filename": "bencoder/test18.py", "a": "BPsYDN1Z9 y9IYFOvI", "b": 419, "c": "MrcRWH7jL2zGywv 1A1BJOJqudT8lTu4UmMTNpl0aRNUU", "d": 72}
+{"filename": "bencoder/test18.py", "a": "ptjdqsjrnkfbqqz", "b": 4935, "c": "DREFASN", "d": 97097}
+{"filename": "bencoder/test18.py", "a": "YHvs1jTVPCvvjiam5Cr", "b": 7584, "c": "4kId7VV6tNp9x8XSnTzaHFpTa6 fPWXTR1wlpqSxid5ksSN3YAqFfmU", "d": 3090}
+{"filename": "bencoder/test18.py", "a": "WHRDOQAUV", "b": 831, "c": "ymzzqgihy", "d": 728}
+{"filename": "bencoder/test18.py", "a": "I1iOpK6ln9xp8XBR9Ga2hEqJp", "b": 99073, "c": "mtqdmiht", "d": 861505}
+{"filename": "bencoder/test18.py", "a": "FPCLIOHULXJLRIQ", "b": 65, "c": "7msmhoPX", "d": 4882}
+{"filename": "bencoder/test18.py", "a": "HnBd644Y3ujM 4RKi5GiwBLHvVCm1Ew", "b": 14083, "c": "jUaBdy84IryJNB", "d": 855}
+{"filename": "bencoder/test18.py", "a": "VYSKSBPNMLV", "b": 715926, "c": "RmPRu24rTlZwwXfi4wSCjw3gCHNNbJgSYjxmzMt7WR", "d": 345627}
+{"filename": "bencoder/test18.py", "a": "RVNVLT", "b": 5540, "c": "FNRMEJISRMWMH", "d": 243890}
+{"filename": "bencoder/test18.py", "a": "ciCt qYOm0HKuZuw8YLBTAHji64n", "b": -10, "c": "grgfiwoximfn", "d": -628}
+{"filename": "bencoder/test19.py", "a": "hello", "b": -7, "c": "value", "d": "bytes", "e": -1000}
+{"filename": "bencoder/test19.py", "a": "string", "b": -255, "c": "value", "d": "nested", "e": -255}
+{"filename": "bencoder/test19.py", "a": "nested", "b": -7, "c": "decode", "d": "number", "e": 123456}
+{"filename": "bencoder/test19.py", "a": "decode", "b": -123456, "c": "python", "d": "data", "e": 100}
+{"filename": "bencoder/test19.py", "a": "test", "b": -42, "c": "multiple", "d": "number", "e": -123456}
+{"filename": "bencoder/test19.py", "a": "python", "b": 999999, "c": "value", "d": "example", "e": 10}
+{"filename": "bencoder/test19.py", "a": "complex", "b": 42, "c": "ascii", "d": "decode", "e": -999999}
+{"filename": "bencoder/test19.py", "a": "dict", "b": 255, "c": "bytes", "d": "structure", "e": -1000}
+{"filename": "bencoder/test19.py", "a": "python", "b": -999999, "c": "test", "d": "nested", "e": -123456}
+{"filename": "bencoder/test19.py", "a": "test", "b": -10, "c": "example", "d": "example", "e": 1000}
+{"filename": "bencoder/test19.py", "a": "nested", "b": -999999, "c": "example", "d": "bencoder", "e": 1}
+{"filename": "bencoder/test19.py", "a": "complex", "b": 1000, "c": "decode", "d": "simple", "e": -42}
+{"filename": "bencoder/test19.py", "a": "data", "b": -999999, "c": "ascii", "d": "complex", "e": -123456}
+{"filename": "bencoder/test19.py", "a": "complex", "b": -1, "c": "decode", "d": "encode", "e": 10}
+{"filename": "bencoder/test19.py", "a": "bytes", "b": 999999, "c": "bencoder", "d": "string", "e": 1000}
+{"filename": "bencoder/test19.py", "a": "bencoder", "b": 0, "c": "multiple", "d": "multiple", "e": -255}
+{"filename": "bencoder/test19.py", "a": "python", "b": 1000, "c": "structure", "d": "nested", "e": -123456}
+{"filename": "bencoder/test19.py", "a": "encode", "b": 10, "c": "encode", "d": "utf8", "e": -999999}
+{"filename": "bencoder/test19.py", "a": "bytes", "b": -1, "c": "decode", "d": "list", "e": -42}
+{"filename": "bencoder/test19.py", "a": "data", "b": -10, "c": "bytes", "d": "hello", "e": -999999}
+{"filename": "bencoder/test19.py", "a": "ah4tn9i5HSlUu0b", "b": 191759, "c": "FAYi6wZJlVvsA5Gc6QdGIoUVvJusvzzCXmoMCZMu0gud4", "d": "IB03NyswbOXIvN4o410I84VJSobCwp lBEX4j1pUI", "e": 992845}
+{"filename": "bencoder/test19.py", "a": "1149418", "b": 440712, "c": "ZUZWTJDV", "d": "0UnxTGflGB9", "e": 660296}
+{"filename": "bencoder/test19.py", "a": "LwvlvR7iL", "b": 879715, "c": "278136575246", "d": "XmRMGSSoG5UwigKkgn12mqARlTD DgibWXR0hQfxJ8Qj5SXIR", "e": 845464}
+{"filename": "bencoder/test19.py", "a": "QYEJQKXUJFBGICP", "b": 395052, "c": "JPXSR pR4sAoqZQYJlyPTF", "d": "owymu", "e": 493561}
+{"filename": "bencoder/test19.py", "a": "nNREZah5nUSsL26", "b": 133, "c": "709011690498117", "d": "kDsvbnn9 uqLM2GFv", "e": 12973}
+{"filename": "bencoder/test19.py", "a": "ptYV6O45fjRLqS0yN991UEAK171q7", "b": 649, "c": "397982111", "d": "8945852341", "e": 949093}
+{"filename": "bencoder/test19.py", "a": "53dzSvtanGk AGf0elsZmay9y8xpRWxh7KKoIF91", "b": 201, "c": "xeDitaYNYU2YN8z3 apm", "d": "3603051601", "e": 20257}
+{"filename": "bencoder/test19.py", "a": "tlvtjit", "b": -867, "c": "c9u ORu", "d": "gdclg", "e": 474}
+{"filename": "bencoder/test19.py", "a": "EDAQJY", "b": 511, "c": "TOS8YYpEgNexwICCp FPW33Bmr1Eo6gC7MD", "d": "cj2bnoAqQO8H11 wJc4CabpOt", "e": 837231}
+{"filename": "bencoder/test19.py", "a": "22dT2ZPmvwGVOU6jYjqBLF", "b": 713099, "c": "2330906579450", "d": "ZOUKFAEXNHBSG", "e": 576638}
+{"filename": "bencoder/test19.py", "a": "EbXnW2iPhKZNZ6UwJy4dVj48NI0mg3Q", "b": 934182, "c": "BAKfmFgpKuwzsSnKKPClwBY9v64J", "d": "vqiytrcimoe", "e": 978830}
+{"filename": "bencoder/test19.py", "a": "uA4vSUVHhueCR6csuJtH6Ol2fukpi82yKpaAyeZAewQs", "b": 182, "c": "5016460181301", "d": "MgH88X6oXUO5kk9S", "e": 686}
+{"filename": "bencoder/test19.py", "a": "pVRKxt5h1d 4Eh26k2a7dOZJzuIPP", "b": -635, "c": "RLIqsS3xsHOxI", "d": "NQBRSI", "e": 21818}
+{"filename": "bencoder/test19.py", "a": "15415030", "b": 722306, "c": "FONZWECWVJJHAK", "d": "KZMQwwnAZW21BiucI65NSdzhhkegxm xtGT346toue2Dq8UXlO", "e": 75}
+{"filename": "bencoder/test19.py", "a": "fNDw OopCVBNIJvnEKc399gCTanb2oEfG", "b": 426780, "c": "pv4I1H4YKV UYVZCoMtIWOvD68RzSGs", "d": "129970", "e": 834828}
+{"filename": "bencoder/test19.py", "a": "DcEgzZRB0qhbeIPr8YbHl6Yh1 hSuLTgSayIabqEv", "b": 842475, "c": "hrntqqqcyulg", "d": "7591080", "e": 248}
+{"filename": "bencoder/test19.py", "a": "HmLcdWv9ce8fgDYcXT", "b": 831543, "c": "aKfkFXdlHFZ01GVAelJzggQa dEy8gN", "d": "EMPqBMK4MUdFuJRsdFL", "e": 942396}
+{"filename": "bencoder/test19.py", "a": "CHEPZPLRW", "b": 495, "c": "qw9iUdRS1HDRrOlN96qiDL2pNSx0", "d": "szvnkyn", "e": 134}
+{"filename": "bencoder/test19.py", "a": "K8b8FJ40Zeaof4XkYLMad4Y1iZ1WddZK", "b": 27, "c": "90594", "d": "BCpReLm1loEGdBYibEkm25nf0f LDNNicxx", "e": 93}
+{"filename": "bencoder/test19.py", "a": "oCN8DvJVAJAoDzyA433CCDV8eRptIibz", "b": 48452, "c": "JfVAkdB4btdQkMyuPdaF1lkM0NyzK03FvJEYvnDDceJ", "d": "W9bDwPzHftQ", "e": 956}
+{"filename": "bencoder/test19.py", "a": "lutkod", "b": 102, "c": "htmvjmajhzws", "d": "fmainb", "e": 59537}
+{"filename": "bencoder/test19.py", "a": "9876465", "b": 823670, "c": "7493268", "d": "BEBYZYYN", "e": 418}
+{"filename": "bencoder/test19.py", "a": "035053579722", "b": -466, "c": "428181", "d": "vnscha", "e": 27692}
+{"filename": "bencoder/test19.py", "a": "BXIo1zdfyQLW", "b": 4335, "c": "OaN5CpTufN1omgASUKhbSDwS3Cbdcxqm0h2PWAq84v67", "d": "xutiw", "e": 822}
+{"filename": "bencoder/test19.py", "a": "EIKRXCONLRECP", "b": 1974, "c": "qdyhzapdfxqlc", "d": "SzoukllItqoG3", "e": 7461}
+{"filename": "bencoder/test19.py", "a": "7052270694", "b": 181505, "c": "JmqXWI9", "d": "HCVZNC", "e": 5664}
+{"filename": "bencoder/test19.py", "a": "44366489816", "b": 3507, "c": "oTnrf4aKooIu0myF", "d": "NGlzX3e8DYoZD", "e": 87279}
+{"filename": "bencoder/test19.py", "a": "05387141283574", "b": 43668, "c": "07265685507038", "d": "t5tT0hZ9AnateRCUQALUxpgZOdUtz2 HNP0yVGHjPbiXPfORMnFJTqGshwDfP", "e": 66}
+{"filename": "bencoder/test19.py", "a": "05957008657379", "b": 998150, "c": "wirswda", "d": "vZIiEtwq2qxUj477P9", "e": 177}
+{"filename": "bencoder/test19.py", "a": "099179210040308", "b": 3, "c": "hwxliepoik", "d": "GFOSMEQYIHGDKWD", "e": 741490}
+{"filename": "bencoder/test19.py", "a": "OXKFUPYVJHIBOU", "b": 3122, "c": "CoQEKIhCkT6GQvuifpxOogh7vYqmnl", "d": "jhgvqkmrjbtmdh", "e": 4248}
+{"filename": "bencoder/test19.py", "a": "TGBAKHCNOB", "b": 690, "c": "AgGDNElfjGFeCwJEx7T9CnOeNV4sKNKoDaHF7T7Os0dbGTc9j5", "d": "7440091669", "e": 312187}
+{"filename": "bencoder/test19.py", "a": "57302364", "b": 332, "c": "wyp0RpYiLzWbBQay7HCG", "d": "mhqpflevgyct", "e": 81197}
+{"filename": "bencoder/test19.py", "a": "FGSBZBT", "b": 31227, "c": "8sGClO7E42MIS", "d": "46497095", "e": 1526}
+{"filename": "bencoder/test19.py", "a": "xsVbUd3XLYm8M5rpJfmiv5knoxjoxryVAISAXYuP", "b": 78, "c": "sienEg9Tu961RzIipC5ISMsb6JUWpWr", "d": "997966838351", "e": 62}
+{"filename": "bencoder/test19.py", "a": "6MvnJdv", "b": 3168, "c": "wqbafqtdkal", "d": "pnfpc", "e": 977502}
+{"filename": "bencoder/test19.py", "a": "NVPFFGTQB", "b": 8251, "c": "PFs7qQa8hrho rJz0xSB055TTJMNyFSSObdZDa", "d": "2800461310", "e": 639}
+{"filename": "bencoder/test19.py", "a": "kRU3vGuMrmu3YV", "b": 429, "c": "E9JW75em8Opa8LawrTr2ajMLuMHY", "d": "Nb2qj4zaFhYnL", "e": 736391}
+{"filename": "bencoder/test19.py", "a": "JNTMF", "b": 606, "c": "751866567", "d": "WHGOGOTPMNHB", "e": 292239}
+{"filename": "bencoder/test19.py", "a": "2396681", "b": 3630, "c": "dpqqAzgE bHbBoqInqPcxzpInm1H5qEz", "d": "8oZPnwp6uqldYyJuAojxlB olWzq1s15msGmLQTEOI94zSO", "e": 688}
+{"filename": "bencoder/test2.py", "a": "list"}
+{"filename": "bencoder/test2.py", "a": "number"}
+{"filename": "bencoder/test2.py", "a": "decode"}
+{"filename": "bencoder/test2.py", "a": "hello"}
+{"filename": "bencoder/test2.py", "a": "encode"}
+{"filename": "bencoder/test2.py", "a": "number"}
+{"filename": "bencoder/test2.py", "a": "data"}
+{"filename": "bencoder/test2.py", "a": "bencoder"}
+{"filename": "bencoder/test2.py", "a": "ascii"}
+{"filename": "bencoder/test2.py", "a": "world"}
+{"filename": "bencoder/test2.py", "a": "hello"}
+{"filename": "bencoder/test2.py", "a": "list"}
+{"filename": "bencoder/test2.py", "a": "complex"}
+{"filename": "bencoder/test2.py", "a": "list"}
+{"filename": "bencoder/test2.py", "a": "value"}
+{"filename": "bencoder/test2.py", "a": "world"}
+{"filename": "bencoder/test2.py", "a": "example"}
+{"filename": "bencoder/test2.py", "a": "number"}
+{"filename": "bencoder/test2.py", "a": "multiple"}
+{"filename": "bencoder/test2.py", "a": "list"}
+{"filename": "bencoder/test2.py", "a": "YJBUISTLN"}
+{"filename": "bencoder/test2.py", "a": "gckimc"}
+{"filename": "bencoder/test2.py", "a": "su4nM"}
+{"filename": "bencoder/test2.py", "a": "ROFEnnkZk1ChcKFK08v25wbNHklJJb5d3h7DWe3mz"}
+{"filename": "bencoder/test2.py", "a": "39240062273"}
+{"filename": "bencoder/test2.py", "a": "nfmXYtn17Sx4qA95PY8Vtjq 5HA4Erax8BDTend11Dof5jFls"}
+{"filename": "bencoder/test2.py", "a": "ozacvuhojj"}
+{"filename": "bencoder/test2.py", "a": "l64hRDoJUZmgHQG9DftmCvIkPPb ORKERRncSPlx3O3ezi"}
+{"filename": "bencoder/test2.py", "a": "dmonygqxexhqmiu"}
+{"filename": "bencoder/test2.py", "a": "50r87fRici95V7KomCOW zqQFuZghWSd7kFnCuPG5"}
+{"filename": "bencoder/test2.py", "a": "bOUjbE1bwCTncZ2hHCUoZI5acy d4cK0pTDthmFxxD4vCfJKBn1"}
+{"filename": "bencoder/test2.py", "a": "hepgrt"}
+{"filename": "bencoder/test2.py", "a": "ZMP07QCLYnTdIND1kYXS5Wthewiey Rv99fFTihr3mgwxwU5"}
+{"filename": "bencoder/test2.py", "a": "QJILWACDVN"}
+{"filename": "bencoder/test2.py", "a": "in1kOCgD2AUjTy Pp4Q8KYwbDvk0Hj59oGb3uk6JAxD"}
+{"filename": "bencoder/test2.py", "a": "SeHvwpBbR56SgM4f4GslSfIuYpcbCz"}
+{"filename": "bencoder/test2.py", "a": "gEQ4rwQ8ttQo5OS9M4wj M4UZt9behK4j3Np4Ga6PdsQDeDLM"}
+{"filename": "bencoder/test2.py", "a": "TXZEZBTEAVQWYT"}
+{"filename": "bencoder/test2.py", "a": "qHDgfHXOH"}
+{"filename": "bencoder/test2.py", "a": "KjKaF0zFiy0HPkRoPughkp8TgMoReLQ8OFq20fw3"}
+{"filename": "bencoder/test2.py", "a": "W7UJHOJwUx6jUblt"}
+{"filename": "bencoder/test2.py", "a": "qoVFmjEBUCw09bo"}
+{"filename": "bencoder/test2.py", "a": "MGpr0y9GGAd4RxY3743Qc bsn9Mz"}
+{"filename": "bencoder/test2.py", "a": "miqahn"}
+{"filename": "bencoder/test2.py", "a": "YGQLOMEUMHPVE"}
+{"filename": "bencoder/test2.py", "a": "6iN3YwWVajmpWhz6LsPouGt"}
+{"filename": "bencoder/test2.py", "a": "mFUbjhCM3YIaVphUna0232kURIEVwbisimwt"}
+{"filename": "bencoder/test2.py", "a": "50464974970"}
+{"filename": "bencoder/test2.py", "a": "SwMlVgRTz8"}
+{"filename": "bencoder/test2.py", "a": "WDNFZWSLHTY"}
+{"filename": "bencoder/test2.py", "a": "lguqeh"}
+{"filename": "bencoder/test2.py", "a": "QTQIPSERX"}
+{"filename": "bencoder/test2.py", "a": "5uQy diTbaJlpL9sdzlLXY"}
+{"filename": "bencoder/test2.py", "a": "vaypwkgluwh"}
+{"filename": "bencoder/test2.py", "a": "dqPNLHcIfgL9xieH J094n8"}
+{"filename": "bencoder/test2.py", "a": "48KnC0J3YVF1kuO3aHLCp"}
+{"filename": "bencoder/test2.py", "a": "CxdszylgVnZ4jZ1BhwIu"}
+{"filename": "bencoder/test2.py", "a": "1yVMNsiFH56N253"}
+{"filename": "bencoder/test2.py", "a": "22110912"}
+{"filename": "bencoder/test2.py", "a": "LstM83gd79VgMEY"}
+{"filename": "bencoder/test3.py", "a": "i9624e"}
+{"filename": "bencoder/test3.py", "a": "i8474e"}
+{"filename": "bencoder/test3.py", "a": "i-4761e"}
+{"filename": "bencoder/test3.py", "a": "i8112e"}
+{"filename": "bencoder/test3.py", "a": "i1699e"}
+{"filename": "bencoder/test3.py", "a": "i-1168e"}
+{"filename": "bencoder/test3.py", "a": "i-1061e"}
+{"filename": "bencoder/test3.py", "a": "i-3903e"}
+{"filename": "bencoder/test3.py", "a": "i457e"}
+{"filename": "bencoder/test3.py", "a": "i4035e"}
+{"filename": "bencoder/test3.py", "a": "i9493e"}
+{"filename": "bencoder/test3.py", "a": "i-6743e"}
+{"filename": "bencoder/test3.py", "a": "i-9914e"}
+{"filename": "bencoder/test3.py", "a": "i9058e"}
+{"filename": "bencoder/test3.py", "a": "i3328e"}
+{"filename": "bencoder/test3.py", "a": "i3225e"}
+{"filename": "bencoder/test3.py", "a": "i5224e"}
+{"filename": "bencoder/test3.py", "a": "i5177e"}
+{"filename": "bencoder/test3.py", "a": "i-8103e"}
+{"filename": "bencoder/test3.py", "a": "i-8035e"}
+{"filename": "bencoder/test4.py", "a": "8:dict"}
+{"filename": "bencoder/test4.py", "a": "6:nested"}
+{"filename": "bencoder/test4.py", "a": "4:benc"}
+{"filename": "bencoder/test4.py", "a": "10:deco"}
+{"filename": "bencoder/test4.py", "a": "4:dict"}
+{"filename": "bencoder/test4.py", "a": "10:utf8"}
+{"filename": "bencoder/test4.py", "a": "9:value"}
+{"filename": "bencoder/test4.py", "a": "8:python"}
+{"filename": "bencoder/test4.py", "a": "6:mu"}
+{"filename": "bencoder/test4.py", "a": "9:ben"}
+{"filename": "bencoder/test4.py", "a": "7:list"}
+{"filename": "bencoder/test4.py", "a": "2:e"}
+{"filename": "bencoder/test4.py", "a": "4:pyt"}
+{"filename": "bencoder/test4.py", "a": "8:utf8"}
+{"filename": "bencoder/test4.py", "a": "9:compl"}
+{"filename": "bencoder/test4.py", "a": "9:test"}
+{"filename": "bencoder/test5.py", "a": "string", "b": -100}
+{"filename": "bencoder/test5.py", "a": "test", "b": 123456}
+{"filename": "bencoder/test5.py", "a": "python", "b": 123456}
+{"filename": "bencoder/test5.py", "a": "data", "b": -10}
+{"filename": "bencoder/test5.py", "a": "python", "b": -100}
+{"filename": "bencoder/test5.py", "a": "example", "b": -7}
+{"filename": "bencoder/test5.py", "a": "test", "b": -1}
+{"filename": "bencoder/test5.py", "a": "complex", "b": -999999}
+{"filename": "bencoder/test5.py", "a": "example", "b": 65535}
+{"filename": "bencoder/test5.py", "a": "random", "b": -1000}
+{"filename": "bencoder/test5.py", "a": "python", "b": -1000}
+{"filename": "bencoder/test5.py", "a": "utf8", "b": 7}
+{"filename": "bencoder/test5.py", "a": "value", "b": 42}
+{"filename": "bencoder/test5.py", "a": "dict", "b": 999999}
+{"filename": "bencoder/test5.py", "a": "string", "b": 10}
+{"filename": "bencoder/test5.py", "a": "bencoder", "b": 123456}
+{"filename": "bencoder/test5.py", "a": "encode", "b": 100}
+{"filename": "bencoder/test5.py", "a": "encode", "b": -42}
+{"filename": "bencoder/test5.py", "a": "simple", "b": 100}
+{"filename": "bencoder/test5.py", "a": "complex", "b": -123456}
+{"filename": "bencoder/test5.py", "a": "ZXclaz5uU O7tafD", "b": 32567}
+{"filename": "bencoder/test5.py", "a": "5p3EgAPXB2fQxx3xR25tRYGiDbYl", "b": 807157}
+{"filename": "bencoder/test5.py", "a": "JRMGHNI", "b": 747}
+{"filename": "bencoder/test5.py", "a": "mypoidoqv", "b": 677}
+{"filename": "bencoder/test5.py", "a": "8790504060", "b": 960}
+{"filename": "bencoder/test5.py", "a": "43987809451909", "b": 145}
+{"filename": "bencoder/test5.py", "a": "p2Xo3WH0rOYaYypoSwx8qiuFw QRnJxAI7UxaqMECSQzlDCZwoiEAf", "b": -948}
+{"filename": "bencoder/test5.py", "a": "XmW5nwj0MFCsX1gZBwr8qKgRBys UGVWsbnu5aE5vVJDzQlLqB", "b": 94}
+{"filename": "bencoder/test5.py", "a": "6941141", "b": 9084}
+{"filename": "bencoder/test5.py", "a": "XK2DPLYTHYavsm Syzl", "b": 4520}
+{"filename": "bencoder/test5.py", "a": "EtAcs9SFgHYe4TJe9x", "b": 26327}
+{"filename": "bencoder/test5.py", "a": "aidqhsdvbgj", "b": 295}
+{"filename": "bencoder/test5.py", "a": "StzwDeIkQwRdTjZtuxCoIEZzl1aG", "b": 909357}
+{"filename": "bencoder/test5.py", "a": "uwqqunqablny", "b": 604}
+{"filename": "bencoder/test5.py", "a": "RKWRBUR", "b": 7165}
+{"filename": "bencoder/test5.py", "a": "xzcuuetommlw", "b": 201985}
+{"filename": "bencoder/test5.py", "a": "qEzAIbfzKAwhhmJTbW8GLopabWI7FcAMdR", "b": 284058}
+{"filename": "bencoder/test5.py", "a": "uppH98STzXII", "b": -379}
+{"filename": "bencoder/test5.py", "a": "95550529202", "b": 837279}
+{"filename": "bencoder/test5.py", "a": "BLnc5lud", "b": 835}
+{"filename": "bencoder/test5.py", "a": "PACdKMxuME", "b": 4881}
+{"filename": "bencoder/test5.py", "a": "58710539", "b": 24742}
+{"filename": "bencoder/test5.py", "a": "2UZCSHi4dP2YbFVlF0veld1cpUuzP97itibdDX2vmz78KvKoHu", "b": 9757}
+{"filename": "bencoder/test5.py", "a": "BSFNASDSTOMWVA", "b": 958}
+{"filename": "bencoder/test5.py", "a": "BoECgwONfEYqWW93EQ202Q7FT7", "b": 6895}
+{"filename": "bencoder/test5.py", "a": "ib2Vq", "b": 80781}
+{"filename": "bencoder/test5.py", "a": "yc2Z1ebeqFbsDn2K2oBG8k81gyYXt2lm5WdRq", "b": 78573}
+{"filename": "bencoder/test5.py", "a": "9j7QZgCMpZSozmktXfPK6Yq4UPVENzWWdfq6Ff12NulAnflx", "b": 83288}
+{"filename": "bencoder/test5.py", "a": "HfXmmMoxuJ1A3QcPhdUYj TUGox9So157TE3dmN0djsM", "b": -600}
+{"filename": "bencoder/test5.py", "a": "ZusamhzTLj8Zugca7Jh0z6", "b": 725364}
+{"filename": "bencoder/test5.py", "a": "dggQFwfownKTxmH9ZdkRpFOF9ZWmxFLoAl8BIrfR8R0xJSX", "b": 4165}
+{"filename": "bencoder/test5.py", "a": "ihzcptlgkeulqwd", "b": 6}
+{"filename": "bencoder/test5.py", "a": "FJLETTZE", "b": 466120}
+{"filename": "bencoder/test5.py", "a": "ceelxy", "b": 56923}
+{"filename": "bencoder/test5.py", "a": "UCQHEPWRTDYQL", "b": 111568}
+{"filename": "bencoder/test5.py", "a": "EWGWVJkXz1gK6fJK4132hzxrESSu539U1YE1Sw0SoUUNSL6t2O", "b": -597}
+{"filename": "bencoder/test5.py", "a": "xy51bAx773WcK", "b": 8246}
+{"filename": "bencoder/test5.py", "a": "u1FWcnMSs Y83ulF9D0hLnHVwX", "b": 567582}
+{"filename": "bencoder/test5.py", "a": "YgJbXlC FBshHF33vVlQXDt9ArMJpifN6bvSB", "b": 29}
+{"filename": "bencoder/test5.py", "a": "IDICGVSRELJSY", "b": 71}
+{"filename": "bencoder/test6.py", "a": "list", "b": 65535}
+{"filename": "bencoder/test6.py", "a": "utf8", "b": 65535}
+{"filename": "bencoder/test6.py", "a": "test", "b": 1000}
+{"filename": "bencoder/test6.py", "a": "random", "b": -255}
+{"filename": "bencoder/test6.py", "a": "world", "b": -1000}
+{"filename": "bencoder/test6.py", "a": "simple", "b": 42}
+{"filename": "bencoder/test6.py", "a": "data", "b": -42}
+{"filename": "bencoder/test6.py", "a": "multiple", "b": 42}
+{"filename": "bencoder/test6.py", "a": "bytes", "b": 65535}
+{"filename": "bencoder/test6.py", "a": "value", "b": 100}
+{"filename": "bencoder/test6.py", "a": "utf8", "b": -999999}
+{"filename": "bencoder/test6.py", "a": "python", "b": -1}
+{"filename": "bencoder/test6.py", "a": "dict", "b": 65535}
+{"filename": "bencoder/test6.py", "a": "decode", "b": -7}
+{"filename": "bencoder/test6.py", "a": "dict", "b": 1000}
+{"filename": "bencoder/test6.py", "a": "random", "b": 255}
+{"filename": "bencoder/test6.py", "a": "dict", "b": -1000}
+{"filename": "bencoder/test6.py", "a": "multiple", "b": -100}
+{"filename": "bencoder/test6.py", "a": "example", "b": -123456}
+{"filename": "bencoder/test6.py", "a": "list", "b": 999999}
+{"filename": "bencoder/test6.py", "a": "rynvAWVtcLORmK2iebAWqa32GzhzmL8FfHdsNIo6qdB4LAOp", "b": 967}
+{"filename": "bencoder/test6.py", "a": "0aSLK1CHiVxp8Gc6yoOewttH8RC 0FJ4UTvPG", "b": 263164}
+{"filename": "bencoder/test6.py", "a": "6035237239230", "b": 19600}
+{"filename": "bencoder/test6.py", "a": "lnWjuCp8qKQzfKw11 p3D9fK72", "b": 796197}
+{"filename": "bencoder/test6.py", "a": "8g4KqQhGTbtNbVRs", "b": 964}
+{"filename": "bencoder/test6.py", "a": "wFsuOOa", "b": 81577}
+{"filename": "bencoder/test6.py", "a": "2881494", "b": 88755}
+{"filename": "bencoder/test6.py", "a": "GFQhPEi3sQg", "b": -373}
+{"filename": "bencoder/test6.py", "a": "M5Ikl2v8BtaROcUupxFQY9U8tn2kNkXRve99brwn6rssqBfYS", "b": -626}
+{"filename": "bencoder/test6.py", "a": "G4ku8SJLwcO4546p", "b": 772686}
+{"filename": "bencoder/test6.py", "a": "HVBcFW6DAWmxmbLYPc8LmK", "b": 167}
+{"filename": "bencoder/test6.py", "a": "NMlT6or6KPCKc9vWNf2Z6lWP2Sez0NaUypSb", "b": 795893}
+{"filename": "bencoder/test6.py", "a": "3ufqQ2 DWMOPzBYefBtjoVAgAX", "b": 390}
+{"filename": "bencoder/test6.py", "a": "imymdgiqmnr", "b": 581969}
+{"filename": "bencoder/test6.py", "a": "09CCIcgpEES", "b": -488}
+{"filename": "bencoder/test6.py", "a": "sU17vKahUrBgVB5EL3iQ HCHwbKiSkBUI", "b": 601}
+{"filename": "bencoder/test6.py", "a": "XUWVGAJDSI", "b": 286}
+{"filename": "bencoder/test6.py", "a": "NPXWXCTZT", "b": 92}
+{"filename": "bencoder/test6.py", "a": "49xtY36 4dN0VDSTElJcDj6KtJwwzCmVpCxI", "b": 957928}
+{"filename": "bencoder/test6.py", "a": "pbbwjr", "b": 5416}
+{"filename": "bencoder/test6.py", "a": "657A5HFov 7XTL6zuZKhAOMkLttxRtt", "b": 749}
+{"filename": "bencoder/test6.py", "a": "CEWJXQPUZMNAU", "b": 93862}
+{"filename": "bencoder/test6.py", "a": "cvuzho", "b": 14353}
+{"filename": "bencoder/test6.py", "a": "YCygZUpwtqsqYyV7 ryTkAf", "b": 3187}
+{"filename": "bencoder/test6.py", "a": "f8omeJHPYwUwi26", "b": 132413}
+{"filename": "bencoder/test6.py", "a": "Fb9bD7 69IV4wvOSwIuy3VEqrFmNnMbDTlhRX", "b": 349}
+{"filename": "bencoder/test6.py", "a": "IyMKSuTHeAu RQLXhmmnN", "b": 782435}
+{"filename": "bencoder/test6.py", "a": "QhPxZNVcj9xqmJtU bQ5xuxLF4SdZo", "b": 9583}
+{"filename": "bencoder/test6.py", "a": "481857913299252", "b": 797275}
+{"filename": "bencoder/test6.py", "a": "ptuO0G2e0QOUXKns4tI4yMSMDQPd0Fij", "b": 476}
+{"filename": "bencoder/test6.py", "a": "VGO0CMey6bgVHp6UI8fj5e4jCfpURF9dhtNi4vWzVzg", "b": 839}
+{"filename": "bencoder/test6.py", "a": "61274063644433", "b": 239}
+{"filename": "bencoder/test6.py", "a": "t1fTEoyFBxcynSo", "b": 37}
+{"filename": "bencoder/test6.py", "a": "7889899766", "b": 1107}
+{"filename": "bencoder/test6.py", "a": "K0UWi3FqHz9lmIypCcia", "b": 350410}
+{"filename": "bencoder/test6.py", "a": "JZLEMHEOFYIXBL", "b": 160}
+{"filename": "bencoder/test6.py", "a": "2RXVtbOSi TDERZjwrjFMsnHV0Namzaj8", "b": 939}
+{"filename": "bencoder/test6.py", "a": "oljqpwowdwpwn", "b": 14572}
+{"filename": "bencoder/test6.py", "a": "040262", "b": 62232}
+{"filename": "bencoder/test6.py", "a": "51256377", "b": 39396}
+{"filename": "bencoder/test7.py", "a": "list", "b": 42, "c": "encode"}
+{"filename": "bencoder/test7.py", "a": "simple", "b": -123456, "c": "string"}
+{"filename": "bencoder/test7.py", "a": "value", "b": 100, "c": "number"}
+{"filename": "bencoder/test7.py", "a": "encode", "b": 42, "c": "world"}
+{"filename": "bencoder/test7.py", "a": "hello", "b": 65535, "c": "number"}
+{"filename": "bencoder/test7.py", "a": "example", "b": -42, "c": "number"}
+{"filename": "bencoder/test7.py", "a": "dict", "b": -999999, "c": "complex"}
+{"filename": "bencoder/test7.py", "a": "hello", "b": 999999, "c": "example"}
+{"filename": "bencoder/test7.py", "a": "value", "b": 0, "c": "ascii"}
+{"filename": "bencoder/test7.py", "a": "python", "b": 1000, "c": "data"}
+{"filename": "bencoder/test7.py", "a": "bytes", "b": 999999, "c": "hello"}
+{"filename": "bencoder/test7.py", "a": "ascii", "b": 100, "c": "bytes"}
+{"filename": "bencoder/test7.py", "a": "list", "b": -42, "c": "list"}
+{"filename": "bencoder/test7.py", "a": "data", "b": -123456, "c": "value"}
+{"filename": "bencoder/test7.py", "a": "complex", "b": 0, "c": "bytes"}
+{"filename": "bencoder/test7.py", "a": "list", "b": 123456, "c": "bytes"}
+{"filename": "bencoder/test7.py", "a": "complex", "b": -7, "c": "world"}
+{"filename": "bencoder/test7.py", "a": "python", "b": 1, "c": "structure"}
+{"filename": "bencoder/test7.py", "a": "bytes", "b": 1, "c": "structure"}
+{"filename": "bencoder/test7.py", "a": "bencoder", "b": 123456, "c": "multiple"}
+{"filename": "bencoder/test7.py", "a": "gbfdrvsbhompq", "b": 346618, "c": "ZDBCJV8T2MNP 5UrGj7wjo0"}
+{"filename": "bencoder/test7.py", "a": "45287037440", "b": 43, "c": "KARz2TyeE YoXTNm9A9ATxpqlXpq6PWfdtO5u8"}
+{"filename": "bencoder/test7.py", "a": "5UeC4N3B42H", "b": 498, "c": "RZQD82"}
+{"filename": "bencoder/test7.py", "a": "s1mkEt37W3UpJJ9IyiMKMOVoSH8WhSxT5xqYNGbpd", "b": 25, "c": "mT0MRHB50XpAmH6GtDwRNobX"}
+{"filename": "bencoder/test7.py", "a": "JVBG2Fy5WLyzhReYxqc6sCA", "b": 709637, "c": "WMLTOVI"}
+{"filename": "bencoder/test7.py", "a": "2132464438149", "b": 40674, "c": "26ZB0DkohGUh1l"}
+{"filename": "bencoder/test7.py", "a": "KCPSY", "b": 749704, "c": "pRVPr6"}
+{"filename": "bencoder/test7.py", "a": "cNenkDpXTGfUB0dYrv8fTNPWdoe4fyw3mXgFfBCiX", "b": 766338, "c": "lqWKbd9OnSZD9VTiCbKoYozhAvX QiD"}
+{"filename": "bencoder/test7.py", "a": "5y0XckzQ1Jwj9XfBNL", "b": 650427, "c": "J2l24pbAQ9MS3jCykLSnACh0KDp3kHwe"}
+{"filename": "bencoder/test7.py", "a": "5913661202", "b": 202, "c": "m5vU4rkLD4OMIzAOx"}
+{"filename": "bencoder/test7.py", "a": "jE6bCcEpnUyGDrDfX2tOaP hWhvwpxlKkbvepYmWL9gfGXKRq", "b": 949188, "c": "43497920849076"}
+{"filename": "bencoder/test7.py", "a": "TBOFRKXC", "b": 4069, "c": "XW5TEliChq R2R3qh54C6mfiAn"}
+{"filename": "bencoder/test7.py", "a": "f9qaQj0B9n8osGaYYoVFx6OgWNn2UakbgF", "b": 11297, "c": "jqcrmfddyl"}
+{"filename": "bencoder/test7.py", "a": "XMlsrX6ORci2H3CoNrVCSWPc tt6VNYaCvx", "b": 4146, "c": "Ey3cRy5pcAfd8skvrgh lLyz8BI"}
+{"filename": "bencoder/test7.py", "a": "VEEVKAJWPWNQCVB", "b": 669709, "c": "RnLCnPyN5r3SqncgkBxcnP1ekLwCkv CUI"}
+{"filename": "bencoder/test7.py", "a": "yYuR0vpFz", "b": 143426, "c": "03BGPBgsTWIAeYzSdQtRNSDviMTV"}
+{"filename": "bencoder/test7.py", "a": "tgplJJhexEsfBYHHz9dWkhRFkeVASDsYHZs9xcjW1azZII", "b": 346884, "c": "208873329464008"}
+{"filename": "bencoder/test7.py", "a": "NLhVDfyoTs2bDrjIanr0I N8wP2Jn7xVCQg", "b": 5514, "c": "hcOUhmsAc3nkjiuXh8AS2mNtWv"}
+{"filename": "bencoder/test7.py", "a": "kGitoNVtwCg3nBRvdbDxS2DoGxJm1JG1ASxzcedU9kDLsX", "b": 2586, "c": "qSw66l4RGJoQ6S 3RYGQroaFbXuV"}
+{"filename": "bencoder/test7.py", "a": "hEqdqSfuZ", "b": 16, "c": "9371649"}
+{"filename": "bencoder/test7.py", "a": "dX1U8 Gg2c8fzG0c", "b": 31244, "c": "Yt1bJT KzcifzUYqsueFYiyf"}
+{"filename": "bencoder/test7.py", "a": "92138", "b": 162223, "c": "84543636"}
+{"filename": "bencoder/test7.py", "a": "WHHQQ", "b": -335, "c": "dvlvvaexmtr"}
+{"filename": "bencoder/test7.py", "a": "4477281", "b": 606, "c": "6eZkZW42C6G3N25t9ZDSShfNKdxfk"}
+{"filename": "bencoder/test7.py", "a": "zthhmcwnwzfi", "b": 690907, "c": "dkoczussnuskgqt"}
+{"filename": "bencoder/test7.py", "a": "HqPxYcHyZbaM", "b": 385172, "c": "XgWjxew4SrXBzRN8aDF0BcrgyOgcHTaT"}
+{"filename": "bencoder/test7.py", "a": "brycdta", "b": 9, "c": "qeiIec4ikymVPnjhVteU TUJz"}
+{"filename": "bencoder/test7.py", "a": "cwdsl", "b": 707, "c": "WDGKMXQHIJVJBO"}
+{"filename": "bencoder/test7.py", "a": "iEg4nbJXhTN5udjNxh3LY3w7 h1tmxgxdgPWTC", "b": 88, "c": "ehvthn"}
+{"filename": "bencoder/test7.py", "a": "O9A2K5f8e", "b": 53, "c": "xErUe8qd5FJ7 eecGbd4kWkhViyOPeXQByLT5uchXZ"}
+{"filename": "bencoder/test7.py", "a": "5081481", "b": 2340, "c": "lODvsINFoKc17R"}
+{"filename": "bencoder/test7.py", "a": "00rFIKjs0e1updWHoe847T2R4H5T0zSz", "b": 922029, "c": "oywtmmyvfepxv"}
+{"filename": "bencoder/test7.py", "a": "HDSNXBZAIFJAMBI", "b": 806702, "c": "EhXbKuqwXcOKYH2VMXjsTcTz54IKPzawLvnmNISyZzkW"}
+{"filename": "bencoder/test7.py", "a": "28197849549234", "b": 304085, "c": "1755653010005"}
+{"filename": "bencoder/test7.py", "a": "ZZOZY", "b": 352, "c": "lB7kr5"}
+{"filename": "bencoder/test7.py", "a": "lGlOUrW58Q9R", "b": 35528, "c": "LQFW5NM94q9tindnBglIS73jLo3cbqvmJr"}
+{"filename": "bencoder/test7.py", "a": "igfpdlhg", "b": -937, "c": "AHZEMAMBO"}
+{"filename": "bencoder/test7.py", "a": "dTYXTWqZO1q9R", "b": 956, "c": "RIGZWSMALB"}
+{"filename": "bencoder/test7.py", "a": "STiGTn7O2j8DI VtFU", "b": 98797, "c": "5844392726163"}
+{"filename": "bencoder/test7.py", "a": "KPYMFJPMNMBQ", "b": -85, "c": "7328954490781"}
+{"filename": "bencoder/test8.py", "a": "bencoder", "b": "nested"}
+{"filename": "bencoder/test8.py", "a": "number", "b": "example"}
+{"filename": "bencoder/test8.py", "a": "random", "b": "structure"}
+{"filename": "bencoder/test8.py", "a": "number", "b": "encode"}
+{"filename": "bencoder/test8.py", "a": "random", "b": "test"}
+{"filename": "bencoder/test8.py", "a": "world", "b": "utf8"}
+{"filename": "bencoder/test8.py", "a": "encode", "b": "bytes"}
+{"filename": "bencoder/test8.py", "a": "bytes", "b": "example"}
+{"filename": "bencoder/test8.py", "a": "ascii", "b": "hello"}
+{"filename": "bencoder/test8.py", "a": "decode", "b": "utf8"}
+{"filename": "bencoder/test8.py", "a": "nested", "b": "random"}
+{"filename": "bencoder/test8.py", "a": "utf8", "b": "complex"}
+{"filename": "bencoder/test8.py", "a": "bencoder", "b": "dict"}
+{"filename": "bencoder/test8.py", "a": "bytes", "b": "python"}
+{"filename": "bencoder/test8.py", "a": "test", "b": "bencoder"}
+{"filename": "bencoder/test8.py", "a": "random", "b": "world"}
+{"filename": "bencoder/test8.py", "a": "structure", "b": "encode"}
+{"filename": "bencoder/test8.py", "a": "string", "b": "bytes"}
+{"filename": "bencoder/test8.py", "a": "example", "b": "multiple"}
+{"filename": "bencoder/test8.py", "a": "python", "b": "utf8"}
+{"filename": "bencoder/test8.py", "a": "89159758910848", "b": "77450710595"}
+{"filename": "bencoder/test8.py", "a": "NLHsfHLX", "b": "w2BjWOfasCsAR4j7Bo5ThMiddrE"}
+{"filename": "bencoder/test8.py", "a": "lwrxchwrbcearg", "b": "CBarnYfrQis3b"}
+{"filename": "bencoder/test8.py", "a": "Jn8lMrQzQ5euQnpbSeKmCZJYNgUv6EANgVpDT9WXo", "b": "xH7KsV0K9mKDVWpU10C"}
+{"filename": "bencoder/test8.py", "a": "xfgbcwx", "b": "KHNECIJG"}
+{"filename": "bencoder/test8.py", "a": "HJWBhxDR55", "b": "0951208882"}
+{"filename": "bencoder/test8.py", "a": "24933", "b": "dezchhlzhwenpcn"}
+{"filename": "bencoder/test8.py", "a": "9742486", "b": "7MpdJA2rejvXT5LSbHDrpUz LLp"}
+{"filename": "bencoder/test8.py", "a": "exmcAqBCpk60", "b": "7098091"}
+{"filename": "bencoder/test8.py", "a": "fI2B3j7IC43cNA BDpJPeS1NjbSQAY3J9rFUbnfgH", "b": "3mKZUNBMRUx"}
+{"filename": "bencoder/test8.py", "a": "5WFc6WJoNgl5Ycm2b4J7LgDGaCN 5JNZbnxxrPGAa6FZYxpM5wubsm", "b": "UOhmlWDGqFVdk1DTnMNv4v"}
+{"filename": "bencoder/test8.py", "a": "11SN67GwDKc", "b": "GMljnBJiSpFZPZriHXuZ0i"}
+{"filename": "bencoder/test8.py", "a": "Ov7JZ2Az0", "b": "oiD1bCJUt3DDBZTbpsu3EZ1Ivcfwj Xd2WzIvnSPDoSX2p0rjik0y"}
+{"filename": "bencoder/test8.py", "a": "IFDRFQSZH", "b": "46bGFTNDk2E1lyzEKMY5 Bw3jidExcZAI2A95HE"}
+{"filename": "bencoder/test8.py", "a": "MHXWJVRVOZODKIQ", "b": "YW9onwLyrBJpKfTD65WsybsX"}
+{"filename": "bencoder/test8.py", "a": "xFgTNWd7YgVtJ7JQ3ctOVSh9gOg", "b": "v2XPFw"}
+{"filename": "bencoder/test8.py", "a": "9925203113386", "b": "sdeiabs"}
+{"filename": "bencoder/test8.py", "a": "9323007", "b": "EZkML7Pb7lpBtzYsbBdhl5uUb6GimZz"}
+{"filename": "bencoder/test8.py", "a": "1132114", "b": "bqhTMDQ9K9U07S1SWsb"}
+{"filename": "bencoder/test8.py", "a": "94696856", "b": "bioclsncuw"}
+{"filename": "bencoder/test8.py", "a": "kbfuraxifjomgkl", "b": "810810273"}
+{"filename": "bencoder/test8.py", "a": "38USZPFQsAaiIefGGUlGzdANwotNB JUyQfXKqQoCS", "b": "oglbdelwpjs"}
+{"filename": "bencoder/test8.py", "a": "12069484452949", "b": "konvvwudkj"}
+{"filename": "bencoder/test8.py", "a": "FKGUVFHKZATJ", "b": "tmxpplzmhae"}
+{"filename": "bencoder/test8.py", "a": "TVOOXLRCIQOCXTD", "b": "valjh"}
+{"filename": "bencoder/test8.py", "a": "74875656331457", "b": "ywjhrnvwuokz"}
+{"filename": "bencoder/test8.py", "a": "EEQXGHETM", "b": "1hCP0W0Az0PG0 6LSc4FA7A752wRWdowbXWr6AIuZT6"}
+{"filename": "bencoder/test8.py", "a": "fpCNyhottBX81", "b": "kiDJdU9GqWY2PloRtZgCrI 5VbpAzEAR"}
+{"filename": "bencoder/test8.py", "a": "EShJYKzHbO8naJPeYG5s1Ddb", "b": "eFbevkJWHtygZiBZ3JD"}
+{"filename": "bencoder/test8.py", "a": "6427151447", "b": "nmwfbzedhuglklj"}
+{"filename": "bencoder/test8.py", "a": "gyuelgtrbetoiuy", "b": "ENHDYY"}
+{"filename": "bencoder/test8.py", "a": "fbrqhhtzzfn", "b": "AXoL638KzjE0JkpyGiU"}
+{"filename": "bencoder/test8.py", "a": "eTaFhKt0ptq9ZeEDFc9 muXCaGWbtyINcMlKUke7qzpO5Z1WxV", "b": "JQDCUSBHUJH"}
+{"filename": "bencoder/test8.py", "a": "dbetxaxyxyv", "b": "HRkOPLT7go5"}
+{"filename": "bencoder/test8.py", "a": "BISjCtqbIAy2c0Kso1DG", "b": "676943"}
+{"filename": "bencoder/test8.py", "a": "tc34SQyfYwASv7i0eNxuD7KzE1PR 6bfh6WPX40l", "b": "tiwplcsgdbrilb"}
+{"filename": "bencoder/test8.py", "a": "70ALzDnZdTjhyxlGuayVDNOw39dxDjQ4FX", "b": "ZZ02K"}
+{"filename": "bencoder/test8.py", "a": "tlp1IDXl31S6Yg4k2", "b": "BCKFQ"}
+{"filename": "bencoder/test8.py", "a": "VCKQXKOEMFTQ", "b": "EtovsippBdDos3nOux0j1E13mix6"}
+{"filename": "bencoder/test8.py", "a": "etjcaecyzkhb", "b": "ygnruyi"}
+{"filename": "bencoder/test9.py", "a": -255, "b": "decode", "c": -42}
+{"filename": "bencoder/test9.py", "a": 1, "b": "decode", "c": 0}
+{"filename": "bencoder/test9.py", "a": 65535, "b": "dict", "c": 65535}
+{"filename": "bencoder/test9.py", "a": -10, "b": "hello", "c": -7}
+{"filename": "bencoder/test9.py", "a": 100, "b": "nested", "c": -7}
+{"filename": "bencoder/test9.py", "a": -1000, "b": "data", "c": 0}
+{"filename": "bencoder/test9.py", "a": -999999, "b": "string", "c": -123456}
+{"filename": "bencoder/test9.py", "a": 100, "b": "value", "c": 10}
+{"filename": "bencoder/test9.py", "a": 42, "b": "decode", "c": 999999}
+{"filename": "bencoder/test9.py", "a": -255, "b": "data", "c": 65535}
+{"filename": "bencoder/test9.py", "a": 0, "b": "multiple", "c": -123456}
+{"filename": "bencoder/test9.py", "a": 999999, "b": "bytes", "c": -1000}
+{"filename": "bencoder/test9.py", "a": 42, "b": "bencoder", "c": 100}
+{"filename": "bencoder/test9.py", "a": 255, "b": "structure", "c": -7}
+{"filename": "bencoder/test9.py", "a": 7, "b": "example", "c": 1}
+{"filename": "bencoder/test9.py", "a": 10, "b": "value", "c": 0}
+{"filename": "bencoder/test9.py", "a": -10, "b": "bytes", "c": 65535}
+{"filename": "bencoder/test9.py", "a": -42, "b": "random", "c": 7}
+{"filename": "bencoder/test9.py", "a": 1000, "b": "dict", "c": 123456}
+{"filename": "bencoder/test9.py", "a": 123456, "b": "dict", "c": -123456}
+{"filename": "bencoder/test9.py", "a": 936, "b": "URQXOKYMTHSEBM", "c": 464}
+{"filename": "bencoder/test9.py", "a": 369330, "b": "NsIooPsLY DuDBs8okA", "c": -806}
+{"filename": "bencoder/test9.py", "a": 58284, "b": "NFuiW7IKdzghabJrbTpacM BlPtwJekW3H3VSThQLY", "c": 633}
+{"filename": "bencoder/test9.py", "a": 632593, "b": "cinepzskjikowgc", "c": 447389}
+{"filename": "bencoder/test9.py", "a": 428592, "b": "12261112631", "c": 1744}
+{"filename": "bencoder/test9.py", "a": 944601, "b": "jpvrbupqgucpo", "c": 796821}
+{"filename": "bencoder/test9.py", "a": 80, "b": "diEI1Ui9TTnBH", "c": 933}
+{"filename": "bencoder/test9.py", "a": -663, "b": "UWQAHY", "c": 29}
+{"filename": "bencoder/test9.py", "a": 82287, "b": "7g2OKMe5H9XWEk1OCgMwQSaz wvtjsH", "c": 23}
+{"filename": "bencoder/test9.py", "a": 358591, "b": "gkuhsd7bqSetjqIPWA9hjPM", "c": 43}
+{"filename": "bencoder/test9.py", "a": 195, "b": "6Tu7mM63Tvw08JFMDcxJ", "c": 64}
+{"filename": "bencoder/test9.py", "a": 466533, "b": "ubtuZYtFpkSwYS bzKZiII2vzJW8qsQ3CqiAJHl", "c": 32}
+{"filename": "bencoder/test9.py", "a": 392, "b": "829842", "c": 15850}
+{"filename": "bencoder/test9.py", "a": 922, "b": "ajmmknmclsot", "c": 267}
+{"filename": "bencoder/test9.py", "a": 95003, "b": "K0yu0A7VQO3tNc3x7K0Vs5WaQhlq", "c": 991}
+{"filename": "bencoder/test9.py", "a": 148, "b": "3ejewceI1S5dES8xuYbsqAC00U1m0cQ3ZYAa1LBspBdk3AiEe", "c": 72}
+{"filename": "bencoder/test9.py", "a": 759, "b": "73387", "c": -504}
+{"filename": "bencoder/test9.py", "a": 6950, "b": "fbzzcxutp", "c": 8751}
+{"filename": "bencoder/test9.py", "a": 106643, "b": "zd5QqZhcrD2nL2Y4shBqaw2vRW1zJQdiNoJsRnlHeQG1", "c": 731}
+{"filename": "bencoder/test9.py", "a": 9529, "b": "aUHqnj1EVIgcKTOvpoiH5YtkaCq7VSiWveZGgom", "c": 3}
+{"filename": "bencoder/test9.py", "a": 3703, "b": "uhitmiqelyyva", "c": 454259}
+{"filename": "bencoder/test9.py", "a": 664, "b": "08737349633", "c": 83448}
+{"filename": "bencoder/test9.py", "a": 899, "b": "09948855", "c": -663}
+{"filename": "bencoder/test9.py", "a": 68670, "b": "14844", "c": -779}
+{"filename": "bencoder/test9.py", "a": 717519, "b": "l407d4Pwoo", "c": 831}
+{"filename": "bencoder/test9.py", "a": 914433, "b": "5588373900", "c": 954199}
+{"filename": "bencoder/test9.py", "a": 2785, "b": "4Pfc91SbQG3HLVGOihQ5", "c": 328001}
+{"filename": "bencoder/test9.py", "a": 7206, "b": "bKkstX AlwT5iKWLq", "c": 1357}
+{"filename": "bencoder/test9.py", "a": 61596, "b": "119918962993", "c": 77}
+{"filename": "bencoder/test9.py", "a": 456, "b": "xvrzejnkwynbb", "c": -893}
+{"filename": "bencoder/test9.py", "a": 277, "b": "cigsofprvcmns", "c": 87953}
+{"filename": "bencoder/test9.py", "a": 8390, "b": "COBRWUWNB", "c": 25}
+{"filename": "bencoder/test9.py", "a": 52991, "b": "nvhsb", "c": 830}
+{"filename": "bencoder/test9.py", "a": 39, "b": "qpqjzyr", "c": 7333}
+{"filename": "bencoder/test9.py", "a": 515022, "b": "18458374989008", "c": -111}
+{"filename": "bencoder/test9.py", "a": 228229, "b": "FYsVPLC0svy", "c": 738}
+{"filename": "bencoder/test9.py", "a": 70828, "b": "rYO9X ENm6JKOYL", "c": 8680}
+{"filename": "bencoder/test9.py", "a": 9770, "b": "Q578uGihXkRJwqRGcJ93YglhIBRiR0", "c": 52288}
+{"filename": "bencoder/test9.py", "a": 650, "b": "DpKr7AUkqCi65FVxMN", "c": 16}
+{"filename": "bencoder/test9.py", "a": 298821, "b": "yb7tuwimLLv6nlS2PWLi", "c": 7292}

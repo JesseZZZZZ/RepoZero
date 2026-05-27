@@ -1,0 +1,380 @@
+{"filename": "bitstring/test1.py", "binary_str": "0b1"}
+{"filename": "bitstring/test1.py", "binary_str": "0b11"}
+{"filename": "bitstring/test1.py", "binary_str": "0b111"}
+{"filename": "bitstring/test1.py", "binary_str": "0b1111"}
+{"filename": "bitstring/test1.py", "binary_str": "0b11111"}
+{"filename": "bitstring/test1.py", "binary_str": "0b111111"}
+{"filename": "bitstring/test1.py", "binary_str": "0b1111111"}
+{"filename": "bitstring/test1.py", "binary_str": "0b11111111"}
+{"filename": "bitstring/test1.py", "binary_str": "0b111111110"}
+{"filename": "bitstring/test1.py", "binary_str": "0b1111111100"}
+{"filename": "bitstring/test1.py", "binary_str": "0b11111111000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b111111110000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b1111111100000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b11111111000000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b111111110000000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b1111111100000000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b11111111000000000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b111111110000000000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b1111111100000000000"}
+{"filename": "bitstring/test1.py", "binary_str": "0b11111111000000000000"}
+{"filename": "bitstring/test10.py", "binary_str": "0b10101010"}
+{"filename": "bitstring/test10.py", "binary_str": "0b11110000"}
+{"filename": "bitstring/test10.py", "binary_str": "0b1010101010101010"}
+{"filename": "bitstring/test10.py", "binary_str": "0b1100110011001100"}
+{"filename": "bitstring/test10.py", "binary_str": "0b1111111100000000"}
+{"filename": "bitstring/test10.py", "binary_str": "0b1010101010"}
+{"filename": "bitstring/test10.py", "binary_str": "0b111000111000"}
+{"filename": "bitstring/test10.py", "binary_str": "0b1001100110011001"}
+{"filename": "bitstring/test10.py", "binary_str": "0b101010101010101010101010"}
+{"filename": "bitstring/test10.py", "binary_str": "0b111111111111111111111111"}
+{"filename": "bitstring/test10.py", "binary_str": "0b1000000000000000"}
+{"filename": "bitstring/test10.py", "binary_str": "0b10101010101010101010101010101010"}
+{"filename": "bitstring/test10.py", "binary_str": "0b11110000111100001111000011110000"}
+{"filename": "bitstring/test10.py", "binary_str": "0b11001100110011001100110011001100"}
+{"filename": "bitstring/test10.py", "binary_str": "0b10101010101010101010101010101010101010"}
+{"filename": "bitstring/test10.py", "binary_str": "0b1111111111111111111111111111111111111111"}
+{"filename": "bitstring/test10.py", "binary_str": "0b10101010101010101010101010101010101010101010"}
+{"filename": "bitstring/test10.py", "binary_str": "0b11001100110011001100110011001100110011001100"}
+{"filename": "bitstring/test10.py", "binary_str": "0b111100001111000011110000111100001111000011110000"}
+{"filename": "bitstring/test10.py", "binary_str": "0b1010101010101010101010101010101010101010101010101010"}
+{"filename": "bitstring/test10.py", "binary_str": "0b11001100110011001100110011001100110011001100110011001100"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1010101010101010", "sep": "0b1010"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1100110011001100", "sep": "0b11"}
+{"filename": "bitstring/test11.py", "binary_str": "0b101010101010101010101010", "sep": "0b0101"}
+{"filename": "bitstring/test11.py", "binary_str": "0b11111111111111111111", "sep": "0b11111"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1001100110011001", "sep": "0b1001"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1010101010101", "sep": "0b10101"}
+{"filename": "bitstring/test11.py", "binary_str": "0b110011001100110011001100", "sep": "0b1100"}
+{"filename": "bitstring/test11.py", "binary_str": "0b111000111000111000", "sep": "0b111000"}
+{"filename": "bitstring/test11.py", "binary_str": "0b101010101010101010101010", "sep": "0b101010"}
+{"filename": "bitstring/test11.py", "binary_str": "0b111100001111000011110000", "sep": "0b11110000"}
+{"filename": "bitstring/test11.py", "binary_str": "0b10101010101010101010101010101010", "sep": "0b1010101010"}
+{"filename": "bitstring/test11.py", "binary_str": "0b11001100110011001100110011001100", "sep": "0b11001100"}
+{"filename": "bitstring/test11.py", "binary_str": "0b11111111000000001111111100000000", "sep": "0b11111111"}
+{"filename": "bitstring/test11.py", "binary_str": "0b10101010101010101010101010101010101010", "sep": "0b101010101010"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1111111111111111111111111111111111111111", "sep": "0b1111111111111111"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1010101010101010101010101010101010101010", "sep": "0b1010101010101010"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1100110011001100110011001100110011001100", "sep": "0b1100110011001100"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1111000011110000111100001111000011110000", "sep": "0b1111000011110000"}
+{"filename": "bitstring/test11.py", "binary_str": "0b1010101010101010101010101010101010101010101010", "sep": "0b101010101010101010"}
+{"filename": "bitstring/test11.py", "binary_str": "0b11001100110011001100110011001100110011001100110011001100", "sep": "0b11001100110011001100"}
+{"filename": "bitstring/test12.py", "binary_str": "0b10101010", "threshold": 8}
+{"filename": "bitstring/test12.py", "binary_str": "0b1111000011110000", "threshold": 12}
+{"filename": "bitstring/test12.py", "binary_str": "0b1010101010", "threshold": 10}
+{"filename": "bitstring/test12.py", "binary_str": "0b1111111111", "threshold": 10}
+{"filename": "bitstring/test12.py", "binary_str": "0b00000000", "threshold": 8}
+{"filename": "bitstring/test12.py", "binary_str": "0b101010101010101010101010", "threshold": 20}
+{"filename": "bitstring/test12.py", "binary_str": "0b111111111111111111111111", "threshold": 20}
+{"filename": "bitstring/test12.py", "binary_str": "0b1010101010101010", "threshold": 16}
+{"filename": "bitstring/test12.py", "binary_str": "0b11110000111100001111000011110000", "threshold": 32}
+{"filename": "bitstring/test12.py", "binary_str": "0b11001100110011001100110011001100", "threshold": 32}
+{"filename": "bitstring/test12.py", "binary_str": "0b10101010101010101010101010101010101010", "threshold": 40}
+{"filename": "bitstring/test12.py", "binary_str": "0b1111111111111111111111111111111111111111", "threshold": 40}
+{"filename": "bitstring/test12.py", "binary_str": "0b1000000000000000000000000000000000000000", "threshold": 40}
+{"filename": "bitstring/test12.py", "binary_str": "0b10101010101010101010101010101010101010101010", "threshold": 48}
+{"filename": "bitstring/test12.py", "binary_str": "0b1100110011001100110011001100110011001100110011001100", "threshold": 48}
+{"filename": "bitstring/test12.py", "binary_str": "0b1111000011110000111100001111000011110000111100001111000011110000", "threshold": 56}
+{"filename": "bitstring/test12.py", "binary_str": "0b1010101010101010101010101010101010101010101010101010101010101010", "threshold": 64}
+{"filename": "bitstring/test12.py", "binary_str": "0b1111111111111111111111111111111111111111111111111111111111111111", "threshold": 64}
+{"filename": "bitstring/test12.py", "binary_str": "0b1000000000000000000000000000000000000000000000000000000000000000", "threshold": 64}
+{"filename": "bitstring/test12.py", "binary_str": "0b101010101010101010101010101010101010101010101010101010101010101010101010", "threshold": 80}
+{"filename": "bitstring/test13.py", "binary_str": "0b1010101010", "offset": 2, "new_bits": "0b1111"}
+{"filename": "bitstring/test13.py", "binary_str": "0b110011001100", "offset": 4, "new_bits": "0b0"}
+{"filename": "bitstring/test13.py", "binary_str": "0b1010101010101010", "offset": 0, "new_bits": "0b1111"}
+{"filename": "bitstring/test13.py", "binary_str": "0b1111000011110000", "offset": 8, "new_bits": "0b10101010"}
+{"filename": "bitstring/test13.py", "binary_str": "0b110011001100110011001100", "offset": 6, "new_bits": "0b10101"}
+{"filename": "bitstring/test13.py", "binary_str": "0b101010101010101010101010", "offset": 10, "new_bits": "0b1111111111"}
+{"filename": "bitstring/test13.py", "binary_str": "0b111111111111111111111111", "offset": 0, "new_bits": "0b0"}
+{"filename": "bitstring/test13.py", "binary_str": "0b1001100110011001", "offset": 4, "new_bits": "0b101"}
+{"filename": "bitstring/test13.py", "binary_str": "0b1010101010101010", "offset": 8, "new_bits": "0b11110000"}
+{"filename": "bitstring/test13.py", "binary_str": "0b1100110011001100", "offset": 0, "new_bits": "0b101010"}
+{"filename": "bitstring/test13.py", "binary_str": "0b111000111000111000", "offset": 3, "new_bits": "0b101010101"}
+{"filename": "bitstring/test13.py", "binary_str": "0b10101010101010101010101010101010", "offset": 16, "new_bits": "0b1111111111111111"}
+{"filename": "bitstring/test13.py", "binary_str": "0b11111111000000001111111100000000", "offset": 8, "new_bits": "0b10101010"}
+{"filename": "bitstring/test13.py", "binary_str": "0b10101010101010101010101010101010101010", "offset": 0, "new_bits": "0b1111111111111111"}
+{"filename": "bitstring/test13.py", "binary_str": "0b11001100110011001100110011001100", "offset": 12, "new_bits": "0b101010101010"}
+{"filename": "bitstring/test13.py", "binary_str": "0b11110000111100001111000011110000", "offset": 20, "new_bits": "0b10101010101"}
+{"filename": "bitstring/test13.py", "binary_str": "0b1010101010101010101010101010101010101010", "offset": 30, "new_bits": "0b1111111111"}
+{"filename": "bitstring/test13.py", "binary_str": "0b1100110011001100110011001100110011001100", "offset": 0, "new_bits": "0b10101010101010101010"}
+{"filename": "bitstring/test13.py", "binary_str": "0b1111000011110000111100001111000011110000", "offset": 16, "new_bits": "0b1010101010101010"}
+{"filename": "bitstring/test13.py", "binary_str": "0b10101010101010101010101010101010101010101010", "offset": 40, "new_bits": "0b11111111111111111111"}
+{"filename": "bitstring/test14.py", "binary_str": "0b10101010", "pos": 3}
+{"filename": "bitstring/test14.py", "binary_str": "0b11110000", "pos": 7}
+{"filename": "bitstring/test14.py", "binary_str": "0b1010101010101010", "pos": 8}
+{"filename": "bitstring/test14.py", "binary_str": "0b1100110011001100", "pos": 12}
+{"filename": "bitstring/test14.py", "binary_str": "0b1111111100000000", "pos": 15}
+{"filename": "bitstring/test14.py", "binary_str": "0b1010101010", "pos": 5}
+{"filename": "bitstring/test14.py", "binary_str": "0b111000111000", "pos": 6}
+{"filename": "bitstring/test14.py", "binary_str": "0b1001100110011001", "pos": 10}
+{"filename": "bitstring/test14.py", "binary_str": "0b101010101010101010101010", "pos": 18}
+{"filename": "bitstring/test14.py", "binary_str": "0b111111111111111111111111", "pos": 23}
+{"filename": "bitstring/test14.py", "binary_str": "0b10101010101010101010101010101010", "pos": 30}
+{"filename": "bitstring/test14.py", "binary_str": "0b11110000111100001111000011110000", "pos": 20}
+{"filename": "bitstring/test14.py", "binary_str": "0b11001100110011001100110011001100", "pos": 28}
+{"filename": "bitstring/test14.py", "binary_str": "0b10101010101010101010101010101010101010", "pos": 37}
+{"filename": "bitstring/test14.py", "binary_str": "0b1111111111111111111111111111111111111111", "pos": 39}
+{"filename": "bitstring/test14.py", "binary_str": "0b1000000000000000000000000000000000000000", "pos": 35}
+{"filename": "bitstring/test14.py", "binary_str": "0b10101010101010101010101010101010101010101010", "pos": 43}
+{"filename": "bitstring/test14.py", "binary_str": "0b1010101010", "pos": 2}
+{"filename": "bitstring/test14.py", "binary_str": "0b1111000011110000", "pos": 10}
+{"filename": "bitstring/test15.py", "hex_str": "0x1A", "append_bin": "0b1010", "prepend_bin": "0b1100"}
+{"filename": "bitstring/test15.py", "hex_str": "0xFF", "append_bin": "0b0000", "prepend_bin": "0b1111"}
+{"filename": "bitstring/test15.py", "hex_str": "0xABCDEF", "append_bin": "0b101010", "prepend_bin": "0b010101"}
+{"filename": "bitstring/test15.py", "hex_str": "0x123456", "append_bin": "0b11110000", "prepend_bin": "0b00001111"}
+{"filename": "bitstring/test15.py", "hex_str": "0xF0F0F0", "append_bin": "0b1010101010", "prepend_bin": "0b0101010101"}
+{"filename": "bitstring/test15.py", "hex_str": "0xFFFFFFFF", "append_bin": "0b1111111111111111", "prepend_bin": "0b0000000000000000"}
+{"filename": "bitstring/test15.py", "hex_str": "0xAAAAAAAA", "append_bin": "0b1010101010101010", "prepend_bin": "0b0101010101010101"}
+{"filename": "bitstring/test15.py", "hex_str": "0x55555555", "append_bin": "0b1111000011110000", "prepend_bin": "0b0000111100001111"}
+{"filename": "bitstring/test15.py", "hex_str": "0xDEADBEEF", "append_bin": "0b10101010101010101010", "prepend_bin": "0b01010101010101010101"}
+{"filename": "bitstring/test15.py", "hex_str": "0xCAFEBABE", "append_bin": "0b111111111111111111111111", "prepend_bin": "0b000000000000000000000000"}
+{"filename": "bitstring/test15.py", "hex_str": "0x1337C0DE", "append_bin": "0b10101010101010101010101010", "prepend_bin": "0b01010101010101010101010101"}
+{"filename": "bitstring/test15.py", "hex_str": "0xFEEDFACE", "append_bin": "0b1111000011110000111100001111", "prepend_bin": "0b0000111100001111000011110000"}
+{"filename": "bitstring/test15.py", "hex_str": "0xBAADF00D", "append_bin": "0b10101010101010101010101010101010", "prepend_bin": "0b01010101010101010101010101010101"}
+{"filename": "bitstring/test15.py", "hex_str": "0x01234567", "append_bin": "0b11111111000000001111111100000000", "prepend_bin": "0b00000000111111110000000011111111"}
+{"filename": "bitstring/test15.py", "hex_str": "0x89ABCDEF", "append_bin": "0b1010101010101010101010101010101010", "prepend_bin": "0b0101010101010101010101010101010101"}
+{"filename": "bitstring/test15.py", "hex_str": "0xFFFFFFFFFFFFFFFF", "append_bin": "0b11111111111111111111111111111111", "prepend_bin": "0b00000000000000000000000000000000"}
+{"filename": "bitstring/test15.py", "hex_str": "0x0000000000000000", "append_bin": "0b10101010101010101010101010101010", "prepend_bin": "0b01010101010101010101010101010101"}
+{"filename": "bitstring/test15.py", "hex_str": "0xAAAA5555AAAA5555", "append_bin": "0b11110000111100001111000011110000", "prepend_bin": "0b00001111000011110000111100001111"}
+{"filename": "bitstring/test15.py", "hex_str": "0xFFFF0000FFFF0000", "append_bin": "0b10101010101010101010101010101010101010", "prepend_bin": "0b01010101010101010101010101010101010101"}
+{"filename": "bitstring/test16.py", "binary_str": "0b1010101010101010", "pos": 0}
+{"filename": "bitstring/test16.py", "binary_str": "0b1111000011110000", "pos": 4}
+{"filename": "bitstring/test16.py", "binary_str": "0b1010101010", "pos": 2}
+{"filename": "bitstring/test16.py", "binary_str": "0b1100110011001100", "pos": 8}
+{"filename": "bitstring/test16.py", "binary_str": "0b1111111100000000", "pos": 12}
+{"filename": "bitstring/test16.py", "binary_str": "0b101010101010101010101010", "pos": 10}
+{"filename": "bitstring/test16.py", "binary_str": "0b111111111111111111111111", "pos": 20}
+{"filename": "bitstring/test16.py", "binary_str": "0b10101010101010101010101010101010", "pos": 24}
+{"filename": "bitstring/test16.py", "binary_str": "0b11110000111100001111000011110000", "pos": 16}
+{"filename": "bitstring/test16.py", "binary_str": "0b11001100110011001100110011001100", "pos": 20}
+{"filename": "bitstring/test16.py", "binary_str": "0b10101010101010101010101010101010101010", "pos": 28}
+{"filename": "bitstring/test16.py", "binary_str": "0b1111111111111111111111111111111111111111", "pos": 32}
+{"filename": "bitstring/test16.py", "binary_str": "0b1000000000000000000000000000000000000000", "pos": 36}
+{"filename": "bitstring/test16.py", "binary_str": "0b10101010101010101010101010101010101010101010", "pos": 40}
+{"filename": "bitstring/test16.py", "binary_str": "0b11001100110011001100110011001100110011001100", "pos": 44}
+{"filename": "bitstring/test16.py", "binary_str": "0b111100001111000011110000111100001111000011110000", "pos": 48}
+{"filename": "bitstring/test16.py", "binary_str": "0b1010101010101010101010101010101010101010101010101010", "pos": 52}
+{"filename": "bitstring/test16.py", "binary_str": "0b11001100110011001100110011001100110011001100110011001100", "pos": 56}
+{"filename": "bitstring/test16.py", "binary_str": "0b1111000011110000111100001111000011110000111100001111000011110000", "pos": 60}
+{"filename": "bitstring/test16.py", "binary_str": "0b1010101010101010101010101010101010101010101010101010101010101010", "pos": 64}
+{"filename": "bitstring/test17.py", "binary_str": "0b1010101010101010", "read_uint": 4}
+{"filename": "bitstring/test17.py", "binary_str": "0b1111000011110000", "read_uint": 8}
+{"filename": "bitstring/test17.py", "binary_str": "0b1010101010", "read_uint": 2}
+{"filename": "bitstring/test17.py", "binary_str": "0b1100110011001100", "read_uint": 6}
+{"filename": "bitstring/test17.py", "binary_str": "0b1111111100000000", "read_uint": 12}
+{"filename": "bitstring/test17.py", "binary_str": "0b101010101010101010101010", "read_uint": 10}
+{"filename": "bitstring/test17.py", "binary_str": "0b111111111111111111111111", "read_uint": 16}
+{"filename": "bitstring/test17.py", "binary_str": "0b10101010101010101010101010101010", "read_uint": 12}
+{"filename": "bitstring/test17.py", "binary_str": "0b11110000111100001111000011110000", "read_uint": 14}
+{"filename": "bitstring/test17.py", "binary_str": "0b11001100110011001100110011001100", "read_uint": 8}
+{"filename": "bitstring/test17.py", "binary_str": "0b10101010101010101010101010101010101010", "read_uint": 20}
+{"filename": "bitstring/test17.py", "binary_str": "0b1111111111111111111111111111111111111111", "read_uint": 24}
+{"filename": "bitstring/test17.py", "binary_str": "0b1000000000000000000000000000000000000000", "read_uint": 1}
+{"filename": "bitstring/test17.py", "binary_str": "0b10101010101010101010101010101010101010101010", "read_uint": 18}
+{"filename": "bitstring/test17.py", "binary_str": "0b11001100110011001100110011001100110011001100", "read_uint": 22}
+{"filename": "bitstring/test17.py", "binary_str": "0b111100001111000011110000111100001111000011110000", "read_uint": 26}
+{"filename": "bitstring/test17.py", "binary_str": "0b1010101010101010101010101010101010101010101010101010", "read_uint": 30}
+{"filename": "bitstring/test17.py", "binary_str": "0b11001100110011001100110011001100110011001100110011001100", "read_uint": 32}
+{"filename": "bitstring/test17.py", "binary_str": "0b1111000011110000111100001111000011110000111100001111000011110000", "read_uint": 28}
+{"filename": "bitstring/test17.py", "binary_str": "0b1010101010101010101010101010101010101010101010101010101010101010", "read_uint": 36}
+{"filename": "bitstring/test18.py", "binary_str": "0b1010101010101010", "peek_bits": 4}
+{"filename": "bitstring/test18.py", "binary_str": "0b1111000011110000", "peek_bits": 8}
+{"filename": "bitstring/test18.py", "binary_str": "0b1010101010", "peek_bits": 2}
+{"filename": "bitstring/test18.py", "binary_str": "0b1100110011001100", "peek_bits": 6}
+{"filename": "bitstring/test18.py", "binary_str": "0b1111111100000000", "peek_bits": 10}
+{"filename": "bitstring/test18.py", "binary_str": "0b101010101010101010101010", "peek_bits": 12}
+{"filename": "bitstring/test18.py", "binary_str": "0b111111111111111111111111", "peek_bits": 16}
+{"filename": "bitstring/test18.py", "binary_str": "0b10101010101010101010101010101010", "peek_bits": 14}
+{"filename": "bitstring/test18.py", "binary_str": "0b11110000111100001111000011110000", "peek_bits": 18}
+{"filename": "bitstring/test18.py", "binary_str": "0b11001100110011001100110011001100", "peek_bits": 20}
+{"filename": "bitstring/test18.py", "binary_str": "0b10101010101010101010101010101010101010", "peek_bits": 22}
+{"filename": "bitstring/test18.py", "binary_str": "0b1111111111111111111111111111111111111111", "peek_bits": 24}
+{"filename": "bitstring/test18.py", "binary_str": "0b1000000000000000000000000000000000000000", "peek_bits": 8}
+{"filename": "bitstring/test18.py", "binary_str": "0b10101010101010101010101010101010101010101010", "peek_bits": 26}
+{"filename": "bitstring/test18.py", "binary_str": "0b11001100110011001100110011001100110011001100", "peek_bits": 28}
+{"filename": "bitstring/test18.py", "binary_str": "0b111100001111000011110000111100001111000011110000", "peek_bits": 30}
+{"filename": "bitstring/test18.py", "binary_str": "0b1010101010101010101010101010101010101010101010101010", "peek_bits": 32}
+{"filename": "bitstring/test18.py", "binary_str": "0b11001100110011001100110011001100110011001100110011001100", "peek_bits": 34}
+{"filename": "bitstring/test18.py", "binary_str": "0b1111000011110000111100001111000011110000111100001111000011110000", "peek_bits": 36}
+{"filename": "bitstring/test18.py", "binary_str": "0b1010101010101010101010101010101010101010101010101010101010101010", "peek_bits": 40}
+{"filename": "bitstring/test19.py", "binary_str": "0b1010101010101010", "marker": "0b1010", "extract_len": 4}
+{"filename": "bitstring/test19.py", "binary_str": "0b1100110011001100", "marker": "0b11", "extract_len": 4}
+{"filename": "bitstring/test19.py", "binary_str": "0b101010101010101010101010", "marker": "0b0101", "extract_len": 8}
+{"filename": "bitstring/test19.py", "binary_str": "0b11111111111111111111", "marker": "0b11111", "extract_len": 5}
+{"filename": "bitstring/test19.py", "binary_str": "0b1001100110011001", "marker": "0b1001", "extract_len": 6}
+{"filename": "bitstring/test19.py", "binary_str": "0b1010101010101", "marker": "0b10101", "extract_len": 5}
+{"filename": "bitstring/test19.py", "binary_str": "0b110011001100110011001100", "marker": "0b1100", "extract_len": 10}
+{"filename": "bitstring/test19.py", "binary_str": "0b111000111000111000", "marker": "0b111000", "extract_len": 9}
+{"filename": "bitstring/test19.py", "binary_str": "0b101010101010101010101010", "marker": "0b101010", "extract_len": 12}
+{"filename": "bitstring/test19.py", "binary_str": "0b111100001111000011110000", "marker": "0b11110000", "extract_len": 8}
+{"filename": "bitstring/test19.py", "binary_str": "0b10101010101010101010101010101010", "marker": "0b1010101010", "extract_len": 10}
+{"filename": "bitstring/test19.py", "binary_str": "0b11001100110011001100110011001100", "marker": "0b11001100", "extract_len": 12}
+{"filename": "bitstring/test19.py", "binary_str": "0b11111111000000001111111100000000", "marker": "0b11111111", "extract_len": 8}
+{"filename": "bitstring/test19.py", "binary_str": "0b10101010101010101010101010101010101010", "marker": "0b101010101010", "extract_len": 14}
+{"filename": "bitstring/test19.py", "binary_str": "0b1111111111111111111111111111111111111111", "marker": "0b1111111111111111", "extract_len": 16}
+{"filename": "bitstring/test19.py", "binary_str": "0b1010101010101010101010101010101010101010", "marker": "0b1010101010101010", "extract_len": 18}
+{"filename": "bitstring/test19.py", "binary_str": "0b1100110011001100110011001100110011001100", "marker": "0b1100110011001100", "extract_len": 20}
+{"filename": "bitstring/test19.py", "binary_str": "0b1111000011110000111100001111000011110000", "marker": "0b1111000011110000", "extract_len": 22}
+{"filename": "bitstring/test19.py", "binary_str": "0b1010101010101010101010101010101010101010101010", "marker": "0b101010101010101010", "extract_len": 24}
+{"filename": "bitstring/test19.py", "binary_str": "0b11001100110011001100110011001100110011001100110011001100", "marker": "0b11001100110011001100", "extract_len": 26}
+{"filename": "bitstring/test2.py", "hex_str": "0x1"}
+{"filename": "bitstring/test2.py", "hex_str": "0xF"}
+{"filename": "bitstring/test2.py", "hex_str": "0xFF"}
+{"filename": "bitstring/test2.py", "hex_str": "0x7F"}
+{"filename": "bitstring/test2.py", "hex_str": "0x80"}
+{"filename": "bitstring/test2.py", "hex_str": "0x7FF"}
+{"filename": "bitstring/test2.py", "hex_str": "0x800"}
+{"filename": "bitstring/test2.py", "hex_str": "0xFFF"}
+{"filename": "bitstring/test2.py", "hex_str": "0x1000"}
+{"filename": "bitstring/test2.py", "hex_str": "0xFFFF"}
+{"filename": "bitstring/test2.py", "hex_str": "0xAAAA"}
+{"filename": "bitstring/test2.py", "hex_str": "0x5555"}
+{"filename": "bitstring/test2.py", "hex_str": "0xDEAD"}
+{"filename": "bitstring/test2.py", "hex_str": "0xBEEF"}
+{"filename": "bitstring/test2.py", "hex_str": "0xCAFE"}
+{"filename": "bitstring/test2.py", "hex_str": "0xF00D"}
+{"filename": "bitstring/test2.py", "hex_str": "0x1337"}
+{"filename": "bitstring/test2.py", "hex_str": "0x0BAD"}
+{"filename": "bitstring/test2.py", "hex_str": "0xFace"}
+{"filename": "bitstring/test2.py", "hex_str": "0xB16B"}
+{"filename": "bitstring/test3.py", "uint_val": 5, "length": 8}
+{"filename": "bitstring/test3.py", "uint_val": 255, "length": 8}
+{"filename": "bitstring/test3.py", "uint_val": 0, "length": 8}
+{"filename": "bitstring/test3.py", "uint_val": 1023, "length": 10}
+{"filename": "bitstring/test3.py", "uint_val": 128, "length": 8}
+{"filename": "bitstring/test3.py", "uint_val": 1, "length": 1}
+{"filename": "bitstring/test3.py", "uint_val": 15, "length": 4}
+{"filename": "bitstring/test3.py", "uint_val": 65535, "length": 16}
+{"filename": "bitstring/test3.py", "uint_val": 1000, "length": 16}
+{"filename": "bitstring/test3.py", "uint_val": 255, "length": 16}
+{"filename": "bitstring/test3.py", "uint_val": 7, "length": 3}
+{"filename": "bitstring/test3.py", "uint_val": 32, "length": 6}
+{"filename": "bitstring/test3.py", "uint_val": 511, "length": 9}
+{"filename": "bitstring/test3.py", "uint_val": 1024, "length": 11}
+{"filename": "bitstring/test3.py", "uint_val": 4095, "length": 12}
+{"filename": "bitstring/test3.py", "uint_val": 8191, "length": 13}
+{"filename": "bitstring/test3.py", "uint_val": 16383, "length": 14}
+{"filename": "bitstring/test3.py", "uint_val": 32767, "length": 15}
+{"filename": "bitstring/test3.py", "uint_val": 255, "length": 10}
+{"filename": "bitstring/test3.py", "uint_val": 500, "length": 10}
+{"filename": "bitstring/test4.py", "binary_str": "0b10101010", "start": 0, "end": 4}
+{"filename": "bitstring/test4.py", "binary_str": "0b10101010", "start": 2, "end": 6}
+{"filename": "bitstring/test4.py", "binary_str": "0b11110000", "start": 4, "end": 8}
+{"filename": "bitstring/test4.py", "binary_str": "0b1010101010101010", "start": 0, "end": 8}
+{"filename": "bitstring/test4.py", "binary_str": "0b1010101010101010", "start": 5, "end": 13}
+{"filename": "bitstring/test4.py", "binary_str": "0b1100110011001100", "start": 8, "end": 16}
+{"filename": "bitstring/test4.py", "binary_str": "0b1111111100000000", "start": 8, "end": 16}
+{"filename": "bitstring/test4.py", "binary_str": "0b101010", "start": 0, "end": 3}
+{"filename": "bitstring/test4.py", "binary_str": "0b111000", "start": 1, "end": 5}
+{"filename": "bitstring/test4.py", "binary_str": "0b1001100110011001", "start": 4, "end": 12}
+{"filename": "bitstring/test4.py", "binary_str": "0b101010101010101010101010", "start": 0, "end": 10}
+{"filename": "bitstring/test4.py", "binary_str": "0b1111111111111111", "start": 0, "end": 16}
+{"filename": "bitstring/test4.py", "binary_str": "0b0000000000000000", "start": 8, "end": 16}
+{"filename": "bitstring/test4.py", "binary_str": "0b1010101010101010", "start": 0, "end": 16}
+{"filename": "bitstring/test4.py", "binary_str": "0b110011001100110011001100", "start": 0, "end": 20}
+{"filename": "bitstring/test4.py", "binary_str": "0b1111000011110000", "start": 2, "end": 10}
+{"filename": "bitstring/test4.py", "binary_str": "0b1010101010101010", "start": 8, "end": 15}
+{"filename": "bitstring/test4.py", "binary_str": "0b1001100110011001", "start": 0, "end": 8}
+{"filename": "bitstring/test4.py", "binary_str": "0b11111111000000001111111100000000", "start": 16, "end": 32}
+{"filename": "bitstring/test4.py", "binary_str": "0b10101010101010101010101010101010", "start": 10, "end": 30}
+{"filename": "bitstring/test5.py", "binary_str": "0b1010", "new_bits": "0b11"}
+{"filename": "bitstring/test5.py", "binary_str": "0b1111", "new_bits": "0b0000"}
+{"filename": "bitstring/test5.py", "binary_str": "0b101010", "new_bits": "0b00"}
+{"filename": "bitstring/test5.py", "binary_str": "0b1100", "new_bits": "0b111111"}
+{"filename": "bitstring/test5.py", "binary_str": "0b101", "new_bits": "0b1"}
+{"filename": "bitstring/test5.py", "binary_str": "0b0", "new_bits": "0b1"}
+{"filename": "bitstring/test5.py", "binary_str": "0b1", "new_bits": "0b0"}
+{"filename": "bitstring/test5.py", "binary_str": "0b10101", "new_bits": "0b010"}
+{"filename": "bitstring/test5.py", "binary_str": "0b111000", "new_bits": "0b111"}
+{"filename": "bitstring/test5.py", "binary_str": "0b110011", "new_bits": "0b0011"}
+{"filename": "bitstring/test5.py", "binary_str": "0b10101010", "new_bits": "0b101010"}
+{"filename": "bitstring/test5.py", "binary_str": "0b11110000", "new_bits": "0b00001111"}
+{"filename": "bitstring/test5.py", "binary_str": "0b1001", "new_bits": "0b0101"}
+{"filename": "bitstring/test5.py", "binary_str": "0b101001", "new_bits": "0b1100"}
+{"filename": "bitstring/test5.py", "binary_str": "0b110110", "new_bits": "0b001001"}
+{"filename": "bitstring/test5.py", "binary_str": "0b10011001", "new_bits": "0b01100110"}
+{"filename": "bitstring/test5.py", "binary_str": "0b1010101010", "new_bits": "0b0101010101"}
+{"filename": "bitstring/test5.py", "binary_str": "0b11111111", "new_bits": "0b00000000"}
+{"filename": "bitstring/test5.py", "binary_str": "0b1010101010101010", "new_bits": "0b0101010101010101"}
+{"filename": "bitstring/test5.py", "binary_str": "0b1100110011001100", "new_bits": "0b0011001100110011"}
+{"filename": "bitstring/test6.py", "hex_str": "0xFF"}
+{"filename": "bitstring/test6.py", "hex_str": "0x00"}
+{"filename": "bitstring/test6.py", "hex_str": "0xAA"}
+{"filename": "bitstring/test6.py", "hex_str": "0x55"}
+{"filename": "bitstring/test6.py", "hex_str": "0xF0F0"}
+{"filename": "bitstring/test6.py", "hex_str": "0x0F0F"}
+{"filename": "bitstring/test6.py", "hex_str": "0xFFFF"}
+{"filename": "bitstring/test6.py", "hex_str": "0x8888"}
+{"filename": "bitstring/test6.py", "hex_str": "0x1234"}
+{"filename": "bitstring/test6.py", "hex_str": "0xABCD"}
+{"filename": "bitstring/test6.py", "hex_str": "0x1010"}
+{"filename": "bitstring/test6.py", "hex_str": "0x0101"}
+{"filename": "bitstring/test6.py", "hex_str": "0x1111"}
+{"filename": "bitstring/test6.py", "hex_str": "0x2222"}
+{"filename": "bitstring/test6.py", "hex_str": "0x3333"}
+{"filename": "bitstring/test6.py", "hex_str": "0x4444"}
+{"filename": "bitstring/test6.py", "hex_str": "0x7777"}
+{"filename": "bitstring/test6.py", "hex_str": "0x9999"}
+{"filename": "bitstring/test6.py", "hex_str": "0xCCCC"}
+{"filename": "bitstring/test6.py", "hex_str": "0xDDDD"}
+{"filename": "bitstring/test7.py", "binary_str": "0b10101010", "pattern": "0b101"}
+{"filename": "bitstring/test7.py", "binary_str": "0b1111000011110000", "pattern": "0b1111"}
+{"filename": "bitstring/test7.py", "binary_str": "0b1010101010101010", "pattern": "0b010"}
+{"filename": "bitstring/test7.py", "binary_str": "0b1100110011001100", "pattern": "0b11"}
+{"filename": "bitstring/test7.py", "binary_str": "0b10101010101010101010", "pattern": "0b0101"}
+{"filename": "bitstring/test7.py", "binary_str": "0b11111111111111111111", "pattern": "0b11111"}
+{"filename": "bitstring/test7.py", "binary_str": "0b1001100110011001", "pattern": "0b1001"}
+{"filename": "bitstring/test7.py", "binary_str": "0b101010101010101", "pattern": "0b10101"}
+{"filename": "bitstring/test7.py", "binary_str": "0b11001100110011", "pattern": "0b110011"}
+{"filename": "bitstring/test7.py", "binary_str": "0b111000111000111000", "pattern": "0b111000"}
+{"filename": "bitstring/test7.py", "binary_str": "0b101010101010101010101010", "pattern": "0b101010"}
+{"filename": "bitstring/test7.py", "binary_str": "0b111100001111000011110000", "pattern": "0b11110000"}
+{"filename": "bitstring/test7.py", "binary_str": "0b10101010101010101010101010101010", "pattern": "0b1010101010"}
+{"filename": "bitstring/test7.py", "binary_str": "0b11001100110011001100110011001100", "pattern": "0b11001100"}
+{"filename": "bitstring/test7.py", "binary_str": "0b11111111000000001111111100000000", "pattern": "0b11111111"}
+{"filename": "bitstring/test7.py", "binary_str": "0b10101010101010101010101010101010101010", "pattern": "0b101010101010"}
+{"filename": "bitstring/test7.py", "binary_str": "0b1111111111111111111111111111111111111111", "pattern": "0b1111111111111111"}
+{"filename": "bitstring/test7.py", "binary_str": "0b1010101010101010101010101010101010101010", "pattern": "0b101010101010101010"}
+{"filename": "bitstring/test7.py", "binary_str": "0b1100110011001100110011001100110011001100", "pattern": "0b1100110011001100"}
+{"filename": "bitstring/test7.py", "binary_str": "0b1111000011110000111100001111000011110000", "pattern": "0b1111000011110000"}
+{"filename": "bitstring/test8.py", "binary_str": "0b10101010", "old_pattern": "0b101", "new_pattern": "0b011"}
+{"filename": "bitstring/test8.py", "binary_str": "0b11110000", "old_pattern": "0b1111", "new_pattern": "0b1110"}
+{"filename": "bitstring/test8.py", "binary_str": "0b1010101010", "old_pattern": "0b101", "new_pattern": "0b111"}
+{"filename": "bitstring/test8.py", "binary_str": "0b110011001100", "old_pattern": "0b11", "new_pattern": "0b00"}
+{"filename": "bitstring/test8.py", "binary_str": "0b1010101010101010", "old_pattern": "0b010", "new_pattern": "0b101"}
+{"filename": "bitstring/test8.py", "binary_str": "0b111111111111", "old_pattern": "0b1111", "new_pattern": "0b0000"}
+{"filename": "bitstring/test8.py", "binary_str": "0b1001100110011001", "old_pattern": "0b1001", "new_pattern": "0b0110"}
+{"filename": "bitstring/test8.py", "binary_str": "0b1010101010101", "old_pattern": "0b10101", "new_pattern": "0b01010"}
+{"filename": "bitstring/test8.py", "binary_str": "0b110011001100110011001100", "old_pattern": "0b1100", "new_pattern": "0b0011"}
+{"filename": "bitstring/test8.py", "binary_str": "0b111000111000111000", "old_pattern": "0b111000", "new_pattern": "0b000111"}
+{"filename": "bitstring/test8.py", "binary_str": "0b101010101010101010101010", "old_pattern": "0b101010", "new_pattern": "0b010101"}
+{"filename": "bitstring/test8.py", "binary_str": "0b111100001111000011110000", "old_pattern": "0b11110000", "new_pattern": "0b00001111"}
+{"filename": "bitstring/test8.py", "binary_str": "0b10101010101010101010101010101010", "old_pattern": "0b1010101010", "new_pattern": "0b0101010101"}
+{"filename": "bitstring/test8.py", "binary_str": "0b11001100110011001100110011001100", "old_pattern": "0b11001100", "new_pattern": "0b00110011"}
+{"filename": "bitstring/test8.py", "binary_str": "0b11111111000000001111111100000000", "old_pattern": "0b11111111", "new_pattern": "0b00000000"}
+{"filename": "bitstring/test8.py", "binary_str": "0b10101010101010101010101010101010101010", "old_pattern": "0b101010101010", "new_pattern": "0b010101010101"}
+{"filename": "bitstring/test8.py", "binary_str": "0b1111111111111111111111111111111111111111", "old_pattern": "0b1111111111111111", "new_pattern": "0b0000000000000000"}
+{"filename": "bitstring/test8.py", "binary_str": "0b1010101010101010101010101010101010101010", "old_pattern": "0b1010101010101010", "new_pattern": "0b0101010101010101"}
+{"filename": "bitstring/test8.py", "binary_str": "0b1100110011001100110011001100110011001100", "old_pattern": "0b1100110011001100", "new_pattern": "0b0011001100110011"}
+{"filename": "bitstring/test8.py", "binary_str": "0b1111000011110000111100001111000011110000", "old_pattern": "0b1111000011110000", "new_pattern": "0b0000111100001111"}
+{"filename": "bitstring/test9.py", "bin1": "0b1010", "bin2": "0b1100"}
+{"filename": "bitstring/test9.py", "bin1": "0b1111", "bin2": "0b0000"}
+{"filename": "bitstring/test9.py", "bin1": "0b10101", "bin2": "0b01010"}
+{"filename": "bitstring/test9.py", "bin1": "0b110011", "bin2": "0b00110011"}
+{"filename": "bitstring/test9.py", "bin1": "0b1010101010", "bin2": "0b0101010101"}
+{"filename": "bitstring/test9.py", "bin1": "0b1111000011110000", "bin2": "0b0000111100001111"}
+{"filename": "bitstring/test9.py", "bin1": "0b1001", "bin2": "0b0110"}
+{"filename": "bitstring/test9.py", "bin1": "0b1010101010101010", "bin2": "0b0101010101010101"}
+{"filename": "bitstring/test9.py", "bin1": "0b1100110011001100", "bin2": "0b0011001100110011"}
+{"filename": "bitstring/test9.py", "bin1": "0b1111111111111111", "bin2": "0b0000000000000000"}
+{"filename": "bitstring/test9.py", "bin1": "0b1010101010", "bin2": "0b1010101010"}
+{"filename": "bitstring/test9.py", "bin1": "0b11110000", "bin2": "0b00001111"}
+{"filename": "bitstring/test9.py", "bin1": "0b10011001", "bin2": "0b01100110"}
+{"filename": "bitstring/test9.py", "bin1": "0b101010", "bin2": "0b101010"}
+{"filename": "bitstring/test9.py", "bin1": "0b110011", "bin2": "0b110011"}
+{"filename": "bitstring/test9.py", "bin1": "0b111000111000", "bin2": "0b000111000111"}
+{"filename": "bitstring/test9.py", "bin1": "0b101010101010", "bin2": "0b010101010101"}
+{"filename": "bitstring/test9.py", "bin1": "0b1111111100000000", "bin2": "0b0000000011111111"}
+{"filename": "bitstring/test9.py", "bin1": "0b101010101010101010101010", "bin2": "0b010101010101010101010101"}
+{"filename": "bitstring/test9.py", "bin1": "0b110011001100110011001100", "bin2": "0b001100110011001100110011"}
+{"filename": "bitstring/test9.py", "bin1": "0b11110000111100001111000011110000", "bin2": "0b0000111100001111000011110000"}

@@ -1,0 +1,420 @@
+{"filename": "sqlparse/test10.py", "a": "SELECT id, name FROM users", "b": "SELECT * FROM products WHERE price > 100"}
+{"filename": "sqlparse/test10.py", "a": "INSERT INTO logs (message) VALUES ('test')", "b": "UPDATE accounts SET balance = balance + 50 WHERE user_id = 1"}
+{"filename": "sqlparse/test10.py", "a": "DELETE FROM temp WHERE id > 100", "b": "CREATE TABLE customers (id INT, name VARCHAR(100))"}
+{"filename": "sqlparse/test10.py", "a": "SELECT name, email FROM employees ORDER BY name DESC", "b": "SELECT COUNT(*) as total FROM orders WHERE status = 'completed'"}
+{"filename": "sqlparse/test10.py", "a": "ALTER TABLE users ADD COLUMN phone VARCHAR(20)", "b": "DROP TABLE IF EXISTS old_data"}
+{"filename": "sqlparse/test10.py", "a": "SELECT * FROM orders WHERE amount > 50 AND status = 'pending'", "b": "UPDATE products SET price = price * 0.9 WHERE category = 'electronics'"}
+{"filename": "sqlparse/test10.py", "a": "BEGIN TRANSACTION", "b": "ROLLBACK"}
+{"filename": "sqlparse/test10.py", "a": "CREATE VIEW active_users AS SELECT * FROM users WHERE active = TRUE", "b": "DROP VIEW IF EXISTS inactive_users"}
+{"filename": "sqlparse/test10.py", "a": "INSERT INTO products (name, price) VALUES ('Laptop', 1299.99), ('Mouse', 29.99)", "b": "UPDATE inventory SET quantity = quantity - 1 WHERE product_id = 5 AND quantity > 0"}
+{"filename": "sqlparse/test10.py", "a": "SELECT DISTINCT category FROM products", "b": "SELECT category, AVG(price) as avg_price FROM products GROUP BY category HAVING AVG(price) > 100"}
+{"filename": "sqlparse/test10.py", "a": "SELECT u.name, o.amount FROM users u JOIN orders o ON u.id = o.user_id", "b": "SELECT p.name, c.name FROM products p JOIN categories c ON p.category_id = c.id WHERE p.in_stock = TRUE"}
+{"filename": "sqlparse/test10.py", "a": "DELETE FROM logs WHERE created_at < '2023-01-01' OR level = 'DEBUG'", "b": "TRUNCATE TABLE session_data"}
+{"filename": "sqlparse/test10.py", "a": "WITH recent_orders AS (SELECT * FROM orders WHERE created_at > NOW() - INTERVAL '7 days') SELECT COUNT(*) FROM recent_orders", "b": "SELECT user_id, SUM(amount) as total_spent FROM orders GROUP BY user_id HAVING SUM(amount) > 1000 ORDER BY total_spent DESC"}
+{"filename": "sqlparse/test10.py", "a": "UPDATE products SET price = price * 1.1, last_updated = NOW() WHERE category = 'electronics'", "b": "DELETE FROM products WHERE discontinued = TRUE OR stock = 0"}
+{"filename": "sqlparse/test10.py", "a": "CREATE INDEX idx_email ON users(email)", "b": "CREATE UNIQUE INDEX idx_username ON users(username)"}
+{"filename": "sqlparse/test10.py", "a": "SELECT * FROM users WHERE age > 18 AND (verified = TRUE OR created_at > '2023-01-01')", "b": "SELECT * FROM products WHERE price BETWEEN 50 AND 500 AND (category = 'electronics' OR category = 'accessories')"}
+{"filename": "sqlparse/test10.py", "a": "INSERT INTO audit_log (action, user_id, timestamp) VALUES ('login', 1, NOW()), ('logout', 1, NOW())", "b": "DELETE FROM audit_log WHERE timestamp < NOW() - INTERVAL '90 days'"}
+{"filename": "sqlparse/test10.py", "a": "SELECT CASE WHEN score >= 90 THEN 'A' WHEN score >= 80 THEN 'B' WHEN score >= 70 THEN 'C' ELSE 'F' END as grade FROM exams", "b": "SELECT COALESCE(address, 'No address provided') as address FROM customers"}
+{"filename": "sqlparse/test10.py", "a": "SELECT DATE_TRUNC('month', created_at) as month, SUM(amount) as monthly_sales FROM orders GROUP BY month ORDER BY month", "b": "SELECT EXTRACT(YEAR FROM created_at) as year, COUNT(*) as order_count FROM orders GROUP BY year HAVING COUNT(*) > 100"}
+{"filename": "sqlparse/test10.py", "a": "ALTER TABLE orders ADD CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id)", "b": "ALTER TABLE products ALTER COLUMN price TYPE DECIMAL(10,2)"}
+{"filename": "sqlparse/test10.py", "a": "SELECT * FROM users WHERE name LIKE 'J%' OR email LIKE '%@gmail.com'", "b": "SELECT * FROM products WHERE name ILIKE '%wireless%' AND price < 100"}
+{"filename": "sqlparse/test10.py", "a": "j2XnqzhBZv", "b": "7WW6UEjIqexdmvG"}
+{"filename": "sqlparse/test10.py", "a": "6398684723363", "b": "pjdglhobhjo"}
+{"filename": "sqlparse/test10.py", "a": "JRcudQoyydmiyyRKd4eHQOTBqt6r", "b": "KOB6Ua vFii"}
+{"filename": "sqlparse/test10.py", "a": "GRPNRJM", "b": "2CkiIOO3v95aPJZ9RphP9zfvrbnkiKC70XDYJY8"}
+{"filename": "sqlparse/test10.py", "a": "UMWIZIPEEEEME", "b": "KGAOND"}
+{"filename": "sqlparse/test10.py", "a": "jHVkpZDvpwBCeLSPlNY", "b": "yPf 2QMI6Vc9XIineuEyz8SBHi5RjqVb7q"}
+{"filename": "sqlparse/test10.py", "a": "HvftISeZFLNz9aV0f0ehzbIOFfAaBIyTp7LVB", "b": "ozHSyLxYGs0ESIoLGsM5B1ShCHm9phXBlvDwXxwcfbbc"}
+{"filename": "sqlparse/test10.py", "a": "0998684662250", "b": "QkB3smtJfxSpGYMNRbU7Cv8JjU"}
+{"filename": "sqlparse/test10.py", "a": "OQb1DoX6NR", "b": "CDXPPNIA"}
+{"filename": "sqlparse/test10.py", "a": "OGUNBDUWWTYB", "b": "0301255295"}
+{"filename": "sqlparse/test10.py", "a": "TSdpSsWt YcpoJxN78m", "b": "XTg42BgOnceMV4xwAJGNqm7cGLvG"}
+{"filename": "sqlparse/test10.py", "a": "2Phsu4IflcdY4W7gTZY", "b": "lwnoriaqbcpuy"}
+{"filename": "sqlparse/test10.py", "a": "61197105261", "b": "qlgIwB9bWz0bBqMb1ErhOEcc83VA4Nm"}
+{"filename": "sqlparse/test10.py", "a": "gQLvO5TeJr8VVMko", "b": "qcgacl"}
+{"filename": "sqlparse/test10.py", "a": "vi41iKtXhF70ASmTS", "b": "drimhozcxchxyu"}
+{"filename": "sqlparse/test10.py", "a": "HUCNXKFYGBE", "b": "2168443700"}
+{"filename": "sqlparse/test10.py", "a": "dpiqfuk", "b": "58854545202979"}
+{"filename": "sqlparse/test10.py", "a": "BCNXC", "b": "189900477383"}
+{"filename": "sqlparse/test10.py", "a": "2827425297746", "b": "NHVEBDW"}
+{"filename": "sqlparse/test10.py", "a": "MBYDJLM", "b": "RUMSFXUYXX"}
+{"filename": "sqlparse/test10.py", "a": "meqodvwjlp", "b": "bVCrpeaC4KEOD2LV1uNNihN8OD9R5ZVtdayS9oG36jp3VgUs"}
+{"filename": "sqlparse/test10.py", "a": "QPOUXXEL", "b": "adnyrn"}
+{"filename": "sqlparse/test10.py", "a": "FNKXNVVZUXMI", "b": "VOAIKGVRQZHZIRX"}
+{"filename": "sqlparse/test10.py", "a": "Paw7KOAp4wdpg5ZIbV", "b": "SyhOwmsQBygYHSkmT6cY"}
+{"filename": "sqlparse/test10.py", "a": "tngQGWeks1zGZJn", "b": "TlrbQ0ITW7LqNUpaKcaI CEgUSh5Yom"}
+{"filename": "sqlparse/test10.py", "a": "07510474381", "b": "XUUPORWLSAMRDGD"}
+{"filename": "sqlparse/test10.py", "a": "hlw0O94gaCut", "b": "CsOykHo9 dWdyMmkvoW"}
+{"filename": "sqlparse/test10.py", "a": "wiNJUENVIHpqyVkQ47gYrLF424Nya", "b": "934468234"}
+{"filename": "sqlparse/test10.py", "a": "huPoPi16 Db7KqrABX", "b": "LFIWXAAOJYKFPW"}
+{"filename": "sqlparse/test10.py", "a": "alqrr", "b": "Erapd6EmDhLYy2UXepOjXaF2 LOkCuKRwr6ATmRJI"}
+{"filename": "sqlparse/test10.py", "a": "SiuYLdEeHaGK hr3B4n24FDUsp8TQAvyNYam0HP", "b": "3nwekvU373b1"}
+{"filename": "sqlparse/test10.py", "a": "qqxlmqefaqgkk", "b": "954911941680"}
+{"filename": "sqlparse/test10.py", "a": "1aUDAFVyOi", "b": "LSKWFAZ"}
+{"filename": "sqlparse/test10.py", "a": "nX2bYRhU2NdHI5wspWnU6g0hvZ1j8 2Sw", "b": "Byuv0SR"}
+{"filename": "sqlparse/test10.py", "a": "T6HFxG b4rkF", "b": "84616809"}
+{"filename": "sqlparse/test10.py", "a": "ropsvcd", "b": "QCXAOFTN"}
+{"filename": "sqlparse/test10.py", "a": "3H7nwCfKNF0QTsnuQBcC", "b": "uI77YfBaek1DkTDLEY yNmPLe3TwGiz5e5sKRPaJuw6OP2Y"}
+{"filename": "sqlparse/test10.py", "a": "GDHNt", "b": "qinnvm"}
+{"filename": "sqlparse/test10.py", "a": "Ambb9i2iy7uHTNa3Uz q30T6bHshuVW5KGyg4E", "b": "2iIOuQVZfVKJaDgEAzceja5bXu0unZsO7a"}
+{"filename": "sqlparse/test16.py", "a": "", "b": ";", "c": "SELECT 1"}
+{"filename": "sqlparse/test16.py", "a": ";", "b": ";;", "c": "SELECT * FROM users"}
+{"filename": "sqlparse/test16.py", "a": "SELECT * FROM users;", "b": "SELECT 1; SELECT 2;", "c": ""}
+{"filename": "sqlparse/test16.py", "a": "INSERT INTO test VALUES (1);", "b": "", "c": "UPDATE test SET val = 2; DELETE FROM test;"}
+{"filename": "sqlparse/test16.py", "a": ";SELECT 1;", "b": "SELECT 2;;", "c": ";;SELECT 3;;;"}
+{"filename": "sqlparse/test16.py", "a": "CREATE TABLE t1 (id INT);", "b": "DROP TABLE t1;", "c": ""}
+{"filename": "sqlparse/test16.py", "a": "", "b": "; ; ;", "c": "BEGIN; COMMIT;"}
+{"filename": "sqlparse/test16.py", "a": "SELECT * FROM a; SELECT * FROM b;", "b": "SELECT * FROM c;", "c": ""}
+{"filename": "sqlparse/test16.py", "a": "INSERT INTO t VALUES (1); INSERT INTO t VALUES (2);", "b": "UPDATE t SET val = 3;", "c": "DELETE FROM t WHERE id = 1;"}
+{"filename": "sqlparse/test16.py", "a": ";SELECT 'test';", "b": "SELECT 'a'; ; SELECT 'b';", "c": ""}
+{"filename": "sqlparse/test16.py", "a": "", "b": "CREATE TABLE x ();", "c": "DROP TABLE x;"}
+{"filename": "sqlparse/test16.py", "a": "SELECT 1 + 1;", "b": "", "c": "SELECT COUNT(*) FROM users;"}
+{"filename": "sqlparse/test16.py", "a": "BEGIN TRANSACTION;", "b": "COMMIT;", "c": "ROLLBACK;"}
+{"filename": "sqlparse/test16.py", "a": "", "b": "ALTER TABLE users ADD COLUMN email VARCHAR(255);", "c": "CREATE INDEX idx_email ON users(email);"}
+{"filename": "sqlparse/test16.py", "a": "SELECT * FROM users WHERE id = 1;", "b": "SELECT * FROM products WHERE price > 100;", "c": ""}
+{"filename": "sqlparse/test16.py", "a": "INSERT INTO logs (msg) VALUES ('a');", "b": "INSERT INTO logs (msg) VALUES ('b');", "c": "INSERT INTO logs (msg) VALUES ('c');"}
+{"filename": "sqlparse/test16.py", "a": "", "b": "DELETE FROM temp;", "c": "TRUNCATE TABLE cache;"}
+{"filename": "sqlparse/test16.py", "a": "CREATE VIEW v AS SELECT * FROM t;", "b": "DROP VIEW v;", "c": ""}
+{"filename": "sqlparse/test16.py", "a": "SELECT NOW();", "b": "SELECT CURRENT_DATE;", "c": "SELECT CURRENT_TIMESTAMP;"}
+{"filename": "sqlparse/test16.py", "a": "WITH cte AS (SELECT 1 as n) SELECT * FROM cte;", "b": "", "c": "SELECT 1 UNION SELECT 2;"}
+{"filename": "sqlparse/test16.py", "a": "", "b": "SELECT * FROM a JOIN b ON a.id = b.id;", "c": "SELECT * FROM a LEFT JOIN b ON a.id = b.id;"}
+{"filename": "sqlparse/test16.py", "a": "oltwqtdhgq", "b": "P9uhkv DeH6C", "c": "221468106093989"}
+{"filename": "sqlparse/test16.py", "a": "fmdKWv6FnrAwp8WfMenM88kboDp15JC6kwQZIc", "b": "1d7vexxFNFjBg0h3ZmbElAPWH0TTcX qQ8spl", "c": "vapxghdmvxxv"}
+{"filename": "sqlparse/test16.py", "a": "fqjPaOKA7PDUg1fOL5C7AXwgczSXgrd0ouqoaoCc5kL1T", "b": "UGRFJCVOPCJ", "c": "29865841886531"}
+{"filename": "sqlparse/test16.py", "a": "960362500", "b": "nsnxewkwm", "c": "LUCZRWTODYEASSF"}
+{"filename": "sqlparse/test16.py", "a": "icdwhkm", "b": "4cuvXrFFuJSeS RC4L9GiYm", "c": "43SihzqfxQTSlQjXKhLHaKQDiumHQ5fJH4Y"}
+{"filename": "sqlparse/test16.py", "a": "zgWBpsskLIbKBELBlKe3e", "b": "mRpGVKdk1SOLt85xdq q7IX45z3X", "c": "VDESZBFOYEQA"}
+{"filename": "sqlparse/test16.py", "a": "Pxrhw9G2N99WGy5TiWqw7eYqPVIej7jhl1", "b": "R7oIcgaLWjh1Sqm 4Wp9pDkSg3hYvSrdXah", "c": "CIDOKEWMMT"}
+{"filename": "sqlparse/test16.py", "a": "CXGIYK", "b": "4973057", "c": "bsh8Q8"}
+{"filename": "sqlparse/test16.py", "a": "4912556307810", "b": "3WcAve7xYk5LUgd324i", "c": "dogke"}
+{"filename": "sqlparse/test16.py", "a": "CuyhNYg8W", "b": "1LIhMvjwB1MXJ", "c": "L1MCcAg8rqX1b3Mp ZA35I2S1Bril6TDoEkUxQ"}
+{"filename": "sqlparse/test16.py", "a": "60245351970350", "b": "ncpHb6u6yAXv0b4UboOjEsS2FN0IpEAOg1SUfon4Z", "c": "thqzTw8PnNVLb1yuzuYhoRb3Zk"}
+{"filename": "sqlparse/test16.py", "a": "914912256145", "b": "QHEDYDZX", "c": "l0I35OZ3ocwGz3xOUlwMvbmHbrzB8BanBoPbe2t5RRfME"}
+{"filename": "sqlparse/test16.py", "a": "xkMd9PS3Rx1574 yOL451s23h6cskyVWV", "b": "SECJKRNGX", "c": "wlboavarqflt"}
+{"filename": "sqlparse/test16.py", "a": "l5iLiNzNCcZqzKxoXQVgay4bRTrMNhLPPuOV", "b": "309673", "c": "quhctzvoqje"}
+{"filename": "sqlparse/test16.py", "a": "tfvhzallvvkbao", "b": "jelyqousnhsx", "c": "XVUWBZI"}
+{"filename": "sqlparse/test16.py", "a": "1g0G9BdSeC", "b": "6O782TmmVEIqjdbmZNOOrEqjpuhDsPoSlTcB3Qwh4DuCHt", "c": "14l2l69l3amDS8iwiF5rbVIxOsunUiIYHCb"}
+{"filename": "sqlparse/test16.py", "a": "78k7fgIosDTB5dUZIoKGCoycGCT srtYuMlhM9T16sLbRxE", "b": "VFyMs1y0FCaETxNEGZhkdMCnTD6YF4BZp9wT898l7lIYtELo", "c": "m5EDcfIyTmNXxnsour7SN5Ausj6jctlhiGE0nlBWP"}
+{"filename": "sqlparse/test16.py", "a": "HtSuh3riFu7AHHYNc8GaKKTWXNY0Z4VoZjqq29LXVx", "b": "DwR2Ab90NsnJTpi", "c": "grrivy9Q8J1Rx6I OaZcy4HFXBvMzY2rlQi"}
+{"filename": "sqlparse/test16.py", "a": "GxVf4X", "b": "UXhNLJNFAzqws", "c": "sqkwlxire"}
+{"filename": "sqlparse/test16.py", "a": "evutbxmqx", "b": "ZywEYtTWppgglyRJbCvaKfc mkQczumYWa23InTkRFCy2MFVxD", "c": "ufPAcGrza2Fx0fi4FyKz4"}
+{"filename": "sqlparse/test16.py", "a": "fncvdjsh", "b": "zcbxupekbfwjhzy", "c": "EOlJHxGfvYa3tDVgWtseD2tyHsctzLl916EY9dR39gbANeGM"}
+{"filename": "sqlparse/test16.py", "a": "DPRIW", "b": "rLkuR1hWeochojtw4ANj5M 5dkz", "c": "w1vu4WGoDMeiYSH4tGxZRr"}
+{"filename": "sqlparse/test16.py", "a": "LRZEFKTDEFQ", "b": "tnaez", "c": "bKZaPD"}
+{"filename": "sqlparse/test16.py", "a": "0ctsY8gy3Bj103bNQIXbwOCMpBtK7vtgr5XYUY7r4GFt", "b": "vacae7cr2", "c": "15499208"}
+{"filename": "sqlparse/test16.py", "a": "1BUf8KugbJUq", "b": "7xkL8 RyK67tQCuek9FYkVvHgkxDGwoG7573", "c": "I1hanXCP8ogE3j5NVxLLK5df2Ste"}
+{"filename": "sqlparse/test16.py", "a": "Ulqpi7gj2Vb16Asw", "b": "4834706776003", "c": "QaKrWDmLORYLArKcSKYFSI1dvwRL1Jc3Qaz3K1"}
+{"filename": "sqlparse/test16.py", "a": "z3phWDIB8J7", "b": "366685208143", "c": "147664548"}
+{"filename": "sqlparse/test16.py", "a": "79539", "b": "7181824333", "c": "BHLAPLGTUI"}
+{"filename": "sqlparse/test16.py", "a": "cecMVImdy0Xs5ezuna", "b": "10758989724", "c": "1183636032332"}
+{"filename": "sqlparse/test16.py", "a": "ECWNXTCUFGLCE", "b": "676375002159904", "c": "CQIUYORRMJJGILK"}
+{"filename": "sqlparse/test16.py", "a": "TDHdfitCiNehbBCl6D N8gxhwVD", "b": "edwaRcQwPlXHZ", "c": "FMb3LoRZoW"}
+{"filename": "sqlparse/test16.py", "a": "003155076970", "b": "ucpqtmowh", "c": "JKL5q4syJs49JaEatugYgJgui3zQXlnEsLvhA2v7ttGPxJwDH3"}
+{"filename": "sqlparse/test16.py", "a": "kwnkjlews", "b": "I1229OIguE", "c": "L3YqSg1"}
+{"filename": "sqlparse/test16.py", "a": "105350908516", "b": "ovq66V29L1g1slY kV84PupA1vRh57a", "c": "epyvum"}
+{"filename": "sqlparse/test16.py", "a": "vioecgxi", "b": "TFEIGLUENHDIEU", "c": "RWIAEB"}
+{"filename": "sqlparse/test16.py", "a": "CDXQGWSPFQR", "b": "MAGNRCYJHCRNST", "c": "CQRPiUfptRRso9tidSB"}
+{"filename": "sqlparse/test16.py", "a": "gb3ts", "b": "290789", "c": "S2xqKAtgtiLTiyy5iIw6GOG7lN3 Vvlx8fyYr8"}
+{"filename": "sqlparse/test16.py", "a": "rs1ftLbX", "b": "ieLoQoic76bu2t", "c": "OQOTSRRRUI"}
+{"filename": "sqlparse/test16.py", "a": "wikq Pw9", "b": "CVWh3Py64pRCQ4KY0g5", "c": "222650722628535"}
+{"filename": "sqlparse/test2.py", "a": "SELECT * FROM users; INSERT INTO logs (action) VALUES ('query'); UPDATE users SET last_login = NOW() WHERE id = 1"}
+{"filename": "sqlparse/test2.py", "a": "CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(100)); CREATE TABLE orders (id INT, user_id INT, amount DECIMAL(10,2)); CREATE TABLE products (id INT, name VARCHAR(100))"}
+{"filename": "sqlparse/test2.py", "a": "SELECT * FROM products WHERE price > 100; SELECT * FROM users WHERE active = true; DELETE FROM logs WHERE created_at < '2023-01-01'"}
+{"filename": "sqlparse/test2.py", "a": "INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com'); UPDATE users SET name = 'Bob' WHERE email = 'bob@example.com'; DELETE FROM temp_table"}
+{"filename": "sqlparse/test2.py", "a": "DROP TABLE old_data; CREATE TABLE new_data (id SERIAL, content TEXT); INSERT INTO new_data (content) VALUES ('sample')"}
+{"filename": "sqlparse/test2.py", "a": "SELECT COUNT(*) FROM users; SELECT AVG(age) FROM users; SELECT MAX(salary) FROM employees"}
+{"filename": "sqlparse/test2.py", "a": "ALTER TABLE users ADD COLUMN phone VARCHAR(20); ALTER TABLE orders ADD CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id); ALTER TABLE products DROP COLUMN old_field"}
+{"filename": "sqlparse/test2.py", "a": "SELECT * FROM users WHERE name LIKE 'A%'; SELECT * FROM products WHERE category IN ('electronics', 'books'); SELECT * FROM orders WHERE status = 'pending' AND amount < 50"}
+{"filename": "sqlparse/test2.py", "a": "CREATE INDEX idx_users_email ON users(email); CREATE INDEX idx_orders_user_id ON orders(user_id); DROP INDEX idx_old_index ON old_table"}
+{"filename": "sqlparse/test2.py", "a": "BEGIN TRANSACTION; INSERT INTO accounts (user_id, balance) VALUES (1, 100.00); UPDATE accounts SET balance = balance - 50 WHERE user_id = 1; COMMIT"}
+{"filename": "sqlparse/test2.py", "a": "WITH recent_orders AS (SELECT * FROM orders WHERE created_at > NOW() - INTERVAL '7 days') SELECT COUNT(*) FROM recent_orders; SELECT user_id, COUNT(*) FROM orders GROUP BY user_id"}
+{"filename": "sqlparse/test2.py", "a": "SELECT u.name, o.amount FROM users u JOIN orders o ON u.id = o.user_id; SELECT p.name, c.category_name FROM products p JOIN categories c ON p.category_id = c.id"}
+{"filename": "sqlparse/test2.py", "a": "UPDATE users SET last_login = NOW() WHERE id = 1; UPDATE products SET price = price * 1.1 WHERE category = 'electronics'; UPDATE orders SET status = 'shipped' WHERE shipped_at IS NOT NULL"}
+{"filename": "sqlparse/test2.py", "a": "DELETE FROM logs WHERE created_at < '2022-01-01'; DELETE FROM temp_data WHERE processed = true; TRUNCATE TABLE session_data"}
+{"filename": "sqlparse/test2.py", "a": "SELECT * FROM users ORDER BY name ASC; SELECT * FROM products ORDER BY price DESC; SELECT * FROM orders ORDER BY created_at DESC, amount ASC"}
+{"filename": "sqlparse/test2.py", "a": "SELECT DISTINCT city FROM addresses WHERE country = 'US'; SELECT DISTINCT category FROM products WHERE in_stock = true; SELECT DISTINCT status FROM orders"}
+{"filename": "sqlparse/test2.py", "a": "INSERT INTO users (name, email, age) VALUES ('Charlie', 'charlie@test.com', 30); INSERT INTO orders (user_id, amount) VALUES (1, 99.99), (2, 149.99), (3, 79.99)"}
+{"filename": "sqlparse/test2.py", "a": "SELECT * FROM users LIMIT 10; SELECT * FROM products LIMIT 5 OFFSET 10; SELECT * FROM orders WHERE amount > 100 LIMIT 20"}
+{"filename": "sqlparse/test2.py", "a": "CREATE VIEW active_users AS SELECT * FROM users WHERE active = true; CREATE VIEW monthly_sales AS SELECT DATE_TRUNC('month', created_at) as month, SUM(amount) FROM orders GROUP BY month; DROP VIEW old_view"}
+{"filename": "sqlparse/test2.py", "a": "SELECT name, (SELECT COUNT(*) FROM orders WHERE user_id = users.id) as order_count FROM users; SELECT category, (SELECT AVG(price) FROM products WHERE products.category = categories.name) as avg_price FROM categories"}
+{"filename": "sqlparse/test2.py", "a": "eldbchjqibjuixk"}
+{"filename": "sqlparse/test2.py", "a": "omwfsquudazmfw"}
+{"filename": "sqlparse/test2.py", "a": "twPMVfTDdkxxSy14Ro yeX3Ng1GM"}
+{"filename": "sqlparse/test2.py", "a": "mZ5IoxC3L7JeoEstKpaLP4nEvZYHnp h0TEVnF2lY"}
+{"filename": "sqlparse/test2.py", "a": "PVggCnRlaCkcr1kwat5SklEkN4ot55oGGaUAke"}
+{"filename": "sqlparse/test2.py", "a": "6324960"}
+{"filename": "sqlparse/test2.py", "a": "gllnnfb"}
+{"filename": "sqlparse/test2.py", "a": "kwxrc"}
+{"filename": "sqlparse/test2.py", "a": "e4GoLp9dI"}
+{"filename": "sqlparse/test2.py", "a": "Tu91IiikgiAYb"}
+{"filename": "sqlparse/test2.py", "a": "UmbkF0PCVzjo"}
+{"filename": "sqlparse/test2.py", "a": "kXCRQCCvEZLu0U1CzCpUL2dxtMUchtwXUeh738AUgpftAzZ77F"}
+{"filename": "sqlparse/test2.py", "a": "scO36ZveZS5eACJn7KaEozuU30J02IOCpixZD"}
+{"filename": "sqlparse/test2.py", "a": "eYeMox9J63LS"}
+{"filename": "sqlparse/test2.py", "a": "bTd514z oBkzdwO9h"}
+{"filename": "sqlparse/test2.py", "a": "BABOEDVD"}
+{"filename": "sqlparse/test2.py", "a": "6487573"}
+{"filename": "sqlparse/test2.py", "a": "CtDQncEAzTsURn IaeRoD8F"}
+{"filename": "sqlparse/test2.py", "a": "tC2FPdqIUnpAx8TOeDA7icZdnvcKfFSmskY1"}
+{"filename": "sqlparse/test2.py", "a": "gguono"}
+{"filename": "sqlparse/test2.py", "a": "fmuYRVOOv3rulQ"}
+{"filename": "sqlparse/test2.py", "a": "XdRDO7AH9 Dmsr84"}
+{"filename": "sqlparse/test2.py", "a": "FKWLMFJR"}
+{"filename": "sqlparse/test2.py", "a": "qNjQFke3rBApAQUf9ujZRXTD3WKwaGPB4s6uuVRBtqDE7KE"}
+{"filename": "sqlparse/test2.py", "a": "zkgnutqjseqn"}
+{"filename": "sqlparse/test2.py", "a": "97EvUoQ80MAXPRkindbW350HsOPmiEBeWvVp9BvPkuOad4rK"}
+{"filename": "sqlparse/test2.py", "a": "RTlSsWrvLnstRSKP0RImvJgmixzLO53AC7"}
+{"filename": "sqlparse/test2.py", "a": "44674356411528"}
+{"filename": "sqlparse/test2.py", "a": "ljuyvytpclfvwna"}
+{"filename": "sqlparse/test2.py", "a": "u9Pi7b3W JjcyQv3Yd8WJR3l"}
+{"filename": "sqlparse/test2.py", "a": "o4n4mIpEXr"}
+{"filename": "sqlparse/test2.py", "a": "M65bAxJahsSa9iJu59kjYNHov"}
+{"filename": "sqlparse/test2.py", "a": "QrSYusxoPQHIHb77i0nKCTFw0ePFTswW6IFoNgxfAiKCiZb"}
+{"filename": "sqlparse/test2.py", "a": "jNDwnOjuA4yrVJ9w9f1ZJiIS"}
+{"filename": "sqlparse/test2.py", "a": "VZFEGHHP"}
+{"filename": "sqlparse/test2.py", "a": "XTSZOQQAEVMQHU"}
+{"filename": "sqlparse/test2.py", "a": "niigbaosyn"}
+{"filename": "sqlparse/test2.py", "a": "LPQEFAKWEZ"}
+{"filename": "sqlparse/test2.py", "a": "loqjq"}
+{"filename": "sqlparse/test2.py", "a": "71657306846"}
+{"filename": "sqlparse/test3.py", "a": "SELECT * FROM users WHERE id=1 AND name='John'"}
+{"filename": "sqlparse/test3.py", "a": "INSERT INTO products (name,price,category)VALUES('Laptop',999.99,'Electronics')"}
+{"filename": "sqlparse/test3.py", "a": "UPDATE orders SET status='shipped',shipped_at=NOW()WHERE id=100 AND user_id=5"}
+{"filename": "sqlparse/test3.py", "a": "DELETE FROM logs WHERE created_at<'2023-01-01'AND level='DEBUG'"}
+{"filename": "sqlparse/test3.py", "a": "CREATE TABLE employees (id INT PRIMARY KEY AUTO_INCREMENT,first_name VARCHAR(50),last_name VARCHAR(50),salary DECIMAL(10,2),department_id INT)"}
+{"filename": "sqlparse/test3.py", "a": "SELECT u.name,o.amount,o.created_at FROM users u INNER JOIN orders o ON u.id=o.user_id WHERE o.amount>100 AND o.status='completed' ORDER BY o.created_at DESC"}
+{"filename": "sqlparse/test3.py", "a": "WITH recent_orders AS(SELECT user_id,COUNT(*)as order_count FROM orders WHERE created_at>NOW()-INTERVAL '30 days' GROUP BY user_id)SELECT u.name,ro.order_count FROM users u JOIN recent_orders ro ON u.id=ro.user_id WHERE ro.order_count>5"}
+{"filename": "sqlparse/test3.py", "a": "SELECT product_id,SUM(quantity)as total_quantity,AVG(price)as avg_price FROM sales WHERE sale_date BETWEEN '2023-01-01'AND '2023-12-31'GROUP BY product_id HAVING total_quantity>100 ORDER BY total_quantity DESC"}
+{"filename": "sqlparse/test3.py", "a": "SELECT CASE WHEN age<18 THEN 'Minor'WHEN age BETWEEN 18 AND 65 THEN 'Adult'ELSE 'Senior'END as age_group,COUNT(*)FROM users GROUP BY age_group"}
+{"filename": "sqlparse/test3.py", "a": "ALTER TABLE users ADD COLUMN phone VARCHAR(20)NULL,ADD COLUMN address TEXT,ADD CONSTRAINT unique_email UNIQUE(email),DROP COLUMN old_column"}
+{"filename": "sqlparse/test3.py", "a": "SELECT DISTINCT category,COUNT(*)as product_count FROM products WHERE in_stock=TRUE AND price BETWEEN 10 AND 1000 GROUP BY category HAVING product_count>10"}
+{"filename": "sqlparse/test3.py", "a": "CREATE INDEX idx_users_email ON users(email);CREATE INDEX idx_orders_user_status ON orders(user_id,status);CREATE UNIQUE INDEX idx_products_sku ON products(sku)"}
+{"filename": "sqlparse/test3.py", "a": "SELECT * FROM users WHERE (name LIKE 'A%' OR name LIKE 'B%') AND active=TRUE AND (age>18 OR verified=TRUE) ORDER BY created_at ASC LIMIT 50"}
+{"filename": "sqlparse/test3.py", "a": "UPDATE products SET price=ROUND(price*0.9,2),last_updated=NOW()WHERE category IN('Electronics','Books')AND stock>0 AND discontinued=FALSE"}
+{"filename": "sqlparse/test3.py", "a": "SELECT u.id,u.name,COUNT(o.id)as order_count,SUM(o.amount)as total_spent FROM users u LEFT JOIN orders o ON u.id=o.user_id WHERE u.created_at>'2020-01-01'GROUP BY u.id,u.name HAVING total_spent>500 ORDER BY total_spent DESC"}
+{"filename": "sqlparse/test3.py", "a": "DELETE FROM session_data WHERE last_activity<NOW()-INTERVAL '1 hour'OR user_id IS NULL"}
+{"filename": "sqlparse/test3.py", "a": "CREATE VIEW user_summary AS SELECT u.id,u.name,u.email,COUNT(o.id)as orders,SUM(o.amount)as total_spent,MAX(o.created_at)as last_order FROM users u LEFT JOIN orders o ON u.id=o.user_id GROUP BY u.id,u.name,u.email"}
+{"filename": "sqlparse/test3.py", "a": "SELECT product_id,description FROM products WHERE description ILIKE '%wireless%' OR description ILIKE '%bluetooth%' ORDER BY price LIMIT 20 OFFSET 0"}
+{"filename": "sqlparse/test3.py", "a": "BEGIN TRANSACTION;INSERT INTO audit_log (table_name,action,user_id)VALUES('orders','insert',1);UPDATE inventory SET quantity=quantity-1 WHERE product_id=100;COMMIT"}
+{"filename": "sqlparse/test3.py", "a": "SELECT DATE_TRUNC('month',created_at)as month,category,SUM(amount)as monthly_sales,COUNT(*)as order_count FROM orders GROUP BY month,category ORDER BY month DESC,category ASC"}
+{"filename": "sqlparse/test3.py", "a": "yJbXZI8Mk4i"}
+{"filename": "sqlparse/test3.py", "a": "eJcs qZSC9Mdt1WnUSI6LSy5CaEwCzhgoe"}
+{"filename": "sqlparse/test3.py", "a": "xpumlnbbah"}
+{"filename": "sqlparse/test3.py", "a": "CXBPNDBM"}
+{"filename": "sqlparse/test3.py", "a": "TykKCQGElhL6hMn"}
+{"filename": "sqlparse/test3.py", "a": "396962706287"}
+{"filename": "sqlparse/test3.py", "a": "JUVJOUSWHEUU"}
+{"filename": "sqlparse/test3.py", "a": "uewejtelqh"}
+{"filename": "sqlparse/test3.py", "a": "QSQFFZS9m0k39M1i0eNFPBTnWElfaHYY8kWM53d1w2l"}
+{"filename": "sqlparse/test3.py", "a": "oxYPAKOjmBBA"}
+{"filename": "sqlparse/test3.py", "a": "XTVUMPUP"}
+{"filename": "sqlparse/test3.py", "a": "DZIMGKY"}
+{"filename": "sqlparse/test3.py", "a": "4xFofRqDzxlxZ08tWf"}
+{"filename": "sqlparse/test3.py", "a": "EdmVn0KRE7mP8l6hpagY50ArjpRDexRJqQlUOPQAlbVLcypD"}
+{"filename": "sqlparse/test3.py", "a": "SCFXLLZAMAT"}
+{"filename": "sqlparse/test3.py", "a": "IU4LwDASUL8n6D4ONFIWCR4u6V7g3NqMt6cooI45lapEmmRN6"}
+{"filename": "sqlparse/test3.py", "a": "ufKhMBQHe55nDdHDQ38KNEsd6iN5ie42KFceD"}
+{"filename": "sqlparse/test3.py", "a": "3863917318399"}
+{"filename": "sqlparse/test3.py", "a": "ajRE6YFoR6neKihtxWIf"}
+{"filename": "sqlparse/test3.py", "a": "90148828641094"}
+{"filename": "sqlparse/test3.py", "a": "eNUe3waYaYBUKP2BWmEM2UxE6tkJkJRV"}
+{"filename": "sqlparse/test3.py", "a": "DSGAPK"}
+{"filename": "sqlparse/test3.py", "a": "3HFXc4MscvhVIdwG1"}
+{"filename": "sqlparse/test3.py", "a": "kvMiQ oVviPG4faH"}
+{"filename": "sqlparse/test3.py", "a": "KAPOE"}
+{"filename": "sqlparse/test3.py", "a": "4701183276"}
+{"filename": "sqlparse/test3.py", "a": "LETTFRVV"}
+{"filename": "sqlparse/test3.py", "a": "Ft7EZI82EbTS5ZsNJNf"}
+{"filename": "sqlparse/test3.py", "a": "w4DOG"}
+{"filename": "sqlparse/test3.py", "a": "OOZJARN"}
+{"filename": "sqlparse/test3.py", "a": "o43Zj0iQICr"}
+{"filename": "sqlparse/test3.py", "a": "QsTJX29zdoj"}
+{"filename": "sqlparse/test3.py", "a": "GWHXOE"}
+{"filename": "sqlparse/test3.py", "a": "ivizlo"}
+{"filename": "sqlparse/test3.py", "a": "feV6cv9W01zGDtKivveY3a0 vRbqtDXdD1KCwXfX"}
+{"filename": "sqlparse/test3.py", "a": "1BCdNugVES0aK26vwm4Uef5iw7Tjp"}
+{"filename": "sqlparse/test3.py", "a": "ofxhenjgydfq"}
+{"filename": "sqlparse/test3.py", "a": "KEBTGUXbbS6lWAMC6eB3 dRerys76gV3doduOv8mWz7d5x"}
+{"filename": "sqlparse/test3.py", "a": "NUWJQJOI"}
+{"filename": "sqlparse/test3.py", "a": "95866062609979"}
+{"filename": "sqlparse/test4.py", "a": "select * from users where id = 1"}
+{"filename": "sqlparse/test4.py", "a": "insert into products (name, price) values ('Phone', 699.99)"}
+{"filename": "sqlparse/test4.py", "a": "update orders set status = 'completed' where id = 100"}
+{"filename": "sqlparse/test4.py", "a": "delete from logs where level = 'debug'"}
+{"filename": "sqlparse/test4.py", "a": "create table customers (id int primary key, name varchar(100), email varchar(255))"}
+{"filename": "sqlparse/test4.py", "a": "select name, email from users where active = true order by created_at desc"}
+{"filename": "sqlparse/test4.py", "a": "select count(*) as total from orders where amount > 100 and status = 'shipped'"}
+{"filename": "sqlparse/test4.py", "a": "insert into inventory (product_id, quantity) select id, 0 from products where discontinued = false"}
+{"filename": "sqlparse/test4.py", "a": "update products set price = price * 0.9 where category = 'electronics' and stock > 10"}
+{"filename": "sqlparse/test4.py", "a": "delete from temp_data where processed = true or created_at < now() - interval '7 days'"}
+{"filename": "sqlparse/test4.py", "a": "alter table users add column phone varchar(20), add column address text, drop column old_field"}
+{"filename": "sqlparse/test4.py", "a": "select u.name, o.amount, o.created_at from users u join orders o on u.id = o.user_id where o.amount > 50"}
+{"filename": "sqlparse/test4.py", "a": "create index idx_users_email on users(email); create unique index idx_products_sku on products(sku)"}
+{"filename": "sqlparse/test4.py", "a": "with recent_orders as (select user_id, count(*) as order_count from orders where created_at > now() - interval '30 days' group by user_id) select u.name, ro.order_count from users u join recent_orders ro on u.id = ro.user_id"}
+{"filename": "sqlparse/test4.py", "a": "select product_id, sum(quantity) as total_sales from sales group by product_id having total_sales > 1000 order by total_sales desc"}
+{"filename": "sqlparse/test4.py", "a": "begin transaction; update accounts set balance = balance - 100 where user_id = 1; insert into transactions (user_id, amount, type) values (1, 100, 'debit'); commit"}
+{"filename": "sqlparse/test4.py", "a": "drop table if exists old_data; drop view if exists outdated_view; drop index if exists idx_old_index"}
+{"filename": "sqlparse/test4.py", "a": "select * from products where name like '%wireless%' and price between 50 and 500 order by price asc limit 10"}
+{"filename": "sqlparse/test4.py", "a": "create view active_users as select * from users where active = true and last_login > now() - interval '90 days'"}
+{"filename": "sqlparse/test4.py", "a": "select case when age < 13 then 'child' when age between 13 and 19 then 'teen' when age between 20 and 64 then 'adult' else 'senior' end as age_group, count(*) from users group by age_group"}
+{"filename": "sqlparse/test4.py", "a": "select date_trunc('month', created_at) as month, category, sum(amount) as revenue, count(*) as orders from sales group by month, category order by month desc, revenue desc"}
+{"filename": "sqlparse/test4.py", "a": "IQZOXMRNJBZ"}
+{"filename": "sqlparse/test4.py", "a": "x4at62hJlSNLAMk4t0 00vcAQs6Typppv1Ib7eQdJ"}
+{"filename": "sqlparse/test4.py", "a": "KIPFIYYO"}
+{"filename": "sqlparse/test4.py", "a": "JGznqnrlPHHZCnLeBZP85VJjX"}
+{"filename": "sqlparse/test4.py", "a": "CCPFLFZBQU"}
+{"filename": "sqlparse/test4.py", "a": "5NZDcfqUXX4kf9UmHDl89ww7F3"}
+{"filename": "sqlparse/test4.py", "a": "8pn3OCqfTrvBsIAETDmG24ovk3VJWZuP0CrR5lFJnFQm1ND2"}
+{"filename": "sqlparse/test4.py", "a": "4554497944173"}
+{"filename": "sqlparse/test4.py", "a": "vimVSn3WdoxwIxzESz6MEbSQIXF555BL85Y6cE9s3"}
+{"filename": "sqlparse/test4.py", "a": "FLu41pquhA1O91 pRDf3rPLTidbqzmhPJ9bTD"}
+{"filename": "sqlparse/test4.py", "a": "hsCVXf744sIUw8xrudxj4le1kvzMhTEkrFSLHxMq9X2FbZdTv"}
+{"filename": "sqlparse/test4.py", "a": "bdLc1eXNX0"}
+{"filename": "sqlparse/test4.py", "a": "nvnbq"}
+{"filename": "sqlparse/test4.py", "a": "pdpdvwfnbts"}
+{"filename": "sqlparse/test4.py", "a": "KCWIUYL"}
+{"filename": "sqlparse/test4.py", "a": "JWAIARCUX"}
+{"filename": "sqlparse/test4.py", "a": "5BzJ6zlHIHJKpQYPQm4zg"}
+{"filename": "sqlparse/test4.py", "a": "UPSTP"}
+{"filename": "sqlparse/test4.py", "a": "AXAYIMLZQRR"}
+{"filename": "sqlparse/test4.py", "a": "ccpbltpxabhyn"}
+{"filename": "sqlparse/test4.py", "a": "ULTEJCQ"}
+{"filename": "sqlparse/test4.py", "a": "XL6iOipT0gbJBvvpin0oB13V3gKD7"}
+{"filename": "sqlparse/test4.py", "a": "00343"}
+{"filename": "sqlparse/test4.py", "a": "07124"}
+{"filename": "sqlparse/test4.py", "a": "Vi2KMjf oEGiv3WqED3H0H5bp4k"}
+{"filename": "sqlparse/test4.py", "a": "40437951"}
+{"filename": "sqlparse/test4.py", "a": "97489"}
+{"filename": "sqlparse/test4.py", "a": "abnlin"}
+{"filename": "sqlparse/test4.py", "a": "uiudo"}
+{"filename": "sqlparse/test4.py", "a": "WYQFVPRC7ucgPjiaY4O"}
+{"filename": "sqlparse/test4.py", "a": "FTBXO"}
+{"filename": "sqlparse/test4.py", "a": "351699473474849"}
+{"filename": "sqlparse/test4.py", "a": "027460096706"}
+{"filename": "sqlparse/test4.py", "a": "825151"}
+{"filename": "sqlparse/test4.py", "a": "8husgClVmz8Dd"}
+{"filename": "sqlparse/test4.py", "a": "23780"}
+{"filename": "sqlparse/test4.py", "a": "5240775364522"}
+{"filename": "sqlparse/test4.py", "a": "mtyDSW4mFw9GhUoAUmqqwYuLMOMdjZykBHNDmpzZ"}
+{"filename": "sqlparse/test4.py", "a": "030198322"}
+{"filename": "sqlparse/test7.py", "a": "SELECT * FROM users", "b": "SELECT * FROM products"}
+{"filename": "sqlparse/test7.py", "a": "INSERT INTO logs (message) VALUES ('test')", "b": "DELETE FROM temp"}
+{"filename": "sqlparse/test7.py", "a": "UPDATE accounts SET balance = 50.00", "b": "CREATE TABLE customers (id INT)"}
+{"filename": "sqlparse/test7.py", "a": "SELECT name FROM employees", "b": "SELECT COUNT(*) FROM orders"}
+{"filename": "sqlparse/test7.py", "a": "ALTER TABLE users ADD COLUMN email VARCHAR(100)", "b": "DROP TABLE old_data"}
+{"filename": "sqlparse/test7.py", "a": "SELECT * FROM orders WHERE status = 'pending'", "b": "UPDATE orders SET status = 'completed' WHERE id = 100"}
+{"filename": "sqlparse/test7.py", "a": "BEGIN TRANSACTION", "b": "ROLLBACK"}
+{"filename": "sqlparse/test7.py", "a": "CREATE VIEW active_users AS SELECT * FROM users WHERE active = true", "b": "DROP VIEW IF EXISTS inactive_users"}
+{"filename": "sqlparse/test7.py", "a": "INSERT INTO products (name, price) VALUES ('Phone', 699.99)", "b": "UPDATE inventory SET stock = stock - 1 WHERE product_id = 10"}
+{"filename": "sqlparse/test7.py", "a": "SELECT DISTINCT category FROM products", "b": "SELECT category, AVG(price) FROM products GROUP BY category"}
+{"filename": "sqlparse/test7.py", "a": "SELECT u.name, o.amount FROM users u JOIN orders o ON u.id = o.user_id", "b": "SELECT p.name, c.name FROM products p JOIN categories c ON p.category_id = c.id"}
+{"filename": "sqlparse/test7.py", "a": "DELETE FROM logs WHERE created_at < '2023-01-01'", "b": "TRUNCATE TABLE session_data"}
+{"filename": "sqlparse/test7.py", "a": "WITH recent_orders AS (SELECT * FROM orders WHERE created_at > NOW() - INTERVAL '7 days') SELECT COUNT(*) FROM recent_orders", "b": "SELECT user_id, SUM(amount) as total FROM orders GROUP BY user_id HAVING SUM(amount) > 1000"}
+{"filename": "sqlparse/test7.py", "a": "UPDATE products SET price = price * 1.1 WHERE category = 'electronics'", "b": "DELETE FROM products WHERE discontinued = true"}
+{"filename": "sqlparse/test7.py", "a": "CREATE INDEX idx_email ON users(email)", "b": "CREATE UNIQUE INDEX idx_username ON users(username)"}
+{"filename": "sqlparse/test7.py", "a": "SELECT * FROM users WHERE age > 18 AND verified = true", "b": "SELECT * FROM products WHERE price BETWEEN 10 AND 100"}
+{"filename": "sqlparse/test7.py", "a": "INSERT INTO audit (action, user_id) VALUES ('login', 1), ('logout', 1)", "b": "DELETE FROM audit WHERE timestamp < NOW() - INTERVAL '30 days'"}
+{"filename": "sqlparse/test7.py", "a": "SELECT CASE WHEN score >= 90 THEN 'A' WHEN score >= 80 THEN 'B' WHEN score >= 70 THEN 'C' ELSE 'F' END FROM grades", "b": "SELECT COALESCE(address, 'No address') FROM customers"}
+{"filename": "sqlparse/test7.py", "a": "SELECT DATE_TRUNC('day', created_at) as day, COUNT(*) FROM orders GROUP BY day", "b": "SELECT EXTRACT(MONTH FROM created_at) as month, SUM(amount) FROM sales GROUP BY month"}
+{"filename": "sqlparse/test7.py", "a": "ALTER TABLE orders ADD CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id)", "b": "ALTER TABLE products ALTER COLUMN price TYPE DECIMAL(10,2)"}
+{"filename": "sqlparse/test7.py", "a": "sM3Xp8Ot5bWpCoBrvlzWfQiFuxHQ78tbBHfOVhKpnQE", "b": "17093341878448"}
+{"filename": "sqlparse/test7.py", "a": "gsqwlfc", "b": "382026229"}
+{"filename": "sqlparse/test7.py", "a": "ip9pElMiikA87VlV5AO9uk5RQykLR C6xni0O4qozmagsVuZhh", "b": "55rmAhhFFVIIv FNcUMn7ylJuBd7dDTmq8sye8HgJls"}
+{"filename": "sqlparse/test7.py", "a": "FgKOjp", "b": "47078904255"}
+{"filename": "sqlparse/test7.py", "a": "kzxlx", "b": "KEXLLVFR"}
+{"filename": "sqlparse/test7.py", "a": "mVX1sUI2eUG2WNFx2EXc3gJ9Kik3HN5WfY8zUzrxDEGqxHR", "b": "73f489ztmeL0XuIBb5c"}
+{"filename": "sqlparse/test7.py", "a": "8847112", "b": "MHMUBJZRGZITG"}
+{"filename": "sqlparse/test7.py", "a": "l9dNRLqIZvDobk", "b": "32866473488"}
+{"filename": "sqlparse/test7.py", "a": "xp7UsXAK0NE06Af2MKWywHAfweSdrxaqskrQ4KQnZOfoKj", "b": "DPPLNNKESU"}
+{"filename": "sqlparse/test7.py", "a": "OKvc9ys6n3PQsYNkeMY3p5KcGKEF0j3CGa74LqIxwg", "b": "5440698206"}
+{"filename": "sqlparse/test7.py", "a": "nhrdzcbcyzqte", "b": "CCFcZG2rel5GpA 7fAOiMnyerZqE"}
+{"filename": "sqlparse/test7.py", "a": "fturewft", "b": "gifdmwqctca"}
+{"filename": "sqlparse/test7.py", "a": "68ow2EWd", "b": "Yz2NPPY4DBt8gl0Ug2PbFCB4vnKXH"}
+{"filename": "sqlparse/test7.py", "a": "gsslypqvrlog", "b": "TEBWYRSONEKZB"}
+{"filename": "sqlparse/test7.py", "a": "EPIBotr9", "b": "qljpsike"}
+{"filename": "sqlparse/test7.py", "a": "xHE6g8Qqk2ZKus", "b": "OJZBTNAFV"}
+{"filename": "sqlparse/test7.py", "a": "wnBwYvRJFaYKvbZlt3m5ObXR", "b": "eCF24cnPh2iduWYDy4DtZ4M"}
+{"filename": "sqlparse/test7.py", "a": "185029132", "b": "m0ofiE6W58lu5bWGCVUKKZ4iESVRivZX4EkPc4Z"}
+{"filename": "sqlparse/test7.py", "a": "iovypannw", "b": "s5e9Pga6JZ"}
+{"filename": "sqlparse/test7.py", "a": "rznwbqylfjowx", "b": "lsneraqbazces"}
+{"filename": "sqlparse/test7.py", "a": "090833050373021", "b": "NKYRFOSRSZNL"}
+{"filename": "sqlparse/test7.py", "a": "TGKBE", "b": "Tg009mD4hTW"}
+{"filename": "sqlparse/test7.py", "a": "QtCHTKifPM5awDL3uG4YeQHh9GoAeV", "b": "vkSA19XI6PcgU0V35Hx7rRFTWLioen0h8vNa6ne2DupW"}
+{"filename": "sqlparse/test7.py", "a": "PNhi2nh8s6IkU03Bh00fH", "b": "0107736589419"}
+{"filename": "sqlparse/test7.py", "a": "lzdjkqsmqfgstgk", "b": "322009850448"}
+{"filename": "sqlparse/test7.py", "a": "6272181025448", "b": "xEyk3yvuwkd1S50TWRNr"}
+{"filename": "sqlparse/test7.py", "a": "JND2p N0Z", "b": "eifeXICs883stkonUnAxqSkyFSO SrnCX1XgCpBpOb2qg"}
+{"filename": "sqlparse/test7.py", "a": "pMb MZUQpK", "b": "295554942"}
+{"filename": "sqlparse/test7.py", "a": "omdqvfxpxlcn", "b": "DQ9yImngl"}
+{"filename": "sqlparse/test7.py", "a": "qTmcIAG3TdPHe1poKGl875PJdMGev6SY1v3tpi2uh", "b": "613037864156794"}
+{"filename": "sqlparse/test7.py", "a": "Kx3JFVSDkN9vNvDW1PADWFQ", "b": "q50var2dA2Rp48AzDmhiyRxEaKc0bPSXqcS4eWs4FmBp"}
+{"filename": "sqlparse/test7.py", "a": "RBWWKGA", "b": "VKuyT3wP4CskqwvhwQluxNlpBL2B"}
+{"filename": "sqlparse/test7.py", "a": "556850", "b": "uuzff"}
+{"filename": "sqlparse/test7.py", "a": "egzlzgswza", "b": "FGQAALCHXWKB"}
+{"filename": "sqlparse/test7.py", "a": "02849650997073", "b": "ujxnlpqaitw"}
+{"filename": "sqlparse/test7.py", "a": "MWQPNPGGAA", "b": "W4MYK4ajJPhGktOLxA0Z4QFfn5fiYw10J4apGHfk"}
+{"filename": "sqlparse/test7.py", "a": "NwD76oogB5", "b": "74469794"}
+{"filename": "sqlparse/test7.py", "a": "htvmujituel", "b": "DGUFHKEMTYP"}
+{"filename": "sqlparse/test7.py", "a": "IVT8wXiOSbXF3RKV", "b": "OEOEWMEHTT"}
+{"filename": "sqlparse/test7.py", "a": "10yugxkT", "b": "FACETSNSKSUEJO"}
+{"filename": "sqlparse/test9.py", "a": "select * from users where id = 1", "b": "SELECT name, email FROM customers ORDER BY name"}
+{"filename": "sqlparse/test9.py", "a": "insert into logs (message) values ('error')", "b": "INSERT INTO products (name, price) VALUES ('Laptop', 1299.99)"}
+{"filename": "sqlparse/test9.py", "a": "update accounts set balance = balance - 50", "b": "UPDATE users SET last_login = NOW() WHERE id = 5"}
+{"filename": "sqlparse/test9.py", "a": "delete from temp where processed = true", "b": "DELETE FROM logs WHERE level = 'DEBUG'"}
+{"filename": "sqlparse/test9.py", "a": "create table test (id int primary key)", "b": "CREATE TABLE employees (id SERIAL, name VARCHAR(100), salary DECIMAL(10,2))"}
+{"filename": "sqlparse/test9.py", "a": "select name, age from employees", "b": "SELECT COUNT(*) AS total FROM orders WHERE amount > 100"}
+{"filename": "sqlparse/test9.py", "a": "alter table users add column phone varchar(20)", "b": "ALTER TABLE products ADD CONSTRAINT check_price CHECK (price > 0)"}
+{"filename": "sqlparse/test9.py", "a": "with active_users as (select * from users where active = true) select count(*) from active_users", "b": "WITH recent_sales AS (SELECT * FROM sales WHERE sale_date > CURRENT_DATE - 30) SELECT SUM(amount) FROM recent_sales"}
+{"filename": "sqlparse/test9.py", "a": "select u.name, o.amount from users u join orders o on u.id = o.user_id", "b": "SELECT p.name, c.category_name FROM products p JOIN categories c ON p.category_id = c.id"}
+{"filename": "sqlparse/test9.py", "a": "insert into products (name, price) values ('Mouse', 29.99), ('Keyboard', 79.99)", "b": "INSERT INTO orders (user_id, product_id, quantity) SELECT id, 1, 2 FROM users WHERE active = TRUE"}
+{"filename": "sqlparse/test9.py", "a": "delete from logs where created_at < '2023-01-01'", "b": "DELETE FROM session_data WHERE last_activity < NOW() - INTERVAL '1 HOUR'"}
+{"filename": "sqlparse/test9.py", "a": "select distinct department from employees", "b": "SELECT DISTINCT category FROM products WHERE in_stock = TRUE"}
+{"filename": "sqlparse/test9.py", "a": "update products set price = price * 0.8 where category = 'clearance'", "b": "UPDATE inventory SET quantity = quantity - 1, last_updated = NOW() WHERE product_id = 100"}
+{"filename": "sqlparse/test9.py", "a": "select max(salary) as highest_salary from employees", "b": "SELECT AVG(age) AS average_age, MIN(age) AS min_age, MAX(age) AS max_age FROM users"}
+{"filename": "sqlparse/test9.py", "a": "create index idx_email on users(email)", "b": "CREATE UNIQUE INDEX idx_username ON users(username)"}
+{"filename": "sqlparse/test9.py", "a": "select * from users where age > 18 and verified = true", "b": "SELECT * FROM products WHERE price BETWEEN 50 AND 500 AND stock > 0"}
+{"filename": "sqlparse/test9.py", "a": "begin transaction", "b": "COMMIT"}
+{"filename": "sqlparse/test9.py", "a": "create view top_customers as select user_id, sum(amount) as total_spent from orders group by user_id having sum(amount) > 1000", "b": "CREATE VIEW product_summary AS SELECT category, COUNT(*) as count, AVG(price) as avg_price FROM products GROUP BY category"}
+{"filename": "sqlparse/test9.py", "a": "select case when score >= 90 then 'A' when score >= 80 then 'B' else 'C' end as grade from tests", "b": "SELECT CASE WHEN age < 13 THEN 'Child' WHEN age < 20 THEN 'Teen' WHEN age < 65 THEN 'Adult' ELSE 'Senior' END AS age_group FROM users"}
+{"filename": "sqlparse/test9.py", "a": "select date_trunc('month', created_at) as month, sum(amount) as monthly_sales from sales group by month order by month desc", "b": "SELECT EXTRACT(YEAR FROM created_at) AS year, EXTRACT(MONTH FROM created_at) AS month, COUNT(*) FROM orders GROUP BY year, month"}
+{"filename": "sqlparse/test9.py", "a": "drop table if exists old_data", "b": "DROP VIEW IF EXISTS outdated_view"}
+{"filename": "sqlparse/test9.py", "a": "GuFGgTPu", "b": "715008154762"}
+{"filename": "sqlparse/test9.py", "a": "pecbcwwrimj", "b": "BCNZAITLXTS"}
+{"filename": "sqlparse/test9.py", "a": "u051ObLOwZU2roTiajuCYKGW3wJHh3i9mD0z", "b": "RsgZ2j9kkRJ2"}
+{"filename": "sqlparse/test9.py", "a": "vibtooxpsvpeg", "b": "mtiavdejgxy"}
+{"filename": "sqlparse/test9.py", "a": "pglcvdqxtne", "b": "ix6bN4DQJPlIyx222UUts ygpoLw35wgBdarBi9yFrPM"}
+{"filename": "sqlparse/test9.py", "a": "ssorlti", "b": "FSOXPB"}
+{"filename": "sqlparse/test9.py", "a": "rzvkfnssrhxyri", "b": "T4Q8zRWfRNrIq84ehAN3Xy21TA"}
+{"filename": "sqlparse/test9.py", "a": "VBDQXK", "b": "9jVmIPBqF7c69EnFYM9odSO abCZ6tVNx6hiLpsQ2EYz00nAfTMJ"}
+{"filename": "sqlparse/test9.py", "a": "6svcmuNi62ccNKnNH9YH7GHfy", "b": "DGBLWZ"}
+{"filename": "sqlparse/test9.py", "a": "OO8AFl4l", "b": "2ElCvTkBcVp5tn7HDwUJZkAWsz5d5tyvU77trRLuFMvwH"}
+{"filename": "sqlparse/test9.py", "a": "RadVgM7GBoGWe h8gkw7fGo", "b": "23655733956"}
+{"filename": "sqlparse/test9.py", "a": "RIIALSLJJXNPK", "b": "59621576030333"}
+{"filename": "sqlparse/test9.py", "a": "uMxmdeqx", "b": "gOxWK3Dq8EUvc4yGu5dbEz9fDZetcXIZ1a0ScNxCNQy"}
+{"filename": "sqlparse/test9.py", "a": "dn9zfpxeUTXBzjQGw1TIgwciQqNQiJlO03QeTdGOQl7k", "b": "IZJPRUTSXU"}
+{"filename": "sqlparse/test9.py", "a": "rlfvsa", "b": "fOCHmPAO"}
+{"filename": "sqlparse/test9.py", "a": "1414795", "b": "gcbgxfqqju"}
+{"filename": "sqlparse/test9.py", "a": "JYN4HldYDEaQst2TWKvP", "b": "Z7h7bgqM9c"}
+{"filename": "sqlparse/test9.py", "a": "XC7T7MF0fkFMWZUtgiOOrzfyOl2H0D2T137nfxDY", "b": "qgRFPSArJn05lhrIk4jvOJ7yBpo7mamoX6I"}
+{"filename": "sqlparse/test9.py", "a": "489543435038", "b": "CAKXAVTRRJGK"}
+{"filename": "sqlparse/test9.py", "a": "2990596383325", "b": "38011152508"}
+{"filename": "sqlparse/test9.py", "a": "bp24kk3uUdw opRfzkhy0u75EL7sQ", "b": "bfunW4D7DvXd"}
+{"filename": "sqlparse/test9.py", "a": "sksfdbD9mrJYreZrDYMpZxaP9j7CFieo", "b": "7pwO0"}
+{"filename": "sqlparse/test9.py", "a": "RgmcpwhUTlIJ3eaT", "b": "ZEjxbmTXcef"}
+{"filename": "sqlparse/test9.py", "a": "yxXlyuB6T3ibI4dehHffN", "b": "3eqeeMhj QJu5dDD"}
+{"filename": "sqlparse/test9.py", "a": "wfgjdttstfz", "b": "608180"}
+{"filename": "sqlparse/test9.py", "a": "TJCQCYSHMNUW", "b": "mokqYeHGR"}
+{"filename": "sqlparse/test9.py", "a": "TPjtEZECEGNH5gwrXp69PKiWj SxL4pm1YM3ubUoi9yJ51oQQ", "b": "aSJmO"}
+{"filename": "sqlparse/test9.py", "a": "708567885", "b": "22654"}
+{"filename": "sqlparse/test9.py", "a": "IqxK89BoPb B3RbrPgNy", "b": "WIgE0iBl6Osr2NMBd0Ybb1k"}
+{"filename": "sqlparse/test9.py", "a": "OdPfSARJ5BQ6cRTfrXtM", "b": "KBX0aIorhqrJKNwOU1dl1bwIEYU"}
+{"filename": "sqlparse/test9.py", "a": "CGSSEBVVBXLWHQ", "b": "t26hyuP7 czv90gGtUxYQbIzOyS"}
+{"filename": "sqlparse/test9.py", "a": "ENVTVM", "b": "P3hqhjlpMjTXgZepx9PtWBNfpt4U6Eiw"}
+{"filename": "sqlparse/test9.py", "a": "qkGxo", "b": "ZDDYK"}
+{"filename": "sqlparse/test9.py", "a": "ymbspmpsfxph", "b": "78343"}
+{"filename": "sqlparse/test9.py", "a": "CNXVIYVCSMCLSA", "b": "145413"}
+{"filename": "sqlparse/test9.py", "a": "014712038", "b": "CI27qwlBgvcJT3aHuyhOty5lH0zOvp5129fi2"}
+{"filename": "sqlparse/test9.py", "a": "btzxqvdrmkdzsdf", "b": "FKjQAN4riMxVez88QDgIzDfC4hKqDOI"}
+{"filename": "sqlparse/test9.py", "a": "96715", "b": "NABAXY"}
+{"filename": "sqlparse/test9.py", "a": "BLEBGER", "b": "TXXjeLst PAvEMhvWUXirPse35zcM"}
