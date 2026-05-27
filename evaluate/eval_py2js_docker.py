@@ -347,7 +347,7 @@ Examples:
 
     jsonl_dir = args.jsonl_dir
     if jsonl_dir is None:
-        jsonl_dir = str(EVAL_ROOT / "testcases" / "testcases_enhanced")
+        jsonl_dir = str(EVAL_ROOT / "testcases" / "py2js")
 
     print(f"[CONFIG] Model: {args.model_name}")
     print(f"[CONFIG] Dataset root: {dataset_root}")

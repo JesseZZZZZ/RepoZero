@@ -159,7 +159,7 @@ def main():
     parser.add_argument(
         "--jsonl-dir",
         type=str,
-        default=str(EVAL_ROOT / "testcases" / "testcases_enhanced"),
+        default=str(EVAL_ROOT / "testcases" / "py2js"),
         help="Directory containing evaluation JSONL files",
     )
     parser.add_argument(
