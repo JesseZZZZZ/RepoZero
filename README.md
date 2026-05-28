@@ -97,8 +97,6 @@ RepoZero/
 │   │   ├── inflection-cpp/
 │   │   ├── sortedcontainers-cpp/
 │   │   └── url-parser/
-│   ├── api_lines.jsonl            # API line counts
-│   ├── cleaned_test_cases.jsonl   # Test case parameters for evaluation
 │   └── recompile_all.sh           # Script to recompile C++ executables
 │
 ├── Py2JS/                         # Python to JavaScript benchmark
@@ -107,16 +105,17 @@ RepoZero/
 │       ├── boltons/  canonicaljson/  construct/  deepdiff/  ecdsa/
 │       ├── fractions/  furl/  idna/  jose/  jsonschema/  markdown/
 │       ├── moneyed/  mpmath/  networkx/  pbkdf2/  pyaes/  rsa/
-│       ├── rlp/  schedule/  sqlparse/  whoosh/  yaml/
-│       └── testcases_60/          # Test case parameter JSONL files
+│       └── rlp/  schedule/  sqlparse/  whoosh/  yaml/
 │
 ├── evaluate/                      # Evaluation scripts
+│   ├── testcases/                 # black box test cases, please do NOT change this dir!
+│   │   ├── py2js/
+│   │   └── py2rust/
 │   ├── eval_c2rust.py             # C2Rust evaluation
 │   ├── eval_c2rust_mini.py        # C2Rust mini-swe-agent evaluation
 │   ├── eval_py2js.py              # Py2JS evaluation
 │   ├── eval_py2js_docker.py       # Py2JS Docker evaluation
-│   ├── eval_py2js_mini.py         # Py2JS mini-swe-agent evaluation
-│   └── calculate_all_pass.py      # Detailed statistics with Bootstrap CI
+│   └── eval_py2js_mini.py         # Py2JS mini-swe-agent evaluation
 │
 ├── run_c2rust/                    # Local C2Rust implementation
 │   ├── run_all_openai.py
@@ -156,17 +155,11 @@ By default, the Docker image for C2Rust evaluation is ```ghcr.io/jessezzzzz/c2ru
 ```bash
 cd run_c2rust_docker
 
-# Run with default settings
-python run_all_docker.py
+# Run with 4 processes and deepseek-v3.1 as the base model
+python run_all_docker.py -k 4 -m deepseek-v3.1-250821
 
-# Custom number of processes (concurrent evaluations)
-python run_all_docker.py -k 8
-
-# Custom model
-export MODEL_NAME="deepseek-v3.1-250821"
-python run_all_docker.py
-
-# Custom Docker image
+# Custom Docker image, you can build your own image and run it.
+# By default, you don't need to do it, and you can use the default docker image.
 export REPOZERO_DOCKER_IMAGE="your-custom-image:latest"
 python run_all_docker.py
 ```
@@ -179,17 +172,11 @@ By default, the Docker image for Py2JS evaluation is ```ghcr.io/jessezzzzz/py2js
 ```bash
 cd run_py2js_docker
 
-# Run with default settings (4 concurrent processes)
-python run_all_docker.py
+# Run with 4 processes and deepseek-v3.1 as the base model
+python run_all_docker.py -k 4 -m deepseek-v3.1-250821
 
-# Custom number of processes
-python run_all_docker.py -k 8
-
-# Custom model
-export MODEL_NAME="deepseek-v3.1-250821"
-python run_all_docker.py
-
-# Custom Docker image
+# Custom Docker image, you can build your own image and run it.
+# By default, you don't need to do it, and you can use the default docker image.
 export REPOZERO_DOCKER_IMAGE="my-custom-image:latest"
 python run_all_docker.py
 ```
@@ -213,7 +200,15 @@ Each task runs in an isolated container with:
 - **Output**: Generated JavaScript files are copied back to host after processing
 
 ---
+## Evaluation
+For evaluation, you can use the scripts provided in ```evaluate/```. The scripts will run the repositories in docker images, and output the result. This may take a long time (hours), and the results will be cached.
+```bash
+# For Py2JS
+python evaluate/eval_py2js_docker.py -m deepseek-v3.1-250821
 
+# For C2Rust
+python evaluate/eval_c2rust_docker.py -m deepseek-v3.1-250821
+``` 
 ## Local Implementation
 
 For local (non-Docker) evaluation, see [README_LOCAL.md](README_LOCAL.md).
