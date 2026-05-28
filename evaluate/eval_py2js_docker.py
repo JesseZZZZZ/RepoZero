@@ -3,6 +3,7 @@ import subprocess
 import os
 import argparse
 import uuid
+import shlex
 from collections import defaultdict
 from pathlib import Path
 
@@ -121,6 +122,15 @@ def docker_exec_package(pkg_dir, entry_filename, container_name, container_pkg_d
     if not os.path.exists(pkg_dir):
         return None, -1
 
+    # Clear previous package content to avoid stale files from last run.
+    cleanup_cmd = ["docker", "exec", container_name, "sh", "-c", f"rm -rf {shlex.quote(container_pkg_dir)}"]
+    try:
+        cleanup_result = subprocess.run(cleanup_cmd, capture_output=True, text=True, timeout=10)
+        if cleanup_result.returncode != 0:
+            return None, -1
+    except Exception:
+        return None, -1
+
     # Copy entire package directory to container
     copy_cmd = ["docker", "cp", pkg_dir, f"{container_name}:{container_pkg_dir}"]
     try:
@@ -132,12 +142,11 @@ def docker_exec_package(pkg_dir, entry_filename, container_name, container_pkg_d
 
     # Execute entry file in container
     container_entry_path = f"{container_pkg_dir}/{entry_filename}"
-    exec_cmd = f"docker exec {container_name} node {container_entry_path} " + " ".join(args)
+    exec_cmd_parts = ["docker", "exec", container_name, "node", container_entry_path] + args
 
     try:
         result = subprocess.run(
-            exec_cmd,
-            shell=True,
+            exec_cmd_parts,
             capture_output=True,
             text=True,
             timeout=timeout
@@ -164,6 +173,15 @@ def docker_exec_file(host_path, container_name, container_path, args, timeout=5)
         Tuple of (stdout, returncode) or (None, -1) on failure
     """
     if not os.path.exists(host_path):
+        return None, -1
+
+    # Clear previous file to avoid stale content from last run.
+    cleanup_cmd = ["docker", "exec", container_name, "sh", "-c", f"rm -rf {shlex.quote(container_path)}"]
+    try:
+        cleanup_result = subprocess.run(cleanup_cmd, capture_output=True, text=True, timeout=10)
+        if cleanup_result.returncode != 0:
+            return None, -1
+    except Exception:
         return None, -1
 
     # Copy file to container
@@ -251,6 +269,14 @@ def get_cleaned_lines(py_path, js_entry_path, params, container_name):
     js_entry_filename = os.path.basename(js_entry_path)
     container_js_pkg_dir = f"{CONTAINER_WORKSPACE}/js_pkg"
     js_proc = docker_exec_package(js_pkg_dir, js_entry_filename, container_name, container_js_pkg_dir, cmd_args, timeout=5)
+    # Debug output
+    filename = os.path.basename(py_path)
+    if py_proc[1] != 0 or js_proc[1] != 0:
+        print(f"[DEBUG {filename}] py_returncode={py_proc[1]}, js_returncode={js_proc[1]}, args={cmd_args}")
+        if py_proc[1] != 0 and py_proc[0]:
+            print(f"[DEBUG {filename}] py_stderr: {py_proc[0]}")
+        if js_proc[1] != 0 and js_proc[0]:
+            print(f"[DEBUG {filename}] js_stderr: {js_proc[0]}")
 
     if py_proc[1] == 0 and js_proc[1] == 0:
         py_lines = ["".join(line.split()) for line in py_proc[0].strip().splitlines() if line.strip()]
@@ -258,6 +284,10 @@ def get_cleaned_lines(py_path, js_entry_path, params, container_name):
 
         if len(py_lines) == len(js_lines) and len(py_lines) > 0:
             return py_lines, js_lines
+        else:
+            print(f"[DEBUG {filename}] line count mismatch: py={len(py_lines)}, js={len(js_lines)}")
+            print(f"[DEBUG {filename}] py_lines: {py_lines}")
+            print(f"[DEBUG {filename}] js_lines: {js_lines}")
     return None
 
 
@@ -277,7 +307,6 @@ def analyze_jsonl(jsonl_file, model_name, dataset_root, output_root, cache_file,
         Dictionary containing evaluation metrics
     """
     base_name = os.path.splitext(os.path.basename(jsonl_file))[0]
-
     # Check if results already exist in cache
     cache = load_cache(cache_file)
     if base_name in cache:
@@ -421,6 +450,7 @@ def analyze_directory(jsonl_dir, model_name, dataset_root, output_root, cache_fi
     try:
         for file in jsonl_files:
             path = os.path.join(jsonl_dir, file)
+
             metrics = analyze_jsonl(path, model_name, dataset_root, output_root, cache_file, container_name)
 
             print(f"===== {file} =====")
