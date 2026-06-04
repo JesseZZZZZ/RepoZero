@@ -7,7 +7,7 @@ from pathlib import Path
 from openai import OpenAI
 
 # --- Configuration ---
-BASE_URL = os.getenv("BASE_URL", "https://openrouter.ai/api/v1/")
+BASE_URL = os.getenv("BASE_URL", "https://qianfan.baidubce.com/v2/")
 API_KEY = os.getenv("API_KEY", "")
 MODEL_NAME = os.getenv("MODEL_NAME", "deepseek-v3.2")
 
@@ -16,19 +16,41 @@ if not API_KEY:
 
 client = OpenAI(base_url=BASE_URL, api_key=API_KEY)
 
+SYSTEM_PROMPT = """You are an AI expert with Linux terminal access inside a Docker container. You can execute commands inside the container to complete tasks.
 
-def call_api(messages, tools=None, model=MODEL_NAME):
-    """Call OpenAI-compatible API"""
-    params = {"model": model, "messages": messages}
-    if tools:
-        params["tools"] = tools
+When you need to execute a command, use this exact format:
+<tool_call>
+command content here
+</tool_call>
+
+Important rules:
+- Execute only one command at a time
+- Wait for command results before deciding next steps
+- When the task is complete, give a final summary WITHOUT any <tool_call> tags
+- All operations are performed in an isolated container environment
+"""
+
+
+def call_api(messages, model=MODEL_NAME):
+    """Call qianfan-compatible API"""
+    clean_messages = []
+    for msg in messages:
+        clean_messages.append({"role": msg["role"], "content": str(msg.get("content") or "")})
 
     try:
-        response = client.chat.completions.create(**params)
+        response = client.chat.completions.create(model=model, messages=clean_messages)
         return response.model_dump()
     except Exception as e:
         print(f"[ERROR] API call failed: {e}")
         return None
+
+
+def parse_tool_call(content):
+    """Parse tool_call from model output"""
+    match = re.search(r'<tool_call>\s*(.*?)\s*</tool_call>', content, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    return None
 
 
 class DockerTerminalAgent:
@@ -109,52 +131,20 @@ class DockerTerminalAgent:
             return f"Error: {str(e)}"
 
 
-tools = [
-    {
-        "type": "function",
-        "function": {
-            "name": "execute_shell",
-            "description": "Execute Linux shell command inside Docker container and return result",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "command": {"type": "string", "description": "Complete shell command"}
-                },
-                "required": ["command"],
-            },
-        },
-    }
-]
-
-
-def run_reasoning_agent(user_query, container_name, working_dir=None, model_name=None):
-    """
-    Run reasoning Agent inside Docker container
-
-    Args:
-        user_query: User query
-        container_name: Docker container name or ID
-        working_dir: Working directory inside container (optional)
-        model_name: Model name to use (optional)
-
-    Returns:
-        Token statistics dictionary
-    """
+def run_reasoning_agent(user_query, container_name, working_dir=None, model_name=None, max_turns=12):
+    """Run reasoning Agent inside Docker container"""
     docker_agent = DockerTerminalAgent(container_name, working_dir)
 
     messages = [
-        {
-            "role": "system",
-            "content": "You are an AI expert with Linux terminal access inside a Docker container. You can execute commands inside the container to complete tasks. Use your reasoning ability to analyze tasks before calling tools. All operations are performed in an isolated container environment and cannot affect the host system."
-        },
+        {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": user_query}
     ]
 
     total_input_tokens = 0
     total_output_tokens = 0
 
-    while True:
-        response = call_api(messages, tools=tools, model=model_name)
+    for turn_index in range(max_turns):
+        response = call_api(messages, model=model_name)
 
         if not response or "choices" not in response:
             print("[ERROR] API call failed or returned invalid format")
@@ -165,46 +155,26 @@ def run_reasoning_agent(user_query, container_name, working_dir=None, model_name
             total_input_tokens += usage.get("prompt_tokens", 0)
             total_output_tokens += usage.get("completion_tokens", 0)
 
-        choice = response["choices"][0]
-        msg = choice["message"]
+        msg = response["choices"][0]["message"]
+        content = msg.get("content", "") or ""
 
-        if "reasoning_details" in msg and msg["reasoning_details"]:
-            print("\n[Model reasoning...]:")
-            print(f"--- Reasoning ---\n{msg['reasoning_details']}\n-----------------")
+        if msg.get("reasoning_details"):
+            print(f"\n[Model reasoning...]:\n--- Reasoning ---\n{msg['reasoning_details']}\n-----------------")
 
-        msg_to_append = {"role": "assistant", "content": msg.get("content", "")}
-        if "reasoning_details" in msg:
-            msg_to_append["reasoning_details"] = msg["reasoning_details"]
-        if "tool_calls" in msg and msg["tool_calls"]:
-            msg_to_append["tool_calls"] = msg["tool_calls"]
+        messages.append({"role": "assistant", "content": content})
 
-        messages.append(msg_to_append)
-
-        if "tool_calls" not in msg or not msg["tool_calls"]:
-            print(f"\n[Final result]:\n{msg.get('content', '')}")
+        command = parse_tool_call(content)
+        if not command:
+            print(f"\n[Final result]:\n{content}")
             break
 
-        for tool_call in msg["tool_calls"]:
-            try:
-                args = json.loads(tool_call["function"]["arguments"])
-            except json.JSONDecodeError as e:
-                print(f"\n[ERROR] Tool call format error: {e}")
-                print(f"Original arguments: {tool_call['function']['arguments']}")
-                return {
-                    "error": f"Invalid tool call argument format: {e}",
-                    "input_tokens": total_input_tokens,
-                    "output_tokens": total_output_tokens,
-                    "total_tokens": total_input_tokens + total_output_tokens
-                }
+        observation = docker_agent.execute_shell(command)
+        print("[Tool execution result]:\n", observation[:1000])
 
-            observation = docker_agent.execute_shell(args['command'])
-            print("[Tool execution result]:\n", observation[:1000])
-            messages.append({
-                "role": "tool",
-                "tool_call_id": tool_call["id"],
-                "name": "execute_shell",
-                "content": observation
-            })
+        messages.append({"role": "user", "content": f"<tool_result>\n{observation}\n</tool_result>"})
+
+    else:
+        print(f"\n[Final result]:\nStopped after reaching max_turns={max_turns}.")
 
     return {
         "input_tokens": total_input_tokens,
