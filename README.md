@@ -32,7 +32,6 @@
 ### Installation
 (extremely simple)
 ```bash
-git clone https://github.com/JesseZZZZZ/RepoZero.git
 cd RepoZero
 pip install -r requirements.txt
 ```
