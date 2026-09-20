@@ -20,8 +20,7 @@ pip install numpy
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/JesseZZZZZ/RepoZero.git
+# Obtain the repository through your approved internal channel.
 cd RepoZero
 
 # Create conda environment (optional)
@@ -38,7 +37,7 @@ pip install anthropic openai requests
 |----------|-------------|---------|
 | `ANTHROPIC_API_KEY` | Anthropic API key | — |
 | `ANTHROPIC_BASE_URL` | Custom Anthropic API endpoint | Anthropic default |
-| `BASE_URL` | OpenAI-compatible API base URL | `https://openrouter.ai/api/v1` |
+| `BASE_URL` | OpenAI-compatible API base URL | — |
 | `API_KEY` | API key for OpenAI-compatible endpoint | — |
 | `MODEL_NAME` | Model name to use | `deepseek-v3.2` |
 | `PYTHON_BIN` | Python interpreter for evaluation | `python3` |
@@ -166,7 +165,7 @@ Each line is a JSON object identifying a benchmark test file:
 Each line contains CLI argument parameters for one test invocation of a source file:
 
 ```json
-{"filename": "base58/test1.py", "a": "1234567890"}
+{"filename": "base58/test1.py", "a": ""}
 {"filename": "base58/test1.py", "a": "5kfxvzBm43bWNCpsa3B3dt5uXuced"}
 ```
 

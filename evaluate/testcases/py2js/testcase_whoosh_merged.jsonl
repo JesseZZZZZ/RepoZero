@@ -12,7 +12,7 @@
 {"filename": "whoosh/test1.py", "a": "doc2"}
 {"filename": "whoosh/test1.py", "a": "function"}
 {"filename": "whoosh/test1.py", "a": "grape"}
-{"filename": "whoosh/test1.py", "a": "test@example.com"}
+{"filename": "whoosh/test1.py", "a": ""}
 {"filename": "whoosh/test1.py", "a": "Jjkl542CAjhUNaifg"}
 {"filename": "whoosh/test1.py", "a": "doc2"}
 {"filename": "whoosh/test1.py", "a": "标题"}
@@ -198,7 +198,7 @@
 {"filename": "whoosh/test4.py", "a": "  both  spaces  "}
 {"filename": "whoosh/test4.py", "a": "banana"}
 {"filename": "whoosh/test4.py", "a": "query"}
-{"filename": "whoosh/test4.py", "a": "test@example.com"}
+{"filename": "whoosh/test4.py", "a": ""}
 {"filename": "whoosh/test4.py", "a": "JW7RzbZ"}
 {"filename": "whoosh/test4.py", "a": "rJ0iI2"}
 {"filename": "whoosh/test4.py", "a": "q3mD5OmRkxi0Yc"}
@@ -354,7 +354,7 @@
 {"filename": "whoosh/test6.py", "a": "jJj5I6QG3", "b": "tokenizer"}
 {"filename": "whoosh/test6.py", "a": "7JlIXMS", "b": "jungle"}
 {"filename": "whoosh/test6.py", "a": "3aFzlaFa772iz9lDGxTk", "b": "title"}
-{"filename": "whoosh/test6.py", "a": "Document retrieval system", "b": "test@example.com"}
+{"filename": "whoosh/test6.py", "a": "Document retrieval system", "b": ""}
 {"filename": "whoosh/test6.py", "a": "e0dxckurzccXPyvt", "b": "mountain"}
 {"filename": "whoosh/test6.py", "a": "result", "b": "hDnc8N6WipljynOA"}
 {"filename": "whoosh/test6.py", "a": "tK0n5LqHaXOA", "b": "sample1"}
@@ -422,7 +422,7 @@
 {"filename": "whoosh/test8.py", "a": "version1.0", "b": 776, "c": "content"}
 {"filename": "whoosh/test8.py", "a": "data.json", "b": 7, "c": "i"}
 {"filename": "whoosh/test8.py", "a": "function", "b": 2021, "c": "SNmm4CjY1gUsi"}
-{"filename": "whoosh/test8.py", "a": "test@example.com", "b": 2021, "c": "snake_case"}
+{"filename": "whoosh/test8.py", "a": "", "b": 2021, "c": "snake_case"}
 {"filename": "whoosh/test8.py", "a": "module", "b": 2020, "c": "NvZOPZvTHf8ab8FNk"}
 {"filename": "whoosh/test8.py", "a": "j7XGv15cLjEZMUCC", "b": -37, "c": "mountain"}
 {"filename": "whoosh/test8.py", "a": "ikJuN", "b": 39, "c": "item001"}
@@ -499,7 +499,7 @@
 {"filename": "whoosh/test9.py", "a": "title", "b": "Query parser example", "c": "doc3"}
 {"filename": "whoosh/test9.py", "a": "data1", "b": "Document B", "c": "version1.0"}
 {"filename": "whoosh/test9.py", "a": "vUAKI0iWDChZmrcVx", "b": "内容", "c": "xNV5PVXUtUBm"}
-{"filename": "whoosh/test9.py", "a": "notebook", "b": "LC3sr2s", "c": "test@example.com"}
+{"filename": "whoosh/test9.py", "a": "notebook", "b": "LC3sr2s", "c": ""}
 {"filename": "whoosh/test9.py", "a": "XfTvcgS32pb", "b": "Query parser example", "c": "programming"}
 {"filename": "whoosh/test9.py", "a": "中文测试", "b": "jungle", "c": "cherry"}
 {"filename": "whoosh/test9.py", "a": "UPPERCASE", "b": "Document B", "c": "Index creation test"}
@@ -538,13 +538,13 @@
 {"filename": "whoosh/test9.py", "a": "Query parser example", "b": "d", "c": "Document C"}
 {"filename": "whoosh/test10.py", "a": "a", "b": "apple"}
 {"filename": "whoosh/test10.py", "a": "7WqbGhSo77qJnm", "b": "Python is awesome"}
-{"filename": "whoosh/test10.py", "a": "test@example.com", "b": "house"}
+{"filename": "whoosh/test10.py", "a": "", "b": "house"}
 {"filename": "whoosh/test10.py", "a": "text", "b": "library"}
 {"filename": "whoosh/test10.py", "a": "test1", "b": "查询"}
 {"filename": "whoosh/test10.py", "a": "Example Item 3", "b": "2wLAP32u8y7"}
 {"filename": "whoosh/test10.py", "a": "Oqahl3S23ED9Ual", "b": "package"}
 {"filename": "whoosh/test10.py", "a": "OFiqMmn", "b": "iLiSNjHg85WM2dZuz3hK"}
-{"filename": "whoosh/test10.py", "a": "test@example.com", "b": "apple"}
+{"filename": "whoosh/test10.py", "a": "", "b": "apple"}
 {"filename": "whoosh/test10.py", "a": "Index creation test", "b": "cherry"}
 {"filename": "whoosh/test10.py", "a": "TNZb1vBHng", "b": "content"}
 {"filename": "whoosh/test10.py", "a": "trailing space  ", "b": "a4TaU7KLImK0GHmfROH"}
@@ -567,7 +567,7 @@
 {"filename": "whoosh/test10.py", "a": "tokenizer", "b": "package"}
 {"filename": "whoosh/test10.py", "a": "viN54", "b": "test1"}
 {"filename": "whoosh/test10.py", "a": "搜索", "b": "house"}
-{"filename": "whoosh/test10.py", "a": "elderberry", "b": "test@example.com"}
+{"filename": "whoosh/test10.py", "a": "elderberry", "b": ""}
 {"filename": "whoosh/test10.py", "a": "qnQTMXbH", "b": "doc2"}
 {"filename": "whoosh/test10.py", "a": "XPDrp3SjF3", "b": "datetime"}
 {"filename": "whoosh/test10.py", "a": "KBslOFwjLRq9Egz0J", "b": "doc2"}
@@ -624,7 +624,7 @@
 {"filename": "whoosh/test11.py", "a": "nnG4Nkf1", "b": "date", "c": "evyJE1x3A6sqd70dcimF"}
 {"filename": "whoosh/test11.py", "a": "report.pdf", "b": "55BmCaizT1zt2gFL", "c": "sample1"}
 {"filename": "whoosh/test11.py", "a": "version1.0", "b": "h", "c": "data.json"}
-{"filename": "whoosh/test11.py", "a": "f", "b": "test@example.com", "c": "FosxzW"}
+{"filename": "whoosh/test11.py", "a": "f", "b": "", "c": "FosxzW"}
 {"filename": "whoosh/test11.py", "a": "KwOBC3h6gjK4", "b": "hfUaHF", "c": "qXCrHVZIsao2shLv"}
 {"filename": "whoosh/test11.py", "a": "Jgr9kna", "b": "product_2024", "c": "test1"}
 {"filename": "whoosh/test11.py", "a": "tPJe7bA", "b": "eMTMxxV9o", "c": "nzS29X7BSpnRE3KSG"}
@@ -657,7 +657,7 @@
 {"filename": "whoosh/test11.py", "a": "elderberry", "b": "文档", "c": "3Z9qxtf"}
 {"filename": "whoosh/test11.py", "a": "product_2024", "b": "test3", "c": "CE7LY59TQ0at0lCZ"}
 {"filename": "whoosh/test14.py", "a": "dcAK7hD9C5ueTQzZJK", "b": "Search engine test", "c": "product_2024"}
-{"filename": "whoosh/test14.py", "a": "test@example.com", "b": "keyword", "c": "内容"}
+{"filename": "whoosh/test14.py", "a": "", "b": "keyword", "c": "内容"}
 {"filename": "whoosh/test14.py", "a": "TV7WqEwxevTz", "b": "GDW6k", "c": "12345"}
 {"filename": "whoosh/test14.py", "a": "OOI7eLttn", "b": "a", "c": "Another document with different content to test the search functionality of the whoosh library"}
 {"filename": "whoosh/test14.py", "a": "hello", "b": "hs7GdrN", "c": "hello"}
@@ -702,7 +702,7 @@
 {"filename": "whoosh/test14.py", "a": "data.json", "b": "test2", "c": "索引"}
 {"filename": "whoosh/test14.py", "a": "lowercase", "b": "kebab-case", "c": "field"}
 {"filename": "whoosh/test14.py", "a": "item001", "b": "MixedCase", "c": "jumps over the lazy dog"}
-{"filename": "whoosh/test14.py", "a": "test@example.com", "b": "The quick brown fox", "c": "LO8wMLcpDtN1XNN"}
+{"filename": "whoosh/test14.py", "a": "", "b": "The quick brown fox", "c": "LO8wMLcpDtN1XNN"}
 {"filename": "whoosh/test14.py", "a": "搜索引挚", "b": "Search engine test", "c": "MlDUD8BpR4QDkHtt"}
 {"filename": "whoosh/test14.py", "a": "KF4RDS3Dc8", "b": "user123", "c": "RRuGNnX"}
 {"filename": "whoosh/test14.py", "a": "qhwnOAijnMI6Ka11", "b": "library", "c": "query"}
@@ -781,7 +781,7 @@
 {"filename": "whoosh/test16.py", "a": "python", "b": "elderberry", "c": "elasticsearch", "d": "method"}
 {"filename": "whoosh/test16.py", "a": "product2024", "b": "O5vxb3CwMpNJ", "c": "Query parser example", "d": "Another document with different content to test the search functionality of the whoosh library"}
 {"filename": "whoosh/test16.py", "a": "sample2", "b": "class", "c": "CGW2PntnA1fCjHtA", "d": "doc2"}
-{"filename": "whoosh/test16.py", "a": "VZhSW6K7I", "b": "Sample Data 2", "c": "house", "d": "test@example.com"}
+{"filename": "whoosh/test16.py", "a": "VZhSW6K7I", "b": "Sample Data 2", "c": "house", "d": ""}
 {"filename": "whoosh/test16.py", "a": "Query parser example", "b": "KjnaL31xCjwpmIX", "c": "oSTSiT86dMb", "d": "搜索引挚"}
 {"filename": "whoosh/test16.py", "a": "TukWqV85MAv5Pj4Qao", "b": "jj5YIpil12efyJ4END1b", "c": "ZgQHJv", "d": "kebab-case"}
 {"filename": "whoosh/test16.py", "a": "module", "b": "Document retrieval system", "c": "world", "d": "Document C"}
@@ -898,7 +898,7 @@
 {"filename": "whoosh/test18.py", "a": "product_2024", "b": "7sfOrMN76ci", "c": "library", "d": "query", "e": "b", "f": "package", "g": "hello", "h": "kitchen", "i": "data3", "j": "I9h5LmNqZi5oYlE7ze"}
 {"filename": "whoosh/test18.py", "a": "This is a longer text document that contains multiple words and phrases for testing purposes", "b": "0MFdIoSDxSHD7CMx2bd", "c": "elasticsearch", "d": "  both  spaces  ", "e": "Gq4ocemjh97", "f": "kebab-case", "g": "class", "h": "mountain", "i": "Document B", "j": "kOh9DuhGK98PnIuyN"}
 {"filename": "whoosh/test18.py", "a": "DpUqYDUCAcBuFJwnMJ", "b": "user123", "c": "user123", "d": "h", "e": "  both  spaces  ", "f": "e", "g": "nLYhVEHmPPGG5CxeBS", "h": "indexing", "i": "Sample Data 2", "j": "TtoSmyx"}
-{"filename": "whoosh/test18.py", "a": "qQwcyf", "b": "indexing", "c": "index", "d": "3aX7xXbBY", "e": "ImWqE5TKYJlp6QLXay", "f": "tNmJ4Z", "g": "Test Case 1", "h": "Query parser example", "i": "test@example.com", "j": "3F5yJQ"}
+{"filename": "whoosh/test18.py", "a": "qQwcyf", "b": "indexing", "c": "index", "d": "3aX7xXbBY", "e": "ImWqE5TKYJlp6QLXay", "f": "tNmJ4Z", "g": "Test Case 1", "h": "Query parser example", "i": "", "j": "3F5yJQ"}
 {"filename": "whoosh/test18.py", "a": "PascalCase", "b": "中文测试", "c": "schema", "d": "PascalCase", "e": "title", "f": "d", "g": "import", "h": "Document B", "i": "tab\there", "j": "Another document with different content to test the search functionality of the whoosh library"}
 {"filename": "whoosh/test18.py", "a": "package", "b": "datetime", "c": "urMoMWrqGij7eFVSX", "d": "sample2", "e": "1OaygwTk7Rmu1IgI3", "f": "query", "g": "elderberry", "h": "搜索引挚", "i": "  leading space", "j": "data.json"}
 {"filename": "whoosh/test18.py", "a": "snake_case", "b": "framework", "c": "house", "d": "Search engine test", "e": "algorithm", "f": "vABOJ", "g": "文档检索", "h": "test3", "i": "sFVi1307SFk", "j": "UwpVlvdZhBVUjEu"}
@@ -935,11 +935,11 @@
 {"filename": "whoosh/test18.py", "a": "Hello World", "b": "content", "c": "jungle", "d": "Document A", "e": "new\nline", "f": "RMI2pbidImr4", "g": "index", "h": "sample1", "i": "doc2", "j": "fyb8TaraoYmDXW"}
 {"filename": "whoosh/test18.py", "a": "c", "b": "lowercase", "c": "igloo", "d": "  leading space", "e": "test2", "f": "文档检索", "g": "测试", "h": "Document B", "i": "doc2", "j": "image.png"}
 {"filename": "whoosh/test18.py", "a": "vwntZXGEqV0", "b": "elasticsearch", "c": "jumps over the lazy dog", "d": "JkqxklMMsaZPcSTuOu8u", "e": "TFRJvA5nWrRmQiMK2", "f": "EWfU12qZwa", "g": "sWuN0lV0Hc2Ean79", "h": "test3", "i": "image.png", "j": "Query parser example"}
-{"filename": "whoosh/test18.py", "a": "e49dSu", "b": "doc2", "c": "date", "d": "BVc6rALEP6jLFdKewj", "e": "搜索", "f": "文档", "g": "W7NogCdOuTzFKEnp3p", "h": "test@example.com", "i": "text", "j": "date"}
+{"filename": "whoosh/test18.py", "a": "e49dSu", "b": "doc2", "c": "date", "d": "BVc6rALEP6jLFdKewj", "e": "搜索", "f": "文档", "g": "W7NogCdOuTzFKEnp3p", "h": "", "i": "text", "j": "date"}
 {"filename": "whoosh/test18.py", "a": "user123", "b": "XMIFU914U", "c": "UPPERCASE", "d": "version1.0", "e": "elasticsearch", "f": "sUGnL5r5orBKXF0OxzS", "g": "item-001", "h": "function", "i": "This is a longer text document that contains multiple words and phrases for testing purposes", "j": "doc1"}
 {"filename": "whoosh/test18.py", "a": "b", "b": "field", "c": "field", "d": "zNhcf7yjhqQmyWq", "e": "The quick brown fox", "f": "t4cWyXzDNSi7D", "g": "mVDHLgRxL", "h": "doc1", "i": "data", "j": "Document C"}
 {"filename": "whoosh/test18.py", "a": "doc3", "b": "house", "c": "product_2024", "d": "OeNzzwMGIOM2EWW", "e": "Hello World", "f": "report.pdf", "g": "CNis8ctfh6m50nr", "h": "datetime", "i": "a5aQCjOdA", "j": "Document A"}
-{"filename": "whoosh/test18.py", "a": "text", "b": "XGXqR3", "c": "test1", "d": "data", "e": "fQdmWT", "f": "g", "g": "0QNl5acsbK5fBekUO0K", "h": "Full text search", "i": "test@example.com", "j": "a"}
+{"filename": "whoosh/test18.py", "a": "text", "b": "XGXqR3", "c": "test1", "d": "data", "e": "fQdmWT", "f": "g", "g": "0QNl5acsbK5fBekUO0K", "h": "Full text search", "i": "", "j": "a"}
 {"filename": "whoosh/test18.py", "a": "programming", "b": "mountain", "c": "keyword", "d": "  both  spaces  ", "e": "date", "f": "OrmFW2", "g": "zsGpO6jNfXaDgh", "h": "Wsz5gxLo", "i": "igloo", "j": "  both  spaces  "}
 {"filename": "whoosh/test18.py", "a": "i", "b": "Document C", "c": "5ZVsyBJAIIHO", "d": "lowercase", "e": "yX1XNTJ2mCGP4AqW", "f": "qdEwDTwaII8JN2iz51P", "g": "tokenizer", "h": "d", "i": "doc2", "j": "EpQsaeojlZ4SRNVi"}
 {"filename": "whoosh/test18.py", "a": "f", "b": "file.txt", "c": "Python is awesome", "d": "image.png", "e": "apple", "f": "test", "g": "L7IO0wQE7i5RhIF", "h": "VutJBZ4", "i": "wHKHJO8dWsM", "j": "fqg3CkMQPRG1nD"}
@@ -1045,7 +1045,7 @@
 {"filename": "whoosh/test20.py", "a": "content", "b": "b", "c": "mountain", "d": "1YRZBpRGtcQdL", "e": "tokenizer"}
 {"filename": "whoosh/test20.py", "a": "test1", "b": "apple", "c": "igloo", "d": "new\nline", "e": "cherry"}
 {"filename": "whoosh/test20.py", "a": "report.pdf", "b": "YixLH3", "c": "oS17B4I4CtFmX734q", "d": "Document C", "e": "indexing"}
-{"filename": "whoosh/test20.py", "a": "doc1", "b": "test@example.com", "c": "solr", "d": "data", "e": "2rODabS"}
+{"filename": "whoosh/test20.py", "a": "doc1", "b": "", "c": "solr", "d": "data", "e": "2rODabS"}
 {"filename": "whoosh/test20.py", "a": "apple", "b": "Full text search", "c": "test1", "d": "Full text search", "e": "中文测试"}
 {"filename": "whoosh/test20.py", "a": "t1sE4lLxQ5591GqZVvZb", "b": "fiZwSTA88", "c": "g", "d": "索引", "e": "index"}
 {"filename": "whoosh/test20.py", "a": "nVmmloJN66yu7BPRUG6V", "b": "elasticsearch", "c": "  both  spaces  ", "d": "CYLKjfJ", "e": "gUXUXiXe3MZNZltHQ"}
@@ -1072,7 +1072,7 @@
 {"a": "", "filename": "whoosh/test1.py"}
 {"a": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "filename": "whoosh/test1.py"}
 {"a": "special!@#$%^&*()_+-=[]{}|;':\",./<>?", "filename": "whoosh/test1.py"}
-{"a": "12345678901234567890", "filename": "whoosh/test1.py"}
+{"a": "234567890", "filename": "whoosh/test1.py"}
 {"a": "中文测试内容", "filename": "whoosh/test1.py"}
 {"a": "hello world multiple words", "filename": "whoosh/test1.py"}
 {"a": "/path/to/directory/file.txt", "filename": "whoosh/test1.py"}
@@ -1098,13 +1098,13 @@
 {"a": "field", "b": "schema", "filename": "whoosh/test10.py"}
 {"a": "path", "b": "/home/user", "filename": "whoosh/test10.py"}
 {"a": "file.txt", "b": "data", "filename": "whoosh/test10.py"}
-{"a": "user@domain.com", "b": "password123", "filename": "whoosh/test10.py"}
-{"a": "name", "b": "John Doe", "filename": "whoosh/test10.py"}
-{"a": "address", "b": "123 Main St", "filename": "whoosh/test10.py"}
-{"a": "phone", "b": "+1-234-567-8901", "filename": "whoosh/test10.py"}
-{"a": "date", "b": "2023-01-01", "filename": "whoosh/test10.py"}
+{"a": "", "b": "password123", "filename": "whoosh/test10.py"}
+{"a": "name", "b": " Doe", "filename": "whoosh/test10.py"}
+{"a": "address", "b": "", "filename": "whoosh/test10.py"}
+{"a": "phone", "b": "", "filename": "whoosh/test10.py"}
+{"a": "date", "b": "", "filename": "whoosh/test10.py"}
 {"a": "time", "b": "12:00:00", "filename": "whoosh/test10.py"}
-{"a": "datetime", "b": "2023-01-01T12:00:00Z", "filename": "whoosh/test10.py"}
+{"a": "datetime", "b": "T12:00:00Z", "filename": "whoosh/test10.py"}
 {"a": "json", "b": "{\"key\": \"value\"}", "filename": "whoosh/test10.py"}
 {"a": "xml", "b": "<tag>data</tag>", "filename": "whoosh/test10.py"}
 {"a": "html", "b": "<div>content</div>", "filename": "whoosh/test10.py"}
@@ -1230,7 +1230,7 @@
 {"a": "index", "b": "search", "c": "query", "d": "result", "filename": "whoosh/test16.py"}
 {"a": "whoosh", "b": "python", "c": "library", "d": "test", "filename": "whoosh/test16.py"}
 {"a": "aaaaaaaaaa", "b": "bbbbbbbbbb", "c": "cccccccccc", "d": "dddddddddd", "filename": "whoosh/test16.py"}
-{"a": "0123456789", "b": "9876543210", "c": "12345abcde", "d": "abcde12345", "filename": "whoosh/test16.py"}
+{"a": "", "b": "", "c": "12345abcde", "d": "abcde12345", "filename": "whoosh/test16.py"}
 {"a": "ALLCAPS", "b": "lowercase", "c": "MixedCase", "d": "camelCase", "filename": "whoosh/test16.py"}
 {"a": " leading", "b": "trailing ", "c": " both ", "d": "  multiple  spaces  ", "filename": "whoosh/test16.py"}
 {"a": "line1\nline2", "b": "line1\r\nline2", "c": "line1\n\rline2", "d": "multi\nline\rcontent", "filename": "whoosh/test16.py"}
@@ -1313,17 +1313,17 @@
 {"a": "TwoIdentical", "b": 50, "c": 50, "d": 75, "filename": "whoosh/test17.py"}
 {"a": "AllNegative", "b": -100, "c": -50, "d": -200, "filename": "whoosh/test17.py"}
 {"a": "LargeRange", "b": -999999, "c": 0, "d": 999999, "filename": "whoosh/test17.py"}
-{"a": "MaxIntBoundary", "b": 2147483647, "c": -2147483648, "d": 0, "filename": "whoosh/test17.py"}
+{"a": "MaxIntBoundary", "b": , "c": -, "d": 0, "filename": "whoosh/test17.py"}
 {"a": "Unicode_测试_🚀", "b": 123, "c": 456, "d": 789, "filename": "whoosh/test17.py"}
 {"a": "Special!@#$%", "b": -1, "c": 0, "d": 1, "filename": "whoosh/test17.py"}
 {"a": "Descending", "b": 1000, "c": 100, "d": 10, "filename": "whoosh/test17.py"}
 {"a": "MixedSmall", "b": 2, "c": 1, "d": 3, "filename": "whoosh/test17.py"}
 {"a": "", "b": "simple", "c": "test", "d": "basic", "e": "value", "f": "data", "g": "content", "h": "text", "i": "info", "j": "entry", "filename": "whoosh/test18.py"}
 {"a": "shared_keyword", "b": "unique_one", "c": "shared_keyword", "d": "unique_two", "e": "shared_keyword", "f": "unique_three", "g": "unique_four", "h": "unique_five", "i": "unique_six", "j": "unique_seven", "filename": "whoosh/test18.py"}
-{"a": "user@example.com", "b": "192.168.1.1", "c": "2024-01-15", "d": "14:30:00", "e": "v2.1.0", "f": "https://api.example.com", "g": "file_path.txt", "h": "error_code_404", "i": "ref_12345", "j": "amount_99.99", "filename": "whoosh/test18.py"}
+{"a": "", "b": "", "c": "", "d": "14:30:00", "e": "v2.1.0", "f": "https://api.example.com", "g": "file_path.txt", "h": "error_code_404", "i": "ref_12345", "j": "amount_99.99", "filename": "whoosh/test18.py"}
 {"a": "Hello World", "b": "你好世界", "c": "Bonjour monde", "d": "Hola Mundo", "e": "Hallo Welt", "f": "Ciao Mondo", "g": "Olá Mundo", "h": "Привет мир", "i": "こんにちは", "j": "مرحبا", "filename": "whoosh/test18.py"}
 {"a": "   leading", "b": "trailing   ", "c": "  both  ", "d": "tab\there", "e": "newline\nhere", "f": "multi\nline\ntext", "g": "\tmulti\ttabs", "h": "  mixed \t whitespace \n ", "i": "single", "j": "double  space", "filename": "whoosh/test18.py"}
-{"a": "email@domain.com", "b": "price:$100", "c": "hash#tag", "d": "rate:50%", "e": "A&B", "f": "x+y", "g": "a=b", "h": "Q&A", "i": "cost:£50", "j": "temp:30C", "filename": "whoosh/test18.py"}
+{"a": "", "b": "price:$100", "c": "hash#tag", "d": "rate:50%", "e": "A&B", "f": "x+y", "g": "a=b", "h": "Q&A", "i": "cost:£50", "j": "temp:30C", "filename": "whoosh/test18.py"}
 {"a": "12345", "b": "3.14159", "c": "0xDEADBEEF", "d": "1.23e-4", "e": "true", "f": "false", "g": "null", "h": "undefined", "i": "NaN", "j": "Infinity", "filename": "whoosh/test18.py"}
 {"a": "a", "b": "xy", "c": "short", "d": "Lorem ipsum dolor sit amet", "e": "The quick brown fox jumps over the lazy dog multiple times to increase length significantly", "f": "Python is a programming language that lets you work quickly and integrate systems more effectively with simple syntax", "g": "normal length", "h": "medium", "i": "tiny", "j": "z", "filename": "whoosh/test18.py"}
 {"a": "class", "b": "def", "c": "import", "d": "return", "e": "if else", "f": "try catch", "g": "while loop", "h": "for in", "i": "raise error", "j": "yield from", "filename": "whoosh/test18.py"}
@@ -1332,15 +1332,15 @@
 {"a": "a", "b": -1000, "c": -500, "d": 0, "e": 1000, "filename": "whoosh/test19.py"}
 {"a": "A", "b": 1000, "c": 2000, "d": 3000, "e": 4000, "filename": "whoosh/test19.py"}
 {"a": "123", "b": -9999, "c": -8888, "d": -7777, "e": -6666, "filename": "whoosh/test19.py"}
-{"a": "test@email.com", "b": 1, "c": 2, "d": 3, "e": 4, "filename": "whoosh/test19.py"}
+{"a": "", "b": 1, "c": 2, "d": 3, "e": 4, "filename": "whoosh/test19.py"}
 {"a": "Hello World!", "b": 10, "c": 20, "d": 30, "e": 40, "filename": "whoosh/test19.py"}
 {"a": "多语言中文", "b": 50, "c": 25, "d": 75, "e": 100, "filename": "whoosh/test19.py"}
 {"a": "スペシャル", "b": -1, "c": 0, "d": 1, "e": 2, "filename": "whoosh/test19.py"}
 {"a": "\t", "b": 999, "c": 1000, "d": 1001, "e": 1002, "filename": "whoosh/test19.py"}
 {"a": "verylongstringverylongstringverylongstringverylongstringverylongstringverylongstringverylongstringverylongstringverylongstringverylongstring", "b": 0, "c": 50, "d": 100, "e": 150, "filename": "whoosh/test19.py"}
 {"a": "", "b": 5000, "c": 5000, "d": 5000, "e": 5000, "filename": "whoosh/test19.py"}
-{"a": "null", "b": 2147483647, "c": 2147483646, "d": 2147483645, "e": 2147483644, "filename": "whoosh/test19.py"}
-{"a": "true", "b": -2147483648, "c": -2147483647, "d": -2147483646, "e": -2147483645, "filename": "whoosh/test19.py"}
+{"a": "null", "b": , "c": , "d": , "e": , "filename": "whoosh/test19.py"}
+{"a": "true", "b": -, "c": -, "d": -, "e": -, "filename": "whoosh/test19.py"}
 {"a": "false", "b": 0, "c": -100, "d": 100, "e": -200, "filename": "whoosh/test19.py"}
 {"a": "\\n\\r\\t", "b": 255, "c": 128, "d": 64, "e": 32, "filename": "whoosh/test19.py"}
 {"a": "path/to/file.txt", "b": 42, "c": 42, "d": 42, "e": 42, "filename": "whoosh/test19.py"}
@@ -1350,7 +1350,7 @@
 {"a": "😀🎉", "b": -42, "c": -21, "d": 0, "e": 21, "filename": "whoosh/test19.py"}
 {"a": "space space", "b": 10000, "c": 0, "d": 5000, "e": 10000, "filename": "whoosh/test19.py"}
 {"a": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "b": -999, "c": 0, "d": 999, "e": 1998, "filename": "whoosh/test19.py"}
-{"a": "1234567890", "b": 0, "c": 1, "d": 2, "e": 3, "filename": "whoosh/test19.py"}
+{"a": "", "b": 0, "c": 1, "d": 2, "e": 3, "filename": "whoosh/test19.py"}
 {"a": "!@#$%^&*()", "b": 50, "c": 51, "d": 52, "e": 53, "filename": "whoosh/test19.py"}
 {"a": "alpha-beta_gamma", "b": 300, "c": 200, "d": 400, "e": 100, "filename": "whoosh/test19.py"}
 {"a": "C:\\Windows\\System32", "b": 9999, "c": 8888, "d": 7777, "e": 6666, "filename": "whoosh/test19.py"}
@@ -1435,7 +1435,7 @@
 {"a": "hello_world", "filename": "whoosh/test2.py"}
 {"a": "hello-world", "filename": "whoosh/test2.py"}
 {"a": "hello.world", "filename": "whoosh/test2.py"}
-{"a": "1234567890", "filename": "whoosh/test2.py"}
+{"a": "", "filename": "whoosh/test2.py"}
 {"a": "!@#$%^&*()", "filename": "whoosh/test2.py"}
 {"a": "aaaaaaaaaa", "filename": "whoosh/test2.py"}
 {"a": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "filename": "whoosh/test2.py"}
@@ -1459,12 +1459,12 @@
 {"a": "C:\\Windows\\System32", "filename": "whoosh/test2.py"}
 {"a": "http://example.com", "filename": "whoosh/test2.py"}
 {"a": "https://example.com/path?query=string", "filename": "whoosh/test2.py"}
-{"a": "user@example.com", "filename": "whoosh/test2.py"}
-{"a": "127.0.0.1", "filename": "whoosh/test2.py"}
-{"a": "255.255.255.255", "filename": "whoosh/test2.py"}
+{"a": "", "filename": "whoosh/test2.py"}
+{"a": "", "filename": "whoosh/test2.py"}
+{"a": "", "filename": "whoosh/test2.py"}
 {"a": "::1", "filename": "whoosh/test2.py"}
-{"a": "2023-01-01", "filename": "whoosh/test2.py"}
-{"a": "2023-01-01T12:00:00Z", "filename": "whoosh/test2.py"}
+{"a": "", "filename": "whoosh/test2.py"}
+{"a": "T12:00:00Z", "filename": "whoosh/test2.py"}
 {"a": "Lorem ipsum dolor sit amet.", "filename": "whoosh/test2.py"}
 {"a": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ", "filename": "whoosh/test2.py"}
 {"a": "SQL: SELECT * FROM users;", "filename": "whoosh/test2.py"}
@@ -1497,8 +1497,8 @@
 {"a": "base64: aGVsbG8=", "filename": "whoosh/test2.py"}
 {"a": "md5: d41d8cd98f00b204e9800998ecf8427e", "filename": "whoosh/test2.py"}
 {"a": "sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "filename": "whoosh/test2.py"}
-{"a": "uuid: 123e4567-e89b-12d3-a456-426614174000", "filename": "whoosh/test2.py"}
-{"a": "guid: {123e4567-e89b-12d3-a456-426614174000}", "filename": "whoosh/test2.py"}
+{"a": "uuid: 123e4567-e89b-12d3-a456-", "filename": "whoosh/test2.py"}
+{"a": "guid: {123e4567-e89b-12d3-a456-}", "filename": "whoosh/test2.py"}
 {"a": "version: 1.2.3", "filename": "whoosh/test2.py"}
 {"a": "v1.2.3-alpha+build123", "filename": "whoosh/test2.py"}
 {"a": "semver: 2.0.0", "filename": "whoosh/test2.py"}
@@ -1563,7 +1563,7 @@
 {"a": "monday", "b": "tuesday", "c": "wednesday", "d": "thursday", "e": "friday", "filename": "whoosh/test20.py"}
 {"a": "hydrogen", "b": "helium", "c": "lithium", "d": "beryllium", "e": "boron", "filename": "whoosh/test20.py"}
 {"a": "sun", "b": "mercury", "c": "venus", "d": "earth", "e": "mars", "filename": "whoosh/test20.py"}
-{"a": "alpha", "b": "bravo", "c": "charlie", "d": "delta", "e": "echo", "filename": "whoosh/test20.py"}
+{"a": "alpha", "b": "bravo", "c": "", "d": "delta", "e": "echo", "filename": "whoosh/test20.py"}
 {"a": "foo", "b": "bar", "c": "baz", "d": "qux", "e": "quux", "filename": "whoosh/test20.py"}
 {"a": "test", "b": "demo", "c": "sample", "d": "example", "e": "prototype", "filename": "whoosh/test20.py"}
 {"a": "input", "b": "output", "c": "process", "d": "result", "e": "analysis", "filename": "whoosh/test20.py"}
@@ -1582,7 +1582,7 @@
 {"a": "list", "b": "tuple", "c": "dict", "d": "set", "e": "frozenset", "filename": "whoosh/test20.py"}
 {"a": "json", "b": "xml", "c": "html", "d": "csv", "e": "yaml", "filename": "whoosh/test20.py"}
 {"a": "http", "b": "https", "c": "ftp", "d": "ssh", "e": "smtp", "filename": "whoosh/test20.py"}
-{"a": "localhost", "b": "127.0.0.1", "c": "example.com", "d": "test.org", "e": "domain.net", "filename": "whoosh/test20.py"}
+{"a": "localhost", "b": "", "c": "example.com", "d": "test.org", "e": "domain.net", "filename": "whoosh/test20.py"}
 {"a": "admin", "b": "user", "c": "guest", "d": "root", "e": "superuser", "filename": "whoosh/test20.py"}
 {"a": "password", "b": "secret", "c": "token", "d": "key", "e": "certificate", "filename": "whoosh/test20.py"}
 {"a": "encrypt", "b": "decrypt", "c": "hash", "d": "sign", "e": "verify", "filename": "whoosh/test20.py"}
@@ -1659,12 +1659,12 @@
 {"a": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "filename": "whoosh/test3.py"}
 {"a": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "filename": "whoosh/test3.py"}
 {"a": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "filename": "whoosh/test3.py"}
-{"a": "1234567890", "filename": "whoosh/test3.py"}
+{"a": "", "filename": "whoosh/test3.py"}
 {"a": "version-2.0", "filename": "whoosh/test3.py"}
 {"a": "version_2_0", "filename": "whoosh/test3.py"}
 {"a": "Version2.0", "filename": "whoosh/test3.py"}
 {"a": "v2.0.1", "filename": "whoosh/test3.py"}
-{"a": "1.2.3.4", "filename": "whoosh/test3.py"}
+{"a": "", "filename": "whoosh/test3.py"}
 {"a": "test-data", "filename": "whoosh/test3.py"}
 {"a": "test_data", "filename": "whoosh/test3.py"}
 {"a": "TestData", "filename": "whoosh/test3.py"}
@@ -1681,8 +1681,8 @@
 {"a": "image.jpg", "filename": "whoosh/test3.py"}
 {"a": "archive.tar.gz", "filename": "whoosh/test3.py"}
 {"a": "my script.py", "filename": "whoosh/test3.py"}
-{"a": "test@example.com", "filename": "whoosh/test3.py"}
-{"a": "user+tag@domain.co.uk", "filename": "whoosh/test3.py"}
+{"a": "", "filename": "whoosh/test3.py"}
+{"a": "", "filename": "whoosh/test3.py"}
 {"a": "https://example.com/path?query=value", "filename": "whoosh/test3.py"}
 {"a": "ftp://server/file", "filename": "whoosh/test3.py"}
 {"a": "www.site.org", "filename": "whoosh/test3.py"}
@@ -1786,8 +1786,8 @@
 {"a": "123 456", "filename": "whoosh/test4.py"}
 {"a": "123.456", "filename": "whoosh/test4.py"}
 {"a": "12.34.56", "filename": "whoosh/test4.py"}
-{"a": "test@example.com", "filename": "whoosh/test4.py"}
-{"a": "user@domain.co.uk", "filename": "whoosh/test4.py"}
+{"a": "", "filename": "whoosh/test4.py"}
+{"a": "", "filename": "whoosh/test4.py"}
 {"a": "https://www.example.com", "filename": "whoosh/test4.py"}
 {"a": "C:\\Program Files\\Application", "filename": "whoosh/test4.py"}
 {"a": "/usr/local/bin", "filename": "whoosh/test4.py"}
@@ -1882,7 +1882,7 @@
 {"a": "mixed123ABC", "b": "def456GHI", "filename": "whoosh/test6.py"}
 {"a": "verylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongword", "b": "short", "filename": "whoosh/test6.py"}
 {"a": "single", "b": "verylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongwordverylongword", "filename": "whoosh/test6.py"}
-{"a": "1234567890", "b": "0987654321", "filename": "whoosh/test6.py"}
+{"a": "", "b": "", "filename": "whoosh/test6.py"}
 {"a": "null", "b": "none", "filename": "whoosh/test6.py"}
 {"a": "true", "b": "false", "filename": "whoosh/test6.py"}
 {"a": "yes", "b": "no", "filename": "whoosh/test6.py"}
@@ -2020,7 +2020,7 @@
 {"a": "special|chars", "b": "pipe&space", "c": "pipe", "filename": "whoosh/test7.py"}
 {"a": "weight:10", "b": "score:5.0", "c": "5.0", "filename": "whoosh/test7.py"}
 {"a": "date:2024", "b": "time:12:00", "c": "12:00", "filename": "whoosh/test7.py"}
-{"a": "id:12345", "b": "name:john", "c": "john", "filename": "whoosh/test7.py"}
+{"a": "id:12345", "b": "name:", "c": "", "filename": "whoosh/test7.py"}
 {"a": "field:value", "b": "key=value", "c": "value", "filename": "whoosh/test7.py"}
 {"a": "{json}", "b": "{\"key\": \"value\"}", "c": "value", "filename": "whoosh/test7.py"}
 {"a": "[list]", "b": "[1,2,3]", "c": "3", "filename": "whoosh/test7.py"}
@@ -2046,15 +2046,15 @@
 {"a": "base64", "b": "SGVsbG8=", "c": "SGVsbG8", "filename": "whoosh/test7.py"}
 {"a": "md5", "b": "d41d8cd98f00b204e9800998ecf8427e", "c": "e9800998ecf8427e", "filename": "whoosh/test7.py"}
 {"a": "sha1", "b": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "c": "afd80709", "filename": "whoosh/test7.py"}
-{"a": "uuid", "b": "123e4567-e89b-12d3-a456-426614174000", "c": "426614174000", "filename": "whoosh/test7.py"}
-{"a": "ip", "b": "192.168.1.1", "c": "1.1", "filename": "whoosh/test7.py"}
-{"a": "email", "b": "user@example.com", "c": "example.com", "filename": "whoosh/test7.py"}
-{"a": "phone", "b": "+1-234-567-8900", "c": "8900", "filename": "whoosh/test7.py"}
-{"a": "date", "b": "2024-01-15", "c": "01-15", "filename": "whoosh/test7.py"}
+{"a": "uuid", "b": "123e4567-e89b-12d3-a456-", "c": "", "filename": "whoosh/test7.py"}
+{"a": "ip", "b": "", "c": "1.1", "filename": "whoosh/test7.py"}
+{"a": "email", "b": "", "c": "example.com", "filename": "whoosh/test7.py"}
+{"a": "phone", "b": "", "c": "8900", "filename": "whoosh/test7.py"}
+{"a": "date", "b": "", "c": "01-15", "filename": "whoosh/test7.py"}
 {"a": "time", "b": "23:59:59", "c": "59", "filename": "whoosh/test7.py"}
-{"a": "datetime", "b": "2024-01-15T23:59:59Z", "c": "59Z", "filename": "whoosh/test7.py"}
-{"a": "timestamp", "b": "1705343999", "c": "3999", "filename": "whoosh/test7.py"}
-{"a": "float", "b": "3.141592653589793", "c": "589793", "filename": "whoosh/test7.py"}
+{"a": "datetime", "b": "T23:59:59Z", "c": "59Z", "filename": "whoosh/test7.py"}
+{"a": "timestamp", "b": "", "c": "3999", "filename": "whoosh/test7.py"}
+{"a": "float", "b": "3.9793", "c": "589793", "filename": "whoosh/test7.py"}
 {"a": "scientific", "b": "6.022e23", "c": "e23", "filename": "whoosh/test7.py"}
 {"a": "infinity", "b": "Infinity", "c": "Infinity", "filename": "whoosh/test7.py"}
 {"a": "nan", "b": "NaN", "c": "NaN", "filename": "whoosh/test7.py"}
@@ -2080,9 +2080,9 @@
 {"a": "path/to/file.txt", "b": 666, "c": "file content here", "filename": "whoosh/test8.py"}
 {"a": "C:\\Windows\\Path", "b": 777, "c": "Windows content", "filename": "whoosh/test8.py"}
 {"a": "https://example.com/page", "b": 888, "c": "web content", "filename": "whoosh/test8.py"}
-{"a": "user@domain.com", "b": 999, "c": "email content", "filename": "whoosh/test8.py"}
-{"a": "127.0.0.1", "b": 1000, "c": "IP address content", "filename": "whoosh/test8.py"}
-{"a": "2024-01-01", "b": 2024, "c": "date content", "filename": "whoosh/test8.py"}
+{"a": "", "b": 999, "c": "email content", "filename": "whoosh/test8.py"}
+{"a": "", "b": 1000, "c": "IP address content", "filename": "whoosh/test8.py"}
+{"a": "", "b": 2024, "c": "date content", "filename": "whoosh/test8.py"}
 {"a": "12:30:45", "b": 123045, "c": "time content", "filename": "whoosh/test8.py"}
 {"a": "<tag>", "b": 3, "c": "<content>", "filename": "whoosh/test8.py"}
 {"a": "&amp;", "b": 4, "c": "&lt;&gt;", "filename": "whoosh/test8.py"}

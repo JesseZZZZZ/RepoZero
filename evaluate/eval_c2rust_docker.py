@@ -10,7 +10,7 @@ EVAL_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Docker image for C2Rust evaluation
-DOCKER_IMAGE = "ghcr.io/jessezzzzz/c2rust-arena:latest"
+DOCKER_IMAGE = ""
 
 # Container workspace
 CONTAINER_WORKSPACE = "/workspace"
@@ -532,19 +532,19 @@ Examples:
   python eval_c2rust_docker.py
 
   # Evaluate specific model
-  python eval_c2rust_docker.py -m deepseek-v3.1-250821
+  python eval_c2rust_docker.py -m deepseek-v
 
   # Specify custom paths
   python eval_c2rust_docker.py --cpp-base ./C2Rust/CppLarge \\
-      --rs-base ./output/C2Rust/deepseek-v3.1-250821/packages \\
+      --rs-base ./output/C2Rust/deepseek-v/packages \\
       --api-line-counts ./evaluate/testcases/c2rust/api_line_counts.jsonl
         """
     )
     parser.add_argument(
         "-m", "--model-name",
         type=str,
-        default="deepseek-v3.1-250821",
-        help="Model name to evaluate (default: deepseek-v3.1-250821)"
+        default="deepseek-v",
+        help="Model name to evaluate (default: deepseek-v)"
     )
     parser.add_argument(
         "--cpp-base",

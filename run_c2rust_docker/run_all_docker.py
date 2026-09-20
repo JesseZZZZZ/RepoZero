@@ -23,11 +23,11 @@ CONTAINER_WORKSPACE = "/workspace"
 CONTAINER_DATASET_ROOT = f"{CONTAINER_WORKSPACE}/dataset"
 
 # Docker image configuration
-DOCKER_IMAGE = os.getenv("REPOZERO_DOCKER_IMAGE", "ghcr.io/jessezzzzz/c2rust-arena:latest")
+DOCKER_IMAGE = os.getenv("REPOZERO_DOCKER_IMAGE", "")
 
 # Model configuration
-model_name = os.getenv("MODEL_NAME", "deepseek-v3.1-250821")
-actual_name = os.getenv("MODEL_NAME", "deepseek-v3.1-250821")
+model_name = os.getenv("MODEL_NAME", "deepseek-v")
+actual_name = os.getenv("MODEL_NAME", "deepseek-v")
 import argparse
 
 parser = argparse.ArgumentParser(description="Run Docker-based evaluation with concurrent processes")

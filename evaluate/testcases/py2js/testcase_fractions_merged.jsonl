@@ -15,18 +15,18 @@
 {"filename": "fractions/test1.py", "a": "-2.25"}
 {"filename": "fractions/test1.py", "a": "0.9"}
 {"filename": "fractions/test1.py", "a": "5/6"}
-{"filename": "fractions/test1.py", "a": "78028780510071"}
-{"filename": "fractions/test1.py", "a": "220472773114923"}
+{"filename": "fractions/test1.py", "a": ""}
+{"filename": "fractions/test1.py", "a": ""}
 {"filename": "fractions/test1.py", "a": "698612"}
 {"filename": "fractions/test1.py", "a": "803943"}
 {"filename": "fractions/test1.py", "a": "1053713"}
-{"filename": "fractions/test1.py", "a": "2436925390"}
+{"filename": "fractions/test1.py", "a": ""}
 {"filename": "fractions/test1.py", "a": "52734"}
-{"filename": "fractions/test1.py", "a": "134074180569"}
+{"filename": "fractions/test1.py", "a": "9"}
 {"filename": "fractions/test1.py", "a": "542245734"}
-{"filename": "fractions/test1.py", "a": "03698037282343"}
-{"filename": "fractions/test1.py", "a": "281684384402"}
-{"filename": "fractions/test1.py", "a": "2451445793"}
+{"filename": "fractions/test1.py", "a": ""}
+{"filename": "fractions/test1.py", "a": ""}
+{"filename": "fractions/test1.py", "a": ""}
 {"filename": "fractions/test11.py", "a": -75, "b": 94, "c": -33, "d": 1}
 {"filename": "fractions/test11.py", "a": -93, "b": 84, "c": -22, "d": 87}
 {"filename": "fractions/test11.py", "a": 37, "b": 65, "c": 87, "d": 65}
@@ -169,43 +169,43 @@
 {"filename": "fractions/test13.py", "a": -8.4, "b": 3.7}
 {"filename": "fractions/test13.py", "a": 48.393422, "b": 7.859643}
 {"filename": "fractions/test13.py", "a": 55.445, "b": 5.26116}
-{"filename": "fractions/test13.py", "a": 221.79740815, "b": 68.98}
+{"filename": "fractions/test13.py", "a": , "b": 68.98}
 {"filename": "fractions/test13.py", "a": 0.0881944, "b": 3.3664903}
-{"filename": "fractions/test13.py", "a": 96.4, "b": 608.1023768}
-{"filename": "fractions/test13.py", "a": -1.3753285203, "b": 6.235755728}
+{"filename": "fractions/test13.py", "a": 96.4, "b": }
+{"filename": "fractions/test13.py", "a": -, "b": }
 {"filename": "fractions/test13.py", "a": 0.07, "b": -6.9743116}
 {"filename": "fractions/test13.py", "a": 4.1, "b": 117.2611}
-{"filename": "fractions/test13.py", "a": 3.030363954, "b": 0.0464}
+{"filename": "fractions/test13.py", "a": , "b": 0.0464}
 {"filename": "fractions/test13.py", "a": 70.014059, "b": 8.45086}
-{"filename": "fractions/test13.py", "a": 45.2, "b": 974.999235}
-{"filename": "fractions/test13.py", "a": 305.05389237, "b": 54.43}
+{"filename": "fractions/test13.py", "a": 45.2, "b": }
+{"filename": "fractions/test13.py", "a": , "b": 54.43}
 {"filename": "fractions/test13.py", "a": 705.07919, "b": 65.6}
 {"filename": "fractions/test13.py", "a": 37.4, "b": 0.0364}
 {"filename": "fractions/test13.py", "a": 145.25, "b": 0.39}
 {"filename": "fractions/test13.py", "a": 0.06, "b": -3.04017}
 {"filename": "fractions/test13.py", "a": 6.8, "b": 544.8}
-{"filename": "fractions/test13.py", "a": 7.0152000017, "b": 4.445}
+{"filename": "fractions/test13.py", "a": 7., "b": 4.445}
 {"filename": "fractions/test13.py", "a": 742.75021, "b": 80.14}
-{"filename": "fractions/test13.py", "a": 784.734, "b": 0.0105576313}
-{"filename": "fractions/test13.py", "a": 42.309, "b": 0.078276345}
-{"filename": "fractions/test13.py", "a": -9.2904365034, "b": 98.05}
+{"filename": "fractions/test13.py", "a": 784.734, "b": 0.}
+{"filename": "fractions/test13.py", "a": 42.309, "b": }
+{"filename": "fractions/test13.py", "a": -9., "b": 98.05}
 {"filename": "fractions/test13.py", "a": 64.751, "b": 26.744}
 {"filename": "fractions/test13.py", "a": 971.879, "b": 9.7272}
-{"filename": "fractions/test13.py", "a": 0.076699426, "b": 70.325}
-{"filename": "fractions/test13.py", "a": 2.42, "b": 607.145503091}
+{"filename": "fractions/test13.py", "a": , "b": 70.325}
+{"filename": "fractions/test13.py", "a": 2.42, "b": }
 {"filename": "fractions/test13.py", "a": 7.88736, "b": -6.694}
-{"filename": "fractions/test13.py", "a": 92.02065966, "b": 0.0822}
+{"filename": "fractions/test13.py", "a": , "b": 0.0822}
 {"filename": "fractions/test13.py", "a": 795.4, "b": 58.422685}
-{"filename": "fractions/test13.py", "a": -7.7467854, "b": 285.50437783}
-{"filename": "fractions/test13.py", "a": 1.469955379, "b": 76.9511935}
-{"filename": "fractions/test13.py", "a": 0.1, "b": 1.95073941}
-{"filename": "fractions/test13.py", "a": 6.5662816, "b": 2.1485259204}
+{"filename": "fractions/test13.py", "a": -7.7467854, "b": }
+{"filename": "fractions/test13.py", "a": , "b": }
+{"filename": "fractions/test13.py", "a": 0.1, "b": }
+{"filename": "fractions/test13.py", "a": 6.5662816, "b": 2.}
 {"filename": "fractions/test13.py", "a": 654.68556, "b": -5.31}
-{"filename": "fractions/test13.py", "a": -6.1225, "b": 881.121632087}
-{"filename": "fractions/test13.py", "a": 7.155818896, "b": 4.89643956}
+{"filename": "fractions/test13.py", "a": -6.1225, "b": }
+{"filename": "fractions/test13.py", "a": , "b": }
 {"filename": "fractions/test13.py", "a": 251.0054, "b": 52.732}
-{"filename": "fractions/test13.py", "a": 35.893898749, "b": 21.6747050916}
-{"filename": "fractions/test13.py", "a": 223.59960166, "b": 1.66}
+{"filename": "fractions/test13.py", "a": , "b": 2}
+{"filename": "fractions/test13.py", "a": , "b": 1.66}
 {"filename": "fractions/test14.py", "a": -50, "b": 16, "c": -43, "d": 79}
 {"filename": "fractions/test14.py", "a": -13, "b": 34, "c": -46, "d": 78}
 {"filename": "fractions/test14.py", "a": -32, "b": 11, "c": -56, "d": 46}
@@ -398,7 +398,7 @@
 {"filename": "fractions/test17.py", "a": 5330, "b": -161, "c": 777901, "d": 80125, "limit": 436}
 {"filename": "fractions/test17.py", "a": 1015, "b": 2607, "c": 27, "d": 553, "limit": 119150}
 {"filename": "fractions/test19.py", "a": -2.5, "b": -2.3, "c": -11.0, "d": 7.7}
-{"filename": "fractions/test19.py", "a": 3.141592653589793, "b": -4.6, "c": 15.5, "d": 0.3}
+{"filename": "fractions/test19.py", "a": 3.9793, "b": -4.6, "c": 15.5, "d": 0.3}
 {"filename": "fractions/test19.py", "a": 10.1, "b": 5.1, "c": 0.2, "d": 4.8}
 {"filename": "fractions/test19.py", "a": -2.1, "b": 4.3, "c": 4.0, "d": -13.0}
 {"filename": "fractions/test19.py", "a": 5.8, "b": -8.9, "c": 4.2, "d": -14.7}
@@ -417,43 +417,43 @@
 {"filename": "fractions/test19.py", "a": 17.4, "b": 12.4, "c": 19.2, "d": 4.3}
 {"filename": "fractions/test19.py", "a": 14.2, "b": -15.5, "c": -5.2, "d": 11.9}
 {"filename": "fractions/test19.py", "a": -2.5, "b": -5.6, "c": -17.3, "d": -7.5}
-{"filename": "fractions/test19.py", "a": 5.17002495, "b": -3.4812, "c": 8.7018650037, "d": 0.04619}
-{"filename": "fractions/test19.py", "a": 8.11279501, "b": -2.6226, "c": 47.622377098, "d": 0.613}
+{"filename": "fractions/test19.py", "a": , "b": -3.4812, "c": 8., "d": 0.04619}
+{"filename": "fractions/test19.py", "a": , "b": -2.6226, "c": , "d": 0.613}
 {"filename": "fractions/test19.py", "a": 99.2, "b": 60.559619, "c": 1.2564, "d": 55.4}
-{"filename": "fractions/test19.py", "a": 164.8923, "b": 0.0339994064, "c": 91.5, "d": 854.2704036}
-{"filename": "fractions/test19.py", "a": 612.275439012, "b": 501.0683185, "c": 1.538, "d": -5.12387}
-{"filename": "fractions/test19.py", "a": 9.5, "b": 0.0748688345, "c": 0.01254, "d": -0.56683397}
-{"filename": "fractions/test19.py", "a": 0.089468, "b": 0.085, "c": 0.05777619, "d": 0.0517292}
-{"filename": "fractions/test19.py", "a": -2.10811544, "b": 26.3, "c": 263.75072912, "d": 476.06644936}
+{"filename": "fractions/test19.py", "a": 164.8923, "b": 0., "c": 91.5, "d": }
+{"filename": "fractions/test19.py", "a": , "b": , "c": 1.538, "d": -5.12387}
+{"filename": "fractions/test19.py", "a": 9.5, "b": 0., "c": 0.01254, "d": -}
+{"filename": "fractions/test19.py", "a": 0.089468, "b": 0.085, "c": , "d": 0.0517292}
+{"filename": "fractions/test19.py", "a": -, "b": 26.3, "c": , "d": }
 {"filename": "fractions/test19.py", "a": 0.14758, "b": 2.9, "c": 757.62, "d": 44.9}
-{"filename": "fractions/test19.py", "a": 8.4, "b": 8.1342984, "c": 0.013044535, "d": 223.58}
-{"filename": "fractions/test19.py", "a": 37.5, "b": 75.441, "c": 3.445, "d": 5.3624685407}
-{"filename": "fractions/test19.py", "a": 0.019630468, "b": 8.068, "c": 0.445565688, "d": 0.82}
-{"filename": "fractions/test19.py", "a": 0.0546, "b": 35.07544, "c": 81.95, "d": 3.76367118}
+{"filename": "fractions/test19.py", "a": 8.4, "b": 8.1342984, "c": , "d": 223.58}
+{"filename": "fractions/test19.py", "a": 37.5, "b": 75.441, "c": 3.445, "d": 5.}
+{"filename": "fractions/test19.py", "a": , "b": 8.068, "c": , "d": 0.82}
+{"filename": "fractions/test19.py", "a": 0.0546, "b": 35.07544, "c": 81.95, "d": }
 {"filename": "fractions/test19.py", "a": 3.391876, "b": 18.191, "c": 2.41, "d": 0.075}
-{"filename": "fractions/test19.py", "a": 948.5339152, "b": 39.8, "c": 0.465164389, "d": 25.8623271}
-{"filename": "fractions/test19.py", "a": -0.30121633, "b": -2.3241, "c": 0.09334, "d": 323.99}
-{"filename": "fractions/test19.py", "a": 21.45788553, "b": 314.747, "c": -7.9276, "d": 5.2195326}
-{"filename": "fractions/test19.py", "a": 9.10274, "b": -7.76239606, "c": 2.546198, "d": 851.2489}
+{"filename": "fractions/test19.py", "a": , "b": 39.8, "c": , "d": }
+{"filename": "fractions/test19.py", "a": -, "b": -2.3241, "c": 0.09334, "d": 323.99}
+{"filename": "fractions/test19.py", "a": , "b": 314.747, "c": -7.9276, "d": 5.2195326}
+{"filename": "fractions/test19.py", "a": 9.10274, "b": -, "c": 2.546198, "d": 851.2489}
 {"filename": "fractions/test19.py", "a": 74.951967, "b": -0.16, "c": 6.6, "d": 22.2}
-{"filename": "fractions/test19.py", "a": 255.4905607, "b": 2.04818267, "c": 5.5293, "d": 200.277}
+{"filename": "fractions/test19.py", "a": , "b": , "c": 5.5293, "d": 200.277}
 {"filename": "fractions/test19.py", "a": 7.881, "b": 0.0021832, "c": 222.3367, "d": 92.571}
-{"filename": "fractions/test19.py", "a": 8.9521, "b": 52.0047977, "c": -7.09840026, "d": 5.438}
-{"filename": "fractions/test19.py", "a": 556.8455, "b": 741.79, "c": 66.662047794, "d": 0.0749}
-{"filename": "fractions/test19.py", "a": 19.574437, "b": 0.61, "c": 2.5521661477, "d": 0.0233578}
-{"filename": "fractions/test19.py", "a": -9.39, "b": 779.5801942281, "c": 6.4556248, "d": 0.0835}
+{"filename": "fractions/test19.py", "a": 8.9521, "b": , "c": -, "d": 5.438}
+{"filename": "fractions/test19.py", "a": 556.8455, "b": 741.79, "c": , "d": 0.0749}
+{"filename": "fractions/test19.py", "a": 19.574437, "b": 0.61, "c": 2., "d": 0.0233578}
+{"filename": "fractions/test19.py", "a": -9.39, "b": 779., "c": 6.4556248, "d": 0.0835}
 {"filename": "fractions/test19.py", "a": 6.6967986, "b": 0.034212, "c": 52.63155, "d": 3.3}
-{"filename": "fractions/test19.py", "a": 67.23836, "b": 281.6179636, "c": 0.01486, "d": 0.0593}
-{"filename": "fractions/test19.py", "a": 7.3, "b": 138.2107301691, "c": 0.029114688, "d": 0.0348}
-{"filename": "fractions/test19.py", "a": -1.902978, "b": 719.585646, "c": 0.06456, "d": 3.60588758}
-{"filename": "fractions/test19.py", "a": 378.5815, "b": 0.0436447, "c": 315.8724954759, "d": 653.8587}
-{"filename": "fractions/test19.py", "a": 3.45008, "b": 53.85, "c": -2.7654813, "d": 0.01631269}
+{"filename": "fractions/test19.py", "a": 67.23836, "b": , "c": 0.01486, "d": 0.0593}
+{"filename": "fractions/test19.py", "a": 7.3, "b": 138., "c": , "d": 0.0348}
+{"filename": "fractions/test19.py", "a": -1.902978, "b": , "c": 0.06456, "d": }
+{"filename": "fractions/test19.py", "a": 378.5815, "b": 0.0436447, "c": 315., "d": 653.8587}
+{"filename": "fractions/test19.py", "a": 3.45008, "b": 53.85, "c": -2.7654813, "d": }
 {"filename": "fractions/test19.py", "a": 6.5264, "b": 0.0288, "c": 38.6862, "d": 824.5}
-{"filename": "fractions/test19.py", "a": 0.01745291, "b": 614.0, "c": 85.916645693, "d": 5.1}
-{"filename": "fractions/test19.py", "a": 49.31, "b": 72.0490133, "c": 0.016179, "d": 5.597288}
-{"filename": "fractions/test19.py", "a": 3.5640649825, "b": 10.65239, "c": 8.23921269, "d": 0.1}
+{"filename": "fractions/test19.py", "a": , "b": 614.0, "c": , "d": 5.1}
+{"filename": "fractions/test19.py", "a": 49.31, "b": , "c": 0.016179, "d": 5.597288}
+{"filename": "fractions/test19.py", "a": 3., "b": 10.65239, "c": , "d": 0.1}
 {"filename": "fractions/test19.py", "a": 5.160416, "b": 141.87454, "c": -1.22, "d": 47.6513}
-{"filename": "fractions/test19.py", "a": 3.1, "b": -7.59, "c": 10.8922418, "d": -6.50160536}
+{"filename": "fractions/test19.py", "a": 3.1, "b": -7.59, "c": , "d": -}
 {"filename": "fractions/test19.py", "a": 0.0162, "b": 12.6, "c": 5.23, "d": 4.76258}
 {"filename": "fractions/test2.py", "a": 9, "b": 81}
 {"filename": "fractions/test2.py", "a": 98, "b": 80}
@@ -599,39 +599,39 @@
 {"filename": "fractions/test3.py", "a": 7.456701}
 {"filename": "fractions/test3.py", "a": 827.8949}
 {"filename": "fractions/test3.py", "a": 103.1082}
-{"filename": "fractions/test3.py", "a": -3.34506855}
-{"filename": "fractions/test3.py", "a": 688.724392}
+{"filename": "fractions/test3.py", "a": -}
+{"filename": "fractions/test3.py", "a": }
 {"filename": "fractions/test3.py", "a": 2.95}
 {"filename": "fractions/test3.py", "a": 1.346}
-{"filename": "fractions/test3.py", "a": 51.9463291}
+{"filename": "fractions/test3.py", "a": }
 {"filename": "fractions/test3.py", "a": 8.15}
-{"filename": "fractions/test3.py", "a": 0.0172188805}
+{"filename": "fractions/test3.py", "a": 0.}
 {"filename": "fractions/test3.py", "a": 25.531776}
 {"filename": "fractions/test3.py", "a": 2.226}
-{"filename": "fractions/test3.py", "a": 720.30775364}
+{"filename": "fractions/test3.py", "a": }
 {"filename": "fractions/test3.py", "a": 0.6395}
-{"filename": "fractions/test3.py", "a": 8.93484113}
+{"filename": "fractions/test3.py", "a": }
 {"filename": "fractions/test3.py", "a": -0.6}
 {"filename": "fractions/test3.py", "a": 0.06}
-{"filename": "fractions/test3.py", "a": 130.326744586}
+{"filename": "fractions/test3.py", "a": }
 {"filename": "fractions/test3.py", "a": 98.9}
 {"filename": "fractions/test3.py", "a": 0.0117327}
 {"filename": "fractions/test3.py", "a": 0.545}
-{"filename": "fractions/test3.py", "a": 0.5084257475}
+{"filename": "fractions/test3.py", "a": 0.}
 {"filename": "fractions/test3.py", "a": 9.55134}
-{"filename": "fractions/test3.py", "a": 509.371172008}
-{"filename": "fractions/test3.py", "a": 69.3576153873}
-{"filename": "fractions/test3.py", "a": 3.1618098411}
+{"filename": "fractions/test3.py", "a": }
+{"filename": "fractions/test3.py", "a": 69.}
+{"filename": "fractions/test3.py", "a": 3.}
 {"filename": "fractions/test3.py", "a": 1.8485}
 {"filename": "fractions/test3.py", "a": 315.4}
-{"filename": "fractions/test3.py", "a": 679.6896231}
-{"filename": "fractions/test3.py", "a": 2.983654884}
-{"filename": "fractions/test3.py", "a": -2.9869257107}
+{"filename": "fractions/test3.py", "a": }
+{"filename": "fractions/test3.py", "a": }
+{"filename": "fractions/test3.py", "a": -2.}
 {"filename": "fractions/test3.py", "a": 3.665158}
 {"filename": "fractions/test3.py", "a": -0.4493667}
 {"filename": "fractions/test3.py", "a": 8.88}
 {"filename": "fractions/test3.py", "a": 8.6}
-{"filename": "fractions/test3.py", "a": 904.938041052}
+{"filename": "fractions/test3.py", "a": }
 {"filename": "fractions/test3.py", "a": 6.91993}
 {"filename": "fractions/test3.py", "a": 144.196}
 {"filename": "fractions/test3.py", "a": 0.075931}
@@ -652,9 +652,9 @@
 {"filename": "fractions/test4.py", "a": "1/3"}
 {"filename": "fractions/test4.py", "a": "0"}
 {"filename": "fractions/test4.py", "a": "0.75"}
-{"filename": "fractions/test4.py", "a": "235006969598"}
-{"filename": "fractions/test4.py", "a": "686313968068"}
-{"filename": "fractions/test4.py", "a": "59884783513918"}
+{"filename": "fractions/test4.py", "a": ""}
+{"filename": "fractions/test4.py", "a": ""}
+{"filename": "fractions/test4.py", "a": ""}
 {"filename": "fractions/test4.py", "a": "20150282"}
 {"filename": "fractions/test4.py", "a": "128914711"}
 {"filename": "fractions/test4.py", "a": "04402"}
@@ -918,42 +918,42 @@
 {"filename": "fractions/test9.py", "a": -12.4, "b": 1.5}
 {"filename": "fractions/test9.py", "a": 4.2, "b": 14.8}
 {"filename": "fractions/test9.py", "a": -10.3, "b": 18.9}
-{"filename": "fractions/test9.py", "a": 0.08, "b": 584.034050088}
-{"filename": "fractions/test9.py", "a": 555.78, "b": 539.5437273}
-{"filename": "fractions/test9.py", "a": 6.39, "b": 0.067365237}
+{"filename": "fractions/test9.py", "a": 0.08, "b": }
+{"filename": "fractions/test9.py", "a": 555.78, "b": }
+{"filename": "fractions/test9.py", "a": 6.39, "b": }
 {"filename": "fractions/test9.py", "a": 137.19416, "b": -9.9522}
-{"filename": "fractions/test9.py", "a": 9.063912, "b": 3.566352594}
-{"filename": "fractions/test9.py", "a": 39.53754746, "b": 0.0670296}
-{"filename": "fractions/test9.py", "a": 945.665680592, "b": 0.0420564}
-{"filename": "fractions/test9.py", "a": 6.337, "b": -8.64099083}
-{"filename": "fractions/test9.py", "a": 127.408994, "b": 0.0}
-{"filename": "fractions/test9.py", "a": -3.84, "b": 5.19989284}
+{"filename": "fractions/test9.py", "a": 9.063912, "b": }
+{"filename": "fractions/test9.py", "a": , "b": 0.0670296}
+{"filename": "fractions/test9.py", "a": , "b": 0.0420564}
+{"filename": "fractions/test9.py", "a": 6.337, "b": -}
+{"filename": "fractions/test9.py", "a": , "b": 0.0}
+{"filename": "fractions/test9.py", "a": -3.84, "b": }
 {"filename": "fractions/test9.py", "a": 0.00814, "b": 1.7667}
 {"filename": "fractions/test9.py", "a": 0.07, "b": -0.9528358}
-{"filename": "fractions/test9.py", "a": 1.5655344, "b": 64.06965022}
-{"filename": "fractions/test9.py", "a": 0.0271149, "b": -8.80496017}
-{"filename": "fractions/test9.py", "a": 28.3211308823, "b": 0.07403812}
-{"filename": "fractions/test9.py", "a": 0.003552655, "b": 48.91000649}
+{"filename": "fractions/test9.py", "a": 1.5655344, "b": }
+{"filename": "fractions/test9.py", "a": 0.0271149, "b": -}
+{"filename": "fractions/test9.py", "a": 28., "b": }
+{"filename": "fractions/test9.py", "a": , "b": }
 {"filename": "fractions/test9.py", "a": 26.0371, "b": 0.028437}
 {"filename": "fractions/test9.py", "a": 4.064, "b": 5.19}
-{"filename": "fractions/test9.py", "a": 4.521750415, "b": 2.663683}
-{"filename": "fractions/test9.py", "a": 12.10505822, "b": 699.6}
-{"filename": "fractions/test9.py", "a": 1.5, "b": 0.04672806}
+{"filename": "fractions/test9.py", "a": , "b": 2.663683}
+{"filename": "fractions/test9.py", "a": , "b": 699.6}
+{"filename": "fractions/test9.py", "a": 1.5, "b": }
 {"filename": "fractions/test9.py", "a": 26.30256, "b": 5.514845}
 {"filename": "fractions/test9.py", "a": 11.5677, "b": 463.72}
-{"filename": "fractions/test9.py", "a": -6.4976733, "b": 757.944493335}
+{"filename": "fractions/test9.py", "a": -6.4976733, "b": }
 {"filename": "fractions/test9.py", "a": -1.73, "b": 789.1}
-{"filename": "fractions/test9.py", "a": 8.4028121769, "b": 3.786}
+{"filename": "fractions/test9.py", "a": 8., "b": 3.786}
 {"filename": "fractions/test9.py", "a": 5.6393, "b": 8.9}
-{"filename": "fractions/test9.py", "a": 979.739489654, "b": 4.653}
-{"filename": "fractions/test9.py", "a": 307.12370224, "b": 4.87173996}
+{"filename": "fractions/test9.py", "a": , "b": 4.653}
+{"filename": "fractions/test9.py", "a": , "b": }
 {"filename": "fractions/test9.py", "a": 0.0380024, "b": 0.096}
-{"filename": "fractions/test9.py", "a": -5.25219613, "b": 0.00336268}
-{"filename": "fractions/test9.py", "a": -3.7338125217, "b": 3.987833908}
+{"filename": "fractions/test9.py", "a": -, "b": }
+{"filename": "fractions/test9.py", "a": -3., "b": }
 {"filename": "fractions/test9.py", "a": 8.1, "b": 0.086736}
-{"filename": "fractions/test9.py", "a": 38.7, "b": 2.3036745724}
+{"filename": "fractions/test9.py", "a": 38.7, "b": 2.}
 {"filename": "fractions/test9.py", "a": -5.8273, "b": 0.0280217}
-{"filename": "fractions/test9.py", "a": 606.771893, "b": -1.3601}
+{"filename": "fractions/test9.py", "a": , "b": -1.3601}
 {"filename": "fractions/test9.py", "a": 1.606, "b": 2.8581014}
 {"filename": "fractions/test9.py", "a": 3.58923, "b": 968.3418}
 {"filename": "fractions/test9.py", "a": 0.02, "b": 0.00976}
@@ -971,10 +971,10 @@
 {"a": "-2.5", "filename": "fractions/test1.py"}
 {"a": "0.125", "filename": "fractions/test1.py"}
 {"a": "-0.125", "filename": "fractions/test1.py"}
-{"a": "0.3333333333333333", "filename": "fractions/test1.py"}
-{"a": "-0.3333333333333333", "filename": "fractions/test1.py"}
-{"a": "0.6666666666666666", "filename": "fractions/test1.py"}
-{"a": "-0.6666666666666666", "filename": "fractions/test1.py"}
+{"a": "0.", "filename": "fractions/test1.py"}
+{"a": "-0.", "filename": "fractions/test1.py"}
+{"a": "0.", "filename": "fractions/test1.py"}
+{"a": "-0.", "filename": "fractions/test1.py"}
 {"a": "0.2", "filename": "fractions/test1.py"}
 {"a": "-0.2", "filename": "fractions/test1.py"}
 {"a": "0.4", "filename": "fractions/test1.py"}
@@ -1133,9 +1133,9 @@
 {"a": -3, "b": 2, "c": -1, "d": 2, "filename": "fractions/test12.py"}
 {"a": 1, "b": 1000000, "c": 1, "d": 1, "filename": "fractions/test12.py"}
 {"a": 1, "b": 1, "c": 1, "d": 1000000, "filename": "fractions/test12.py"}
-{"a": -2147483648, "b": 1, "c": 1, "d": 1, "filename": "fractions/test12.py"}
-{"a": 1, "b": 1, "c": 2147483647, "d": 1, "filename": "fractions/test12.py"}
-{"a": 2147483647, "b": 2147483647, "c": 1, "d": 1, "filename": "fractions/test12.py"}
+{"a": -, "b": 1, "c": 1, "d": 1, "filename": "fractions/test12.py"}
+{"a": 1, "b": 1, "c": , "d": 1, "filename": "fractions/test12.py"}
+{"a": , "b": , "c": 1, "d": 1, "filename": "fractions/test12.py"}
 {"a": -17, "b": 23, "c": 29, "d": 31, "filename": "fractions/test12.py"}
 {"a": 2, "b": 3, "c": 5, "d": 7, "filename": "fractions/test12.py"}
 {"a": -11, "b": 13, "c": -17, "d": 19, "filename": "fractions/test12.py"}
@@ -1236,10 +1236,10 @@
 {"a": -0.123456, "b": 0.654321, "filename": "fractions/test13.py"}
 {"a": 1.5, "b": 2.5, "filename": "fractions/test13.py"}
 {"a": -1.5, "b": -2.5, "filename": "fractions/test13.py"}
-{"a": 3.1415926535, "b": 2.7182818284, "filename": "fractions/test13.py"}
-{"a": -3.1415926535, "b": 2.7182818284, "filename": "fractions/test13.py"}
-{"a": 6.2831853071, "b": -1.6180339887, "filename": "fractions/test13.py"}
-{"a": -6.2831853071, "b": -1.6180339887, "filename": "fractions/test13.py"}
+{"a": 3., "b": 2., "filename": "fractions/test13.py"}
+{"a": -3., "b": 2., "filename": "fractions/test13.py"}
+{"a": 6., "b": -, "filename": "fractions/test13.py"}
+{"a": -6., "b": -, "filename": "fractions/test13.py"}
 {"a": 10.0, "b": 0.1, "filename": "fractions/test13.py"}
 {"a": -10.0, "b": -0.1, "filename": "fractions/test13.py"}
 {"a": 0.01, "b": 100.0, "filename": "fractions/test13.py"}
@@ -1333,8 +1333,8 @@
 {"a": -3, "b": 6, "c": 9, "d": -12, "filename": "fractions/test14.py"}
 {"a": 5, "b": 1, "c": 7, "d": 1, "filename": "fractions/test14.py"}
 {"a": 1, "b": 1000000, "c": -1, "d": 1000000, "filename": "fractions/test14.py"}
-{"a": 2147483647, "b": 1, "c": -2147483648, "d": 1, "filename": "fractions/test14.py"}
-{"a": 1, "b": 2147483647, "c": 1, "d": 2147483647, "filename": "fractions/test14.py"}
+{"a": , "b": 1, "c": -, "d": 1, "filename": "fractions/test14.py"}
+{"a": 1, "b": , "c": 1, "d": , "filename": "fractions/test14.py"}
 {"a": 1, "b": 7, "c": 1, "d": 13, "filename": "fractions/test14.py"}
 {"a": 22, "b": 7, "c": 355, "d": 113, "filename": "fractions/test14.py"}
 {"a": -2, "b": 3, "c": 4, "d": 5, "filename": "fractions/test14.py"}
@@ -1461,44 +1461,44 @@
 {"a": "-1.5", "b": "-2.5", "filename": "fractions/test15.py"}
 {"a": "0.1", "b": "0.2", "filename": "fractions/test15.py"}
 {"a": "1/10", "b": "2/10", "filename": "fractions/test15.py"}
-{"a": "0.123456789", "b": "0.987654321", "filename": "fractions/test15.py"}
-{"a": "123456789/1000000000", "b": "987654321/1000000000", "filename": "fractions/test15.py"}
+{"a": "", "b": "", "filename": "fractions/test15.py"}
+{"a": "123456789/", "b": "987654321/", "filename": "fractions/test15.py"}
 {"a": "1e-10", "b": "1e10", "filename": "fractions/test15.py"}
-{"a": "0.0000000001", "b": "10000000000", "filename": "fractions/test15.py"}
-{"a": "1/10000000000", "b": "10000000000/1", "filename": "fractions/test15.py"}
+{"a": "0.", "b": "", "filename": "fractions/test15.py"}
+{"a": "1/", "b": "/1", "filename": "fractions/test15.py"}
 {"a": "2.5", "b": "4.0", "filename": "fractions/test15.py"}
 {"a": "5/2", "b": "4", "filename": "fractions/test15.py"}
 {"a": "1.25", "b": "1.75", "filename": "fractions/test15.py"}
 {"a": "5/4", "b": "7/4", "filename": "fractions/test15.py"}
-{"a": "0.3333333333", "b": "0.6666666667", "filename": "fractions/test15.py"}
-{"a": "3333333333/10000000000", "b": "6666666667/10000000000", "filename": "fractions/test15.py"}
+{"a": "0.", "b": "0.", "filename": "fractions/test15.py"}
+{"a": "/", "b": "/", "filename": "fractions/test15.py"}
 {"a": "1.0", "b": "1.0", "filename": "fractions/test15.py"}
 {"a": "1", "b": "1", "filename": "fractions/test15.py"}
 {"a": "0.0", "b": "0.0", "filename": "fractions/test15.py"}
 {"a": "0", "b": "0", "filename": "fractions/test15.py"}
-{"a": "999999999/1000000000", "b": "1/1000000000", "filename": "fractions/test15.py"}
-{"a": "0.999999999", "b": "0.000000001", "filename": "fractions/test15.py"}
+{"a": "999999999/", "b": "1/", "filename": "fractions/test15.py"}
+{"a": "", "b": "", "filename": "fractions/test15.py"}
 {"a": "1/999999999", "b": "999999998/999999999", "filename": "fractions/test15.py"}
-{"a": "0.000000001001", "b": "0.999999998999", "filename": "fractions/test15.py"}
-{"a": "1000000000/1", "b": "1/1000000000", "filename": "fractions/test15.py"}
-{"a": "1000000000", "b": "0.000000001", "filename": "fractions/test15.py"}
-{"a": "-0.000000001", "b": "0.000000001", "filename": "fractions/test15.py"}
-{"a": "1.23456789", "b": "9.87654321", "filename": "fractions/test15.py"}
+{"a": "0.", "b": "0.", "filename": "fractions/test15.py"}
+{"a": "/1", "b": "1/", "filename": "fractions/test15.py"}
+{"a": "", "b": "", "filename": "fractions/test15.py"}
+{"a": "-", "b": "", "filename": "fractions/test15.py"}
+{"a": "", "b": "", "filename": "fractions/test15.py"}
 {"a": "123456789/100000000", "b": "987654321/100000000", "filename": "fractions/test15.py"}
 {"a": "2/3", "b": "3/4", "filename": "fractions/test15.py"}
-{"a": "0.6666666667", "b": "0.75", "filename": "fractions/test15.py"}
+{"a": "0.", "b": "0.75", "filename": "fractions/test15.py"}
 {"a": "5/9", "b": "4/9", "filename": "fractions/test15.py"}
-{"a": "0.5555555556", "b": "0.4444444444", "filename": "fractions/test15.py"}
+{"a": "0.", "b": "0.", "filename": "fractions/test15.py"}
 {"a": "1/6", "b": "5/6", "filename": "fractions/test15.py"}
-{"a": "0.1666666667", "b": "0.8333333333", "filename": "fractions/test15.py"}
+{"a": "0.", "b": "0.", "filename": "fractions/test15.py"}
 {"a": "7/13", "b": "6/13", "filename": "fractions/test15.py"}
-{"a": "0.5384615385", "b": "0.4615384615", "filename": "fractions/test15.py"}
+{"a": "0.", "b": "0.", "filename": "fractions/test15.py"}
 {"a": "0.123", "b": "0.456", "filename": "fractions/test15.py"}
 {"a": "123/1000", "b": "456/1000", "filename": "fractions/test15.py"}
 {"a": "0.789", "b": "0.012", "filename": "fractions/test15.py"}
 {"a": "789/1000", "b": "12/1000", "filename": "fractions/test15.py"}
-{"a": "1.111111111", "b": "2.222222222", "filename": "fractions/test15.py"}
-{"a": "1111111111/1000000000", "b": "2222222222/1000000000", "filename": "fractions/test15.py"}
+{"a": "", "b": "", "filename": "fractions/test15.py"}
+{"a": "/", "b": "/", "filename": "fractions/test15.py"}
 {"a": "3.0", "b": "4.0", "filename": "fractions/test15.py"}
 {"a": "3", "b": "4", "filename": "fractions/test15.py"}
 {"a": "3.00", "b": "4.00", "filename": "fractions/test15.py"}
@@ -1507,8 +1507,8 @@
 {"a": "1/10000", "b": "9999/10000", "filename": "fractions/test15.py"}
 {"a": "0.00001", "b": "0.99999", "filename": "fractions/test15.py"}
 {"a": "1/100000", "b": "99999/100000", "filename": "fractions/test15.py"}
-{"a": "1.618033989", "b": "2.718281828", "filename": "fractions/test15.py"}
-{"a": "1618033989/1000000000", "b": "2718281828/1000000000", "filename": "fractions/test15.py"}
+{"a": "", "b": "", "filename": "fractions/test15.py"}
+{"a": "/", "b": "/", "filename": "fractions/test15.py"}
 {"a": "2.0", "b": "0.5", "filename": "fractions/test15.py"}
 {"a": "2", "b": "1/2", "filename": "fractions/test15.py"}
 {"a": "4/2", "b": "1/2", "filename": "fractions/test15.py"}
@@ -1785,8 +1785,8 @@
 {"a": -321, "b": 654, "c": 987, "d": -1011, "e": -1213, "f": 1415, "filename": "fractions/test20.py"}
 {"a": 2, "b": 3, "c": 4, "d": 9, "e": 5, "f": 18, "filename": "fractions/test20.py"}
 {"a": -3, "b": 7, "c": 5, "d": 14, "e": -8, "f": 21, "filename": "fractions/test20.py"}
-{"a": 1, "b": 2147483647, "c": 2147483647, "d": 1, "e": 1, "f": 2, "filename": "fractions/test20.py"}
-{"a": 2147483647, "b": 2147483646, "c": -2147483647, "d": 2147483645, "e": 2147483644, "f": 2147483643, "filename": "fractions/test20.py"}
+{"a": 1, "b": , "c": , "d": 1, "e": 1, "f": 2, "filename": "fractions/test20.py"}
+{"a": , "b": , "c": -, "d": , "e": , "f": , "filename": "fractions/test20.py"}
 {"a": 1, "b": -1, "c": -1, "d": 1, "e": 1, "f": -1, "filename": "fractions/test20.py"}
 {"a": 17, "b": 19, "c": 23, "d": 29, "e": 31, "f": 37, "filename": "fractions/test20.py"}
 {"a": -41, "b": 43, "c": 47, "d": 53, "e": -59, "f": 61, "filename": "fractions/test20.py"}
@@ -1866,8 +1866,8 @@
 {"a": -1.0, "filename": "fractions/test3.py"}
 {"a": 2.0, "filename": "fractions/test3.py"}
 {"a": -2.0, "filename": "fractions/test3.py"}
-{"a": 3.141592653589793, "filename": "fractions/test3.py"}
-{"a": -3.141592653589793, "filename": "fractions/test3.py"}
+{"a": 3.9793, "filename": "fractions/test3.py"}
+{"a": -3.9793, "filename": "fractions/test3.py"}
 {"a": 1.5, "filename": "fractions/test3.py"}
 {"a": -1.5, "filename": "fractions/test3.py"}
 {"a": 2.7, "filename": "fractions/test3.py"}
@@ -1876,12 +1876,12 @@
 {"a": -0.1, "filename": "fractions/test3.py"}
 {"a": 0.25, "filename": "fractions/test3.py"}
 {"a": -0.25, "filename": "fractions/test3.py"}
-{"a": 0.3333333333333333, "filename": "fractions/test3.py"}
-{"a": -0.3333333333333333, "filename": "fractions/test3.py"}
-{"a": 0.6666666666666666, "filename": "fractions/test3.py"}
-{"a": -0.6666666666666666, "filename": "fractions/test3.py"}
-{"a": 0.9999999999999999, "filename": "fractions/test3.py"}
-{"a": -0.9999999999999999, "filename": "fractions/test3.py"}
+{"a": 0., "filename": "fractions/test3.py"}
+{"a": -0., "filename": "fractions/test3.py"}
+{"a": 0., "filename": "fractions/test3.py"}
+{"a": -0., "filename": "fractions/test3.py"}
+{"a": 0., "filename": "fractions/test3.py"}
+{"a": -0., "filename": "fractions/test3.py"}
 {"a": 123.456, "filename": "fractions/test3.py"}
 {"a": -123.456, "filename": "fractions/test3.py"}
 {"a": 7.8, "filename": "fractions/test3.py"}
@@ -1893,42 +1893,42 @@
 {"a": 0.0001, "filename": "fractions/test3.py"}
 {"a": -0.0001, "filename": "fractions/test3.py"}
 {"a": 1e-10, "filename": "fractions/test3.py"}
-{"a": 10000000000.0, "filename": "fractions/test3.py"}
-{"a": -10000000000.0, "filename": "fractions/test3.py"}
-{"a": 1.618033988749895, "filename": "fractions/test3.py"}
-{"a": -1.618033988749895, "filename": "fractions/test3.py"}
-{"a": 2.718281828459045, "filename": "fractions/test3.py"}
-{"a": -2.718281828459045, "filename": "fractions/test3.py"}
-{"a": 1.4142135623730951, "filename": "fractions/test3.py"}
-{"a": -1.4142135623730951, "filename": "fractions/test3.py"}
-{"a": 0.7071067811865476, "filename": "fractions/test3.py"}
-{"a": -0.7071067811865476, "filename": "fractions/test3.py"}
-{"a": 1.7320508075688772, "filename": "fractions/test3.py"}
-{"a": -1.7320508075688772, "filename": "fractions/test3.py"}
-{"a": 0.5773502691896258, "filename": "fractions/test3.py"}
-{"a": -0.5773502691896258, "filename": "fractions/test3.py"}
-{"a": 0.8660254037844386, "filename": "fractions/test3.py"}
-{"a": -0.8660254037844386, "filename": "fractions/test3.py"}
-{"a": 0.8660254037844386, "filename": "fractions/test3.py"}
-{"a": -0.8660254037844386, "filename": "fractions/test3.py"}
-{"a": 1.0471975511965979, "filename": "fractions/test3.py"}
-{"a": -1.0471975511965979, "filename": "fractions/test3.py"}
-{"a": 0.5235987755982988, "filename": "fractions/test3.py"}
-{"a": -0.5235987755982988, "filename": "fractions/test3.py"}
-{"a": 1.5707963267948966, "filename": "fractions/test3.py"}
-{"a": -1.5707963267948966, "filename": "fractions/test3.py"}
-{"a": 0.7853981633974483, "filename": "fractions/test3.py"}
-{"a": -0.7853981633974483, "filename": "fractions/test3.py"}
-{"a": 2.0943951023931953, "filename": "fractions/test3.py"}
-{"a": -2.0943951023931953, "filename": "fractions/test3.py"}
-{"a": 4.71238898038469, "filename": "fractions/test3.py"}
-{"a": -4.71238898038469, "filename": "fractions/test3.py"}
-{"a": 6.283185307179586, "filename": "fractions/test3.py"}
-{"a": -6.283185307179586, "filename": "fractions/test3.py"}
-{"a": 9.869604401089358, "filename": "fractions/test3.py"}
-{"a": -9.869604401089358, "filename": "fractions/test3.py"}
-{"a": 31.006276680299816, "filename": "fractions/test3.py"}
-{"a": -31.006276680299816, "filename": "fractions/test3.py"}
+{"a": .0, "filename": "fractions/test3.py"}
+{"a": -.0, "filename": "fractions/test3.py"}
+{"a": 49895, "filename": "fractions/test3.py"}
+{"a": -49895, "filename": "fractions/test3.py"}
+{"a": 2.7045, "filename": "fractions/test3.py"}
+{"a": -2.7045, "filename": "fractions/test3.py"}
+{"a": 730951, "filename": "fractions/test3.py"}
+{"a": -730951, "filename": "fractions/test3.py"}
+{"a": 0.70776, "filename": "fractions/test3.py"}
+{"a": -0.70776, "filename": "fractions/test3.py"}
+{"a": 688772, "filename": "fractions/test3.py"}
+{"a": -688772, "filename": "fractions/test3.py"}
+{"a": 0., "filename": "fractions/test3.py"}
+{"a": -0., "filename": "fractions/test3.py"}
+{"a": 0., "filename": "fractions/test3.py"}
+{"a": -0., "filename": "fractions/test3.py"}
+{"a": 0., "filename": "fractions/test3.py"}
+{"a": -0., "filename": "fractions/test3.py"}
+{"a": 965979, "filename": "fractions/test3.py"}
+{"a": -965979, "filename": "fractions/test3.py"}
+{"a": 0., "filename": "fractions/test3.py"}
+{"a": -0., "filename": "fractions/test3.py"}
+{"a": 948966, "filename": "fractions/test3.py"}
+{"a": -948966, "filename": "fractions/test3.py"}
+{"a": 0., "filename": "fractions/test3.py"}
+{"a": -0., "filename": "fractions/test3.py"}
+{"a": 2., "filename": "fractions/test3.py"}
+{"a": -2., "filename": "fractions/test3.py"}
+{"a": 4.769, "filename": "fractions/test3.py"}
+{"a": -4.769, "filename": "fractions/test3.py"}
+{"a": 6.2836, "filename": "fractions/test3.py"}
+{"a": -6.2836, "filename": "fractions/test3.py"}
+{"a": 9., "filename": "fractions/test3.py"}
+{"a": -9., "filename": "fractions/test3.py"}
+{"a": 399816, "filename": "fractions/test3.py"}
+{"a": -399816, "filename": "fractions/test3.py"}
 {"a": 0.001, "filename": "fractions/test3.py"}
 {"a": -0.001, "filename": "fractions/test3.py"}
 {"a": 0.01, "filename": "fractions/test3.py"}
@@ -1949,26 +1949,26 @@
 {"a": -1000.5, "filename": "fractions/test3.py"}
 {"a": 10000.0, "filename": "fractions/test3.py"}
 {"a": -10000.0, "filename": "fractions/test3.py"}
-{"a": 0.123456789, "filename": "fractions/test3.py"}
-{"a": -0.123456789, "filename": "fractions/test3.py"}
-{"a": 1.23456789, "filename": "fractions/test3.py"}
-{"a": -1.23456789, "filename": "fractions/test3.py"}
-{"a": 12.3456789, "filename": "fractions/test3.py"}
-{"a": -12.3456789, "filename": "fractions/test3.py"}
-{"a": 123.456789, "filename": "fractions/test3.py"}
-{"a": -123.456789, "filename": "fractions/test3.py"}
-{"a": 1234.56789, "filename": "fractions/test3.py"}
-{"a": -1234.56789, "filename": "fractions/test3.py"}
-{"a": 0.987654321, "filename": "fractions/test3.py"}
-{"a": -0.987654321, "filename": "fractions/test3.py"}
-{"a": 9.87654321, "filename": "fractions/test3.py"}
-{"a": -9.87654321, "filename": "fractions/test3.py"}
-{"a": 98.7654321, "filename": "fractions/test3.py"}
-{"a": -98.7654321, "filename": "fractions/test3.py"}
-{"a": 987.654321, "filename": "fractions/test3.py"}
-{"a": -987.654321, "filename": "fractions/test3.py"}
-{"a": 9876.54321, "filename": "fractions/test3.py"}
-{"a": -9876.54321, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
+{"a": , "filename": "fractions/test3.py"}
+{"a": -, "filename": "fractions/test3.py"}
 {"a": "1/4", "filename": "fractions/test4.py"}
 {"a": "2/5", "filename": "fractions/test4.py"}
 {"a": "3/8", "filename": "fractions/test4.py"}
@@ -2018,10 +2018,10 @@
 {"a": "16/9", "filename": "fractions/test4.py"}
 {"a": "22/7", "filename": "fractions/test4.py"}
 {"a": "355/113", "filename": "fractions/test4.py"}
-{"a": "0.123456789", "filename": "fractions/test4.py"}
-{"a": "0.987654321", "filename": "fractions/test4.py"}
-{"a": "-0.123456789", "filename": "fractions/test4.py"}
-{"a": "-0.987654321", "filename": "fractions/test4.py"}
+{"a": "", "filename": "fractions/test4.py"}
+{"a": "", "filename": "fractions/test4.py"}
+{"a": "-", "filename": "fractions/test4.py"}
+{"a": "-", "filename": "fractions/test4.py"}
 {"a": "1.5", "filename": "fractions/test4.py"}
 {"a": "2.25", "filename": "fractions/test4.py"}
 {"a": "3.75", "filename": "fractions/test4.py"}
@@ -2032,18 +2032,18 @@
 {"a": "1/10000", "filename": "fractions/test4.py"}
 {"a": "100/1", "filename": "fractions/test4.py"}
 {"a": "999/1000", "filename": "fractions/test4.py"}
-{"a": "0.3333333333333333", "filename": "fractions/test4.py"}
-{"a": "0.6666666666666666", "filename": "fractions/test4.py"}
-{"a": "-0.3333333333333333", "filename": "fractions/test4.py"}
-{"a": "-0.6666666666666666", "filename": "fractions/test4.py"}
-{"a": "1.3333333333333333", "filename": "fractions/test4.py"}
-{"a": "2.6666666666666665", "filename": "fractions/test4.py"}
-{"a": "-1.3333333333333333", "filename": "fractions/test4.py"}
-{"a": "-2.6666666666666665", "filename": "fractions/test4.py"}
-{"a": "3.141592653589793", "filename": "fractions/test4.py"}
-{"a": "2.718281828459045", "filename": "fractions/test4.py"}
-{"a": "-3.141592653589793", "filename": "fractions/test4.py"}
-{"a": "-2.718281828459045", "filename": "fractions/test4.py"}
+{"a": "0.", "filename": "fractions/test4.py"}
+{"a": "0.", "filename": "fractions/test4.py"}
+{"a": "-0.", "filename": "fractions/test4.py"}
+{"a": "-0.", "filename": "fractions/test4.py"}
+{"a": "333333", "filename": "fractions/test4.py"}
+{"a": "2.", "filename": "fractions/test4.py"}
+{"a": "-333333", "filename": "fractions/test4.py"}
+{"a": "-2.", "filename": "fractions/test4.py"}
+{"a": "3.9793", "filename": "fractions/test4.py"}
+{"a": "2.7045", "filename": "fractions/test4.py"}
+{"a": "-3.9793", "filename": "fractions/test4.py"}
+{"a": "-2.7045", "filename": "fractions/test4.py"}
 {"a": "1/7", "filename": "fractions/test4.py"}
 {"a": "2/7", "filename": "fractions/test4.py"}
 {"a": "3/7", "filename": "fractions/test4.py"}
@@ -2462,8 +2462,8 @@
 {"a": -0.5, "b": 0.0, "filename": "fractions/test9.py"}
 {"a": 0.1, "b": 0.1, "filename": "fractions/test9.py"}
 {"a": -0.1, "b": -0.1, "filename": "fractions/test9.py"}
-{"a": 0.3333333333, "b": 0.6666666667, "filename": "fractions/test9.py"}
-{"a": 0.6666666667, "b": 0.3333333333, "filename": "fractions/test9.py"}
+{"a": 0., "b": 0., "filename": "fractions/test9.py"}
+{"a": 0., "b": 0., "filename": "fractions/test9.py"}
 {"a": 0.125, "b": 0.875, "filename": "fractions/test9.py"}
 {"a": -0.125, "b": -0.875, "filename": "fractions/test9.py"}
 {"a": 1.0, "b": 2.0, "filename": "fractions/test9.py"}
@@ -2476,8 +2476,8 @@
 {"a": -2.5, "b": -1.5, "filename": "fractions/test9.py"}
 {"a": 3.14, "b": 2.71, "filename": "fractions/test9.py"}
 {"a": -3.14, "b": -2.71, "filename": "fractions/test9.py"}
-{"a": 3.1415926535, "b": 2.7182818284, "filename": "fractions/test9.py"}
-{"a": -3.1415926535, "b": -2.7182818284, "filename": "fractions/test9.py"}
+{"a": 3., "b": 2., "filename": "fractions/test9.py"}
+{"a": -3., "b": -2., "filename": "fractions/test9.py"}
 {"a": 5.0, "b": 10.0, "filename": "fractions/test9.py"}
 {"a": 10.0, "b": 5.0, "filename": "fractions/test9.py"}
 {"a": -5.0, "b": -10.0, "filename": "fractions/test9.py"}
@@ -2502,12 +2502,12 @@
 {"a": 0.0002, "b": 0.0001, "filename": "fractions/test9.py"}
 {"a": -0.0001, "b": -0.0002, "filename": "fractions/test9.py"}
 {"a": -0.0002, "b": -0.0001, "filename": "fractions/test9.py"}
-{"a": 1.23456789, "b": 9.87654321, "filename": "fractions/test9.py"}
-{"a": -1.23456789, "b": -9.87654321, "filename": "fractions/test9.py"}
-{"a": 123.456789, "b": 987.654321, "filename": "fractions/test9.py"}
-{"a": -123.456789, "b": -987.654321, "filename": "fractions/test9.py"}
-{"a": 0.123456789, "b": 0.987654321, "filename": "fractions/test9.py"}
-{"a": -0.123456789, "b": -0.987654321, "filename": "fractions/test9.py"}
+{"a": , "b": , "filename": "fractions/test9.py"}
+{"a": -, "b": -, "filename": "fractions/test9.py"}
+{"a": , "b": , "filename": "fractions/test9.py"}
+{"a": -, "b": -, "filename": "fractions/test9.py"}
+{"a": , "b": , "filename": "fractions/test9.py"}
+{"a": -, "b": -, "filename": "fractions/test9.py"}
 {"a": 1e-06, "b": 1e-05, "filename": "fractions/test9.py"}
 {"a": 1e-09, "b": 1e-08, "filename": "fractions/test9.py"}
 {"a": 1e-12, "b": 1e-11, "filename": "fractions/test9.py"}

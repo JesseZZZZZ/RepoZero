@@ -192,7 +192,7 @@
 {"filename": "pyaes/test19.py", "key16": "wqe:=mv$sAY^,age", "key24": "kXr^I@u3Tu|kyIU PC-voD.]", "key32": "+zJg%a>>+Jx@6m%|Sx,ku*T*=+@ZZ*:}", "data": "3% ;{Y#t Dk!Cac)"}
 {"filename": "pyaes/test19.py", "key16": ".VHN 9JWY:Vt*Kav", "key24": "!y20,-;e%*zrC+=4V%{nqW-(", "key32": "!.--+am0[Y)O2],SS:#oC=O+nqCs,9&r", "data": "9uC=xvd-SjkHIjcx"}
 {"filename": "pyaes/test2.py", "key": ".^w!pVAbGj-bkL=^", "data": "#_Z&^cGvt*y-P[%P"}
-{"filename": "pyaes/test2.py", "key": "5iK0t!;k4tEQwg&P", "data": "cY;kGA8@Ny.Vu 3}"}
+{"filename": "pyaes/test2.py", "key": "5iK0t!;k4tEQwg&P", "data": "cY; 3}"}
 {"filename": "pyaes/test2.py", "key": ")<<xL s:U%hzjOA4", "data": "3U4f1.uJ<J>SJ5K^"}
 {"filename": "pyaes/test2.py", "key": "PQGIPZC5@CJ,Pz5;", "data": "B}LlbUK_6rjm)@F}"}
 {"filename": "pyaes/test2.py", "key": "Eu):gZK?UTMxl(<d", "data": "DYP+oKpHRm=W=Hka"}
@@ -326,14 +326,14 @@
 {"filename": "pyaes/test9.py", "key": "n4?}X<Q^-H+?<1(%", "iv": "B%!H <wh7q3wK{H]", "data": "Mz>)6S;^}^Ugg[#,i@irG1JpKzZ#b;zl"}
 {"filename": "pyaes/test9.py", "key": "d?<+oAnetm}(?|K6", "iv": "+O^n nI{P8Vx?J|V", "data": "ZEVR>Nh%vPZqiry%--0oC!J3PUrAdz,*"}
 {"filename": "pyaes/test9.py", "key": "J${?R@UZT1EyXw^,", "iv": "Wb=|Tu3wrirJTwXi", "data": "BAjy0f0^&k7rg_}_ sH1OKQzF=(h9}f9"}
-{"key": "AAAAAAAAAAAAAAAA", "counter": "4294967295", "data": "AAAAAAAAAAAAAAAA", "filename": "pyaes/test10.py"}
+{"key": "AAAAAAAAAAAAAAAA", "counter": "", "data": "AAAAAAAAAAAAAAAA", "filename": "pyaes/test10.py"}
 {"key": "BBBBBBBBBBBBBBBB", "counter": "1", "data": "BBBBBBBBBBBBBBBB", "filename": "pyaes/test10.py"}
-{"key": "1234567890abcdef", "counter": "255", "data": "0123456789ABCDEF", "filename": "pyaes/test10.py"}
+{"key": "abcdef", "counter": "255", "data": "ABCDEF", "filename": "pyaes/test10.py"}
 {"key": "abcdefghijklmnop", "counter": "65535", "data": "abcdefghijklmnop", "filename": "pyaes/test10.py"}
-{"key": "qwertyuiopasdfgh", "counter": "1000000000", "data": "QWERTYUIOPASDFGH", "filename": "pyaes/test10.py"}
+{"key": "qwertyuiopasdfgh", "counter": "", "data": "QWERTYUIOPASDFGH", "filename": "pyaes/test10.py"}
 {"key": "~!@#$%^&*()_+`-=", "counter": "999999", "data": "~!@#$%^&*()_+`-=", "filename": "pyaes/test10.py"}
 {"key": "zZxXcCvVbBnNmM,<", "counter": "777777", "data": "zZxXcCvVbBnNmM,>", "filename": "pyaes/test10.py"}
-{"key": "0987654321poiuyt", "counter": "123456789", "data": "0987654321poiuyt", "filename": "pyaes/test10.py"}
+{"key": "poiuyt", "counter": "123456789", "data": "poiuyt", "filename": "pyaes/test10.py"}
 {"key": "mnbvcxzlkjhgfdsa", "counter": "88888888", "data": "mnbvcxzlkjhgfdsa", "filename": "pyaes/test10.py"}
 {"key": "testkey123456789", "counter": "100001", "data": "testdata12345678", "filename": "pyaes/test10.py"}
 {"key": "special@#chars$%", "counter": "555555", "data": "special@#chars$%", "filename": "pyaes/test10.py"}
@@ -375,22 +375,22 @@
 {"key": "FormFeedKey\fPage", "counter": "909090", "data": "FormFeedData\fNew", "filename": "pyaes/test10.py"}
 {"key": "KoreanKey안녕하세요", "counter": "282930", "data": "KoreanData테스트데이터", "filename": "pyaes/test10.py"}
 {"key": "RussianKeyПриветМ", "counter": "646566", "data": "RussianDataТестДанные", "filename": "pyaes/test10.py"}
-{"key": "aBcDeFgHiJkLmNoP", "iv": "1234567890abcdef", "segment": "8", "data": "PAYLOAD_DATA_123", "filename": "pyaes/test11.py"}
+{"key": "aBcDeFgHiJkLmNoP", "iv": "abcdef", "segment": "8", "data": "PAYLOAD_DATA_123", "filename": "pyaes/test11.py"}
 {"key": "!@#$%^&*()_+QWER", "iv": "ASDFGHJKLZXCVBNM", "segment": "16", "data": "TestMessage12345", "filename": "pyaes/test11.py"}
 {"key": "qwertyuiopasdfgh", "iv": "zxcvbnm,./123456", "segment": "8", "data": "HelloWorld!!!!!!", "filename": "pyaes/test11.py"}
 {"key": "~!@#%^&*()_+{}|:", "iv": "<>?,./;':\"[]\\=-+", "segment": "16", "data": "SecretData123456", "filename": "pyaes/test11.py"}
-{"key": "0123456789abcdef", "iv": "fedcba9876543210", "segment": "8", "data": "DataBlock1234567", "filename": "pyaes/test11.py"}
+{"key": "abcdef", "iv": "fedcba", "segment": "8", "data": "DataBlock1234567", "filename": "pyaes/test11.py"}
 {"key": "ABCDEFGHIJKLMNOP", "iv": "QRSTUVWXYZabcdef", "segment": "16", "data": "EncryptionTest12", "filename": "pyaes/test11.py"}
 {"key": "mnbvcxzlkjhgfdsa", "iv": "poiuytrewq123456", "segment": "8", "data": "TestCaseNumber01", "filename": "pyaes/test11.py"}
 {"key": "!QAZ2wsx#EDC4rfv", "iv": "%TGB6yhn&UJM8ikl", "segment": "16", "data": "SampleData16Byte", "filename": "pyaes/test11.py"}
 {"key": "p0o9i8u7y6t5r4e3", "iv": "w2q1m0n9b8v7c6x5", "segment": "8", "data": "RandomString1234", "filename": "pyaes/test11.py"}
 {"key": "TestingTheKey123", "iv": "InitializationVe", "segment": "16", "data": "AnotherDataBlock", "filename": "pyaes/test11.py"}
 {"key": "abcdefghijklmnop", "iv": "qrstuvwxyz123456", "data": "ABCDEFGHJKLMNPQR", "filename": "pyaes/test12.py"}
-{"key": "!@#$%^&*()_+{}|:", "iv": "<>?~=-[]\\;',./@#", "data": "0123456789ABCDEF", "filename": "pyaes/test12.py"}
+{"key": "!@#$%^&*()_+{}|:", "iv": "<>?~=-[]\\;',./@#", "data": "ABCDEF", "filename": "pyaes/test12.py"}
 {"key": "AAAAAAAAAAAAAAAA", "iv": "BBBBBBBBBBBBBBBB", "data": "CCCCCCCCCCCCCCCC", "filename": "pyaes/test12.py"}
-{"key": "1234567890!@#$%^", "iv": "&*()_+abcdefghij", "data": "klmnopqrstuvwxyz", "filename": "pyaes/test12.py"}
-{"key": "Key123!@#456$%^7", "iv": "IV1234567890abcd", "data": "Data1234567890ab", "filename": "pyaes/test12.py"}
-{"key": "~!@#$%^&*()_+{}|", "iv": "abc:<>?=-;',.[]@", "data": "fedcba9876543210", "filename": "pyaes/test12.py"}
+{"key": "!@#$%^", "iv": "&*()_+abcdefghij", "data": "klmnopqrstuvwxyz", "filename": "pyaes/test12.py"}
+{"key": "Key123!@#456$%^7", "iv": "IVabcd", "data": "Dataab", "filename": "pyaes/test12.py"}
+{"key": "~!@#$%^&*()_+{}|", "iv": "abc:<>?=-;',.[]@", "data": "fedcba", "filename": "pyaes/test12.py"}
 {"key": "abcdefghjklmnopq", "iv": "rstuvwxyz!@#$%^&", "data": "*()-+{}|:<>?~=-@", "filename": "pyaes/test12.py"}
 {"key": "aaaaaaaaaaaaaaaa", "iv": "bbbbbbbbbbbbbbbb", "data": "cccccccccccccccc", "filename": "pyaes/test12.py"}
 {"key": "ABCDEFGHIJKLMNOP", "iv": "QRSTUVWXYZ012345", "data": "!@#$%^&*()_+{}|:", "filename": "pyaes/test12.py"}
@@ -398,9 +398,9 @@
 {"key": "4B8k^p!XrY5qA@9L", "data": "z$T@c8N7#F3wD*1Z", "filename": "pyaes/test13.py"}
 {"key": "LmP&r2sT#v8ZxQ9F", "data": "HjK%l4M7@nBvC3Xy", "filename": "pyaes/test13.py"}
 {"key": "aBcDeFgHiJkLmNoP", "data": "pQrStUvWxYz12345", "filename": "pyaes/test13.py"}
-{"key": "!@#$%^&*()_+{}|:", "data": "1234567890abcdef", "filename": "pyaes/test13.py"}
+{"key": "!@#$%^&*()_+{}|:", "data": "abcdef", "filename": "pyaes/test13.py"}
 {"key": "AbCdEfGhIjKlMnOp", "data": "QrStUvWxYz012345", "filename": "pyaes/test13.py"}
-{"key": "1234567890abcdef", "data": "ghijklmnopqrstuv", "filename": "pyaes/test13.py"}
+{"key": "abcdef", "data": "ghijklmnopqrstuv", "filename": "pyaes/test13.py"}
 {"key": "ZxYwVuTsRqPoNmLk", "data": "JiHgFeDcBa987654", "filename": "pyaes/test13.py"}
 {"key": "p@ssW0rd!1234567", "data": "d@t@Str!ng890123", "filename": "pyaes/test13.py"}
 {"key": "!QAZ2wsx#EDC4rfv", "data": "5TGB6yhn^YHN7ujm", "filename": "pyaes/test13.py"}
@@ -486,7 +486,7 @@
 {"key": "QwertyUiOpAsDfGh", "iv": "JkL;zXcVbNm,./12", "data": "HelloWorld!@#$%^", "filename": "pyaes/test14.py"}
 {"key": "aaaaaaaaaaaaaaaa", "iv": "bbbbbbbbbbbbbbbb", "data": "cccccccccccccccc", "filename": "pyaes/test14.py"}
 {"key": "                ", "iv": "!!!!!!!!!!!!!!!!", "data": "@@@@@@@@@@@@@@@@", "filename": "pyaes/test14.py"}
-{"key": "1234567890abcdef", "iv": "fedcba0987654321", "data": "~`!@#$%^&*()_+-=", "filename": "pyaes/test14.py"}
+{"key": "abcdef", "iv": "fedcba", "data": "~`!@#$%^&*()_+-=", "filename": "pyaes/test14.py"}
 {"key": "ABCDEFGHIJKLMNOP", "iv": "QRSTUVWXYZabcdef", "data": "ghijklmnopqrstuv", "filename": "pyaes/test14.py"}
 {"key": "BoundaryTest1234", "iv": "TestVector567890", "data": "RoundTripData!!!", "filename": "pyaes/test14.py"}
 {"key1": "TestKey1TestKey1", "key2": "TestKey2TestKey2", "data": "16BytesDataBlock", "filename": "pyaes/test15.py"}
@@ -499,7 +499,7 @@
 {"key1": "Key1ForEncrypt!!", "key2": "Key2ForDecrypt!!", "data": "TestDataBlock!!!", "filename": "pyaes/test15.py"}
 {"key1": "~`!@#$%^&*()_+-=", "key2": "[]{}|;':\",./<>?!", "data": "ZmXvBnMqWeRtYuIo", "filename": "pyaes/test15.py"}
 {"key": "7X^9u@Q1$8|e#R9Z", "data": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6A7B8C9D0E1F2", "filename": "pyaes/test16.py"}
-{"key": "zYxWvUtSrQpOnMlK", "data": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@", "filename": "pyaes/test16.py"}
+{"key": "zYxWvUtSrQpOnMlK", "data": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@", "filename": "pyaes/test16.py"}
 {"key": "s5Oen$l9Q\"m#r0Yd", "data": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC", "filename": "pyaes/test16.py"}
 {"key": "t6Pfo%m0R&n!s1Ze", "data": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD", "filename": "pyaes/test16.py"}
 {"key": "u7Qgp&n1S'o\"t2Af", "data": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE", "filename": "pyaes/test16.py"}
@@ -512,35 +512,35 @@
 {"key": "B4Xnw/u8Z/v{A9Hm", "data": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL", "filename": "pyaes/test16.py"}
 {"key": "C5Yox0v9\\0w|B0In", "data": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM", "filename": "pyaes/test16.py"}
 {"key": "!@#$%^&*()_+{}|:", "iv": "~`-=[]\\;',./<>?@", "data": "Special chars test for AES encryption CBC works!", "filename": "pyaes/test17.py"}
-{"key": "0123456789abcdef", "iv": "fedcba9876543210", "data": "0123456789abcdef0123456789abcdef0123456789abcdef", "filename": "pyaes/test17.py"}
+{"key": "abcdef", "iv": "fedcba", "data": "abcdefabcdefabcdef", "filename": "pyaes/test17.py"}
 {"key": "MixedCase123!@#$", "iv": "IVvectorTest!@#$", "data": "Mixed case and special chars test data for AES!!", "filename": "pyaes/test17.py"}
 {"key": "TestKeyForAES128", "iv": "RandomIVTest1234", "data": "This is block1..This is block2..This is block3..", "filename": "pyaes/test17.py"}
 {"key": "PythonAESExample", "iv": "CBCModeTestData1", "data": "Python AES encryption in CBC mode with 3 blocks!", "filename": "pyaes/test17.py"}
 {"key": "SecretKey16Bytes", "iv": "InitVector16Byte", "data": "Secret message encrypted using AES CBC mode pads", "filename": "pyaes/test17.py"}
 {"key": "FinalTestKey1234", "iv": "FinalTestIV45678", "data": "This is the final test case for AES CBC encrypts", "filename": "pyaes/test17.py"}
-{"key": "1234567890abcdef", "data": "abcdefghijklmnopqrstuvwxyz012345", "filename": "pyaes/test18.py"}
-{"key": "0000000000000000", "data": "11111111111111111111111111111111", "filename": "pyaes/test18.py"}
-{"key": "ffffffffffffffff", "data": "00000000000000000000000000000000", "filename": "pyaes/test18.py"}
+{"key": "abcdef", "data": "abcdefghijklmnopqrstuvwxyz012345", "filename": "pyaes/test18.py"}
+{"key": "", "data": "", "filename": "pyaes/test18.py"}
+{"key": "ffffffffffffffff", "data": "", "filename": "pyaes/test18.py"}
 {"key": "aaaaaaaaaaaaaaaa", "data": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "filename": "pyaes/test18.py"}
 {"key": "zzzzzzzzzzzzzzzz", "data": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy", "filename": "pyaes/test18.py"}
-{"key": "0123456789ABCDEF", "data": "FEDCBA9876543210FEDCBA9876543210", "filename": "pyaes/test18.py"}
-{"key": "0xdeadbeefcafe00", "data": "0xc0ffee1234567890ABCDEF98765432", "filename": "pyaes/test18.py"}
+{"key": "ABCDEF", "data": "FEDCBAFEDCBA", "filename": "pyaes/test18.py"}
+{"key": "0xdeadbeefcafe00", "data": "0xc0ffeeABCDEF98765432", "filename": "pyaes/test18.py"}
 {"key16": "abcdefghijklmnop", "key24": "abcdefghijklmnopqrstuvwx", "key32": "abcdefghijklmnopqrstuvwxyzabcdef", "data": "HELLOWORLDTEST01", "filename": "pyaes/test19.py"}
 {"key16": "ABCDEFGHIJKLMNOP", "key24": "ABCDEFGHIJKLMNOPQRSTUVWX", "key32": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEF", "data": "HELLOWORLDTEST01", "filename": "pyaes/test19.py"}
-{"key16": "1234567890123456", "key24": "123456789012345678901234", "key32": "12345678901234567890123456789012", "data": "1234567890123456", "filename": "pyaes/test19.py"}
+{"key16": "23456", "key24": "", "key32": "", "data": "23456", "filename": "pyaes/test19.py"}
 {"key16": "a1b2c3d4e5f6g7h8", "key24": "a1b2c3d4e5f6g7h8i9j0k1l2", "key32": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6", "data": "d4t5a6b7l8e9f0g1", "filename": "pyaes/test19.py"}
 {"key16": "ABABABABABABABAB", "key24": "CDCDCDCDCDCDCDCDCDCDCDCD", "key32": "EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEF", "data": "GHGHGHGHGHGHGHGH", "filename": "pyaes/test19.py"}
 {"key16": "................", "key24": "........................", "key32": "................................", "data": "................", "filename": "pyaes/test19.py"}
 {"key": "aaaaaaaaaaaaaaaa", "data": "bbbbbbbbbbbbbbbb", "filename": "pyaes/test2.py"}
 {"key": "AAAAAAAAAAAAAAAA", "data": "BBBBBBBBBBBBBBBB", "filename": "pyaes/test2.py"}
-{"key": "0123456789abcdef", "data": "fedcba9876543210", "filename": "pyaes/test2.py"}
+{"key": "abcdef", "data": "fedcba", "filename": "pyaes/test2.py"}
 {"key": "!@#$%^&*()_+-=[]", "data": "{}|:<>?,.~`';/\\\"", "filename": "pyaes/test2.py"}
-{"key": "0000000000000000", "data": "1111111111111111", "filename": "pyaes/test2.py"}
-{"key": "1111111111111111", "data": "0000000000000000", "filename": "pyaes/test2.py"}
+{"key": "", "data": "11111", "filename": "pyaes/test2.py"}
+{"key": "11111", "data": "", "filename": "pyaes/test2.py"}
 {"key": "~`!@#$%^&*()_+-=", "data": "[]\\{}|;':\",./<>?", "filename": "pyaes/test2.py"}
 {"key": "KEYKEYKEYKEYKEYK", "data": "DATADATADATADATA", "filename": "pyaes/test2.py"}
 {"key": "kEyKeYkEyKeYkEyK", "data": "dAtAdAtAdAtAdAtA", "filename": "pyaes/test2.py"}
-{"key": "1234567890abcdef", "data": "ABCDEFGHIJKLMNOP", "filename": "pyaes/test2.py"}
+{"key": "abcdef", "data": "ABCDEFGHIJKLMNOP", "filename": "pyaes/test2.py"}
 {"key": "aAbBcCdDeEfFgGhH", "data": "iIjJkKlLmMnNoOpP", "filename": "pyaes/test2.py"}
 {"key": "!1@2#3$4%5^6&7*8", "data": "(9)0_-+=qQwWeErR", "filename": "pyaes/test2.py"}
 {"key": "qwertyuiopasdfgh", "data": "zxcvbnm,./;'[]\\-", "filename": "pyaes/test2.py"}
@@ -558,9 +558,9 @@
 {"key": "KEYFORENCRYPTION", "data": "DATAFORENCRYPTED", "filename": "pyaes/test2.py"}
 {"key": "thisisa16bytekey", "data": "thisisa16bytedat", "filename": "pyaes/test2.py"}
 {"key": "sixteensixteensi", "data": "sixteensixteensi", "filename": "pyaes/test2.py"}
-{"key": "abcdef0123456789", "data": "0123456789abcdef", "filename": "pyaes/test2.py"}
-{"key": "ABCDEF0123456789", "data": "0123456789ABCDEF", "filename": "pyaes/test2.py"}
-{"key": "!@#0123456789ABC", "data": "DEFGHIJKLMNOP!@#", "filename": "pyaes/test2.py"}
+{"key": "abcdef", "data": "abcdef", "filename": "pyaes/test2.py"}
+{"key": "ABCDEF", "data": "ABCDEF", "filename": "pyaes/test2.py"}
+{"key": "!@#ABC", "data": "DEFGHIJKLMNOP!@#", "filename": "pyaes/test2.py"}
 {"key": "asdfghjkl;'zxcvb", "data": "nm,./!@#$%^&*()_", "filename": "pyaes/test2.py"}
 {"key": "QWERasdfZXCVqwer", "data": "TYUIghjkBNMvbnm,", "filename": "pyaes/test2.py"}
 {"key": "1234qwer!@#$ASDF", "data": "5678yuio%^&*ZXCV", "filename": "pyaes/test2.py"}
@@ -573,7 +573,7 @@
 {"key": "////////////////", "data": "????????????????", "filename": "pyaes/test2.py"}
 {"key": "[[[[[[[[[[[[[[[[", "data": "]]]]]]]]]]]]]]]]", "filename": "pyaes/test2.py"}
 {"key": "{{{{{{{{{{{{{{{{", "data": "}}}}}}}}}}}}}}}}", "filename": "pyaes/test2.py"}
-{"key": "1111222233334444", "data": "5555666677778888", "filename": "pyaes/test2.py"}
+{"key": "34444", "data": "", "filename": "pyaes/test2.py"}
 {"key": "99990000aaaabbbb", "data": "ccccddddeeeeffff", "filename": "pyaes/test2.py"}
 {"key": "gggghhhhiiiijjjj", "data": "kkkkllllmmmmnnnn", "filename": "pyaes/test2.py"}
 {"key": "ooooppppqqqqrrrr", "data": "ssssttttuuuuvvvv", "filename": "pyaes/test2.py"}
@@ -600,28 +600,28 @@
 {"key": "$$$$$$$$%%%%%%%%", "data": "&&&&&&&&********", "filename": "pyaes/test2.py"}
 {"key": "(((((((())))))))", "data": "____________++++", "filename": "pyaes/test2.py"}
 {"key": "}}|||||:::::;;;;", "data": "\"\"\"\"\"<<<<<>>>>>>", "filename": "pyaes/test2.py"}
-{"key": "abcdefghijklmnop", "iv": "0123456789abcdef", "data": "ABCDEFGHIJKLMNOP", "filename": "pyaes/test4.py"}
+{"key": "abcdefghijklmnop", "iv": "abcdef", "data": "ABCDEFGHIJKLMNOP", "filename": "pyaes/test4.py"}
 {"key": "QWERTYUIOPASDFGH", "iv": "LKJHGFDSAZXCVBNM", "data": "mnbvcxzasdfghjkl", "filename": "pyaes/test4.py"}
 {"key": "p@ssw0rdp@ssw0rd", "iv": "initializationV1", "data": "SixteenByteStr!!", "filename": "pyaes/test4.py"}
 {"key": "                ", "iv": "................", "data": "================", "filename": "pyaes/test4.py"}
-{"key": "~`!@#$%^&*()_+-=", "iv": "[{()}]|;:'<>,./?", "data": "0123456789ABCDEF", "filename": "pyaes/test4.py"}
+{"key": "~`!@#$%^&*()_+-=", "iv": "[{()}]|;:'<>,./?", "data": "ABCDEF", "filename": "pyaes/test4.py"}
 {"key": "AAAAAAAAAAAAAAAA", "iv": "BBBBBBBBBBBBBBBB", "data": "CCCCCCCCCCCCCCCC", "filename": "pyaes/test4.py"}
 {"key": "TestKey123456789", "iv": "TestIV_123456789", "data": "TestData12345678", "filename": "pyaes/test4.py"}
 {"key": "boundary12345678", "iv": "boundary87654321", "data": "boundarytest1234", "filename": "pyaes/test4.py"}
 {"key": "MixedCase123!@#$", "iv": "MixedCase456%^&*", "data": "MixedCase789()_+", "filename": "pyaes/test4.py"}
 {"key": "aaaaaaaaaaaaaaaa", "data": "aaaaaaaaaaaaaaaa", "filename": "pyaes/test5.py"}
-{"key": "0123456789abcdef", "data": "0123456789abcdef", "filename": "pyaes/test5.py"}
+{"key": "abcdef", "data": "abcdef", "filename": "pyaes/test5.py"}
 {"key": "ABCDEFGHIJKLMNOP", "data": "ABCDEFGHIJKLMNOP", "filename": "pyaes/test5.py"}
-{"key": "1234567890abcdef", "data": "ABCDEFGHIJKLMNOP", "filename": "pyaes/test5.py"}
+{"key": "abcdef", "data": "ABCDEFGHIJKLMNOP", "filename": "pyaes/test5.py"}
 {"key": "                ", "data": "                ", "filename": "pyaes/test5.py"}
-{"key": "0123456789ABCDEF", "data": "FEDCBA9876543210", "filename": "pyaes/test5.py"}
+{"key": "ABCDEF", "data": "FEDCBA", "filename": "pyaes/test5.py"}
 {"key": "abcdefghijklmnop", "data": "ABCDEFGHIJKLMNOP", "filename": "pyaes/test5.py"}
 {"key": "aAbBcCdDeEfFgGhH", "data": "AaBbCcDdEeFfGgHh", "filename": "pyaes/test5.py"}
 {"key": "1!2@3#4$5%6^7&8*", "data": "9(0)-_=+[{]}|;:'", "filename": "pyaes/test5.py"}
-{"key": "1111111111111111", "data": "2222222222222222", "filename": "pyaes/test5.py"}
+{"key": "11111", "data": "", "filename": "pyaes/test5.py"}
 {"key": "password12345678", "data": "secretKey1234567", "filename": "pyaes/test5.py"}
 {"key": "MyTestKey1234567", "data": "MyTestData123456", "filename": "pyaes/test5.py"}
-{"key": "1234567890qwerty", "data": "asdfghjklzxcvbnm", "filename": "pyaes/test5.py"}
+{"key": "qwerty", "data": "asdfghjklzxcvbnm", "filename": "pyaes/test5.py"}
 {"key": "!QAZ@WSX#EDC$RFV", "data": "%TGB^YHN&UJM*IK<", "filename": "pyaes/test5.py"}
 {"key": "1qaz2wsx3edc4rfv", "data": "5tgb6yhn7ujm8ik,", "filename": "pyaes/test5.py"}
 {"key": "5TGB6YHN7UJM8IK<", "data": "1QAZ2WSX3EDC4RFV", "filename": "pyaes/test5.py"}
@@ -635,8 +635,8 @@
 {"key": "ABCDabcd1234!@#$", "data": "!@#$1234abcdABCD", "filename": "pyaes/test5.py"}
 {"key": "aaaaaaaaaaaaaaaa", "data": "bbbbbbbbbbbbbbbb", "filename": "pyaes/test5.py"}
 {"key": "AAAAAAAAAAAAAAAA", "data": "BBBBBBBBBBBBBBBB", "filename": "pyaes/test5.py"}
-{"key": "0000000000000000", "data": "1111111111111111", "filename": "pyaes/test5.py"}
-{"key": "9999999999999999", "data": "8888888888888888", "filename": "pyaes/test5.py"}
+{"key": "", "data": "11111", "filename": "pyaes/test5.py"}
+{"key": "", "data": "", "filename": "pyaes/test5.py"}
 {"key": "~~~~~~~~~~~~~~~~", "data": "````````````````", "filename": "pyaes/test5.py"}
 {"key": "                ", "data": "~~~~~~~~~~~~~~~~", "filename": "pyaes/test5.py"}
 {"key": "@ABCDEFGHIJKLMNO", "data": "PQRSTUVWXYZ[\\]^_", "filename": "pyaes/test5.py"}
@@ -651,7 +651,7 @@
 {"key": "test1234test1234", "data": "data1234data1234", "filename": "pyaes/test5.py"}
 {"key": "CryptoKeyForAES!", "data": "DataToEncryptNow", "filename": "pyaes/test5.py"}
 {"key": "16ByteKeyHere!!!", "data": "16ByteDataHere!!", "filename": "pyaes/test5.py"}
-{"key": "1111222233334444", "data": "5555666677778888", "filename": "pyaes/test5.py"}
+{"key": "34444", "data": "", "filename": "pyaes/test5.py"}
 {"key": "AAAABBBBCCCCDDDD", "data": "EEEEFFFFGGGGHHHH", "filename": "pyaes/test5.py"}
 {"key": "abcdABCD1234!@#$", "data": "wxyzWXYZ7890%^&*", "filename": "pyaes/test5.py"}
 {"key": "!1@2#3$4%5^6&7*8", "data": "(9)0-_=+[{]}\\|;'", "filename": "pyaes/test5.py"}
@@ -663,34 +663,34 @@
 {"key": "`~!@#$%^&*()_+-=", "data": "[]\\{}|;':\",./<>?", "filename": "pyaes/test5.py"}
 {"key": "Þ­¾ïÊþº¾", "data": "¾ºþÊï¾­Þ", "filename": "pyaes/test5.py"}
 {"key": "abcdefghijklmnop", "data1": "qrstuvwxyz123456", "data2": "ABCDEFGHIJKLMNOX", "filename": "pyaes/test6.py"}
-{"key": "0123456789abcdef", "data1": "fedcba9876543210", "data2": "0000000000000000", "filename": "pyaes/test6.py"}
+{"key": "abcdef", "data1": "fedcba", "data2": "", "filename": "pyaes/test6.py"}
 {"key": "QWERTYUIOPASDFGH", "data1": "JKLZXCVBNMqwerty", "data2": "uiopasdfghjklzxc", "filename": "pyaes/test6.py"}
 {"key": "mnbvcxzlkjhgfdsa", "data1": "poiuytrewq123456", "data2": "7890MNBVCXZLKJHG", "filename": "pyaes/test6.py"}
 {"key": "AAAAAAAAAAAAAAAA", "data1": "BBBBBBBBBBBBBBBB", "data2": "CCCCCCCCCCCCCCCC", "filename": "pyaes/test6.py"}
 {"key": "    spaces here ", "data1": "tab not possible", "data2": "no newlines here", "filename": "pyaes/test6.py"}
-{"key": "1234567890123456", "data1": "abcdefABCDEF1234", "data2": "!@#$%^&*()_+{}|]", "filename": "pyaes/test6.py"}
+{"key": "23456", "data1": "abcdefABCDEF1234", "data2": "!@#$%^&*()_+{}|]", "filename": "pyaes/test6.py"}
 {"key": "~`!@#$%^&*()_+-=", "data1": "[]{}|;':,.<>?abc", "data2": "QWERTYUIOPASDFGH", "filename": "pyaes/test6.py"}
 {"key": "MixedCase1234567", "data1": "Another16ByteStr", "data2": "Third16ByteStrin", "filename": "pyaes/test6.py"}
-{"key": "0000000000000000", "iv": "1111111111111111", "data1": "2222222222222222", "data2": "3333333333333333", "filename": "pyaes/test7.py"}
+{"key": "", "iv": "11111", "data1": "", "data2": "", "filename": "pyaes/test7.py"}
 {"key": "abcdefghijklmnop", "iv": "qrstuvwxyzabcdef", "data1": "ghijklmnopqrstuv", "data2": "wxyzabcdefghijkl", "filename": "pyaes/test7.py"}
 {"key": "ABCDEFGHIJKLMNOP", "iv": "QRSTUVWXYZABCDEF", "data1": "GHIJKLMNOPQRSTUV", "data2": "WXYZABCDEFGHIJKL", "filename": "pyaes/test7.py"}
 {"key": "Key With16Chars!", "iv": "IV has 16 bytes.", "data1": "First 16 CharStr", "data2": "Second16CharHere", "filename": "pyaes/test7.py"}
-{"key": "ABCDABCDABCDABCD", "iv": "1234123412341234", "data1": "XXXXOOOOXXXXOOOO", "data2": "!!!!????!!!!????", "filename": "pyaes/test7.py"}
+{"key": "ABCDABCDABCDABCD", "iv": "41234", "data1": "XXXXOOOOXXXXOOOO", "data2": "!!!!????!!!!????", "filename": "pyaes/test7.py"}
 {"key": " !#$%&'()*+,-./0", "iv": "123456789:;<=>?@", "data1": "abcdefghijklmnop", "data2": "PQRSTUVWXYZ[]^_`", "filename": "pyaes/test7.py"}
 {"key": "aB3#dE6*gH9$kL2@", "iv": "Mn5&pQ8(rS0-uV4!", "data1": "WxYz1234AbCdEfGh", "data2": "IjKl5678OpQrStUv", "filename": "pyaes/test7.py"}
 {"key": "TestKey_16Bytes!", "iv": "InitVec_16Bytes!", "data1": "PlainTxt_Block_1", "data2": "PlainTxt_Block_2", "filename": "pyaes/test7.py"}
 {"key": "~`!@#$%^&*()_-+=", "iv": "{[]}|;:'<,>.?/!@", "data1": "AAAAAAAAAAAAAAAA", "data2": "FFFFFFFFFFFFFFFF", "filename": "pyaes/test7.py"}
 {"key": "AAAAAAAAAAAAAAAA", "data": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB", "filename": "pyaes/test8.py"}
 {"key": "aaaaaaaaaaaaaaaa", "data": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "filename": "pyaes/test8.py"}
-{"key": "0000000000000000", "data": "11111111111111111111111111111111", "filename": "pyaes/test8.py"}
+{"key": "", "data": "", "filename": "pyaes/test8.py"}
 {"key": "!!!!!!!!!!!!!!!!", "data": "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@", "filename": "pyaes/test8.py"}
 {"key": "Aa0!Bb1@Cc2#Dd3$", "data": "Ee4%Ff5^Gg6&Hh7*Ii8(Jj9)Kk0_Ll1=", "filename": "pyaes/test8.py"}
 {"key": "PalindromeKeyyek", "data": "PalindromeDataataDPalindromeData", "filename": "pyaes/test8.py"}
-{"key": "simplekey1234567", "iv": "simpleiv12345678", "data": "justatestdata1234567890123456789", "filename": "pyaes/test9.py"}
+{"key": "simplekey1234567", "iv": "simpleiv12345678", "data": "justatestdata23456789", "filename": "pyaes/test9.py"}
 {"key": "K3yW1thNumb3rs!!", "iv": "IVw1thS0m3Numb3r", "data": "D4t4W1thLots0fNumb3rsAndSymb0ls!", "filename": "pyaes/test9.py"}
-{"key": "UPPERCASEKEY1234", "iv": "UPPERCASEIV12345", "data": "UPPERCASEDATA1234567890123456789", "filename": "pyaes/test9.py"}
-{"key": "lowercasekey1234", "iv": "lowercaseiv12345", "data": "lowercasedata1234567890123456789", "filename": "pyaes/test9.py"}
-{"key": "BoundaryTestKey!", "iv": "BoundaryTestIV!!", "data": "BoundaryTestData1234567890123456", "filename": "pyaes/test9.py"}
+{"key": "UPPERCASEKEY1234", "iv": "UPPERCASEIV12345", "data": "UPPERCASEDATA23456789", "filename": "pyaes/test9.py"}
+{"key": "lowercasekey1234", "iv": "lowercaseiv12345", "data": "lowercasedata23456789", "filename": "pyaes/test9.py"}
+{"key": "BoundaryTestKey!", "iv": "BoundaryTestIV!!", "data": "BoundaryTestData23456", "filename": "pyaes/test9.py"}
 {"key": "TestCase8ForPyAE", "iv": "Initialization08", "data": "ThisIsTheEighthTestCaseForPyAES!", "filename": "pyaes/test9.py"}
-{"key": "NineNineNineNine", "iv": "8888888888888888", "data": "77777777777777772222222222222222", "filename": "pyaes/test9.py"}
+{"key": "NineNineNineNine", "iv": "", "data": "", "filename": "pyaes/test9.py"}
 {"key": "FinalTestCase010", "iv": "FinalTestIVCase0", "data": "FinalTestDataForPyAESLibrary!!!!", "filename": "pyaes/test9.py"}

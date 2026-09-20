@@ -875,8 +875,8 @@
 {"a": -999, "b": -999, "filename": "networkx/test1.py"}
 {"a": 1000, "b": 1000, "filename": "networkx/test1.py"}
 {"a": -1000, "b": -1000, "filename": "networkx/test1.py"}
-{"a": 2147483647, "b": 2147483647, "filename": "networkx/test1.py"}
-{"a": -2147483648, "b": -2147483648, "filename": "networkx/test1.py"}
+{"a": , "b": , "filename": "networkx/test1.py"}
+{"a": -, "b": -, "filename": "networkx/test1.py"}
 {"a": 2, "b": 0, "filename": "networkx/test1.py"}
 {"a": 0, "b": 2, "filename": "networkx/test1.py"}
 {"a": 3, "b": 0, "filename": "networkx/test1.py"}

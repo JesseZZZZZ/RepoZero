@@ -13,8 +13,8 @@
 {"file_name": "Clipper/tests/test20.cpp", "complexity": "100"}
 {"file_name": "Clipper/tests/test20.cpp", "complexity": "1000"}
 {"file_name": "Clipper/tests/test20.cpp", "complexity": "999999"}
-{"file_name": "Clipper/tests/test20.cpp", "complexity": "2147483647"}
-{"file_name": "Clipper/tests/test20.cpp", "complexity": "-2147483648"}
+{"file_name": "Clipper/tests/test20.cpp", "complexity": ""}
+{"file_name": "Clipper/tests/test20.cpp", "complexity": "-"}
 {"file_name": "Clipper/tests/test20.cpp", "complexity": "+1"}
 {"file_name": "Clipper/tests/test20.cpp", "complexity": "+3"}
 {"file_name": "Clipper/tests/test20.cpp", "complexity": "+5"}
@@ -103,8 +103,8 @@
 {"file_name": "Clipper/tests/test19.cpp", "testMode": "-0"}
 {"file_name": "Clipper/tests/test19.cpp", "testMode": "+0"}
 {"file_name": "Clipper/tests/test19.cpp", "testMode": "+1"}
-{"file_name": "Clipper/tests/test19.cpp", "testMode": "2147483647"}
-{"file_name": "Clipper/tests/test19.cpp", "testMode": "-2147483648"}
+{"file_name": "Clipper/tests/test19.cpp", "testMode": ""}
+{"file_name": "Clipper/tests/test19.cpp", "testMode": "-"}
 {"file_name": "Clipper/tests/test19.cpp", "testMode": "255"}
 {"file_name": "Clipper/tests/test19.cpp", "testMode": "65535"}
 {"file_name": "Clipper/tests/test19.cpp", "testMode": "127"}
@@ -182,15 +182,15 @@
 {"file_name": "Clipper/tests/test9.cpp", "layers": "50"}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "100"}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "255"}
-{"file_name": "Clipper/tests/test9.cpp", "layers": "-2147483648"}
-{"file_name": "Clipper/tests/test9.cpp", "layers": "0000000001"}
+{"file_name": "Clipper/tests/test9.cpp", "layers": "-"}
+{"file_name": "Clipper/tests/test9.cpp", "layers": ""}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "    5"}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "5    "}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "+7"}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "+0"}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "+100"}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "-0"}
-{"file_name": "Clipper/tests/test9.cpp", "layers": "0000000010"}
+{"file_name": "Clipper/tests/test9.cpp", "layers": ""}
 {"file_name": "Clipper/tests/test9.cpp", "layers": "1"}
 {"file_name": "Clipper/tests/test4.cpp"}
 {"file_name": "Clipper/tests/test4.cpp", "param1": "0"}
@@ -311,7 +311,7 @@
 {"file_name": "Clipper/tests/test7.cpp", "offset": "-99"}
 {"file_name": "Clipper/tests/test7.cpp", "offset": "123"}
 {"file_name": "Clipper/tests/test7.cpp", "offset": "-123"}
-{"file_name": "Clipper/tests/test7.cpp", "offset": "2147483647"}
+{"file_name": "Clipper/tests/test7.cpp", "offset": ""}
 {"file_name": "Clipper/tests/test2.cpp", "key": "my-secret-key", "data1": "hello world", "data2": "hello world"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "test123", "data1": "data1", "data2": "data2"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "secret", "data1": "message1", "data2": "message2"}
@@ -319,9 +319,9 @@
 {"file_name": "Clipper/tests/test2.cpp", "key": "key", "data1": "", "data2": "data"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "key", "data1": "data", "data2": ""}
 {"file_name": "Clipper/tests/test2.cpp", "key": "", "data1": "", "data2": ""}
-{"file_name": "Clipper/tests/test2.cpp", "key": "1234567890", "data1": "0987654321", "data2": "11223344"}
+{"file_name": "Clipper/tests/test2.cpp", "key": "", "data1": "", "data2": "11223344"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "a", "data1": "b", "data2": "c"}
-{"file_name": "Clipper/tests/test2.cpp", "key": "VERY-LONG-KEY-WITH-MANY-CHARACTERS-1234567890-ABCDEFGHIJKLMNOPQRSTUVWXYZ", "data1": "short", "data2": "data"}
+{"file_name": "Clipper/tests/test2.cpp", "key": "VERY-LONG-KEY-WITH-MANY-CHARACTERS--ABCDEFGHIJKLMNOPQRSTUVWXYZ", "data1": "short", "data2": "data"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "k", "data1": "VERY-LONG-DATA-STRING-WITH-MANY-CHARACTERS-TO-TEST-HMAC-CALCULATION", "data2": "short"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "test-key-123", "data1": "same", "data2": "same"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "key with spaces", "data1": "data with spaces", "data2": "another data"}
@@ -346,8 +346,8 @@
 {"file_name": "Clipper/tests/test2.cpp", "key": "<xml>key</xml>", "data1": "<xml>data1</xml>", "data2": "<xml>data2</xml>"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "key=value&param=value", "data1": "data1=value1", "data2": "data2=value2"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "https://example.com/key", "data1": "https://example.com/data1", "data2": "https://example.com/data2"}
-{"file_name": "Clipper/tests/test2.cpp", "key": "user@example.com", "data1": "data1@example.com", "data2": "data2@example.com"}
-{"file_name": "Clipper/tests/test2.cpp", "key": "192.168.1.1", "data1": "10.0.0.1", "data2": "172.16.0.1"}
+{"file_name": "Clipper/tests/test2.cpp", "key": "", "data1": "", "data2": ""}
+{"file_name": "Clipper/tests/test2.cpp", "key": "", "data1": "", "data2": ""}
 {"file_name": "Clipper/tests/test2.cpp", "key": "path/to/file.txt", "data1": "path/to/data1.txt", "data2": "path/to/data2.txt"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "C:\\Windows\\System32", "data1": "C:\\Program Files", "data2": "C:\\Users"}
 {"file_name": "Clipper/tests/test2.cpp", "key": "Line1\nLine2\nLine3", "data1": "Multi\nLine\nData1", "data2": "Multi\nLine\nData2"}
@@ -414,7 +414,7 @@
 {"file_name": "Clipper/tests/test1.cpp", "param1": "한국어"}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "émoji😀"}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "newline\ntest"}
-{"file_name": "Clipper/tests/test1.cpp", "param1": "127.0.0.1"}
+{"file_name": "Clipper/tests/test1.cpp", "param1": ""}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "example.com"}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "file.txt"}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "--help"}
@@ -433,7 +433,7 @@
 {"file_name": "Clipper/tests/test1.cpp", "param1": "a"}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "A"}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "Z"}
-{"file_name": "Clipper/tests/test1.cpp", "param1": "0123456789"}
+{"file_name": "Clipper/tests/test1.cpp", "param1": ""}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "UPPERCASE"}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "lowercase"}
 {"file_name": "Clipper/tests/test1.cpp", "param1": "MixedCase123"}
@@ -462,8 +462,8 @@
 {"file_name": "Clipper/tests/test17.cpp", "seed": "9999"}
 {"file_name": "Clipper/tests/test17.cpp", "seed": "-1"}
 {"file_name": "Clipper/tests/test17.cpp", "seed": "-100"}
-{"file_name": "Clipper/tests/test17.cpp", "seed": "2147483647"}
-{"file_name": "Clipper/tests/test17.cpp", "seed": "-2147483648"}
+{"file_name": "Clipper/tests/test17.cpp", "seed": ""}
+{"file_name": "Clipper/tests/test17.cpp", "seed": "-"}
 {"file_name": "Clipper/tests/test17.cpp", "seed": "2"}
 {"file_name": "Clipper/tests/test17.cpp", "seed": "3"}
 {"file_name": "Clipper/tests/test17.cpp", "seed": "5"}
@@ -512,8 +512,8 @@
 {"file_name": "Clipper/tests/test16.cpp", "operation_count": "-1"}
 {"file_name": "Clipper/tests/test16.cpp", "operation_count": "-5"}
 {"file_name": "Clipper/tests/test16.cpp", "operation_count": "-10"}
-{"file_name": "Clipper/tests/test16.cpp", "operation_count": "2147483647"}
-{"file_name": "Clipper/tests/test16.cpp", "operation_count": "-2147483648"}
+{"file_name": "Clipper/tests/test16.cpp", "operation_count": ""}
+{"file_name": "Clipper/tests/test16.cpp", "operation_count": "-"}
 {"file_name": "Clipper/tests/test16.cpp", "operation_count": "0001"}
 {"file_name": "Clipper/tests/test16.cpp", "operation_count": "007"}
 {"file_name": "Clipper/tests/test16.cpp", "operation_count": "+5"}
@@ -875,7 +875,7 @@
 {"file_name": "sortedcontainers-cpp/tests/test18.cpp", "n": "50000"}
 {"file_name": "sortedcontainers-cpp/tests/test18.cpp", "n": "100000"}
 {"file_name": "sortedcontainers-cpp/tests/test18.cpp", "n": "250000"}
-{"file_name": "sortedcontainers-cpp/tests/test18.cpp", "n": "-2147483648"}
+{"file_name": "sortedcontainers-cpp/tests/test18.cpp", "n": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test19.cpp", "n": "0"}
 {"file_name": "sortedcontainers-cpp/tests/test19.cpp", "n": "1"}
 {"file_name": "sortedcontainers-cpp/tests/test19.cpp", "n": "2"}
@@ -937,7 +937,7 @@
 {"file_name": "sortedcontainers-cpp/tests/test8.cpp", "n": "-5"}
 {"file_name": "sortedcontainers-cpp/tests/test8.cpp", "n": "-10"}
 {"file_name": "sortedcontainers-cpp/tests/test8.cpp", "n": "-100"}
-{"file_name": "sortedcontainers-cpp/tests/test8.cpp", "n": "-2147483648"}
+{"file_name": "sortedcontainers-cpp/tests/test8.cpp", "n": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test8.cpp", "n": "3.14"}
 {"file_name": "sortedcontainers-cpp/tests/test8.cpp", "n": "0.5"}
 {"file_name": "sortedcontainers-cpp/tests/test8.cpp", "n": "10.9"}
@@ -1002,9 +1002,9 @@
 {"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "1", "value1": "1", "key2": "1", "value2": "1"}
 {"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "5", "value1": "100", "key2": "5", "value2": "200"}
 {"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "999", "value1": "999", "key2": "1000", "value2": "1000"}
-{"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "2147483647", "value1": "1", "key2": "2", "value2": "2"}
-{"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "1", "value1": "2147483647", "key2": "2", "value2": "3"}
-{"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "-2147483648", "value1": "0", "key2": "1", "value2": "1"}
+{"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "", "value1": "1", "key2": "2", "value2": "2"}
+{"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "1", "value1": "", "key2": "2", "value2": "3"}
+{"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "-", "value1": "0", "key2": "1", "value2": "1"}
 {"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "42", "value1": "42", "key2": "43", "value2": "43"}
 {"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "1", "value1": "2", "key2": "3", "value2": "4"}
 {"file_name": "sortedcontainers-cpp/tests/test4.cpp", "key1": "100", "value1": "200", "key2": "300", "value2": "400"}
@@ -1043,8 +1043,8 @@
 {"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "999", "val2": "888", "val3": "777", "val4": "666", "val5": "555"}
 {"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "-10", "val2": "-20", "val3": "-30", "val4": "-40", "val5": "-50"}
 {"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "1", "val2": "1", "val3": "2", "val4": "2", "val5": "3"}
-{"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "2147483647", "val2": "0", "val3": "0", "val4": "0", "val5": "0"}
-{"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "-2147483648", "val2": "0", "val3": "0", "val4": "0", "val5": "0"}
+{"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "", "val2": "0", "val3": "0", "val4": "0", "val5": "0"}
+{"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "-", "val2": "0", "val3": "0", "val4": "0", "val5": "0"}
 {"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "7", "val2": "14", "val3": "21", "val4": "28", "val5": "35"}
 {"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "11", "val2": "22", "val3": "33", "val4": "44", "val5": "55"}
 {"file_name": "sortedcontainers-cpp/tests/test5.cpp", "val1": "3", "val2": "1", "val3": "4", "val4": "1", "val5": "5"}
@@ -1159,8 +1159,8 @@
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "42", "num2": "42"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "0", "num2": "1"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "1", "num2": "0"}
-{"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "-2147483648", "num2": "2147483647"}
-{"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "2147483647", "num2": "-2147483648"}
+{"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "-", "num2": ""}
+{"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "", "num2": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "999999", "num2": "1000000"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "-999999", "num2": "-1000000"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "123", "num2": "456"}
@@ -1169,8 +1169,8 @@
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "-123", "num2": "-456"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "1", "num2": "-1"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "-1", "num2": "-1"}
-{"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "1000000000", "num2": "2000000000"}
-{"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "-1000000000", "num2": "-2000000000"}
+{"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "", "num2": ""}
+{"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "-", "num2": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "5", "num2": "10"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "10", "num2": "5"}
 {"file_name": "sortedcontainers-cpp/tests/test2.cpp", "num1": "3", "num2": "3"}
@@ -1200,8 +1200,8 @@
 {"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "1", "y": "2", "z": "3"}
 {"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "999", "y": "1000", "z": "1001"}
 {"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "-999", "y": "-1000", "z": "-1001"}
-{"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "2147483647", "y": "2147483646", "z": "2147483645"}
-{"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "-2147483648", "y": "-2147483647", "z": "-2147483646"}
+{"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "", "y": "", "z": ""}
+{"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "-", "y": "-", "z": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "42", "y": "42", "z": "42"}
 {"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "0", "y": "10", "z": "20"}
 {"file_name": "sortedcontainers-cpp/tests/test3.cpp", "x": "10", "y": "0", "z": "20"}
@@ -1242,8 +1242,8 @@
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "-1000"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "999"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "-999"}
-{"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "2147483647"}
-{"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "-2147483648"}
+{"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": ""}
+{"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "12345"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "-12345"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "42"}
@@ -1253,8 +1253,8 @@
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "3"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "256"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "65535"}
-{"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "2147483646"}
-{"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "-2147483647"}
+{"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": ""}
+{"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "abc"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "xyz"}
 {"file_name": "sortedcontainers-cpp/tests/test1.cpp", "value": "123abc"}
@@ -1297,7 +1297,7 @@
 {"file_name": "sortedcontainers-cpp/tests/test17.cpp", "n": "-1"}
 {"file_name": "sortedcontainers-cpp/tests/test17.cpp", "n": "-10"}
 {"file_name": "sortedcontainers-cpp/tests/test17.cpp", "n": "-100"}
-{"file_name": "sortedcontainers-cpp/tests/test17.cpp", "n": "-2147483648"}
+{"file_name": "sortedcontainers-cpp/tests/test17.cpp", "n": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test17.cpp", "n": "00"}
 {"file_name": "sortedcontainers-cpp/tests/test17.cpp", "n": "00017"}
 {"file_name": "sortedcontainers-cpp/tests/test17.cpp", "n": "+10"}
@@ -1403,7 +1403,7 @@
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "-1"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "-10"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "-100"}
-{"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "-2147483648"}
+{"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "abc"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "xyz123"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": ""}
@@ -1416,7 +1416,7 @@
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "0777"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "+25"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "-0"}
-{"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "999999999999"}
+{"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": ""}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "4"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "7"}
 {"file_name": "sortedcontainers-cpp/tests/test15.cpp", "n": "11"}
@@ -1450,7 +1450,7 @@
 {"file_name": "sortedcontainers-cpp/tests/test11.cpp", "n": "-1"}
 {"file_name": "sortedcontainers-cpp/tests/test11.cpp", "n": "-10"}
 {"file_name": "sortedcontainers-cpp/tests/test11.cpp", "n": "-100"}
-{"file_name": "sortedcontainers-cpp/tests/test11.cpp", "n": "-2147483648"}
+{"file_name": "sortedcontainers-cpp/tests/test11.cpp", "n": "-"}
 {"file_name": "sortedcontainers-cpp/tests/test11.cpp", "n": " 10"}
 {"file_name": "sortedcontainers-cpp/tests/test11.cpp", "n": "10 "}
 {"file_name": "sortedcontainers-cpp/tests/test11.cpp", "n": "  20  "}
@@ -1722,7 +1722,7 @@
 {"file_name": "indicators/tests/test8.cpp", "progress": "-1"}
 {"file_name": "indicators/tests/test8.cpp", "progress": "-5"}
 {"file_name": "indicators/tests/test8.cpp", "progress": "-10"}
-{"file_name": "indicators/tests/test8.cpp", "progress": "-2147483648"}
+{"file_name": "indicators/tests/test8.cpp", "progress": "-"}
 {"file_name": "indicators/tests/test8.cpp", "progress": " 10"}
 {"file_name": "indicators/tests/test8.cpp", "progress": "\t20"}
 {"file_name": "indicators/tests/test8.cpp", "progress": "\n5"}
@@ -1894,8 +1894,8 @@
 {"file_name": "indicators/tests/test7.cpp", "progress": "170"}
 {"file_name": "indicators/tests/test7.cpp", "progress": "180"}
 {"file_name": "indicators/tests/test7.cpp", "progress": "190"}
-{"file_name": "indicators/tests/test7.cpp", "progress": "2147483647"}
-{"file_name": "indicators/tests/test7.cpp", "progress": "-2147483648"}
+{"file_name": "indicators/tests/test7.cpp", "progress": ""}
+{"file_name": "indicators/tests/test7.cpp", "progress": "-"}
 {"file_name": "indicators/tests/test7.cpp", "progress": "00001"}
 {"file_name": "indicators/tests/test7.cpp", "progress": "000150"}
 {"file_name": "indicators/tests/test7.cpp", "progress": "  150"}
@@ -2237,7 +2237,7 @@
 {"file_name": "indicators/tests/test11.cpp", "stage": "1000"}
 {"file_name": "indicators/tests/test11.cpp", "stage": "10000"}
 {"file_name": "indicators/tests/test11.cpp", "stage": "999999"}
-{"file_name": "indicators/tests/test11.cpp", "stage": "-2147483648"}
+{"file_name": "indicators/tests/test11.cpp", "stage": "-"}
 {"file_name": "indicators/tests/test11.cpp", "stage": "01"}
 {"file_name": "indicators/tests/test11.cpp", "stage": "02"}
 {"file_name": "indicators/tests/test11.cpp", "stage": "03"}
@@ -2435,7 +2435,7 @@
 {"file_name": "earcut.hpp/tests/test20.cpp", "count": "-1"}
 {"file_name": "earcut.hpp/tests/test20.cpp", "count": "-10"}
 {"file_name": "earcut.hpp/tests/test20.cpp", "count": "-100"}
-{"file_name": "earcut.hpp/tests/test20.cpp", "count": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test20.cpp", "count": "-"}
 {"file_name": "earcut.hpp/tests/test20.cpp", "count": "3.14"}
 {"file_name": "earcut.hpp/tests/test20.cpp", "count": "10.5"}
 {"file_name": "earcut.hpp/tests/test20.cpp", "count": "-5.9"}
@@ -2480,7 +2480,7 @@
 {"file_name": "earcut.hpp/tests/test18.cpp", "n": "1000"}
 {"file_name": "earcut.hpp/tests/test18.cpp", "n": "5000"}
 {"file_name": "earcut.hpp/tests/test18.cpp", "n": "10000"}
-{"file_name": "earcut.hpp/tests/test18.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test18.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test18.cpp", "n": "  10  "}
 {"file_name": "earcut.hpp/tests/test18.cpp", "n": "+15"}
 {"file_name": "earcut.hpp/tests/test18.cpp", "n": "+100"}
@@ -2532,7 +2532,7 @@
 {"file_name": "earcut.hpp/tests/test19.cpp", "n": "2e3"}
 {"file_name": "earcut.hpp/tests/test19.cpp", "n": "1.5e2"}
 {"file_name": "earcut.hpp/tests/test19.cpp", "n": "-1e3"}
-{"file_name": "earcut.hpp/tests/test19.cpp", "n": "2147483647"}
+{"file_name": "earcut.hpp/tests/test19.cpp", "n": ""}
 {"file_name": "earcut.hpp/tests/test19.cpp", "n": "  10  "}
 {"file_name": "earcut.hpp/tests/test8.cpp", "n": "1"}
 {"file_name": "earcut.hpp/tests/test8.cpp", "n": "2"}
@@ -2558,7 +2558,7 @@
 {"file_name": "earcut.hpp/tests/test8.cpp", "n": "-10"}
 {"file_name": "earcut.hpp/tests/test8.cpp", "n": "999"}
 {"file_name": "earcut.hpp/tests/test8.cpp", "n": "1000"}
-{"file_name": "earcut.hpp/tests/test8.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test8.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test8.cpp", "n": "1.5"}
 {"file_name": "earcut.hpp/tests/test8.cpp", "n": "2.7"}
 {"file_name": "earcut.hpp/tests/test8.cpp", "n": "abc"}
@@ -2608,7 +2608,7 @@
 {"file_name": "earcut.hpp/tests/test9.cpp", "n": "  5  "}
 {"file_name": "earcut.hpp/tests/test9.cpp", "n": "10abc"}
 {"file_name": "earcut.hpp/tests/test9.cpp", "n": "abc10"}
-{"file_name": "earcut.hpp/tests/test9.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test9.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test9.cpp", "n": "00001"}
 {"file_name": "earcut.hpp/tests/test9.cpp", "n": "+15"}
 {"file_name": "earcut.hpp/tests/test4.cpp", "n": "1"}
@@ -2670,7 +2670,7 @@
 {"file_name": "earcut.hpp/tests/test5.cpp", "n": "5.9"}
 {"file_name": "earcut.hpp/tests/test5.cpp", "n": "10.5"}
 {"file_name": "earcut.hpp/tests/test5.cpp", "n": "-2.5"}
-{"file_name": "earcut.hpp/tests/test5.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test5.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test5.cpp", "n": "abc"}
 {"file_name": "earcut.hpp/tests/test5.cpp", "n": "xyz"}
 {"file_name": "earcut.hpp/tests/test5.cpp", "n": "5abc"}
@@ -2714,8 +2714,8 @@
 {"file_name": "earcut.hpp/tests/test7.cpp", "n": "0x10"}
 {"file_name": "earcut.hpp/tests/test7.cpp", "n": "07"}
 {"file_name": "earcut.hpp/tests/test7.cpp", "n": "1e2"}
-{"file_name": "earcut.hpp/tests/test7.cpp", "n": "2147483647"}
-{"file_name": "earcut.hpp/tests/test7.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test7.cpp", "n": ""}
+{"file_name": "earcut.hpp/tests/test7.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test7.cpp", "n": "00005"}
 {"file_name": "earcut.hpp/tests/test7.cpp", "n": "000"}
 {"file_name": "earcut.hpp/tests/test7.cpp", "n": "4"}
@@ -2754,7 +2754,7 @@
 {"file_name": "earcut.hpp/tests/test6.cpp", "n": ""}
 {"file_name": "earcut.hpp/tests/test6.cpp", "n": " "}
 {"file_name": "earcut.hpp/tests/test6.cpp", "n": "  5  "}
-{"file_name": "earcut.hpp/tests/test6.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test6.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test6.cpp", "n": "01"}
 {"file_name": "earcut.hpp/tests/test6.cpp", "n": "0010"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "0"}
@@ -2772,15 +2772,15 @@
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "-1"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "-10"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "-100"}
-{"file_name": "earcut.hpp/tests/test2.cpp", "number": "2147483647"}
-{"file_name": "earcut.hpp/tests/test2.cpp", "number": "2147483646"}
-{"file_name": "earcut.hpp/tests/test2.cpp", "number": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test2.cpp", "number": ""}
+{"file_name": "earcut.hpp/tests/test2.cpp", "number": ""}
+{"file_name": "earcut.hpp/tests/test2.cpp", "number": "-"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "0.5"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "1.5"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "2.71828"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "3.14159"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "999999999"}
-{"file_name": "earcut.hpp/tests/test2.cpp", "number": "1000000000"}
+{"file_name": "earcut.hpp/tests/test2.cpp", "number": ""}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "15"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "25"}
 {"file_name": "earcut.hpp/tests/test2.cpp", "number": "75"}
@@ -2856,7 +2856,7 @@
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "-1"}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "-10"}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "-100"}
-{"file_name": "earcut.hpp/tests/test1.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test1.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "abc"}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "1.5"}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "3.14"}
@@ -2873,7 +2873,7 @@
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "++5"}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "1 2 3"}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "1,2,3"}
-{"file_name": "earcut.hpp/tests/test1.cpp", "n": "999999999999999999999"}
+{"file_name": "earcut.hpp/tests/test1.cpp", "n": ""}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "null"}
 {"file_name": "earcut.hpp/tests/test1.cpp", "n": "undefined"}
 {"file_name": "earcut.hpp/tests/test17.cpp", "n": "0"}
@@ -2897,7 +2897,7 @@
 {"file_name": "earcut.hpp/tests/test17.cpp", "n": "-1"}
 {"file_name": "earcut.hpp/tests/test17.cpp", "n": "-10"}
 {"file_name": "earcut.hpp/tests/test17.cpp", "n": "-100"}
-{"file_name": "earcut.hpp/tests/test17.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test17.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test17.cpp", "n": "abc"}
 {"file_name": "earcut.hpp/tests/test17.cpp", "n": "123abc"}
 {"file_name": "earcut.hpp/tests/test17.cpp", "n": "abc123"}
@@ -2973,7 +2973,7 @@
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "-1"}
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "-10"}
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "-100"}
-{"file_name": "earcut.hpp/tests/test14.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test14.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "0.5"}
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "1.9"}
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "3.14"}
@@ -2991,7 +2991,7 @@
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "0x10"}
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "08"}
 {"file_name": "earcut.hpp/tests/test14.cpp", "n": "+15"}
-{"file_name": "earcut.hpp/tests/test14.cpp", "n": "00000000000000000001"}
+{"file_name": "earcut.hpp/tests/test14.cpp", "n": ""}
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "0"}
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "1"}
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "2"}
@@ -3011,8 +3011,8 @@
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "-5"}
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "-10"}
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "-100"}
-{"file_name": "earcut.hpp/tests/test15.cpp", "n": "2147483647"}
-{"file_name": "earcut.hpp/tests/test15.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test15.cpp", "n": ""}
+{"file_name": "earcut.hpp/tests/test15.cpp", "n": "-"}
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "1.5"}
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "3.7"}
 {"file_name": "earcut.hpp/tests/test15.cpp", "n": "10.9"}
@@ -3185,8 +3185,8 @@
 {"file_name": "earcut.hpp/tests/test13.cpp", "n": "12.5"}
 {"file_name": "earcut.hpp/tests/test13.cpp", "n": " 123"}
 {"file_name": "earcut.hpp/tests/test13.cpp", "n": "45abc"}
-{"file_name": "earcut.hpp/tests/test13.cpp", "n": "2147483647"}
-{"file_name": "earcut.hpp/tests/test13.cpp", "n": "-2147483648"}
+{"file_name": "earcut.hpp/tests/test13.cpp", "n": ""}
+{"file_name": "earcut.hpp/tests/test13.cpp", "n": "-"}
 {"file_name": "immer/tests/test20.cpp", "n": "0"}
 {"file_name": "immer/tests/test20.cpp", "n": "1"}
 {"file_name": "immer/tests/test20.cpp", "n": "2"}
@@ -3401,8 +3401,8 @@
 {"file_name": "immer/tests/test4.cpp", "number": "-2"}
 {"file_name": "immer/tests/test4.cpp", "number": "-10"}
 {"file_name": "immer/tests/test4.cpp", "number": "-100"}
-{"file_name": "immer/tests/test4.cpp", "number": "2147483647"}
-{"file_name": "immer/tests/test4.cpp", "number": "-2147483648"}
+{"file_name": "immer/tests/test4.cpp", "number": ""}
+{"file_name": "immer/tests/test4.cpp", "number": "-"}
 {"file_name": "immer/tests/test4.cpp", "number": "999999"}
 {"file_name": "immer/tests/test4.cpp", "number": "-999999"}
 {"file_name": "immer/tests/test4.cpp", "number": "  5"}
@@ -3436,8 +3436,8 @@
 {"file_name": "immer/tests/test5.cpp", "number": "-1"}
 {"file_name": "immer/tests/test5.cpp", "number": "-10"}
 {"file_name": "immer/tests/test5.cpp", "number": "-100"}
-{"file_name": "immer/tests/test5.cpp", "number": "-2147483648"}
-{"file_name": "immer/tests/test5.cpp", "number": "2147483647"}
+{"file_name": "immer/tests/test5.cpp", "number": "-"}
+{"file_name": "immer/tests/test5.cpp", "number": ""}
 {"file_name": "immer/tests/test5.cpp", "number": "42"}
 {"file_name": "immer/tests/test5.cpp", "number": "99"}
 {"file_name": "immer/tests/test5.cpp", "number": "255"}
@@ -3515,8 +3515,8 @@
 {"file_name": "immer/tests/test6.cpp", "value": "-1000"}
 {"file_name": "immer/tests/test6.cpp", "value": "999"}
 {"file_name": "immer/tests/test6.cpp", "value": "-999"}
-{"file_name": "immer/tests/test6.cpp", "value": "2147483647"}
-{"file_name": "immer/tests/test6.cpp", "value": "-2147483648"}
+{"file_name": "immer/tests/test6.cpp", "value": ""}
+{"file_name": "immer/tests/test6.cpp", "value": "-"}
 {"file_name": "immer/tests/test6.cpp", "value": "42"}
 {"file_name": "immer/tests/test6.cpp", "value": "-42"}
 {"file_name": "immer/tests/test6.cpp", "value": "7"}
@@ -3554,8 +3554,8 @@
 {"file_name": "immer/tests/test2.cpp", "number": "1000"}
 {"file_name": "immer/tests/test2.cpp", "number": "-1"}
 {"file_name": "immer/tests/test2.cpp", "number": "-100"}
-{"file_name": "immer/tests/test2.cpp", "number": "2147483647"}
-{"file_name": "immer/tests/test2.cpp", "number": "-2147483648"}
+{"file_name": "immer/tests/test2.cpp", "number": ""}
+{"file_name": "immer/tests/test2.cpp", "number": "-"}
 {"file_name": "immer/tests/test2.cpp", "number": " 42"}
 {"file_name": "immer/tests/test2.cpp", "number": "  99"}
 {"file_name": "immer/tests/test2.cpp", "number": "7  "}
@@ -3597,8 +3597,8 @@
 {"file_name": "immer/tests/test3.cpp", "number": "-100"}
 {"file_name": "immer/tests/test3.cpp", "number": "42"}
 {"file_name": "immer/tests/test3.cpp", "number": "999"}
-{"file_name": "immer/tests/test3.cpp", "number": "2147483647"}
-{"file_name": "immer/tests/test3.cpp", "number": "-2147483648"}
+{"file_name": "immer/tests/test3.cpp", "number": ""}
+{"file_name": "immer/tests/test3.cpp", "number": "-"}
 {"file_name": "immer/tests/test3.cpp", "number": "12345"}
 {"file_name": "immer/tests/test3.cpp", "number": "-12345"}
 {"file_name": "immer/tests/test3.cpp", "number": "7"}
@@ -3656,7 +3656,7 @@
 {"file_name": "immer/tests/test1.cpp", "n": "-3.5"}
 {"file_name": "immer/tests/test1.cpp", "n": "0x10"}
 {"file_name": "immer/tests/test1.cpp", "n": "010"}
-{"file_name": "immer/tests/test1.cpp", "n": "-2147483648"}
+{"file_name": "immer/tests/test1.cpp", "n": "-"}
 {"file_name": "immer/tests/test1.cpp", "n": "001"}
 {"file_name": "immer/tests/test1.cpp", "n": "00005"}
 {"file_name": "immer/tests/test1.cpp", "n": "+5"}
@@ -3733,7 +3733,7 @@
 {"file_name": "immer/tests/test16.cpp", "number": "-5"}
 {"file_name": "immer/tests/test16.cpp", "number": "-10"}
 {"file_name": "immer/tests/test16.cpp", "number": "-100"}
-{"file_name": "immer/tests/test16.cpp", "number": "-2147483648"}
+{"file_name": "immer/tests/test16.cpp", "number": "-"}
 {"file_name": "immer/tests/test16.cpp", "number": "00100"}
 {"file_name": "immer/tests/test16.cpp", "number": "00005"}
 {"file_name": "immer/tests/test16.cpp", "number": "   25"}
@@ -3883,7 +3883,7 @@
 {"file_name": "immer/tests/test10.cpp", "n": "-1"}
 {"file_name": "immer/tests/test10.cpp", "n": "-10"}
 {"file_name": "immer/tests/test10.cpp", "n": "-100"}
-{"file_name": "immer/tests/test10.cpp", "n": "-2147483648"}
+{"file_name": "immer/tests/test10.cpp", "n": "-"}
 {"file_name": "immer/tests/test10.cpp", "n": "00005"}
 {"file_name": "immer/tests/test10.cpp", "n": "  10"}
 {"file_name": "immer/tests/test10.cpp", "n": "10  "}
@@ -3893,7 +3893,7 @@
 {"file_name": "immer/tests/test10.cpp", "n": "-0"}
 {"file_name": "immer/tests/test10.cpp", "n": "+0"}
 {"file_name": "immer/tests/test10.cpp", "n": "00100"}
-{"file_name": "immer/tests/test10.cpp", "n": "0000000001"}
+{"file_name": "immer/tests/test10.cpp", "n": ""}
 {"file_name": "immer/tests/test12.cpp", "n": "0"}
 {"file_name": "immer/tests/test12.cpp", "n": "1"}
 {"file_name": "immer/tests/test12.cpp", "n": "2"}
@@ -4137,14 +4137,14 @@
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "-1"}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "-10"}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "-100"}
-{"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "-2147483648"}
+{"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "-"}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "  5"}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "5  "}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "  10  "}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "+5"}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "+100"}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "00001"}
-{"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": "0000000000"}
+{"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a", "arg2": ""}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "-a", "arg2": "5"}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--A", "arg2": "5"}
 {"file_name": "hopscotch-map/tests/test9.cpp", "arg1": "--a ", "arg2": "5"}
@@ -4259,7 +4259,7 @@
 {"file_name": "hopscotch-map/tests/test7.cpp", "flag": "--a", "number": "10000"}
 {"file_name": "hopscotch-map/tests/test7.cpp", "flag": "--a", "number": "-1"}
 {"file_name": "hopscotch-map/tests/test7.cpp", "flag": "--a", "number": "-100"}
-{"file_name": "hopscotch-map/tests/test7.cpp", "flag": "--a", "number": "-2147483648"}
+{"file_name": "hopscotch-map/tests/test7.cpp", "flag": "--a", "number": "-"}
 {"file_name": "hopscotch-map/tests/test7.cpp", "flag": "--a", "number": "  10"}
 {"file_name": "hopscotch-map/tests/test7.cpp", "flag": "--a", "number": "20  "}
 {"file_name": "hopscotch-map/tests/test7.cpp", "flag": "--a", "number": "  30  "}
@@ -4411,7 +4411,7 @@
 {"file_name": "hopscotch-map/tests/test1.cpp", "option": "--a", "value": "-1"}
 {"file_name": "hopscotch-map/tests/test1.cpp", "option": "--a", "value": "-10"}
 {"file_name": "hopscotch-map/tests/test1.cpp", "option": "--a", "value": "-100"}
-{"file_name": "hopscotch-map/tests/test1.cpp", "option": "--a", "value": "-2147483648"}
+{"file_name": "hopscotch-map/tests/test1.cpp", "option": "--a", "value": "-"}
 {"file_name": "hopscotch-map/tests/test1.cpp", "option": "--a", "value": "  10"}
 {"file_name": "hopscotch-map/tests/test1.cpp", "option": "--a", "value": "20  "}
 {"file_name": "hopscotch-map/tests/test1.cpp", "option": "--a", "value": "  30  "}
@@ -4499,7 +4499,7 @@
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "-1"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "-10"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "-100"}
-{"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "-2147483648"}
+{"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "-"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "00001"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "007"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "  10"}
@@ -4508,7 +4508,7 @@
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "+5"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "+100"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "00100"}
-{"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "0000000001"}
+{"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": ""}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "999999"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "12345"}
 {"file_name": "hopscotch-map/tests/test16.cpp", "option": "--a", "count": "54321"}
@@ -4527,7 +4527,7 @@
 {"file_name": "hopscotch-map/tests/test14.cpp", "arg1": "--a", "arg2": "-1"}
 {"file_name": "hopscotch-map/tests/test14.cpp", "arg1": "--a", "arg2": "-10"}
 {"file_name": "hopscotch-map/tests/test14.cpp", "arg1": "--a", "arg2": "999"}
-{"file_name": "hopscotch-map/tests/test14.cpp", "arg1": "--a", "arg2": "-2147483648"}
+{"file_name": "hopscotch-map/tests/test14.cpp", "arg1": "--a", "arg2": "-"}
 {"file_name": "hopscotch-map/tests/test14.cpp", "arg1": "--a", "arg2": "12345"}
 {"file_name": "hopscotch-map/tests/test14.cpp", "arg1": "--a", "arg2": "007"}
 {"file_name": "hopscotch-map/tests/test14.cpp", "arg1": "--a", "arg2": "00001"}
@@ -4870,7 +4870,7 @@
 {"file_name": "inflection-cpp/tests/test8.cpp", "word1": "HelloWorld", "word2": "MyApp::Models::User", "length": "5"}
 {"file_name": "inflection-cpp/tests/test8.cpp", "word1": "Test", "word2": "Admin::UserController", "length": "10"}
 {"file_name": "inflection-cpp/tests/test8.cpp", "word1": "ApplicationController", "word2": "Core::Base::Model", "length": "15"}
-{"file_name": "inflection-cpp/tests/test8.cpp", "word1": "Product", "word2": "Namespace::ClassName", "length": "0"}
+{"file_name": "inflection-cpp/tests/test8.cpp", "word1": "Product", "word2": "Namespace::Claame", "length": "0"}
 {"file_name": "inflection-cpp/tests/test8.cpp", "word1": "Data", "word2": "Simple", "length": "100"}
 {"file_name": "inflection-cpp/tests/test8.cpp", "word1": "", "word2": "Test::Empty", "length": "5"}
 {"file_name": "inflection-cpp/tests/test8.cpp", "word1": "Short", "word2": "", "length": "3"}
@@ -4951,7 +4951,7 @@
 {"file_name": "inflection-cpp/tests/test4.cpp", "word1": "my_variable", "word2": "MyVariable", "word3": "shopping_cart"}
 {"file_name": "inflection-cpp/tests/test4.cpp", "word1": "user-name", "word2": "UserName", "word3": "blog_post"}
 {"file_name": "inflection-cpp/tests/test4.cpp", "word1": "first_name", "word2": "FirstName", "word3": "email_address"}
-{"file_name": "inflection-cpp/tests/test4.cpp", "word1": "last-name", "word2": "LastName", "word3": "phone_number"}
+{"file_name": "inflection-cpp/tests/test4.cpp", "word1": "last-name", "word2": "LastName", "word3": ""}
 {"file_name": "inflection-cpp/tests/test4.cpp", "word1": "create_date", "word2": "CreateDate", "word3": "web_page"}
 {"file_name": "inflection-cpp/tests/test4.cpp", "word1": "update-time", "word2": "UpdateTime", "word3": "data_base"}
 {"file_name": "inflection-cpp/tests/test4.cpp", "word1": "is_active", "word2": "IsActive", "word3": "file_name"}
@@ -5086,8 +5086,8 @@
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Event", "arg2": "enables_sharing", "arg3": "account_balance", "arg4": "Account Balance $100"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Member", "arg2": "accepts_invites", "arg3": "order_total_amount", "arg4": "Order Total: 99.99"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Admin", "arg2": "sends_notifications", "arg3": "product_sku_number", "arg4": "Product SKU #ABC123"}
-{"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Guest", "arg2": "receives_updates", "arg3": "customer_phone_number", "arg4": "Customer Phone (555) 123-4567"}
-{"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Author", "arg2": "owns_content", "arg3": "shipping_address_line", "arg4": "Shipping Address Line 1"}
+{"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Guest", "arg2": "receives_updates", "arg3": "customer_", "arg4": "Customer Phone ("}
+{"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Author", "arg2": "owns_content", "arg3": "shipping_", "arg4": "Shipping Address Line 1"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Editor", "arg2": "modifies_records", "arg3": "billing_city_name", "arg4": "Billing City & State"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Viewer", "arg2": "reads_articles", "arg3": "postal_zip_code", "arg4": "Postal/Zip Code"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Subscriber", "arg2": "downloads_files", "arg3": "country_iso_code", "arg4": "Country ISO-Code"}
@@ -5095,7 +5095,7 @@
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Contributor", "arg2": "creates_posts", "arg3": "currency_symbol", "arg4": "Currency Symbol €"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Follower", "arg2": "likes_photos", "arg3": "timezone_offset", "arg4": "Timezone +08:00"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Participant", "arg2": "shares_videos", "arg3": "date_of_birth", "arg4": "Date of Birth 01/01/2000"}
-{"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Organizer", "arg2": "hosts_events", "arg3": "start_timestamp", "arg4": "Start Timestamp 2024-01-01"}
+{"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Organizer", "arg2": "hosts_events", "arg3": "start_timestamp", "arg4": "Start Timestamp "}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Sponsor", "arg2": "funds_projects", "arg3": "end_datetime", "arg4": "End Datetime 12/31/2024"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Partner", "arg2": "collaborates_on", "arg3": "created_by_user", "arg4": "Created by User <Admin>"}
 {"file_name": "inflection-cpp/tests/test6.cpp", "arg1": "Customer", "arg2": "purchases_items", "arg3": "modified_at_time", "arg4": "Modified at Time: 10:30 AM"}
@@ -5315,11 +5315,11 @@
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "leaf", "word2": "htmlElement", "word3": "permission_role", "word4": "first_name", "word5": "my-key", "word6": "EXAMPLE", "word7": "angular"}
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "life", "word2": "cssStyle", "word3": "address_book", "word4": "last_name", "word5": "value1", "word6": "mixed", "word7": "reactJS"}
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "wife", "word2": "SQLQuery", "word3": "calendar_event", "word4": "email_address", "word5": "test-value-123", "word6": "ALLCAPS", "word7": "swift"}
-{"file_name": "inflection-cpp/tests/test14.cpp", "word1": "tooth", "word2": "RESTEndpoint", "word3": "upload_file", "word4": "phone_number", "word5": "special_chars", "word6": "nocaps", "word7": "kotlin"}
+{"file_name": "inflection-cpp/tests/test14.cpp", "word1": "tooth", "word2": "RESTEndpoint", "word3": "upload_file", "word4": "", "word5": "special_chars", "word6": "nocaps", "word7": "kotlin"}
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "foot", "word2": "HTTPRequest", "word3": "download_link", "word4": "zip_code", "word5": "with spaces", "word6": "CamelCase", "word7": "golang"}
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "goose", "word2": "URLPath", "word3": "session_token", "word4": "country_code", "word5": "dash-separated", "word6": "somevalue", "word7": "rustLang"}
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "man", "word2": "XMLNode", "word3": "cache_key", "word4": "city_name", "word5": "mixed123", "word6": "UPPERCASE", "word7": "java"}
-{"file_name": "inflection-cpp/tests/test14.cpp", "word1": "woman", "word2": "JSONParser", "word3": "log_entry", "word4": "street_address", "word5": "test_case", "word6": "lower_case", "word7": "scala"}
+{"file_name": "inflection-cpp/tests/test14.cpp", "word1": "woman", "word2": "JSONParser", "word3": "log_entry", "word4": "", "word5": "test_case", "word6": "lower_case", "word7": "scala"}
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "ox", "word2": "HTMLTag", "word3": "error_message", "word4": "company_name", "word5": "sample text", "word6": "ANOTHER", "word7": "elixir"}
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "analysis", "word2": "CSSClass", "word3": "success_response", "word4": "job_title", "word5": "param-name", "word6": "testing", "word7": "haskell"}
 {"file_name": "inflection-cpp/tests/test14.cpp", "word1": "basis", "word2": "JSFunction", "word3": "data_row", "word4": "department", "word5": "app_name", "word6": "VALUE", "word7": "clojure"}
@@ -5365,12 +5365,12 @@
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "phenomenon", "arg2": "criterion"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "datum", "arg2": "medium"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "bacterium", "arg2": "curriculum"}
-{"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "HelloWorld", "arg2": "MyClassName"}
+{"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "HelloWorld", "arg2": "MyClaame"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "XMLParser", "arg2": "HTMLDocument"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "JSONData", "arg2": "APIResponse"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "user_name", "arg2": "first_name"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "last_name", "arg2": "email_address"}
-{"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "phone_number", "arg2": "zip_code"}
+{"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "", "arg2": "zip_code"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "book", "arg2": "pen", "arg3": "table"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "city", "arg2": "country", "arg3": "state"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "life", "arg2": "leaf", "arg3": "knife"}
@@ -5380,7 +5380,7 @@
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "class", "arg2": "glass", "arg3": "pass"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "quiz", "arg2": "buzz", "arg3": "fizz"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "UserAccount", "arg2": "EmailAddress", "arg3": "PhoneNumber"}
-{"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "user_account", "arg2": "email_address", "arg3": "phone_number"}
+{"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "user_account", "arg2": "email_address", "arg3": ""}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "tomato", "arg2": "potato", "arg3": "hero", "arg4": "echo"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "volcano", "arg2": "tornado", "arg3": "mosquito", "arg4": "buffalo"}
 {"file_name": "inflection-cpp/tests/test15.cpp", "arg1": "person", "arg2": "people", "arg3": "child", "arg4": "children", "arg5": "mouse"}
@@ -5472,8 +5472,8 @@
 {"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "child", "arg2": "HTTPRequest", "arg3": "mouse", "arg4": "first_name"}
 {"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "person", "arg2": "api_client", "arg3": "tooth", "arg4": "last_name"}
 {"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "mouse", "arg2": "JSONResponse", "arg3": "goose", "arg4": "email_address"}
-{"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "tooth", "arg2": "HTMLDocument", "arg3": "foot", "arg4": "phone_number"}
-{"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "goose", "arg2": "CSSStyle", "arg3": "man", "arg4": "street_address"}
+{"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "tooth", "arg2": "HTMLDocument", "arg3": "foot", "arg4": ""}
+{"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "goose", "arg2": "CSSStyle", "arg3": "man", "arg4": ""}
 {"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "foot", "arg2": "URLBuilder", "arg3": "woman", "arg4": "postal_code"}
 {"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "man", "arg2": "SQLQuery", "arg3": "datum", "arg4": "country_name"}
 {"file_name": "inflection-cpp/tests/test12.cpp", "arg1": "woman", "arg2": "PDFReader", "arg3": "medium", "arg4": "city_name"}
@@ -5624,7 +5624,7 @@
 {"file_name": "idna-cpp/tests/test18.cpp", "domain1": "api.v1.service.example.io"}
 {"file_name": "idna-cpp/tests/test18.cpp", "domain1": "short.io"}
 {"file_name": "idna-cpp/tests/test18.cpp", "domain1": "x.y"}
-{"file_name": "idna-cpp/tests/test18.cpp", "domain1": "1.2.3.4.5.6"}
+{"file_name": "idna-cpp/tests/test18.cpp", "domain1": ".5.6"}
 {"file_name": "idna-cpp/tests/test18.cpp", "domain1": "user-name.site-name.domain-name.example.co.uk", "domain2": "测试站点.测试域名.中国"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "example.com"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "测试.中国"}
@@ -5637,16 +5637,16 @@
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "a"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z"}
-{"file_name": "idna-cpp/tests/test19.cpp", "domain": "test@domain.com"}
+{"file_name": "idna-cpp/tests/test19.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "valid-domain.org"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "-invalid.com"}
-{"file_name": "idna-cpp/tests/test19.cpp", "domain": "123.456.789"}
+{"file_name": "idna-cpp/tests/test19.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "test-domain-name.com"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "test_domain.com"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "test domain.com"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "test..domain.com"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "example.com."}
-{"file_name": "idna-cpp/tests/test19.cpp", "domain": "192.168.1.1"}
+{"file_name": "idna-cpp/tests/test19.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "localhost"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "singlelabel"}
 {"file_name": "idna-cpp/tests/test19.cpp", "domain": "sub.domain.example.com"}
@@ -5675,7 +5675,7 @@
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "~"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": ""}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "key: value"}
-{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "name: John"}
+{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "name: "}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "age: 30"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "price: 19.99"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "active: true"}
@@ -5683,12 +5683,12 @@
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "- item1"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "- 1"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "- true"}
-{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "- name: Alice"}
+{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "- name: "}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "[1, 2, 3]"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "[a, b, c]"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "{key: value}"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "{a: 1, b: 2}"}
-{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "person:\n  name: Bob\n  age: 25"}
+{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "person:\n  name: \n  age: 25"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "items:\n  - apple\n  - banana"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "config:\n  debug: true\n  port: 8080"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "mixed:\n  - text\n  - 123\n  - true"}
@@ -5696,9 +5696,9 @@
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "'single quoted'"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "message: Hello World"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "path: /usr/local/bin"}
-{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "email: test@example.com"}
+{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "email: "}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "url: https://example.com"}
-{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "date: 2024-01-01"}
+{"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "date: "}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "version: 1.0.0"}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "empty: \"\""}
 {"file_name": "idna-cpp/tests/test8.cpp", "yaml_string": "spaces: \"  leading and trailing  \""}
@@ -5743,7 +5743,7 @@
 {"file_name": "idna-cpp/tests/test9.cpp", "domain": "naïve.com"}
 {"file_name": "idna-cpp/tests/test9.cpp", "domain": "résumé.com"}
 {"file_name": "idna-cpp/tests/test9.cpp", "domain": "test-domain-with-many-hyphens-and-words.example-organization.org"}
-{"file_name": "idna-cpp/tests/test9.cpp", "domain": "1.2.3.4.5"}
+{"file_name": "idna-cpp/tests/test9.cpp", "domain": ".5"}
 {"file_name": "idna-cpp/tests/test9.cpp", "domain": "a1.b2.c3.d4.e5"}
 {"file_name": "idna-cpp/tests/test9.cpp", "domain": "test.info"}
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "example.com"}
@@ -5775,7 +5775,7 @@
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "..."}
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "a.b.c.d.e.f.g.h"}
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "a-b-c-d.com"}
-{"file_name": "idna-cpp/tests/test4.cpp", "domain": "123.456.789"}
+{"file_name": "idna-cpp/tests/test4.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "test.com."}
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": ".test.com"}
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "test..com"}
@@ -5785,7 +5785,7 @@
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "schön.de"}
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "café.fr"}
 {"file_name": "idna-cpp/tests/test4.cpp", "domain": "naïve.org"}
-{"file_name": "idna-cpp/tests/test4.cpp", "domain": "test@invalid.com"}
+{"file_name": "idna-cpp/tests/test4.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": "www.example.com"}
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": "example.com"}
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": "www.example.com.cn"}
@@ -5820,7 +5820,7 @@
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": "a."}
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": ".com"}
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": "test..example.com"}
-{"file_name": "idna-cpp/tests/test5.cpp", "domain": "test@example.com"}
+{"file_name": "idna-cpp/tests/test5.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": "test_example.com"}
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": "test!example.com"}
 {"file_name": "idna-cpp/tests/test5.cpp", "domain": "test#example.com"}
@@ -5832,7 +5832,7 @@
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "subdomain.example.co.uk"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "a.b.c.d.e.f.g.h"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "localhost"}
-{"file_name": "idna-cpp/tests/test7.cpp", "domain": "127.0.0.1"}
+{"file_name": "idna-cpp/tests/test7.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "example.中国"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "例子.测试"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "münchen.de"}
@@ -5853,7 +5853,7 @@
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "a-b-c.com"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "a_b_c.com"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "123.com"}
-{"file_name": "idna-cpp/tests/test7.cpp", "domain": "1.2.3.4.5"}
+{"file_name": "idna-cpp/tests/test7.cpp", "domain": ".5"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "xn--nxasmq5a.com"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "xn--example-6q4a.com"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "very-long-label-that-might-exceed-normal-lengths.example.com"}
@@ -5861,7 +5861,7 @@
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "EXAMPLE.COM"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "Example.Com"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "eXaMpLe.CoM"}
-{"file_name": "idna-cpp/tests/test7.cpp", "domain": "example@domain.com"}
+{"file_name": "idna-cpp/tests/test7.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "example domain.com"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "example!domain.com"}
 {"file_name": "idna-cpp/tests/test7.cpp", "domain": "example#domain.com"}
@@ -5873,7 +5873,7 @@
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "рф.рф"}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "éxample.com"}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "localhost"}
-{"file_name": "idna-cpp/tests/test6.cpp", "domain": "127.0.0.1"}
+{"file_name": "idna-cpp/tests/test6.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "test-domain.org"}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "sub.domain.example.com"}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "a.b.c.d.e.f.g.h"}
@@ -5893,7 +5893,7 @@
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "domain_with_underscore.com"}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "domain with space.com"}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "domain!special.com"}
-{"file_name": "idna-cpp/tests/test6.cpp", "domain": "domain@symbol.com"}
+{"file_name": "idna-cpp/tests/test6.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": "."}
 {"file_name": "idna-cpp/tests/test6.cpp", "domain": ".."}
@@ -6011,7 +6011,7 @@
 {"file_name": "idna-cpp/tests/test1.cpp", "domain": "example.co.uk"}
 {"file_name": "idna-cpp/tests/test1.cpp", "domain": "example.com.cn"}
 {"file_name": "idna-cpp/tests/test1.cpp", "domain": "localhost"}
-{"file_name": "idna-cpp/tests/test1.cpp", "domain": "127.0.0.1"}
+{"file_name": "idna-cpp/tests/test1.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test1.cpp", "domain": "test"}
 {"file_name": "idna-cpp/tests/test1.cpp", "domain": "a"}
 {"file_name": "idna-cpp/tests/test1.cpp", "domain": "a.com"}
@@ -6046,7 +6046,7 @@
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "abc.com"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "abcdefghijklmnopqrstuvwxyz.com"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "123.com"}
-{"file_name": "idna-cpp/tests/test17.cpp", "arg1": "123.456.789"}
+{"file_name": "idna-cpp/tests/test17.cpp", "arg1": ""}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "hyphen-domain.com"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "multi-hyphen-domain-test.com"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "a-b-c-d-e.com"}
@@ -6056,7 +6056,7 @@
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "a"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "a.b"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z"}
-{"file_name": "idna-cpp/tests/test17.cpp", "arg1": "1.2.3.4.5.6.7.8.9"}
+{"file_name": "idna-cpp/tests/test17.cpp", "arg1": "..9"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "test-"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "-test"}
 {"file_name": "idna-cpp/tests/test17.cpp", "arg1": "test--test.com"}
@@ -6221,7 +6221,7 @@
 {"file_name": "idna-cpp/tests/test11.cpp", "arg1": "example-.com"}
 {"file_name": "idna-cpp/tests/test11.cpp", "arg1": "_test.example.com"}
 {"file_name": "idna-cpp/tests/test11.cpp", "arg1": "test_underscore.com"}
-{"file_name": "idna-cpp/tests/test11.cpp", "arg1": "123.456.789"}
+{"file_name": "idna-cpp/tests/test11.cpp", "arg1": ""}
 {"file_name": "idna-cpp/tests/test11.cpp", "arg1": "subdomain.example-site.org"}
 {"file_name": "idna-cpp/tests/test11.cpp", "arg1": "my-example-domain.test-site.com"}
 {"file_name": "idna-cpp/tests/test11.cpp", "arg1": "MIXED.CASE.COM"}
@@ -6303,9 +6303,9 @@
 {"file_name": "idna-cpp/tests/test12.cpp", "domain": "test_label.com"}
 {"file_name": "idna-cpp/tests/test12.cpp", "domain": "TEST.COM"}
 {"file_name": "idna-cpp/tests/test12.cpp", "domain": "MixedCase.Domain.COM"}
-{"file_name": "idna-cpp/tests/test12.cpp", "domain": "192.168.1.1"}
+{"file_name": "idna-cpp/tests/test12.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test12.cpp", "domain": "::1"}
-{"file_name": "idna-cpp/tests/test12.cpp", "domain": "example@domain.com"}
+{"file_name": "idna-cpp/tests/test12.cpp", "domain": ""}
 {"file_name": "idna-cpp/tests/test12.cpp", "domain": "example domain.com"}
 {"file_name": "idna-cpp/tests/test12.cpp", "domain": "example\tdomain.com"}
 {"file_name": "idna-cpp/tests/test12.cpp", "domain": "example;domain.com"}
@@ -6341,7 +6341,7 @@
 {"file_name": "idna-cpp/tests/test13.cpp", "domain1": "example.museum"}
 {"file_name": "idna-cpp/tests/test13.cpp", "domain1": "test123.example-site.net"}
 {"file_name": "idna-cpp/tests/test13.cpp", "domain1": "a.com", "domain2": "b.com", "domain3": "c.com", "domain4": "d.com", "domain5": "e.com"}
-{"file_name": "idna-cpp/tests/test13.cpp", "domain1": "test@example.com"}
+{"file_name": "idna-cpp/tests/test13.cpp", "domain1": ""}
 {"file_name": "idna-cpp/tests/test13.cpp", "domain1": "example.com/path"}
 {"file_name": "idna-cpp/tests/test13.cpp", "domain1": "example.com?query=1"}
 {"file_name": "idna-cpp/tests/test13.cpp", "domain1": "example.com#anchor"}
@@ -6364,19 +6364,19 @@
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com/path/to/resource"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com:443"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com:8080"}
-{"file_name": "url-parser/tests/test20.cpp", "url": "http://user:pass@example.com"}
+{"file_name": "url-parser/tests/test20.cpp", "url": "http://user:"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com?query=test"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com?name=value&foo=bar"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com#section"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com/path#section"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com/path?query=value#section"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "ftp://ftp.example.com/file.txt"}
-{"file_name": "url-parser/tests/test20.cpp", "url": "ftp://user@ftp.example.com:21/files/document.pdf"}
-{"file_name": "url-parser/tests/test20.cpp", "url": "mailto:user@example.com"}
+{"file_name": "url-parser/tests/test20.cpp", "url": "ftp://:21/files/document.pdf"}
+{"file_name": "url-parser/tests/test20.cpp", "url": "mailto:"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "file:///path/to/file.txt"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "http://localhost"}
-{"file_name": "url-parser/tests/test20.cpp", "url": "http://127.0.0.1"}
-{"file_name": "url-parser/tests/test20.cpp", "url": "http://127.0.0.1:3000"}
+{"file_name": "url-parser/tests/test20.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test20.cpp", "url": "http://:3000"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "http://[::1]"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "http://[2001:db8::1]"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://sub.domain.example.com"}
@@ -6385,7 +6385,7 @@
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com/search?q=test%20query"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com/path%20with%20spaces"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com/path?redirect=https%3A%2F%2Fother.com"}
-{"file_name": "url-parser/tests/test20.cpp", "url": "http://user:password@host.com:8080/path?query=value#fragment"}
+{"file_name": "url-parser/tests/test20.cpp", "url": "http://user::8080/path?query=value#fragment"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com/"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com//double//slash"}
 {"file_name": "url-parser/tests/test20.cpp", "url": "https://example.com/path/./segment/../normalized"}
@@ -6401,20 +6401,20 @@
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://www.example.com"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "https://www.example.com"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "ftp://ftp.example.com/files"}
-{"file_name": "url-parser/tests/test18.cpp", "url": "http://user:pass@example.com"}
+{"file_name": "url-parser/tests/test18.cpp", "url": "http://user:"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com:8080"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com/path/to/resource"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com?query=value"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com#fragment"}
-{"file_name": "url-parser/tests/test18.cpp", "url": "http://user:pass@example.com:8080/path?query=value#fragment"}
-{"file_name": "url-parser/tests/test18.cpp", "url": "https://www.example.com/path?name=John&age=30"}
+{"file_name": "url-parser/tests/test18.cpp", "url": "http://user::8080/path?query=value#fragment"}
+{"file_name": "url-parser/tests/test18.cpp", "url": "https://www.example.com/path?name=&age=30"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://localhost"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://localhost:3000/api"}
-{"file_name": "url-parser/tests/test18.cpp", "url": "http://127.0.0.1"}
-{"file_name": "url-parser/tests/test18.cpp", "url": "http://192.168.1.1:8000"}
-{"file_name": "url-parser/tests/test18.cpp", "url": "mailto:user@example.com"}
+{"file_name": "url-parser/tests/test18.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test18.cpp", "url": "http://:8000"}
+{"file_name": "url-parser/tests/test18.cpp", "url": "mailto:"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "file:///path/to/file.txt"}
-{"file_name": "url-parser/tests/test18.cpp", "url": "tel:+1-555-1234"}
+{"file_name": "url-parser/tests/test18.cpp", "url": "tel:"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com/path/with/multiple/segments"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com/"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com?"}
@@ -6427,7 +6427,7 @@
 {"file_name": "url-parser/tests/test18.cpp", "url": "wss://secure.websocket.example.com/chat"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com/path#section-1"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com/path#section-1-2-3"}
-{"file_name": "url-parser/tests/test18.cpp", "url": "http://admin:password123@secure.example.com/dashboard"}
+{"file_name": "url-parser/tests/test18.cpp", "url": "http://admin:/dashboard"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com/path/to/api/v1/users/123"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "https://api.example.com/v2/endpoint?token=abc123&format=json"}
 {"file_name": "url-parser/tests/test18.cpp", "url": "http://example.com:9999/path?search=test%40email&page=1"}
@@ -6459,9 +6459,9 @@
 {"file_name": "url-parser/tests/test19.cpp", "url": "https://example.com/path#anchor"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "http://example.com/path?query=value#fragment"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "https://example.com:8080/path?param=value#section"}
-{"file_name": "url-parser/tests/test19.cpp", "url": "http://192.168.1.1"}
-{"file_name": "url-parser/tests/test19.cpp", "url": "https://127.0.0.1:8080"}
-{"file_name": "url-parser/tests/test19.cpp", "url": "http://10.0.0.1/path"}
+{"file_name": "url-parser/tests/test19.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test19.cpp", "url": "https://:8080"}
+{"file_name": "url-parser/tests/test19.cpp", "url": "http:///path"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "https://[::1]"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "http://[2001:db8::1]:8080"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "https://subdomain.example.com"}
@@ -6473,17 +6473,17 @@
 {"file_name": "url-parser/tests/test19.cpp", "url": "https://example.com/path/../other"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "http://example.com/path/./to/resource"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "https://example.com?search=hello%20world"}
-{"file_name": "url-parser/tests/test19.cpp", "url": "http://example.com?name=John+Doe"}
+{"file_name": "url-parser/tests/test19.cpp", "url": "http://example.com?name=+Doe"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "https://example.com?special=!@#$%^&*()"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "http://example.com:9999/very/long/path/to/resource/that/continues/on"}
 {"file_name": "url-parser/tests/test19.cpp", "url": "https://example.com?param1=value1&param2=value2&param3=value3&param4=value4"}
-{"file_name": "url-parser/tests/test19.cpp", "url": "http://user:password@example.com"}
+{"file_name": "url-parser/tests/test19.cpp", "url": "http://user:"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "http://www.example.com"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "https://example.com"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "ftp://ftp.example.com"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "http://localhost"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "http://127.0.0.1"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "http://192.168.1.1"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "http://"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "http://example.com:8080"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "https://example.com:443"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "http://example.com:65535"}
@@ -6499,13 +6499,13 @@
 {"file_name": "url-parser/tests/test8.cpp", "url": "http://example.com#fragment"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "http://example.com/path#fragment"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "http://example.com/path?query=value#fragment"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "http://user@example.com"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "http://user:password@example.com"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "http://user:pass@word@example.com"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "http://user@example.com:8080"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "http://user:password@example.com:8080/path?query=value#fragment"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "mailto:user@example.com"}
-{"file_name": "url-parser/tests/test8.cpp", "url": "tel:+1-234-567-8900"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "http://user:"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "http://user:pass@"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "http://:8080"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "http://user::8080/path?query=value#fragment"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "mailto:"}
+{"file_name": "url-parser/tests/test8.cpp", "url": "tel:"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "file:///path/to/file"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "file://localhost/path/to/file"}
 {"file_name": "url-parser/tests/test8.cpp", "url": "http://example.com/path%20with%20spaces"}
@@ -6520,14 +6520,14 @@
 {"file_name": "url-parser/tests/test8.cpp", "url": "wss://example.com:443/socket"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?key=value"}
-{"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?name=John"}
+{"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?name="}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?a=1&b=2"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?x=100&y=200&z=300"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?search=hello%20world"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?empty="}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?key=value&empty="}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?special=%40%23%24"}
-{"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?name=Alice&age=30&city=NYC"}
+{"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?name=&age=30&city=NYC"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?param1=value1&param2=value2&param3=value3&param4=value4"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?query=test&sort=asc&page=1"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?id=12345"}
@@ -6536,7 +6536,7 @@
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?color=%23FF0000"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?email=user%40example.com"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?url=http%3A%2F%2Fexample.com%3Fp%3D1"}
-{"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?date=2023-01-15"}
+{"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?date="}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?time=12%3A30%3A45"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?flag=true"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?enabled=false"}
@@ -6555,15 +6555,15 @@
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?key=value%20with%20spaces"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?special=%21%40%23%24%25%5E%26%2A"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?longparam="}
-{"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?name=John&name=Jane"}
+{"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?name=&name="}
 {"file_name": "url-parser/tests/test9.cpp", "url": "http://example.com?a=1&b=2&c=3&d=4&e=5&f=6&g=7&h=8&i=9&j=10"}
 {"file_name": "url-parser/tests/test9.cpp", "url": "https://example.com?test=123&"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://example.com"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "https://www.google.com"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "ftp://ftp.example.org"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://localhost"}
-{"file_name": "url-parser/tests/test4.cpp", "url": "http://127.0.0.1"}
-{"file_name": "url-parser/tests/test4.cpp", "url": "http://192.168.1.1:8080"}
+{"file_name": "url-parser/tests/test4.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test4.cpp", "url": "http://:8080"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "https://example.com:443"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://example.com:3000"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://example.com/path"}
@@ -6587,9 +6587,9 @@
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://example.com/path?key1=value1&key2=value2"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://example.com/path#fragment"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://example.com/path?query=value#fragment"}
-{"file_name": "url-parser/tests/test4.cpp", "url": "http://user@example.com"}
-{"file_name": "url-parser/tests/test4.cpp", "url": "http://user:pass@example.com"}
-{"file_name": "url-parser/tests/test4.cpp", "url": "http://user:password123@example.com:8080/path"}
+{"file_name": "url-parser/tests/test4.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test4.cpp", "url": "http://user:"}
+{"file_name": "url-parser/tests/test4.cpp", "url": "http://user::8080/path"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "https://xn--example-6q4a.com"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://example.com/path%20with%20spaces"}
 {"file_name": "url-parser/tests/test4.cpp", "url": "http://example.com/path%2Fwith%2Fencoded"}
@@ -6601,7 +6601,7 @@
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "https://example.com"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://localhost"}
-{"file_name": "url-parser/tests/test5.cpp", "url": "http://127.0.0.1"}
+{"file_name": "url-parser/tests/test5.cpp", "url": "http://"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com:8080"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "https://example.com:443"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path"}
@@ -6611,18 +6611,18 @@
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path?query=param"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com:8080/path?query=param"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "ftp://ftp.example.com"}
-{"file_name": "url-parser/tests/test5.cpp", "url": "ftp://user@ftp.example.com"}
+{"file_name": "url-parser/tests/test5.cpp", "url": "ftp://"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://subdomain.example.com"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com:9999"}
-{"file_name": "url-parser/tests/test5.cpp", "url": "http://192.168.1.1"}
-{"file_name": "url-parser/tests/test5.cpp", "url": "http://192.168.1.1:8080"}
+{"file_name": "url-parser/tests/test5.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test5.cpp", "url": "http://:8080"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path/to/file.html"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path/to/file.php"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/a"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/api/v1/users"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "https://secure.example.com"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com?q=test"}
-{"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com?name=John&age=30"}
+{"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com?name=&age=30"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path?a=1&b=2&c=3"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com:3000"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path?special=!@#$%"}
@@ -6635,7 +6635,7 @@
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path/with/trailing/slash/"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path/.hidden"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path/~user"}
-{"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path?timestamp=2023-01-01"}
+{"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path?timestamp="}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com/path?json={\"key\":\"value\"}"}
 {"file_name": "url-parser/tests/test5.cpp", "url": "http://example.com:65535/path?query=last"}
 {"file_name": "url-parser/tests/test7.cpp", "url": "http://example.com"}
@@ -6653,11 +6653,11 @@
 {"file_name": "url-parser/tests/test7.cpp", "url": "http://example.com:8080/path/to/resource?param=test#section"}
 {"file_name": "url-parser/tests/test7.cpp", "url": ""}
 {"file_name": "url-parser/tests/test7.cpp", "url": "http://"}
-{"file_name": "url-parser/tests/test7.cpp", "url": "http://192.168.1.1"}
-{"file_name": "url-parser/tests/test7.cpp", "url": "http://192.168.1.1:3000"}
+{"file_name": "url-parser/tests/test7.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test7.cpp", "url": "http://:3000"}
 {"file_name": "url-parser/tests/test7.cpp", "url": "file:///path/to/file"}
-{"file_name": "url-parser/tests/test7.cpp", "url": "http://user:pass@example.com"}
-{"file_name": "url-parser/tests/test7.cpp", "url": "http://user@example.com"}
+{"file_name": "url-parser/tests/test7.cpp", "url": "http://user:"}
+{"file_name": "url-parser/tests/test7.cpp", "url": "http://"}
 {"file_name": "url-parser/tests/test7.cpp", "url": "http://example.com/path%20with%20spaces"}
 {"file_name": "url-parser/tests/test7.cpp", "url": "http://example.com?search=hello%20world"}
 {"file_name": "url-parser/tests/test7.cpp", "url": "invalid-url"}
@@ -6692,9 +6692,9 @@
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://example.com/path#section"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://example.com/path?query=value#fragment"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://localhost"}
-{"file_name": "url-parser/tests/test6.cpp", "url": "http://127.0.0.1"}
-{"file_name": "url-parser/tests/test6.cpp", "url": "http://192.168.1.1:8080/api"}
-{"file_name": "url-parser/tests/test6.cpp", "url": "https://user:pass@example.com"}
+{"file_name": "url-parser/tests/test6.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test6.cpp", "url": "http://:8080/api"}
+{"file_name": "url-parser/tests/test6.cpp", "url": "https://user:"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://example.com/path/with/ spaces"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://example.com/搜索?keyword=测试"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://example.com/path%20with%20spaces"}
@@ -6707,8 +6707,8 @@
 {"file_name": "url-parser/tests/test6.cpp", "url": "http:///path"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "file:///local/file/path"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "file://localhost/path/to/file"}
-{"file_name": "url-parser/tests/test6.cpp", "url": "mailto:user@example.com"}
-{"file_name": "url-parser/tests/test6.cpp", "url": "tel:+1-123-456-7890"}
+{"file_name": "url-parser/tests/test6.cpp", "url": "mailto:"}
+{"file_name": "url-parser/tests/test6.cpp", "url": "tel:"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://example.com/"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://example.com?"}
 {"file_name": "url-parser/tests/test6.cpp", "url": "http://example.com#"}
@@ -6732,12 +6732,12 @@
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://example.com/path#fragment"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://example.com/path?query=value#fragment"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "ftp://ftp.example.com"}
-{"file_name": "url-parser/tests/test2.cpp", "url": "ftp://user:pass@ftp.example.com"}
+{"file_name": "url-parser/tests/test2.cpp", "url": "ftp://user:"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "file:///path/to/file"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "file://localhost/path/to/file"}
-{"file_name": "url-parser/tests/test2.cpp", "url": "http://192.168.1.1"}
-{"file_name": "url-parser/tests/test2.cpp", "url": "http://10.0.0.1"}
-{"file_name": "url-parser/tests/test2.cpp", "url": "http://127.0.0.1"}
+{"file_name": "url-parser/tests/test2.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test2.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test2.cpp", "url": "http://"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://localhost"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://localhost:3000"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://[::1]"}
@@ -6749,8 +6749,8 @@
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://example.co.uk"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://example.com/path/with/unicode/%E4%B8%AD%E6%96%87"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://example.com/path%20with%20spaces"}
-{"file_name": "url-parser/tests/test2.cpp", "url": "http://user@example.com"}
-{"file_name": "url-parser/tests/test2.cpp", "url": "http://user:password@example.com"}
+{"file_name": "url-parser/tests/test2.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test2.cpp", "url": "http://user:"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://example-site.com"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://example_site.com"}
 {"file_name": "url-parser/tests/test2.cpp", "url": "http://a.co"}
@@ -6769,22 +6769,22 @@
 {"file_name": "url-parser/tests/test3.cpp", "url": "ftp://ftp.example.com"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "ftp://ftp.example.com:21"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "file:///path/to/file"}
-{"file_name": "url-parser/tests/test3.cpp", "url": "mailto:user@example.com"}
-{"file_name": "url-parser/tests/test3.cpp", "url": "http://192.168.1.1"}
-{"file_name": "url-parser/tests/test3.cpp", "url": "http://192.168.1.1:8080"}
-{"file_name": "url-parser/tests/test3.cpp", "url": "http://127.0.0.1"}
-{"file_name": "url-parser/tests/test3.cpp", "url": "http://127.0.0.1:8000"}
+{"file_name": "url-parser/tests/test3.cpp", "url": "mailto:"}
+{"file_name": "url-parser/tests/test3.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test3.cpp", "url": "http://:8080"}
+{"file_name": "url-parser/tests/test3.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test3.cpp", "url": "http://:8000"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://[::1]"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://[2001:db8::1]"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://[2001:db8::1]:8080"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://example.com/path"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://example.com/path/to/resource"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://example.com/path?query=value"}
-{"file_name": "url-parser/tests/test3.cpp", "url": "http://example.com/path?name=John&age=30"}
+{"file_name": "url-parser/tests/test3.cpp", "url": "http://example.com/path?name=&age=30"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://example.com/path#section"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://example.com/path?query=value#anchor"}
-{"file_name": "url-parser/tests/test3.cpp", "url": "https://user:pass@example.com"}
-{"file_name": "url-parser/tests/test3.cpp", "url": "https://user:password123@example.com:8080"}
+{"file_name": "url-parser/tests/test3.cpp", "url": "https://user:"}
+{"file_name": "url-parser/tests/test3.cpp", "url": "https://user::8080"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://subdomain.example.com"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://deep.nested.subdomain.example.com"}
 {"file_name": "url-parser/tests/test3.cpp", "url": "http://example.com/"}
@@ -6804,7 +6804,7 @@
 {"file_name": "url-parser/tests/test1.cpp", "url": "ftp://ftp.example.com"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "file:///path/to/file"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://localhost"}
-{"file_name": "url-parser/tests/test1.cpp", "url": "https://127.0.0.1"}
+{"file_name": "url-parser/tests/test1.cpp", "url": "https://"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com:8080"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "https://example.com:443"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com/path"}
@@ -6814,23 +6814,23 @@
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com#fragment"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "https://example.com/path#section"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com/path?query=value#fragment"}
-{"file_name": "url-parser/tests/test1.cpp", "url": "https://user:pass@example.com"}
-{"file_name": "url-parser/tests/test1.cpp", "url": "http://user@example.com"}
+{"file_name": "url-parser/tests/test1.cpp", "url": "https://user:"}
+{"file_name": "url-parser/tests/test1.cpp", "url": "http://"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "https://example.com/path with spaces"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com/path%20encoded"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "https://example.com/测试"}
-{"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com?name=张三"}
+{"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com?name="}
 {"file_name": "url-parser/tests/test1.cpp", "url": "HTTP://EXAMPLE.COM"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "https://sub.example.com"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://deep.nested.subdomain.example.com"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "https://example.co.uk"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com:65535"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://example.com:1"}
-{"file_name": "url-parser/tests/test1.cpp", "url": "http://192.168.1.1"}
+{"file_name": "url-parser/tests/test1.cpp", "url": "http://"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "https://[2001:db8::1]"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://[::1]"}
-{"file_name": "url-parser/tests/test1.cpp", "url": "mailto:user@example.com"}
-{"file_name": "url-parser/tests/test1.cpp", "url": "tel:+1-234-567-8900"}
+{"file_name": "url-parser/tests/test1.cpp", "url": "mailto:"}
+{"file_name": "url-parser/tests/test1.cpp", "url": "tel:"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "data:text/plain,Hello World"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "javascript:alert('test')"}
 {"file_name": "url-parser/tests/test1.cpp", "url": "http://"}
@@ -6846,7 +6846,7 @@
 {"file_name": "url-parser/tests/test17.cpp", "text": "hello world test"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "a=b"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "key=value"}
-{"file_name": "url-parser/tests/test17.cpp", "text": "name=john&age=25"}
+{"file_name": "url-parser/tests/test17.cpp", "text": "name=&age=25"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "hello world"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "hello\tworld"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "hello\nworld"}
@@ -6863,8 +6863,8 @@
 {"file_name": "url-parser/tests/test17.cpp", "text": "🎉"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "👍"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "hello🌍world"}
-{"file_name": "url-parser/tests/test17.cpp", "text": "test@example.com"}
-{"file_name": "url-parser/tests/test17.cpp", "text": "user+tag@gmail.com"}
+{"file_name": "url-parser/tests/test17.cpp", "text": ""}
+{"file_name": "url-parser/tests/test17.cpp", "text": ""}
 {"file_name": "url-parser/tests/test17.cpp", "text": "http://example.com"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "https://www.example.com/path?q=test"}
 {"file_name": "url-parser/tests/test17.cpp", "text": "ftp://ftp.example.com:21/file"}
@@ -6899,37 +6899,37 @@
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com#fragment"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com/path#section"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com/path?query=value#fragment"}
-{"file_name": "url-parser/tests/test16.cpp", "url": "http://user:password@example.com"}
-{"file_name": "url-parser/tests/test16.cpp", "url": "http://user@example.com"}
-{"file_name": "url-parser/tests/test16.cpp", "url": "http://192.168.1.1"}
-{"file_name": "url-parser/tests/test16.cpp", "url": "http://192.168.1.1:8080"}
+{"file_name": "url-parser/tests/test16.cpp", "url": "http://user:"}
+{"file_name": "url-parser/tests/test16.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test16.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test16.cpp", "url": "http://:8080"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://[::1]"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://[2001:db8::1]"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://subdomain.example.com"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://www.example.com"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com/path%20with%20spaces"}
-{"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com/path?name=John%20Doe"}
+{"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com/path?name=%20Doe"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com/path?special=%3C%3E%26"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example-co.uk"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com:0"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com:65535"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "file:///path/to/file"}
-{"file_name": "url-parser/tests/test16.cpp", "url": "mailto:user@example.com"}
+{"file_name": "url-parser/tests/test16.cpp", "url": "mailto:"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example-site.org"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example123.com"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://sub.subdomain.example.com"}
 {"file_name": "url-parser/tests/test16.cpp", "url": "http://example.com/path/./to/../resource"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "id", "url": "http://example.com?id=123"}
-{"file_name": "url-parser/tests/test14.cpp", "key": "name", "url": "http://example.com?name=john"}
+{"file_name": "url-parser/tests/test14.cpp", "key": "name", "url": "http://example.com?name="}
 {"file_name": "url-parser/tests/test14.cpp", "key": "page", "url": "http://example.com?page=1&size=10"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "id", "url": "https://example.org?id=456&name=test"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "token", "url": "http://api.example.com?token=abc123&user=admin"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "search", "url": "http://example.com?search=hello&page=2&limit=20"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "category", "url": "http://shop.com?category=books&sort=price"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "sort", "url": "http://shop.com?category=books&sort=price"}
-{"file_name": "url-parser/tests/test14.cpp", "key": "id", "url": "http://example.com?name=john"}
-{"file_name": "url-parser/tests/test14.cpp", "key": "missing", "url": "http://example.com?name=john&age=25"}
-{"file_name": "url-parser/tests/test14.cpp", "key": "", "url": "http://example.com?name=john"}
+{"file_name": "url-parser/tests/test14.cpp", "key": "id", "url": "http://example.com?name="}
+{"file_name": "url-parser/tests/test14.cpp", "key": "missing", "url": "http://example.com?name=&age=25"}
+{"file_name": "url-parser/tests/test14.cpp", "key": "", "url": "http://example.com?name="}
 {"file_name": "url-parser/tests/test14.cpp", "key": "name", "url": "http://example.com"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "id", "url": "https://example.com?"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "q", "url": "http://google.com?q=test&lang=en&country=us"}
@@ -6937,7 +6937,7 @@
 {"file_name": "url-parser/tests/test14.cpp", "key": "country", "url": "http://google.com?q=test&lang=en&country=us"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "user_id", "url": "http://example.com?user_id=100&user_name=test"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "user-name", "url": "http://example.com?user-name=test&user-id=100"}
-{"file_name": "url-parser/tests/test14.cpp", "key": "user.name", "url": "http://example.com?user.name=john"}
+{"file_name": "url-parser/tests/test14.cpp", "key": "user.name", "url": "http://example.com?user.name="}
 {"file_name": "url-parser/tests/test14.cpp", "key": "ID", "url": "http://example.com?id=123&ID=456"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "id", "url": "http://example.com?id=123&ID=456"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "param1", "url": "http://example.com?param1=value1&param1=value2"}
@@ -6948,7 +6948,7 @@
 {"file_name": "url-parser/tests/test14.cpp", "key": "name", "url": "http://localhost:8080?name=test"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "action", "url": "http://example.com?action=view#section"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "section", "url": "http://example.com?page=1#section"}
-{"file_name": "url-parser/tests/test14.cpp", "key": "user", "url": "http://user:pass@example.com?user=admin"}
+{"file_name": "url-parser/tests/test14.cpp", "key": "user", "url": "http://user:?user=admin"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "path", "url": "http://example.com/path/to/page?path=home"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "callback", "url": "http://example.com?callback=func&data=test"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "utf8", "url": "http://example.com?utf8=✓&name=test"}
@@ -6958,25 +6958,25 @@
 {"file_name": "url-parser/tests/test14.cpp", "key": "data[0]", "url": "http://example.com?data[0]=first&data[1]=second"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "session_id", "url": "https://secure.com?session_id=a1b2c3d4e5f6"}
 {"file_name": "url-parser/tests/test14.cpp", "key": "api_key", "url": "http://api.example.com?api_key=12345-abcde-67890"}
-{"file_name": "url-parser/tests/test14.cpp", "key": "timestamp", "url": "http://example.com?timestamp=1234567890&timezone=UTC"}
+{"file_name": "url-parser/tests/test14.cpp", "key": "timestamp", "url": "http://example.com?timestamp=&timezone=UTC"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "example.com", "port": "80", "path": "/", "query": "", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "www.google.com", "port": "443", "path": "/search", "query": "q=test", "fragment": "results"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "ftp", "host": "ftp.example.org", "port": "21", "path": "/files/document.pdf", "query": "", "fragment": ""}
-{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "localhost", "port": "8080", "path": "/api/v1/users", "query": "id=123&name=john", "fragment": "profile"}
+{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "localhost", "port": "8080", "path": "/api/v1/users", "query": "id=123&name=", "fragment": "profile"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "api.github.com", "port": "443", "path": "/repos/owner/repo", "query": "page=1&per_page=100", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "ws", "host": "websocket.example.com", "port": "9000", "path": "/chat", "query": "room=general", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "wss", "host": "secure.websocket.io", "port": "443", "path": "/realtime", "query": "token=abc123", "fragment": "section1"}
-{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "192.168.1.1", "port": "80", "path": "/admin", "query": "", "fragment": ""}
+{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "", "port": "80", "path": "/admin", "query": "", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "subdomain.example.co.uk", "port": "443", "path": "/path/to/resource", "query": "key=value", "fragment": "anchor"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "test-site.com", "port": "3000", "path": "/", "query": "", "fragment": "top"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "example.com", "port": "8443", "path": "/secure/login", "query": "redirect=%2Fhome", "fragment": ""}
-{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "10.0.0.1", "port": "8000", "path": "/api/items/123", "query": "format=json", "fragment": "details"}
+{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "", "port": "8000", "path": "/api/items/123", "query": "format=json", "fragment": "details"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "ftp", "host": "files.server.net", "port": "2121", "path": "/public/archive.zip", "query": "", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "localhost", "port": "4200", "path": "/app", "query": "debug=true", "fragment": "main"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "cdn.example.com", "port": "443", "path": "/assets/images/logo.png", "query": "v=2.0.1", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "api.service.io", "port": "80", "path": "/v2/endpoint", "query": "limit=50&offset=0", "fragment": "section2"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "example.org", "port": "443", "path": "/path/with%20spaces", "query": "search=hello+world", "fragment": ""}
-{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "127.0.0.1", "port": "5000", "path": "/health", "query": "", "fragment": ""}
+{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "", "port": "5000", "path": "/health", "query": "", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "ws", "host": "realtime.app.com", "port": "80", "path": "/stream", "query": "channel=updates", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "secure.bank.com", "port": "443", "path": "/account/balance", "query": "currency=USD", "fragment": "summary"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "example.edu", "port": "8080", "path": "/courses/cs101", "query": "semester=fall2024", "fragment": "syllabus"}
@@ -6991,11 +6991,11 @@
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "cloud.example.org", "port": "443", "path": "/storage/files", "query": "folder=%2Fdocuments", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "staging.example.com", "port": "8888", "path": "/admin/settings", "query": "env=staging", "fragment": "general"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "ftp", "host": "backup.example.com", "port": "21", "path": "/backups/daily/db.sql.gz", "query": "", "fragment": ""}
-{"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "social.example.io", "port": "443", "path": "/profile/john-doe", "query": "view=full", "fragment": "posts"}
+{"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "social.example.io", "port": "443", "path": "/profile/-doe", "query": "view=full", "fragment": "posts"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "news.example.com", "port": "80", "path": "/category/technology", "query": "page=2", "fragment": "article5"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "wss", "host": "live.example.com", "port": "443", "path": "/broadcast", "query": "stream_id=xyz789", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "docs.example.org", "port": "443", "path": "/api/reference", "query": "version=latest", "fragment": "authentication"}
-{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "app.example.com", "port": "9000", "path": "/dashboard", "query": "date=2024-01-15", "fragment": "charts"}
+{"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "app.example.com", "port": "9000", "path": "/dashboard", "query": "date=", "fragment": "charts"}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "cdn2.example.net", "port": "443", "path": "/video/playlist.m3u8", "query": "quality=1080p", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "http", "host": "monitoring.example.io", "port": "9090", "path": "/metrics", "query": "job=node", "fragment": ""}
 {"file_name": "url-parser/tests/test15.cpp", "scheme": "https", "host": "example.com", "port": "443", "path": "/search/results", "query": "q=url+parser+test&sort=relevance", "fragment": "top"}
@@ -7008,7 +7008,7 @@
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path/to/resource"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path?query=value"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com?key1=value1&key2=value2"}
-{"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path?name=John&age=30"}
+{"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path?name=&age=30"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com#fragment"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path#section"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path?query=value#fragment"}
@@ -7018,13 +7018,13 @@
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/../path"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path/./to/../resource"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path%20with%20spaces"}
-{"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path?name=John%20Doe"}
+{"file_name": "url-parser/tests/test11.cpp", "url": "http://example.com/path?name=%20Doe"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "ftp://ftp.example.com"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "ftp://ftp.example.com:21/files"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "file:///path/to/file.txt"}
-{"file_name": "url-parser/tests/test11.cpp", "url": "file:///C:/Users/test/file.txt"}
-{"file_name": "url-parser/tests/test11.cpp", "url": "http://192.168.1.1"}
-{"file_name": "url-parser/tests/test11.cpp", "url": "http://192.168.1.1:8080"}
+{"file_name": "url-parser/tests/test11.cpp", "url": "file:///C:/dataset"}
+{"file_name": "url-parser/tests/test11.cpp", "url": "http://"}
+{"file_name": "url-parser/tests/test11.cpp", "url": "http://:8080"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://[2001:db8::1]"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://[2001:db8::1]:8080"}
 {"file_name": "url-parser/tests/test11.cpp", "url": "http://用户.中国"}
@@ -7042,7 +7042,7 @@
 {"file_name": "url-parser/tests/test10.cpp", "url": "http://www.example.com"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "https://www.example.com"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "http://localhost"}
-{"file_name": "url-parser/tests/test10.cpp", "url": "http://127.0.0.1"}
+{"file_name": "url-parser/tests/test10.cpp", "url": "http://"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "http://example.com:8080"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "https://example.com:443"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "http://example.com/path"}
@@ -7056,8 +7056,8 @@
 {"file_name": "url-parser/tests/test10.cpp", "url": "http://example.com/path?query=value#fragment"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "ftp://ftp.example.com"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "ftps://secure.example.com"}
-{"file_name": "url-parser/tests/test10.cpp", "url": "http://user:pass@example.com"}
-{"file_name": "url-parser/tests/test10.cpp", "url": "http://user@example.com"}
+{"file_name": "url-parser/tests/test10.cpp", "url": "http://user:"}
+{"file_name": "url-parser/tests/test10.cpp", "url": "http://"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "http://example.com/path/../other"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "http://example.com/./path"}
 {"file_name": "url-parser/tests/test10.cpp", "url": "http://example.com/path/./../other"}
@@ -7095,13 +7095,13 @@
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com?a=1&b=2", "url2": "http://example.com?b=2&a=1"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com#fragment", "url2": "http://example.com#fragment"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com#frag1", "url2": "http://example.com#frag2"}
-{"file_name": "url-parser/tests/test12.cpp", "url1": "http://user@example.com", "url2": "http://user@example.com"}
-{"file_name": "url-parser/tests/test12.cpp", "url1": "http://user:pass@example.com", "url2": "http://user:pass@example.com"}
+{"file_name": "url-parser/tests/test12.cpp", "url1": "http://", "url2": "http://"}
+{"file_name": "url-parser/tests/test12.cpp", "url1": "http://user:", "url2": "http://user:"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "ftp://ftp.example.com", "url2": "ftp://ftp.example.com"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "file:///path/to/file", "url2": "file:///path/to/file"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://localhost", "url2": "http://localhost"}
-{"file_name": "url-parser/tests/test12.cpp", "url1": "http://127.0.0.1", "url2": "http://127.0.0.1"}
-{"file_name": "url-parser/tests/test12.cpp", "url1": "http://192.168.1.1:8080", "url2": "http://192.168.1.1:8080"}
+{"file_name": "url-parser/tests/test12.cpp", "url1": "http://", "url2": "http://"}
+{"file_name": "url-parser/tests/test12.cpp", "url1": "http://:8080", "url2": "http://:8080"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://[::1]", "url2": "http://[::1]"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com/path%20with%20spaces", "url2": "http://example.com/path%20with%20spaces"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com/path?query=test&foo=bar", "url2": "http://example.com/path?query=test&foo=bar"}
@@ -7112,7 +7112,7 @@
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com/path/to/file.txt", "url2": "http://example.com/path/to/file.txt"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://subdomain.example.com", "url2": "http://subdomain.example.com"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com/path?key=value#section", "url2": "http://example.com/path?key=value#section"}
-{"file_name": "url-parser/tests/test12.cpp", "url1": "http://user:password@example.com:8080/path?query=test#frag", "url2": "http://user:password@example.com:8080/path?query=test#frag"}
+{"file_name": "url-parser/tests/test12.cpp", "url1": "http://user::8080/path?query=test#frag", "url2": "http://user::8080/path?query=test#frag"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com/path//double/slash", "url2": "http://example.com/path/double/slash"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com/path/./././file", "url2": "http://example.com/path/file"}
 {"file_name": "url-parser/tests/test12.cpp", "url1": "http://example.com/path/../path/../path/file", "url2": "http://example.com/path/file"}
@@ -7126,11 +7126,11 @@
 {"file_name": "url-parser/tests/test13.cpp", "key": "category", "value": "books", "url": "http://example.com?sort=date"}
 {"file_name": "url-parser/tests/test13.cpp", "key": "sort", "value": "price", "url": "http://example.com?category=electronics"}
 {"file_name": "url-parser/tests/test13.cpp", "key": "user", "value": "john_doe", "url": "http://example.com?id=42&page=1"}
-{"file_name": "url-parser/tests/test13.cpp", "key": "email", "value": "test@example.com", "url": "https://api.example.com?token=xyz"}
+{"file_name": "url-parser/tests/test13.cpp", "key": "email", "value": "", "url": "https://api.example.com?token=xyz"}
 {"file_name": "url-parser/tests/test13.cpp", "key": "limit", "value": "10", "url": "http://example.com?offset=0"}
 {"file_name": "url-parser/tests/test13.cpp", "key": "filter", "value": "active", "url": "http://example.com?status=enabled"}
 {"file_name": "url-parser/tests/test13.cpp", "key": "lang", "value": "zh-CN", "url": "http://example.com?region=asia"}
-{"file_name": "url-parser/tests/test13.cpp", "key": "date", "value": "2024-01-15", "url": "http://example.com?year=2024"}
+{"file_name": "url-parser/tests/test13.cpp", "key": "date", "value": "", "url": "http://example.com?year=2024"}
 {"file_name": "url-parser/tests/test13.cpp", "key": "price", "value": "99.99", "url": "http://example.com?currency=USD"}
 {"file_name": "url-parser/tests/test13.cpp", "key": "query", "value": "c++ programming", "url": "http://example.com"}
 {"file_name": "url-parser/tests/test13.cpp", "key": "session", "value": "sess_123456", "url": "https://example.com?auth=1"}

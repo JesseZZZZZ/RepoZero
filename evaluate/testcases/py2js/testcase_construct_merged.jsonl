@@ -127,7 +127,7 @@
 {"filename": "construct/test16.py", "a": 20, "b": 158, "c": "payload", "d": 17, "e": 47823, "f": "sample"}
 {"filename": "construct/test16.py", "a": 46, "b": 151, "c": "random", "d": 212, "e": 23021, "f": "abcdef"}
 {"filename": "construct/test16.py", "a": 67, "b": 187, "c": "footer", "d": 139, "e": 21567, "f": "message"}
-{"filename": "construct/test16.py", "a": 12, "b": 39, "c": "ueBZXRLITz VQwnDOV2yhEmiu974CCKLGTFWHR", "d": 246528, "e": 45, "f": "39838039202513"}
+{"filename": "construct/test16.py", "a": 12, "b": 39, "c": "ueBZXRLITz VQwnDOV2yhEmiu974CCKLGTFWHR", "d": 246528, "e": 45, "f": ""}
 {"filename": "construct/test17.py", "a": 173, "b": 15095, "c": "header", "d": 6, "e": "packet", "f": 239, "g": 6}
 {"filename": "construct/test17.py", "a": 115, "b": 52089, "c": "world", "d": 5, "e": "sample", "f": 187, "g": 6}
 {"filename": "construct/test17.py", "a": 7, "b": 34663, "c": "world", "d": 5, "e": "string", "f": 63, "g": 6}
@@ -1707,7 +1707,7 @@
 {"a": 98, "b": 157, "c": "123", "filename": "construct/test8.py"}
 {"a": 158, "b": 97, "c": "1234", "filename": "construct/test8.py"}
 {"a": 22, "b": 233, "c": "12345", "filename": "construct/test8.py"}
-{"a": 234, "b": 21, "c": "1234567890", "filename": "construct/test8.py"}
+{"a": 234, "b": 21, "c": "", "filename": "construct/test8.py"}
 {"a": 189, "b": 66, "c": "0x0A", "filename": "construct/test8.py"}
 {"a": 67, "b": 188, "c": "0xFF", "filename": "construct/test8.py"}
 {"a": 152, "b": 103, "c": "true", "filename": "construct/test8.py"}

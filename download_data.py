@@ -57,13 +57,13 @@ def download_from_huggingface(output_dir: Path):
     # Download C2Rust first (as requested)
     print("Downloading RepoZero-C2Rust from HuggingFace...")
     c2rust_dir = output_dir / "C2Rust"
-    download_with_retry("jessezhaoxizhang/RepoZero-C2Rust", c2rust_dir)
+    download_with_retry("/RepoZero-C2Rust", c2rust_dir)
     extract_all_zips(c2rust_dir)
 
     # Download Py2JS
     print("Downloading RepoZero-Py2JS from HuggingFace...")
     py2js_dir = output_dir / "Py2JS"
-    download_with_retry("jessezhaoxizhang/RepoZero-Py2JS", py2js_dir)
+    download_with_retry("/RepoZero-Py2JS", py2js_dir)
     extract_all_zips(py2js_dir)
 
 
@@ -81,7 +81,7 @@ def download_from_modelscope(output_dir: Path):
     c2rust_dir.mkdir(parents=True, exist_ok=True)
     try:
         ms_snapshot_download(
-            repo_id="JesseZhaoxiZhang/RepoZero-C2Rust",
+            repo_id="/RepoZero-C2Rust",
             cache_dir=str(c2rust_dir),
         )
         print(f"Successfully downloaded to {c2rust_dir}")
@@ -95,7 +95,7 @@ def download_from_modelscope(output_dir: Path):
     py2js_dir.mkdir(parents=True, exist_ok=True)
     try:
         ms_snapshot_download(
-            repo_id="JesseZhaoxiZhang/RepoZero-Py2JS",
+            repo_id="/RepoZero-Py2JS",
             cache_dir=str(py2js_dir),
         )
         print(f"Successfully downloaded to {py2js_dir}")

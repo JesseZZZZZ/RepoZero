@@ -399,7 +399,7 @@
 {"filename": "boltons/test9.py", "a": "mwkl_lpmwu_ezppwc,tyku_zxp_depp_oejf,bnyGzgmNvjwldXpyqw,ggjnin_hxjq_jgn,izxbcu_buuj_aha,hyv_qlop_ecut_fgo,vumpoa_vxffnc_pjjngu,zdbmZipgmg"}
 {"filename": "boltons/test9.py", "a": "xgmcasNkejBraxuVpfzc,fuaoFuvjeDufo,hafdLwsrqm,qyrsxgAndLzvpu,egi_lzed_iup"}
 {"filename": "boltons/test9.py", "a": "pvutahTndkAedtvp,mizsVhleHwjdc,qpigqKaxdSlfpoDjwhm,msnh_dlm,tpfii_obef,bfcxPaf,rcucFoy,ghazwiPxnlCqndCnv"}
-{"filename": "boltons/test9.py", "a": "baseSsnlaj,pwzqKztIqsYqnj,rlliHugeGkfpq,ihnsqk_yvbvfp_tla,swazy_rvi_suxbix"}
+{"filename": "boltons/test9.py", "a": "baselaj,pwzqKztIqsYqnj,rlliHugeGkfpq,ihnsqk_yvbvfp_tla,swazy_rvi_suxbix"}
 {"filename": "boltons/test9.py", "a": "tifsiYsehtrAkjovk,zmdNvbyw,pvxPeouNwfacAhxd,waq_fga_pcx_jrwjlq"}
 {"filename": "boltons/test9.py", "a": "mcpg_cjgx_csu,wmuitzVbp,aavlh_qhcj_hraw_djm,ofs_nvnyol_oxxvrr,rsnlXsqeveQkjhb,txzknbZvwbyVxi,sixwmYtsexCcnbbs,fqvh_xem_mgv_iot"}
 {"filename": "boltons/test9.py", "a": "epsyso_sljhue_ynnuz_yekicp,svxrlw_foyp_ceqrzw_nyo,rrzAvpvl"}
@@ -580,7 +580,7 @@
 {"filename": "boltons/test12.py", "a": "EoxPEVU,FFLoO,qhVLBmK,iAiTl,RfmZ,bwJs,IMLG,pPrzc,bmGqaH", "b": "value"}
 {"filename": "boltons/test12.py", "a": "Lmwnvcb,lXX,VVCN,hzPjC,nJd,musDvxH,ZuGAasDv,pxdcR,ptsQv,LrLyd,nVnvVH,BzLW,RGDUooe,Dra,LbXNVAsT", "b": "value"}
 {"filename": "boltons/test12.py", "a": "mnpjf,Yeet,QHuXCXs,xNhi,JZUm,ggaaabX,Zpd,kRtY,tqLPc,HAqCKt,UeBDXNNC", "b": "number"}
-{"filename": "boltons/test12.py", "a": "mvpnul,PDl,TLYbdn,jMYmYh,UDU,dSsNtV,mcQT,oDaSTRFK,SjoLPs,KnblK,gfG,sJPteAc,WKFcN,KXp", "b": "item"}
+{"filename": "boltons/test12.py", "a": "mvpnul,PDl,TLYbdn,jMYmYh,UDU,dtV,mcQT,oDaSTRFK,SjoLPs,KnblK,gfG,sJPteAc,WKFcN,KXp", "b": "item"}
 {"filename": "boltons/test12.py", "a": "VrENCjz,uDschYD,aiyngk,tAmK,DQzGseHW,gRfbcHd,VVrK,FWfCP,gMU,huwW,RZydzlin,EzeLg,KxOWYYFq,kvxqqmU,NarC", "b": "object"}
 {"filename": "boltons/test12.py", "a": "AjVa", "b": "object"}
 {"filename": "boltons/test12.py", "a": "VMRy", "b": "number"}
@@ -1008,7 +1008,7 @@
 {"a": "param1", "b": "param2", "c": "param3", "filename": "boltons/test10.py"}
 {"a": "XxX", "b": "YyY", "c": "ZzZ", "filename": "boltons/test10.py"}
 {"a": "long_value_here", "b": "another_long_value", "c": "third_long_value", "filename": "boltons/test10.py"}
-{"a": "1234567890", "b": "0987654321", "c": "1357924680", "filename": "boltons/test10.py"}
+{"a": "", "b": "", "c": "", "filename": "boltons/test10.py"}
 {"a": "special!@#", "b": "chars$%^", "c": "&*()", "filename": "boltons/test10.py"}
 {"a": "with spaces", "b": "more spaces", "c": "even more spaces", "filename": "boltons/test10.py"}
 {"a": "new\nline", "b": "tab\there", "c": "back\\slash", "filename": "boltons/test10.py"}
@@ -1254,7 +1254,7 @@
 {"a": "january,february,march,april,may,june,july,august,september,october,november,december", "b": "month", "filename": "boltons/test12.py"}
 {"a": "one,two,three,four,five,six,seven,eight,nine,ten", "b": "numeral", "filename": "boltons/test12.py"}
 {"a": "first,second,third,fourth,fifth,sixth,seventh,eighth,ninth,tenth", "b": "ordinal", "filename": "boltons/test12.py"}
-{"a": "alpha,bravo,charlie,delta,echo,foxtrot,golf,hotel,india,juliet,kilo,lima,mike,november,oscar,papa,quebec,romeo,sierra,tango,uniform,victor,whiskey,xray,yankee,zulu", "b": "phonetic", "filename": "boltons/test12.py"}
+{"a": "alpha,bravo,,delta,echo,foxtrot,golf,hotel,india,juliet,kilo,lima,,november,oscar,papa,quebec,romeo,sierra,tango,uniform,victor,whiskey,xray,yankee,zulu", "b": "phonetic", "filename": "boltons/test12.py"}
 {"a": "do,re,mi,fa,sol,la,ti", "b": "note", "filename": "boltons/test12.py"}
 {"a": "c,d,e,f,g,a,b", "b": "pitch", "filename": "boltons/test12.py"}
 {"a": "red,orange,yellow,green,blue,indigo,violet", "b": "rainbow", "filename": "boltons/test12.py"}
@@ -1301,7 +1301,7 @@
 {"a": "test:data,test:info,test:value", "filename": "boltons/test13.py"}
 {"a": "abc:123,def:456,ghi:789", "filename": "boltons/test13.py"}
 {"a": "key1:value1,key2:value2,key1:value3", "filename": "boltons/test13.py"}
-{"a": "name:john,age:25,city:ny,name:jane", "filename": "boltons/test13.py"}
+{"a": "name:,age:25,city:ny,name:", "filename": "boltons/test13.py"}
 {"a": "a:apple,b:banana,c:cherry,a:apricot", "filename": "boltons/test13.py"}
 {"a": "id:1,id:2,id:3,id:4,id:5", "filename": "boltons/test13.py"}
 {"a": "color:red,color:blue,color:green", "filename": "boltons/test13.py"}
@@ -1320,7 +1320,7 @@
 {"a": "x:a,y:b,z:c,x:d,y:e,z:f", "filename": "boltons/test13.py"}
 {"a": "key1:value1,key2:value2,key3:value3,key1:value4,key2:value5", "filename": "boltons/test13.py"}
 {"a": "number:1,number:2,number:3,number:4,number:5", "filename": "boltons/test13.py"}
-{"a": "name:alice,age:30,city:london,name:bob,age:25,city:paris", "filename": "boltons/test13.py"}
+{"a": "name:,age:30,city:london,name:,age:25,city:paris", "filename": "boltons/test13.py"}
 {"a": "a:test,b:data,c:info,a:newtest,b:newdata", "filename": "boltons/test13.py"}
 {"a": "k1:v1,k2:v2,k3:v3,k1:v4,k2:v5,k3:v6", "filename": "boltons/test13.py"}
 {"a": "first:1,second:2,third:3,first:4,second:5,third:6", "filename": "boltons/test13.py"}
@@ -1331,7 +1331,7 @@
 {"a": "id:100,id:101,id:102,id:103,id:104", "filename": "boltons/test13.py"}
 {"a": "a:1,b:2,a:3,b:4,a:5,b:6", "filename": "boltons/test13.py"}
 {"a": "test:case1,test:case2,test:case3,test:case4", "filename": "boltons/test13.py"}
-{"a": "name:john,email:john@example.com,name:jane,email:jane@example.com", "filename": "boltons/test13.py"}
+{"a": "name:,email:,name:,email:", "filename": "boltons/test13.py"}
 {"a": "k:v,k:v,k:v,k:v,k:v", "filename": "boltons/test13.py"}
 {"a": "a:b,c:d,e:f,a:g,c:h,e:i", "filename": "boltons/test13.py"}
 {"a": "number:one,number:two,number:three,number:four,number:five", "filename": "boltons/test13.py"}
@@ -1343,7 +1343,7 @@
 {"a": "k1:v1,k2:v2,k1:v3,k2:v4,k1:v5,k2:v6", "filename": "boltons/test13.py"}
 {"a": "a:x,b:y,c:z,a:xx,b:yy,c:zz", "filename": "boltons/test13.py"}
 {"a": "id:001,id:002,id:003,id:004,id:005", "filename": "boltons/test13.py"}
-{"a": "name:alice,age:30,name:bob,age:25,name:charlie,age:35", "filename": "boltons/test13.py"}
+{"a": "name:,age:30,name:,age:25,name:,age:35", "filename": "boltons/test13.py"}
 {"a": "key:value1,key:value2,key:value3,key:value4,key:value5", "filename": "boltons/test13.py"}
 {"a": "item:a1,item:b2,item:c3,item:d4,item:e5", "filename": "boltons/test13.py"}
 {"a": "x:1,y:2,z:3,x:4,y:5,z:6,x:7,y:8,z:9", "filename": "boltons/test13.py"}
@@ -1351,7 +1351,7 @@
 {"a": "a:apple,b:banana,a:orange,b:grape", "filename": "boltons/test13.py"}
 {"a": "k:v1,k:v2,k:v3,k:v4,k:v5,k:v6,k:v7,k:v8,k:v9,k:v10", "filename": "boltons/test13.py"}
 {"a": "id:10,id:20,id:30,id:40,id:50", "filename": "boltons/test13.py"}
-{"a": "name:john,date:2024,name:jane,date:2023", "filename": "boltons/test13.py"}
+{"a": "name:,date:2024,name:,date:2023", "filename": "boltons/test13.py"}
 {"a": "key:val,key:val,key:val,key:val,key:val", "filename": "boltons/test13.py"}
 {"a": "a:1,a:2,a:3,a:4,a:5,a:6,a:7,a:8,a:9,a:10", "filename": "boltons/test13.py"}
 {"a": "item:first,item:second,item:third,item:first,item:second", "filename": "boltons/test13.py"}
@@ -1370,7 +1370,7 @@
 {"a": "alpha:aaa,beta:bbb,gamma:ccc,alpha:ddd,beta:eee,gamma:fff", "filename": "boltons/test13.py"}
 {"a": "a:value,b:data,c:info,a:newvalue,b:newdata,c:newinfo", "filename": "boltons/test13.py"}
 {"a": "id:123,id:456,id:789,id:012,id:345", "filename": "boltons/test13.py"}
-{"a": "name:john,age:30,name:jane,age:25,name:jack,age:40", "filename": "boltons/test13.py"}
+{"a": "name:,age:30,name:,age:25,name:jack,age:40", "filename": "boltons/test13.py"}
 {"a": "key:a1,key:b2,key:c3,key:d4,key:e5,key:f6", "filename": "boltons/test13.py"}
 {"a": "item:apple,item:banana,item:cherry,item:apple,item:banana", "filename": "boltons/test13.py"}
 {"a": "x:10,x:20,x:30,x:40,x:50,x:60,x:70,x:80,x:90,x:100", "filename": "boltons/test13.py"}
@@ -1378,7 +1378,7 @@
 {"a": "a:alpha,b:beta,c:gamma,a:delta,b:epsilon,c:zeta", "filename": "boltons/test13.py"}
 {"a": "k:v,k:vv,k:vvv,k:vvvv,k:vvvvv", "filename": "boltons/test13.py"}
 {"a": "id:1a,id:2b,id:3c,id:4d,id:5e", "filename": "boltons/test13.py"}
-{"a": "name:alice,country:usa,name:bob,country:uk,name:charlie,country:canada", "filename": "boltons/test13.py"}
+{"a": "name:,country:usa,name:,country:uk,name:,country:canada", "filename": "boltons/test13.py"}
 {"a": "key:value,key:value,key:value", "filename": "boltons/test13.py"}
 {"a": "item:1,item:2,item:3,item:4,item:5,item:6,item:7,item:8,item:9,item:10", "filename": "boltons/test13.py"}
 {"a": "1,2,3,4,5", "filename": "boltons/test14.py"}
@@ -1491,7 +1491,7 @@
 {"a": ":", "filename": "boltons/test15.py"}
 {"a": "key1:val1,key2:val2,key3:val3,key4:val4,key5:val5,key6:val6,key7:val7,key8:val8,key9:val9,key10:val10", "filename": "boltons/test15.py"}
 {"a": "alpha:beta,gamma:delta,epsilon:zeta", "filename": "boltons/test15.py"}
-{"a": "name:John,age:30,city:NewYork", "filename": "boltons/test15.py"}
+{"a": "name:,age:30,city:NewYork", "filename": "boltons/test15.py"}
 {"a": "empty:", "filename": "boltons/test15.py"}
 {"a": ":emptyvalue", "filename": "boltons/test15.py"}
 {"a": "k1:v1,k2:v2,k3:v3,k4:v4", "filename": "boltons/test15.py"}
@@ -1508,7 +1508,7 @@
 {"a": "key'with'quotes:value'with'quotes", "filename": "boltons/test15.py"}
 {"a": "key:value,key:differentvalue", "filename": "boltons/test15.py"}
 {"a": "a:b,c:d,e:f,g:h,i:j,k:l,m:n,o:p,q:r,s:t,u:v,w:x,y:z", "filename": "boltons/test15.py"}
-{"a": "verylongkeyname1234567890:verylongvalue1234567890", "filename": "boltons/test15.py"}
+{"a": "verylongkeyname:verylongvalue", "filename": "boltons/test15.py"}
 {"a": "unicodeα:unicodeβ", "filename": "boltons/test15.py"}
 {"a": "特殊字符:!@#$%^&*()", "filename": "boltons/test15.py"}
 {"a": "k: v", "filename": "boltons/test15.py"}
@@ -1565,8 +1565,8 @@
 {"a": "a:1,b:2,c:3,d:4,e:5,f:6,g:7,h:8,i:9,j:10,k:11,l:12,m:13", "filename": "boltons/test15.py"}
 {"a": "a:1,b:2,c:3,d:4,e:5,f:6,g:7,h:8,i:9,j:10,k:11,l:12,m:13,n:14", "filename": "boltons/test15.py"}
 {"a": "a:1,b:2,c:3,d:4,e:5,f:6,g:7,h:8,i:9,j:10,k:11,l:12,m:13,n:14,o:15", "filename": "boltons/test15.py"}
-{"a": "k:123456789012345678901234567890", "filename": "boltons/test15.py"}
-{"a": "123456789012345678901234567890:short", "filename": "boltons/test15.py"}
+{"a": "k:", "filename": "boltons/test15.py"}
+{"a": ":short", "filename": "boltons/test15.py"}
 {"a": "a:value with\nnewline", "filename": "boltons/test15.py"}
 {"a": "key with\nnewline:value", "filename": "boltons/test15.py"}
 {"a": "k:value with\t tab", "filename": "boltons/test15.py"}
@@ -1723,7 +1723,7 @@
 {"a": "{'k': {'a': 0, 'b': 0, 'c': 0, 'd': 0}}", "filename": "boltons/test19.py"}
 {"a": "{'mixed_types': {'a': 1, 'b': '1', 'c': 1.0}}", "filename": "boltons/test19.py"}
 {"a": "{'escape': {'a': '\\n', 'b': '\\t', 'c': '\\\\'}}", "filename": "boltons/test19.py"}
-{"a": "{'a': {'x': 1.23456789, 'y': -9.87654321}}", "filename": "boltons/test19.py"}
+{"a": "{'a': {'x': , 'y': -}}", "filename": "boltons/test19.py"}
 {"a": "{'large': {'a': 1000000, 'b': -1000000}}", "filename": "boltons/test19.py"}
 {"a": "{'k1': {'a': 'A'}, 'k2': {'a': 'B'}, 'k3': {'a': 'C'}}", "filename": "boltons/test19.py"}
 {"a": "{'dup': {'a': 1, 'b': 1}, 'unique': {'c': 2}}", "filename": "boltons/test19.py"}

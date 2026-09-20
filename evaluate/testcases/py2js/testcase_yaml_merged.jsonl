@@ -3,10 +3,10 @@
 {"filename": "yaml/test1.py", "a": "empty_dict: {}\nempty_list: []\nnull_value: null"}
 {"filename": "yaml/test1.py", "a": "null"}
 {"filename": "yaml/test1.py", "a": "literal: |-\n  Line 1\n  Line 2\n\n  Line 4"}
-{"filename": "yaml/test1.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test1.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
 {"filename": "yaml/test1.py", "a": "simple string"}
 {"filename": "yaml/test1.py", "a": "positive_inf: .inf\nnegative_inf: -.inf\nnot_a_number: .nan"}
-{"filename": "yaml/test1.py", "a": "iso_timestamp: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test1.py", "a": "iso_timestamp: T14:30:00Z"}
 {"filename": "yaml/test1.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
 {"filename": "yaml/test1.py", "a": "--- # comment\ndocument: with comment\n..."}
 {"filename": "yaml/test1.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
@@ -32,7 +32,7 @@
 {"filename": "yaml/test1.py", "a": "DMRFPSMCAKAKRR"}
 {"filename": "yaml/test1.py", "a": "3v93fIBulgvetdfJm9WYzad26ZBtJHKdOCEXQXMAOEq7paOv9I"}
 {"filename": "yaml/test1.py", "a": "913257499"}
-{"filename": "yaml/test1.py", "a": "0189707927248"}
+{"filename": "yaml/test1.py", "a": "08"}
 {"filename": "yaml/test1.py", "a": "jYJ61RgYjl6NSGQN5gZFDsBGgvN"}
 {"filename": "yaml/test1.py", "a": "EUDHHGVXMDIYUTY"}
 {"filename": "yaml/test1.py", "a": "g5HDklOPykiBDwnKnAycDVZnepsFe9zquaF"}
@@ -63,22 +63,22 @@
 {"filename": "yaml/test10.py", "a": "pi: 3.14159\ne: 2.71828\nnegative: -1.5"}
 {"filename": "yaml/test10.py", "a": "--- !!str string"}
 {"filename": "yaml/test10.py", "a": "folded: >-\n  This is a folded\n  scalar that removes\n  trailing newlines."}
-{"filename": "yaml/test10.py", "a": "name: Alice\nage: 30\ncity: New York"}
-{"filename": "yaml/test10.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
-{"filename": "yaml/test10.py", "a": "{name: Alice, age: 30, city: New York}"}
+{"filename": "yaml/test10.py", "a": "name: \nage: 30\ncity: "}
+{"filename": "yaml/test10.py", "a": "name:   # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test10.py", "a": "{name: , age: 30, city: }"}
 {"filename": "yaml/test10.py", "a": "42"}
 {"filename": "yaml/test10.py", "a": "- apple\n- banana\n- cherry"}
 {"filename": "yaml/test10.py", "a": "!!float 3.14"}
 {"filename": "yaml/test10.py", "a": "true"}
 {"filename": "yaml/test10.py", "a": "'true': true\n'false': false\n'null': null"}
-{"filename": "yaml/test10.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
-{"filename": "yaml/test10.py", "a": "timestamp: 2024-01-15T14:30:00"}
-{"filename": "yaml/test10.py", "a": "&anchor\nname: Alice\nage: 30\n<<: *anchor"}
+{"filename": "yaml/test10.py", "a": "name:   # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test10.py", "a": "timestamp: T14:30:00"}
+{"filename": "yaml/test10.py", "a": "&anchor\nname: \nage: 30\n<<: *anchor"}
 {"filename": "yaml/test10.py", "a": "\"double quoted\": \"value with \\\"quotes\\\"\""}
 {"filename": "yaml/test10.py", "a": "positive_inf: .inf\nnegative_inf: -.inf\nnot_a_number: .nan"}
 {"filename": "yaml/test10.py", "a": "null"}
-{"filename": "yaml/test10.py", "a": "name: Alice\nage: 30\ncity: New York"}
-{"filename": "yaml/test10.py", "a": "324529420111"}
+{"filename": "yaml/test10.py", "a": "name: \nage: 30\ncity: "}
+{"filename": "yaml/test10.py", "a": ""}
 {"filename": "yaml/test10.py", "a": "3ivB1ijOym5q"}
 {"filename": "yaml/test10.py", "a": "Aetpcqt4kLF6bYlQjp"}
 {"filename": "yaml/test10.py", "a": "JXxLBloJlA"}
@@ -97,7 +97,7 @@
 {"filename": "yaml/test10.py", "a": "bsnKTc9 lhTlwlsGcyGAou5"}
 {"filename": "yaml/test10.py", "a": "ofldg"}
 {"filename": "yaml/test10.py", "a": "69857566"}
-{"filename": "yaml/test10.py", "a": "7301743600894"}
+{"filename": "yaml/test10.py", "a": ""}
 {"filename": "yaml/test10.py", "a": "MNiYdgThvFfJ5DL9idMpcGITJHAOVvcP2KtKaXPEbhnBvIaJVL"}
 {"filename": "yaml/test10.py", "a": "y68NIXMlb36ih4sdb8dVpPEBsLNGQ 0Y0p0vG1XXzB"}
 {"filename": "yaml/test10.py", "a": "B7nnkaBgWx01YmMoNbTd8eO"}
@@ -118,26 +118,26 @@
 {"filename": "yaml/test10.py", "a": "JS2AcLNHic59WAZEqt35pKcCqrrPH4q8g4XNgU29gS"}
 {"filename": "yaml/test10.py", "a": "43oK3fqm8hVgcU13d8uJXa0HctredHlW1So"}
 {"filename": "yaml/test10.py", "a": "bcb3jib28dwf"}
-{"filename": "yaml/test11.py", "a": "name: Alice\nage: 30\ncity: New York"}
-{"filename": "yaml/test11.py", "a": "big_int: 9223372036854775807\nsmall_int: -9223372036854775808"}
+{"filename": "yaml/test11.py", "a": "name: \nage: 30\ncity: "}
+{"filename": "yaml/test11.py", "a": "big_int: \nsmall_int: -"}
 {"filename": "yaml/test11.py", "a": ""}
 {"filename": "yaml/test11.py", "a": "simple string"}
-{"filename": "yaml/test11.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test11.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
 {"filename": "yaml/test11.py", "a": "!!bool true"}
-{"filename": "yaml/test11.py", "a": "iso_timestamp: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test11.py", "a": "iso_timestamp: T14:30:00Z"}
 {"filename": "yaml/test11.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
-{"filename": "yaml/test11.py", "a": "big_int: 9223372036854775807\nsmall_int: -9223372036854775808"}
+{"filename": "yaml/test11.py", "a": "big_int: \nsmall_int: -"}
 {"filename": "yaml/test11.py", "a": "[apple, banana, cherry]"}
-{"filename": "yaml/test11.py", "a": "big_int: 9223372036854775807\nsmall_int: -9223372036854775808"}
+{"filename": "yaml/test11.py", "a": "big_int: \nsmall_int: -"}
 {"filename": "yaml/test11.py", "a": "null"}
 {"filename": "yaml/test11.py", "a": "!!float 3.14"}
-{"filename": "yaml/test11.py", "a": "iso_timestamp: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test11.py", "a": "iso_timestamp: T14:30:00Z"}
 {"filename": "yaml/test11.py", "a": "folded_block: >\n  This is a folded\n  string that will\n  be on one line."}
 {"filename": "yaml/test11.py", "a": "empty_dict: {}\nempty_list: []\nnull_value: null"}
 {"filename": "yaml/test11.py", "a": "- apple\n- banana\n- cherry"}
 {"filename": "yaml/test11.py", "a": "DRqJ1DhvY4i0aLV1ElB00JKJLQPW l8xsu91"}
 {"filename": "yaml/test11.py", "a": "z3DD4rQs"}
-{"filename": "yaml/test11.py", "a": "41737436603"}
+{"filename": "yaml/test11.py", "a": ""}
 {"filename": "yaml/test11.py", "a": "bQZYTwUDItEXgUBBCX7jcJv0ymxRAJ"}
 {"filename": "yaml/test11.py", "a": "XIGyD2MQ"}
 {"filename": "yaml/test11.py", "a": "HUQZOREZVJMDOE"}
@@ -156,7 +156,7 @@
 {"filename": "yaml/test11.py", "a": "3LZOpTCgCzN JDRihR4E8EgDT9MGga"}
 {"filename": "yaml/test11.py", "a": "JqW5N2UgTMxRNw7wnOJjhM3RRuc SguO47nQeLaXlm5CkV1ybVQOS"}
 {"filename": "yaml/test11.py", "a": "LACILEV"}
-{"filename": "yaml/test11.py", "a": "173617501316811"}
+{"filename": "yaml/test11.py", "a": "6811"}
 {"filename": "yaml/test11.py", "a": "xwlryjxifxk"}
 {"filename": "yaml/test11.py", "a": "GGt6IlelO2zg1DeyfnaSHqIFzI0cKQvLUKY2EvI68Q"}
 {"filename": "yaml/test11.py", "a": "TPEPVevx7bYK1vVZKSxMPhe0tKe4 QzLn96EyZAGKDeWXjeIP"}
@@ -183,31 +183,31 @@
 {"filename": "yaml/test12.py", "a": "positive_inf: .inf\nnegative_inf: -.inf\nnot_a_number: .nan"}
 {"filename": "yaml/test12.py", "a": "preserve: |+\n  Line 1\n  Line 2\n\n"}
 {"filename": "yaml/test12.py", "a": "binary_int: 0b1010"}
-{"filename": "yaml/test12.py", "a": "{name: Alice, age: 30, city: New York}"}
+{"filename": "yaml/test12.py", "a": "{name: , age: 30, city: }"}
 {"filename": "yaml/test12.py", "a": "simple string"}
 {"filename": "yaml/test12.py", "a": "positive_inf: .inf\nnegative_inf: -.inf\nnot_a_number: .nan"}
 {"filename": "yaml/test12.py", "a": "---\ndocument_start: true\n..."}
 {"filename": "yaml/test12.py", "a": "chinese: 你好世界\nemoji: 🚀🌟🎉\nspecial_chars: áéíóúñ"}
 {"filename": "yaml/test12.py", "a": "true"}
-{"filename": "yaml/test12.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
-{"filename": "yaml/test12.py", "a": "big_int: 9223372036854775807\nsmall_int: -9223372036854775808"}
+{"filename": "yaml/test12.py", "a": "name:   # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test12.py", "a": "big_int: \nsmall_int: -"}
 {"filename": "yaml/test12.py", "a": "literal: |-\n  Line 1\n  Line 2\n\n  Line 4"}
 {"filename": "yaml/test12.py", "a": ""}
-{"filename": "yaml/test12.py", "a": "date: 2024-01-15\ntime: 14:30:00\ndatetime: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test12.py", "a": "date: \ntime: 14:30:00\ndatetime: T14:30:00Z"}
 {"filename": "yaml/test12.py", "a": "--- # comment\ndocument: with comment\n..."}
 {"filename": "yaml/test12.py", "a": "null"}
 {"filename": "yaml/test12.py", "a": "XIBXTDHPMFBM"}
 {"filename": "yaml/test12.py", "a": "naxmwtxfdaw"}
 {"filename": "yaml/test12.py", "a": "00060892"}
 {"filename": "yaml/test12.py", "a": "KOQZLP"}
-{"filename": "yaml/test12.py", "a": "332380890677662"}
+{"filename": "yaml/test12.py", "a": ""}
 {"filename": "yaml/test12.py", "a": "wMl6f6xF8H4GStQ8axbQGjapalVXIUXT"}
-{"filename": "yaml/test12.py", "a": "47970736507"}
+{"filename": "yaml/test12.py", "a": ""}
 {"filename": "yaml/test12.py", "a": "61110681"}
 {"filename": "yaml/test12.py", "a": "801629913"}
 {"filename": "yaml/test12.py", "a": "uk39O2JBLLF jl0si9ZVm"}
 {"filename": "yaml/test12.py", "a": "RHZHMI"}
-{"filename": "yaml/test12.py", "a": "1943196084499"}
+{"filename": "yaml/test12.py", "a": "99"}
 {"filename": "yaml/test12.py", "a": "XXJiI9AtGC2Kt3DCB1pl 5ju2ctMTXoGjVghQLA"}
 {"filename": "yaml/test12.py", "a": "inchBi"}
 {"filename": "yaml/test12.py", "a": "YLGMTLFJLVQSCLI"}
@@ -217,9 +217,9 @@
 {"filename": "yaml/test12.py", "a": "o5EdT9KBuhrRwYmV"}
 {"filename": "yaml/test12.py", "a": "mobjsdeofh"}
 {"filename": "yaml/test12.py", "a": "cVfwOJYVzRbPEGoA2oKhzlLVIEdexsBsH"}
-{"filename": "yaml/test12.py", "a": "4353443220"}
+{"filename": "yaml/test12.py", "a": ""}
 {"filename": "yaml/test12.py", "a": "c5k0ZhDLdYqAO yQK3vBl"}
-{"filename": "yaml/test12.py", "a": "2071328633394"}
+{"filename": "yaml/test12.py", "a": ""}
 {"filename": "yaml/test12.py", "a": "pUndwKmBn3Z4"}
 {"filename": "yaml/test12.py", "a": "uanfk"}
 {"filename": "yaml/test12.py", "a": "WAFPOLPZJ"}
@@ -227,7 +227,7 @@
 {"filename": "yaml/test12.py", "a": "arekwmobhywqur"}
 {"filename": "yaml/test12.py", "a": "ZfHNCqDeoqsK thhfTi08kBfBRNsu"}
 {"filename": "yaml/test12.py", "a": "tUrWSB85qSibcUbN qItbDn4gV8XXUg"}
-{"filename": "yaml/test12.py", "a": "217902535369501"}
+{"filename": "yaml/test12.py", "a": "2501"}
 {"filename": "yaml/test12.py", "a": "VTHGJH"}
 {"filename": "yaml/test12.py", "a": "bH3j50vJ1YceeTXYSl3hNc DNTvJY5K0zd8pfCZNRZ"}
 {"filename": "yaml/test12.py", "a": "PNTXSGXJVJZLZB"}
@@ -240,10 +240,10 @@
 {"filename": "yaml/test12.py", "a": "ykechhqibi"}
 {"filename": "yaml/test13.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
 {"filename": "yaml/test13.py", "a": "positive_inf: .inf\nnegative_inf: -.inf\nnot_a_number: .nan"}
-{"filename": "yaml/test13.py", "a": "iso_timestamp: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test13.py", "a": "iso_timestamp: T14:30:00Z"}
 {"filename": "yaml/test13.py", "a": "--- !!str string"}
 {"filename": "yaml/test13.py", "a": "omap: !!omap\n  - key1: value1\n  - key2: value2\n  - key3: value3"}
-{"filename": "yaml/test13.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test13.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
 {"filename": "yaml/test13.py", "a": "!!int 123"}
 {"filename": "yaml/test13.py", "a": "literal: |-\n  Line 1\n  Line 2\n\n  Line 4"}
 {"filename": "yaml/test13.py", "a": "large: 1.23e10\nsmall: 5.67e-8"}
@@ -253,12 +253,12 @@
 {"filename": "yaml/test13.py", "a": "a: 123\nb: -456\nc: 0"}
 {"filename": "yaml/test13.py", "a": "greeting: Hello, World!\nempty: ''\nmultiline: |\n  Line1\n  Line2\n  Line3"}
 {"filename": "yaml/test13.py", "a": "pi: 3.14159\ne: 2.71828\nnegative: -1.5"}
-{"filename": "yaml/test13.py", "a": "&anchor\nname: Alice\nage: 30\n<<: *anchor"}
-{"filename": "yaml/test13.py", "a": "user:\n  name: Bob\n  details:\n    age: 25\n    email: bob@example.com"}
+{"filename": "yaml/test13.py", "a": "&anchor\nname: \nage: 30\n<<: *anchor"}
+{"filename": "yaml/test13.py", "a": "user:\n  name: \n  details:\n    age: 25\n    email: "}
 {"filename": "yaml/test13.py", "a": "mQgCDs2SAbA474lrQ EIgy5686ulKh6psd3tkOPJ4FpfE6xz"}
 {"filename": "yaml/test13.py", "a": "u3hlemOuwmLmQxuNy Nl72z"}
 {"filename": "yaml/test13.py", "a": "N9TAUCqHkDltgsCHO7ZFWdZmNpkLNN1oH9R34bjPT9Q"}
-{"filename": "yaml/test13.py", "a": "1765093643"}
+{"filename": "yaml/test13.py", "a": ""}
 {"filename": "yaml/test13.py", "a": "XTUTXTOZUY"}
 {"filename": "yaml/test13.py", "a": "84261"}
 {"filename": "yaml/test13.py", "a": "QSAIYKKXA"}
@@ -274,7 +274,7 @@
 {"filename": "yaml/test13.py", "a": "gNzBgB"}
 {"filename": "yaml/test13.py", "a": "rslbvbamo"}
 {"filename": "yaml/test13.py", "a": "zzREG5Ip1fq"}
-{"filename": "yaml/test13.py", "a": "685833902381"}
+{"filename": "yaml/test13.py", "a": ""}
 {"filename": "yaml/test13.py", "a": "UGCSNQRQQROH"}
 {"filename": "yaml/test13.py", "a": "XAYGIZWJKIZUO"}
 {"filename": "yaml/test13.py", "a": "hr3Dcm3h7MAzlBA7fu GCBeZTs"}
@@ -288,17 +288,17 @@
 {"filename": "yaml/test13.py", "a": "DGPeNzrCKRLffA LNb78aDaRupbTxJCUtTeGrmTNy"}
 {"filename": "yaml/test13.py", "a": "H3JGYJZme7Pup"}
 {"filename": "yaml/test13.py", "a": "nbhrptvxyvg"}
-{"filename": "yaml/test13.py", "a": "14787559740"}
+{"filename": "yaml/test13.py", "a": ""}
 {"filename": "yaml/test13.py", "a": "8059086"}
 {"filename": "yaml/test13.py", "a": "8YoiiM2SpF4XfGFiqlKJUmhAootQ0fSeBs0vKzL1dJyTSuCn"}
-{"filename": "yaml/test13.py", "a": "2380159090"}
+{"filename": "yaml/test13.py", "a": ""}
 {"filename": "yaml/test13.py", "a": "fI8bDAhmFolPNuy"}
 {"filename": "yaml/test13.py", "a": "mumyw"}
 {"filename": "yaml/test13.py", "a": "21006391"}
 {"filename": "yaml/test13.py", "a": "izodekpy"}
 {"filename": "yaml/test13.py", "a": "ctpuowJS6LkMfy"}
 {"filename": "yaml/test13.py", "a": "ESHRc"}
-{"filename": "yaml/test14.py", "a": "timestamp: 2024-01-15T14:30:00"}
+{"filename": "yaml/test14.py", "a": "timestamp: T14:30:00"}
 {"filename": "yaml/test14.py", "a": "chomp: |\n  Line 1\n  Line 2\n"}
 {"filename": "yaml/test14.py", "a": "binary_int: 0b1010"}
 {"filename": "yaml/test14.py", "a": "42"}
@@ -307,7 +307,7 @@
 {"filename": "yaml/test14.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
 {"filename": "yaml/test14.py", "a": "[apple, banana, cherry]"}
 {"filename": "yaml/test14.py", "a": "omap: !!omap\n  - key1: value1\n  - key2: value2\n  - key3: value3"}
-{"filename": "yaml/test14.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test14.py", "a": "name:   # inline comment\nage: 30  # another inline"}
 {"filename": "yaml/test14.py", "a": "large: 1.23e10\nsmall: 5.67e-8"}
 {"filename": "yaml/test14.py", "a": "folded_block: >\n  This is a folded\n  string that will\n  be on one line."}
 {"filename": "yaml/test14.py", "a": "!!float 3.14"}
@@ -324,14 +324,14 @@
 {"filename": "yaml/test14.py", "a": "95383452"}
 {"filename": "yaml/test14.py", "a": "hKWbgtZESLgzTzRyq C2UHAMmdnFNSG1qV5"}
 {"filename": "yaml/test14.py", "a": "P7zNGFFd7OQSwCdzLUu in54Rh2"}
-{"filename": "yaml/test14.py", "a": "852273531497289"}
-{"filename": "yaml/test14.py", "a": "65405403182588"}
+{"filename": "yaml/test14.py", "a": ""}
+{"filename": "yaml/test14.py", "a": ""}
 {"filename": "yaml/test14.py", "a": "lnCEGVr0NSBIa"}
 {"filename": "yaml/test14.py", "a": "dlteyqvichov"}
 {"filename": "yaml/test14.py", "a": "d0DLiZutl5WY7WqI1yKlFv9yMYCmW24XFRxv6ifzHCLlb2"}
-{"filename": "yaml/test14.py", "a": "5788362771756"}
-{"filename": "yaml/test14.py", "a": "1814153472"}
-{"filename": "yaml/test14.py", "a": "90700202985720"}
+{"filename": "yaml/test14.py", "a": ""}
+{"filename": "yaml/test14.py", "a": ""}
+{"filename": "yaml/test14.py", "a": ""}
 {"filename": "yaml/test14.py", "a": "Vo8JWI0Gg9"}
 {"filename": "yaml/test14.py", "a": "vjqgppjsmb"}
 {"filename": "yaml/test14.py", "a": "eaET4J2VPWqVbcxYGnD hfdmLDDz2"}
@@ -342,14 +342,14 @@
 {"filename": "yaml/test14.py", "a": "vxlxce"}
 {"filename": "yaml/test14.py", "a": "00108248"}
 {"filename": "yaml/test14.py", "a": "PYKBDA"}
-{"filename": "yaml/test14.py", "a": "61612314807"}
+{"filename": "yaml/test14.py", "a": ""}
 {"filename": "yaml/test14.py", "a": "QVTMIHBRYMH"}
 {"filename": "yaml/test14.py", "a": "66597521"}
 {"filename": "yaml/test14.py", "a": "iUpawbvwM2FNfhFo2fVuW3fMtN8UKc37oRn5p"}
 {"filename": "yaml/test14.py", "a": "EXMMLMP"}
 {"filename": "yaml/test14.py", "a": "6zDhbfleo5HUoLCcNp6hKw"}
 {"filename": "yaml/test14.py", "a": "Eu9Eaz 7oud"}
-{"filename": "yaml/test14.py", "a": "425532047504"}
+{"filename": "yaml/test14.py", "a": ""}
 {"filename": "yaml/test14.py", "a": "KHTZKVNNHBHSZPD"}
 {"filename": "yaml/test14.py", "a": "ABgkjpOCLWSrEN"}
 {"filename": "yaml/test14.py", "a": "61014539"}
@@ -359,14 +359,14 @@
 {"filename": "yaml/test14.py", "a": "8waH2Gs1FTt92"}
 {"filename": "yaml/test14.py", "a": "E7qZgE5Vjlmkoia SROxujIEPMII0JuWh5PpQ2AdKMWrQS"}
 {"filename": "yaml/test15.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
-{"filename": "yaml/test15.py", "a": "&anchor\nname: Alice\nage: 30\n<<: *anchor"}
+{"filename": "yaml/test15.py", "a": "&anchor\nname: \nage: 30\n<<: *anchor"}
 {"filename": "yaml/test15.py", "a": "--- !!str string"}
 {"filename": "yaml/test15.py", "a": "false"}
 {"filename": "yaml/test15.py", "a": "!!bool true"}
-{"filename": "yaml/test15.py", "a": "big_int: 9223372036854775807\nsmall_int: -9223372036854775808"}
+{"filename": "yaml/test15.py", "a": "big_int: \nsmall_int: -"}
 {"filename": "yaml/test15.py", "a": "--- # comment\ndocument: with comment\n..."}
-{"filename": "yaml/test15.py", "a": "big_int: 9223372036854775807\nsmall_int: -9223372036854775808"}
-{"filename": "yaml/test15.py", "a": "iso_timestamp: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test15.py", "a": "big_int: \nsmall_int: -"}
+{"filename": "yaml/test15.py", "a": "iso_timestamp: T14:30:00Z"}
 {"filename": "yaml/test15.py", "a": "folded: >-\n  This is a folded\n  scalar that removes\n  trailing newlines."}
 {"filename": "yaml/test15.py", "a": "42"}
 {"filename": "yaml/test15.py", "a": "--- !!str string"}
@@ -382,13 +382,13 @@
 {"filename": "yaml/test15.py", "a": "nqngvgrvoshd"}
 {"filename": "yaml/test15.py", "a": "sfaoltlloift"}
 {"filename": "yaml/test15.py", "a": "4IwlC15imLHkhgos"}
-{"filename": "yaml/test15.py", "a": "0149421689"}
+{"filename": "yaml/test15.py", "a": ""}
 {"filename": "yaml/test15.py", "a": "wVZW2ibwlVaGDiJ3gXwr1TinuRv"}
 {"filename": "yaml/test15.py", "a": "FELWDXLJOPDGZVG"}
 {"filename": "yaml/test15.py", "a": "KSWXYFE"}
 {"filename": "yaml/test15.py", "a": "hY3sAlNaCE6JzkVDoy4H4"}
 {"filename": "yaml/test15.py", "a": "yxosdpazcppphiu"}
-{"filename": "yaml/test15.py", "a": "95071117861588"}
+{"filename": "yaml/test15.py", "a": ""}
 {"filename": "yaml/test15.py", "a": "71982452"}
 {"filename": "yaml/test15.py", "a": "nM6RklqZzrmkg"}
 {"filename": "yaml/test15.py", "a": "Sg5di"}
@@ -438,7 +438,7 @@
 {"filename": "yaml/test16.py", "a": "9PICQSM5ioLymKxZubkjNdXtZiY3bu1bf"}
 {"filename": "yaml/test16.py", "a": "b4KPaNb1GpSuhUmcpSottbjIYSSQPpMXyRxy6"}
 {"filename": "yaml/test16.py", "a": "yuxvm"}
-{"filename": "yaml/test16.py", "a": "557194971189"}
+{"filename": "yaml/test16.py", "a": ""}
 {"filename": "yaml/test16.py", "a": "IEDQJOS"}
 {"filename": "yaml/test16.py", "a": "IKakdeU7jA"}
 {"filename": "yaml/test16.py", "a": "sBDj4RJfI9jS3RBXOXQs8neuJ"}
@@ -459,11 +459,11 @@
 {"filename": "yaml/test16.py", "a": "q1nZFBFf 2ZItBmw0qKEkKzUBOiYaQocr3"}
 {"filename": "yaml/test16.py", "a": "xbhxytvtop"}
 {"filename": "yaml/test16.py", "a": "ezey2GiBwy5CwFQjXSFGlGldYPrRrsilsoh"}
-{"filename": "yaml/test16.py", "a": "5784107383201"}
-{"filename": "yaml/test16.py", "a": "67776434598"}
+{"filename": "yaml/test16.py", "a": ""}
+{"filename": "yaml/test16.py", "a": ""}
 {"filename": "yaml/test16.py", "a": "QupC0hr1GBhuG0UqEE01"}
 {"filename": "yaml/test16.py", "a": "YK2ovqsur47T5po"}
-{"filename": "yaml/test16.py", "a": "65620353541"}
+{"filename": "yaml/test16.py", "a": ""}
 {"filename": "yaml/test16.py", "a": "apaUi4WvfcUsHxq0AnyILCkMhpHhBaa6R"}
 {"filename": "yaml/test16.py", "a": "2Nu0LF9P9ieqq8nedsVm4jpx1KVQsJ3ZTTf8d"}
 {"filename": "yaml/test16.py", "a": "TW71bDr93tuKxkY q1e9cm8B4cMu"}
@@ -484,9 +484,9 @@
 {"filename": "yaml/test17.py", "a": "3.14"}
 {"filename": "yaml/test17.py", "a": "simple string"}
 {"filename": "yaml/test17.py", "a": "&id001 !!str\nString with anchor"}
-{"filename": "yaml/test17.py", "a": "&anchor\nname: Alice\nage: 30\n<<: *anchor"}
+{"filename": "yaml/test17.py", "a": "&anchor\nname: \nage: 30\n<<: *anchor"}
 {"filename": "yaml/test17.py", "a": "defaults: &defaults\n  adapter: postgres\n  host: localhost\ndevelopment:\n  database: dev\n  <<: *defaults\nproduction:\n  database: prod\n  <<: *defaults"}
-{"filename": "yaml/test17.py", "a": "date: 2024-01-15\ntime: 14:30:00\ndatetime: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test17.py", "a": "date: \ntime: 14:30:00\ndatetime: T14:30:00Z"}
 {"filename": "yaml/test17.py", "a": "empty_dict: {}\nempty_list: []\nnull_value: null"}
 {"filename": "yaml/test17.py", "a": "empty_dict: {}\nempty_list: []\nnull_value: null"}
 {"filename": "yaml/test17.py", "a": "!!null null"}
@@ -496,12 +496,12 @@
 {"filename": "yaml/test17.py", "a": "rYZcUcS08bklXy3K0iR"}
 {"filename": "yaml/test17.py", "a": "rbujinke"}
 {"filename": "yaml/test17.py", "a": "dkAQjSz EhsywA4t2d9WX"}
-{"filename": "yaml/test17.py", "a": "713068496589"}
-{"filename": "yaml/test17.py", "a": "1388810247697"}
+{"filename": "yaml/test17.py", "a": "7"}
+{"filename": "yaml/test17.py", "a": "97"}
 {"filename": "yaml/test17.py", "a": "tCRN3eAg22WnDSKzoswX2w0b7QCFXEN8tFKkgyYcs8f"}
 {"filename": "yaml/test17.py", "a": "859cM"}
 {"filename": "yaml/test17.py", "a": "zlvbkmmxdvxob"}
-{"filename": "yaml/test17.py", "a": "836132167045"}
+{"filename": "yaml/test17.py", "a": ""}
 {"filename": "yaml/test17.py", "a": "kxmqybsja"}
 {"filename": "yaml/test17.py", "a": "X6FHWBgZ8QG7Sg7l5"}
 {"filename": "yaml/test17.py", "a": "Ah1SjhZxOW NqbTgeETivii7Ktkyw3ypoRL7CeY"}
@@ -511,9 +511,9 @@
 {"filename": "yaml/test17.py", "a": "BDWFVAHA"}
 {"filename": "yaml/test17.py", "a": "3PFPBk0l4HtH93vxto"}
 {"filename": "yaml/test17.py", "a": "D37pxcBLl11oAkG9pEtNcBY"}
-{"filename": "yaml/test17.py", "a": "641693916139646"}
+{"filename": "yaml/test17.py", "a": "6446"}
 {"filename": "yaml/test17.py", "a": "023261492"}
-{"filename": "yaml/test17.py", "a": "547672584103157"}
+{"filename": "yaml/test17.py", "a": ""}
 {"filename": "yaml/test17.py", "a": "ABFGUYPOPAGR"}
 {"filename": "yaml/test17.py", "a": "NHlGb2Uloo6WSYJ8ICD"}
 {"filename": "yaml/test17.py", "a": "VuKxrKo0CpljO5k7CIUNI7anm LmLw3a8U"}
@@ -539,22 +539,22 @@
 {"filename": "yaml/test17.py", "a": "UdY1ZkInnaOV5B1h6vMy"}
 {"filename": "yaml/test17.py", "a": "0zBzM tgJd6sjiqdzUfwJic6Lu7EQ1IEw"}
 {"filename": "yaml/test18.py", "a": "set: !!set\n  ? a\n  ? b\n  ? c"}
-{"filename": "yaml/test18.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test18.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
 {"filename": "yaml/test18.py", "a": "'true': true\n'false': false\n'null': null"}
 {"filename": "yaml/test18.py", "a": "!!null null"}
 {"filename": "yaml/test18.py", "a": "--- !!str string"}
 {"filename": "yaml/test18.py", "a": "- apple\n- banana\n- cherry"}
 {"filename": "yaml/test18.py", "a": "false"}
-{"filename": "yaml/test18.py", "a": "iso_timestamp: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test18.py", "a": "iso_timestamp: T14:30:00Z"}
 {"filename": "yaml/test18.py", "a": "- id: 1\n  name: Item1\n- id: 2\n  name: Item2"}
 {"filename": "yaml/test18.py", "a": "42"}
-{"filename": "yaml/test18.py", "a": "name: Alice\nage: 30\ncity: New York"}
-{"filename": "yaml/test18.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test18.py", "a": "name: \nage: 30\ncity: "}
+{"filename": "yaml/test18.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
 {"filename": "yaml/test18.py", "a": "greeting: Hello, World!\nempty: ''\nmultiline: |\n  Line1\n  Line2\n  Line3"}
 {"filename": "yaml/test18.py", "a": "binary: !!binary SGVsbG8gV29ybGQ="}
 {"filename": "yaml/test18.py", "a": "!!str Hello"}
 {"filename": "yaml/test18.py", "a": "level1:\n  level2:\n    level3:\n      - deep\n      - nesting"}
-{"filename": "yaml/test18.py", "a": "&anchor\nname: Alice\nage: 30\n<<: *anchor"}
+{"filename": "yaml/test18.py", "a": "&anchor\nname: \nage: 30\n<<: *anchor"}
 {"filename": "yaml/test18.py", "a": ""}
 {"filename": "yaml/test18.py", "a": "42"}
 {"filename": "yaml/test18.py", "a": "folded: >-\n  This is a folded\n  scalar that removes\n  trailing newlines."}
@@ -603,7 +603,7 @@
 {"filename": "yaml/test19.py", "a": "anchors: &base\n  name: Base\nuser1: *base\nuser2: *base"}
 {"filename": "yaml/test19.py", "a": "--- !!str string"}
 {"filename": "yaml/test19.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
-{"filename": "yaml/test19.py", "a": "name: Alice\nage: 30\ncity: New York"}
+{"filename": "yaml/test19.py", "a": "name: \nage: 30\ncity: "}
 {"filename": "yaml/test19.py", "a": "empty_dict: {}\nempty_list: []\nnull_value: null"}
 {"filename": "yaml/test19.py", "a": "null"}
 {"filename": "yaml/test19.py", "a": "\"double quoted\": \"value with \\\"quotes\\\"\""}
@@ -616,7 +616,7 @@
 {"filename": "yaml/test19.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
 {"filename": "yaml/test19.py", "a": "3.14"}
 {"filename": "yaml/test19.py", "a": "anchors: &base\n  name: Base\nuser1: *base\nuser2: *base"}
-{"filename": "yaml/test19.py", "a": "541407278404065"}
+{"filename": "yaml/test19.py", "a": "5465"}
 {"filename": "yaml/test19.py", "a": "efhdgaryqaitpzq"}
 {"filename": "yaml/test19.py", "a": "hpsij"}
 {"filename": "yaml/test19.py", "a": "wojapzfhhzm"}
@@ -633,7 +633,7 @@
 {"filename": "yaml/test19.py", "a": "uFPCGyVUcNoZk"}
 {"filename": "yaml/test19.py", "a": "MtKqjySR911g3pvKEJQJ0sU9 5xYAx8qHjXSsCwoE7SqmBbH6pUa"}
 {"filename": "yaml/test19.py", "a": "3eE4FyZK bqaxAvKByxc9"}
-{"filename": "yaml/test19.py", "a": "56609820612"}
+{"filename": "yaml/test19.py", "a": ""}
 {"filename": "yaml/test19.py", "a": "BFQRZ"}
 {"filename": "yaml/test19.py", "a": "PYSk6rz0mrSwzZdUAk1MaQDo4w74qPpUOOVY9Le1Pe2U2qI"}
 {"filename": "yaml/test19.py", "a": "O5O6BaTwTkMSoXTgKjKBTXUDrmDAw1M2PeXFeInDYi"}
@@ -659,48 +659,48 @@
 {"filename": "yaml/test19.py", "a": "pubvifXrzlcP4765qrYgDdSSRdtTOT6"}
 {"filename": "yaml/test19.py", "a": "Wjk2XjOFLRWzUmA nTJnsXQx"}
 {"filename": "yaml/test2.py", "a": "['apple', 'banana', 'cherry']"}
-{"filename": "yaml/test2.py", "a": "{'large': 12300000000.0, 'small': 5.67e-08}"}
+{"filename": "yaml/test2.py", "a": "{'large': .0, 'small': 5.67e-08}"}
 {"filename": "yaml/test2.py", "a": "{'tab': '\\t', 'newline': '\\n', 'quote': '\"', 'backslash': '\\\\'}"}
 {"filename": "yaml/test2.py", "a": "'14:30:00'"}
 {"filename": "yaml/test2.py", "a": "{'true': True, 'false': False, 'null': None}"}
 {"filename": "yaml/test2.py", "a": "{'level1': {'level2': {'level3': ['deep', 'nesting']}}}"}
 {"filename": "yaml/test2.py", "a": "{'greeting': 'Hello, World!', 'empty': '', 'multiline': 'Line1\\\\nLine2\\\\nLine3'}"}
 {"filename": "yaml/test2.py", "a": "'14:30:00'"}
-{"filename": "yaml/test2.py", "a": "{'metadata': {'version': '1.0', 'authors': ['Alice', 'Bob', 'Charlie'], 'tags': ['python', 'yaml', 'test']}, 'data': [{'id': 1, 'value': 100, 'active': True}, {'id': 2, 'value': 200, 'active': False}], 'config': {'debug': False, 'log_level': 'INFO', 'max_retries': 3}}"}
+{"filename": "yaml/test2.py", "a": "{'metadata': {'version': '1.0', 'authors': ['', '', ''], 'tags': ['python', 'yaml', 'test']}, 'data': [{'id': 1, 'value': 100, 'active': True}, {'id': 2, 'value': 200, 'active': False}], 'config': {'debug': False, 'log_level': 'INFO', 'max_retries': 3}}"}
 {"filename": "yaml/test2.py", "a": "[{'id': 1, 'name': 'Item1'}, {'id': 2, 'name': 'Item2'}]"}
-{"filename": "yaml/test2.py", "a": "'2024-01-15T14:30:00Z'"}
+{"filename": "yaml/test2.py", "a": "'T14:30:00Z'"}
 {"filename": "yaml/test2.py", "a": "None"}
 {"filename": "yaml/test2.py", "a": "{'chinese': '你好世界', 'emoji': '🚀🌟🎉', 'special_chars': 'áéíóúñ'}"}
-{"filename": "yaml/test2.py", "a": "'2024-01-15T14:30:00Z'"}
-{"filename": "yaml/test2.py", "a": "{'big_int': 9223372036854775807, 'small_int': -9223372036854775808}"}
+{"filename": "yaml/test2.py", "a": "'T14:30:00Z'"}
+{"filename": "yaml/test2.py", "a": "{'big_int': , 'small_int': -}"}
 {"filename": "yaml/test2.py", "a": "{'greeting': 'Hello, World!', 'empty': '', 'multiline': 'Line1\\\\nLine2\\\\nLine3'}"}
 {"filename": "yaml/test2.py", "a": "True"}
-{"filename": "yaml/test2.py", "a": "'2024-01-15T14:30:00Z'"}
+{"filename": "yaml/test2.py", "a": "'T14:30:00Z'"}
 {"filename": "yaml/test2.py", "a": "False"}
 {"filename": "yaml/test2.py", "a": "True"}
 {"filename": "yaml/test2.py", "a": "79291"}
-{"filename": "yaml/test2.py", "a": "2326666100756"}
-{"filename": "yaml/test2.py", "a": "686321135550175"}
+{"filename": "yaml/test2.py", "a": ""}
+{"filename": "yaml/test2.py", "a": ""}
 {"filename": "yaml/test2.py", "a": "246727722"}
-{"filename": "yaml/test2.py", "a": "6721298865302"}
-{"filename": "yaml/test2.py", "a": "4685912143269"}
-{"filename": "yaml/test2.py", "a": "8934982202363"}
+{"filename": "yaml/test2.py", "a": ""}
+{"filename": "yaml/test2.py", "a": ""}
+{"filename": "yaml/test2.py", "a": ""}
 {"filename": "yaml/test20.py", "a": "multiline_block: |\n  This is a\n  multiline\n  string."}
-{"filename": "yaml/test20.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
-{"filename": "yaml/test20.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test20.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test20.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
 {"filename": "yaml/test20.py", "a": "--- # comment\ndocument: with comment\n..."}
 {"filename": "yaml/test20.py", "a": "set: !!set\n  ? a\n  ? b\n  ? c"}
 {"filename": "yaml/test20.py", "a": "false"}
-{"filename": "yaml/test20.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
-{"filename": "yaml/test20.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test20.py", "a": "name:   # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test20.py", "a": "name:   # inline comment\nage: 30  # another inline"}
 {"filename": "yaml/test20.py", "a": "chomp: |\n  Line 1\n  Line 2\n"}
 {"filename": "yaml/test20.py", "a": "preserve: |+\n  Line 1\n  Line 2\n\n"}
-{"filename": "yaml/test20.py", "a": "name: Alice\nage: 30\ncity: New York"}
+{"filename": "yaml/test20.py", "a": "name: \nage: 30\ncity: "}
 {"filename": "yaml/test20.py", "a": "set: !!set\n  ? a\n  ? b\n  ? c"}
-{"filename": "yaml/test20.py", "a": "date: 2024-01-15\ntime: 14:30:00\ndatetime: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test20.py", "a": "date: \ntime: 14:30:00\ndatetime: T14:30:00Z"}
 {"filename": "yaml/test20.py", "a": "level1:\n  level2:\n    level3:\n      - deep\n      - nesting"}
 {"filename": "yaml/test20.py", "a": "preserve: |+\n  Line 1\n  Line 2\n\n"}
-{"filename": "yaml/test20.py", "a": "big_int: 9223372036854775807\nsmall_int: -9223372036854775808"}
+{"filename": "yaml/test20.py", "a": "big_int: \nsmall_int: -"}
 {"filename": "yaml/test20.py", "a": "!!str Hello"}
 {"filename": "yaml/test20.py", "a": "&id001 !!str\nString with anchor"}
 {"filename": "yaml/test20.py", "a": "6JTOMvnoC3ofZdorp4GnycDXe5I"}
@@ -713,7 +713,7 @@
 {"filename": "yaml/test20.py", "a": "0zr21ycFvZ"}
 {"filename": "yaml/test20.py", "a": "OE13WAS3"}
 {"filename": "yaml/test20.py", "a": "tuXUsIrAcR3"}
-{"filename": "yaml/test20.py", "a": "72278011781"}
+{"filename": "yaml/test20.py", "a": ""}
 {"filename": "yaml/test20.py", "a": "JPQEDTK"}
 {"filename": "yaml/test20.py", "a": "WgYOFjn7VckW0Ve"}
 {"filename": "yaml/test20.py", "a": "cgwnwxunpbn"}
@@ -727,7 +727,7 @@
 {"filename": "yaml/test20.py", "a": "xpHMjC 7vQ"}
 {"filename": "yaml/test20.py", "a": "YVESM0ppRaY2Eeq41ptNlqMkjMvrEJKMdAKedle7wMx9"}
 {"filename": "yaml/test20.py", "a": "SXSNUDTXCBNI"}
-{"filename": "yaml/test20.py", "a": "7105950556941"}
+{"filename": "yaml/test20.py", "a": "71"}
 {"filename": "yaml/test20.py", "a": "Fso9SmjEGVrr7IPfnP8aYRtDysTdvE"}
 {"filename": "yaml/test20.py", "a": "923007622"}
 {"filename": "yaml/test20.py", "a": "wDpdkMkAWoSG WztTtWDzmKqVa8erUadQ"}
@@ -740,9 +740,9 @@
 {"filename": "yaml/test20.py", "a": "KnwJKDGgNZUju3Vd"}
 {"filename": "yaml/test20.py", "a": "XUANKCYOOVI"}
 {"filename": "yaml/test20.py", "a": "jmJ1hHfUGapn3wIXMfTPX7Vn"}
-{"filename": "yaml/test20.py", "a": "27386058931"}
+{"filename": "yaml/test20.py", "a": ""}
 {"filename": "yaml/test20.py", "a": "ggczrqyzuiyzm"}
-{"filename": "yaml/test20.py", "a": "27773221239"}
+{"filename": "yaml/test20.py", "a": ""}
 {"filename": "yaml/test20.py", "a": "VSGALJRH"}
 {"filename": "yaml/test20.py", "a": "LXYZIWU"}
 {"filename": "yaml/test4.py", "a": "literal: |-\n  Line 1\n  Line 2\n\n  Line 4"}
@@ -756,15 +756,15 @@
 {"filename": "yaml/test4.py", "a": "binary: !!binary SGVsbG8gV29ybGQ="}
 {"filename": "yaml/test4.py", "a": "---\ndocument_start: true\n..."}
 {"filename": "yaml/test4.py", "a": "folded_block: >\n  This is a folded\n  string that will\n  be on one line."}
-{"filename": "yaml/test4.py", "a": "name: Alice\nage: 30\ncity: New York"}
+{"filename": "yaml/test4.py", "a": "name: \nage: 30\ncity: "}
 {"filename": "yaml/test4.py", "a": "a: 123\nb: -456\nc: 0"}
 {"filename": "yaml/test4.py", "a": "!!int 123"}
 {"filename": "yaml/test4.py", "a": "set: !!set\n  ? a\n  ? b\n  ? c"}
 {"filename": "yaml/test4.py", "a": "!!bool true"}
 {"filename": "yaml/test4.py", "a": "- id: 1\n  name: Item1\n- id: 2\n  name: Item2"}
-{"filename": "yaml/test4.py", "a": "timestamp: 2024-01-15T14:30:00"}
+{"filename": "yaml/test4.py", "a": "timestamp: T14:30:00"}
 {"filename": "yaml/test4.py", "a": "BGSLLZBBYDRRI"}
-{"filename": "yaml/test4.py", "a": "49970721350505"}
+{"filename": "yaml/test4.py", "a": ""}
 {"filename": "yaml/test4.py", "a": "XXFJKERVNEKT"}
 {"filename": "yaml/test4.py", "a": "ZHAUCFPDLTWJLPT"}
 {"filename": "yaml/test4.py", "a": "022618752"}
@@ -774,7 +774,7 @@
 {"filename": "yaml/test4.py", "a": "v35ldSpysc2ofQBlkl"}
 {"filename": "yaml/test4.py", "a": "tWErsd5lqOYvKqadwcxtFoF9Oxr56C"}
 {"filename": "yaml/test4.py", "a": "vyadeVwTj7UmyUvQRrSQHMHWX5gphOS"}
-{"filename": "yaml/test4.py", "a": "470840904171569"}
+{"filename": "yaml/test4.py", "a": ""}
 {"filename": "yaml/test4.py", "a": "QNSXEYSTALWMW"}
 {"filename": "yaml/test4.py", "a": "8MASw2g6FQYQ LZpbqPHM4j3N3lwAmhYou63skw56d1"}
 {"filename": "yaml/test4.py", "a": "xtvoretuxxiri"}
@@ -784,9 +784,9 @@
 {"filename": "yaml/test4.py", "a": "Ln6dlsU"}
 {"filename": "yaml/test4.py", "a": "QfM9ogdDGfcJfTdj2 8mh3q"}
 {"filename": "yaml/test4.py", "a": "HZSPHMRWPPZKN"}
-{"filename": "yaml/test4.py", "a": "3017261284450"}
+{"filename": "yaml/test4.py", "a": "30"}
 {"filename": "yaml/test4.py", "a": "SZUGRDG"}
-{"filename": "yaml/test4.py", "a": "99885166128783"}
+{"filename": "yaml/test4.py", "a": ""}
 {"filename": "yaml/test4.py", "a": "XMdGG uTNEO7r61U"}
 {"filename": "yaml/test4.py", "a": "kuvhwrrkffwtd"}
 {"filename": "yaml/test4.py", "a": "AQZVKL"}
@@ -797,12 +797,12 @@
 {"filename": "yaml/test4.py", "a": "NVJNN"}
 {"filename": "yaml/test4.py", "a": "MBbNDwhwKhyxaKxcpU32rgqAxoiOvElXD3lLBQ8rEPW"}
 {"filename": "yaml/test4.py", "a": "aqF0pW6weFMo5STY8MW0khf"}
-{"filename": "yaml/test4.py", "a": "711159558256"}
+{"filename": "yaml/test4.py", "a": "7"}
 {"filename": "yaml/test4.py", "a": "zconkosyktwnon"}
 {"filename": "yaml/test4.py", "a": "FWCJLT"}
 {"filename": "yaml/test4.py", "a": "JAYONAL"}
 {"filename": "yaml/test4.py", "a": "XNJNRLNZNUABBD"}
-{"filename": "yaml/test4.py", "a": "314865978682"}
+{"filename": "yaml/test4.py", "a": "3"}
 {"filename": "yaml/test4.py", "a": "gagrsbbdiw"}
 {"filename": "yaml/test4.py", "a": "okW7BR"}
 {"filename": "yaml/test5.py", "a": "empty_dict: {}\nempty_list: []\nnull_value: null"}
@@ -815,16 +815,16 @@
 {"filename": "yaml/test5.py", "a": "level1:\n  level2:\n    level3:\n      - deep\n      - nesting"}
 {"filename": "yaml/test5.py", "a": "- id: 1\n  name: Item1\n- id: 2\n  name: Item2"}
 {"filename": "yaml/test5.py", "a": "!!int 123"}
-{"filename": "yaml/test5.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test5.py", "a": "name:   # inline comment\nage: 30  # another inline"}
 {"filename": "yaml/test5.py", "a": "preserve: |+\n  Line 1\n  Line 2\n\n"}
 {"filename": "yaml/test5.py", "a": "\"double quoted\": \"value with \\\"quotes\\\"\""}
-{"filename": "yaml/test5.py", "a": "iso_timestamp: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test5.py", "a": "iso_timestamp: T14:30:00Z"}
 {"filename": "yaml/test5.py", "a": "large: 1.23e10\nsmall: 5.67e-8"}
 {"filename": "yaml/test5.py", "a": "set: !!set\n  ? a\n  ? b\n  ? c"}
 {"filename": "yaml/test5.py", "a": "--- # comment\ndocument: with comment\n..."}
 {"filename": "yaml/test5.py", "a": "false"}
 {"filename": "yaml/test5.py", "a": "lufFw8IQOpSYIe7DOPedqaG9"}
-{"filename": "yaml/test5.py", "a": "5690085419289"}
+{"filename": "yaml/test5.py", "a": ""}
 {"filename": "yaml/test5.py", "a": "MJLJQMJIHMEHYQ"}
 {"filename": "yaml/test5.py", "a": "TMFKXEUANNBWPT"}
 {"filename": "yaml/test5.py", "a": "19573988"}
@@ -844,7 +844,7 @@
 {"filename": "yaml/test5.py", "a": "cdjrvbf"}
 {"filename": "yaml/test5.py", "a": "eOhnDbq1S4KXBMo"}
 {"filename": "yaml/test5.py", "a": "MRYLXSW"}
-{"filename": "yaml/test5.py", "a": "57836445344536"}
+{"filename": "yaml/test5.py", "a": ""}
 {"filename": "yaml/test5.py", "a": "szWBIvhG3lmIaJ4ALx4bTy"}
 {"filename": "yaml/test5.py", "a": "YWPBJPNHCDVQALH"}
 {"filename": "yaml/test5.py", "a": "1sDbAQODg1L"}
@@ -858,7 +858,7 @@
 {"filename": "yaml/test5.py", "a": "QoG1DmHoiWkDxjPz5QssAZIxy dizy2zwPnpUeeeEI1ZsL6Tb9i0SMy"}
 {"filename": "yaml/test5.py", "a": "pcT0GPv e2h8XJ"}
 {"filename": "yaml/test5.py", "a": "tuf1nsG05CJ2goF CIeQkd3SbgAICzp2uRt2nZZ89E3pH5"}
-{"filename": "yaml/test5.py", "a": "865491690859"}
+{"filename": "yaml/test5.py", "a": ""}
 {"filename": "yaml/test5.py", "a": "oyo57WDRqfDS 65xLhnzoMKtHaQE18gXPLg76uOuO"}
 {"filename": "yaml/test5.py", "a": "rpYmVFdCSV0VFtjSIdRLu2HoUsPvjLKqSMP9vcUfrUH0qXnzCP"}
 {"filename": "yaml/test5.py", "a": "cuuihjqnmcchp"}
@@ -866,21 +866,21 @@
 {"filename": "yaml/test5.py", "a": "fiDe5pndm1k00QK1gUe7"}
 {"filename": "yaml/test5.py", "a": "JXSTJR"}
 {"filename": "yaml/test6.py", "a": "binary: !!binary SGVsbG8gV29ybGQ="}
-{"filename": "yaml/test6.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test6.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
 {"filename": "yaml/test6.py", "a": "!!str Hello"}
 {"filename": "yaml/test6.py", "a": "!!null null"}
-{"filename": "yaml/test6.py", "a": "big_int: 9223372036854775807\nsmall_int: -9223372036854775808"}
+{"filename": "yaml/test6.py", "a": "big_int: \nsmall_int: -"}
 {"filename": "yaml/test6.py", "a": "large: 1.23e10\nsmall: 5.67e-8"}
 {"filename": "yaml/test6.py", "a": "!!str Hello"}
 {"filename": "yaml/test6.py", "a": ""}
 {"filename": "yaml/test6.py", "a": "&id001 !!str\nString with anchor"}
 {"filename": "yaml/test6.py", "a": "---\ndocument_start: true\n..."}
-{"filename": "yaml/test6.py", "a": "name: Alice\nage: 30\ncity: New York"}
-{"filename": "yaml/test6.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test6.py", "a": "name: \nage: 30\ncity: "}
+{"filename": "yaml/test6.py", "a": "name:   # inline comment\nage: 30  # another inline"}
 {"filename": "yaml/test6.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
-{"filename": "yaml/test6.py", "a": "&anchor\nname: Alice\nage: 30\n<<: *anchor"}
+{"filename": "yaml/test6.py", "a": "&anchor\nname: \nage: 30\n<<: *anchor"}
 {"filename": "yaml/test6.py", "a": "simple string"}
-{"filename": "yaml/test6.py", "a": "name: Alice  # inline comment\nage: 30  # another inline"}
+{"filename": "yaml/test6.py", "a": "name:   # inline comment\nage: 30  # another inline"}
 {"filename": "yaml/test6.py", "a": "b45jnodygHDwgshFmFW7F0LruUX 9VgfudwZgvYaW3EAHZWyTS2RRVB"}
 {"filename": "yaml/test6.py", "a": "ERYEZFDYBIPZ"}
 {"filename": "yaml/test6.py", "a": "971147825"}
@@ -891,7 +891,7 @@
 {"filename": "yaml/test6.py", "a": "0Zh1ZmSVW99LSoOEDtN2QqUksYMe"}
 {"filename": "yaml/test6.py", "a": "635675240"}
 {"filename": "yaml/test6.py", "a": "bIjSy7mMe"}
-{"filename": "yaml/test6.py", "a": "01286346449"}
+{"filename": "yaml/test6.py", "a": ""}
 {"filename": "yaml/test6.py", "a": "eRhVFQoGVtKPEjTVwaIcC9NnWnIeiwzih3wUtgk9BU4cLS"}
 {"filename": "yaml/test6.py", "a": "fztst"}
 {"filename": "yaml/test6.py", "a": "igneeqcsb"}
@@ -914,7 +914,7 @@
 {"filename": "yaml/test6.py", "a": "1XdY05EJGdrTezf zF1DC9k"}
 {"filename": "yaml/test6.py", "a": "Ijo8Upy6dpp4c"}
 {"filename": "yaml/test6.py", "a": "zpik0oeVSINiZG9bFdy2qBYkqo6Q0tvY"}
-{"filename": "yaml/test6.py", "a": "11080531696"}
+{"filename": "yaml/test6.py", "a": ""}
 {"filename": "yaml/test6.py", "a": "9hu3WaEFCyku1CszQr3z2k HJZcDRmtopLmXWhhK"}
 {"filename": "yaml/test6.py", "a": "NBn0LBpY129Qx5VCTeSdo1L1 u2WNC2gIQeMhZD"}
 {"filename": "yaml/test6.py", "a": "27378"}
@@ -934,7 +934,7 @@
 {"filename": "yaml/test7.py", "a": ""}
 {"filename": "yaml/test7.py", "a": "omap: !!omap\n  - key1: value1\n  - key2: value2\n  - key3: value3"}
 {"filename": "yaml/test7.py", "a": "&id001 !!str\nString with anchor"}
-{"filename": "yaml/test7.py", "a": "timestamp: 2024-01-15T14:30:00"}
+{"filename": "yaml/test7.py", "a": "timestamp: T14:30:00"}
 {"filename": "yaml/test7.py", "a": "true"}
 {"filename": "yaml/test7.py", "a": "pi: 3.14159\ne: 2.71828\nnegative: -1.5"}
 {"filename": "yaml/test7.py", "a": "!!float 3.14"}
@@ -947,7 +947,7 @@
 {"filename": "yaml/test7.py", "a": "XONHRUKKISYPCQ"}
 {"filename": "yaml/test7.py", "a": "9L2t0jv9zzRzTg2vaf"}
 {"filename": "yaml/test7.py", "a": "Zkl3BSMAfuDDqfh1w7b4KkoQtceCvG7adz7do9zO5QU"}
-{"filename": "yaml/test7.py", "a": "04995084873"}
+{"filename": "yaml/test7.py", "a": ""}
 {"filename": "yaml/test7.py", "a": "LFrmf758vAiUsxzefwat"}
 {"filename": "yaml/test7.py", "a": "ivwpetxwbrqdt"}
 {"filename": "yaml/test7.py", "a": "pcQhxVA1HPrOIP4jbyNXyHBUjL2i9VKz"}
@@ -960,7 +960,7 @@
 {"filename": "yaml/test7.py", "a": "4lvv0eZu4tAFTdKivPPto7sWwJu0nFNmNR7NM8RuQ6XUrgn8"}
 {"filename": "yaml/test7.py", "a": "SRyXhPg7F9LqmK0 7a5UOzyMI4NVcs"}
 {"filename": "yaml/test7.py", "a": "MAQHCLLQKF"}
-{"filename": "yaml/test7.py", "a": "927385728746"}
+{"filename": "yaml/test7.py", "a": ""}
 {"filename": "yaml/test7.py", "a": "HHqwn88YRvwi4g9vsRZkkUUmthwgBkQIdGHci9q"}
 {"filename": "yaml/test7.py", "a": "wKymBA88oH48YZfZpHsgftrYw06 Mcszf3C2wEGKTRJNP1azNLxCUFFyIY"}
 {"filename": "yaml/test7.py", "a": "wyebzo"}
@@ -993,9 +993,9 @@
 {"filename": "yaml/test8.py", "a": "binary_int: 0b1010"}
 {"filename": "yaml/test8.py", "a": "octal: 0o755\nhex: 0xFF"}
 {"filename": "yaml/test8.py", "a": "chomp: |\n  Line 1\n  Line 2\n"}
-{"filename": "yaml/test8.py", "a": "user:\n  name: Bob\n  details:\n    age: 25\n    email: bob@example.com"}
+{"filename": "yaml/test8.py", "a": "user:\n  name: \n  details:\n    age: 25\n    email: "}
 {"filename": "yaml/test8.py", "a": "- id: 1\n  name: Item1\n- id: 2\n  name: Item2"}
-{"filename": "yaml/test8.py", "a": "iso_timestamp: 2024-01-15T14:30:00Z"}
+{"filename": "yaml/test8.py", "a": "iso_timestamp: T14:30:00Z"}
 {"filename": "yaml/test8.py", "a": "[apple, banana, cherry]"}
 {"filename": "yaml/test8.py", "a": "!!bool true"}
 {"filename": "yaml/test8.py", "a": "--- !<tag:yaml.org,2002:str> string"}
@@ -1015,7 +1015,7 @@
 {"filename": "yaml/test8.py", "a": "ewfuwanat"}
 {"filename": "yaml/test8.py", "a": "jgsgmvbtng"}
 {"filename": "yaml/test8.py", "a": "ApGPMt3lqyZqc cL7oDjqStEKcj"}
-{"filename": "yaml/test8.py", "a": "7049186256791"}
+{"filename": "yaml/test8.py", "a": ""}
 {"filename": "yaml/test8.py", "a": "mF5bxa6B68BCcXNYEW4ReDp6L ioeziZAvNs459bHMONhCal8"}
 {"filename": "yaml/test8.py", "a": "cfjzbtn"}
 {"filename": "yaml/test8.py", "a": "d3q1INs8qpXtyHTj3dJIrWmD lEnPl8bF"}
@@ -1026,15 +1026,15 @@
 {"filename": "yaml/test8.py", "a": "JCMWZOSRZI"}
 {"filename": "yaml/test8.py", "a": "DXEOTNR"}
 {"filename": "yaml/test8.py", "a": "ibswcqjmkptmejb"}
-{"filename": "yaml/test8.py", "a": "812139713615"}
-{"filename": "yaml/test8.py", "a": "136541378597201"}
+{"filename": "yaml/test8.py", "a": "8"}
+{"filename": "yaml/test8.py", "a": "7201"}
 {"filename": "yaml/test8.py", "a": "JmEZLrqusPsue4mc7"}
-{"filename": "yaml/test8.py", "a": "1120960490310"}
+{"filename": "yaml/test8.py", "a": "10"}
 {"filename": "yaml/test8.py", "a": "nyzfjjxeggcoo"}
 {"filename": "yaml/test8.py", "a": "kI5uWied5s6NUjGy6FJFvIYFmG4DjiQWwiw"}
 {"filename": "yaml/test8.py", "a": "xWOvGS"}
 {"filename": "yaml/test8.py", "a": "799920"}
-{"filename": "yaml/test8.py", "a": "6984192467"}
+{"filename": "yaml/test8.py", "a": ""}
 {"filename": "yaml/test8.py", "a": "FVTNDCW"}
 {"filename": "yaml/test8.py", "a": "KMLFEWWCTOX"}
 {"filename": "yaml/test8.py", "a": "mLR0KyLEXD1R"}
@@ -1047,8 +1047,8 @@
 {"filename": "yaml/test8.py", "a": "EEKIBHQMZJQKO"}
 {"filename": "yaml/test9.py", "a": "greeting: Hello, World!\nempty: ''\nmultiline: |\n  Line1\n  Line2\n  Line3"}
 {"filename": "yaml/test9.py", "a": "null"}
-{"filename": "yaml/test9.py", "a": "date: 2024-01-15\ntime: 14:30:00\ndatetime: 2024-01-15T14:30:00Z"}
-{"filename": "yaml/test9.py", "a": "name: Alice\nage: 30\ncity: New York"}
+{"filename": "yaml/test9.py", "a": "date: \ntime: 14:30:00\ndatetime: T14:30:00Z"}
+{"filename": "yaml/test9.py", "a": "name: \nage: 30\ncity: "}
 {"filename": "yaml/test9.py", "a": "!!str Hello"}
 {"filename": "yaml/test9.py", "a": "- 1\n- two\n- 3.0\n- true\n- null"}
 {"filename": "yaml/test9.py", "a": "&id001 !!str\nString with anchor"}
@@ -1057,8 +1057,8 @@
 {"filename": "yaml/test9.py", "a": "42"}
 {"filename": "yaml/test9.py", "a": "defaults: &defaults\n  adapter: postgres\n  host: localhost\ndevelopment:\n  database: dev\n  <<: *defaults\nproduction:\n  database: prod\n  <<: *defaults"}
 {"filename": "yaml/test9.py", "a": ""}
-{"filename": "yaml/test9.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - Alice\n    - Bob\n    - Charlie\n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
-{"filename": "yaml/test9.py", "a": "{name: Alice, age: 30, city: New York}"}
+{"filename": "yaml/test9.py", "a": "metadata:\n  version: \"1.0\"\n  authors:\n    - \n    - \n    - \n  tags:\n    - python\n    - yaml\n    - test\ndata:\n  - id: 1\n    value: 100\n    active: true\n  - id: 2\n    value: 200\n    active: false\nconfig:\n  debug: false\n  log_level: INFO\n  max_retries: 3"}
+{"filename": "yaml/test9.py", "a": "{name: , age: 30, city: }"}
 {"filename": "yaml/test9.py", "a": "null"}
 {"filename": "yaml/test9.py", "a": "chomp: |\n  Line 1\n  Line 2\n"}
 {"filename": "yaml/test9.py", "a": "positive_inf: .inf\nnegative_inf: -.inf\nnot_a_number: .nan"}
@@ -1084,23 +1084,23 @@
 {"filename": "yaml/test9.py", "a": "Osqif3eNsEUuBriwjJ9"}
 {"filename": "yaml/test9.py", "a": "29004"}
 {"filename": "yaml/test9.py", "a": "Xuj ELvlfDRcXEnv0"}
-{"filename": "yaml/test9.py", "a": "174616063392468"}
+{"filename": "yaml/test9.py", "a": "2468"}
 {"filename": "yaml/test9.py", "a": "Sx4CVq0w1vj"}
 {"filename": "yaml/test9.py", "a": "Ij7L6F60dvQYhoBIFh33hW D3uWFMwR5SxLSR04zmZJg"}
 {"filename": "yaml/test9.py", "a": "QKHTqYzX5uM"}
 {"filename": "yaml/test9.py", "a": "YJWHRNXZL"}
 {"filename": "yaml/test9.py", "a": "CoMYdQ0uxCazEp6YZuaCM"}
-{"filename": "yaml/test9.py", "a": "42764952540"}
+{"filename": "yaml/test9.py", "a": ""}
 {"filename": "yaml/test9.py", "a": "YaqkgYvIqrjyGkNthbXlpRMr0T3jE"}
 {"filename": "yaml/test9.py", "a": "yzwCO0somyKDCYsb4331VWpZ2E1lvX5GBiwDai"}
 {"filename": "yaml/test9.py", "a": "ziycbeuyjqprom"}
 {"filename": "yaml/test9.py", "a": "GSGZO"}
-{"filename": "yaml/test9.py", "a": "9800670752559"}
+{"filename": "yaml/test9.py", "a": ""}
 {"filename": "yaml/test9.py", "a": "7554892"}
 {"filename": "yaml/test9.py", "a": "dzpprjjwblspdae"}
 {"filename": "yaml/test9.py", "a": "hWVywgnqAzB0TfOjvj7QcfeWFQRPkMmUCfNRIqSKahQYgXI"}
 {"filename": "yaml/test9.py", "a": "97012251"}
-{"filename": "yaml/test9.py", "a": "4986388796"}
+{"filename": "yaml/test9.py", "a": ""}
 {"filename": "yaml/test9.py", "a": "ryiusha"}
 {"filename": "yaml/test9.py", "a": "i8AOwM6GGnCrPNsGJwvdw E5BB8m"}
 {"filename": "yaml/test9.py", "a": "W7vjoLRsb3mNoXcfRp"}
@@ -1125,8 +1125,8 @@
 {"a": "explicit_float: !!float \"3.14\"", "filename": "yaml/test1.py"}
 {"a": "explicit_bool: !!bool \"true\"", "filename": "yaml/test1.py"}
 {"a": "binary: !!binary SGVsbG8=", "filename": "yaml/test1.py"}
-{"a": "timestamp: 2024-12-31T23:59:59Z", "filename": "yaml/test1.py"}
-{"a": "date: 2024-12-31", "filename": "yaml/test1.py"}
+{"a": "timestamp: T23:59:59Z", "filename": "yaml/test1.py"}
+{"a": "date: ", "filename": "yaml/test1.py"}
 {"a": "time: 23:59:59", "filename": "yaml/test1.py"}
 {"a": "infinity: .inf", "filename": "yaml/test1.py"}
 {"a": "negative_infinity: -.inf", "filename": "yaml/test1.py"}
@@ -1183,8 +1183,8 @@
 {"a": "ordered_mapping: !!omap [a: 1, b: 2]", "filename": "yaml/test1.py"}
 {"a": "json_compatible: {\"key\": \"value\", \"array\": [1, 2, 3]}", "filename": "yaml/test1.py"}
 {"a": "yaml_as_json: \"{\\\"key\\\": \\\"value\\\"}\"", "filename": "yaml/test1.py"}
-{"a": "large_int: 9999999999999999999999", "filename": "yaml/test1.py"}
-{"a": "negative_large_int: -9999999999999999999999", "filename": "yaml/test1.py"}
+{"a": "large_int: ", "filename": "yaml/test1.py"}
+{"a": "negative_large_int: -", "filename": "yaml/test1.py"}
 {"a": "scientific: 1.23e45", "filename": "yaml/test1.py"}
 {"a": "negative_scientific: -1.23e-45", "filename": "yaml/test1.py"}
 {"a": "hexadecimal: 0xDEADBEEF", "filename": "yaml/test1.py"}
@@ -1206,7 +1206,7 @@
 {"a": "scalar: !!int 123", "filename": "yaml/test10.py"}
 {"a": "float: !!float 3.14", "filename": "yaml/test10.py"}
 {"a": "binary: !!binary SGVsbG8gd29ybGQ=", "filename": "yaml/test10.py"}
-{"a": "timestamp: !!timestamp 2023-01-01T00:00:00Z", "filename": "yaml/test10.py"}
+{"a": "timestamp: !!timestamp T00:00:00Z", "filename": "yaml/test10.py"}
 {"a": "seq:\n- one\n- two\n- three", "filename": "yaml/test10.py"}
 {"a": "map:\n  a: 1\n  b: 2\n  c: 3", "filename": "yaml/test10.py"}
 {"a": "complex: [1, 2, {k: v}]", "filename": "yaml/test10.py"}
@@ -1254,14 +1254,14 @@
 {"a": "bom: \"\\ufeffcontent\"", "filename": "yaml/test10.py"}
 {"a": "emoji: \"🎉 party\"", "filename": "yaml/test10.py"}
 {"a": "zero_width: \"\\u200b\"", "filename": "yaml/test10.py"}
-{"a": "large_int: 999999999999999999999999999999", "filename": "yaml/test10.py"}
-{"a": "precise_float: 0.123456789012345678901234567890", "filename": "yaml/test10.py"}
+{"a": "large_int: ", "filename": "yaml/test10.py"}
+{"a": "precise_float: 0.", "filename": "yaml/test10.py"}
 {"a": "negative_zero: -0.0", "filename": "yaml/test10.py"}
 {"a": "positive_zero: 0.0", "filename": "yaml/test10.py"}
-{"a": "date: 2023-12-31", "filename": "yaml/test10.py"}
+{"a": "date: ", "filename": "yaml/test10.py"}
 {"a": "time: 23:59:59", "filename": "yaml/test10.py"}
-{"a": "datetime: 2023-12-31T23:59:59", "filename": "yaml/test10.py"}
-{"a": "datetime_with_tz: 2023-12-31T23:59:59+00:00", "filename": "yaml/test10.py"}
+{"a": "datetime: T23:59:59", "filename": "yaml/test10.py"}
+{"a": "datetime_with_tz: T23:59:59+00:00", "filename": "yaml/test10.py"}
 {"a": "explicit_seq: !!seq [a, b, c]", "filename": "yaml/test10.py"}
 {"a": "explicit_map: !!map {a: 1, b: 2}", "filename": "yaml/test10.py"}
 {"a": "empty_flow: {}", "filename": "yaml/test10.py"}
@@ -1276,8 +1276,8 @@
 {"a": "tagged_scalar: !!str 456", "filename": "yaml/test10.py"}
 {"a": "tagged_collection: !!map\n  tagged: true", "filename": "yaml/test10.py"}
 {"a": "non_specific_tag: ! value", "filename": "yaml/test10.py"}
-{"a": "number: 3.141592653589793", "filename": "yaml/test11.py"}
-{"a": "scientific: 6.02214076e23", "filename": "yaml/test11.py"}
+{"a": "number: 3.9793", "filename": "yaml/test11.py"}
+{"a": "scientific: e23", "filename": "yaml/test11.py"}
 {"a": "infinity: .inf", "filename": "yaml/test11.py"}
 {"a": "negative_infinity: -.inf", "filename": "yaml/test11.py"}
 {"a": "nan: .nan", "filename": "yaml/test11.py"}
@@ -1300,9 +1300,9 @@
 {"a": "explicit_type_str: !!str 123", "filename": "yaml/test11.py"}
 {"a": "explicit_type_bool: !!bool yes", "filename": "yaml/test11.py"}
 {"a": "binary_data: !!binary SGVsbG8gV29ybGQ=", "filename": "yaml/test11.py"}
-{"a": "timestamp_no_tz: 2024-01-15T14:30:00", "filename": "yaml/test11.py"}
-{"a": "timestamp_with_tz: 2024-01-15T14:30:00+05:30", "filename": "yaml/test11.py"}
-{"a": "date_only: 2024-01-15", "filename": "yaml/test11.py"}
+{"a": "timestamp_no_tz: T14:30:00", "filename": "yaml/test11.py"}
+{"a": "timestamp_with_tz: T14:30:00+05:30", "filename": "yaml/test11.py"}
+{"a": "date_only: ", "filename": "yaml/test11.py"}
 {"a": "omap: !!omap\n  - key1: value1\n  - key2: value2", "filename": "yaml/test11.py"}
 {"a": "pairs: !!pairs\n  - key: value\n  - another: item", "filename": "yaml/test11.py"}
 {"a": "set: !!set\n  ? item1\n  ? item2", "filename": "yaml/test11.py"}
@@ -1343,7 +1343,7 @@
 {"a": "compact_json_like: {\"key\": \"value\"}", "filename": "yaml/test11.py"}
 {"a": "compact_json_array: [1, 2, 3]", "filename": "yaml/test11.py"}
 {"a": "string_with_leading_zero: 0123", "filename": "yaml/test11.py"}
-{"a": "string_looks_like_float: 123.456.789", "filename": "yaml/test11.py"}
+{"a": "string_looks_like_float: ", "filename": "yaml/test11.py"}
 {"a": "string_looks_like_bool: truefalse", "filename": "yaml/test11.py"}
 {"a": "string_looks_like_null: nullvalue", "filename": "yaml/test11.py"}
 {"a": "empty_scalar: ''", "filename": "yaml/test11.py"}
@@ -1394,8 +1394,8 @@
 {"a": "unicode: \"café 🎉\"", "filename": "yaml/test12.py"}
 {"a": "escape_chars: \"Line1\\nLine2\"", "filename": "yaml/test12.py"}
 {"a": "special_chars: \"!@#$%^&*()\"", "filename": "yaml/test12.py"}
-{"a": "date: 2023-01-15", "filename": "yaml/test12.py"}
-{"a": "timestamp: 2023-01-15T12:34:56Z", "filename": "yaml/test12.py"}
+{"a": "date: ", "filename": "yaml/test12.py"}
+{"a": "timestamp: T12:34:56Z", "filename": "yaml/test12.py"}
 {"a": "yes_no: yes", "filename": "yaml/test12.py"}
 {"a": "on_off: off", "filename": "yaml/test12.py"}
 {"a": "yaml_version: \"%YAML 1.2\"", "filename": "yaml/test12.py"}
@@ -1412,7 +1412,7 @@
 {"a": "set: !!set\n  ? a\n  ? b", "filename": "yaml/test12.py"}
 {"a": "pairs: !!pairs\n  - key: value", "filename": "yaml/test12.py"}
 {"a": "custom_tag: !Custom value", "filename": "yaml/test12.py"}
-{"a": "large_int: 18446744073709551615", "filename": "yaml/test12.py"}
+{"a": "large_int: 709551615", "filename": "yaml/test12.py"}
 {"a": "negative_float: -2.71828", "filename": "yaml/test12.py"}
 {"a": "zero: 0", "filename": "yaml/test12.py"}
 {"a": "empty_string: \"\"", "filename": "yaml/test12.py"}
@@ -1467,8 +1467,8 @@
 {"a": "infinity_string: \".INF\"", "filename": "yaml/test12.py"}
 {"a": "nan_string: \".NAN\"", "filename": "yaml/test12.py"}
 {"a": "base64_data: !!binary VGVzdA==", "filename": "yaml/test12.py"}
-{"a": "timestamp_no_time: 2023-01-15", "filename": "yaml/test12.py"}
-{"a": "timestamp_with_offset: 2023-01-15T12:34:56+02:00", "filename": "yaml/test12.py"}
+{"a": "timestamp_no_time: ", "filename": "yaml/test12.py"}
+{"a": "timestamp_with_offset: T12:34:56+02:00", "filename": "yaml/test12.py"}
 {"a": "date_compact: 20230115", "filename": "yaml/test12.py"}
 {"a": "datetime_compact: 20230115T123456Z", "filename": "yaml/test12.py"}
 {"a": "{}", "filename": "yaml/test13.py"}
@@ -1517,7 +1517,7 @@
 {"a": "!!float 3.14", "filename": "yaml/test14.py"}
 {"a": "!!bool true", "filename": "yaml/test14.py"}
 {"a": "!!null null", "filename": "yaml/test14.py"}
-{"a": "!!timestamp 2024-01-01", "filename": "yaml/test14.py"}
+{"a": "!!timestamp ", "filename": "yaml/test14.py"}
 {"a": "!!binary SGVsbG8=", "filename": "yaml/test14.py"}
 {"a": "!!omap\n- key1: value1", "filename": "yaml/test14.py"}
 {"a": "!!pairs\n- key: value", "filename": "yaml/test14.py"}
@@ -1580,15 +1580,15 @@
 {"a": "anchor_test: &base\n  val: base\ncopy: *base", "filename": "yaml/test15.py"}
 {"a": "complex_anchor: &ref\n  a: 1\n  b: 2\nuse: *ref\nanother: *ref", "filename": "yaml/test15.py"}
 {"a": "binary: !!binary \"SGVsbG8=\"", "filename": "yaml/test15.py"}
-{"a": "timestamp: 2023-01-01T12:00:00Z", "filename": "yaml/test15.py"}
+{"a": "timestamp: T12:00:00Z", "filename": "yaml/test15.py"}
 {"a": "infinity: .inf", "filename": "yaml/test15.py"}
 {"a": "negative_infinity: -.inf", "filename": "yaml/test15.py"}
 {"a": "nan: .nan", "filename": "yaml/test15.py"}
 {"a": "scientific: 1.23e4", "filename": "yaml/test15.py"}
 {"a": "hex: 0xFF", "filename": "yaml/test15.py"}
 {"a": "octal: 0777", "filename": "yaml/test15.py"}
-{"a": "large_number: 999999999999999999999", "filename": "yaml/test15.py"}
-{"a": "negative_large: -999999999999999999999", "filename": "yaml/test15.py"}
+{"a": "large_number: ", "filename": "yaml/test15.py"}
+{"a": "negative_large: -", "filename": "yaml/test15.py"}
 {"a": "decimal_float: 0.1", "filename": "yaml/test15.py"}
 {"a": "zero: 0", "filename": "yaml/test15.py"}
 {"a": "negative_zero: -0", "filename": "yaml/test15.py"}
@@ -1702,7 +1702,7 @@
 {"a": "nested_flow: {outer: [1, 2, 3], inner: {a: b}}", "filename": "yaml/test16.py"}
 {"a": "mixed_style:\n  block: value\n  flow: [one, two]", "filename": "yaml/test16.py"}
 {"a": "binary: !!binary SGVsbG8=", "filename": "yaml/test16.py"}
-{"a": "timestamp: !!timestamp 2023-01-01T12:00:00Z", "filename": "yaml/test16.py"}
+{"a": "timestamp: !!timestamp T12:00:00Z", "filename": "yaml/test16.py"}
 {"a": "omap: !!omap\n  - key1: value1\n  - key2: value2", "filename": "yaml/test16.py"}
 {"a": "set: !!set\n  ? item1\n  ? item2", "filename": "yaml/test16.py"}
 {"a": "ordered_map: !!omap [a: 1, b: 2]", "filename": "yaml/test16.py"}
@@ -1724,7 +1724,7 @@
 {"a": "zero_width: \"​‌‍\"", "filename": "yaml/test16.py"}
 {"a": "bom: \"﻿start\"", "filename": "yaml/test16.py"}
 {"a": "invalid_utf8: \"\\x80\\xff\"", "filename": "yaml/test16.py"}
-{"a": "large_int: 999999999999999999999999999999", "filename": "yaml/test16.py"}
+{"a": "large_int: ", "filename": "yaml/test16.py"}
 {"a": "small_float: 1e-999", "filename": "yaml/test16.py"}
 {"a": "infinity: .inf", "filename": "yaml/test16.py"}
 {"a": "negative_infinity: -.inf", "filename": "yaml/test16.py"}
@@ -1762,8 +1762,8 @@
 {"a": "single: 'single quoted'", "filename": "yaml/test17.py"}
 {"a": "escape: \"line\\nbreak\"", "filename": "yaml/test17.py"}
 {"a": "unicode: \"café\"", "filename": "yaml/test17.py"}
-{"a": "date: 2023-12-25", "filename": "yaml/test17.py"}
-{"a": "timestamp: 2024-01-01T12:00:00Z", "filename": "yaml/test17.py"}
+{"a": "date: ", "filename": "yaml/test17.py"}
+{"a": "timestamp: T12:00:00Z", "filename": "yaml/test17.py"}
 {"a": "time: 12:30:45", "filename": "yaml/test17.py"}
 {"a": "binary: !!binary SGVsbG8=", "filename": "yaml/test17.py"}
 {"a": "omap: !!omap\n  - key1: value1\n  - key2: value2", "filename": "yaml/test17.py"}
@@ -1822,8 +1822,8 @@
 {"a": "edge10: 0o0", "filename": "yaml/test17.py"}
 {"a": "edge11: 0b0", "filename": "yaml/test17.py"}
 {"a": "edge12: 0xFFFFFFFF", "filename": "yaml/test17.py"}
-{"a": "edge13: 0o77777777777", "filename": "yaml/test17.py"}
-{"a": "edge14: 0b11111111111111111111111111111111", "filename": "yaml/test17.py"}
+{"a": "edge13: 0o", "filename": "yaml/test17.py"}
+{"a": "edge14: 0b", "filename": "yaml/test17.py"}
 {"a": "simple_string: test", "filename": "yaml/test18.py"}
 {"a": "number: 42", "filename": "yaml/test18.py"}
 {"a": "float_value: 3.14159", "filename": "yaml/test18.py"}
@@ -1839,8 +1839,8 @@
 {"a": "mixed_array:\n  - 1\n  - \"two\"\n  - true\n  - null", "filename": "yaml/test18.py"}
 {"a": "nested_object:\n  level1:\n    level2: value", "filename": "yaml/test18.py"}
 {"a": "deep_nesting:\n  a:\n    b:\n      c:\n        d: final_value", "filename": "yaml/test18.py"}
-{"a": "array_of_objects:\n  - name: Alice\n    age: 30\n  - name: Bob\n    age: 25", "filename": "yaml/test18.py"}
-{"a": "complex_structure:\n  users:\n    - id: 1\n      name: John\n      active: true\n    - id: 2\n      name: Jane\n      active: false\n  settings:\n    theme: dark\n    language: en", "filename": "yaml/test18.py"}
+{"a": "array_of_objects:\n  - name: \n    age: 30\n  - name: \n    age: 25", "filename": "yaml/test18.py"}
+{"a": "complex_structure:\n  users:\n    - id: 1\n      name: \n      active: true\n    - id: 2\n      name: \n      active: false\n  settings:\n    theme: dark\n    language: en", "filename": "yaml/test18.py"}
 {"a": "special_chars: \"line\\nbreak\\ttab\"", "filename": "yaml/test18.py"}
 {"a": "unicode: \"Hello 世界 🌍\"", "filename": "yaml/test18.py"}
 {"a": "multiline_string: |\n  This is a\n  multi-line\n  string.", "filename": "yaml/test18.py"}
@@ -1848,7 +1848,7 @@
 {"a": "literal_string: |-\n  No trailing newline", "filename": "yaml/test18.py"}
 {"a": "anchors: &base\n  name: base\n  value: 10\nalias: *base", "filename": "yaml/test18.py"}
 {"a": "merge_keys:\n  base: &base\n    x: 1\n    y: 2\n  extended:\n    <<: *base\n    z: 3", "filename": "yaml/test18.py"}
-{"a": "timestamp: 2023-12-01T12:00:00Z", "filename": "yaml/test18.py"}
+{"a": "timestamp: T12:00:00Z", "filename": "yaml/test18.py"}
 {"a": "binary_data: !!binary SGVsbG8gV29ybGQ=", "filename": "yaml/test18.py"}
 {"a": "omap: !!omap\n  - key1: value1\n  - key2: value2", "filename": "yaml/test18.py"}
 {"a": "pairs: !!pairs\n  - key: value\n  - another: item", "filename": "yaml/test18.py"}
@@ -1863,7 +1863,7 @@
 {"a": "just_boolean: true", "filename": "yaml/test18.py"}
 {"a": "just_number: 123", "filename": "yaml/test18.py"}
 {"a": "just_string: \"plain\"", "filename": "yaml/test18.py"}
-{"a": "large_number: 999999999999999999", "filename": "yaml/test18.py"}
+{"a": "large_number: ", "filename": "yaml/test18.py"}
 {"a": "negative_number: -42", "filename": "yaml/test18.py"}
 {"a": "zero: 0", "filename": "yaml/test18.py"}
 {"a": "decimal: 0.0001", "filename": "yaml/test18.py"}
@@ -1871,8 +1871,8 @@
 {"a": "infinity: .inf", "filename": "yaml/test18.py"}
 {"a": "negative_infinity: -.inf", "filename": "yaml/test18.py"}
 {"a": "nan: .nan", "filename": "yaml/test18.py"}
-{"a": "date: 2023-12-01", "filename": "yaml/test18.py"}
-{"a": "datetime: 2023-12-01T12:00:00", "filename": "yaml/test18.py"}
+{"a": "date: ", "filename": "yaml/test18.py"}
+{"a": "datetime: T12:00:00", "filename": "yaml/test18.py"}
 {"a": "time: 12:00:00", "filename": "yaml/test18.py"}
 {"a": "explicit_null: !!null null", "filename": "yaml/test18.py"}
 {"a": "explicit_bool: !!bool true", "filename": "yaml/test18.py"}
@@ -1950,7 +1950,7 @@
 {"a": "!!set\n  ? a\n  ? b", "filename": "yaml/test19.py"}
 {"a": "!!omap\n  - key1: value1\n  - key2: value2", "filename": "yaml/test19.py"}
 {"a": "!!pairs\n  - key1: value1\n  - key2: value2", "filename": "yaml/test19.py"}
-{"a": "!!timestamp '2024-01-01T00:00:00Z'", "filename": "yaml/test19.py"}
+{"a": "!!timestamp 'T00:00:00Z'", "filename": "yaml/test19.py"}
 {"a": "!!binary \"SGVsbG8=\"\n", "filename": "yaml/test19.py"}
 {"a": "--- !!null ~", "filename": "yaml/test19.py"}
 {"a": "!!bool true", "filename": "yaml/test19.py"}
@@ -1975,8 +1975,8 @@
 {"a": "single: 'no escape'", "filename": "yaml/test19.py"}
 {"a": "empty block: |\n\n", "filename": "yaml/test19.py"}
 {"a": "empty block folded: >\n\n", "filename": "yaml/test19.py"}
-{"a": "integer: 999999999999999999999", "filename": "yaml/test19.py"}
-{"a": "float: 3.141592653589793", "filename": "yaml/test19.py"}
+{"a": "integer: ", "filename": "yaml/test19.py"}
+{"a": "float: 3.9793", "filename": "yaml/test19.py"}
 {"a": "exponential: 1.23e+45", "filename": "yaml/test19.py"}
 {"a": "zero float: 0.0", "filename": "yaml/test19.py"}
 {"a": "negative: -42", "filename": "yaml/test19.py"}
@@ -2028,7 +2028,7 @@
 {"a": "scalar with dot: 3.", "filename": "yaml/test19.py"}
 {"a": "{'empty_dict': {}, 'empty_list': [], 'empty_str': ''}", "filename": "yaml/test2.py"}
 {"a": "{'int_zero': 0, 'float_zero': 0.0, 'bool_false': False}", "filename": "yaml/test2.py"}
-{"a": "'2024-01-15'", "filename": "yaml/test2.py"}
+{"a": "''", "filename": "yaml/test2.py"}
 {"a": "['a', 'b', 'c']", "filename": "yaml/test2.py"}
 {"a": "[1, 2, 3, 4, 5]", "filename": "yaml/test2.py"}
 {"a": "{'key1': 'value1', 'key2': 'value2'}", "filename": "yaml/test2.py"}
@@ -2048,7 +2048,7 @@
 {"a": "'unicode: é 中文'", "filename": "yaml/test2.py"}
 {"a": "[True, False, None]", "filename": "yaml/test2.py"}
 {"a": "{'mixed_types': [1, 'two', 3.0, True]}", "filename": "yaml/test2.py"}
-{"a": "{'large_int': 1000000000}", "filename": "yaml/test2.py"}
+{"a": "{'large_int': }", "filename": "yaml/test2.py"}
 {"a": "{'small_float': 1.23e-10}", "filename": "yaml/test2.py"}
 {"a": "'multiline\\nstring'", "filename": "yaml/test2.py"}
 {"a": "{'escape': '\\\\t\\\\n\\\\\"'}", "filename": "yaml/test2.py"}
@@ -2070,9 +2070,9 @@
 {"a": "[1, 2, 3]", "filename": "yaml/test2.py"}
 {"a": "('tuple', 'example')", "filename": "yaml/test2.py"}
 {"a": "{'set_example': {1, 2, 3}}", "filename": "yaml/test2.py"}
-{"a": "'date: 2024-12-31'", "filename": "yaml/test2.py"}
+{"a": "'date: '", "filename": "yaml/test2.py"}
 {"a": "'time: 23:59:59'", "filename": "yaml/test2.py"}
-{"a": "'datetime: 2024-12-31T23:59:59Z'", "filename": "yaml/test2.py"}
+{"a": "'datetime: T23:59:59Z'", "filename": "yaml/test2.py"}
 {"a": "{'int_list': list(range(10))}", "filename": "yaml/test2.py"}
 {"a": "{'str_list': ['alpha', 'beta', 'gamma']}", "filename": "yaml/test2.py"}
 {"a": "'special: \\u0000 \\u0001'", "filename": "yaml/test2.py"}
@@ -2101,7 +2101,7 @@
 {"a": "{'emoji': '\\U0001F600\\U0001F603'}", "filename": "yaml/test2.py"}
 {"a": "['line1\\nline2', 'line3\\nline4']", "filename": "yaml/test2.py"}
 {"a": "{'tab_separated': 'col1\\tcol2\\tcol3'}", "filename": "yaml/test2.py"}
-{"a": "[{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}]", "filename": "yaml/test2.py"}
+{"a": "[{'name': '', 'age': 30}, {'name': '', 'age': 25}]", "filename": "yaml/test2.py"}
 {"a": "{'scientific': 6.022e23}", "filename": "yaml/test2.py"}
 {"a": "'hex: 0xDEADBEEF'", "filename": "yaml/test2.py"}
 {"a": "'octal: 0o755'", "filename": "yaml/test2.py"}
@@ -2122,7 +2122,7 @@
 {"a": "bytearray([65,66,67])", "filename": "yaml/test2.py"}
 {"a": "complex(1, 2)", "filename": "yaml/test2.py"}
 {"a": "[complex(1,2), complex(3,4)]", "filename": "yaml/test2.py"}
-{"a": "{'decimal': 123.456789}", "filename": "yaml/test2.py"}
+{"a": "{'decimal': }", "filename": "yaml/test2.py"}
 {"a": "'string_with_mixed\\t\\nescapes\\\"'", "filename": "yaml/test2.py"}
 {"a": "{'very_large_dict': {f'key{i}': i for i in range(100)}}", "filename": "yaml/test2.py"}
 {"a": "[{'data': i} for i in range(50)]", "filename": "yaml/test2.py"}
@@ -2145,8 +2145,8 @@
 {"a": "bool_false: false", "filename": "yaml/test20.py"}
 {"a": "on: ON", "filename": "yaml/test20.py"}
 {"a": "off: OFF", "filename": "yaml/test20.py"}
-{"a": "date: 2023-01-01", "filename": "yaml/test20.py"}
-{"a": "datetime: 2023-01-01T12:00:00Z", "filename": "yaml/test20.py"}
+{"a": "date: ", "filename": "yaml/test20.py"}
+{"a": "datetime: T12:00:00Z", "filename": "yaml/test20.py"}
 {"a": "sequence:\n  - item1\n  - item2\n  - item3", "filename": "yaml/test20.py"}
 {"a": "empty_seq: []", "filename": "yaml/test20.py"}
 {"a": "nested_seq:\n  -\n    - a\n    - b\n  - c", "filename": "yaml/test20.py"}
@@ -2206,11 +2206,11 @@
 {"a": "zero_width_space: \"key: value\\u200Bend\"", "filename": "yaml/test20.py"}
 {"a": "rtl: \"key: value\\u202Eend\"", "filename": "yaml/test20.py"}
 {"a": "surrogate: \"key: value\\uD800\\uDC00end\"", "filename": "yaml/test20.py"}
-{"a": "max_int: 9223372036854775807", "filename": "yaml/test20.py"}
-{"a": "min_int: -9223372036854775808", "filename": "yaml/test20.py"}
-{"a": "bigger: 1000000000000000000000", "filename": "yaml/test20.py"}
-{"a": "float_max: 1.7976931348623157e+308", "filename": "yaml/test20.py"}
-{"a": "float_min: 2.2250738585072014e-308", "filename": "yaml/test20.py"}
+{"a": "max_int: ", "filename": "yaml/test20.py"}
+{"a": "min_int: -", "filename": "yaml/test20.py"}
+{"a": "bigger: ", "filename": "yaml/test20.py"}
+{"a": "float_max: 623157e+308", "filename": "yaml/test20.py"}
+{"a": "float_min: 2.e-308", "filename": "yaml/test20.py"}
 {"a": "subnormal: 1e-320", "filename": "yaml/test20.py"}
 {"a": "hex: 0xFF", "filename": "yaml/test20.py"}
 {"a": "octal: 0o77", "filename": "yaml/test20.py"}
@@ -2230,7 +2230,7 @@
 {"a": "no_fraction: 1.e2", "filename": "yaml/test20.py"}
 {"a": "no_integer: .5e2", "filename": "yaml/test20.py"}
 {"a": "underscore: 1_000_000", "filename": "yaml/test20.py"}
-{"a": "underscore_float: 1_000.000_1", "filename": "yaml/test20.py"}
+{"a": "underscore_float: ", "filename": "yaml/test20.py"}
 {"a": "complex_key:\n  ? complex key\n  : value", "filename": "yaml/test20.py"}
 {"a": "null_key:\n  ? null\n  : value", "filename": "yaml/test20.py"}
 {"a": "duplicate_key:\n  key: first\n  key: second", "filename": "yaml/test20.py"}
@@ -2264,8 +2264,8 @@
 {"a": "octal_int: 0o755", "filename": "yaml/test4.py"}
 {"a": "hex_int: 0x1A", "filename": "yaml/test4.py"}
 {"a": "binary_int: 0b1101", "filename": "yaml/test4.py"}
-{"a": "timestamp: 2024-01-01T00:00:00Z", "filename": "yaml/test4.py"}
-{"a": "date: 2024-01-01", "filename": "yaml/test4.py"}
+{"a": "timestamp: T00:00:00Z", "filename": "yaml/test4.py"}
+{"a": "date: ", "filename": "yaml/test4.py"}
 {"a": "explicit_str: !!str 123", "filename": "yaml/test4.py"}
 {"a": "explicit_int: !!int '456'", "filename": "yaml/test4.py"}
 {"a": "explicit_bool: !!bool 'true'", "filename": "yaml/test4.py"}
@@ -2293,11 +2293,11 @@
 {"a": "plain_scalar: plain text", "filename": "yaml/test4.py"}
 {"a": "explicit_boolean: !!bool 'false'", "filename": "yaml/test4.py"}
 {"a": "explicit_binary: !!binary 'SGVsbG8='", "filename": "yaml/test4.py"}
-{"a": "explicit_timestamp: !!timestamp '2024-01-01'", "filename": "yaml/test4.py"}
+{"a": "explicit_timestamp: !!timestamp ''", "filename": "yaml/test4.py"}
 {"a": "explicit_set: !!set {a, b, c}", "filename": "yaml/test4.py"}
 {"a": "explicit_omap: !!omap [a: 1, b: 2]", "filename": "yaml/test4.py"}
 {"a": "explicit_pairs: !!pairs [a: 1, b: 2]", "filename": "yaml/test4.py"}
-{"a": "very_large_int: 999999999999999999999", "filename": "yaml/test4.py"}
+{"a": "very_large_int: ", "filename": "yaml/test4.py"}
 {"a": "very_small_float: 1e-100", "filename": "yaml/test4.py"}
 {"a": "complex_float: -0.0", "filename": "yaml/test4.py"}
 {"a": "base60_float: 1:30.5", "filename": "yaml/test4.py"}
@@ -2321,7 +2321,7 @@
 {"a": "boolean_like_string: 'yes'", "filename": "yaml/test4.py"}
 {"a": "null_like_string: 'null'", "filename": "yaml/test4.py"}
 {"a": "int_like_string: '0123'", "filename": "yaml/test4.py"}
-{"a": "float_like_string: '123.456.789'", "filename": "yaml/test4.py"}
+{"a": "float_like_string: ''", "filename": "yaml/test4.py"}
 {"a": "yaml_1_1_bool: y", "filename": "yaml/test4.py"}
 {"a": "yaml_1_1_null: ~", "filename": "yaml/test4.py"}
 {"a": "implicit_anchors: &a [1, 2]\nlist: *a", "filename": "yaml/test4.py"}
@@ -2346,9 +2346,9 @@
 {"a": "octal: 0o77", "filename": "yaml/test5.py"}
 {"a": "hexadecimal: 0xFF", "filename": "yaml/test5.py"}
 {"a": "binary: 0b1010", "filename": "yaml/test5.py"}
-{"a": "date: 2024-02-14", "filename": "yaml/test5.py"}
-{"a": "datetime: 2024-02-14T12:30:45", "filename": "yaml/test5.py"}
-{"a": "timestamp: 2024-02-14 12:30:45", "filename": "yaml/test5.py"}
+{"a": "date: ", "filename": "yaml/test5.py"}
+{"a": "datetime: T12:30:45", "filename": "yaml/test5.py"}
+{"a": "timestamp: :30:45", "filename": "yaml/test5.py"}
 {"a": "explicit_string: !!str 100", "filename": "yaml/test5.py"}
 {"a": "explicit_bool: !!bool \"true\"", "filename": "yaml/test5.py"}
 {"a": "explicit_int: !!int \"123\"", "filename": "yaml/test5.py"}
@@ -2367,7 +2367,7 @@
 {"a": "empty_flow_seq: []", "filename": "yaml/test5.py"}
 {"a": "empty_flow_map: {}", "filename": "yaml/test5.py"}
 {"a": "flow_seq: [apple, banana, cherry]", "filename": "yaml/test5.py"}
-{"a": "flow_map: {name: Alice, age: 30}", "filename": "yaml/test5.py"}
+{"a": "flow_map: {name: , age: 30}", "filename": "yaml/test5.py"}
 {"a": "mixed_flow:\n  list: [1, 2, 3]\n  map: {a: 1, b: 2}", "filename": "yaml/test5.py"}
 {"a": "complex_mapping:\n  - key: value1\n  - {key2: value2}", "filename": "yaml/test5.py"}
 {"a": "non_specific_tag: ! 42", "filename": "yaml/test5.py"}
@@ -2388,10 +2388,10 @@
 {"a": "explicit_null_key:\n  ? null\n  : value", "filename": "yaml/test5.py"}
 {"a": "boolean_keys:\n  ? true\n  : yes\n  ? false\n  : no", "filename": "yaml/test5.py"}
 {"a": "numeric_keys:\n  123: number key\n  45.6: float key", "filename": "yaml/test5.py"}
-{"a": "very_large_int: 999999999999999999999999999999", "filename": "yaml/test5.py"}
-{"a": "very_small_float: 0.000000000000000000000000000001", "filename": "yaml/test5.py"}
-{"a": "very_large_float: 1.7976931348623157e+308", "filename": "yaml/test5.py"}
-{"a": "very_small_negative: -2.2250738585072014e-308", "filename": "yaml/test5.py"}
+{"a": "very_large_int: ", "filename": "yaml/test5.py"}
+{"a": "very_small_float: 0.", "filename": "yaml/test5.py"}
+{"a": "very_large_float: 623157e+308", "filename": "yaml/test5.py"}
+{"a": "very_small_negative: -2.e-308", "filename": "yaml/test5.py"}
 {"a": "exponential_upper: 1E10", "filename": "yaml/test5.py"}
 {"a": "exponential_lower: 2e-5", "filename": "yaml/test5.py"}
 {"a": "hex_float: 0x1.0p+10", "filename": "yaml/test5.py"}
@@ -2399,10 +2399,10 @@
 {"a": "sexagesimal: 1:2:3.45", "filename": "yaml/test5.py"}
 {"a": "compact_sexagesimal: 12:30", "filename": "yaml/test5.py"}
 {"a": "duration: 1y2m3d", "filename": "yaml/test5.py"}
-{"a": "timestamp_space: 2024-02-14 12:30", "filename": "yaml/test5.py"}
-{"a": "timestamp_no_seconds: 2024-02-14T12:30", "filename": "yaml/test5.py"}
-{"a": "timestamp_zulu: 2024-02-14T12:30:45Z", "filename": "yaml/test5.py"}
-{"a": "timestamp_offset: 2024-02-14T12:30:45+09:00", "filename": "yaml/test5.py"}
+{"a": "timestamp_space: :30", "filename": "yaml/test5.py"}
+{"a": "timestamp_no_seconds: T12:30", "filename": "yaml/test5.py"}
+{"a": "timestamp_zulu: T12:30:45Z", "filename": "yaml/test5.py"}
+{"a": "timestamp_offset: T12:30:45+09:00", "filename": "yaml/test5.py"}
 {"a": "date_compact: 20240214", "filename": "yaml/test5.py"}
 {"a": "spaced_scalar: \"   trimmed   \"", "filename": "yaml/test5.py"}
 {"a": "literal_scalar: |\n    preserved\n    spaces", "filename": "yaml/test5.py"}
@@ -2438,8 +2438,8 @@
 {"a": "complex_number: 3+4j", "filename": "yaml/test6.py"}
 {"a": "infinity: .inf", "filename": "yaml/test6.py"}
 {"a": "nan: .nan", "filename": "yaml/test6.py"}
-{"a": "date: 2024-01-15", "filename": "yaml/test6.py"}
-{"a": "timestamp: 2024-01-15T12:30:45Z", "filename": "yaml/test6.py"}
+{"a": "date: ", "filename": "yaml/test6.py"}
+{"a": "timestamp: T12:30:45Z", "filename": "yaml/test6.py"}
 {"a": "merge:\n  - &anchor1 {key1: value1}\n  - &anchor2 {key2: value2}\n  - {<<: [*anchor1, *anchor2], key3: value3}", "filename": "yaml/test6.py"}
 {"a": "block_scalar: >-\n  This is a folded\n  block scalar that\n  removes newlines.", "filename": "yaml/test6.py"}
 {"a": "literal_scalar: |-\n  This preserves\n  newlines exactly.", "filename": "yaml/test6.py"}
@@ -2461,8 +2461,8 @@
 {"a": "special_yaml_chars: \"[ ] { } : , & * # | > ! % ' \\\"\"", "filename": "yaml/test6.py"}
 {"a": "boolean_variants:\n  yes: yes\n  no: no\n  on: on\n  off: off", "filename": "yaml/test6.py"}
 {"a": "null_variants:\n  null: null\n  NULL: NULL\n  ~: ~", "filename": "yaml/test6.py"}
-{"a": "float_edge_cases:\n  zero: 0.0\n  negative_zero: -0.0\n  huge: 1.7976931348623157e+308\n  tiny: 2.2250738585072014e-308", "filename": "yaml/test6.py"}
-{"a": "int_edge_cases:\n  zero: 0\n  negative_one: -1\n  max_int32: 2147483647\n  min_int32: -2147483648", "filename": "yaml/test6.py"}
+{"a": "float_edge_cases:\n  zero: 0.0\n  negative_zero: -0.0\n  huge: 623157e+308\n  tiny: 2.e-308", "filename": "yaml/test6.py"}
+{"a": "int_edge_cases:\n  zero: 0\n  negative_one: -1\n  max_int32: \n  min_int32: -", "filename": "yaml/test6.py"}
 {"a": "explicit_tag_string: !!str 123", "filename": "yaml/test6.py"}
 {"a": "explicit_tag_int: !!int \"456\"", "filename": "yaml/test6.py"}
 {"a": "explicit_tag_bool: !!bool \"true\"", "filename": "yaml/test6.py"}
@@ -2471,9 +2471,9 @@
 {"a": "set_style: !!set\n  ? item1\n  ? item2\n  ? item3", "filename": "yaml/test6.py"}
 {"a": "ordered_map: !!omap\n  - key1: value1\n  - key2: value2\n  - key3: value3", "filename": "yaml/test6.py"}
 {"a": "pairs: !!pairs\n  - key1: value1\n  - key2: value2", "filename": "yaml/test6.py"}
-{"a": "timestamp_with_timezone: 2024-01-15T12:30:45+05:30", "filename": "yaml/test6.py"}
-{"a": "timestamp_without_timezone: 2024-01-15T12:30:45", "filename": "yaml/test6.py"}
-{"a": "date_only: 2024-01-15", "filename": "yaml/test6.py"}
+{"a": "timestamp_with_timezone: T12:30:45+05:30", "filename": "yaml/test6.py"}
+{"a": "timestamp_without_timezone: T12:30:45", "filename": "yaml/test6.py"}
+{"a": "date_only: ", "filename": "yaml/test6.py"}
 {"a": "time_only: 12:30:45", "filename": "yaml/test6.py"}
 {"a": "merge_multiple: &defaults\n  common: value\n  shared: data\nfirst:\n  <<: *defaults\n  extra: field1\nsecond:\n  <<: *defaults\n  extra: field2", "filename": "yaml/test6.py"}
 {"a": "nested_anchors: &outer\n  inner: &inner value\nreference: *inner", "filename": "yaml/test6.py"}
@@ -2534,10 +2534,10 @@
 {"a": "nested_list: [[1, 2], [3, 4]]", "filename": "yaml/test7.py"}
 {"a": "mixed_list: [1, 'two', true, null]", "filename": "yaml/test7.py"}
 {"a": "simple_map: {a: 1, b: 2}", "filename": "yaml/test7.py"}
-{"a": "map_in_list: [{name: alice}, {name: bob}]", "filename": "yaml/test7.py"}
+{"a": "map_in_list: [{name: }, {name: }]", "filename": "yaml/test7.py"}
 {"a": "integer_zero: 0", "filename": "yaml/test7.py"}
-{"a": "integer_large: 999999999999", "filename": "yaml/test7.py"}
-{"a": "integer_small: -999999999999", "filename": "yaml/test7.py"}
+{"a": "integer_large: ", "filename": "yaml/test7.py"}
+{"a": "integer_small: -", "filename": "yaml/test7.py"}
 {"a": "float_infinity: .inf", "filename": "yaml/test7.py"}
 {"a": "float_negative_infinity: -.inf", "filename": "yaml/test7.py"}
 {"a": "float_nan: .nan", "filename": "yaml/test7.py"}
@@ -2550,7 +2550,7 @@
 {"a": "explicit_boolean: !!bool yes", "filename": "yaml/test7.py"}
 {"a": "explicit_null: !!null null", "filename": "yaml/test7.py"}
 {"a": "explicit_binary: !!binary SGVsbG8gV29ybGQ=", "filename": "yaml/test7.py"}
-{"a": "explicit_timestamp: !!timestamp 2024-01-01", "filename": "yaml/test7.py"}
+{"a": "explicit_timestamp: !!timestamp ", "filename": "yaml/test7.py"}
 {"a": "explicit_set: !!set {a: null, b: null}", "filename": "yaml/test7.py"}
 {"a": "explicit_omap: !!omap [a: 1, b: 2]", "filename": "yaml/test7.py"}
 {"a": "explicit_pairs: !!pairs [a: 1, b: 2]", "filename": "yaml/test7.py"}
@@ -2594,7 +2594,7 @@
 {"a": "!!set {a, b, c}", "filename": "yaml/test8.py"}
 {"a": "!!omap [a: 1, b: 2]", "filename": "yaml/test8.py"}
 {"a": "!!pairs [a: 1, b: 2]", "filename": "yaml/test8.py"}
-{"a": "!!timestamp 2024-01-15T14:30:00Z", "filename": "yaml/test8.py"}
+{"a": "!!timestamp T14:30:00Z", "filename": "yaml/test8.py"}
 {"a": "key: value", "filename": "yaml/test8.py"}
 {"a": "key: 42", "filename": "yaml/test8.py"}
 {"a": "key: true", "filename": "yaml/test8.py"}
@@ -2666,10 +2666,10 @@
 {"a": "key: !!int 0b10", "filename": "yaml/test8.py"}
 {"a": "key: !!float 1.23e4", "filename": "yaml/test8.py"}
 {"a": "key: !!float -1.23e-4", "filename": "yaml/test8.py"}
-{"a": "date: 2024-01-15", "filename": "yaml/test8.py"}
+{"a": "date: ", "filename": "yaml/test8.py"}
 {"a": "time: 14:30:00", "filename": "yaml/test8.py"}
-{"a": "datetime: 2024-01-15T14:30:00", "filename": "yaml/test8.py"}
-{"a": "datetime with tz: 2024-01-15T14:30:00+05:30", "filename": "yaml/test8.py"}
+{"a": "datetime: T14:30:00", "filename": "yaml/test8.py"}
+{"a": "datetime with tz: T14:30:00+05:30", "filename": "yaml/test8.py"}
 {"a": "yes: yes", "filename": "yaml/test8.py"}
 {"a": "no: no", "filename": "yaml/test8.py"}
 {"a": "on: on", "filename": "yaml/test8.py"}
@@ -2706,7 +2706,7 @@
 {"a": "!!map {}", "filename": "yaml/test9.py"}
 {"a": "!!seq []", "filename": "yaml/test9.py"}
 {"a": "!!str 123", "filename": "yaml/test9.py"}
-{"a": "!!timestamp 2024-01-01T00:00:00Z", "filename": "yaml/test9.py"}
+{"a": "!!timestamp T00:00:00Z", "filename": "yaml/test9.py"}
 {"a": "!!binary SGVsbG8gV29ybGQh", "filename": "yaml/test9.py"}
 {"a": "key1: value1\nkey2: value2", "filename": "yaml/test9.py"}
 {"a": "- item1\n- item2\n- item3", "filename": "yaml/test9.py"}
@@ -2732,11 +2732,11 @@
 {"a": "n: n", "filename": "yaml/test9.py"}
 {"a": "true_alt: True", "filename": "yaml/test9.py"}
 {"a": "false_alt: False", "filename": "yaml/test9.py"}
-{"a": "date_only: 2024-12-31", "filename": "yaml/test9.py"}
+{"a": "date_only: ", "filename": "yaml/test9.py"}
 {"a": "time_only: 23:59:59", "filename": "yaml/test9.py"}
-{"a": "fractional_seconds: 2024-01-01T12:00:00.123456Z", "filename": "yaml/test9.py"}
-{"a": "timezone_offset: 2024-01-01T12:00:00+09:00", "filename": "yaml/test9.py"}
-{"a": "no_timezone: 2024-01-01T12:00:00", "filename": "yaml/test9.py"}
+{"a": "fractional_seconds: T12:00:00.123456Z", "filename": "yaml/test9.py"}
+{"a": "timezone_offset: T12:00:00+09:00", "filename": "yaml/test9.py"}
+{"a": "no_timezone: T12:00:00", "filename": "yaml/test9.py"}
 {"a": "alias_cycle: &a [*a]", "filename": "yaml/test9.py"}
 {"a": "complex_anchor: &anchor\n  key: value\ncopy: *anchor", "filename": "yaml/test9.py"}
 {"a": "explicit_seq: !!seq []", "filename": "yaml/test9.py"}
@@ -2762,8 +2762,8 @@
 {"a": "whitespace_only: \" \\t\\n\\r\"", "filename": "yaml/test9.py"}
 {"a": "bom: \"\\ufeffkey: value\"", "filename": "yaml/test9.py"}
 {"a": "invalid_utf8: \"\\xff\\xfe\"", "filename": "yaml/test9.py"}
-{"a": "max_int: 9223372036854775807", "filename": "yaml/test9.py"}
-{"a": "min_int: -9223372036854775808", "filename": "yaml/test9.py"}
-{"a": "big_float: 1.7976931348623157e+308", "filename": "yaml/test9.py"}
-{"a": "small_float: 2.2250738585072014e-308", "filename": "yaml/test9.py"}
+{"a": "max_int: ", "filename": "yaml/test9.py"}
+{"a": "min_int: -", "filename": "yaml/test9.py"}
+{"a": "big_float: 623157e+308", "filename": "yaml/test9.py"}
+{"a": "small_float: 2.e-308", "filename": "yaml/test9.py"}
 {"a": "deep_nesting:\n  a:\n    b:\n      c:\n        d:\n          e:\n            f:\n              g: value", "filename": "yaml/test9.py"}

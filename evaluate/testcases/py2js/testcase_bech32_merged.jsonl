@@ -38,14 +38,14 @@
 {"filename": "bech32/test10.py", "a": "bcrt", "b": "22,5,18,5,17,14"}
 {"filename": "bech32/test10.py", "a": "tb", "b": "17,12,8,16,0,19,18,22,25"}
 {"filename": "bech32/test10.py", "a": "tltc", "b": "28,1,23,8,8,19,0,31,22,21,14,26"}
-{"filename": "bech32/test10.py", "a": "yuZQvuqQbNAytqPlE2dFoA0StdGiuOjMullzgV", "b": "78127088774936"}
+{"filename": "bech32/test10.py", "a": "yuZQvuqQbNAytqPlE2dFoA0StdGiuOjMullzgV", "b": "786"}
 {"filename": "bech32/test10.py", "a": "OOMQCXUU", "b": "9562626"}
 {"filename": "bech32/test10.py", "a": "44933", "b": "94685297"}
 {"filename": "bech32/test10.py", "a": "dtEitj7 G5tr2o0kc", "b": "25548878"}
-{"filename": "bech32/test10.py", "a": "040402", "b": "48919386302085"}
-{"filename": "bech32/test10.py", "a": "GPITBJNGIEHYSE", "b": "674146129460"}
+{"filename": "bech32/test10.py", "a": "040402", "b": "489"}
+{"filename": "bech32/test10.py", "a": "GPITBJNGIEHYSE", "b": ""}
 {"filename": "bech32/test10.py", "a": "Z4DPwh6CDnHbd1b9IrW9yI6DBDk6 O5f4aLv5AeJSv28WQcg", "b": "1398079"}
-{"filename": "bech32/test10.py", "a": "DDEWYBUIFLTHO", "b": "81586457427695"}
+{"filename": "bech32/test10.py", "a": "DDEWYBUIFLTHO", "b": "895"}
 {"filename": "bech32/test11.py", "a": "tb", "b": 1, "c": "244,35,199,105,66,105,158,221,243,81,158,103,234,141,103,3,73,228,32,204"}
 {"filename": "bech32/test11.py", "a": "test", "b": 0, "c": "111,252,210,62,188,39,53,166,209,230,84,129,106,22,236,13,37,236,195,175"}
 {"filename": "bech32/test11.py", "a": "tb", "b": 0, "c": "51,90,150,63,200,86,39,5,139,78,225,183,91,110,17,110,226,24,52,199"}
@@ -93,7 +93,7 @@
 {"filename": "bech32/test12.py", "a": "eievvhqdnkrfo", "b": "RS7u8l0vVgQv7XCv8"}
 {"filename": "bech32/test12.py", "a": "BIIYSH", "b": "8DvP0uDtvKWIo0RXFte0yx7OO"}
 {"filename": "bech32/test12.py", "a": "rwUrEpd6F3D0OUltgXxccNN3E1Yh", "b": "ONYBXT"}
-{"filename": "bech32/test12.py", "a": "8810000330999", "b": "xyglkdtemnng"}
+{"filename": "bech32/test12.py", "a": "88", "b": "xyglkdtemnng"}
 {"filename": "bech32/test12.py", "a": "XVdbCPq96r41uP5R37J y9EV2kz", "b": "Rw48K9KNCK8cfGEPM1uJOcM rufIrJLQ6x2S3eYdNz2Gx5Hj0I"}
 {"filename": "bech32/test12.py", "a": "QmbJfsGgvey9cF", "b": "714839691"}
 {"filename": "bech32/test12.py", "a": "pjkwejgib", "b": "98052853"}
@@ -106,26 +106,26 @@
 {"filename": "bech32/test12.py", "a": "u8g6v", "b": "kU1Qqy bjGrAugYaMTsDl3RIfWG2fuhKJn4J"}
 {"filename": "bech32/test12.py", "a": "OGZs06", "b": "TEKGWYRAFO"}
 {"filename": "bech32/test12.py", "a": "YGwXvgh1j8Mle0rQE1TH4MWyFl5 0R0D15CoKyOS88ld", "b": "UZZNTXNOJBMULK"}
-{"filename": "bech32/test12.py", "a": "63362327797", "b": "P5kuZHAS0Li4n2mlRL8z87jQiLPUjX2xQy"}
-{"filename": "bech32/test12.py", "a": "3mL3Bv", "b": "14508271206"}
+{"filename": "bech32/test12.py", "a": "", "b": "P5kuZHAS0Li4n2mlRL8z87jQiLPUjX2xQy"}
+{"filename": "bech32/test12.py", "a": "3mL3Bv", "b": ""}
 {"filename": "bech32/test12.py", "a": "JJJQOJQTA", "b": "GRMKTVKNVS"}
 {"filename": "bech32/test12.py", "a": "GsrTVC73RF", "b": "rAeMZMveZm4pQ"}
 {"filename": "bech32/test12.py", "a": "2570812", "b": "Bybebhd2VaUgdqh6VNRq"}
 {"filename": "bech32/test12.py", "a": "TYQQTUKZCZGLV", "b": "DZKGKN"}
-{"filename": "bech32/test12.py", "a": "1880162133", "b": "sgvNq6YAxPjDGwBNRbkgKHY9P OYBIR6dQIF61p5vXL1DYf1"}
-{"filename": "bech32/test12.py", "a": "06633510206199", "b": "EBRGU"}
+{"filename": "bech32/test12.py", "a": "", "b": "sgvNq6YAxPjDGwBNRbkgKHY9P OYBIR6dQIF61p5vXL1DYf1"}
+{"filename": "bech32/test12.py", "a": "", "b": "EBRGU"}
 {"filename": "bech32/test12.py", "a": "8894930", "b": "algqxzzuuanfyim"}
-{"filename": "bech32/test12.py", "a": "6XQbbNvH5YAz0r4GO0NcfPDk", "b": "011162454890893"}
+{"filename": "bech32/test12.py", "a": "6XQbbNvH5YAz0r4GO0NcfPDk", "b": "0893"}
 {"filename": "bech32/test12.py", "a": "owiozg", "b": "44033441"}
 {"filename": "bech32/test12.py", "a": "ZxHbbjLbHDyWjCGSljT3fGv", "b": "CF1cmUqHuBFAWHmaoXQehprDLyhZFKBblOneUrbHy1l3"}
 {"filename": "bech32/test12.py", "a": "t4j5yP6u9c0AaZ GXsOPDbLnUSCAt", "b": "ayGHrMwaCIX"}
 {"filename": "bech32/test12.py", "a": "S6huIbIrPemD", "b": "p81gw3BWISgqs gYaZxDFbNpjQbBZhRFBu6c"}
 {"filename": "bech32/test12.py", "a": "ustnzme", "b": "ezjedung"}
-{"filename": "bech32/test12.py", "a": "YZOES", "b": "651720142390736"}
+{"filename": "bech32/test12.py", "a": "YZOES", "b": "6536"}
 {"filename": "bech32/test12.py", "a": "ljazh", "b": "p9hDg1hIsJr"}
 {"filename": "bech32/test12.py", "a": "uuSe85iJYzX8xVHi8t3Pk3Dsj", "b": "ZBYKZCOVNUL"}
-{"filename": "bech32/test12.py", "a": "0i5LYUECo5myixh7VB0n0SWkoFYogXau3nnsu9h2UBDNP2Nq", "b": "98247017674"}
-{"filename": "bech32/test12.py", "a": "5926857489944", "b": "6695949989"}
+{"filename": "bech32/test12.py", "a": "0i5LYUECo5myixh7VB0n0SWkoFYogXau3nnsu9h2UBDNP2Nq", "b": ""}
+{"filename": "bech32/test12.py", "a": "", "b": ""}
 {"filename": "bech32/test13.py", "a": "bcrt", "b": "31,18,4,18,0,29,2,13,18", "c": "tb", "d": "18,9,5,17,9,12,27,5,18,14"}
 {"filename": "bech32/test13.py", "a": "tltc", "b": "30,22,15,24,27", "c": "test", "d": "11,24,27,6,8,28,20,22,29,22,27,29"}
 {"filename": "bech32/test13.py", "a": "xyz", "b": "26,29,1,1,26,5,8,19,15,23,8", "c": "bcrt", "d": "30,21,3,7,3,13,9,31,8,14,9,19,19,0"}
@@ -166,8 +166,8 @@
 {"filename": "bech32/test14.py", "a": "67,158,27,194,146,91,142,71,161,211,115", "b": 8, "c": 5, "d": 8}
 {"filename": "bech32/test14.py", "a": "181,186,178,230,87,18,197,79,107,222,177,147,106,175,137,46,107,132,111,239", "b": 8, "c": 5, "d": 8}
 {"filename": "bech32/test14.py", "a": "165,53,183,4,81,215", "b": 8, "c": 5, "d": 8}
-{"filename": "bech32/test14.py", "a": "30780800354", "b": 764, "c": 47, "d": 115}
-{"filename": "bech32/test14.py", "a": "71747079771", "b": 46, "c": 585, "d": 958}
+{"filename": "bech32/test14.py", "a": "", "b": 764, "c": 47, "d": 115}
+{"filename": "bech32/test14.py", "a": "", "b": 46, "c": 585, "d": 958}
 {"filename": "bech32/test15.py", "a": "tltc", "b": "21,21,6,11,22,19,10,29,11,1,28,29", "c": 1, "d": "19,12,8,8,21,3,5,19,9,22,29,25,10,29,0,9,12,11,19,19,5,11,15,13,27,5,15,9,23,0,30,10"}
 {"filename": "bech32/test15.py", "a": "ltc", "b": "6,30,25,13,30,24,29,15,6,24", "c": 0, "d": "14,11,15,23,23,21,0,25,4,14,8,31,12,2,13,19,27,5,21,24,11,27,9,18,19,24,30,2,16,26,11,10"}
 {"filename": "bech32/test15.py", "a": "tb", "b": "6,29,5,22,6,25,0,10,20,8,24", "c": 0, "d": "21,16,12,29,27,3,29,18,2,7,31,29,23,3,23,16,27,21,18,1,17,11,18,22,26,1,28,20,19,2,7,22"}
@@ -254,7 +254,7 @@
 {"filename": "bech32/test2.py", "a": "zFKzxojLIHPhA EUnjxYexx9AhkpE"}
 {"filename": "bech32/test2.py", "a": "ZZJBJCQRVXZHRP"}
 {"filename": "bech32/test2.py", "a": "I5ns0WiYXPgeCzoXvGZI2HaUTGt1Pv1UH9yoUC2"}
-{"filename": "bech32/test2.py", "a": "298912590726681"}
+{"filename": "bech32/test2.py", "a": "2989"}
 {"filename": "bech32/test2.py", "a": "vhrivxcm"}
 {"filename": "bech32/test2.py", "a": "WdQhT6eZ8GWxIvdgDLO5VHQ8niD txjX1J5TrkT9p14kg101Q2S6ycZ"}
 {"filename": "bech32/test2.py", "a": "FNi2zrJ6My1JEa1S8nADgmp9bL6eGnQWGgY0TPlORld"}
@@ -308,11 +308,11 @@
 {"filename": "bech32/test3.py", "a": "12,18,20,18,3,5,14,2,11,26,11,2,25,31,11", "b": 5, "c": 8}
 {"filename": "bech32/test3.py", "a": "165,127,3,133,196,120,228,136,168,154,5,133,184,120,31,60,238,157,81,207", "b": 8, "c": 5}
 {"filename": "bech32/test3.py", "a": "39,57,31,103,76,84,167,226,59,105,250,46,228,28,232,67", "b": 8, "c": 8}
-{"filename": "bech32/test3.py", "a": "28773411678102", "b": 732809, "c": 9401}
-{"filename": "bech32/test3.py", "a": "9004154304172", "b": 456778, "c": 330}
+{"filename": "bech32/test3.py", "a": "", "b": 732809, "c": 9401}
+{"filename": "bech32/test3.py", "a": "", "b": 456778, "c": 330}
 {"filename": "bech32/test3.py", "a": "66986", "b": 555843, "c": 6202}
-{"filename": "bech32/test3.py", "a": "20446882567", "b": 5777, "c": 38}
-{"filename": "bech32/test3.py", "a": "48846521087", "b": 967251, "c": 70037}
+{"filename": "bech32/test3.py", "a": "", "b": 5777, "c": 38}
+{"filename": "bech32/test3.py", "a": "", "b": 967251, "c": 70037}
 {"filename": "bech32/test4.py", "a": "bcrt", "b": 12, "c": "28,24,24,5,8,22,7,11,25,8,14,0,1,19,29,27,24,14,15,29,22,9,17,12,7,2,26,1,15,13,4,6"}
 {"filename": "bech32/test4.py", "a": "test", "b": 13, "c": "26,9,19,24,11,30,15,14,19,9,29,3,26,26,8,24,15,16,13,21,5,28,23,5,12,3,17,24,2,4,12,13"}
 {"filename": "bech32/test4.py", "a": "ltc", "b": 1, "c": "14,9,1,16,26,18,9,12,21,14,24,15,31,21,16,31,31,29,10,22,10,8,31,11,3,2,4,3,0,26,8,14"}
@@ -335,9 +335,9 @@
 {"filename": "bech32/test4.py", "a": "bcrt", "b": 15, "c": "12,6,1,13,10,18,5,30,7,19,25,30,31,16,5,24,11,23,24,23,11,28,2,16,28,29,16,14,17,3,9,6"}
 {"filename": "bech32/test4.py", "a": "hiwurp", "b": 483, "c": "42865"}
 {"filename": "bech32/test4.py", "a": "YPDGoG0BTjamQ3N", "b": 8677, "c": "47701221"}
-{"filename": "bech32/test4.py", "a": "kvO97TaHkeelSa70T6 CLImup4vhq22oBv62VqSbLhn8w", "b": 87, "c": "030105806727071"}
-{"filename": "bech32/test4.py", "a": "4lOV7", "b": 233164, "c": "8154826827"}
-{"filename": "bech32/test4.py", "a": "XyWrW", "b": 7577, "c": "94864812059"}
+{"filename": "bech32/test4.py", "a": "kvO97TaHkeelSa70T6 CLImup4vhq22oBv62VqSbLhn8w", "b": 87, "c": "0301"}
+{"filename": "bech32/test4.py", "a": "4lOV7", "b": 233164, "c": ""}
+{"filename": "bech32/test4.py", "a": "XyWrW", "b": 7577, "c": ""}
 {"filename": "bech32/test4.py", "a": "FHVWIKMYJJWRE", "b": 120111, "c": "41632"}
 {"filename": "bech32/test5.py", "a": "xyz", "b": "xyz1s5y9ce53aq686ffxxxjk6scl7zt3efeze40r73h"}
 {"filename": "bech32/test5.py", "a": "tb", "b": "tb1d6lhr2ynegptvvr0zarhv3hae8p0hlut7kk2s"}
@@ -362,13 +362,13 @@
 {"filename": "bech32/test5.py", "a": "EBGWBHEMODKTG", "b": "yKyYdgI4WcIup94WM8K3dIcCyTToNYXi69jzaUkWPI8Ds"}
 {"filename": "bech32/test5.py", "a": "Ev4HE JBOG", "b": "563JCVdjR40jdP4ppS7YiH6aK"}
 {"filename": "bech32/test5.py", "a": "kbFUVFS3Uz vjGHQHufAOZsPH467hAn", "b": "sM4jYVebhyO"}
-{"filename": "bech32/test5.py", "a": "382620048183", "b": "VVKHKJOLKVZ"}
-{"filename": "bech32/test5.py", "a": "tRCTgX6klS2xyBU489jMJpcY", "b": "1612874789875"}
+{"filename": "bech32/test5.py", "a": "", "b": "VVKHKJOLKVZ"}
+{"filename": "bech32/test5.py", "a": "tRCTgX6klS2xyBU489jMJpcY", "b": "75"}
 {"filename": "bech32/test5.py", "a": "gRtM9cD3r xrXC22XWP", "b": "XMLFLYJL"}
 {"filename": "bech32/test5.py", "a": "ymyiprfiajhxax", "b": "KUEVFjnp52SQPT zytnwcL"}
-{"filename": "bech32/test5.py", "a": "okMU2y7WBt9", "b": "4905559719"}
+{"filename": "bech32/test5.py", "a": "okMU2y7WBt9", "b": ""}
 {"filename": "bech32/test5.py", "a": "HxuPWPnSGAF jo04EnWDsXGm4qgBC2kh", "b": "hoqkpyuujwypfkj"}
-{"filename": "bech32/test5.py", "a": "0MzLbrUrp7DuKPf9fxWAyHQ MsRL9AEpgEnC7", "b": "930442884240549"}
+{"filename": "bech32/test5.py", "a": "0MzLbrUrp7DuKPf9fxWAyHQ MsRL9AEpgEnC7", "b": ""}
 {"filename": "bech32/test5.py", "a": "sozmtidnespsfxh", "b": "CRATDV"}
 {"filename": "bech32/test5.py", "a": "KUDKXWCYRPYI", "b": "wDreifRWyU WqZaw4U4KV8T"}
 {"filename": "bech32/test5.py", "a": "lRss L5AFxoj0QqC65CzaRHzngkS", "b": "wK8jzoOiGdVisn4"}
@@ -376,7 +376,7 @@
 {"filename": "bech32/test5.py", "a": "EFWBEVOFCQF", "b": "5Ob9KggDvwQn7F4d"}
 {"filename": "bech32/test5.py", "a": "Aqq2efDSlBe6KxisxzkQGq", "b": "2IMqgImf8ntbEMuNF8fJy"}
 {"filename": "bech32/test5.py", "a": "veYY5G6o0UJnpT", "b": "n8Q98WDiDCTF9l"}
-{"filename": "bech32/test5.py", "a": "2EDh3xmYYc8cCfxzf6St2BQTborfHeZsCSft", "b": "54146899539"}
+{"filename": "bech32/test5.py", "a": "2EDh3xmYYc8cCfxzf6St2BQTborfHeZsCSft", "b": ""}
 {"filename": "bech32/test5.py", "a": "Wya6qjzKy F6ThSZ1ejMYJ2xtDEg7", "b": "uzqghojm"}
 {"filename": "bech32/test5.py", "a": "COFXQQMVF", "b": "UIWUMRYUI"}
 {"filename": "bech32/test5.py", "a": "L849Awsx3MYJZnxds0I21FbHWxitg 1pNzbzYQ2mOBkPiHnHkrDHni7y00v", "b": "GzVhcUh"}
@@ -388,7 +388,7 @@
 {"filename": "bech32/test5.py", "a": "tojswyaa", "b": "uylomapymn"}
 {"filename": "bech32/test5.py", "a": "qxbbtirezt", "b": "mCVCyxWbM7deOE7KVt8WGtSkBn4"}
 {"filename": "bech32/test5.py", "a": "rzwaqnkhbx", "b": "n4RnxuTk0rouc3J6jpEa"}
-{"filename": "bech32/test5.py", "a": "67542341991794", "b": "Cx71T6VwKxdxwTyDipxadF55dL"}
+{"filename": "bech32/test5.py", "a": "", "b": "Cx71T6VwKxdxwTyDipxadF55dL"}
 {"filename": "bech32/test5.py", "a": "WQIDSVYQIABJF", "b": "McDfFcNoXmOCMD9G"}
 {"filename": "bech32/test5.py", "a": "coIKd6gg0SbQTIvA0Vz", "b": "lfmipusoirjuun"}
 {"filename": "bech32/test5.py", "a": "ZHJPSEMPJH", "b": "QMTVCCBIMCJM"}
@@ -397,7 +397,7 @@
 {"filename": "bech32/test5.py", "a": "845686", "b": "NQBKCBHMJIZHMJD"}
 {"filename": "bech32/test5.py", "a": "FYnpRuHvwL6BVfgPivnOeia1wNZc6D48n", "b": "412410"}
 {"filename": "bech32/test5.py", "a": "89MqFVZql2EIE2Qo7vpfbLyS", "b": "Zriy3adHZw3KkC4kV0JJPfnRytUOijuY2DhqKx"}
-{"filename": "bech32/test5.py", "a": "277911622631363", "b": "E8bCXd3rvKCY25yKMgqc"}
+{"filename": "bech32/test5.py", "a": "2779", "b": "E8bCXd3rvKCY25yKMgqc"}
 {"filename": "bech32/test5.py", "a": "6n4BVyjdhWbGF0H 2FZw", "b": "IRCKFXM"}
 {"filename": "bech32/test6.py", "a": "bcrt", "b": 1, "c": "12,20,1,9,3,1,11,6,18,17,8,28,0,14,5,9,0,31,13,21,26,19,31,23,29,2,21,5,9,3,17,25"}
 {"filename": "bech32/test6.py", "a": "tltc", "b": 0, "c": "30,24,19,20,10,2,7,16,30,19,12,23,3,13,7,15,27,20,0,10,17,7,25,15,0,2,30,9,23,5,15,10"}
@@ -460,7 +460,7 @@
 {"filename": "bech32/test8.py", "a": "127,189,234,43,5,240,68,165,203,108,196,216,131,37,48,30,26,170,120", "b": 8, "c": 8}
 {"filename": "bech32/test8.py", "a": "2,0,16,24,19,25,23,8,2,11,16,10,31,21", "b": 5, "c": 8}
 {"filename": "bech32/test8.py", "a": "41842113", "b": 278, "c": 74}
-{"filename": "bech32/test8.py", "a": "2202151989210", "b": 25804, "c": 169}
+{"filename": "bech32/test8.py", "a": "", "b": 25804, "c": 169}
 {"filename": "bech32/test9.py", "a": "tltc", "b": "9,28,3,12,9,3,14,11,2,30,16,10"}
 {"filename": "bech32/test9.py", "a": "xyz", "b": "13,0,11,26,4,15,31,6,21,1,18,7,25,23,6"}
 {"filename": "bech32/test9.py", "a": "bcrt", "b": "18,20,3,4,24,5,25,16,11,15,25,5,1,13,10"}
@@ -481,12 +481,12 @@
 {"filename": "bech32/test9.py", "a": "bcrt", "b": "8,7,13,29,30,2,10,23,7,26,7,7"}
 {"filename": "bech32/test9.py", "a": "test", "b": "11,31,0,7,22,4,2,26"}
 {"filename": "bech32/test9.py", "a": "ltc", "b": "5,10,1,19,7,5,12,3,12"}
-{"filename": "bech32/test9.py", "a": "k6YElrF9MFhNXhOirEAz", "b": "134656698545911"}
-{"filename": "bech32/test9.py", "a": "OSPwU0f2yeUJ", "b": "501267718002616"}
+{"filename": "bech32/test9.py", "a": "k6YElrF9MFhNXhOirEAz", "b": "5911"}
+{"filename": "bech32/test9.py", "a": "OSPwU0f2yeUJ", "b": "5016"}
 {"filename": "bech32/test9.py", "a": "vcgoctjta", "b": "18071421"}
 {"filename": "bech32/test9.py", "a": "sVyJdaXbQhQcBRlkp", "b": "793868"}
-{"filename": "bech32/test9.py", "a": "mjzsubuxcnm", "b": "8039901534"}
-{"filename": "bech32/test9.py", "a": "f9cwQZIE", "b": "65600558539"}
+{"filename": "bech32/test9.py", "a": "mjzsubuxcnm", "b": ""}
+{"filename": "bech32/test9.py", "a": "f9cwQZIE", "b": ""}
 {"a": "bc", "b": "0,0,0,0,0,0,0,0,0,0", "filename": "bech32/test1.py"}
 {"a": "testhrp", "b": "31,31,31,31,31,31,31,31,31,31", "filename": "bech32/test1.py"}
 {"a": "ln", "b": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20", "filename": "bech32/test1.py"}

@@ -7,7 +7,7 @@ from pathlib import Path
 from openai import OpenAI
 
 # --- Configuration ---
-BASE_URL = os.getenv("BASE_URL", "https://qianfan.baidubce.com/v2/")
+BASE_URL = os.getenv("BASE_URL", "")
 API_KEY = os.getenv("API_KEY", "")
 MODEL_NAME = os.getenv("MODEL_NAME", "deepseek-v3.2")
 

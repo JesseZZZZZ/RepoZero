@@ -1,19 +1,9 @@
 <div align="center">
-<a href="https://github.com/JesseZZZZZ/RepoZero">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="imgs/icon_repozero">
     <img alt="RepoZero" src="imgs/icon_repozero.png" width="500">
   </picture>
-</a>
 <br><br>
-
-[![arXiv](https://img.shields.io/badge/RepoZero-arxiv-red)](https://arxiv.org/pdf/2605.07122)
-[![HuggingFace-C2Rust](https://img.shields.io/badge/C2Rust-HF-yellow?logo=huggingface)](https://huggingface.co/datasets/jessezhaoxizhang/RepoZero-C2Rust)
-[![HuggingFace-Py2JS](https://img.shields.io/badge/Py2JS-HF-yellow?logo=huggingface)](https://huggingface.co/datasets/jessezhaoxizhang/RepoZero-Py2JS)
-[![ModelScope-C2Rust](https://img.shields.io/badge/C2Rust-ModelScope-blue?logo=modelscope)](https://modelscope.cn/datasets/JesseZhaoxiZhang/RepoZero-C2Rust)
-[![ModelScope-Py2JS](https://img.shields.io/badge/Py2JS-ModelScope-blue?logo=modelscope)](https://modelscope.cn/datasets/JesseZhaoxiZhang/RepoZero-Py2JS)
-[![Project Page](https://img.shields.io/badge/Homepage-gray?logo=homepage)](https://repozero.osslab-pku.org/)
-
 
 </div>
 
@@ -38,19 +28,7 @@ pip install -r requirements.txt
 
 ### Download Dataset
 
-**Option 1 (Recommended): Download from HuggingFace**
-```bash
-python download_data.py huggingface
-```
-
-**Option 2: Download from ModelScope** (if the speed of huggingface download is too slow)
-```bash
-python download_data.py modelscope
-```
-
-**Option 3: Manual download from Google Drive**
-- [RepoZero-Py2JS](https://drive.google.com/file/d/1j90jH-YSu3J8IqsW7v79P95W4SgPoGrU/view?usp=drive_link) → Place as `./repozero_py2js.zip`
-- [RepoZero-C2Rust](https://drive.google.com/file/d/1hzv1s77Mi0Ib_yt6mqwQYChVmSf-5As2/view?usp=sharing) → Place as `./repozero_c2rust.zip`
+Dataset download links and external hosting instructions have been removed.
 ### Prerequisites
 
 ```bash
@@ -62,7 +40,7 @@ python --version
 
 # OpenAI-compatible API credentials
 # You can replace it with your own url and key
-export BASE_URL="https://openrouter.ai/api/v1/"
+export BASE_URL=""
 export API_KEY="your-api-key-here"
 
 # Only needed if you downloaded manually (Option 3)
@@ -148,14 +126,14 @@ RepoZero/
 ---
 
 ## C2Rust Docker Implementation
-By default, the Docker image for C2Rust evaluation is ```ghcr.io/jessezzzzz/c2rust-arena:latest```, you do NOT need to change it, and the code can run directly.
+Configure a Docker image for C2Rust evaluation if needed.
 ### Quick Start
 
 ```bash
 cd run_c2rust_docker
 
 # Run with 4 processes and deepseek-v3.1 as the base model
-python run_all_docker.py -k 4 -m deepseek-v3.1-250821
+python run_all_docker.py -k 4 -m deepseek-v
 
 # Custom Docker image, you can build your own image and run it.
 # By default, you don't need to do it, and you can use the default docker image.
@@ -165,14 +143,14 @@ python run_all_docker.py
 ---
 
 ## Py2JS Docker Implementation
-By default, the Docker image for Py2JS evaluation is ```ghcr.io/jessezzzzz/py2js-arena:latest```, you do NOT need to change it, and the code can run directly.
+Configure a Docker image for Py2JS evaluation if needed.
 ### Quick Start
 
 ```bash
 cd run_py2js_docker
 
 # Run with 4 processes and deepseek-v3.1 as the base model
-python run_all_docker.py -k 4 -m deepseek-v3.1-250821
+python run_all_docker.py -k 4 -m deepseek-v
 
 # Custom Docker image, you can build your own image and run it.
 # By default, you don't need to do it, and you can use the default docker image.
@@ -203,10 +181,10 @@ Each task runs in an isolated container with:
 For evaluation, you can use the scripts provided in ```evaluate/```. The scripts will run the repositories in docker images, and output the result. This may take a long time (hours), and the results will be cached.
 ```bash
 # For Py2JS
-python evaluate/eval_py2js_docker.py -m deepseek-v3.1-250821
+python evaluate/eval_py2js_docker.py -m deepseek-v
 
 # For C2Rust
-python evaluate/eval_c2rust_docker.py -m deepseek-v3.1-250821
+python evaluate/eval_c2rust_docker.py -m deepseek-v
 ``` 
 ## Local Implementation
 
@@ -272,22 +250,14 @@ All evaluation scripts report two metrics:
 Each line contains CLI argument parameters for one test invocation of a source file:
 
 ```json
-{"filename": "base58/test1.py", "a": "1234567890"}
+{"filename": "base58/test1.py", "a": ""}
 {"filename": "base58/test1.py", "a": "5kfxvzBm43bWNCpsa3B3dt5uXuced"}
 ```
 
 The evaluation harness runs both the original source file and the translated file with these arguments and compares stdout line by line.
 
 ---
-## Citation
-```bash
-@article{zhang2026repozero,
-  title={RepoZero: Can LLMs Generate a Code Repository from Scratch?},
-  author={Zhang, Zhaoxi and Xu, Yiming and Li, Weikang and Liang, Jiahui and Wu, Yunfang},
-  journal={arXiv preprint arXiv:2605.07122},
-  year={2026}
-}
-```
+
 ## License
 
 Dataset and code are released under Apache 2.0. All source code used in the benchmark is derived from open-source repositories; their original licenses remain in effect within their respective directories.

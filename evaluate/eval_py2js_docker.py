@@ -11,7 +11,7 @@ EVAL_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Docker image for Py2JS evaluation
-DOCKER_IMAGE = "ghcr.io/jessezzzzz/py2js-arena:latest"
+DOCKER_IMAGE = ""
 
 # Container workspace
 CONTAINER_WORKSPACE = "/workspace"

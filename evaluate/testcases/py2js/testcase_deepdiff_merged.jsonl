@@ -75,7 +75,7 @@
 {"filename": "deepdiff/test2.py", "a": "{\"id\": 100, \"status\": \"active\"}", "b": "{\"meta\": {\"count\": 5, \"total\": 100}}"}
 {"filename": "deepdiff/test2.py", "a": "{\"array\": [0, 1, 2, 3, 4]}", "b": "{\"key\": \"value\"}"}
 {"filename": "deepdiff/test2.py", "a": "{\"list\": [1, 2, 3]}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}"}
-{"filename": "deepdiff/test2.py", "a": "{\"data\": null, \"flag\": true}", "b": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test2.py", "a": "{\"data\": null, \"flag\": true}", "b": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"number\": 42, \"text\": \"answer\"}", "b": "{\"data\": null, \"flag\": true}"}
 {"filename": "deepdiff/test2.py", "a": "{\"list\": [1, 2, 3]}", "b": "{\"items\": [\"x\", \"y\", \"z\"]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"name\": \"test\", \"value\": 123}", "b": "{\"meta\": {\"count\": 5, \"total\": 100}}"}
@@ -86,20 +86,20 @@
 {"filename": "deepdiff/test2.py", "a": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "b": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"config\": {\"debug\": false, \"port\": 8080}}", "b": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}"}
 {"filename": "deepdiff/test2.py", "a": "{\"name\": \"test\", \"value\": 123}", "b": "{\"number\": 42, \"text\": \"answer\"}"}
-{"filename": "deepdiff/test2.py", "a": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}"}
+{"filename": "deepdiff/test2.py", "a": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}"}
 {"filename": "deepdiff/test2.py", "a": "{\"data\": null, \"flag\": true}", "b": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"data\": null, \"flag\": true}", "b": "{\"items\": [\"x\", \"y\", \"z\"]}"}
-{"filename": "deepdiff/test2.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test2.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "b": "{\"number\": 42, \"text\": \"answer\"}"}
 {"filename": "deepdiff/test2.py", "a": "{\"key\": \"value\"}", "b": "{\"name\": \"test\", \"value\": 123}"}
 {"filename": "deepdiff/test2.py", "a": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "b": "{\"key\": \"value\"}"}
 {"filename": "deepdiff/test2.py", "a": "{\"nested\": {\"inner\": \"value\"}}", "b": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}"}
 {"filename": "deepdiff/test2.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"config\": {\"debug\": false, \"port\": 8080}}"}
-{"filename": "deepdiff/test2.py", "a": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "b": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
-{"filename": "deepdiff/test2.py", "a": "{\"id\": 100, \"status\": \"active\"}", "b": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test2.py", "a": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "b": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
+{"filename": "deepdiff/test2.py", "a": "{\"id\": 100, \"status\": \"active\"}", "b": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "b": "{\"data\": null, \"flag\": true}"}
 {"filename": "deepdiff/test2.py", "a": "{\"array\": [0, 1, 2, 3, 4]}", "b": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
-{"filename": "deepdiff/test2.py", "a": "{\"config\": {\"debug\": false, \"port\": 8080}}", "b": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test2.py", "a": "{\"config\": {\"debug\": false, \"port\": 8080}}", "b": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "b": "{\"number\": 42, \"text\": \"answer\"}"}
 {"filename": "deepdiff/test2.py", "a": "{\"number\": 42, \"text\": \"answer\"}", "b": "{\"data\": null, \"flag\": true}"}
 {"filename": "deepdiff/test2.py", "a": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "b": "{\"nested\": {\"inner\": \"value\"}}"}
@@ -108,7 +108,7 @@
 {"filename": "deepdiff/test2.py", "a": "{\"meta\": {\"count\": 5, \"total\": 100}}", "b": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}"}
 {"filename": "deepdiff/test2.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "b": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
-{"filename": "deepdiff/test2.py", "a": "{\"key\": \"value\"}", "b": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test2.py", "a": "{\"key\": \"value\"}", "b": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test2.py", "a": "{\"nested\": {\"inner\": \"value\"}}", "b": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}"}
 {"filename": "deepdiff/test2.py", "a": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "b": "{\"data\": null, \"flag\": true}"}
 {"filename": "deepdiff/test2.py", "a": "{\"empty\": {}, \"list\": []}", "b": "{\"a\": 1, \"b\": 2, \"c\": 3}"}
@@ -238,15 +238,15 @@
 {"filename": "deepdiff/test4.py", "a": "zeta", "b": "gray"}
 {"filename": "deepdiff/test4.py", "a": "delta", "b": "gray"}
 {"filename": "deepdiff/test4.py", "a": "blue", "b": "hash"}
-{"filename": "deepdiff/test6.py", "a": "{\"array\": [0, 1, 2, 3, 4]}", "b": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "c": "{\"config\": {\"debug\": false, \"port\": 8080}}", "d": "{\"data\": null, \"flag\": true}", "e": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test6.py", "a": "{\"array\": [0, 1, 2, 3, 4]}", "b": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "c": "{\"config\": {\"debug\": false, \"port\": 8080}}", "d": "{\"data\": null, \"flag\": true}", "e": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "c": "{\"id\": 100, \"status\": \"active\"}", "d": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "e": "{\"meta\": {\"count\": 5, \"total\": 100}}"}
 {"filename": "deepdiff/test6.py", "a": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "b": "{\"number\": 42, \"text\": \"answer\"}", "c": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "d": "{\"meta\": {\"count\": 5, \"total\": 100}}", "e": "{\"number\": 42, \"text\": \"answer\"}"}
-{"filename": "deepdiff/test6.py", "a": "{\"config\": {\"debug\": false, \"port\": 8080}}", "b": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "c": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"mixed\": [1, \"two\", {\"three\": 3}]}"}
+{"filename": "deepdiff/test6.py", "a": "{\"config\": {\"debug\": false, \"port\": 8080}}", "b": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "c": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"mixed\": [1, \"two\", {\"three\": 3}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"meta\": {\"count\": 5, \"total\": 100}}", "c": "{\"number\": 42, \"text\": \"answer\"}", "d": "{\"id\": 100, \"status\": \"active\"}", "e": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}"}
 {"filename": "deepdiff/test6.py", "a": "{\"config\": {\"debug\": false, \"port\": 8080}}", "b": "{\"nested\": {\"inner\": \"value\"}}", "c": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "d": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "e": "{\"list\": [1, 2, 3]}"}
-{"filename": "deepdiff/test6.py", "a": "{\"list\": [1, 2, 3]}", "b": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "c": "{\"empty\": {}, \"list\": []}", "d": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "e": "{\"id\": 100, \"status\": \"active\"}"}
+{"filename": "deepdiff/test6.py", "a": "{\"list\": [1, 2, 3]}", "b": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "c": "{\"empty\": {}, \"list\": []}", "d": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "e": "{\"id\": 100, \"status\": \"active\"}"}
 {"filename": "deepdiff/test6.py", "a": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "b": "{\"name\": \"test\", \"value\": 123}", "c": "{\"a\": 1, \"b\": 2, \"c\": 3}", "d": "{\"number\": 42, \"text\": \"answer\"}", "e": "{\"array\": [0, 1, 2, 3, 4]}"}
-{"filename": "deepdiff/test6.py", "a": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "b": "{\"nested\": {\"inner\": \"value\"}}", "c": "{\"array\": [0, 1, 2, 3, 4]}", "d": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "e": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test6.py", "a": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "b": "{\"nested\": {\"inner\": \"value\"}}", "c": "{\"array\": [0, 1, 2, 3, 4]}", "d": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "e": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "c": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "d": "{\"data\": null, \"flag\": true}", "e": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}"}
 {"filename": "deepdiff/test6.py", "a": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "b": "{\"empty\": {}, \"list\": []}", "c": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "d": "{\"a\": 1, \"b\": 2, \"c\": 3}", "e": "{\"mixed\": [1, \"two\", {\"three\": 3}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "b": "{\"key\": \"value\"}", "c": "{\"a\": 1, \"b\": 2, \"c\": 3}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"number\": 42, \"text\": \"answer\"}"}
@@ -255,13 +255,13 @@
 {"filename": "deepdiff/test6.py", "a": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "b": "{\"meta\": {\"count\": 5, \"total\": 100}}", "c": "{\"name\": \"test\", \"value\": 123}", "d": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "e": "{\"items\": [\"x\", \"y\", \"z\"]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"items\": [\"x\", \"y\", \"z\"]}", "b": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "c": "{\"array\": [0, 1, 2, 3, 4]}", "d": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "e": "{\"a\": 1, \"b\": 2, \"c\": 3}"}
 {"filename": "deepdiff/test6.py", "a": "{\"items\": [\"x\", \"y\", \"z\"]}", "b": "{\"list\": [1, 2, 3]}", "c": "{\"a\": 1, \"b\": 2, \"c\": 3}", "d": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "e": "{\"a\": 1, \"b\": 2, \"c\": 3}"}
-{"filename": "deepdiff/test6.py", "a": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "b": "{\"empty\": {}, \"list\": []}", "c": "{\"key\": \"value\"}", "d": "{\"empty\": {}, \"list\": []}", "e": "{\"id\": 100, \"status\": \"active\"}"}
-{"filename": "deepdiff/test6.py", "a": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "b": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "c": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "d": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "e": "{\"key\": \"value\"}"}
-{"filename": "deepdiff/test6.py", "a": "{\"nested\": {\"inner\": \"value\"}}", "b": "{\"a\": 1, \"b\": 2, \"c\": 3}", "c": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"key\": \"value\"}"}
+{"filename": "deepdiff/test6.py", "a": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "b": "{\"empty\": {}, \"list\": []}", "c": "{\"key\": \"value\"}", "d": "{\"empty\": {}, \"list\": []}", "e": "{\"id\": 100, \"status\": \"active\"}"}
+{"filename": "deepdiff/test6.py", "a": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "b": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "c": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "d": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "e": "{\"key\": \"value\"}"}
+{"filename": "deepdiff/test6.py", "a": "{\"nested\": {\"inner\": \"value\"}}", "b": "{\"a\": 1, \"b\": 2, \"c\": 3}", "c": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"key\": \"value\"}"}
 {"filename": "deepdiff/test6.py", "a": "{\"number\": 42, \"text\": \"answer\"}", "b": "{\"items\": [\"x\", \"y\", \"z\"]}", "c": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "d": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "e": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}"}
-{"filename": "deepdiff/test6.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3}", "b": "{\"array\": [0, 1, 2, 3, 4]}", "c": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "d": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "e": "{\"name\": \"test\", \"value\": 123}"}
+{"filename": "deepdiff/test6.py", "a": "{\"a\": 1, \"b\": 2, \"c\": 3}", "b": "{\"array\": [0, 1, 2, 3, 4]}", "c": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "d": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "e": "{\"name\": \"test\", \"value\": 123}"}
 {"filename": "deepdiff/test6.py", "a": "{\"list\": [1, 2, 3]}", "b": "{\"id\": 100, \"status\": \"active\"}", "c": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "d": "{\"empty\": {}, \"list\": []}", "e": "{\"meta\": {\"count\": 5, \"total\": 100}}"}
-{"filename": "deepdiff/test6.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"id\": 100, \"status\": \"active\"}", "c": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "d": "{\"name\": \"test\", \"value\": 123}", "e": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test6.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"id\": 100, \"status\": \"active\"}", "c": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "d": "{\"name\": \"test\", \"value\": 123}", "e": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"items\": [\"x\", \"y\", \"z\"]}", "b": "{\"list\": [1, 2, 3]}", "c": "{\"number\": 42, \"text\": \"answer\"}", "d": "{\"id\": 100, \"status\": \"active\"}", "e": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}"}
 {"filename": "deepdiff/test6.py", "a": "{\"array\": [0, 1, 2, 3, 4]}", "b": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "c": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "d": "{\"number\": 42, \"text\": \"answer\"}", "e": "{\"array\": [0, 1, 2, 3, 4]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"name\": \"test\", \"value\": 123}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "c": "{\"list\": [1, 2, 3]}", "d": "{\"empty\": {}, \"list\": []}", "e": "{\"nested\": {\"inner\": \"value\"}}"}
@@ -275,26 +275,26 @@
 {"filename": "deepdiff/test6.py", "a": "{\"empty\": {}, \"list\": []}", "b": "{\"key\": \"value\"}", "c": "{\"data\": null, \"flag\": true}", "d": "{\"number\": 42, \"text\": \"answer\"}", "e": "{\"mixed\": [1, \"two\", {\"three\": 3}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"nested\": {\"inner\": \"value\"}}", "b": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "c": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "d": "{\"a\": 1, \"b\": 2, \"c\": 3}", "e": "{\"mixed\": [1, \"two\", {\"three\": 3}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"id\": 100, \"status\": \"active\"}", "b": "{\"key\": \"value\"}", "c": "{\"config\": {\"debug\": false, \"port\": 8080}}", "d": "{\"empty\": {}, \"list\": []}", "e": "{\"array\": [0, 1, 2, 3, 4]}"}
-{"filename": "deepdiff/test6.py", "a": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "b": "{\"a\": 1, \"b\": 2, \"c\": 3}", "c": "{\"config\": {\"debug\": false, \"port\": 8080}}", "d": "{\"key\": \"value\"}", "e": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test6.py", "a": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "b": "{\"a\": 1, \"b\": 2, \"c\": 3}", "c": "{\"config\": {\"debug\": false, \"port\": 8080}}", "d": "{\"key\": \"value\"}", "e": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"array\": [0, 1, 2, 3, 4]}", "b": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "c": "{\"id\": 100, \"status\": \"active\"}", "d": "{\"name\": \"test\", \"value\": 123}", "e": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}"}
 {"filename": "deepdiff/test6.py", "a": "{\"meta\": {\"count\": 5, \"total\": 100}}", "b": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "c": "{\"config\": {\"debug\": false, \"port\": 8080}}", "d": "{\"name\": \"test\", \"value\": 123}", "e": "{\"nested\": {\"inner\": \"value\"}}"}
 {"filename": "deepdiff/test6.py", "a": "{\"nested\": {\"inner\": \"value\"}}", "b": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "c": "{\"empty\": {}, \"list\": []}", "d": "{\"name\": \"test\", \"value\": 123}", "e": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "c": "{\"items\": [\"x\", \"y\", \"z\"]}", "d": "{\"list\": [1, 2, 3]}", "e": "{\"key\": \"value\"}"}
 {"filename": "deepdiff/test6.py", "a": "{\"id\": 100, \"status\": \"active\"}", "b": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "c": "{\"meta\": {\"count\": 5, \"total\": 100}}", "d": "{\"items\": [\"x\", \"y\", \"z\"]}", "e": "{\"array\": [0, 1, 2, 3, 4]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "b": "{\"items\": [\"x\", \"y\", \"z\"]}", "c": "{\"list\": [1, 2, 3]}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"array\": [0, 1, 2, 3, 4]}"}
-{"filename": "deepdiff/test6.py", "a": "{\"nested\": {\"inner\": \"value\"}}", "b": "{\"meta\": {\"count\": 5, \"total\": 100}}", "c": "{\"a\": 1, \"b\": 2, \"c\": 3}", "d": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "e": "{\"array\": [0, 1, 2, 3, 4]}"}
-{"filename": "deepdiff/test6.py", "a": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "b": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "c": "{\"config\": {\"debug\": false, \"port\": 8080}}", "d": "{\"data\": null, \"flag\": true}", "e": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
+{"filename": "deepdiff/test6.py", "a": "{\"nested\": {\"inner\": \"value\"}}", "b": "{\"meta\": {\"count\": 5, \"total\": 100}}", "c": "{\"a\": 1, \"b\": 2, \"c\": 3}", "d": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "e": "{\"array\": [0, 1, 2, 3, 4]}"}
+{"filename": "deepdiff/test6.py", "a": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "b": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "c": "{\"config\": {\"debug\": false, \"port\": 8080}}", "d": "{\"data\": null, \"flag\": true}", "e": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"array\": [0, 1, 2, 3, 4]}", "b": "{\"name\": \"test\", \"value\": 123}", "c": "{\"key\": \"value\"}", "d": "{\"meta\": {\"count\": 5, \"total\": 100}}", "e": "{\"a\": 1, \"b\": 2, \"c\": 3}"}
 {"filename": "deepdiff/test6.py", "a": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "b": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "c": "{\"meta\": {\"count\": 5, \"total\": 100}}", "d": "{\"tags\": [\"a\", \"b\", \"c\"], \"active\": true}", "e": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "b": "{\"number\": 42, \"text\": \"answer\"}", "c": "{\"name\": \"test\", \"value\": 123}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"a\": 1, \"b\": 2, \"c\": 3}"}
 {"filename": "deepdiff/test6.py", "a": "{\"list\": [1, 2, 3]}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "c": "{\"number\": 42, \"text\": \"answer\"}", "d": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "e": "{\"number\": 42, \"text\": \"answer\"}"}
 {"filename": "deepdiff/test6.py", "a": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "b": "{\"name\": \"test\", \"value\": 123}", "c": "{\"empty\": {}, \"list\": []}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"empty\": {}, \"list\": []}"}
 {"filename": "deepdiff/test6.py", "a": "{\"id\": 100, \"status\": \"active\"}", "b": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "c": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "d": "{\"data\": null, \"flag\": true}", "e": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}"}
-{"filename": "deepdiff/test6.py", "a": "{\"name\": \"test\", \"value\": 123}", "b": "{\"id\": 100, \"status\": \"active\"}", "c": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}", "d": "{\"list\": [1, 2, 3]}", "e": "{\"a\": 1, \"b\": 2, \"c\": 3}"}
+{"filename": "deepdiff/test6.py", "a": "{\"name\": \"test\", \"value\": 123}", "b": "{\"id\": 100, \"status\": \"active\"}", "c": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}", "d": "{\"list\": [1, 2, 3]}", "e": "{\"a\": 1, \"b\": 2, \"c\": 3}"}
 {"filename": "deepdiff/test6.py", "a": "{\"name\": \"test\", \"value\": 123}", "b": "{\"name\": \"test\", \"value\": 123}", "c": "{\"name\": \"test\", \"value\": 123}", "d": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "e": "{\"items\": [\"x\", \"y\", \"z\"]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"number\": 42, \"text\": \"answer\"}", "b": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "c": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "d": "{\"number\": 42, \"text\": \"answer\"}", "e": "{\"mixed\": [1, \"two\", {\"three\": 3}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"config\": {\"debug\": false, \"port\": 8080}}", "b": "{\"a\": 1, \"b\": 2, \"c\": 3}", "c": "{\"nested\": {\"inner\": \"value\"}}", "d": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "e": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}"}
-{"filename": "deepdiff/test6.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "c": "{\"a\": 1, \"b\": 2, \"c\": 3}", "d": "{\"a\": 1, \"b\": 2, \"c\": 3}", "e": "{\"users\": [{\"id\": 1, \"name\": \"Alice\"}]}"}
+{"filename": "deepdiff/test6.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"bool\": false, \"int\": 999, \"str\": \"test\"}", "c": "{\"a\": 1, \"b\": 2, \"c\": 3}", "d": "{\"a\": 1, \"b\": 2, \"c\": 3}", "e": "{\"users\": [{\"id\": 1, \"name\": \"\"}]}"}
 {"filename": "deepdiff/test6.py", "a": "{\"level1\": {\"level2\": {\"level3\": \"deep\"}}}", "b": "{\"a\": 1, \"b\": 2, \"c\": 3}", "c": "{\"meta\": {\"count\": 5, \"total\": 100}}", "d": "{\"array\": [0, 1, 2, 3, 4]}", "e": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}"}
 {"filename": "deepdiff/test6.py", "a": "{\"dict\": {\"k1\": \"v1\", \"k2\": \"v2\"}}", "b": "{\"id\": 100, \"status\": \"active\"}", "c": "{\"products\": [{\"price\": 9.99, \"qty\": 10}]}", "d": "{\"nested\": {\"inner\": \"value\"}}", "e": "{\"a\": 1, \"b\": 2, \"c\": 3}"}
 {"filename": "deepdiff/test6.py", "a": "{\"list\": [1, 2, 3]}", "b": "{\"number\": 42, \"text\": \"answer\"}", "c": "{\"mixed\": [1, \"two\", {\"three\": 3}]}", "d": "{\"data\": null, \"flag\": true}", "e": "{\"number\": 42, \"text\": \"answer\"}"}
@@ -681,13 +681,13 @@
 {"a": "", "b": 0, "filename": "deepdiff/test11.py"}
 {"a": "Hello World", "b": -5, "filename": "deepdiff/test11.py"}
 {"a": "averylongstringwithmanycharactersrepeatedoverandoveragainfortestingpurposes", "b": 9999, "filename": "deepdiff/test11.py"}
-{"a": "张三", "b": 25, "filename": "deepdiff/test11.py"}
+{"a": "", "b": 25, "filename": "deepdiff/test11.py"}
 {"a": "x", "b": 1, "filename": "deepdiff/test11.py"}
 {"a": "user_123_test", "b": 150, "filename": "deepdiff/test11.py"}
 {"a": "O'Connor-Smith", "b": 99, "filename": "deepdiff/test11.py"}
 {"a": "   leading_and_trailing_spaces   ", "b": 16, "filename": "deepdiff/test11.py"}
 {"a": "café_élève", "b": 30, "filename": "deepdiff/test11.py"}
-{"a": "boundary", "b": 2147483647, "filename": "deepdiff/test11.py"}
+{"a": "boundary", "b": , "filename": "deepdiff/test11.py"}
 {"a": 0, "b": 5, "c": 3, "d": 5, "filename": "deepdiff/test12.py"}
 {"a": 2, "b": 0, "c": 3, "d": 4, "filename": "deepdiff/test12.py"}
 {"a": 1, "b": 3, "c": 0, "d": 3, "filename": "deepdiff/test12.py"}
@@ -701,7 +701,7 @@
 {"a": "", "b": 0, "c": 0, "filename": "deepdiff/test15.py"}
 {"a": "xy", "b": 1, "c": 2, "filename": "deepdiff/test15.py"}
 {"a": "negative", "b": -50, "c": 25, "filename": "deepdiff/test15.py"}
-{"a": "maxint", "b": 2147483647, "c": -2147483648, "filename": "deepdiff/test15.py"}
+{"a": "maxint", "b": , "c": -, "filename": "deepdiff/test15.py"}
 {"a": "equal", "b": 88, "c": 88, "filename": "deepdiff/test15.py"}
 {"a": "space bar", "b": 100, "c": 200, "filename": "deepdiff/test15.py"}
 {"a": "special#@!", "b": 77, "c": 33, "filename": "deepdiff/test15.py"}
@@ -736,7 +736,7 @@
 {"a": "{\"flag\": true, \"count\": 0}", "b": "{\"flag\": false, \"count\": 0}", "filename": "deepdiff/test2.py"}
 {"a": "{\"items\": [{\"id\": 1, \"name\": \"a\"}, {\"id\": 2, \"name\": \"b\"}]}", "b": "{\"items\": [{\"id\": 1, \"name\": \"a\"}, {\"id\": 2, \"name\": \"c\"}]}", "filename": "deepdiff/test2.py"}
 {"a": "{\"text\": \"hello\\nworld\\t!\"}", "b": "{\"text\": \"hello world!\"}", "filename": "deepdiff/test2.py"}
-{"a": "{\"value\": 3.14159265359}", "b": "{\"value\": 3.14159265358}", "filename": "deepdiff/test2.py"}
+{"a": "{\"value\": 3.}", "b": "{\"value\": 3.}", "filename": "deepdiff/test2.py"}
 {"a": "{\"a\": 1, \"b\": 2}", "b": "{\"a\": 1, \"b\": 2, \"c\": 3}", "filename": "deepdiff/test2.py"}
 {"a": 0, "b": 0, "filename": "deepdiff/test3.py"}
 {"a": 0, "b": 5, "filename": "deepdiff/test3.py"}
@@ -763,7 +763,7 @@
 {"a": "{\"l1\": {\"l2\": {\"l3\": {\"l4\": {\"l5\": \"deep\"}}}}}", "b": "{\"l1\": {\"l2\": {\"l3\": {\"l4\": {\"l5\": \"deeper\"}}}}}", "c": "{\"l1\": {\"l2\": {\"l3\": {\"l4\": {}}}}}", "d": "{\"l1\": {\"l2\": {}}}", "e": "{\"l1\": {}}", "filename": "deepdiff/test6.py"}
 {"a": "[1, 2, 3]", "b": "[3, 2, 1]", "c": "[1, 2, 3, 4]", "d": "[1, 2]", "e": "[]", "filename": "deepdiff/test6.py"}
 {"a": "{\"text\": \"Hello \\u4e16\\u754c \\ud83c\\udf0d\", \"emoji\": \"\\ud83d\\ude80\"}", "b": "{\"text\": \"Hello World\", \"emoji\": \"\\ud83d\\ude80\"}", "c": "{\"special\": \"\\n\\t\\r\\\\\\\"\", \"unicode\": \"\\u65e5\\u672c\\u8a9e\"}", "d": "{\"math\": \"\\u2211\\u220f\\u222b\", \"currency\": \"\\u20ac\\u00a3\\u00a5\"}", "e": "{\"empty\": \"\", \"space\": \"   \"}", "filename": "deepdiff/test6.py"}
-{"a": "{\"max_int\": 2147483647, \"max_float\": 1.7976931348623157e+308}", "b": "{\"min_int\": -2147483648, \"min_float\": -1.7976931348623157e+308}", "c": "{\"tiny\": 1e-308, \"zero\": 0.0}", "d": "{\"pi\": 3.14159265359, \"e\": 2.71828}", "e": "{\"fraction\": 0.3333333333333333, \"sqrt2\": 1.414213562}", "filename": "deepdiff/test6.py"}
+{"a": "{\"max_int\": , \"max_float\": 623157e+308}", "b": "{\"min_int\": -, \"min_float\": -623157e+308}", "c": "{\"tiny\": 1e-308, \"zero\": 0.0}", "d": "{\"pi\": 3., \"e\": 2.71828}", "e": "{\"fraction\": 0., \"sqrt2\": }", "filename": "deepdiff/test6.py"}
 {"a": "\"string value\"", "b": "12345", "c": "true", "d": "null", "e": "[\"string in array\", 42]", "filename": "deepdiff/test6.py"}
 {"a": "{\"users\": [{\"id\": 1, \"tags\": [\"a\", \"b\"]}, {\"id\": 2, \"tags\": [\"c\"]}], \"meta\": {\"page\": 1}}", "b": "{\"users\": [{\"id\": 1, \"tags\": [\"a\", \"b\", \"c\"]}, {\"id\": 2, \"tags\": [\"c\"]}], \"meta\": {\"page\": 2}}", "c": "{\"users\": [], \"meta\": {\"page\": 0}}", "d": "{\"users\": [{\"id\": 3}], \"meta\": null}", "e": "{\"users\": [{\"id\": 1, \"tags\": [\"a\", \"b\"]}], \"meta\": {\"page\": 1, \"extra\": true}}", "filename": "deepdiff/test6.py"}
 {"a": "{\"keep\": 1, \"remove\": 2, \"change\": 3}", "b": "{\"keep\": 1, \"change\": 4, \"add\": 5}", "c": "{\"keep\": 1, \"change\": 4, \"add\": 5, \"new\": 6}", "d": "{\"keep\": 1}", "e": "{\"keep\": 2, \"fresh\": \"start\"}", "filename": "deepdiff/test6.py"}
