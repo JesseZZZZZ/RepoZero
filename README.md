@@ -20,7 +20,7 @@
 ## 🎉 News
 
 **Docker implementation now available for all benchmark tasks!**
-
+- 🎉 RepoZero is accepted by NeurIPS 2026 (Evaluation & Dataset Track)!
 - 🐳 **C2Rust Docker**: Complete Docker-based evaluation for C++ to Rust translation
 - 🐳 **Py2JS Docker**: Complete Docker-based evaluation for Python to JavaScript translation
 - ✅ **Reproducible**: Isolated, containerized environments for consistent results
